@@ -1,6 +1,7 @@
 ﻿
 ##########################################################################################################
-# ﻿Tradotto da Condello Niccolò Aka Langaiden
+# ﻿Tradotto da Condello Niccolò Aka Langaiden 
+#  Un ringraziamento a lXMorpheusXl per gli achievements tradotti
 #--------------------------------------------------------------------------------------------------------#
 #per conto di Sharplay Network 
 #Sito : http://sharplay.net/ 
@@ -3041,55 +3042,55 @@ pixelmon.blocks.noclone=Non hai nulla da clonare!
 pixelmon.orb.amountfull=Hai bisogno di più kills per riempire l'orb!
 pixelmon.orb.isfull=L'orb è pieno!
  
- //achievements
-achievement.ItemFinderChieve=Hidden PokeLoot Hunter!
-achievement.ItemFinderChieve.desc=You crafted an Item Finder!
-achievement.HiddenPokeLootChieve=Hidden PokeLoot FTW!
-achievement.HiddenPokeLootChieve.desc=You found Hidden PokeLoot!
+  //achievements
+achievement.ItemFinderChieve=Cacciatore di Pokeloot nascosti!
+achievement.ItemFinderChieve.desc=Crafta un detector!
+achievement.HiddenPokeLootChieve=Pokeloot nascosto FTW!
+achievement.HiddenPokeLootChieve.desc=Trova un pokeloot nascosto!
 achievement.NormalPokeLootChieve=PokeLoot FTW!
-achievement.NormalPokeLootChieve.desc=You found a PokeLoot Chest!
-achievement.LootMasterBallChieve=Its a Master Ball!!!
-achievement.LootMasterBallChieve.desc=You found a PokeLoot Master Ball!
-achievement.GrottoChieve=There's a passage here...
-achievement.GrottoChieve.desc=You found a Hidden Grotto!
-achievement.PokedexChieve=Scientific Pursuits
-achievement.PokedexChieve.desc=Craft a Pokedex
+achievement.NormalPokeLootChieve.desc=Trova una chest pokeloot!
+achievement.LootMasterBallChieve=E' una master ball!!!
+achievement.LootMasterBallChieve.desc=Trova una PokeLoot Master Ball!
+achievement.GrottoChieve=C'è un passaggio qui...
+achievement.GrottoChieve.desc=Trova un antro nascosto!
+achievement.PokedexChieve=Ricerca scientifica
+achievement.PokedexChieve.desc=Crafta un Pokedex
 achievement.PokeballChieve=Gotta catch 'em all!
-achievement.PokeballChieve.desc=Craft a Pokeball
-achievement.LegendaryChieve=First Legendary
-achievement.LegendaryChieve.desc=Catch your first legendary
+achievement.PokeballChieve.desc=Crafta una Pokeball
+achievement.LegendaryChieve=Primo leggendario
+achievement.LegendaryChieve.desc=Cattura il tuo primo pokemon leggendario
 achievement.ShinyChieve=Ooh Shiny!
-achievement.ShinyChieve.desc=Catch a shiny Pixelmon
+achievement.ShinyChieve.desc=Cattura un pokemon shiny
 achievement.FirstCatchChieve=1 down, many to go!
 achievement.FirstCatchChieve.desc=Catch your first Pixelmon
-achievement.TrainerChieve=Victory!
-achievement.TrainerChieve.desc=Win a Trainer battle
-achievement.PvPChieve=Ultimate Victory!
-achievement.PvPChieve.desc=Win a PvP battle
-achievement.ApricornChieve=Kurt's Apprentice!
-achievement.ApricornChieve.desc=Cook an apricorn
-achievement.dex1Chieve=Pokedex: 1%% Complete!
-achievement.dex1Chieve.desc=Complete 1% of the Pokedex
-achievement.dex10Chieve=Pokedex: 10%% Complete!
-achievement.dex10Chieve.desc=Complete 10% of the Pokedex
-achievement.dex20Chieve=Pokedex: 20%% Complete!
-achievement.dex20Chieve.desc=Complete 20% of the Pokedex
-achievement.dex30Chieve=Pokedex: 30%% Complete!
-achievement.dex30Chieve.desc=Complete 30% of the Pokedex
-achievement.dex40Chieve=Pokedex: 40%% Complete!
-achievement.dex40Chieve.desc=Complete 40% of the Pokedex
-achievement.dex50Chieve=Pokedex: 50%% Complete!
-achievement.dex50Chieve.desc=Complete 50% of the Pokedex
-achievement.dex60Chieve=Pokedex: 60%% Complete!
-achievement.dex60Chieve.desc=Complete 60% of the Pokedex
-achievement.dex70Chieve=Pokedex: 70%% Complete!
-achievement.dex70Chieve.desc=Complete 70% of the Pokedex
-achievement.dex80Chieve=Pokedex: 80%% Complete!
-achievement.dex80Chieve.desc=Complete 80% of the Pokedex
-achievement.dex90Chieve=Pokedex: 90%% Complete!
-achievement.dex90Chieve.desc=Complete 90% of the Pokedex
-achievement.dex100Chieve=Pokedex: Pixelmon Master!
-achievement.dex100Chieve.desc=Complete the Pokedex
+achievement.TrainerChieve=Vittoria!
+achievement.TrainerChieve.desc=Vinci una battaglia d'allenamento
+achievement.PvPChieve=Ultima vittoria!
+achievement.PvPChieve.desc=Vinci una battaglia PvP
+achievement.ApricornChieve=Apprendista di Kurt!
+achievement.ApricornChieve.desc=Cucina una ghicocca
+achievement.dex1Chieve=Pokedex: 1%% Completato!
+achievement.dex1Chieve.desc=Completa l'1% del Pokedex
+achievement.dex10Chieve=Pokedex: 10%% Completato!
+achievement.dex10Chieve.desc=Completa il 10% del Pokedex
+achievement.dex20Chieve=Pokedex: 20%% Completato!
+achievement.dex20Chieve.desc=Completa il 20% del Pokedex
+achievement.dex30Chieve=Pokedex: 30%% Completato!
+achievement.dex30Chieve.desc=Complete il 30% del Pokedex
+achievement.dex40Chieve=Pokedex: 40%% Completato!
+achievement.dex40Chieve.desc=Complete il 40% del Pokedex
+achievement.dex50Chieve=Pokedex: 50%% Completato!
+achievement.dex50Chieve.desc=Complete il 50% del Pokedex
+achievement.dex60Chieve=Pokedex: 60%% Completato!
+achievement.dex60Chieve.desc=Complete il 60% del Pokedex
+achievement.dex70Chieve=Pokedex: 70%% Completato!
+achievement.dex70Chieve.desc=Complete il 70% del Pokedex
+achievement.dex80Chieve=Pokedex: 80%% Completato!
+achievement.dex80Chieve.desc=Complete il 80% del Pokedex
+achievement.dex90Chieve=Pokedex: 90%% Completato!
+achievement.dex90Chieve.desc=Complete il 90% del Pokedex
+achievement.dex100Chieve=Pokedex: Maestro della Pixelmon!
+achievement.dex100Chieve.desc=Completa il Pokedex
 
 //Abilities
 pixelmon.abilities.bigpecks=Pettinfuori di %s impedisce il calo della Difesa!
