@@ -1,6 +1,6 @@
 /*
 *   @Author Saiber
-*   สวัดดี ฉันคือ Saiber gamer จาก youtube.ser/Saibergamerls
+*   สวัดดี ฉันคือ Saiber gamer จาก youtube.com/Saibergamerls
 *   Language : Thailand
 *   facebook.com/saibergamer
 *   
@@ -509,7 +509,7 @@ item.PokeMail-wood.name=Wood PokeMail
 *   The ones with attack.attackName.name is the attack's actual name and
 *   The ones with description at the end is their description.
 */
-attack.tail whip.name=Tail Whip
+attack.tail whip.name=หลอกล่อด้วยหาง
 attack.tail whip.description=A move that lowers the target's Defense. Useful against tough, armored Pokemon.
 attack.tackle.name=Tackle
 attack.tackle.description=Charges the foe with a full-body tackle.
