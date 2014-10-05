@@ -350,9 +350,9 @@ item.Steel Gem.name=钢之宝石
 item.Water Gem.name=水之宝石
 item.Fairy Gem.name=妖精宝石
 
-item.Ranch Block.name=牧场块
-item.chisel.name=凿[神奇宝贝]
-item.ranchupgrade.name=牧场升级
+item.Ranch Block.name=饲养管理机
+item.chisel.name=神奇宝贝雕像凿
+item.ranchupgrade.name=饲养园升级
 
 item.TM1 - Hone Claws.name=招式机1 - 磨爪子
 item.TM1 - Wide Guard.name=招式机1 - 全体防御
@@ -4094,20 +4094,20 @@ pixelmon.command.give.notifygiveegg=%s 交付了 %s 一个 %s 蛋!
 pixelmon.general.needowner=只有此方块的所有者可以使用此方块。 
 
 //Breeding
-pixelmon.egg.name=蛋[神奇宝贝]
+pixelmon.egg.name=蛋
 ability.Egg.name=孵化
 pixelmon.egg.hatching=你的蛋孵化出了 %s!
 pixelmon.egg.hatchingan=你的蛋孵化出了一个 %s!
 pixelmon.egg.hatchingdata=背包位置: %s, 孵化周期: %s, 进度: %s
-pixelmon.egg.stage1=可以听到里面发出的声音！它很快就会孵化出来！
+pixelmon.egg.stage1=可以听到里面发出的声音！它应该很快就会孵化出来！
 pixelmon.egg.stage2=它似乎偶尔移动。可能接近孵化期了。
 pixelmon.egg.stage3=什么精灵会从里面孵化出来呢？它似乎离孵化期还很远。
 pixelmon.egg.stage4=看起来还需要很长的时间才会孵化出来。
 pixelmon.ranch.nopartner=%s 没有一个精灵喜欢它！
-pixelmon.ranch.notcompatible=%s 相处不愉快的人在这里！
+pixelmon.ranch.notcompatible=%s 和任何人都相处不好！
 pixelmon.ranch.level0=%s 对 %s 有好感, 但在这个环境中感到不舒服！
-pixelmon.ranch.level1=%s 喜欢 %s 希望每天都多一些！
-pixelmon.ranch.level2=%s 更吸引 %s 在每天！
+pixelmon.ranch.level1=%s 每天都在喜欢着 %s ！
+pixelmon.ranch.level2=%s 更喜欢 %s ！
 pixelmon.ranch.level3=%s和 %s 的爱每天都在飞速的成长着！
 pixelmon.ranch.level4=%s 每天都疯狂的爱着 %s !
 pixelmon.ranch.maxaffection=%s 尽可能最大的爱着 %s ！
@@ -4131,14 +4131,14 @@ enum.statuetex.bossgreen=绿色BOSS
 enum.statuetex.bossblue=蓝色BOSS
 enum.statuetex.bossyellow=黄色BOSS
 gui.ranch.managePokemon=管理神奇宝贝
-gui.ranch.claimEgg=要求的蛋
+gui.ranch.claimEgg=取得神奇宝贝蛋
 gui.ranch.extendplusx=+X
 gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
-gui.ranch.extendTitle=扩展牧场控制区块
-gui.ranch.empty=牧场中没有神奇宝贝
+gui.ranch.extendTitle=扩展饲养园控制区
+gui.ranch.empty=饲养园中没有神奇宝贝
 gui.guiRanch.selectPokemon=选择神奇宝贝
-gui.guiRanch.claimEgg=要求的蛋
+gui.guiRanch.claimEgg=取得神奇宝贝蛋
 
 
