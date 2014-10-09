@@ -17,6 +17,7 @@
 item.PC.name=PC
 item.Ranch Block.name=Ranch Block
 item.Anvil.name=Anvil
+item.MechanicalAnvil.name=Mechanical Anvil
 item.Healer.name=Healer
 item.Trade Machine.name=Trade Machine
 item.Fossil Machine.name=Fossil Machine
@@ -32,7 +33,7 @@ item.Green Tank.name=Green Tank
 item.Orange Tank.name=Orange Tank
 item.Cloner Cord.name=Cloner Cord
 item.Fossil Cleaner.name=Fossil Cleaner
-item.Pokedex.name=Pokedex
+item.Pokedex.name=Pokedexe
 item.Wood Hammer.name=Wood Hammer
 item.Stone Hammer.name=Stone Hammer
 item.Iron Hammer.name=Iron Hammer
@@ -3423,6 +3424,8 @@ gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Extend ranch block containted area
 gui.ranch.empty=There are no pokemon in the ranch
+
+container.MechanicalAnvil=Mechanical Anvil
 
 attack.category.physical=Physical
 attack.category.special=Special
