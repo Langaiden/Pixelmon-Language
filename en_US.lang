@@ -307,6 +307,8 @@ item.AbsorbBulb.name=Absorb Bulb
 item.Life Orb.name=Life Orb
 item.Focus Sash.name=Focus Sash
 item.Focus Band.name=Focus Band
+item.ToxicOrb.name=Toxic Orb
+item.FlameOrb.name=Flame Orb
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
