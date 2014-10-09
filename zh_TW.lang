@@ -16,6 +16,7 @@
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=個人電腦
+item.Ranch Block.name=牧場機組
 item.Anvil.name=砧
 item.Healer.name=治療床
 item.Trade Machine.name=神奇寶貝通訊機
@@ -87,7 +88,13 @@ item.Dive Ball.name=潛水球
 item.Luxury Ball.name=華麗球
 item.Heal Ball.name=治癒球
 item.Dusk Ball.name=黑暗球
+item.Park Ball.name=公園球
+item.Quick Ball.name=超速球
+item.Lure Ball.name=誘餌球
+item.Sport Ball.name=競賽球
+item.Cherish Ball.name=珍貴球
 item.Premier Ball.name=首席球
+item.GS Ball.name=GS球
 item.Poke Ball Lid.name=寶貝球蓋
 item.Great Ball Lid.name=超級球蓋
 item.Ultra Ball Lid.name=高級球蓋
@@ -107,6 +114,9 @@ item.Luxury Ball Lid.name=華麗球蓋
 item.Heal Ball Lid.name=治癒球蓋
 item.Dusk Ball Lid.name=黑暗球蓋
 item.Premier Ball Lid.name=首席球蓋
+item.Quick Ball Lid.name=超速球蓋
+item.Lure Ball Lid.name=誘餌球蓋
+item.Sport Ball Lid.name=競賽球蓋
 item.Poke Ball Disc.name=寶貝球片
 item.Great Ball Disc.name=超級球片
 item.Ultra Ball Disc.name=高級球片
@@ -126,6 +136,9 @@ item.Luxury Ball Disc.name=華麗球片
 item.Heal Ball Disc.name=治癒球片
 item.Dusk Ball Disc.name=黑暗球片
 item.Premier Ball Disc.name=首席球片
+item.Quick Ball Disc.name=超速球片
+item.Lure Ball Disc.name=誘餌球片
+item.Sport Ball Disc.name=競速球片
 item.Iron Disc.name=鐵片
 item.Iron Base.name=鐵球座
 item.Aluminum Disc.name=鋁片
@@ -264,6 +277,7 @@ item.Exp. Share.name=學習裝置
 item.Choice Band.name=限定招式的頭巾
 item.Choice Scarf.name=限定招式的圍巾
 item.Choice Specs.name=限定招式的眼鏡
+item.MuscleBand.name=力量頭巾
 item.Macho Brace.name=強制鍛鍊器
 item.Power Weight.name=力量負重
 item.Power Bracer.name=力量護腕
@@ -281,7 +295,6 @@ item.Leftovers.name=吃剩下的東西
 item.Shell Bell.name=貝殼之鈴
 item.Cell Battery.name=充電電池
 item.Metronome.name=節拍器
-item.Metal Coat.name=金屬塗層
 item.Dubious Disc.name=怪異補丁
 item.Electirizer.name=電力發動機
 item.Magmarizer.name=岩漿驅動器
@@ -290,7 +303,7 @@ item.Protector.name=護身盔甲
 item.Up-Grade.name=升級卡片
 item.Razor Fang.name=銳利牙
 item.Dragon Scale.name=龍之鱗片
-item.Absorb Bulb.name=球根
+item.AbsorbBulb.name=球根
 item.Life Orb.name=生命之玉
 item.Focus Sash.name=振奮精神的綁帶
 item.Focus Band.name=振奮精神的頭布
@@ -349,6 +362,10 @@ item.SilverPowder.name=銀色的粉
 item.SoftSand.name=柔軟的沙子
 item.SpellTag.name=詛咒護身符
 item.TwistedSpoon.name=彎曲的湯匙
+item.destinyKnot.name=紅線
+
+item.chisel.name=鑿
+item.ranchupgrade.name=牧場升級
 
 item.TM1 - Hone Claws.name=招式機1 - 磨爪子
 item.TM1 - Wide Guard.name=招式機1 - 全體防禦
@@ -635,7 +652,7 @@ attack.ice punch.description=用附帶著冷氣的拳頭攻擊對方。有時會
 attack.thunder punch.name=雷光掌
 attack.thunder punch.description=用附帶著電氣的拳頭攻擊對方。有時會使對方麻痺。
 attack.vice grip.name=剪斷
-attack.vicegrip.description=將對方從兩邊夾起來給與傷害。
+attack.vice grip.description=將對方從兩邊夾起來給與傷害。
 attack.guillotine.name=剪刀斷頭臺
 attack.guillotine.description=用巨大的鉗子切斷對方進行攻擊。只要打中就會使對方瀕死。
 attack.razor wind.name=旋風刀
@@ -1474,8 +1491,8 @@ attack.guard split.name=防禦平分
 attack.guard split.description=使用超能力將對方和自己的防禦與特防加起來再進行平分。
 attack.power split.name=力量平分
 attack.power split.description=使用超能力將對方和自己的攻擊與特攻加起來再進行平分。
-attack.automize.name=體重減輕
-attack.automize.description=削除掉身體上沒用的部分，大幅提升自身的速度，同時體重也會變輕。
+attack.Autotomize.name=體重減輕
+attack.Autotomize.description=削除掉身體上沒用的部分，大幅提升自身的速度，同時體重也會變輕。
 attack.rage powder.name=憤怒之粉
 attack.rage powder.description=將令人煩躁的粉末撒在自己身上用以吸引對方的注意力，使對方的攻擊全部指向自己。
 attack.magic room.name=魔法空間
@@ -2934,23 +2951,25 @@ pixelmon.genesect.description=存在於三億年前的神奇寶貝。被電漿�
 
 pixelmon.command.battle.battlebetween=%s和%s之間的對戰開始了！
 pixelmon.command.battle.cannotchallenge=現在不能挑戰%s，因為%s正在與別人對戰！
-pixelmon.command.battle.dimension=Participants are not in same dimension.
-pixelmon.command.battle.sameperson=兩個參與者不能是同一個人。
+pixelmon.command.battle.dimension=對戰者不在同一個空間之中！
+pixelmon.command.battle.sameperson=兩位對戰者不能是同一個人。
 pixelmon.command.battle.started=%s和%s之間的對戰開始了！
 pixelmon.command.freeze.frozen=Pixelmon被冰凍在原地！
 pixelmon.command.freeze.unfrozen=Pixelmon解凍了！
-pixelmon.command.general.cheater=Cheater!
-pixelmon.command.general.lvlerror=Error in level.
-pixelmon.command.general.notingame=%s is not in the game!
-pixelmon.command.general.invalid=Invalid Arguments!
-pixelmon.command.general.invalidplayer=Invalid Name! Try again.
-pixelmon.command.give.givesuccess=Successfully gave %s a %s!
+pixelmon.command.general.cheater=作弊！
+pixelmon.command.general.lvlerror=等級錯誤！
+pixelmon.command.general.notingame=%s尚未在遊戲中！
+pixelmon.command.general.invalid=無效的參數！
+pixelmon.command.general.invalidplayer=無效的名稱！ 請重試。
+pixelmon.command.give.givesuccess=成功給予%s一個%s！
 pixelmon.command.give.notifygive=%s給了%s%s！
-pixelmon.command.heal.cantheal=不能在他們的對戰之中治療%s的神奇寶貝！
-pixelmon.command.heal.healed=成功給予了%s的神奇寶貝！
+pixelmon.command.give.givesuccessegg=成功給予了%s一顆%s的蛋！
+pixelmon.command.give.notifygiveegg=%s給予了%s一顆%s的蛋！
+pixelmon.command.heal.cantheal=無法治療%s的神奇寶貝！　因為他們正在對戰中！
+pixelmon.command.heal.healed=成功治療了%s的神奇寶貝！
 pixelmon.command.heal.notifyhealed=%s成功治癒了%s的神奇寶貝！
-pixelmon.command.spawn.spawned=成功產出了%s。
-pixelmon.command.spawn.spawnednotify=%s成功產出了%s。
+pixelmon.command.spawn.spawned=成功生成了%s。
+pixelmon.command.spawn.spawnednotify=%s成功生成了%s。
 
 //other
 pixelmon.drops.fullinventory=你的包包已經滿了！%s掉在地上！
@@ -2958,15 +2977,16 @@ pixelmon.drops.single=你獲得了%s！
 pixelmon.drops.singlean=你獲得了%s！
 pixelmon.drops.plural=你獲得了數量%d的%s！
 
-pixelmon.interaction.rarecandy=%s's leveling is disabled.
+pixelmon.interaction.rarecandy=%s的升級功能已經停用！
 pixelmon.interaction.tmknown=%s已經習得了%s！
 pixelmon.interaction.tmcantlearn=%s無法學習%s！
 pixelmon.interaction.vitamin=%s的親密度和努力值已經增加。
 pixelmon.interaction.berry=%s的親密度增加，但是努力值下降。
 
 pixelmon.general.noeffect=這招沒有效果！
-pixelmon.general.needop=You must be an OP to perform this action.
-pixelmon.general.playerbusy=Player is busy!
+pixelmon.general.needop=你必須是OP才能執行這個動作！
+pixelmon.general.needowner=Only the block's owner can access this block.
+pixelmon.general.playerbusy=玩家正在忙碌中！
 pixelmon.general.disabledblock=The server has disabled this block.
 
 pixelmon.npc.trader=你身上並沒有我想要的神奇寶貝，我想要%s。
@@ -2985,12 +3005,12 @@ pixelmon.statue.despawn=The pixelmon has been despawned.
 
 //Pokeballs
 pixelmon.pokeballs.inbattle=那隻神奇寶貝正在處於對戰中！
-pixelmon.pokeballs.alreadyown=你不能收服這隻神奇寶貝，因為你已經有一隻了！
+pixelmon.pokeballs.alreadyown=你不能收服這隻神奇寶貝，因為牠已經被你收服了！
 pixelmon.pokeballs.boss=你不能收服Boss神奇寶貝！
 pixelmon.pokeballs.capture=你收服了%s。
 pixelmon.pokeballs.pokeinbattle=你不能收服這隻神奇寶貝，因為某人正在與牠對戰！
 pixelmon.pokeballs.otherspokemon=你不能收服別人的神奇寶貝！
-pixelmon.pokeballs.statue=You can't catch a statue pokemon!
+pixelmon.pokeballs.statue=你不能收服雕像化的神奇寶貝！
 
 //storage
 pixelmon.storage.compfull=你沒有留些空位在你的個人電腦裡面！
@@ -3024,17 +3044,17 @@ pixelmon.ItemBattleItem.xaccuracyowner=%s的%s使用了命中加強，提升了�
 //blocks
 pixelmon.blocks.bonemealwatered=你今天已經對這棵果樹澆過水了。
 
-pixelmon.blocks.healer=Healer is busy!
+pixelmon.blocks.healer=治療床正在忙碌中！
 
 pixelmon.blocks.chestfound=你找到了一個%s！
-pixelmon.blocks.timedclaim=You've already claimed this timed loot! Try again later!
-pixelmon.blocks.claimedloot=You've already claimed this loot!
+pixelmon.blocks.timedclaim=你已經拿過了這個定時的獎勵道具！晚點再試試！
+pixelmon.blocks.claimedloot=這個獎勵道具你已經拿過了！
 pixelmon.blocks.ownerchanged=Block owner changed to server!
-pixelmon.blocks.chestset=Custom Poke Chest Set: %s
-pixelmon.blocks.visible=Poke Chest Visibility: %s
-pixelmon.blocks.chestmode=Chest Mode: %s
+pixelmon.blocks.chestset=自定義獎勵道具設置： %s
+pixelmon.blocks.visible=獎勵道具可視等級已設置為： %s
+pixelmon.blocks.chestmode=獎勵道具模式： %s
 
-pixelmon.blocks.orbnotfull=這顆的珠子沒有完全充能！
+pixelmon.blocks.orbnotfull=這顆珠子沒有完全充能！
 
 pixelmon.blocks.tradefull=Trading Machine Full!
 
@@ -3069,7 +3089,7 @@ achievement.TrainerChieve.desc=戰勝一場玩家對NPC訓練師的神奇寶貝�
 achievement.PvPChieve=最終的勝利！
 achievement.PvPChieve.desc=戰勝一場玩家對玩家的神奇寶貝對戰。
 achievement.ApricornChieve=鋼鐵的徒弟！
-achievement.ApricornChieve.desc=煮熟一個圓柑果實。
+achievement.ApricornChieve.desc=烤熟一個圓柑果實。
 achievement.dex1Chieve=全國圖鑑 : 完成 1%%！
 achievement.dex1Chieve.desc=完成 1%全國圖鑑。
 achievement.dex10Chieve=全國圖鑑 : 完成 10%%！
@@ -3096,7 +3116,7 @@ achievement.dex100Chieve.desc=完成全國圖鑑。
 //Abilities
 pixelmon.abilities.bigpecks=%s的鴿胸特性使牠的防禦能力不會下降！
 pixelmon.abilities.cutecharm=%s擁有迷人身軀特性，使 %s陷入了心醉神迷狀態！
-pixelmon.abilities.dryskinheal=Dry Skin made %s heal %s instead!
+pixelmon.abilities.dryskinheal=乾燥皮膚特性讓%s治癒了%s！
 pixelmon.abilities.dryskinused=%s使出了%s！
 pixelmon.abilities.dryskinrain=%s因為牠的乾燥皮膚特性而恢復了HP！
 pixelmon.abilities.dryskinsun=%s因為牠的乾燥皮膚特性而損失了HP！
@@ -3121,6 +3141,25 @@ pixelmon.abilities.wonderguard=%s因為自身的奇異守護特性而沒有受�
 pixelmon.abilities.moxieboost=%s因為自信過剩特性而提升了攻擊力！
 pixelmon.abilities.moxiemax=%s無法繼續因為自信過剩特性來提升攻擊力！
 pixelmon.abilities.sturdy=%s因為結實特性而免於被一擊必殺！
+
+//Breeding
+pixelmon.egg.name=蛋
+ability.Egg.name=孵化中
+pixelmon.egg.hatching=你的蛋孵化成了%s！
+pixelmon.egg.hatchingan=你的蛋孵化成了一隻%s！
+pixelmon.egg.hatchingdata=插槽 : %s, 週期 : %s, 步驟 : %s
+pixelmon.egg.stage1=已經可以聽到裡面的聲音，就快孵化了！
+pixelmon.egg.stage2=好像偶而會動一下，些許接近孵化。
+pixelmon.egg.stage3=會孵化出甚麼呢？離孵化還有一段時間。
+pixelmon.egg.stage4=這顆蛋看起來會需要很長的時間來孵化。
+pixelmon.ranch.nopartner=這個牧場裡沒有符合條件的神奇寶貝可以與%s談戀愛！
+pixelmon.ranch.notcompatible=這裡沒有任何一隻能和%s相處融洽的神奇寶貝！
+pixelmon.ranch.level0=%s對%s有好感，但是對牧場環境感到不舒服！
+pixelmon.ranch.level1=%s開始有一點點喜歡上%s了！
+pixelmon.ranch.level2=%s被%s深深吸引！
+pixelmon.ranch.level3=%s對%s的愛意與日俱增！
+pixelmon.ranch.level4=%s瘋狂地愛著%s！
+pixelmon.ranch.maxaffection=%s希望對%s的愛盡可能越多越好！
 
 //gui stuff
 /*
@@ -3161,7 +3200,7 @@ gui.fainterChoice.run=逃走
 
 gui.choosebad.nopokeballs=你不能在這場戰鬥中使用捕捉球！
 
-gui.guiDoctor.healPokemon=你好，歡迎來到神奇寶貝中心，我們可以恢復神奇寶貝的體力。
+gui.guiDoctor.healPokemon=你好，歡迎來到神奇寶貝中心，我們可以恢復神奇寶貝的健康。
 gui.guiDoctor.waiting=請稍後...
 
 gui.trading.ready=準備
@@ -3171,10 +3210,10 @@ gui.trading.nuf=沒有通信對象！
 gui.trading.trade=交換
 
 gui.pokedex.pokedex=圖鑑
-gui.pokedex.height=身高: 
+gui.pokedex.height=身高： 
 gui.pokedex.more=更多...
 
-gui.pokedexoptions.done=結束.
+gui.pokedexoptions.done=結束
 gui.pokedexoptions.options=圖鑑菜單
 
 gui.yesno.trade=確定要進行通訊交換嗎？
@@ -3186,7 +3225,7 @@ gui.yesno.replace=確定要將$m取代$nm嗎？
 gui.replaceattack.effect=效果
 gui.replaceattack.description=描述
 gui.replaceattack.power=傷害
-gui.replaceattack.accuracy=準確度
+gui.replaceattack.accuracy=命中率
 
 gui.acceptdeny.accept=接受
 gui.acceptdeny.deny=拒絕
@@ -3210,11 +3249,11 @@ gui.screenpokechecker.ot=訓練師
 gui.screenpokechecker.ability=能力
 
 
-gui.screenpokechecker.happiness=努力值
+gui.screenpokechecker.happiness=親密度
 gui.screenpokechecker.nature=特性
 gui.screenpokechecker.growth=體型
 gui.screenpokechecker.forget1=你確定要讓
-gui.screenpokechecker.forget2=$p忘卻
+gui.screenpokechecker.forget2=$p 忘卻
 gui.screenpokechecker.disable=關閉
 gui.screenpokechecker.enable=啟用
 gui.screenpokechecker.move=學習$a？
@@ -3224,17 +3263,17 @@ gui.pixelmonspawner.fireontick=絆勾啟動
 gui.pixelmonspawner.fireonredstone=紅石啟動
 gui.pixelmonspawner.pcms=自訂神奇寶貝怪物箱
 gui.pixelmonspawner.pokemonlist=神奇寶貝列表
-gui.pixelmonspawner.name=神奇寶貝名字
-gui.pixelmonspawner.rarity=稀有度
+gui.pixelmonspawner.name=神奇寶貝英文名稱
+gui.pixelmonspawner.rarity=稀有度(數字較高者優先生成)
 gui.pixelmonspawner.spawntick=絆勾產生
-gui.pixelmonspawner.radius=產生半徑
-gui.pixelmonspawner.maxspawns=最多產生數
-gui.pixelmonspawner.minspawns=最少產生數
+gui.pixelmonspawner.radius=生成範圍半徑
+gui.pixelmonspawner.maxspawns=最多生成數
+gui.pixelmonspawner.minspawns=最少生成數
 gui.pixelmonspawner.maxlevel=最高等級
 gui.pixelmonspawner.minlevel=最低等級
 gui.pixelmonspawner.bossratio=Boss機率
 gui.pixelmonspawner.aggresion=侵略
-gui.pixelmonspawner.spawnlocation=產生區
+gui.pixelmonspawner.spawnlocation=生成區域
 
 gui.creativeinv.fainted=昏厥
 gui.creativeinv.hp=HP 
@@ -3294,6 +3333,12 @@ gui.starter.disabled=未啟用
 
 gui.pc.box=收納箱:
 
+gui.update.text=更新
+gui.label.text=標籤
+gui.save.text=存檔
+gui.texture.text=紋理
+gui.cancel.text=取消
+
 enum.aggro.timid=膽小
 enum.aggro.default=默認
 enum.aggro.passive=被動
@@ -3311,17 +3356,30 @@ enum.trainerEncounter.once=一次性
 enum.trainerEncounter.onceperday=一天一次
 enum.trainerEncounter.oncepermcday=一天一次(MCTime)
 enum.trainerEncounter.onceperplayer=單一玩家一次
-enum.growth.pygme=矮人
-enum.growth.runt=侏儒
+enum.growth.microscopic=微小
+enum.growth.pygmy=侏儒
+enum.growth.runt=矮小
 enum.growth.small=小
 enum.growth.ordinary=普通
 enum.growth.huge=大
-enum.growth.giant=巨大
-enum.growth.enormous=超巨大
+enum.growth.giant=龐大
+enum.growth.enormous=巨大
+enum.growth.ginormous=超巨大
+
+enum.statuetex.originaltexture=正常
+enum.statuetex.shiny=色違
+enum.statuetex.stone=石
+enum.statuetex.gold=金
+enum.statuetex.bronze=銅
+enum.statuetex.silver=銀
+enum.statuetex.bossred=紅Boss
+enum.statuetex.bossgreen=綠Boss
+enum.statuetex.bossblue=藍Boss
+enum.statuetex.bossyellow=黃Boss
 
 gui.battle.effect=效果
 gui.battle.description=描述
-gui.battle.accuracy=準確度
+gui.battle.accuracy=命中率
 gui.battle.power=傷害
 gui.battle.back=返回
 gui.battle.whatdo=要讓$p做什麼呢?
@@ -3343,7 +3401,7 @@ gui.choosebag.pokeballs=捕捉球
 gui.choosebag.hppp=HP/PP恢復
 gui.choosebag.statusrestore=狀態恢復
 gui.choosebag.battleitems=戰鬥道具
-gui.choosebag.nopokeballs=在這場戰鬥中不能夠使用寶貝球！
+gui.choosebag.nopokeballs=你不能在這場戰鬥中不能夠使用寶貝球！
 
 gui.choosepokemon.select=選擇一個神奇寶貝使用 
 gui.choosepokemon.sendout=選擇一個神奇寶貝進行戰鬥
@@ -3357,8 +3415,14 @@ gui.choosemoveset.attackdetails=攻擊細節
 gui.choosemoveset.chosen=選擇招式
 gui.choosemoveset.full=全部的招式列表
 
-gui.guiRanch.selectPokemon=選擇神奇寶貝
-gui.guiRanch.claimEgg=認領神奇寶貝蛋
+gui.ranch.managePokemon=管理神奇寶貝
+gui.ranch.claimEgg=領取神奇寶貝蛋
+gui.ranch.extendplusx=+X
+gui.ranch.extendminusx=-X
+gui.ranch.extendplusz=+Z
+gui.ranch.extendminusz=-Z
+gui.ranch.extendTitle=擴大牧場面積
+gui.ranch.empty=牧場內沒有神奇寶貝
 
 attack.category.physical=物理
 attack.category.special=特殊
@@ -3399,12 +3463,12 @@ battlecontroller.fainted=你的%s昏厥了！
 battlecontroller.hasfainted=%s已經昏厥了！
 battlecontroller.outofpokemon=你已經沒有能夠戰鬥的神奇寶貝了！
 
-battlecontroller.afk=%s has gone AFK for %d seconds, auto-battler taking turns every %d seconds!
-battlecontroller.selfafk=You have gone AFK for %d seconds, auto-battler will take your turns every %d seconds!
-battlecontroller.afkback=%s is no longer AFK, auto-battler disengaged!
-battlecontroller.selfafkback=You are no longer AFK, auto-battler disengaged!
+battlecontroller.afk=%s已經AFK了%d秒，自動對戰已經接管訓練師操作%d秒！
+battlecontroller.selfafk=你已經AFK了%d秒，自動對戰將接管你的操作%d秒！
+battlecontroller.afkback=%s從AFK狀態回來！ 自動對戰已經結束！
+battlecontroller.selfafkback=你從AFK回來！ 自動對戰已經把操作權交還給你！
 
-battleController.recievedDamage=%s recieved %d damage from %s
+battleController.recievedDamage=%s接收了來自%s的%d傷害
 
 type.normal=普通系
 type.fire=火系
@@ -3442,7 +3506,6 @@ playerparticipant.withdrew=%s收回了%s！
 playerparticipant.go=去吧，%s！
 playerparticipant.load=無法讀取神奇寶貝的招式！
 
-multiplehit.crit=擊中要害！
 multiplehit.times=%s總共攻擊了%d次！
 
 recoil.damage=%s受到了反彈傷害！
@@ -4010,7 +4073,7 @@ pixelmon.effect.alreadybarrier=%s製造出堅固的障壁！
 pixelmon.effect.reflectraised=護牆提高了%s的隊伍的防禦力！
 pixelmon.effect.healthsleep=%s開始睡覺，恢復了健康！
 pixelmon.effect.alreadysafeguard=%s進入神秘護身狀態！
-pixelmon.effect.guarded=%s is looking a bit guarded!
+pixelmon.effect.guarded=%s看起來有點謹慎！
 pixelmon.effect.harshsunlight=天氣變成了艷陽天！
 pixelmon.effect.alreadysleeping=%s已經睡著了！
 pixelmon.effect.fallasleep=%s睡著了！
