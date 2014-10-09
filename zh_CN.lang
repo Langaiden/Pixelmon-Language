@@ -639,7 +639,7 @@ attack.ice punch.description=用附带着冷气的拳头攻击对方。有时会
 attack.thunder punch.name=雷光掌
 attack.thunder punch.description=用附带着电气的拳头攻击对方。有时会使对方麻痹。
 attack.vice grip.name=剪断
-attack.attack.vice grip.description=将对方从两边夹起来给与伤害。
+attack.vice grip.description=将对方从两边夹起来给与伤害。
 attack.guillotine.name=剪刀断头台
 attack.guillotine.description=用巨大的钳子切断对方进行攻击。只要打中就会使对方濒死。
 attack.razor wind.name=旋风刀
@@ -3236,7 +3236,7 @@ gui.pixelmonspawner.maxlevel=最高等级
 gui.pixelmonspawner.minlevel=最低等级
 gui.pixelmonspawner.bossratio=Boss机率
 gui.pixelmonspawner.aggresion=侵略
-gui.pixelmonspawner.spawnlocation=生成區域
+gui.pixelmonspawner.spawnlocation=生成区域
 
 gui.creativeinv.fainted=昏厥
 gui.creativeinv.hp=HP
