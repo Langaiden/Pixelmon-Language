@@ -17,7 +17,8 @@
 */
 item.PC.name=個人電腦
 item.Ranch Block.name=牧場機組
-item.Anvil.name=砧
+item.Anvil.name=鐵砧
+item.MechanicalAnvil.name=機械式鐵砧
 item.Healer.name=治療床
 item.Trade Machine.name=神奇寶貝通訊機
 item.Fossil Machine.name=化石機
@@ -139,9 +140,9 @@ item.Premier Ball Disc.name=首席球片
 item.Quick Ball Disc.name=超速球片
 item.Lure Ball Disc.name=誘餌球片
 item.Sport Ball Disc.name=競速球片
-item.Iron Disc.name=鐵片
+item.Iron Disc.name=鐵球片
 item.Iron Base.name=鐵球座
-item.Aluminum Disc.name=鋁片
+item.Aluminum Disc.name=鋁球片
 item.Aluminum Base.name=鋁球座
 item.Balance Badge.name=天秤徽章
 item.Beacon Badge.name=燈塔徽章
@@ -307,6 +308,8 @@ item.AbsorbBulb.name=球根
 item.Life Orb.name=生命之玉
 item.Focus Sash.name=振奮精神的綁帶
 item.Focus Band.name=振奮精神的頭布
+item.ToxicOrb.name=劇毒珠
+item.FlameOrb.name=火焰珠
 
 item.X Attack.name=力量增強
 item.X Defence.name=傷害預防
@@ -2996,7 +2999,7 @@ pixelmon.projectiles.nibble=沒有釣到神奇寶貝...
 pixelmon.stats.gainexp=你的%s得到了%d經驗值！
 pixelmon.stats.learnedmove=%s剛剛學會了%s！
 
-pixelmon.entities.syncpassed=同步特性把這個異常狀態也傳遞給了%s！
+pixelmon.entities.syncpassed=對手的同步特性把異常狀態也傳遞給了%s！
 
 pixelmon.entitytrainer.goodrod=你得到了一個優秀釣竿！
 pixelmon.entitytrainer.superod=你得到了一個超強釣竿！
@@ -3022,7 +3025,7 @@ pixelmon.helditem.cellowner=%s的%s因為身上攜帶了充電電池，因此提
 pixelmon.helditem.cellwild=野生的%s因為身上攜帶了充電電池，因此提升了攻擊力！
 pixelmon.helditems.consumeleppa=%s剛剛吃掉了身上的紅蘋，%s恢復了10點技能PP！
 pixelmon.helditems.consumeoran=%s剛剛吃掉了身上的藍橘，恢復10點HP！
-pixelmon.helditems.consumerawst=%s剛剛吃掉了身上的苦莓，恢復了牠的燒傷！
+pixelmon.helditems.consumerawst=%s剛剛吃掉了身上的苦莓，治癒了牠的燒傷！
 pixelmon.helditems.shellbellowner=%s的%s因為身上攜帶了貝殼之鈴，恢復了少量HP！
 pixelmon.helditems.shellbellwild=野生的%s因為身上攜帶了貝殼之鈴，恢復了少量HP！
 pixelmon.helditems.gainedtenhp=%s獲得了10點HP！
@@ -3050,7 +3053,7 @@ pixelmon.blocks.chestfound=你找到了一個%s！
 pixelmon.blocks.timedclaim=你已經拿過了這個定時的獎勵道具！晚點再試試！
 pixelmon.blocks.claimedloot=這個獎勵道具你已經拿過了！
 pixelmon.blocks.ownerchanged=Block owner changed to server!
-pixelmon.blocks.chestset=自定義獎勵道具設置： %s
+pixelmon.blocks.chestset=自訂獎勵道具設置： %s
 pixelmon.blocks.visible=獎勵道具可視等級已設置為： %s
 pixelmon.blocks.chestmode=獎勵道具模式： %s
 
