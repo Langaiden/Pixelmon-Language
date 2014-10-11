@@ -22,6 +22,7 @@
 item.PC.name=PC
 item.Ranch Block.name=Ranch Block
 item.Anvil.name=Enclume
+item.MechanicalAnvil.name=Enclume Mécanique
 item.Healer.name=Healer
 item.Trade Machine.name=Machine d'Échange
 item.Fossil Machine.name=Réanimateur de Fossile
@@ -4496,6 +4497,8 @@ gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Etendre la zone d'élevage
 gui.ranch.empty=Il n'y a pas de pokemon dans le ranch
+
+container.MechanicalAnvil=Enclume Mécanique
 
 attack.category.physical=Physique
 attack.category.special=Spécial
