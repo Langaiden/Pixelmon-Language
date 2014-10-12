@@ -4151,3 +4151,5 @@ pixelmon.status.noeffect=No effect!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
+
+tile.MechanicalAnvil.name=Mechanical Anvil
