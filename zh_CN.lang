@@ -2,6 +2,7 @@
 
 item.PC.name=个人电脑
 item.Anvil.name=神奇宝贝砧
+item.MechanicalAnvil.name=神奇宝贝机械砧
 item.Healer.name=治疗床
 item.Trade Machine.name=神奇宝贝通讯机
 item.Fossil Machine.name=化石机
@@ -311,6 +312,8 @@ item.SoftSand.name=柔软的沙子
 item.SpellTag.name=诅咒护身符
 item.TwistedSpoon.name=弯曲的汤匙
 item.MuscleBand.name=力量头巾
+item.Flame Orb.name=火焰珠
+item.Toxic Orb.name=剧毒珠
 
 
 item.X Attack.name=力量增强
@@ -3237,6 +3240,8 @@ gui.pixelmonspawner.minlevel=最低等级
 gui.pixelmonspawner.bossratio=Boss机率
 gui.pixelmonspawner.aggresion=侵略
 gui.pixelmonspawner.spawnlocation=生成区域
+
+container.MechanicalAnvil=神奇宝贝机械砧
 
 gui.creativeinv.fainted=昏厥
 gui.creativeinv.hp=HP
