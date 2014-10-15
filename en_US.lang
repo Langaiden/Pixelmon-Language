@@ -214,12 +214,24 @@ item.Iron.name=Iron
 item.Calcium.name=Calcium
 item.Zinc.name=Zinc
 item.Carbos.name=Carbos
+
 item.Pomeg Berry.name=Pomeg Berry
 item.Kelpsy Berry.name=Kelpsy Berry
 item.Qualot Berry.name=Qualot Berry
 item.Hondew Berry.name=Hondew Berry
 item.Grepa Berry.name=Grepa Berry
 item.Tamato Berry.name=Tamato Berry
+item.Oran Berry.name=Oran Berry
+item.Rawst Berry.name=Rawst Berry
+item.Leppa Berry.name=Leppa Berry
+item.ApicotBerry.name=Apicot Berry
+item.LiechiBerry.name=Liechi Berry
+item.GanlonBerry.name=Ganlon Berry
+item.SalacBerry.name=Salac Berry
+item.PetayaBerry.name=Petaya Berry
+item.LansatBerry.name=Lansat Berry
+item.StarfBerry.name=Starf Berry
+
 item.Heal Powder.name=Heal Powder
 item.Energy Powder.name=Energy Powder
 item.Energy Root.name=Energy Root
@@ -286,9 +298,6 @@ item.Power Lens.name=Power Lens
 item.Power Belt.name=Power Belt
 item.Power Band.name=Power Band
 item.Power Anklet.name=Power Anklet
-item.Oran Berry.name=Oran Berry
-item.Rawst Berry.name=Rawst Berry
-item.Leppa Berry.name=Leppa Berry
 item.Soothe Bell.name=Soothe Bell
 item.Smoke Ball.name=Smoke Ball
 item.WideLens.name=Wide Lens
@@ -4170,3 +4179,5 @@ pixelmon.status.noeffect=No effect!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
+
+tile.MechanicalAnvil.name=Mechanical Anvil
