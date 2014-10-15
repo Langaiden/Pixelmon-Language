@@ -348,6 +348,25 @@ item.Steel Gem.name=Steel Gem
 item.Water Gem.name=Water Gem
 item.Fairy Gem.name=Fairy Gem
 
+item.Bug Gem.special=Hallowed Bug Gem
+item.Dark Gem.special=Hallowed Dark Gem
+item.Dragon Gem.special=Hallowed Dragon Gem
+item.Electric Gem.special=Hallowed Electric Gem
+item.Fighting Gem.special=Hallowed Fighting Gem
+item.Fire Gem.special=Hallowed Fire Gem
+item.Flying Gem.special=Hallowed Flying Gem
+item.Ghost Gem.special=Hallowed Ghost Gem
+item.Grass Gem.special=Hallowed Grass Gem
+item.Ground Gem.special=Hallowed Ground Gem
+item.Ice Gem.special=Hallowed Ice Gem
+item.Normal Gem.special=Hallowed Normal Gem
+item.Poison Gem.special=Hallowed Poison Gem
+item.Psychic Gem.special=Hallowed Psychic Gem
+item.Rock Gem.special=Hallowed Rock Gem
+item.Steel Gem.special=Hallowed Steel Gem
+item.Water Gem.special=Hallowed Water Gem
+item.Fairy Gem.special=Hallowed Fairy Gem
+
 item.BlackBelt.name=Black Belt
 item.BlackGlasses.name=Black Glasses
 item.Charcoal.name=Charcoal
