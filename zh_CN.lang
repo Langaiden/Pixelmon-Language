@@ -4179,3 +4179,13 @@ gui.guiRanch.selectPokemon=选择神奇宝贝
 gui.guiRanch.claimEgg=取得神奇宝贝蛋
 
 
+// Add key names from options menu
+key.categories.pixelmon=神奇宝贝
+key.descend=下落
+key.minmaxoverlay=最大化/最小化精灵信息
+key.nextpokemon=向下移动精灵槽
+key.previouspokemon=向上移动精灵槽
+key.sendpokemon=扔出精灵
+
+
+
