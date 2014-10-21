@@ -4190,3 +4190,11 @@ attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
 
 tile.MechanicalAnvil.name=Mechanical Anvil
+
+// Add key names from options menu
+key.categories.pixelmon=Pixelmon
+key.descend=Descend
+key.minmaxoverlay=Minimise/Maximise Overlay
+key.nextpokemon=Next Party Slot
+key.previouspokemon=Previous Party Slot
+key.sendpokemon=Send Out Pixelmon
