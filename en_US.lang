@@ -397,6 +397,8 @@ item.destinyKnot.name=Destiny Knot
 
 item.chisel.name=Chisel
 item.ranchupgrade.name=Ranch Upgrade
+item.hourglassgold.name=Isi's Golden Hourglass
+item.hourglasssilver.name=Isi's Silver Hourglass
 
 item.TM1 - Hone Claws.name=TM1: Hone Claws
 item.TM1 - Wide Guard.name=TM1: Wide Guard
@@ -3452,6 +3454,8 @@ gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Extend ranch block containted area
 gui.ranch.empty=There are no pokemon in the ranch
+ranch.hourglass.upgradedall=All breeding pokemon increased a breeding level
+ranch.hourglass.upgrade=%s increased a breeding level
 
 container.MechanicalAnvil=Mechanical Anvil
 
