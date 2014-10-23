@@ -3249,6 +3249,7 @@ gui.trading.trade=Trade
 
 gui.pokedex.pokedex=Pokedex
 gui.pokedex.height=Height:
+gui.pokedex.weight=Weight:
 gui.pokedex.more=More...
 
 gui.pokedexoptions.done=Done.
@@ -3261,7 +3262,6 @@ gui.yesno.yousure=Do you want to give up learning $m?
 gui.yesno.replace=Are you sure you want to replace $m with $nm?
 
 gui.replaceattack.effect=Effect
-gui.replaceattack.description=Description
 gui.replaceattack.power=Power
 gui.replaceattack.accuracy=Accuracy
 
@@ -3375,6 +3375,7 @@ gui.label.text=Label
 gui.save.text=Save
 gui.texture.text=Texture
 gui.cancel.text=Cancel
+gui.description.text=Description
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default
