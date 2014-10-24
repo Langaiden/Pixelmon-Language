@@ -232,7 +232,7 @@ item.PetayaBerry.name=Petaya Berry
 item.LansatBerry.name=Lansat Berry
 item.StarfBerry.name=Starf Berry
 item.AguavBerry.name=Aguav Berry
-item.FigBerry.name=Fig Berry
+item.FigBerry.name=Figy Berry
 item.IapapaBerry.name=Iapapa Berry
 item.MagoBerry.name=Mago Berry
 item.WikiBerry.name=Wiki Berry
@@ -3009,6 +3009,7 @@ pixelmon.command.heal.healed=Successfully healed %s's Pixelmon!
 pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pixelmon!
 pixelmon.command.spawn.spawned=Successfully spawned a %s
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
+pixelmon.command.unlock=Successfully unlocked %s's locked pokemon
 
 //other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
