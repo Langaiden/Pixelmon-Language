@@ -2988,6 +2988,7 @@ pixelmon.command.heal.healed=成功给予了%s的神奇宝贝！
 pixelmon.command.heal.notifyhealed=%s成功治愈了%s的神奇宝贝！
 pixelmon.command.spawn.spawned=成功产出了%s。
 pixelmon.command.spawn.spawnednotify=%s成功产出了%s。
+pixelmon.command.unlock=成功地解锁了 %s锁上的神奇宝贝。
 
 //other
 pixelmon.drops.fullinventory=你的包包已经满了！ %s掉在地上！
@@ -3199,7 +3200,7 @@ gui.fainterChoice.run=逃走
 gui.choosebad.nopokeballs=你不能在这场战斗中使用捕捉球！
 
 gui.guiDoctor.healPokemon=你好，欢迎来到神奇宝贝中心，我们可以恢复神奇宝贝的健康。
-gui.guiDoctor.waiting=请稍后...
+gui.guiDoctor.waiting=请稍等...
 
 gui.trading.ready=准备
 gui.trading.notready=准备未完成
