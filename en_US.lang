@@ -232,7 +232,7 @@ item.PetayaBerry.name=Petaya Berry
 item.LansatBerry.name=Lansat Berry
 item.StarfBerry.name=Starf Berry
 item.AguavBerry.name=Aguav Berry
-item.FigBerry.name=Fig Berry
+item.FigBerry.name=Figy Berry
 item.IapapaBerry.name=Iapapa Berry
 item.MagoBerry.name=Mago Berry
 item.WikiBerry.name=Wiki Berry
@@ -402,6 +402,8 @@ item.destinyKnot.name=Destiny Knot
 
 item.chisel.name=Chisel
 item.ranchupgrade.name=Ranch Upgrade
+item.hourglassgold.name=Isi's Golden Hourglass
+item.hourglasssilver.name=Isi's Silver Hourglass
 
 item.TM1 - Hone Claws.name=TM1: Hone Claws
 item.TM1 - Wide Guard.name=TM1: Wide Guard
@@ -3007,6 +3009,7 @@ pixelmon.command.heal.healed=Successfully healed %s's Pixelmon!
 pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pixelmon!
 pixelmon.command.spawn.spawned=Successfully spawned a %s
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
+pixelmon.command.unlock=Successfully unlocked %s's locked pokemon
 
 //other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -3247,6 +3250,7 @@ gui.trading.trade=Trade
 
 gui.pokedex.pokedex=Pokedex
 gui.pokedex.height=Height:
+gui.pokedex.weight=Weight:
 gui.pokedex.more=More...
 
 gui.pokedexoptions.done=Done.
@@ -3259,7 +3263,6 @@ gui.yesno.yousure=Do you want to give up learning $m?
 gui.yesno.replace=Are you sure you want to replace $m with $nm?
 
 gui.replaceattack.effect=Effect
-gui.replaceattack.description=Description
 gui.replaceattack.power=Power
 gui.replaceattack.accuracy=Accuracy
 
@@ -3373,6 +3376,7 @@ gui.label.text=Label
 gui.save.text=Save
 gui.texture.text=Texture
 gui.cancel.text=Cancel
+gui.description.text=Description
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default
@@ -3457,6 +3461,8 @@ gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Extend ranch block containted area
 gui.ranch.empty=There are no pokemon in the ranch
+ranch.hourglass.upgradedall=All breeding pokemon increased a breeding level
+ranch.hourglass.upgrade=%s increased a breeding level
 
 container.MechanicalAnvil=Mechanical Anvil
 
