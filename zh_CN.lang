@@ -325,8 +325,8 @@ item.SoftSand.name=柔软的沙子
 item.SpellTag.name=诅咒护身符
 item.TwistedSpoon.name=弯曲的汤匙
 item.MuscleBand.name=力量头巾
-item.Flame Orb.name=火焰珠
-item.Toxic Orb.name=剧毒珠
+item.FlameOrb.name=火焰珠
+item.ToxicOrb.name=剧毒珠
 
 
 item.X Attack.name=力量增强
@@ -2988,6 +2988,7 @@ pixelmon.command.heal.healed=成功给予了%s的神奇宝贝！
 pixelmon.command.heal.notifyhealed=%s成功治愈了%s的神奇宝贝！
 pixelmon.command.spawn.spawned=成功产出了%s。
 pixelmon.command.spawn.spawnednotify=%s成功产出了%s。
+pixelmon.command.unlock=成功地解锁了 %s锁上的神奇宝贝。
 
 //other
 pixelmon.drops.fullinventory=你的包包已经满了！ %s掉在地上！
@@ -3513,6 +3514,7 @@ sendpixelmon.retrieved=你收回了%s！
 * standing for its name.
 */
 tile.anvil.name=砧
+tile.MechanicalAnvil.name=神奇宝贝机械砧
 tile.pc.name=个人电脑
 tile.mossy rock.name=青苔岩石
 tile.icy rock.name=冰之岩石
@@ -4177,6 +4179,8 @@ gui.ranch.extendTitle=扩展饲养园控制区
 gui.ranch.empty=饲养园中没有神奇宝贝
 gui.guiRanch.selectPokemon=选择神奇宝贝
 gui.guiRanch.claimEgg=取得神奇宝贝蛋
+item.hourglassgold.name=Isi的黄金沙漏
+item.hourglasssilver.name=Isi的白银沙漏
 
 
 // Add key names from options menu
@@ -4186,6 +4190,7 @@ key.minmaxoverlay=最大化/最小化精灵信息
 key.nextpokemon=向下移动精灵槽
 key.previouspokemon=向上移动精灵槽
 key.sendpokemon=扔出精灵
+key.pokemonaction=选定此精灵为攻击目标
 
 
 
