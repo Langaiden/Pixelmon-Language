@@ -3,9 +3,6 @@
 *   สวัดดี ฉันคือ Saiber gamer จาก youtube.com/Saibergamerls
 *   Language : Thailand
 *   facebook.com/saibergamer
-*   
-*   
-*   
 */
 
 item.PC.name=พีชี
@@ -4079,7 +4076,7 @@ pixelmon.effect.becamedrowsy=%s became drowsy
 pixelmon.effect.alreadydrowsy=%s is already drowsy!
 
 pixelmon.status.ringheal=%s is healed by it's ring
-pixelmon.status.burnhurt=%s ไฟใหม้ไฟลวง พุพอง เป็นหนองผิวหนังอักเสพ เป้นนอง
+pixelmon.status.burnhurt=%s ไฟใหม้
 pixelmon.status.confusionsnap=%s โครตมึนเบยย
 pixelmon.status.confused=%s มึนงง.............
 pixelmon.status.confusionhurtself=%s hurt โจมตีพลาดโดนตัวเองเฉย
