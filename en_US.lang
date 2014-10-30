@@ -33,28 +33,28 @@ item.Green Tank.name=Green Tank
 item.Orange Tank.name=Orange Tank
 item.Cloner Cord.name=Cloner Cord
 item.Fossil Cleaner.name=Fossil Cleaner
-item.Pokedex.name=Pokedexe
+item.Pokedex.name=Pokedex
 item.Wood Hammer.name=Wood Hammer
 item.Stone Hammer.name=Stone Hammer
 item.Iron Hammer.name=Iron Hammer
 item.Gold Hammer.name=Gold Hammer
 item.Diamond Hammer.name=Diamond Hammer
-item.Aluminium Hammer.name=Aluminium Hammer
-item.Aluminium Axe.name=Aluminium Axe
-item.Aluminium Spade.name=Aluminium Spade
-item.Aluminium PickAxe.name=Aluminium PickAxe
-item.Aluminium Hoe.name=Aluminium Hoe
+item.Aluminium Hammer.name=Aluminum Hammer
+item.Aluminium Axe.name=Aluminum Axe
+item.Aluminium Spade.name=Aluminum Spade
+item.Aluminium PickAxe.name=Aluminum PickAxe
+item.Aluminium Hoe.name=Aluminum Hoe
 item.Wailmer Pail.name=Wailmer Pail
 item.Trainer Editor.name=Trainer Editor
-item.Aluminium Sword.name=Aluminium Sword
-item.Aluminium Helmet.name=Aluminium Helmet
-item.Aluminium Torso.name=Aluminium Torso
-item.Aluminium Leggings.name=Aluminium Leggings
-item.Aluminium Boots.name=Aluminium Boots
+item.Aluminium Sword.name=Aluminum Sword
+item.Aluminium Helmet.name=Aluminum Helmet
+item.Aluminium Torso.name=Aluminum Torso
+item.Aluminium Leggings.name=Aluminum Leggings
+item.Aluminium Boots.name=Aluminum Boots
 item.New Running Boots.name=New Running Boots
 item.Old Running Boots.name=Old Running Boots
-item.Aluminium Ingot.name=Aluminium Ingot
-item.Aluminium Plate.name=Aluminium Plate
+item.Aluminium Ingot.name=Aluminum Ingot
+item.Aluminium Plate.name=Aluminum Plate
 item.Old Rod.name=Old Rod
 item.Good Rod.name=Good Rod
 item.Super Rod.name=Super Rod
@@ -141,8 +141,8 @@ item.Lure Ball Disc.name=Lure Ball Disc
 item.Sport Ball Disc.name=Sport Ball Disc
 item.Iron Disc.name=Iron Disc
 item.Iron Base.name=Iron Base
-item.Aluminum Disc.name=Aluminium Disc
-item.Aluminum Base.name=Aluminium Base
+item.Aluminum Disc.name=Aluminum Disc
+item.Aluminum Base.name=Aluminum Base
 item.Balance Badge.name=Balance Badge
 item.Beacon Badge.name=Beacon Badge
 item.Boulder Badge.name=Boulder Badge
@@ -326,9 +326,9 @@ item.ToxicOrb.name=Toxic Orb
 item.FlameOrb.name=Flame Orb
 
 item.X Attack.name=X Attack
-item.X Defence.name=X Defence
+item.X Defence.name=X Defense
 item.X SpecialAttack.name=X Special Attack
-item.X SpecialDefence.name=X Special Defence
+item.X SpecialDefence.name=X Special Defense
 item.X Speed.name=X Speed
 item.X Accuracy.name=X Accuracy
 item.Dire Hit.name=Dire Hit
@@ -1712,7 +1712,7 @@ pixelmon.bellossom.description=When the heavy rainfall season ends, it is drawn 
 pixelmon.azumarill.name=Azumarill
 pixelmon.azumarill.description=Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.
 pixelmon.lileep.name=Lileep
-pixelmon.lileep.description=It lived on the seafloor 100 million years ago and was reanimated scientifically.
+pixelmon.lileep.description=It lived on the sea floor 100 million years ago and was reanimated scientifically.
 pixelmon.unown.name=Unown
 pixelmon.unown.description=When alone, nothing happens. However, if there are two or more, an odd power is said to emerge.
 pixelmon.shieldon.name=Shieldon
@@ -1804,7 +1804,7 @@ pixelmon.poliwag.description=Its skin is so thin, its internal organs are visibl
 pixelmon.poliwhirl.name=Poliwhirl
 pixelmon.poliwhirl.description=The spiral pattern on its belly subtly undulates. Staring at it gradually causes drowsiness.
 pixelmon.poliwrath.name=Poliwrath
-pixelmon.poliwrath.description={{{black2dex}}}
+pixelmon.poliwrath.description= The spiral pattern on its belly subtly undulates. Staring at it gradually causes drowsiness. 
 pixelmon.bellsprout.name=Bellsprout
 pixelmon.bellsprout.description=It prefers hot and humid environments. It is quick at capturing prey with its vines.
 pixelmon.weepinbell.name=Weepinbell
@@ -3013,9 +3013,9 @@ pixelmon.command.unlock=Successfully unlocked %s's locked pokemon
 
 //other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
-pixelmon.drops.single=You recieved a %s!
-pixelmon.drops.singlean=You recieved an %s!
-pixelmon.drops.plural=You recieved %d %ss!
+pixelmon.drops.single=You received a %s!
+pixelmon.drops.singlean=You received an %s!
+pixelmon.drops.plural=You received %d %ss!
 
 pixelmon.interaction.rarecandy=%s's leveling is disabled.
 pixelmon.interaction.tmknown=%s already knows %s!
@@ -3038,8 +3038,8 @@ pixelmon.stats.learnedmove=%s just learnt %s!
 
 pixelmon.entities.syncpassed=Synchronize passed it onto %s
 
-pixelmon.entitytrainer.goodrod=You recieved a GoodRod!
-pixelmon.entitytrainer.superod=You recieved a SuperRod!
+pixelmon.entitytrainer.goodrod=You received a GoodRod!
+pixelmon.entitytrainer.superod=You received a SuperRod!
 
 pixelmon.statue.despawn=The pixelmon has been despawned.
 
@@ -3074,9 +3074,9 @@ pixelmon.helditems.consumegem=%s just consumed a Gem and increased it's damage!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised it's attack using X Attack!
-pixelmon.ItemBattleItem.xdefenceowner=%s's %s raised it's defence using X Defence!
+pixelmon.ItemBattleItem.xdefenceowner=%s's %s raised it's defense using X Defense!
 pixelmon.ItemBattleItem.xspecialattackowner=%s's %s raised it's special attack using X Special Attack!
-pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s raised it's special defence using X Special Defence!
+pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s raised it's special defense using X Special Defense!
 pixelmon.ItemBattleItem.xspeedowner=%s's %s raised it's speed using X Speed!
 pixelmon.ItemBattleItem.xaccuracyowner=%s's %s raised it's accuracy using X Accuracy!
 
@@ -3160,7 +3160,7 @@ pixelmon.abilities.dryskinused=%s used %s!
 pixelmon.abilities.dryskinrain=%s regained HP because of its Dry Skin!
 pixelmon.abilities.dryskinsun=%s was hurt because of its Dry Skin!
 pixelmon.abilities.effectsporesleep=%s's Effect Spore put %s to sleep!
-pixelmon.abilities.effectsporeparal=%s's Effect Spore paralysed %s!
+pixelmon.abilities.effectsporeparal=%s's Effect Spore paralyzed %s!
 pixelmon.abilities.effectsporepois=%s's Effect Spore poisoned %s!
 pixelmon.abilities.flamebody=%s's Flame Body burnt %s!
 pixelmon.abilities.hypercut=%s's Hyper Cutter prevents Attack loss!
@@ -3208,8 +3208,8 @@ pixelmon.ranch.maxaffection=%s loves %s as much as possible!
 *   the boss drop and trainer drop guis.
 *   The last part refers simply to their meaning in the gui.
 *   eg: gui.trading.trade has trade at the end because
-*   the text it displays would be trade. It isnt always like that.
-*   For instance gui.guiEvolve.done doesnt say done it says
+*   the text it displays would be trade. It isn't always like that.
+*   For instance gui.guiEvolve.done doesn't say done it says
 *   Your $p evolved into a $n
 *
 *
@@ -3218,13 +3218,13 @@ pixelmon.ranch.maxaffection=%s loves %s as much as possible!
 *   there is only one being referenced in that line.
 *   $n is the other pixelmon.
 *   $d is the other player.
-*   $a was a one time occurance which stands for enabled or disabled.
-*   Depending on what instane to call on.
+*   $a was a one time occurrence which stands for enabled or disabled.
+*   Depending on what instance to call on.
 */
 gui.guiEvolve.huh=Huh?
 gui.guiEvolve.evolve=What? $p is evolving!
 gui.guiEvolve.done=Your $p evolved into a $n!
-gui.guiEvolve.cancel=Evolution cancelled!
+gui.guiEvolve.cancel=Evolution canceled!
 
 gui.guiItemDrops.beatBossPixelmon1=You beat a boss $p!
 gui.guiItemDrops.beatTrainer1=You beat a trainer!
@@ -3334,7 +3334,7 @@ gui.trainereditor.winningdrops=Winning Drops
 gui.trainereditor.adddrops=Add Drops
 gui.trainereditor.enteritemname=Enter Item Name or ID
 gui.trainereditor.winningdrops=Winning Drops
-gui.trainereditor.randomise=Randomise
+gui.trainereditor.randomise=Randomize
 gui.trainereditor.edit=Edit
 gui.trainereditor.add=Add
 gui.trainereditor.deletelastpoke=Delete Last Pokemon
@@ -3366,7 +3366,7 @@ gui.starter.trademark2=by Nintendo and Game Freak Inc.
 gui.starter.trademark3=Support Nintendo/Game Freak by buying Pokemon X/Y
 gui.starter.trademark4=Welcome to the world of Pixelmon!! Thank you for installing this mod!
 gui.starter.trademark5=Now, please pick your desired starter Pokemon!
-gui.starter.commingsoon=Comming Soon...
+gui.starter.commingsoon=Coming Soon...
 gui.starter.disabled=Disabled
 
 gui.pc.box=Box:
@@ -3459,7 +3459,7 @@ gui.ranch.extendplusx=+X
 gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
-gui.ranch.extendTitle=Extend ranch block containted area
+gui.ranch.extendTitle=Extend ranch block contained area
 gui.ranch.empty=There are no pokemon in the ranch
 ranch.hourglass.upgradedall=All breeding pokemon increased a breeding level
 ranch.hourglass.upgrade=%s increased a breeding level
@@ -3491,7 +3491,7 @@ nbt.hp2.name=HP
 *   For anything that is a string and a variable like a pokemon name put %s which stands for a string.
 *   If you are referencing an integer (whole number) use %d
 *   Eg: The wild %s escaped! Lets say the pokemon that escaped is rattata it will display in game
-*   "The wild Rattata escaped!" Or on the rare occasion you come accros an int.
+*   "The wild Rattata escaped!" Or on the rare occasion you come across an int.
 *   Eg: "You got rid of %d items"
 *   The previous $p and $m what have you does not apply here!
 */
@@ -3510,7 +3510,7 @@ battlecontroller.selfafk=You have gone AFK for %d seconds, auto-battler will tak
 battlecontroller.afkback=%s is no longer AFK, auto-battler disengaged!
 battlecontroller.selfafkback=You are no longer AFK, auto-battler disengaged!
 
-battleController.recievedDamage=%s recieved %d damage from %s
+battleController.recievedDamage=%s received %d damage from %s
 
 type.normal=Normal
 type.fire=Fire
@@ -3573,7 +3573,7 @@ sendpixelmon.retrieved=You retrieved %s!
 /*
 *   Pretty much same basic concept here. middle one represents
 *   the items blockName as defined and the first one "tile"
-*   shows its refering to a block type. Name is just
+*   shows its referring to a block type. Name is just
 *   standing for its name.
 */
 tile.anvil.name=Anvil
@@ -3582,7 +3582,8 @@ tile.mossy rock.name=Mossy Rock
 tile.icy rock.name=Icy Rock
 tile.trade machine.name=Trade Machine
 tile.healer.name=Healer
-tile.fossil cleaner.name=Fossil Cleanertile.fossil machine.name=Fossil Machine
+tile.fossil cleaner.name=Fossil Cleaner
+tile.fossil machine.name=Fossil Machine
 tile.cloning machine.name=Cloning Machine
 tile.bauxite ore.name=Bauxite Ore
 tile.Fire Stone Ore.name=Fire Stone Ore
@@ -3647,11 +3648,11 @@ ability.Analytic.description=Boosts move power when the Pokemon moves after the 
 ability.AngerPoint.name=Anger Point
 ability.AngerPoint.description=Maxes the Attack stat after the Pokemon takes a critical hit.
 ability.Anticipation.name=Anticipation
-ability.Anticipation.description=Senses an opposing Pokemons dangerous moves.
+ability.Anticipation.description=Senses an opposing Pokemon's dangerous moves.
 ability.ArenaTrap.name=Arena Trap
 ability.ArenaTrap.description=Prevents opposing Pokemon from fleeing.
 ability.AromaVeil.name=Aroma Veil
-ability.AromaVeil.description=Procets allies from attacks that effect their mental state
+ability.AromaVeil.description=Protects allies from attacks that effect their mental state
 ability.AuraBreak.name=Aura Break
 ability.AuraBreak.description=The effects of "Aura" Abilities are reversed.
 ability.BadDreams.name=Bad Dreams
@@ -3664,7 +3665,7 @@ ability.Blaze.name=Blaze
 ability.Blaze.description=Powers up Fire-type moves when the Pokemon is in trouble.
 ability.Bulletproof.name=Bulletproof
 ability.Bulletproof.description=Protects the Pokemon from some ball and bomb moves.
-ability.CheeckPouch.name=Cheeck Pouch
+ability.CheeckPouch.name=Cheek Pouch
 ability.CheeckPouch.description=Restores HP as well when the Pokemon eats a Berry.
 ability.Chlorophyll.name=Chlorophyll
 ability.Chlorophyll.description=Boosts the Pokemon's Speed stat in sunshine.
@@ -3673,11 +3674,11 @@ ability.ClearBody.description=Prevents other Pokemon from lowering its stats.
 ability.CloudNine.name=Cloud Nine
 ability.CloudNine.description=Eliminates the effects of weather.
 ability.ColourChange.name=Color Change
-ability.ColourChange.description=The Pokemons type becomes the type of the move used on it.
+ability.ColourChange.description=The Pokemon's type becomes the type of the move used on it.
 ability.Competitive.name=Competitive
 ability.Competitive.description=Boosts the Sp. Atk stat when a stat is lowered.
 ability.CompoundEyes.name=Compound Eyes
-ability.CompoundEyes.description=Boosts the Pokemons accuracy.
+ability.CompoundEyes.description=Boosts the Pokemon's accuracy.
 ability.Contrary.name=Contrary
 ability.Contrary.description=Makes stat changes have an opposite effect.
 ability.CursedBody.name=Cursed Body
@@ -3687,13 +3688,13 @@ ability.CuteCharm.description=Contact with the Pokemon may cause infatuation.
 ability.Damp.name=Damp
 ability.Damp.description=Prevents the use of self-destructing moves.
 ability.DarkAura.name=Dark Aura
-ability.DarkAura.description=Powers up each Pokemons Dark-type moves.
+ability.DarkAura.description=Powers up each Pokemon's Dark-type moves.
 ability.Defeatist.name=Defeatist
 ability.Defeatist.description=Lowers stats when HP becomes half or less.
 ability.Defiant.name=Defiant
-ability.Defiant.description=Boosts the Pokemons Attack stat when its stats are lowered.
+ability.Defiant.description=Boosts the Pokemon's Attack stat when its stats are lowered.
 ability.Download.name=Download
-ability.Download.description=Adjusts power based on an opposing Pokemons stats.
+ability.Download.description=Adjusts power based on an opposing Pokemon's stats.
 ability.Drizzle.name=Drizzle
 ability.Drizzle.description=The Pokemon makes it rain when it enters a battle.
 ability.Drought.name=Drought
@@ -3705,19 +3706,19 @@ ability.EarlyBird.description=The Pokemon awakens quickly from sleep.
 ability.EffectSpore.name=Effect Spore
 ability.EffectSpore.description=Contact may poison or cause paralysis or sleep.
 ability.FairyAura.name=Fairy Aura
-ability.FairyAura.description=Powers up each Pokemons Fairy-type moves.
+ability.FairyAura.description=Powers up each Pokemon's Fairy-type moves.
 ability.Filter.name=Filter
-ability.Filter.description=Reduces damage from supereffective attacks.
+ability.Filter.description=Reduces damage from super-effective attacks.
 ability.FlameBody.name=Flame Body
 ability.FlameBody.description=Contact with the Pokemon may burn the attacker.
 ability.FlareBoost.name=Flare Boost
 ability.FlareBoost.description=Powers up special attacks when the Pokemon is burned.
 ability.FlashFire.name=Flash Fire
-ability.FlashFire.description=Powers up the Pokemons Fire-type moves if it is hit by one.
+ability.FlashFire.description=Powers up the Pokemon's Fire-type moves if it is hit by one.
 ability.FlowerGift.name=Flower Gift
 ability.FlowerGift.description=Powers up party Pokemon when it is sunny.
 ability.FlowerVeil.name=Flower Veil
-ability.FlowerVeil.description=Prevents lowering of ally Grass-type Pokemons stats.
+ability.FlowerVeil.description=Prevents lowering of ally Grass-type Pokemon's stats.
 ability.Forecast.name=Forecast
 ability.Forecast.description=Castform transforms with the weather.
 ability.Forewarn.name=Forewarn
@@ -3725,7 +3726,7 @@ ability.Forewarn.description=Determines what moves an opposing Pokemon has.
 ability.FriendGuard.name=Friend Guard
 ability.FriendGuard.description=Reduces damage done to allies
 ability.Frisk.name=Frisk
-ability.Frisk.description=The Pokemon can check an opposing Pokemons held item.
+ability.Frisk.description=The Pokemon can check an opposing Pokemon's held item.
 ability.FurCoat.name=Fur Coat
 ability.FurCoat.description=Halves damage from physical moves.
 ability.GaleWings.name=Gale Wings
@@ -3745,11 +3746,11 @@ ability.Healer.description=Sometimes heals an ally's status condition.
 ability.Heatproof.name=Heatproof
 ability.Heatproof.description=Weakens the power of Fire-type moves.
 ability.HeavyMetal.name=Heavy Metal
-ability.HeavyMetal.description=Doubles the Pokemons weight.
+ability.HeavyMetal.description=Doubles the Pokemon's weight.
 ability.HoneyGather.name=Honey Gather
 ability.HoneyGather.description=The Pokemon may gather Honey from somewhere.
 ability.HugePower.name=Huge Power
-ability.HugePower.description=Boosts the Pokemons Attack stat.
+ability.HugePower.description=Boosts the Pokemon's Attack stat.
 ability.Hustle.name=Hustle
 ability.Hustle.description=Boosts the Attack stat, but lowers accuracy.
 ability.Hydration.name=Hydration
@@ -3761,19 +3762,19 @@ ability.IceBody.description=The Pokemon gradually regains HP in a hailstorm.
 ability.Illuminate.name=Illuminate
 ability.Illuminate.description=Raises the likelihood of meeting wild Pokemon.
 ability.Illusion.name=Illusion
-ability.Illusion.description=Comes out disguised as the Pokemon in the partys last spot.
+ability.Illusion.description=Comes out disguised as the Pokemon in the party's last spot.
 ability.Immunity.name=Immunity
 ability.Immunity.description=Prevents the Pokemon from getting poisoned.
 ability.Imposter.name=Imposter
 ability.Imposter.description=The Pokemon transforms itself into the Pokemon it is facing.
 ability.Infiltrator.name=Infiltrator
-ability.Infiltrator.description=Passes through the opposing Pokemons barrier and strikes.
+ability.Infiltrator.description=Passes through the opposing Pokemon's barrier and strikes.
 ability.InnerFocus.name=Inner Focus
 ability.InnerFocus.description=Protects the Pokemon from flinching.
 ability.Insomnia.name=Insomnia
 ability.Insomnia.description=Prevents the Pokemon from falling asleep.
 ability.Intimidate.name=Intimidate
-ability.Intimidate.description=Lowers the opposing Pokemons Attack stat.
+ability.Intimidate.description=Lowers the opposing Pokemon's Attack stat.
 ability.IronBarbs.name=Iron Barbs
 ability.IronBarbs.description=Inflicts damage to the attacker on contact.
 ability.IronFist.name=Iron Fist
@@ -3823,7 +3824,7 @@ ability.Moxie.description=Boosts the Attack stat after knocking out any Pokemon.
 ability.Multiscale.name=Multiscale
 ability.Multiscale.description=Reduces damage the Pokemon takes when its HP is full.
 ability.Multitype.name=Multitype
-ability.Multitype.description=Changes the Pokemon''s type to match the Plate it holds.
+ability.Multitype.description=Changes the Pokemon's type to match the Plate it holds.
 ability.Mummy.name=Mummy
 ability.Mummy.description=Contact with the Pokemon spreads this Ability.
 ability.NaturalCure.name=Natural Cure
@@ -3887,7 +3888,7 @@ ability.RunAway.description=Enables a sure getaway from wild Pokemon.
 ability.SandForce.name=Sand Force
 ability.SandForce.description=Boosts certain moves' power in a sandstorm.
 ability.SandRush.name=Sand Rush
-ability.SandRush.description=Boosts the Pokemon''s Speed stat in a sandstorm.
+ability.SandRush.description=Boosts the Pokemon's Speed stat in a sandstorm.
 ability.SandStream.name=Sand Stream
 ability.SandStream.description=The Pokemon summons a sandstorm in battle.
 ability.SandVeil.name=Sand Veil
@@ -3923,9 +3924,9 @@ ability.SnowWarning.description=The Pokemon summons a hailstorm when it enters a
 ability.SolarPower.name=Solar Power
 ability.SolarPower.description=Boosts the Sp. Atk stat in sunny weather, but HP decreases.
 ability.SolidRock.name=Solid Rock
-ability.SolidRock.description=Reduces damage from supereffective attacks.
+ability.SolidRock.description=Reduces damage from super-effective attacks.
 ability.Soundproof.name=Soundproof
-ability.Soundproof.description=Gives full imunity to all sound-based moves.
+ability.Soundproof.description=Gives full immunity to all sound-based moves.
 ability.SpeedBoost.name=Speed Boost
 ability.SpeedBoost.description=Its Speed stat is gradually boosted.
 ability.Stall.name=Stall
@@ -3943,7 +3944,7 @@ ability.StickyHold.description=Protects the Pokemon from item theft.
 ability.StormDrain.name=Storm Drain
 ability.StormDrain.description=Draws in all Water-type moves to boost its Sp. Atk stat.
 ability.StrongJaw.name=Strong Jaw
-ability.StrongJaw.description=The Pokemon''s strong jaw gives it tremendous biting power.
+ability.StrongJaw.description=The Pokemon's strong jaw gives it tremendous biting power.
 ability.Sturdy.name=Sturdy
 ability.Sturdy.description=It cannot be knocked out with one hit.
 ability.SuctionCups.name=Suction Cups
@@ -3981,7 +3982,7 @@ ability.ToxicBoost.description=Powers up physical attacks when the Pokemon is po
 ability.Trace.name=Trace
 ability.Trace.description=The Pokemon copies an opposing Pokemon's Ability.
 ability.Truant.name=Truant
-ability.Truant.description=The Pokemon can''t attack on consecutive turns.
+ability.Truant.description=The Pokemon can't attack on consecutive turns.
 ability.Turboblaze.name=Turboblaze
 ability.Turboblaze.description=Moves can be used on the target regardless of its Abilities.
 ability.Unaware.name=Unaware
@@ -4005,7 +4006,7 @@ ability.WeakArmour.description=Physical attacks lower its Defense stat and raise
 ability.WhiteSmoke.name=White Smoke
 ability.WhiteSmoke.description=Prevents other Pokemon from lowering its stats.
 ability.WonderGuard.name=Wonder Guard
-ability.WonderGuard.description=Only supereffective moves will hit.
+ability.WonderGuard.description=Only super-effective moves will hit.
 ability.WonderSkin.name=Wonder Skin
 ability.WonderSkin.description=Makes status moves more likely to miss.
 ability.ZenMode.name=Zen Mode
@@ -4095,7 +4096,7 @@ pixelmon.effect.magnetrise=%s levitated with electromagnetism!
 pixelmon.effect.noescape=%s can no longer escape!
 pixelmon.effect.alreadymist=%s is already surrounded by mist!
 pixelmon.effect.usemist=%s creates a cloud of mist!
-pixelmon.effect.alreadyparalyzed=%s is already paraylyzed!
+pixelmon.effect.alreadyparalyzed=%s is already paralyzed!
 pixelmon.effect.isparalyzed=%s is paralyzed!
 pixelmon.effect.sandtomb=%s became trapped by Sand Tomb!
 pixelmon.effect.clamped=%s clamped %s!
@@ -4111,7 +4112,7 @@ pixelmon.effect.redaying=%s is readying itself!
 pixelmon.effect.raining=It started to rain!
 pixelmon.effect.sandstorm=A sandstorm kicked up!
 pixelmon.effect.alreadybarrier=%s already has a barrier!
-pixelmon.effect.reflectraised=Reflect raised %s's team's Defence!
+pixelmon.effect.reflectraised=Reflect raised %s's team's Defense!
 pixelmon.effect.healthsleep=%s went to sleep and regained health!
 pixelmon.effect.alreadysafeguard=% already has a safeguard!
 pixelmon.effect.guarded=%s is looking a bit guarded!
@@ -4196,10 +4197,11 @@ tile.MechanicalAnvil.name=Mechanical Anvil
 // Add key names from options menu
 key.categories.pixelmon=Pixelmon
 key.descend=Descend
-key.minmaxoverlay=Minimise/Maximise Overlay
+key.minmaxoverlay=Minimize/Maximize Overlay
 key.nextpokemon=Next Party Slot
 key.previouspokemon=Previous Party Slot
 key.sendpokemon=Send Out Pixelmon
+key.pokemonaction=Select Target Pixelmon
 
 halloween.entityname=The Spectral Jeweller
 halloween.gemregistered=The Spectral Jeweller recieved your %s!
