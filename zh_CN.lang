@@ -4137,21 +4137,21 @@ pixelmon.general.needowner=只有此方块的所有者可以使用此方块。
 //Breeding
 pixelmon.egg.name=蛋
 ability.Egg.name=孵化中
-pixelmon.egg.hatching=你的蛋孵化成了%s的！
-pixelmon.egg.hatchingan=你的蛋孵化成了一只%s的！ 
+pixelmon.egg.hatching=你的蛋孵化成了%s了哦~！
+pixelmon.egg.hatchingan=你的蛋孵化成了一只%s了哦~！ 
 pixelmon.egg.hatchingdata=背包位置: %s, 孵化周期: %s, 进度: %s
 pixelmon.egg.stage1=已经可以听到里面的声音，就快孵化了
 pixelmon.egg.stage2=好像偶而会动一下，些许接近孵化。
 pixelmon.egg.stage3=会孵化出什么呢？离孵化还有一段时间。 
 pixelmon.egg.stage4=这颗蛋看起来会需要很长的时间来孵化。
 pixelmon.ranch.nopartner=这个饲养园里没有符合条件的神奇宝贝可以与%s的谈恋爱！ 
-pixelmon.ranch.notcompatible=这里没有任何一只能和%s的相处融洽的神奇宝贝！ 
-pixelmon.ranch.level0=%s的对%s的有好感，但是对饲养园环境感到不舒服！ 
-pixelmon.ranch.level1=%s的开始有一点点喜欢上%s的了！
-pixelmon.ranch.level2=%s 很喜欢 %s ！
+pixelmon.ranch.notcompatible=这里没有任何一只能和%s相处融洽的神奇宝贝！ 
+pixelmon.ranch.level0=%s的对%s有好感，但是对饲养园环境感到不舒服！ 
+pixelmon.ranch.level1=%s的开始有一点点喜欢上%s了！
+pixelmon.ranch.level2=%s 更加喜欢 %s 了！
 pixelmon.ranch.level3=%s和 %s 的爱每天都在飞速的成长着！
-pixelmon.ranch.level4=%s的疯狂地爱着%s的！ 
-pixelmon.ranch.maxaffection=%s的希望对%s的的爱尽可能越多越好！
+pixelmon.ranch.level4=%s疯狂地爱着%s！ 
+pixelmon.ranch.maxaffection=%s希望对%s的爱尽可能越多越好！
 ranch.hourglass.upgradedall=牧场里的所有精灵的感情都提升了一个等级！
 ranch.hourglass.upgrade=%s的感情提升了一个等级！
 gui.update.text=更新
@@ -4193,6 +4193,12 @@ key.nextpokemon=向下移动精灵槽
 key.previouspokemon=向上移动精灵槽
 key.sendpokemon=扔出精灵
 key.pokemonaction=选定此精灵为攻击目标
+
+halloween.entityname=鬼魂珠宝商
+halloween.gemregistered=鬼魂珠宝商收到了你的%s!
+halloween.alreadyregistered=%s已经收到了！
+halloween.alreadyawarded=你已经完成了这个任务。
+halloween.message=我这里可以交换你的神圣宝珠。
 
 
 
