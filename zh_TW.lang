@@ -15,7 +15,7 @@
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
-item.PC.name=個人電腦
+item.PC.name=電腦
 item.Ranch Block.name=牧場機組
 item.Anvil.name=鐵砧
 item.MechanicalAnvil.name=機械式鐵砧
@@ -242,7 +242,7 @@ item.Energy Powder.name=元氣之粉
 item.Energy Root.name=元氣之根
 item.Revival Herb.name=復活之草
 
-item.spawnGrotto.name=獎勵樹洞產生器
+item.spawnGrotto.name=隱藏洞穴產生器
 item.Mossy Rock.name=青苔岩石
 item.Icy Rock.name=冰之岩石
 item.Black Apricorn.name=黑色圓柑果實
@@ -1847,7 +1847,7 @@ pixelmon.marowak.name=嘎拉嘎拉
 pixelmon.marowak.description=可以熟練自如地運用自出生的時候就握著的骨頭棒，性情凶暴。
 pixelmon.hitmonchan.name=艾比郎
 pixelmon.hitmonchan.description=一邊旋轉手臂一邊出拳，連混凝土也能粉碎.每戰鬥3分鐘就要稍微休息一下。
-pixelmon.lickitung.name=大舌頭
+pixelmon.lickitung.name=大舌舔
 pixelmon.lickitung.description=伸長2米的舌頭，尾巴就會擺動，所以這兩個部位有連在一起的可能性。
 pixelmon.chansey.name=吉利蛋
 pixelmon.chansey.description=生出營養滿分的蛋分給受傷的神奇寶貝或人類，溫柔的神奇寶貝。
@@ -3055,8 +3055,8 @@ pixelmon.pokeballs.otherspokemon=你不能收服別人的神奇寶貝！
 pixelmon.pokeballs.statue=你不能收服雕像化的神奇寶貝！
 
 //storage
-pixelmon.storage.compfull=你沒有留些空位在你的個人電腦裡面！
-pixelmon.storage.partyfull=你身上的隊伍已經滿員，%s將會傳送到你的個人電腦！
+pixelmon.storage.compfull=你沒有留些空位在你的電腦裡面！
+pixelmon.storage.partyfull=你身上的隊伍已經滿員，%s將會傳送到你的電腦！
 
 //Held Items
 pixelmon.helditem.healedburn=%s已經從灼傷之中恢復！
@@ -3114,7 +3114,7 @@ achievement.NormalPokeLootChieve.desc=找到一個獎勵道具！
 achievement.LootMasterBallChieve=這就是掌門球！
 achievement.LootMasterBallChieve.desc=找到一個掌門球！！！
 achievement.GrottoChieve=這裡有一個通道...
-achievement.GrottoChieve.desc=找到一個獎勵樹洞！
+achievement.GrottoChieve.desc=找到一個隱藏洞穴！
 achievement.PokedexChieve=追求科技
 achievement.PokedexChieve.desc=製作一個神奇寶貝圖鑑。
 achievement.PokeballChieve=全部抓起來！
@@ -3578,7 +3578,7 @@ sendpixelmon.retrieved=你收回了%s！
 *   standing for its name.
 */
 tile.anvil.name=砧
-tile.pc.name=個人電腦
+tile.pc.name=電腦
 tile.mossy rock.name=青苔岩石
 tile.icy rock.name=冰之岩石
 tile.trade machine.name=神奇寶貝通訊機
@@ -4203,3 +4203,9 @@ key.nextpokemon=切換為隊伍裡下一個神奇寶貝
 key.previouspokemon=切換為隊伍裡上一個神奇寶貝
 key.sendpokemon=放出神奇寶貝
 key.pokemonaction=指定某個對象為攻擊目標
+
+halloween.entityname=鬼斯通(珠寶商)
+halloween.gemregistered=鬼斯通(珠寶商)接收了你的%s！
+halloween.alreadyregistered=%s已經被接收過了！
+halloween.alreadyawarded=你已經完成了這個任務！
+halloween.message=我在這裡接收你的神聖寶石！
