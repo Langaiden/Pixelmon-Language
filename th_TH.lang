@@ -2098,7 +2098,7 @@ pixelmon.natu.name= เนที
 pixelmon.natu.description=It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move.
 pixelmon.snivy.name= ซึทาจา
 pixelmon.snivy.description=Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.
-pixelmon.aipom.name= เอปอม
+pixelmon.aipom.name= เอปาม
 pixelmon.aipom.description=It lives high among the treetops. It can use its tail as freely and cleverly as its hands.
 pixelmon.rattata.name= โครัตตะ
 pixelmon.rattata.description=It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.
@@ -3431,7 +3431,7 @@ nbt.pp.name=สกิลที่เหลือ:
 
 nbt.attack2.name=โจมตี
 nbt.defense2.name=ป้องกัน
-nbt.speed2.name=ความเร็ม
+nbt.speed2.name=ความเร็ว
 nbt.spattack2.name=โจมตีแบบพิเศษ
 nbt.spdefense2.name=ป้องกันแบบพิเศษ
 nbt.hp2.name=เลือด
