@@ -15,7 +15,7 @@
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
-item.PC.name=個人電腦
+item.PC.name=電腦
 item.Ranch Block.name=牧場機組
 item.Anvil.name=鐵砧
 item.MechanicalAnvil.name=機械式鐵砧
@@ -147,7 +147,7 @@ item.Aluminum Base.name=鋁球座
 item.Balance Badge.name=天秤徽章
 item.Beacon Badge.name=燈塔徽章
 item.Boulder Badge.name=灰色徽章 
-Item.Cascade Badge.name=藍色徽章
+item.Cascade Badge.name=藍色徽章
 item.Coal Badge.name=石炭徽章
 item.Cobble Badge.name=圓石徽章
 item.Dynamo Badge.name=電力徽章
@@ -221,12 +221,28 @@ item.Qualot Berry.name=粉枇杷
 item.Hondew Berry.name=黃斑蜜瓜
 item.Grepa Berry.name=黃金葡
 item.Tamato Berry.name=辣茄
+item.Oran Berry.name=藍橘
+item.Rawst Berry.name=苦莓
+item.Leppa Berry.name=紅蘋
+item.ApicotBerry.name=青杏
+item.LiechiBerry.name=奇拉果
+item.GanlonBerry.name=龍佳果
+item.SalacBerry.name=天速果
+item.PetayaBerry.name=紅龍果
+item.LansatBerry.name=紅陽
+item.StarfBerry.name=綠星桃
+item.AguavBerry.name=綠樂芭
+item.FigBerry.name=辣椰果
+item.IapapaBerry.name=酸木瓜
+item.MagoBerry.name=甘芒
+item.WikiBerry.name=藍異奇果
+
 item.Heal Powder.name=萬能之粉
 item.Energy Powder.name=元氣之粉
 item.Energy Root.name=元氣之根
 item.Revival Herb.name=復活之草
 
-item.spawnGrotto.name=獎勵樹洞產生器
+item.spawnGrotto.name=隱藏洞穴產生器
 item.Mossy Rock.name=青苔岩石
 item.Icy Rock.name=冰之岩石
 item.Black Apricorn.name=黑色圓柑果實
@@ -348,6 +364,25 @@ item.Steel Gem.name=鋼之寶石
 item.Water Gem.name=水之寶石
 item.Fairy Gem.name=妖精寶石
 
+item.Bug Gem.special=神聖的蟲之寶石
+item.Dark Gem.special=神聖的惡之寶石
+item.Dragon Gem.special=神聖的龍之寶石
+item.Electric Gem.special=神聖的電之寶石
+item.Fighting Gem.special=神聖的格鬥寶石
+item.Fire Gem.special=神聖的炎之寶石
+item.Flying Gem.special=神聖的飛行寶石
+item.Ghost Gem.special=神聖的幽靈寶石
+item.Grass Gem.special=神聖的草之寶石
+item.Ground Gem.special=神聖的地上寶石
+item.Ice Gem.special=神聖的冰之寶石
+item.Normal Gem.special=神聖的一般寶石
+item.Poison Gem.special=神聖的毒之寶石
+item.Psychic Gem.special=神聖的超能寶石
+item.Rock Gem.special=神聖的岩石寶石
+item.Steel Gem.special=神聖的鋼之寶石
+item.Water Gem.special=神聖的水之寶石
+item.Fairy Gem.special=神聖的妖精寶石
+
 item.BlackBelt.name=黑色帶子
 item.BlackGlasses.name=黑色的眼鏡
 item.Charcoal.name=木炭
@@ -369,17 +404,19 @@ item.destinyKnot.name=紅線
 
 item.chisel.name=鑿
 item.ranchupgrade.name=牧場升級
+item.hourglassgold.name=Isi 的黃金沙漏
+item.hourglasssilver.name=Isi 的銀沙漏
 
-item.TM1 - Hone Claws.name=招式機1 - 磨爪子
-item.TM1 - Wide Guard.name=招式機1 - 全體防禦
-item.TM2 - Dragon Claw.name=招式機2 - 龍爪
-item.TM3 - Psyshock.name=招式機3 - 幻象攻擊
-item.TM4 - Calm Mind.name=招式機4 - 冥想
-item.TM5 - Roar.name=招式機5 - 吼叫
-item.TM6 - Toxic.name=招式機6 - 猛毒素
-item.TM7 - Hail.name=招式機7 - 冰雹
-item.TM8 - Bulk Up.name=招式機8 - 健美
-item.TM9 - Venoshock.name=招式機9 - 毒液攻擊
+item.TM1 - Hone Claws.name=招式機01 - 磨爪子
+item.TM1 - Wide Guard.name=招式機01 - 全體防禦
+item.TM2 - Dragon Claw.name=招式機02 - 龍爪
+item.TM3 - Psyshock.name=招式機03 - 幻象攻擊
+item.TM4 - Calm Mind.name=招式機04 - 冥想
+item.TM5 - Roar.name=招式機05 - 吼叫
+item.TM6 - Toxic.name=招式機06 - 猛毒素
+item.TM7 - Hail.name=招式機07 - 冰雹
+item.TM8 - Bulk Up.name=招式機08 - 健美
+item.TM9 - Venoshock.name=招式機09 - 毒液攻擊
 item.TM10 - Hidden Power.name=招式機10 - 催醒
 item.TM11 - Sunny Day.name=招式機11 - 大晴天
 item.TM12 - Taunt.name=招式機12 - 挑撥
@@ -466,16 +503,16 @@ item.TM92 - Trick Room.name=招式機92 - 騙術空間
 item.TM93 - Wild Charge.name=招式機93 - 瘋狂伏特
 item.TM94 - Rock Smash.name=招式機94 - 岩石粉碎
 item.TM95 - Snarl.name=招式機95 - 大聲咆嘯
-item.HM1 - Cut.name=秘技1 - 居合斬
-item.HM2 - Fly.name=祕技2 - 飛空
-item.HM3 - Surf.name=秘技3 - 衝浪
-item.HM4 - Strength.name=祕技4 - 怪力
-item.HM5 - Defog.name=祕技5 - 清除濃霧
-item.HM6 - Rock Smash.name=祕技6 - 碎岩
-item.HM7 - Waterfall.name=祕技7 - 攀瀑
-item.HM8 - Rock Climb.name=祕技8 - 攀岩
-item.HM9 - Whirlpool.name=祕技9 - 漩渦
-item.HM10 - Dive.name=祕技10 - 潛水
+item.HM1 - Cut.name=秘傳機01 - 居合斬
+item.HM2 - Fly.name=祕傳機02 - 飛空
+item.HM3 - Surf.name=秘傳機03 - 衝浪
+item.HM4 - Strength.name=祕傳機04 - 怪力
+item.HM5 - Defog.name=祕傳機05 - 清除濃霧
+item.HM6 - Rock Smash.name=祕傳機06 - 碎岩
+item.HM7 - Waterfall.name=祕傳機07 - 攀瀑
+item.HM8 - Rock Climb.name=祕傳機08 - 攀岩
+item.HM9 - Whirlpool.name=祕傳機09 - 漩渦
+item.HM10 - Dive.name=祕傳機10 - 潛水
 
 item.PokeMail-air.name=天空郵件
 item.PokeMail-bloom.name=綻放郵件
@@ -1640,6 +1677,7 @@ attack.shadow sneak.description=伸長影子，從對方的背後攻擊對方。
 
 
 
+
 //Pixelmon and their descriptions
 /*
 *   The ones with name at the end are their names and the ones with description
@@ -1809,7 +1847,7 @@ pixelmon.marowak.name=嘎拉嘎拉
 pixelmon.marowak.description=可以熟練自如地運用自出生的時候就握著的骨頭棒，性情凶暴。
 pixelmon.hitmonchan.name=艾比郎
 pixelmon.hitmonchan.description=一邊旋轉手臂一邊出拳，連混凝土也能粉碎.每戰鬥3分鐘就要稍微休息一下。
-pixelmon.lickitung.name=大舌頭
+pixelmon.lickitung.name=大舌舔
 pixelmon.lickitung.description=伸長2米的舌頭，尾巴就會擺動，所以這兩個部位有連在一起的可能性。
 pixelmon.chansey.name=吉利蛋
 pixelmon.chansey.description=生出營養滿分的蛋分給受傷的神奇寶貝或人類，溫柔的神奇寶貝。
@@ -2973,6 +3011,7 @@ pixelmon.command.heal.healed=成功治療了%s的神奇寶貝！
 pixelmon.command.heal.notifyhealed=%s成功治癒了%s的神奇寶貝！
 pixelmon.command.spawn.spawned=成功生成了%s。
 pixelmon.command.spawn.spawnednotify=%s成功生成了%s。
+pixelmon.command.unlock=Successfully unlocked %s's locked pokemon
 
 //other
 pixelmon.drops.fullinventory=你的包包已經滿了！%s掉在地上！
@@ -3016,8 +3055,8 @@ pixelmon.pokeballs.otherspokemon=你不能收服別人的神奇寶貝！
 pixelmon.pokeballs.statue=你不能收服雕像化的神奇寶貝！
 
 //storage
-pixelmon.storage.compfull=你沒有留些空位在你的個人電腦裡面！
-pixelmon.storage.partyfull=你身上的隊伍已經滿員，%s將會傳送到你的個人電腦！
+pixelmon.storage.compfull=你沒有留些空位在你的電腦裡面！
+pixelmon.storage.partyfull=你身上的隊伍已經滿員，%s將會傳送到你的電腦！
 
 //Held Items
 pixelmon.helditem.healedburn=%s已經從灼傷之中恢復！
@@ -3033,7 +3072,6 @@ pixelmon.helditem.absorbowner=%s的%s因為身上攜帶了球根，因此提升�
 pixelmon.helditem.absorbwild=野生的%s因為身上攜帶了球根，因此提升了特攻！
 pixelmon.helditem.lifeowner=%s使用了身上的生命之玉提升了技能威力，但同時也損失了些許HP！
 pixelmon.helditem.metronomeowner=%s因為身上攜帶了節拍器，因此提升了技能威力！
-pixelmon.helditem.musclebandowner=%s因為身上攜帶了力量頭巾，因此提升了物理技能威力！
 pixelmon.helditems.consumegem=%s剛剛吃掉了身上的寶石，增強了傷害！
 
 //Battle Items
@@ -3076,7 +3114,7 @@ achievement.NormalPokeLootChieve.desc=找到一個獎勵道具！
 achievement.LootMasterBallChieve=這就是掌門球！
 achievement.LootMasterBallChieve.desc=找到一個掌門球！！！
 achievement.GrottoChieve=這裡有一個通道...
-achievement.GrottoChieve.desc=找到一個獎勵樹洞！
+achievement.GrottoChieve.desc=找到一個隱藏洞穴！
 achievement.PokedexChieve=追求科技
 achievement.PokedexChieve.desc=製作一個神奇寶貝圖鑑。
 achievement.PokeballChieve=全部抓起來！
@@ -3246,7 +3284,6 @@ gui.screenpokechecker.status=狀態
 gui.screenpokechecker.fainted=*昏厥*
 gui.screenpokechecker.texp=總經驗值
 gui.screenpokechecker.levelup=達到經驗值
-gui.screenpokechecker.to=就會升級至
 gui.screenpokechecker.summary=概要
 gui.screenpokechecker.ot=訓練師
 gui.screenpokechecker.ability=能力
@@ -3297,7 +3334,7 @@ gui.trainereditor.win=勝利
 gui.trainereditor.lose=失敗
 gui.trainereditor.winningdrops=掉落物
 gui.trainereditor.adddrops=新增掉落物
-gui.trainereditor.enteritemname=輸入物品的名字或ID
+gui.trainereditor.enteritemname=輸入物品的英文名或ID
 gui.trainereditor.winningdrops=掉落物
 gui.trainereditor.randomise=隨機
 gui.trainereditor.edit=編輯
@@ -3305,7 +3342,7 @@ gui.trainereditor.add=新增
 gui.trainereditor.deletelastpoke=刪除最後的神奇寶貝
 gui.trainereditor.delete=刪除訓練師
 gui.trainereditor.pokemoneditor=訓練師編輯器 - 神奇寶貝編輯器
-gui.trainereditor.name=名字
+gui.trainereditor.name=名稱
 gui.trainereditor.shiny=色違
 gui.trainereditor.normal=普通
 gui.trainereditor.male=雄性
@@ -3399,12 +3436,11 @@ gui.mainmenu.cantswitch=現在不能夠切換神奇寶貝！
 gui.mainmenu.traped=$p被困住了！現在不能夠逃跑！
 gui.mainmenu.trainer=你不能夠避開訓練師的戰鬥！
 
-
 gui.choosebag.pokeballs=捕捉球
 gui.choosebag.hppp=HP/PP恢復
 gui.choosebag.statusrestore=狀態恢復
 gui.choosebag.battleitems=戰鬥道具
-gui.choosebag.nopokeballs=你不能在這場戰鬥中不能夠使用寶貝球！
+gui.choosebag.nopokeballs=你不能在這場戰鬥中使用寶貝球！
 
 gui.choosepokemon.select=選擇一個神奇寶貝使用 
 gui.choosepokemon.sendout=選擇一個神奇寶貝進行戰鬥
@@ -3426,6 +3462,10 @@ gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=擴大牧場面積
 gui.ranch.empty=牧場內沒有神奇寶貝
+ranch.hourglass.upgradedall=所有牧場裡神奇寶貝的感情階段都提升了一個等級！
+ranch.hourglass.upgrade=%s的感情階段提升了一個等級！
+
+container.MechanicalAnvil=機械鐵砧
 
 attack.category.physical=物理
 attack.category.special=特殊
@@ -3538,7 +3578,7 @@ sendpixelmon.retrieved=你收回了%s！
 *   standing for its name.
 */
 tile.anvil.name=砧
-tile.pc.name=個人電腦
+tile.pc.name=電腦
 tile.mossy rock.name=青苔岩石
 tile.icy rock.name=冰之岩石
 tile.trade machine.name=神奇寶貝通訊機
@@ -3990,7 +4030,7 @@ pixelmon.stat.attackraised=攻擊力提升了！
 pixelmon.stat.defense=防禦提升了！
 
 pixelmon.effect.regainedenergy=%s重獲能量！
-pixelmon.effect.atedreams=%s吃掉%s的夢！
+pixelmon.effect.atedreams=%s吃掉了%s的夢！
 pixelmon.effect.notasleep=%s沒有睡著！
 pixelmon.effect.effectfailed=但是失敗了！
 pixelmon.effect.foresawattack=%s預知到危險而害怕得顫抖！
@@ -4152,3 +4192,20 @@ pixelmon.status.noeffect=沒有效果！
 
 attack.curse.alreadycursed=%s已經受到詛咒！
 attack.curse.curse=%s削減了自己的HP，使%s進入了詛咒狀態！
+
+tile.MechanicalAnvil.name=機械鐵砧
+
+// Add key names from options menu
+key.categories.pixelmon=Pixelmon - 神奇寶貝模組
+key.descend=使用水之坐騎時下潛
+key.minmaxoverlay=顯示/隱藏左側隊伍列資訊
+key.nextpokemon=切換為隊伍裡下一個神奇寶貝
+key.previouspokemon=切換為隊伍裡上一個神奇寶貝
+key.sendpokemon=放出神奇寶貝
+key.pokemonaction=指定某個對象為攻擊目標
+
+halloween.entityname=鬼斯通(珠寶商)
+halloween.gemregistered=鬼斯通(珠寶商)接收了你的%s！
+halloween.alreadyregistered=%s已經被接收過了！
+halloween.alreadyawarded=你已經完成了這個任務！
+halloween.message=我在這裡接收你的神聖寶石！
