@@ -392,6 +392,9 @@ item.hourglassgold.name=Isi的金色的沙漏
 item.hourglasssilver.name=Isi的银色的沙漏
 
 item.HiddenPressurePlate.name=隐藏的压力板
+item.HiddenCube.name=隐藏的方块
+item.HiddenIronDoor.name=隐藏的铁门
+item.HiddenWoodenDoor.name=隐藏的木门
 
 item.TM1 - Hone Claws.name=技能学习器01 - 磨爪子
 item.TM1 - Wide Guard.name=技能学习器01 - 全体防御
