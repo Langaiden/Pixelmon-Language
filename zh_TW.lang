@@ -34,6 +34,10 @@ item.Green Tank.name=克隆機組件(左)
 item.Orange Tank.name=克隆機組件(右)
 item.Cloner Cord.name=克隆機組件連接線(中)
 item.Fossil Cleaner.name=化石洗淨機
+item.HiddenCube.name=隱藏式方塊
+item.HiddenIronDoor.name=隱藏式鐵門
+item.HiddenWoodenDoor.name=隱藏式木門
+item.HiddenPressurePlate.name=隱藏式壓力板
 item.Pokedex.name=神奇寶貝圖鑒
 item.Wood Hammer.name=木錘
 item.Stone Hammer.name=石錘
@@ -3363,9 +3367,9 @@ gui.trainereditor.changeTrader=切換成交換者
 
 gui.overlay1v1.lv=Lv. 
 
-gui.starter.trademark1=這是一個粉絲所做的模組， 而所有神奇寶貝商標和版權歸
-gui.starter.trademark2=Nintendo 和 Game Freak Inc. 所有
-gui.starter.trademark3=支持 Nintendo/Game Freak 的話，請購買神奇寶貝 X/Y #初始譯者：墨水 / 後續校對＆更新：Zih_Ying
+gui.starter.trademark1=這是國外粉絲所做的模組，所有神奇寶貝商標和版權歸Nintendo 和 Game Freak Inc. 所有
+gui.starter.trademark2=支持 Nintendo/Game Freak 的話，請購買神奇寶貝 X/Y
+gui.starter.trademark3=#初始譯者：墨水 / 後續校對＆更新：Zih_Ying
 gui.starter.trademark4=歡迎來到神奇寶貝世界!! 感謝您安裝這個模組!
 gui.starter.trademark5=現在請選擇您未來的伙伴!
 gui.starter.commingsoon=即將開放...
@@ -3378,6 +3382,7 @@ gui.label.text=標籤
 gui.save.text=存檔
 gui.texture.text=紋理
 gui.cancel.text=取消
+gui.description.text=描述
 
 enum.aggro.timid=膽小
 enum.aggro.default=默認
