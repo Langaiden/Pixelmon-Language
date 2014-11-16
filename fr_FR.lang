@@ -38,6 +38,10 @@ item.Green Tank.name=Réservoir Vert
 item.Orange Tank.name=Réservoir Orange
 item.Cloner Cord.name=Cordon de Cloneur
 item.Fossil Cleaner.name=Nettoyeur de fossile
+ item.HiddenCube.name=Bloc Invisible
+ item.HiddenIronDoor.name=Porte en Fer Invisible
+ item.HiddenWoodenDoor.name=Porte en Bois Invisible
++item.HiddenPressurePlate.name=Plaque de Pression Invisible
 item.Pokedex.name=Pokédex
 
 item.Wood Hammer.name=Marteau en Bois
