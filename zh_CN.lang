@@ -1,5 +1,6 @@
 //简体中文译者：神秘幻想服务器群组 TT702
-//Simplified Chinese Translators: McMySticalCraft 'TT702'
+//汉化协力(修正润色)：Yyiyun
+//Simplified Chinese Translators: McMySticalCraft 'TT702' And 'Yyiyun'
 
 item.PC.name=PC
 item.Ranch Block.name=牧场方块[神奇宝贝]
@@ -3344,7 +3345,7 @@ gui.overlay1v1.lv=Lv.
 
 gui.starter.trademark1=这是一个由国外粉丝制作的Mod，里面使用的神奇宝贝等资料版权均属于
 gui.starter.trademark2=任天堂 和 Game Freak 公司。 简体中文语言由 神秘幻想服务器 TT702 提供。
-gui.starter.trademark3=如果你们想要支持他们就去买3DS和XY吧！
+gui.starter.trademark3=如果你们想要支持他们就去买(New)3DS和XY(ORAS)吧！
 gui.starter.trademark4=欢迎来到由Pixelmon为您提供的神奇宝贝世界！
 gui.starter.trademark5=现在请选择与您成为伙伴的初学者神奇宝贝！
 gui.starter.commingsoon=即将开放…
