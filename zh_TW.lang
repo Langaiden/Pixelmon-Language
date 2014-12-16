@@ -288,9 +288,11 @@ item.Moon Stone.name=月之石
 item.Thunder Stone.name=雷之石
 item.Leaf Stone.name=葉之石
 item.Dusk Stone.name=闇之石
+item.Dawn Stone.name=覺醒之石
 item.Thunder Stone Shard.name=雷之石碎片
 item.Leaf Stone Shard.name=葉之石碎片
 item.Dusk Stone Shard.name=闇之石碎片
+item.Dawn Stone Shard.name=覺醒之石碎片
 item.Water Stone Shard.name=水之石碎片
 item.Fire Stone Shard.name=火之石碎片
 item.Sun Stone Shard.name=太陽石碎片
@@ -3590,6 +3592,7 @@ tile.Fire Stone Ore.name=火之石礦
 tile.Water Stone Ore.name=水之石礦
 tile.Leaf Stone Ore.name=葉之石礦
 tile.Dusk Stone Ore.name=闇之石礦
+tile.DawnDusk Ore.name=覺醒/闇之石礦
 tile.Thunder Stone Ore.name=雷之石礦
 tile.Sun Stone Ore.name=太陽石礦
 tile.Dawn Stone Ore.name=霞礦
@@ -3635,6 +3638,7 @@ tile.templeBlock.name=神社座
 tile.templeStairs.name=神社梯
 tile.templeBrickStairs.name=神社磚梯
 tile.templePillar.name=神社支柱
+
 
 ability.Adaptability.name=適應力
 ability.Adaptability.description=增強同屬性技能的力量。屬性一致加成的效果從1.5×提升到2×。
