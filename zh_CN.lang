@@ -4201,3 +4201,9 @@ halloween.gemregistered=灵魂珠宝商收到了您的 %s！
 halloween.alreadyregistered=%s 已收到！
 halloween.alreadyawarded=您已经完成了这个任务！
 halloween.message=你可以在我这里交换神圣宝石！
+
+christmas.notchristmas=你必须等待直到圣诞节到来才可以打开礼物哦！
+christmas.ischristmas=Pixelmon开发团队给您献上的圣诞节祝福！
+christmas.received=信使鸟给你带来了圣诞节礼品！
+christmas.alreadygifted=你已经打开了一个圣诞节礼品了呢…
+item.Gift Box.name=礼品箱
