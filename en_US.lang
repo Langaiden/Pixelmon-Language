@@ -3019,6 +3019,7 @@ pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pixelmon!
 pixelmon.command.spawn.spawned=Successfully spawned a %s
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
 pixelmon.command.unlock=Successfully unlocked %s's locked pokemon
+pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 
 //other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
