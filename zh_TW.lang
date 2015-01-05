@@ -4213,3 +4213,9 @@ halloween.gemregistered=鬼斯通(珠寶商)接收了你的%s！
 halloween.alreadyregistered=%s已經被接收過了！
 halloween.alreadyawarded=你已經完成了這個任務！
 halloween.message=我在這裡接收你的神聖寶石！
+
+christmas.notchristmas=你必須等到聖誕節到來才可以打開這個禮物！
+christmas.ischristmas=Pixelmon製作團隊祝大家聖誕節快樂！
+christmas.received=你從信使鳥的身上得到了一個聖誕禮物！
+christmas.alreadygifted=你已經打開過了一個聖誕禮物！
+item.Gift Box.name=禮物盒

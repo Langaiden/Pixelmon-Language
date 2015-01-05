@@ -3019,6 +3019,7 @@ pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pixelmon!
 pixelmon.command.spawn.spawned=Successfully spawned a %s
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
 pixelmon.command.unlock=Successfully unlocked %s's locked pokemon
+pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 
 //other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -4221,3 +4222,9 @@ halloween.gemregistered=The Spectral Jeweller recieved your %s!
 halloween.alreadyregistered=%s has already been recieved!
 halloween.alreadyawarded=You have already finished this quest!
 halloween.message=I'm here to exchange your hallowed gems!
+
+christmas.notchristmas=You must wait until Christmas to open this gift!
+christmas.ischristmas=Merry Christmas from the Pixelmon Development Team!
+christmas.received=You have received a Christmas gift from Delibird!
+christmas.alreadygifted=You have already opened a Christmas gift!
+item.Gift Box.name=Gift Box
