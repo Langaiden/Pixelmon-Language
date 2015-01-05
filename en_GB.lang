@@ -3031,6 +3031,7 @@ pixelmon.interaction.tmknown=%s already knows %s!
 pixelmon.interaction.tmcantlearn=%s can't learn %s!
 pixelmon.interaction.vitamin=%s's Friendship and EV's have increased.
 pixelmon.interaction.berry=%s's Friendship has increased but their EV's have decreased.
+pixelmon.interaction.berryfail=%s's EV's are already maxed out!
 
 pixelmon.general.noeffect=It has no effect!
 pixelmon.general.needop=You must be an OP to perform this action.
@@ -3375,7 +3376,7 @@ gui.starter.trademark2=by Nintendo and Game Freak Inc.
 gui.starter.trademark3=Support Nintendo/Game Freak by buying Pokémon X/Y
 gui.starter.trademark4=Welcome to the world of Pixelmon!! Thank you for installing this mod!
 gui.starter.trademark5=Now, please pick your desired starter Pokémon!
-gui.starter.commingsoon=Coming Soon...
+gui.starter.comingsoon=Coming Soon...
 gui.starter.disabled=Disabled
 
 gui.pc.box=Box:
