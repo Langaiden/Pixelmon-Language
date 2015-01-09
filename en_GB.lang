@@ -3163,14 +3163,14 @@ achievement.dex100Chieve=Pokedex: Pixelmon Master!
 achievement.dex100Chieve.desc=Complete the Pokedex
 
 //Abilities
-pixelmon.abilities.bigpecks=%s's Big Pecks prevents Defense loss!
+pixelmon.abilities.bigpecks=%s's Big Pecks prevents defence loss!
 pixelmon.abilities.cutecharm=%s's Cute Charm infatuated %s!
 pixelmon.abilities.dryskinheal=Dry Skin made %s heal %s instead!
 pixelmon.abilities.dryskinused=%s used %s!
 pixelmon.abilities.dryskinrain=%s regained HP because of its Dry Skin!
 pixelmon.abilities.dryskinsun=%s was hurt because of its Dry Skin!
 pixelmon.abilities.effectsporesleep=%s's Effect Spore put %s to sleep!
-pixelmon.abilities.effectsporeparal=%s's Effect Spore paralyzed %s!
+pixelmon.abilities.effectsporeparal=%s's Effect Spore paralysed %s!
 pixelmon.abilities.effectsporepois=%s's Effect Spore poisoned %s!
 pixelmon.abilities.flamebody=%s's Flame Body burnt %s!
 pixelmon.abilities.flashfire=Flash Fire boosted the power of %s's fire!
@@ -3191,7 +3191,7 @@ pixelmon.abilities.raindish=%s was healed by Rain Dish!
 pixelmon.abilities.roughskin=%s's Rough Skin hurt %s!
 pixelmon.abilities.sapsipper=Sap Sipper raised %s's Attack!
 pixelmon.abilities.sapsipper2=%s's Sap Sipper negated the attack!
-pixelmon.abilities.static=%s's Static paralyzed %s!
+pixelmon.abilities.static=%s's Static paralysed %s!
 pixelmon.abilities.speedboost=%s's speed was boosted because of Speed Boost!
 pixelmon.abilities.soundproof=%s's Soundproof rendered the attack useless!
 pixelmon.abilities.snowwarning=%s made it hail with Snow Warning!
