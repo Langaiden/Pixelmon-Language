@@ -329,10 +329,11 @@ item.Dragon Scale.name=Dragon Scale
 item.RazorClaw.name=Razor Claw
 item.AbsorbBulb.name=Absorb Bulb
 item.Life Orb.name=Life Orb
-item.Focus Sash.name=Focus Sash
-item.Focus Band.name=Focus Band
+item.FocusSash.name=Focus Sash
+item.FocusBand.name=Focus Band
 item.ToxicOrb.name=Toxic Orb
 item.FlameOrb.name=Flame Orb
+item.BlackSludge.name=Black Sludge
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
