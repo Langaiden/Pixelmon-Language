@@ -3068,20 +3068,24 @@ pixelmon.storage.compfull=You have no space left in your computer!
 pixelmon.storage.partyfull=Your party is full, %s was sent to your computer!
 
 //Held Items
-pixelmon.helditem.healedburn=%s was healed of it's burn!
-pixelmon.helditem.cellowner=%s's %s raised it's attack using its Cell Battery!
-pixelmon.helditem.cellwild=The wild %s raised it's attack using its Cell Battery!
+pixelmon.helditem.healedburn=%s was healed of its burn!
+pixelmon.helditem.cellowner=%s's %s raised its Attack using its Cell Battery!
+pixelmon.helditem.cellwild=The wild %s raised its Attack using its Cell Battery!
 pixelmon.helditems.consumeleppa=%s just consumed a Leppa Berry. %s gained 10 pp!
 pixelmon.helditems.consumeoran=%s just consumed an Oran Berry and gained 10 health!
-pixelmon.helditems.consumerawst=%s just consumed a Rawst Berry and was healed of it's burn!
+pixelmon.helditems.consumerawst=%s just consumed a Rawst Berry and was healed of its burn!
 pixelmon.helditems.shellbellowner=%s's %s restored a little HP using its Shell Bell!
 pixelmon.helditems.shellbellwild=The wild %s restored a little HP using its Shell Bell!
 pixelmon.helditems.gainedtenhp=%s gained 10 health!
 pixelmon.helditem.absorbowner=%s's %s raised its Sp.Attack using its Absorb Bulb!
 pixelmon.helditem.absorbwild=The wild %s raised its Sp.Attack using its Absorb Bulb!
-pixelmon.helditem.lifeowner=%s's power has increased, but it received recoil damage!
-pixelmon.helditem.metronomeowner=%s power has increased due to it's Metronome!
-pixelmon.helditems.consumegem=%s just consumed a Gem and increased it's damage!
+pixelmon.helditem.lifeowner=%s's power increased, but it received recoil damage!
+pixelmon.helditem.metronomeowner=%s power has increased due to its Metronome!
+pixelmon.helditems.consumegem=%s just consumed a Gem and increased its damage!
+pixelmon.helditems.focussash=%s held on using its Focus Sash!
+pixelmon.helditems.focusband=%s held on using its Focus Band!
+pixelmon.helditems.blacksludgepsn=%s was hurt by its Black Sludge!
+pixelmon.helditems.blacksludge=%s regained health due to its Black Sludge!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised it's attack using X Attack!
