@@ -3026,7 +3026,10 @@ pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the conf
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
 pixelmon.drops.single=You received a %s!
 pixelmon.drops.singlean=You received an %s!
+pixelmon.drops.singlenoa=You received %s!
 pixelmon.drops.plural=You received %d %ss!
+pixelmon.drops.plural2=You received %d %s!
+pixelmon.drops.plurales=You received %d %ses!
 
 pixelmon.interaction.rarecandy=%s's leveling is disabled.
 pixelmon.interaction.tmknown=%s already knows %s!
