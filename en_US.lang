@@ -3087,6 +3087,7 @@ pixelmon.helditems.shellbellwild=The wild %s restored a little HP using its Shel
 pixelmon.helditems.gainedtenhp=%s gained 10 health!
 pixelmon.helditem.absorbowner=%s's %s raised its Sp.Attack using its Absorb Bulb!
 pixelmon.helditem.absorbwild=The wild %s raised its Sp.Attack using its Absorb Bulb!
+pixelmon.helditems.leftovers=%s's Leftovers restored some of its health!
 pixelmon.helditem.lifeowner=%s's power increased, but it received recoil damage!
 pixelmon.helditem.metronomeowner=%s power has increased due to its Metronome!
 pixelmon.helditems.consumegem=%s just consumed a Gem and increased its damage!
