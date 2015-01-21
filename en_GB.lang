@@ -3037,9 +3037,11 @@ pixelmon.drops.plurales=You received %d %ses!
 pixelmon.interaction.rarecandy=%s's levelling is disabled.
 pixelmon.interaction.tmknown=%s already knows %s!
 pixelmon.interaction.tmcantlearn=%s can't learn %s!
-pixelmon.interaction.vitamin=%s's Friendship and EV's have increased.
-pixelmon.interaction.berry=%s's Friendship has increased but their EV's have decreased.
-pixelmon.interaction.berryfail=%s's EV's are already maxed out!
+pixelmon.interaction.vitamin=%s's Friendship and EVs have increased.
+pixelmon.interaction.vitaminfail=%s's EVs can't be increased by the vitamin any further.
+pixelmon.interaction.berry=%s's Friendship has increased but its EVs have decreased.
+pixelmon.interaction.berryfriend=%s's Friendship has increased.
+pixelmon.interaction.berryfail=%s's EVs can't go lower.
 
 pixelmon.general.noeffect=It has no effect!
 pixelmon.general.needop=You must be an OP to perform this action.
@@ -3056,8 +3058,8 @@ pixelmon.stats.learnedmove=%s just learnt %s!
 
 pixelmon.entities.syncpassed=Synchronize passed it onto %s
 
-pixelmon.entitytrainer.goodrod=You received a GoodRod!
-pixelmon.entitytrainer.superod=You received a SuperRod!
+pixelmon.entitytrainer.goodrod=You received a Good Rod!
+pixelmon.entitytrainer.superrod=You received a Super Rod!
 
 pixelmon.statue.despawn=The pixelmon has been despawned.
 
@@ -4079,7 +4081,8 @@ pixelmon.effect.atedreams=%s ate %s's dream!
 pixelmon.effect.notasleep=%s is not asleep!
 pixelmon.effect.effectfailed=But it failed!
 pixelmon.effect.foresawattack=%s foresaw an attack!
-pixelmon.effect.modifierscleared=All stat changes were eliminated
+pixelmon.effect.modifierscleared=All stat changes were eliminated!
+pixelmon.effect.clearsmog=%s's stat changes were eliminated!
 pixelmon.effect.washealed=%s was healed!
 pixelmon.effect.healother=%s healed %s!
 pixelmon.effect.hurtlanding=%s kept on going and hurt itself trying to land!
