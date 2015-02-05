@@ -3004,9 +3004,12 @@ pixelmon.command.copyToDB.disabled=保存到数据库设置未启动!
 
 //other
 pixelmon.drops.fullinventory=您的物品栏已经满了！ %s 掉落到了地上！
-pixelmon.drops.single=您获得了一个 %s!
-pixelmon.drops.singlean=您获得了一个 %s!
+pixelmon.drops.single=您获得了一个 %s！
+pixelmon.drops.singlean=您获得了一个 %s！
 pixelmon.drops.plural=您获得了 %d 个 %s！
+pixelmon.drops.singlenoa=您获得了 %s！
+pixelmon.drops.plural2=您获得了 %d %s！
+pixelmon.drops.plurales=您获得了 %d %ses!
 
 pixelmon.interaction.rarecandy=%s 的升级功能已关闭
 pixelmon.interaction.tmknown=%s 已经学会了 %s!
@@ -3064,6 +3067,10 @@ pixelmon.helditem.lifeowner=%s 的力量由于生命宝珠增加了，但是它�
 pixelmon.helditem.metronomeowner=%s 的技能威力因为携带了节拍器而提升！
 pixelmon.helditem.musclebandowner=%s 的物理技能威力因为携带了力量头巾而提升！
 pixelmon.helditems.consumegem=%s 使用宝石提高了攻击力！
+pixelmon.helditems.focussash=%s 利用自身的振奋精神的绑带坚持了下来！
+pixelmon.helditems.focusband=%s 利用自身的振奋精神的头布坚持了下来！
+pixelmon.helditems.blacksludgepsn=%s 受到了来自黑色淤泥的伤害！
+pixelmon.helditems.blacksludge=%s 的HP由于黑色淤泥得到了恢复！
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s 的 %s 使用力量增强增加了攻击力
@@ -3147,6 +3154,7 @@ achievement.dex100Chieve.desc=口袋妖怪图鉴全部收集完毕~！
 
 //Abilities
 pixelmon.abilities.bigpecks=%s 的鸽胸让自己的防御力下降了！
+pixelmon.abilities.clearbody=%s 的透明体防止了自身的能力被降低！
 pixelmon.abilities.cutecharm=%s 的迷人身躯魅惑了 %s！
 pixelmon.abilities.dryskinheal=干燥皮肤让 %s 回复了 %s ！
 pixelmon.abilities.dryskinused=%s 使用 %s！
@@ -3156,9 +3164,9 @@ pixelmon.abilities.effectsporesleep=%s 的孢子让 %s 睡着了！
 pixelmon.abilities.effectsporeparal=%s 的孢子麻痹了 %s！
 pixelmon.abilities.effectsporepois=%s 的孢子让 %s 中毒了！
 pixelmon.abilities.flamebody=%s 的火焰体灼伤了 %s ！
-pixelmon.abilities.flashfire=延烧提高了 %s 的火系威力!
+pixelmon.abilities.flashfire=%s 的延烧提高了自身的火系威力！
 pixelmon.abilities.hypercut=%s 的怪力剪刀使 %s 不会下降攻击力！
-pixelmon.abilities.insomnia=%s 的失眠是它保持清醒！
+pixelmon.abilities.insomnia=%s 的失眠使它保持清醒！
 pixelmon.abilities.intimidate=威吓降低了 %s 的攻击力！
 pixelmon.abilities.ironbarbs=%s 的铁刺荆棘使 %s 受伤了！
 pixelmon.abilities.keeneye=%s 的锐利目光使得自己不会下降命中率
@@ -3168,9 +3176,11 @@ pixelmon.abilities.magmaarmor=%s 的岩浆防护防止了它陷入冰冻状态�
 pixelmon.abilities.motordrive=电气引擎使 %s 的速度上升！
 pixelmon.abilities.motordrive2=%s 的电气引擎使攻击无效！
 pixelmon.abilities.oblivious=%s 的迟钝使攻击无效
+pixelmon.abilities.poisonheal=毒疗治疗了 %s!
 pixelmon.abilities.poisonpoint=%s 的毒刺让 %s 中毒了！
 pixelmon.abilities.poisontouch=%s 的毒手让 %s 中毒了！
 pixelmon.abilities.raindish=%s 因为雨盘回复了HP！
+pixelmon.abilities.rattled=%s 的颤抖提高了它的速度！
 pixelmon.abilities.roughskin=%s 的蛇皮伤到了 %s！
 pixelmon.abilities.sapsipper=草食使 %s 的攻击无效！
 pixelmon.abilities.sapsipper2=%s 的草食使它的攻击提升！
@@ -3186,6 +3196,10 @@ pixelmon.abilities.wonderguard=%s 的奇异守护抵御了攻击！
 pixelmon.abilities.moxieboost=%s 的勇气因为攻击提高了！
 pixelmon.abilities.moxiemax=%s 的勇气不能再通过攻击提高了！
 pixelmon.abilities.sturdy=%s 因为结实的特性免于了一击必杀！
+pixelmon.abilities.sturdy2=%s 的结实使攻击无效！
+pixelmon.abilities.whitesmoke=%s 的白色烟雾防止了能力的下降！
+pixelmon.abilities.wonderguard=%s 的奇异守护防止了攻击！
+
 
 
 //Breeding
