@@ -3217,11 +3217,15 @@ pixelmon.abilities.speedboost=%s's Speed was boosted because of Speed Boost!
 pixelmon.abilities.snowwarning=%s made it hail with Snow Warning!
 pixelmon.abilities.soundproof=%s's Soundproof rendered the attack useless!
 pixelmon.abilities.static=%s's Static paralysed %s!
+pixelmon.abilities.steadfast=%s's Speed was boosted by Steadfast!
 pixelmon.abilities.sturdy=%s just hung on with Sturdy!
 pixelmon.abilities.sturdy2=%s's Sturdy negated the attack!
+pixelmon.abilities.trace=%s traced %s's %s!
 pixelmon.abilities.vitalspirit=%s's Vital Spirit kept it awake!
 pixelmon.abilities.voltabsorb=Volt Absorb drew in the attack and healed %s!
 pixelmon.abilities.waterabsorb=Water Absorb drew in the attack and healed %s!
+pixelmon.abilities.weakarmor=Weak Armour lowered %s's Defence!
+pixelmon.abilities.weakarmor2=Weak Armour raised %s's Speed!
 pixelmon.abilities.whitesmoke=%s's White Smoke prevents stat loss!
 pixelmon.abilities.wonderguard=%s's Wonder Guard prevented the attack!
 
