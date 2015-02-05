@@ -4289,6 +4289,9 @@ pixelmon.status.toxicspikesbadlypoisoned=The toxic spikes badly poisoned %s!
 pixelmon.status.trickroomreturntonormal=The room returns to normal...
 pixelmon.status.ragebuilding=%s's rage is building!
 pixelmon.status.fellasleep=%s fell asleep!
+pixelmon.status.taunted=%s fell for the taunt!
+pixelmon.status.tauntcantuse=%s can't use %s because of the taunt!
+pixelmon.status.tauntnolonger=%s's is no longer taunted!
 pixelmon.status.noeffect=No effect!
 
 attack.curse.alreadycursed=%s is already cursed!
