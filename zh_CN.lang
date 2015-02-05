@@ -3099,7 +3099,7 @@ pixelmon.blocks.tradefull=交换机已满！
 
 pixelmon.blocks.noclone=您没有任何东西需要克隆！
 
-pixelmon.orb.amountfull=您需要 %d 更多地战斗才能使珠变满[?]
+pixelmon.orb.amountfull=您需要 %d 更多地战斗才能使珠变满
 pixelmon.orb.isfull=您的珠满了！
 
 //achievements
@@ -3184,6 +3184,7 @@ pixelmon.abilities.rattled=%s 的颤抖提高了它的速度！
 pixelmon.abilities.roughskin=%s 的蛇皮伤到了 %s！
 pixelmon.abilities.sapsipper=草食使 %s 的攻击无效！
 pixelmon.abilities.sapsipper2=%s 的草食使它的攻击提升！
+pixelmon.abilities.steadfast=%s 的不屈之心让它速度提高了！
 pixelmon.abilities.static=%s 的静电麻痹了 %s！
 pixelmon.abilities.speedboost=%s 因为加速使得速度提升了！
 pixelmon.abilities.soundproof=%s 的隔音让攻击看起来减弱了！
@@ -3192,11 +3193,14 @@ pixlemon.abilities.shedskin=%s 的脱皮治疗了它的异常状态！
 pixelmon.abilities.vitalspirit=%s 的元气使它保持清醒！
 pixelmon.abilities.voltabsorb=蓄电在攻击中治疗了 %s！
 pixelmon.abilities.waterabsorb=储水在攻击中治疗了 %s！
+pixelmon.abilities.weakarmor=碎甲降低了 %s 的防御！
+pixelmon.abilities.weakarmor2=碎甲提升了 %s 的速度！
 pixelmon.abilities.wonderguard=%s 的奇异守护抵御了攻击！
 pixelmon.abilities.moxieboost=%s 的勇气因为攻击提高了！
 pixelmon.abilities.moxiemax=%s 的勇气不能再通过攻击提高了！
 pixelmon.abilities.sturdy=%s 因为结实的特性免于了一击必杀！
 pixelmon.abilities.sturdy2=%s 的结实使攻击无效！
+pixelmon.abilities.trace=%s 的追踪让它复制了 %s 的特性 %s！
 pixelmon.abilities.whitesmoke=%s 的白色烟雾防止了能力的下降！
 pixelmon.abilities.wonderguard=%s 的奇异守护防止了攻击！
 
