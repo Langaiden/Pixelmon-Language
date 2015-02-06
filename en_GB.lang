@@ -3550,18 +3550,18 @@ attack.category.special=Special
 attack.category.status=Status
 
 nbt.attack.name=Attack:
-nbt.defence.name=defence:
+nbt.defence.name=Defence:
 nbt.speed.name=Speed:
 nbt.spattack.name=Sp.Attack:
-nbt.spdefense.name=Sp.defence:
+nbt.spdefense.name=Sp.Defence:
 nbt.hp.name=HP:
 nbt.pp.name=PP:
 
 nbt.attack2.name=Attack
-nbt.defense2.name=defence
+nbt.defense2.name=Defence
 nbt.speed2.name=Speed
 nbt.spattack2.name=Sp.Attack
-nbt.spdefense2.name=Sp.defence
+nbt.spdefense2.name=Sp.Defence
 nbt.hp2.name=HP
 
 //  Main Chat Messages
@@ -4188,6 +4188,20 @@ pixelmon.effect.specdefdecreased3=%s's Special Defence was decreased drastically
 pixelmon.effect.speedincreased3=%s's Speed was increased drastically!
 pixelmon.effect.speeddecreased3=%s's Speed was decreased drastically!
 pixelmon.effect.critincreased=%s is getting pumped!
+pixelmon.effect.accuracytoohigh=%s's accuracy can't go higher!
+pixelmon.effect.accuracytoolow=%s's accuracy can't go lower!
+pixelmon.effect.evasiontoohigh=%s's evasion can't go higher!
+pixelmon.effect.evasiontoolow=%s's evasion can't go lower!
+pixelmon.effect.attacktoohigh=%s's Attack can't go higher!
+pixelmon.effect.attacktoolow=%s's Attack can't go lower!
+pixelmon.effect.defensetoohigh=%s's Defence can't go higher!
+pixelmon.effect.defensetoolow=%s's Defence can't go lower!
+pixelmon.effect.spatktoohigh=%s's Special Attack can't go higher!
+pixelmon.effect.spatktoolow=%s's Special Attack can't go lower!
+pixelmon.effect.spdeftoohigh=%s's Special Defence can't go higher!
+pixelmon.effect.spdeftoolow=%s's Special Defence can't go lower!
+pixelmon.effect.speedtoohigh=%s's Speed can't go higher!
+pixelmon.effect.speedtoolow=%s's Speed can't go lower!
 pixelmon.effect.surroundedbywater=%s is already surrounded by water!
 pixelmon.effect.surroundwithwater=%s surrounds itself in a veil of water!
 pixelmon.effect.burnt=%s has been burnt!
