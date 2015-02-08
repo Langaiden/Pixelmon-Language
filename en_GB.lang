@@ -730,7 +730,7 @@ attack.wing attack.description=The target is struck with large, imposing wings s
 attack.whirlwind.name=Whirlwind
 attack.whirlwind.description=The target is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends.
 attack.fly.name=Fly
-attack.fly.description=The user soars, then strikes its target on the second turn. It can also be used for flying anywhere on the pokémon.
+attack.fly.description=The user soars, then strikes its target on the second turn. It can also be used for flying anywhere on the Pokémon.
 attack.bind.name=Bind
 attack.bind.description=Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.
 attack.slam.name=Slam
@@ -3037,7 +3037,7 @@ pixelmon.command.heal.healed=Successfully healed %s's Pixelmon!
 pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pixelmon!
 pixelmon.command.spawn.spawned=Successfully spawned a %s
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
-pixelmon.command.unlock=Successfully unlocked %s's locked pokémon
+pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon
 
 //other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -3063,7 +3063,7 @@ pixelmon.general.needowner=Only the block's owner can access this block.
 pixelmon.general.playerbusy=Player is busy!
 pixelmon.general.disabledblock=The server has disabled this block.
 
-pixelmon.npc.trader=You don't have the Pokemon I'm looking for! I would like a(n) %s.
+pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(n) %s.
 
 pixelmon.projectiles.nibble=Not even a nibble...
 
@@ -3075,16 +3075,16 @@ pixelmon.entities.syncpassed=Synchronize passed it onto %s!
 pixelmon.entitytrainer.goodrod=You received a Good Rod!
 pixelmon.entitytrainer.superrod=You received a Super Rod!
 
-pixelmon.statue.despawn=The Pokemon has been despawned.
+pixelmon.statue.despawn=The Pokémon has been despawned.
 
 //Pokeballs
-pixelmon.pokeballs.inbattle=That Pokemon is already in a battle!
-pixelmon.pokeballs.alreadyown=You can't catch Pokemon you already own!
-pixelmon.pokeballs.boss=You can't catch boss Pokemon!
+pixelmon.pokeballs.inbattle=That Pokémon is already in a battle!
+pixelmon.pokeballs.alreadyown=You can't catch Pokémon you already own!
+pixelmon.pokeballs.boss=You can't catch boss Pokémon!
 pixelmon.pokeballs.capture=You captured %s!
-pixelmon.pokeballs.pokeinbattle=You can't catch Pokemon who are battling in another battle!
-pixelmon.pokeballs.otherspokemon=You can't catch other people's Pokemon!
-pixelmon.pokeballs.statue=You can't catch a statue Pokemon!
+pixelmon.pokeballs.pokeinbattle=You can't catch Pokémon who are battling in another battle!
+pixelmon.pokeballs.otherspokemon=You can't catch other people's Pokémon!
+pixelmon.pokeballs.statue=You can't catch a statue Pokémon!
 
 //storage
 pixelmon.storage.compfull=You have no space left in your computer!
@@ -3318,7 +3318,7 @@ gui.fainterChoice.run=Run
 
 gui.choosebad.nopokeballs=You can not use Pokeballs in this battle!
 
-gui.guiDoctor.healPokemon=I'm a Pokémon Doctor.  Shall I heal your pokémon?
+gui.guiDoctor.healPokemon=I'm a Pokémon Doctor.  Shall I heal your Pokémon?
 gui.guiDoctor.waiting=Waiting
 
 gui.trading.ready=Ready
@@ -3440,7 +3440,7 @@ gui.trainereditor.changeTrader=Change To Trader
 
 gui.overlay1v1.lv=Lv.
 
-gui.starter.trademark1=This is a fan made mod, all trademarks and copyright for pokémon are owned
+gui.starter.trademark1=This is a fan made mod, all trademarks and copyright for Pokémon are owned
 gui.starter.trademark2=by Nintendo and Game Freak Inc.
 gui.starter.trademark3=Support Nintendo/Game Freak by buying Pokémon X/Y
 gui.starter.trademark4=Welcome to the world of Pixelmon!! Thank you for installing this mod!
@@ -3503,14 +3503,14 @@ gui.battle.back=Back
 gui.battle.whatdo=What will $p do?
 gui.battle.type=Type:
 
-gui.levelupscreen.lvlup=Your $p has grown to level
+gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
 gui.mainmenu.fight=FIGHT
 gui.mainmenu.bag=BAG
-gui.mainmenu.pokémon=POKEMON
+gui.mainmenu.Pokémon=POKEMON
 gui.mainmenu.run=RUN
 gui.mainmenu.whatdo=What will $p do?
-gui.mainmenu.cantswitch=You can't switch pokémon right now!
+gui.mainmenu.cantswitch=You can't switch Pokémon right now!
 gui.mainmenu.traped=$p is trapped! You cannot flee!
 gui.mainmenu.trainer=You can't run from this battle!
 
@@ -3539,8 +3539,8 @@ gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Extend ranch block contained area
-gui.ranch.empty=There are no pokémon in the ranch
-ranch.hourglass.upgradedall=All breeding pokémon increased a breeding level
+gui.ranch.empty=There are no Pokémon in the ranch
+ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level
 ranch.hourglass.upgrade=%s increased a breeding level
 
 container.MechanicalAnvil=Mechanical Anvil
@@ -3567,9 +3567,9 @@ nbt.hp2.name=HP
 //  Main Chat Messages
 /*
 *   Here things are a bit different than the gui stuff.
-*   For anything that is a string and a variable like a pokémon name put %s which stands for a string.
+*   For anything that is a string and a variable like a Pokémon name put %s which stands for a string.
 *   If you are referencing an integer (whole number) use %d
-*   Eg: The wild %s escaped! Lets say the pokémon that escaped is rattata it will display in game
+*   Eg: The wild %s escaped! Lets say the Pokémon that escaped is rattata it will display in game
 *   "The wild Rattata escaped!" Or on the rare occasion you come across an int.
 *   Eg: "You got rid of %d items"
 *   The previous $p and $m what have you does not apply here!
@@ -3581,15 +3581,15 @@ battlecontroller.initbattle.you=You initiated a battle with %s!
 battlecontroller.initbattle.toyou=%s initiated a battle with you!
 battlecontroller.flinched=%s has flinched!
 battlecontroller.fainted=Your %s fainted!
-battlecontroller.hasfainted=%s has fainted!
-battlecontroller.outofpokemon=You've run out of usable pokémon!
+battlecontroller.hasfainted=%s fainted!
+battlecontroller.outofpokemon=You've run out of usable Pokémon!
 
 battlecontroller.afk=%s has gone AFK for %d seconds, auto-battler taking turns every %d seconds!
 battlecontroller.selfafk=You have gone AFK for %d seconds, auto-battler will take your turns every %d seconds!
 battlecontroller.afkback=%s is no longer AFK, auto-battler disengaged!
 battlecontroller.selfafkback=You are no longer AFK, auto-battler disengaged!
 
-battleController.recievedDamage=%s received %d damage from %s
+battleController.recievedDamage=%s received %d damage from %s!
 
 type.normal=Normal
 type.fire=Fire
@@ -3609,7 +3609,7 @@ type.dragon=Dragon
 type.dark=Dark
 type.steel=Steel
 
-aitargetenvironment.seessomething=Your Pokémon Sees Something
+aitargetenvironment.seessomething=Your Pokémon sees something.
 
 batonpass.failed=%s's move failed!
 batonpass.pass=%s passes a baton!
@@ -3731,7 +3731,7 @@ ability.Analytic.description=Boosts move power when the Pokémon moves after the
 ability.AngerPoint.name=Anger Point
 ability.AngerPoint.description=Maxes the Attack stat after the Pokémon takes a critical hit.
 ability.Anticipation.name=Anticipation
-ability.Anticipation.description=Senses an opposing Pokemons dangerous moves.
+ability.Anticipation.description=Senses an opposing Pokémon's dangerous moves.
 ability.ArenaTrap.name=Arena Trap
 ability.ArenaTrap.description=Prevents opposing Pokémon from fleeing.
 ability.AromaVeil.name=Aroma Veil
