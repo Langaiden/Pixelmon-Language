@@ -3118,6 +3118,7 @@ pixelmon.helditems.focussash=%s held on using its Focus Sash!
 pixelmon.helditems.focusband=%s held on using its Focus Band!
 pixelmon.helditems.blacksludgepsn=%s was hurt by its Black Sludge!
 pixelmon.helditems.blacksludge=%s regained health due to its Black Sludge!
+pixelmon.helditems.gem=%s's %s boosted the move's power!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
