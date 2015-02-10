@@ -3,14 +3,14 @@
 *
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
-*   reference, but its is VERY straight forward. To translate the mod
-*   all you need to do is replace the text after the = to what you
-*   desire! Its that simple!
+*   reference, but it's VERY straightforward. To translate the mod
+*   all you need to do is replace the text after the "=" to what you
+*   desire! It's that simple!
 */
 
 //Items
 /*
-*   item stands for it is an item. Just like in item.PC.name.
+*   item stands for "it is an item", just like in item.PC.name.
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
@@ -540,46 +540,46 @@ item.HM8 - Rock Climb.name=HM8: Rock Climb
 item.HM9 - Whirlpool.name=HM9: Whirlpool
 item.HM10 - Dive.name=HM10: Dive
            
-item.PokeMail-air.name=Air PokéMail
-item.PokeMail-bloom.name=Bloom PokéMail
-item.PokeMail-brick.name=Brick PokéMail
-item.PokeMail-bridged.name=Bridged PokéMail
-item.PokeMail-bridgem.name=Bridgem PokéMail
-item.PokeMail-bridges.name=Bridges PokéMail
-item.PokeMail-bridget.name=Bridget PokéMail
-item.PokeMail-bridgev.name=Bridgev PokéMail
-item.PokeMail-bubble.name=Bubble PokéMail
-item.PokeMail-dream.name=Dream PokéMail
-item.PokeMail-fab.name=Fab PokéMail
-item.PokeMail-favored.name=Favored PokéMail
-item.PokeMail-flame.name=Flame PokéMail
-item.PokeMail-glitter.name=Glitter PokéMail
-item.PokeMail-grass.name=Grass PokéMail
-item.PokeMail-greet.name=Greet PokéMail
-item.PokeMail-harbor.name=Harbor PokéMail
-item.PokeMail-heart.name=Heart PokéMail
-item.PokeMail-inquiry.name=Inquiry PokéMail
-item.PokeMail-like.name=Like PokéMail
-item.PokeMail-mech.name=Mech PokéMail
-item.PokeMail-mosaic.name=Mosaic PokéMail
-item.PokeMail-orange.name=Orange PokéMail
-item.PokeMail-reply.name=Reply PokéMail
-item.PokeMail-retro.name=Retro PokéMail
-item.PokeMail-rsvp.name=Rsvp PokéMail
-item.PokeMail-shadown.name=Shadown PokéMail
-item.PokeMail-snow.name=Snow PokéMail
-item.PokeMail-space.name=Space PokéMail
-item.PokeMail-steel.name=Steel PokéMail
-item.PokeMail-thanks.name=Thanks PokéMail
-item.PokeMail-tropic.name=Tropic PokéMail
-item.PokeMail-tunnel.name=Tunnel PokéMail
-item.PokeMail-wave.name=Wave PokéMail
-item.PokeMail-wood.name=Wood PokéMail
+item.PokeMail-air.name=Air Mail
+item.PokeMail-bloom.name=Bloom Mail
+item.PokeMail-brick.name=Brick Mail
+item.PokeMail-bridged.name=BridgeMail D
+item.PokeMail-bridgem.name=BridgeMail M
+item.PokeMail-bridges.name=BridgeMail S
+item.PokeMail-bridget.name=BridgeMail T
+item.PokeMail-bridgev.name=BridgeMail V
+item.PokeMail-bubble.name=Bubble Mail
+item.PokeMail-dream.name=Dream Mail
+item.PokeMail-fab.name=Fab Mail
+item.PokeMail-favored.name=Favoured Mail
+item.PokeMail-flame.name=Flame Mail
+item.PokeMail-glitter.name=Glitter Mail
+item.PokeMail-grass.name=Grass Mail
+item.PokeMail-greet.name=Greet Mail
+item.PokeMail-harbor.name=Harbour Mail
+item.PokeMail-heart.name=Heart Mail
+item.PokeMail-inquiry.name=Inquiry Mail
+item.PokeMail-like.name=Like Mail
+item.PokeMail-mech.name=Mech Mail
+item.PokeMail-mosaic.name=Mosaic Mail
+item.PokeMail-orange.name=Orange Mail
+item.PokeMail-reply.name=Reply Mail
+item.PokeMail-retro.name=Retro Mail
+item.PokeMail-rsvp.name=RSVP Mail
+item.PokeMail-shadown.name=Shadow Mail
+item.PokeMail-snow.name=Snow Mail
+item.PokeMail-space.name=Space Mail
+item.PokeMail-steel.name=Steel Mail
+item.PokeMail-thanks.name=Thanks Mail
+item.PokeMail-tropic.name=Tropic Mail
+item.PokeMail-tunnel.name=Tunnel Mail
+item.PokeMail-wave.name=Wave Mail
+item.PokeMail-wood.name=Wood Mail
 
 //Attacks and their Descriptions
 /*
-*   The ones with attack.attackName.name is the attack's actual name and
-*   The ones with description at the end is their description.
+*   The ones with "attack.attackName.name" are the attacks' actual names and
+*   the ones with "description" at the end are their descriptions.
 */
 attack.tail whip.name=Tail Whip
 attack.tail whip.description=A move that lowers the target's defence. Useful against tough, armoured Pokémon.
@@ -1704,10 +1704,10 @@ attack.shadow sneak.description=The user extends its shadow and attacks the targ
 
 
 
-//Pixelmon and their descriptions
+//Pokémon and their descriptions
 /*
-*   The ones with name at the end are their names and the ones with description
-*   would be their pokedex entry descriptions.
+*   The ones with "name" at the end are their names and the ones with "description"
+*   are their Pokédex entry descriptions.
 */
 pixelmon.zubat.name=Zubat
 pixelmon.zubat.description=It does not need eyes, because it emits ultrasonic waves to check its surroundings while it flies.
@@ -3014,7 +3014,7 @@ pixelmon.meloetta.description=The melodies sung by Meloetta have the power to ma
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 
-//Command Stuffs
+//Command stuff
 
 pixelmon.command.battle.battlebetween=Battle between %s and %s started!
 pixelmon.command.battle.cannotchallenge=Cannot challenge %s while they are in battle!
@@ -3039,7 +3039,7 @@ pixelmon.command.spawn.spawned=Successfully spawned a %s
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
 pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon
 
-//other
+//Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
 pixelmon.drops.single=You received a %s!
 pixelmon.drops.singlean=You received an %s!
@@ -3077,7 +3077,7 @@ pixelmon.entitytrainer.superrod=You received a Super Rod!
 
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
-//Pokeballs
+//Poké Balls
 pixelmon.pokeballs.inbattle=That Pokémon is already in a battle!
 pixelmon.pokeballs.alreadyown=You can't catch Pokémon you already own!
 pixelmon.pokeballs.boss=You can't catch boss Pokémon!
@@ -3086,7 +3086,7 @@ pixelmon.pokeballs.pokeinbattle=You can't catch Pokémon who are battling in ano
 pixelmon.pokeballs.otherspokemon=You can't catch other people's Pokémon!
 pixelmon.pokeballs.statue=You can't catch a statue Pokémon!
 
-//storage
+//Storage
 pixelmon.storage.compfull=You have no space left in your computer!
 pixelmon.storage.partyfull=Your party is full. %s was sent to your computer!
 
@@ -3127,7 +3127,7 @@ pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s raised its Special Defence 
 pixelmon.ItemBattleItem.xspeedowner=%s's %s raised its Speed using X Speed!
 pixelmon.ItemBattleItem.xaccuracyowner=%s's %s raised its accuracy using X Accuracy!
 
-//blocks
+//Blocks
 pixelmon.blocks.bonemealwatered=It looks well watered today.
 
 pixelmon.blocks.healer=Healer is busy!
@@ -3149,7 +3149,7 @@ pixelmon.blocks.noclone=You have nothing to clone!
 pixelmon.orb.amountfull=You need %d more kills for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
 
-//achievements
+//Achievements
 achievement.ItemFinderChieve=Hidden PokeLoot Hunter!
 achievement.ItemFinderChieve.desc=You crafted an Item Finder!
 achievement.HiddenPokeLootChieve=Hidden PokeLoot FTW!
@@ -3280,26 +3280,26 @@ pixelmon.ranch.level3=%s's love for %s grows rapidly every day!
 pixelmon.ranch.level4=%s falls madly in love with %s every single day!
 pixelmon.ranch.maxaffection=%s loves %s as much as possible!
 
-//gui stuff
+//GUI stuff
 /*
-*   The first part of it shows its a gui eg: gui.guiEvolve.huh.
-*   The second part shows where it goes to in very short eg:
-*   guiEvolve goes to the evolve gui and guiItemDrops goes to
-*   the boss drop and trainer drop guis.
-*   The last part refers simply to their meaning in the gui.
-*   eg: gui.trading.trade has trade at the end because
+*   The first part of it shows it's a GUI, e.g., "gui.guiEvolve.huh".
+*   The second part shows where it goes to, e.g.,
+*   "guiEvolve" goes to the evolve GUI and "guiItemDrops" goes to
+*   the boss drop and Trainer drop GUIs.
+*   The last part refers simply to its meaning in the GUI.
+*   E.g., "gui.trading.trade" has "trade" at the end because
 *   the text it displays would be trade. It isn't always like that.
-*   For instance gui.guiEvolve.done doesn't say done it says
-*   Your $p evolved into a $n
+*   For instance "gui.guiEvolve.done" doesn't say done; it says
+*   "Your $p evolved into a $n"
 *
 *
 *   In here you will notice some symbols like $p and $n.
-*   $p refers to your pixelmon or a pixelmon in general when
+*   "$p" refers to your Pokémon or a Pokémon in general when
 *   there is only one being referenced in that line.
-*   $n is the other pixelmon.
-*   $d is the other player.
-*   $a was a one time occurrence which stands for enabled or disabled.
-*   Depending on what instance to call on.
+*   "$n" is the other Pokémon.
+*   "$d" is the other player.
+*   "$a" was a one time occurrence which stands for enabled or disabled
+*   depending on what instance to call on.
 */
 gui.guiEvolve.huh=Huh?
 gui.guiEvolve.evolve=What? $p is evolving!
@@ -3594,13 +3594,13 @@ nbt.hp2.name=HP
 
 //  Main Chat Messages
 /*
-*   Here things are a bit different than the gui stuff.
-*   For anything that is a string and a variable like a Pokémon name put %s which stands for a string.
-*   If you are referencing an integer (whole number) use %d
-*   Eg: The wild %s escaped! Lets say the Pokémon that escaped is rattata it will display in game
-*   "The wild Rattata escaped!" Or on the rare occasion you come across an int.
-*   Eg: "You got rid of %d items"
-*   The previous $p and $m what have you does not apply here!
+*   Here things are a bit different than the GUI stuff.
+*   For anything that is a string and a variable like a Pokémon name, put "%s", which stands for a string.
+*   If you are referencing an integer (whole number), use "%d".
+*   E.g., "The wild %s escaped!". Let's say the Pokémon that escaped is Rattata. It will display in game
+*   "The wild Rattata escaped!". Or on the rare occasion you come across an int,
+*   E.g., "You got rid of %d items",
+*   the previous "$p" and "$m" what have you do not apply here!
 */
 
 battlecontroller.escaped=%s escaped!
@@ -3678,9 +3678,9 @@ sendpixelmon.retrieved=You retrieved %s!
 @Author Dayaffe
 //Blocks
 /*
-*   Pretty much same basic concept here. middle one represents
-*   the items blockName as defined and the first one "tile"
-*   shows its referring to a block type. Name is just
+*   Pretty much same basic concept here. Middle one represents
+*   the item's blockName as defined and the first one "tile"
+*   shows it's referring to a block type. "Name" is just
 *   standing for its name.
 */
 tile.anvil.name=Anvil
@@ -4343,6 +4343,9 @@ pixelmon.status.taunted=%s fell for the taunt!
 pixelmon.status.tauntcantuse=%s can't use %s because of the taunt!
 pixelmon.status.tauntnolonger=%s's is no longer taunted!
 pixelmon.status.noeffect=No effect!
+pixelmon.status.tailwindstarted=%s whipped up a tailwind!
+pixelmon.status.tailwindalready=Tailwind is already active!
+pixelmon.status.tailwindfaded=%s's tailwind petered out!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
