@@ -352,6 +352,7 @@ item.ToxicOrb.name=Toxic Orb
 item.FlameOrb.name=Flame Orb
 item.BlackSludge.name=Black Sludge
 item.ScopeLens.name=Scope Lens
+item.AirBalloon.name=Air Balloon
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
@@ -3118,6 +3119,10 @@ pixelmon.helditems.focusband=%s held on using its Focus Band!
 pixelmon.helditems.blacksludgepsn=%s was hurt by its Black Sludge!
 pixelmon.helditems.blacksludge=%s regained health due to its Black Sludge!
 pixelmon.helditems.gem=%s's %s boosted the move's power!
+pixelmon.helditems.airballoon=%s floats in the air with its Air Balloon!
+pixelmon.helditems.airballoonpop=%s's Air Balloon popped!
+pixelmon.helditems.toxicorb=%s was badly poisoned by its Toxic Orb!
+pixelmon.helditems.flameorb=%s was burned by its Flame Orb!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
@@ -3241,6 +3246,7 @@ pixelmon.abilities.poisontouch=%s's Poison Touch poisoned %s!
 pixelmon.abilities.raindish=%s was healed by Rain Dish!
 pixelmon.abilities.rattled=%s's Rattled raised its Speed!
 pixelmon.abilities.roughskin=%s's Rough Skin hurt %s!
+pixelmon.abilities.runaway=%s fled using Run Away!
 pixelmon.abilities.sapsipper=Sap Sipper raised %s's Attack!
 pixelmon.abilities.sapsipper2=%s's Sap Sipper negated the attack!
 pixelmon.abilities.shedskin=%s's Shed Skin cured it of its ailment!
@@ -3611,6 +3617,8 @@ battlecontroller.flinched=%s has flinched!
 battlecontroller.fainted=Your %s fainted!
 battlecontroller.hasfainted=%s fainted!
 battlecontroller.outofpokemon=You've run out of usable Pokémon!
+battlecontroller.switch=Choose a new Pokémon to send out!
+battlecontroller.targets=Choose the target for $a.
 
 battlecontroller.afk=%s has gone AFK for %d seconds, auto-battler taking turns every %d seconds!
 battlecontroller.selfafk=You have gone AFK for %d seconds. Auto-battler will take your turns every %d seconds!
