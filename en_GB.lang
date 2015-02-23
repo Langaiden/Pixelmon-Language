@@ -1048,8 +1048,8 @@ attack.curse.name=Curse
 attack.curse.description=A move that works differently for the Ghost type than for all other types.
 attack.flail.name=Flail
 attack.flail.description=The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
-attack.conversion2.name=Conversion2
-attack.conversion2.description=The user changes its type to make itself resistant to the type of the attack the opponent used last.
+attack.conversion 2.name=Conversion2
+attack.conversion 2.description=The user changes its type to make itself resistant to the type of the attack the opponent used last.
 attack.aeroblast.name=Aeroblast
 attack.aeroblast.description=A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
 attack.cotton spore.name=Cotton Spore
@@ -3460,6 +3460,8 @@ gui.starter.disabled=Disabled
 
 gui.pc.box=Box:
 
+gui.selectpokemon.message=Select a Pokémon!
+
 gui.update.text=Update
 gui.label.text=Label
 gui.save.text=Save
@@ -4179,6 +4181,7 @@ pixelmon.effect.unleashenergy=%s unleashed its energy!
 pixelmon.effect.attackfailed=%s's attack failed!
 pixelmon.effect.dighole=%s digs a hole!
 pixelmon.effect.flyup=%s flies up in the air!
+pixelmon.effect.bounce=%s sprung up!
 pixelmon.effect.becameconfused=%s became confused!
 pixelmon.effect.alreadyconfused=%s is already confused!
 pixelmon.effect.razorwind=%s whips up a strong wind!
