@@ -353,6 +353,7 @@ item.FlameOrb.name=Flame Orb
 item.BlackSludge.name=Black Sludge
 item.ScopeLens.name=Scope Lens
 item.AirBalloon.name=Air Balloon
+item.RockyHelmet.name=Rocky Helmet
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
@@ -3123,6 +3124,7 @@ pixelmon.helditems.airballoon=%s floats in the air with its Air Balloon!
 pixelmon.helditems.airballoonpop=%s's Air Balloon popped!
 pixelmon.helditems.toxicorb=%s was badly poisoned by its Toxic Orb!
 pixelmon.helditems.flameorb=%s was burned by its Flame Orb!
+pixelmon.helditems.rockyhelmet=%s was hurt by %s's Rocky Helmet!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
@@ -4170,7 +4172,7 @@ pixelmon.effect.payday=Coins are scattered all around
 pixelmon.effect.psycheup=%s copied %s stat changes!
 pixelmon.effect.raisestats=%s's stats rose!
 pixelmon.effect.freefrom=%s freed itself from %s
-pixelmon.effect.clearspikes=%s cleared all spikes!
+pixelmon.effect.clearspikes=%s cleared all entry hazards!
 pixelmon.effect.smackdown=%s got knocked out of the sky!
 pixelmon.effect.ppdrop=%s's %s's PP dropped!
 pixelmon.effect.struggle=%s struggled!
@@ -4303,6 +4305,8 @@ pixelmon.effect.destinybond=%s took down the opponent with it!
 pixelmon.effect.knockoff=%s knocked off %s's %s!
 pixelmon.effect.flee=%s was forced out!
 pixelmon.effect.healbell=The party was cured of statuses!
+pixelmon.effect.sketch=%s sketched %s!
+pixelmon.effect.healingwish=The healing wish came true!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -4378,6 +4382,7 @@ key.nextpokemon=Next Party Slot
 key.previouspokemon=Previous Party Slot
 key.sendpokemon=Send out Pokémon
 key.pokemonaction=Select Target Pokémon
+key.pokemonexternal=Use External Move
 
 halloween.entityname=The Spectral Jeweller
 halloween.gemregistered=The Spectral Jeweller recieved your %s!
