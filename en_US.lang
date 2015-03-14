@@ -3097,7 +3097,7 @@ pixelmon.storage.partyfull=Your party is full. %s was sent to your computer!
 //Held Items
 pixelmon.helditems.healedstatus=%s's status was healed!
 pixelmon.helditems.cellbattery=%s's Cell Battery activated!
-pixelmon.helditems.consumeleppa=%s consumed its Leppa Berry and restored PP!
+pixelmon.helditems.consumeleppa=%s consumed its Leppa Berry and restored %s's PP!
 pixelmon.helditems.consumerestorehp=%s consumed its %s and restored health!
 pixelmon.helditems.cheriberry=%s consumed its Cheri Berry and was healed of its paralysis!
 pixelmon.helditems.chestoberry=%s consumed its Chesto Berry and woke up!
@@ -3657,7 +3657,7 @@ type.steel=Steel
 
 aitargetenvironment.seessomething=Your Pokémon sees something.
 
-batonpass.failed=%s's move failed!
+batonpass.failed=But it failed!
 batonpass.pass=%s passes a baton!
 batonpass.noleft=There are no Pokémon left to switch to!
 
@@ -4144,12 +4144,12 @@ ability.ComingSoon.name=Coming Soon!
 ability.ComingSoon.description=This Ability has not been coded yet, but it will be soon!
 
 pixelmon.battletext.noeffect=It had no effect!
-pixelmon.battletext.movefailed=The move failed!
+pixelmon.battletext.movefailed=But it failed!
 pixelmon.battletext.criticalhit=Critical hit!
 pixelmon.battletext.wasnoteffective=It wasn't very effective...
 pixelmon.battletext.supereffective=It's super effective!
 pixelmon.battletext.missedattack=%s tried to use %s, but it missed!
-pixelmon.battletext.butmovefailed=But the move failed!
+pixelmon.battletext.butmovefailed=But it failed!
 pixelmon.battletext.used=%s used %s!
 pixelmon.battletext.sentout=%s sent out %s!
 
@@ -4279,7 +4279,7 @@ pixelmon.effect.vortex=%s was trapped in the vortex!
 pixelmon.effect.alreadypoisoned=%s is already poisoned!
 pixelmon.effect.poisoned=%s has been poisoned!
 pixelmon.effect.badlypoisoned=%s has been badly poisoned!
-pixelmon.effect.redaying=%s is readying itself!
+pixelmon.effect.redaying=%s protected itself!
 pixelmon.effect.raining=It started to rain!
 pixelmon.effect.sandstorm=A sandstorm kicked up!
 pixelmon.effect.alreadybarrier=%s already has a barrier!
@@ -4290,7 +4290,7 @@ pixelmon.effect.guarded=%s is looking a bit guarded!
 pixelmon.effect.harshsunlight=The sunlight turned harsh!
 pixelmon.effect.alreadysleeping=%s is already asleep!
 pixelmon.effect.fallasleep=%s has fallen asleep!
-pixelmon.effect.itfailed=It failed!
+pixelmon.effect.itfailed=But it failed!
 pixelmon.effect.spikes=Spikes were laid around %s!
 pixelmon.effect.morespikes=More spikes were laid around %s!
 pixelmon.effect.moretoxicspikes=More toxic spikes were laid around %s!
@@ -4308,6 +4308,11 @@ pixelmon.effect.flee=%s was forced out!
 pixelmon.effect.healbell=The party was cured of statuses!
 pixelmon.effect.sketch=%s sketched %s!
 pixelmon.effect.healingwish=The healing wish came true!
+pixelmon.effect.wish=%s's wish came true!
+pixelmon.effect.healfailed=%s's HP is full!
+pixelmon.effect.bugbite=%s ate %s's %s!
+pixelmon.effect.trick=%s switched items with %s!
+pixelmon.effect.trickitem=%s received a %s.
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -4340,7 +4345,7 @@ pixelmon.status.hurtby=%s was hurt by %s!
 pixelmon.status.perishsongstruck=Perish Song struck %s!
 pixelmon.status.hurtbypoison=%s is hurt by poison!
 pixelmon.status.triedbutprotect=%s tried to use %s but the target protected itself!
-pixelmon.status.rainstopped=The rain stopped
+pixelmon.status.rainstopped=The rain stopped.
 pixelmon.status.heavyrain=It is raining heavily!
 pixelmon.status.recharging=%s is recharging!
 pixelmon.status.reflectoff=Reflect wore off!
