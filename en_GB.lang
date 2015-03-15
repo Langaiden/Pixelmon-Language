@@ -3709,13 +3709,13 @@ sendpixelmon.retrieved=You retrieved %s!
 */
 tile.anvil.name=Anvil
 tile.pc.name=PC
-tile.mossy rock.name=Mossy Rock
-tile.icy rock.name=Icy Rock
-tile.trade machine.name=Trade Machine
+tile.mossyrock.name=Mossy Rock
+tile.icyrock.name=Icy Rock
+tile.trademachine.name=Trade Machine
 tile.healer.name=Healer
-tile.fossil cleaner.name=Fossil Cleaner
-tile.fossil machine.name=Fossil Machine
-tile.cloning machine.name=Cloning Machine
+tile.fossilcleaner.name=Fossil Cleaner
+tile.fossilmachine.name=Fossil Machine
+tile.cloningMachine.name=Cloning Machine
 tile.bauxiteOre.name=Bauxite Ore
 tile.Fire Stone Ore.name=Fire Stone Ore
 tile.Water Stone Ore.name=Water Stone Ore
@@ -3728,9 +3728,14 @@ tile.master chest.name=Master Chest
 tile.poke chest.name=Poké Chest
 tile.ultra chest.name=Ultra Chest
 tile.fossil.name=Fossil
-tile.uno shrine.name=Frozen Shrine
-tile.dos shrine.name=Static Shrine
-tile.tres shrine.name=Fiery Shrine
+tile.shrineuno.name=Frozen Shrine
+tile.shrinedos.name=Static Shrine
+tile.shrinetres.name=Fiery Shrine
+tile.apricorn tree.name=Apricorn Tree
+tile.mechanicalanvil.name=Mechanical Anvil
+tile.ranchblock.name=Ranch Block
+tile.leafstoneore_overlay.name=Leaf Stone Ore
+tile.null.name=Hidden Pressure Plate
 tile.unownblock_1.A.name=Unown A
 tile.unownblock_1.B.name=Unown B
 tile.unownblock_1.C.name=Unown C
@@ -4386,8 +4391,6 @@ pixelmon.status.tailwindfaded=%s's tailwind petered out!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
-
-tile.MechanicalAnvil.name=Mechanical Anvil
 
 // Add key names from options menu
 key.categories.pixelmon=Pixelmon
