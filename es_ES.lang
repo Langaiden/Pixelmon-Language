@@ -3335,11 +3335,11 @@ pixelmon.drops.plurales=¡Has recibido %d %ses!
 pixelmon.interaction.rarecandy=Subir de nivel con %s no está permitido.
 pixelmon.interaction.tmknown=¡%s ya conoce %s!
 pixelmon.interaction.tmcantlearn=¡%s no puede aprender %s!
-+pixelmon.interaction.vitamin=Los puntos de amistad y EVs de %s han aumentado.
-+pixelmon.interaction.vitaminfail=Los EVs de %s no pueden aumentarse más con vitaminas.
-+pixelmon.interaction.berry=Los puntos de amistad de %s han aumentado pero sus EVs han disminuido.
-+pixelmon.interaction.berryfriend=Los puntos de amistad de %s han aumentado.
-+pixelmon.interaction.berryfail=Los EVs de %s no pueden disminuir más.
+pixelmon.interaction.vitamin=Los puntos de amistad y EVs de %s han aumentado.
+pixelmon.interaction.vitaminfail=Los EVs de %s no pueden aumentarse más con vitaminas.
+pixelmon.interaction.berry=Los puntos de amistad de %s han aumentado pero sus EVs han disminuido.
+pixelmon.interaction.berryfriend=Los puntos de amistad de %s han aumentado.
+pixelmon.interaction.berryfail=Los EVs de %s no pueden disminuir más.
 
 pixelmon.general.noeffect=¡No tuvo efecto!
 pixelmon.general.needop=Debes de ser OP para realizar esta acción.
@@ -3350,7 +3350,7 @@ pixelmon.npc.trader=¡No tienes el Pokémon que estoy buscando! Me gustaría un 
 
 pixelmon.projectiles.nibble=Ni siquiera un mordisco...
 
-pixelmon.stats.gainexp=¡Tu %s ganó %d EXP!
+pixelmon.stats.gainexp=¡Tu %s ganó %d puntos de experiencia!
 pixelmon.stats.learnedmove=¡%s aprendió %s!
 
 pixelmon.entities.syncpassed=¡La sincronización pasó sobre %s!
@@ -3870,7 +3870,7 @@ battlecontroller.selfafk=You have gone AFK for %d seconds, auto-battler will tak
 battlecontroller.afkback=%s is no longer AFK, auto-battler disengaged!
 battlecontroller.selfafkback=You are no longer AFK, auto-battler disengaged!
 
-battleController.recievedDamage=¿%s recibió %d daño de %s!
+battleController.recievedDamage=¡%s recibió %d daño de %s!
 
 type.normal=Normal
 type.fire=Fuego
@@ -3894,7 +3894,7 @@ aitargetenvironment.seessomething=Tu Pokemon está mirando algo.
 
 batonpass.failed=¡Pero falló!
 batonpass.pass=¡%s no te obedeció!
-batonpass.noleft=¡No quedan Pokemon para cambiar!
+batonpass.noleft=¡No quedan Pokémon para cambiar!
 
 teleport.trainerbattle=¡No puedes transportarte desde una batalla!
 teleport.away=¡$s se transportó!
@@ -4385,7 +4385,7 @@ pixelmon.battletext.criticalhit=¡Golpe Crítico!
 pixelmon.battletext.wasnoteffective=No es muy efectivo...
 pixelmon.battletext.supereffective=¡Es super efectivo!
 pixelmon.battletext.missedattack=¡%s intentó usar %s, pero falló!
-pixelmon.battletext.butmovefailed=¡Pero ha falló!
+pixelmon.battletext.butmovefailed=¡Pero ha fallado!
 pixelmon.battletext.used=¡%s usó %s!
 pixelmon.battletext.sentout=¡%s sacó a %s!
  
