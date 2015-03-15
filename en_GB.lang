@@ -440,6 +440,10 @@ item.ranchupgrade.name=Ranch Upgrade
 item.hourglassgold.name=Isi's Golden Hourglass
 item.hourglasssilver.name=Isi's Silver Hourglass
 
+item.pokeChest.name=Poké Chest
+item.ultraChest.name=Ultra Chest
+item.masterChest.name=Master Chest
+
 item.TM1 - Hone Claws.name=TM1: Hone Claws
 item.TM1 - Wide Guard.name=TM1: Wide Guard
 item.TM2 - Dragon Claw.name=TM2: Dragon Claw
@@ -3712,7 +3716,7 @@ tile.healer.name=Healer
 tile.fossil cleaner.name=Fossil Cleaner
 tile.fossil machine.name=Fossil Machine
 tile.cloning machine.name=Cloning Machine
-tile.bauxite ore.name=Bauxite Ore
+tile.bauxiteOre.name=Bauxite Ore
 tile.Fire Stone Ore.name=Fire Stone Ore
 tile.Water Stone Ore.name=Water Stone Ore
 tile.Leaf Stone Ore.name=Leaf Stone Ore
