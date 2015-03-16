@@ -3,14 +3,14 @@
 *
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
-*   reference, but its is VERY straight forward. To translate the mod
-*   all you need to do is replace the text after the = to what you
-*   desire! Its that simple!
+*   reference, but it's VERY straightforward. To translate the mod
+*   all you need to do is replace the text after the "=" to what you
+*   desire! It's that simple!
 */
 
 //Items
 /*
-*   item stands for it is an item. Just like in item.PC.name.
+*   item stands for "it is an item", just like in item.PC.name.
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
@@ -46,7 +46,7 @@ item.Diamond Hammer.name=Diamond Hammer
 item.Aluminium Hammer.name=Aluminium Hammer
 item.Aluminium Axe.name=Aluminium Axe
 item.Aluminium Spade.name=Aluminium Spade
-item.Aluminium PickAxe.name=Aluminium PickAxe
+item.Aluminium PickAxe.name=Aluminium Pickaxe
 item.Aluminium Hoe.name=Aluminium Hoe
 item.Wailmer Pail.name=Wailmer Pail
 item.Trainer Editor.name=Trainer Editor
@@ -71,9 +71,9 @@ item.Uno Orb.name=Orb of Frozen Souls
 item.Dos Orb.name=Orb of Static Souls
 item.Tres Orb.name=Orb of Fiery Souls
 item.Orb.name=Orb
-itemGroup.tabPokeLoot=PokeLoot
-item.itemFinder.name=Item Finder
-item.Poke Ball.name=Poke Ball
+itemGroup.tabPokeLoot=PokéLoot
+item.itemFinder.name=Itemfinder
+item.Poke Ball.name=Poké Ball
 item.Great Ball.name=Great Ball
 item.Ultra Ball.name=Ultra Ball
 item.Master Ball.name=Master Ball
@@ -99,7 +99,7 @@ item.Sport Ball.name=Sport Ball
 item.Cherish Ball.name=Cherish Ball
 item.Premier Ball.name=Premier Ball
 item.GS Ball.name=GS Ball
-item.Poke Ball Lid.name=Poke Ball Lid
+item.Poke Ball Lid.name=Poké Ball Lid
 item.Great Ball Lid.name=Great Ball Lid
 item.Ultra Ball Lid.name=Ultra Ball Lid
 item.Level Ball Lid.name=Level Ball Lid
@@ -121,7 +121,7 @@ item.Premier Ball Lid.name=Premier Ball Lid
 item.Quick Ball Lid.name=Quick Ball Lid
 item.Lure Ball Lid.name=Lure Ball Lid
 item.Sport Ball Lid.name=Sport Ball Lid
-item.Poke Ball Disc.name=Poke Ball Disc
+item.Poke Ball Disc.name=Poké Ball Disc
 item.Great Ball Disc.name=Great Ball Disc
 item.Ultra Ball Disc.name=Ultra Ball Disc
 item.Level Ball Disc.name=Level Ball Disc
@@ -232,6 +232,19 @@ item.Tamato Berry.name=Tamato Berry
 item.Oran Berry.name=Oran Berry
 item.Rawst Berry.name=Rawst Berry
 item.Leppa Berry.name=Leppa Berry
+item.CheriBerry.name=Cheri Berry
+item.ChestoBerry.name=Chesto Berry
+item.PechaBerry.name=Pecha Berry
+item.AspearBerry.name=Aspear Berry
+item.PersimBerry.name=Persim Berry
+item.LumBerry.name=Lum Berry
+item.SitrusBerry.name=Sitrus Berry
+item.BerryJuice.name=Berry Juice
+item.PumkinBerry.name=Pumkin Berry
+item.DrashBerry.name=Drash Berry
+item.EggantBerry.name=Eggant Berry
+item.YagoBerry.name=Yago Berry
+item.TougaBerry.name=Touga Berry
 item.ApicotBerry.name=Apicot Berry
 item.LiechiBerry.name=Liechi Berry
 item.GanlonBerry.name=Ganlon Berry
@@ -291,15 +304,15 @@ item.Water Stone.name=Water Stone
 item.Moon Stone.name=Moon Stone
 item.Thunder Stone.name=Thunder Stone
 item.Leaf Stone.name=Leaf Stone
-item.Dawn Stone.name=Dawnstone
-item.Dusk Stone.name=Duskstone
+item.Dawn Stone.name=Dawn Stone
+item.Dusk Stone.name=Dusk Stone
 item.Thunder Stone Shard.name=Thunder Stone Shard
 item.Leaf Stone Shard.name=Leaf Stone Shard
 item.Water Stone Shard.name=Water Stone Shard
 item.Fire Stone Shard.name=Fire Stone Shard
 item.Sun Stone Shard.name=Sun Stone Shard
-item.Dusk Stone Shard.name=Duskstone Shard
-item.Dawn Stone Shard.name=Dawnstone Shard
+item.Dusk Stone Shard.name=Dusk Stone Shard
+item.Dawn Stone Shard.name=Dawn Stone Shard
 item.Ever Stone.name=Everstone
 item.Lucky Egg.name=Lucky Egg
 item.Exp. Share.name=Exp. Share
@@ -338,6 +351,14 @@ item.FocusBand.name=Focus Band
 item.ToxicOrb.name=Toxic Orb
 item.FlameOrb.name=Flame Orb
 item.BlackSludge.name=Black Sludge
+item.ScopeLens.name=Scope Lens
+item.AirBalloon.name=Air Balloon
+item.RockyHelmet.name=Rocky Helmet
+item.ShedShell.name=Shed Shell
+item.DampRock.name=Damp Rock
+item.HeatRock.name=Heat Rock
+item.IcyRock.name=Icy Rock
+item.SmoothRock.name=Smooth Rock
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
@@ -418,6 +439,10 @@ item.chisel.name=Chisel
 item.ranchupgrade.name=Ranch Upgrade
 item.hourglassgold.name=Isi's Golden Hourglass
 item.hourglasssilver.name=Isi's Silver Hourglass
+
+item.pokeChest.name=Poké Chest
+item.ultraChest.name=Ultra Chest
+item.masterChest.name=Master Chest
 
 item.TM1 - Hone Claws.name=TM1: Hone Claws
 item.TM1 - Wide Guard.name=TM1: Wide Guard
@@ -526,46 +551,46 @@ item.HM8 - Rock Climb.name=HM8: Rock Climb
 item.HM9 - Whirlpool.name=HM9: Whirlpool
 item.HM10 - Dive.name=HM10: Dive
            
-item.PokeMail-air.name=Air PokeMail
-item.PokeMail-bloom.name=Bloom PokeMail
-item.PokeMail-brick.name=Brick PokeMail
-item.PokeMail-bridged.name=Bridged PokeMail
-item.PokeMail-bridgem.name=Bridgem PokeMail
-item.PokeMail-bridges.name=Bridges PokeMail
-item.PokeMail-bridget.name=Bridget PokeMail
-item.PokeMail-bridgev.name=Bridgev PokeMail
-item.PokeMail-bubble.name=Bubble PokeMail
-item.PokeMail-dream.name=Dream PokeMail
-item.PokeMail-fab.name=Fab PokeMail
-item.PokeMail-favored.name=Favored PokeMail
-item.PokeMail-flame.name=Flame PokeMail
-item.PokeMail-glitter.name=Glitter PokeMail
-item.PokeMail-grass.name=Grass PokeMail
-item.PokeMail-greet.name=Greet PokeMail
-item.PokeMail-harbor.name=Harbor PokeMail
-item.PokeMail-heart.name=Heart PokeMail
-item.PokeMail-inquiry.name=Inquiry PokeMail
-item.PokeMail-like.name=Like PokeMail
-item.PokeMail-mech.name=Mech PokeMail
-item.PokeMail-mosaic.name=Mosaic PokeMail
-item.PokeMail-orange.name=Orange PokeMail
-item.PokeMail-reply.name=Reply PokeMail
-item.PokeMail-retro.name=Retro PokeMail
-item.PokeMail-rsvp.name=Rsvp PokeMail
-item.PokeMail-shadown.name=Shadown PokeMail
-item.PokeMail-snow.name=Snow PokeMail
-item.PokeMail-space.name=Space PokeMail
-item.PokeMail-steel.name=Steel PokeMail
-item.PokeMail-thanks.name=Thanks PokeMail
-item.PokeMail-tropic.name=Tropic PokeMail
-item.PokeMail-tunnel.name=Tunnel PokeMail
-item.PokeMail-wave.name=Wave PokeMail
-item.PokeMail-wood.name=Wood PokeMail
+item.PokeMail-air.name=Air Mail
+item.PokeMail-bloom.name=Bloom Mail
+item.PokeMail-brick.name=Brick Mail
+item.PokeMail-bridged.name=BridgeMail D
+item.PokeMail-bridgem.name=BridgeMail M
+item.PokeMail-bridges.name=BridgeMail S
+item.PokeMail-bridget.name=BridgeMail T
+item.PokeMail-bridgev.name=BridgeMail V
+item.PokeMail-bubble.name=Bubble Mail
+item.PokeMail-dream.name=Dream Mail
+item.PokeMail-fab.name=Fab Mail
+item.PokeMail-favored.name=Favoured Mail
+item.PokeMail-flame.name=Flame Mail
+item.PokeMail-glitter.name=Glitter Mail
+item.PokeMail-grass.name=Grass Mail
+item.PokeMail-greet.name=Greet Mail
+item.PokeMail-harbor.name=Harbour Mail
+item.PokeMail-heart.name=Heart Mail
+item.PokeMail-inquiry.name=Inquiry Mail
+item.PokeMail-like.name=Like Mail
+item.PokeMail-mech.name=Mech Mail
+item.PokeMail-mosaic.name=Mosaic Mail
+item.PokeMail-orange.name=Orange Mail
+item.PokeMail-reply.name=Reply Mail
+item.PokeMail-retro.name=Retro Mail
+item.PokeMail-rsvp.name=RSVP Mail
+item.PokeMail-shadown.name=Shadow Mail
+item.PokeMail-snow.name=Snow Mail
+item.PokeMail-space.name=Space Mail
+item.PokeMail-steel.name=Steel Mail
+item.PokeMail-thanks.name=Thanks Mail
+item.PokeMail-tropic.name=Tropic Mail
+item.PokeMail-tunnel.name=Tunnel Mail
+item.PokeMail-wave.name=Wave Mail
+item.PokeMail-wood.name=Wood Mail
 
 //Attacks and their Descriptions
 /*
-*   The ones with attack.attackName.name is the attack's actual name and
-*   The ones with description at the end is their description.
+*   The ones with "attack.attackName.name" are the attacks' actual names and
+*   the ones with "description" at the end are their descriptions.
 */
 attack.tail whip.name=Tail Whip
 attack.tail whip.description=A move that lowers the target's defence. Useful against tough, armoured Pokémon.
@@ -703,8 +728,8 @@ attack.ice punch.name=Ice Punch
 attack.ice punch.description=The target is punched with an icy fist. It may also leave the target frozen.
 attack.thunder punch.name=Thunder Punch
 attack.thunder punch.description=The target is punched with an electrified fist. It may also leave the target with paralysis.
-attack.vicegrip.name=ViceGrip
-attack.vicegrip.description=The target is gripped and squeezed from both sides to inflict damage.
+attack.vice grip.name=ViceGrip
+attack.vice grip.description=The target is gripped and squeezed from both sides to inflict damage.
 attack.guillotine.name=Guillotine
 attack.guillotine.description=A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.
 attack.razor wind.name=Razor Wind
@@ -716,7 +741,7 @@ attack.wing attack.description=The target is struck with large, imposing wings s
 attack.whirlwind.name=Whirlwind
 attack.whirlwind.description=The target is blown away, to be replaced by another Pokémon in its party. In the wild, the battle ends.
 attack.fly.name=Fly
-attack.fly.description=The user soars, then strikes its target on the second turn. It can also be used for flying anywhere on the pokémon.
+attack.fly.description=The user soars, then strikes its target on the second turn. It can also be used for flying anywhere on the Pokémon.
 attack.bind.name=Bind
 attack.bind.description=Things such as long bodies or tentacles are used to bind and squeeze the target for four to five turns.
 attack.slam.name=Slam
@@ -1033,8 +1058,8 @@ attack.curse.name=Curse
 attack.curse.description=A move that works differently for the Ghost type than for all other types.
 attack.flail.name=Flail
 attack.flail.description=The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
-attack.conversion2.name=Conversion2
-attack.conversion2.description=The user changes its type to make itself resistant to the type of the attack the opponent used last.
+attack.conversion 2.name=Conversion2
+attack.conversion 2.description=The user changes its type to make itself resistant to the type of the attack the opponent used last.
 attack.aeroblast.name=Aeroblast
 attack.aeroblast.description=A vortex of air is shot at the target to inflict damage. Critical hits land more easily.
 attack.cotton spore.name=Cotton Spore
@@ -1116,7 +1141,7 @@ attack.lucky chant.description=The user chants an incantation toward the sky, pr
 attack.natural gift.name=Natural Gift
 attack.natural gift.description=The user draws power to attack by using its held Berry. The Berry determines its type and power.
 attack.moonlight.name=Moonlight
-attack.moonlight.description=The user restores its own HP. It fails during the day.
+attack.moonlight.description=The user restores its own HP. The amount of HP regained varies with the weather.
 attack.giga drain.name=Giga Drain
 attack.giga drain.description=A nutrient-draining attack. The user's HP is restored by half the damage taken by the target.
 attack.sand tomb.name=Sand Tomb
@@ -1196,7 +1221,7 @@ attack.metal claw.description=The target is raked with steel claws. It may also 
 attack.vital throw.name=Vital Throw
 attack.vital throw.description=The user attacks last. In return, this throw move is guaranteed not to miss.
 attack.morning sun.name=Morning Sun
-attack.morning sun.description=The user restores its own HP. It fails during the night.
+attack.morning sun.description=The user restores its own HP. The amount of HP regained varies with the weather.
 attack.cross chop.name=Cross Chop
 attack.cross chop.description=The user delivers a double chop with its forearms crossed. Critical hits land more easily.
 attack.twister.name=Twister
@@ -1543,8 +1568,8 @@ attack.guard split.name=Guard Split
 attack.guard split.description=The user employs its psychic power to average its defence and Sp. Def stats with those of its target's.
 attack.power split.name=Power Split
 attack.power split.description=The user employs its psychic power to average its Attack and Sp. Atk stats with those of the target's.
-attack.automize.name=Automize
-attack.automize.description=The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
+attack.autotomize.name=Autotomize
+attack.autotomize.description=The user sheds part of its body to make itself lighter and sharply raise its Speed stat.
 attack.rage powder.name=Rage Powder
 attack.rage powder.description=The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.
 attack.magic room.name=Magic Room
@@ -1690,10 +1715,10 @@ attack.shadow sneak.description=The user extends its shadow and attacks the targ
 
 
 
-//Pixelmon and their descriptions
+//Pokémon and their descriptions
 /*
-*   The ones with name at the end are their names and the ones with description
-*   would be their pokedex entry descriptions.
+*   The ones with "name" at the end are their names and the ones with "description"
+*   are their Pokédex entry descriptions.
 */
 pixelmon.zubat.name=Zubat
 pixelmon.zubat.description=It does not need eyes, because it emits ultrasonic waves to check its surroundings while it flies.
@@ -3000,32 +3025,32 @@ pixelmon.meloetta.description=The melodies sung by Meloetta have the power to ma
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 
-//Command Stuffs
+//Command stuff
 
 pixelmon.command.battle.battlebetween=Battle between %s and %s started!
 pixelmon.command.battle.cannotchallenge=Cannot challenge %s while they are in battle!
 pixelmon.command.battle.dimension=Participants are not in same dimension.
 pixelmon.command.battle.sameperson=Both participants cannot be the same person.
 pixelmon.command.battle.started=Battle between %s and %s started!
-pixelmon.command.freeze.frozen=Pixelmon are frozen in place!
-pixelmon.command.freeze.unfrozen=Pixelmon are unfrozen!
+pixelmon.command.freeze.frozen=Pokémon are frozen in place!
+pixelmon.command.freeze.unfrozen=Pokémon are unfrozen!
 pixelmon.command.general.cheater=Cheater!
 pixelmon.command.general.lvlerror=Error in level.
 pixelmon.command.general.notingame=%s is not in the game!
-pixelmon.command.general.invalid=Invalid Arguments!
-pixelmon.command.general.invalidplayer=Invalid Name! Try again.
+pixelmon.command.general.invalid=Invalid arguments!
+pixelmon.command.general.invalidplayer=Invalid name! Try again.
 pixelmon.command.give.givesuccess=Successfully gave %s a %s!
 pixelmon.command.give.notifygive=%s gave %s a %s!
-pixelmon.command.give.givesuccessegg=Successfully gave %s a %s egg!
-pixelmon.command.give.notifygiveegg=%s gave %s a %s egg!
-pixelmon.command.heal.cantheal=Cannot heal %s's Pixelmon while they are in battle!
-pixelmon.command.heal.healed=Successfully healed %s's Pixelmon!
-pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pixelmon!
+pixelmon.command.give.givesuccessegg=Successfully gave %s a %s Egg!
+pixelmon.command.give.notifygiveegg=%s gave %s a %s Egg!
+pixelmon.command.heal.cantheal=Cannot heal %s's Pokémon while they are in battle!
+pixelmon.command.heal.healed=Successfully healed %s's Pokémon!
+pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pokémon!
 pixelmon.command.spawn.spawned=Successfully spawned a %s
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
-pixelmon.command.unlock=Successfully unlocked %s's locked pokémon
+pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon
 
-//other
+//Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
 pixelmon.drops.single=You received a %s!
 pixelmon.drops.singlean=You received an %s!
@@ -3049,11 +3074,11 @@ pixelmon.general.needowner=Only the block's owner can access this block.
 pixelmon.general.playerbusy=Player is busy!
 pixelmon.general.disabledblock=The server has disabled this block.
 
-pixelmon.npc.trader=You don't have the Pokemon I'm looking for! I would like a(n) %s.
+pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(n) %s.
 
 pixelmon.projectiles.nibble=Not even a nibble...
 
-pixelmon.stats.gainexp=Your %s gained %d EXP!
+pixelmon.stats.gainexp=Your %s gained %d Exp.!
 pixelmon.stats.learnedmove=%s just learnt %s!
 
 pixelmon.entities.syncpassed=Synchronize passed it onto %s!
@@ -3061,29 +3086,40 @@ pixelmon.entities.syncpassed=Synchronize passed it onto %s!
 pixelmon.entitytrainer.goodrod=You received a Good Rod!
 pixelmon.entitytrainer.superrod=You received a Super Rod!
 
-pixelmon.statue.despawn=The Pokemon has been despawned.
+pixelmon.statue.despawn=The Pokémon has been despawned.
 
-//Pokeballs
-pixelmon.pokeballs.inbattle=That Pokemon is already in a battle!
-pixelmon.pokeballs.alreadyown=You can't catch Pokemon you already own!
-pixelmon.pokeballs.boss=You can't catch boss Pokemon!
+//Poké Balls
+pixelmon.pokeballs.inbattle=That Pokémon is already in a battle!
+pixelmon.pokeballs.alreadyown=You can't catch Pokémon you already own!
+pixelmon.pokeballs.boss=You can't catch boss Pokémon!
 pixelmon.pokeballs.capture=You captured %s!
-pixelmon.pokeballs.pokeinbattle=You can't catch Pokemon who are battling in another battle!
-pixelmon.pokeballs.otherspokemon=You can't catch other people's Pokemon!
-pixelmon.pokeballs.statue=You can't catch a statue Pokemon!
+pixelmon.pokeballs.pokeinbattle=You can't catch Pokémon who are battling in another battle!
+pixelmon.pokeballs.otherspokemon=You can't catch other people's Pokémon!
+pixelmon.pokeballs.statue=You can't catch a statue Pokémon!
 
-//storage
+//Storage
 pixelmon.storage.compfull=You have no space left in your computer!
 pixelmon.storage.partyfull=Your party is full. %s was sent to your computer!
 
 //Held Items
-pixelmon.helditem.healedburn=%s was healed of its burn!
+pixelmon.helditems.healedstatus=%s's status was healed!
 pixelmon.helditems.cellbattery=%s's Cell Battery activated!
-pixelmon.helditems.consumeleppa=%s just consumed a Leppa Berry and restored PP!
-pixelmon.helditems.consumeoran=%s just consumed an Oran Berry and restored health!
-pixelmon.helditems.consumerawst=%s just consumed a Rawst Berry and was healed of its burn!
+pixelmon.helditems.consumeleppa=%s consumed its Leppa Berry and restored %s's PP!
+pixelmon.helditems.consumerestorehp=%s consumed its %s and restored health!
+pixelmon.helditems.cheriberry=%s consumed its Cheri Berry and was healed of its paralysis!
+pixelmon.helditems.chestoberry=%s consumed its Chesto Berry and woke up!
+pixelmon.helditems.pechaberry=%s consumed its Pecha Berry and was healed of its poison!
+pixelmon.helditems.rawstberry=%s consumed its Rawst Berry and was healed of its burn!
+pixelmon.helditems.aspearberry=%s consumed its Aspear Berry and thawed out!
+pixelmon.helditems.persimberry=%s consumed its Persim Berry and snapped out of its confusion!
+pixelmon.helditems.lumberry=%s consumed its Lum Berry and healed its status!
+pixelmon.helditems.pinchberry=%s consumed its %s!
+pixelmon.helditems.pumkinberry=%s consumed its Pumkin Berry and thawed out!
+pixelmon.helditems.drashberry=%s consumed its Drash Berry and was healed of its poison!
+pixelmon.helditems.eggantberry=%s consumed its Eggant Berry and got over its infatuation!
+pixelmon.helditems.yagoberry=%s consumed its Yago Berry and was healed of its burn!
+pixelmon.helditems.tougaberry=%s consumed its Touga Berry and snapped out of its confusion!
 pixelmon.helditems.shellbell=%s restored a little HP using its Shell Bell!
-pixelmon.helditems.gainedtenhp=%s restored health!
 pixelmon.helditems.absorbbulb=%s's Absorb Bulb activated!
 pixelmon.helditems.leftovers=%s's Leftovers restored some of its health!
 pixelmon.helditem.lifeowner=%s's power increased, but it received recoil damage!
@@ -3092,6 +3128,12 @@ pixelmon.helditems.focussash=%s held on using its Focus Sash!
 pixelmon.helditems.focusband=%s held on using its Focus Band!
 pixelmon.helditems.blacksludgepsn=%s was hurt by its Black Sludge!
 pixelmon.helditems.blacksludge=%s regained health due to its Black Sludge!
+pixelmon.helditems.gem=%s's %s boosted the move's power!
+pixelmon.helditems.airballoon=%s floats in the air with its Air Balloon!
+pixelmon.helditems.airballoonpop=%s's Air Balloon popped!
+pixelmon.helditems.toxicorb=%s was badly poisoned by its Toxic Orb!
+pixelmon.helditems.flameorb=%s was burned by its Flame Orb!
+pixelmon.helditems.rockyhelmet=%s was hurt by %s's Rocky Helmet!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
@@ -3101,7 +3143,7 @@ pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s raised its Special Defence 
 pixelmon.ItemBattleItem.xspeedowner=%s's %s raised its Speed using X Speed!
 pixelmon.ItemBattleItem.xaccuracyowner=%s's %s raised its accuracy using X Accuracy!
 
-//blocks
+//Blocks
 pixelmon.blocks.bonemealwatered=It looks well watered today.
 
 pixelmon.blocks.healer=Healer is busy!
@@ -3110,68 +3152,68 @@ pixelmon.blocks.chestfound=You found one %s!
 pixelmon.blocks.timedclaim=You've already claimed this timed loot! Try again later!
 pixelmon.blocks.claimedloot=You've already claimed this loot!
 pixelmon.blocks.ownerchanged=Block owner changed to server!
-pixelmon.blocks.chestset=Custom Poke Chest Set: %s
-pixelmon.blocks.visible=Poke Chest Visibility: %s
+pixelmon.blocks.chestset=Custom Poké Chest Set: %s
+pixelmon.blocks.visible=Poké Chest Visibility: %s
 pixelmon.blocks.chestmode=Chest Mode: %s
 
 pixelmon.blocks.orbnotfull=Your orb is not full!
 
-pixelmon.blocks.tradefull=Trading Machine Full!
+pixelmon.blocks.tradefull=Trading Machine full!
 
 pixelmon.blocks.noclone=You have nothing to clone!
 
 pixelmon.orb.amountfull=You need %d more kills for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
 
-//achievements
+//Achievements
 achievement.ItemFinderChieve=Hidden PokeLoot Hunter!
 achievement.ItemFinderChieve.desc=You crafted an Item Finder!
 achievement.HiddenPokeLootChieve=Hidden PokeLoot FTW!
-achievement.HiddenPokeLootChieve.desc=You found Hidden PokeLoot!
+achievement.HiddenPokeLootChieve.desc=You found Hidden PokéLoot!
 achievement.NormalPokeLootChieve=PokeLoot FTW!
-achievement.NormalPokeLootChieve.desc=You found a PokeLoot Chest!
+achievement.NormalPokeLootChieve.desc=You found a PokéLoot Chest!
 achievement.LootMasterBallChieve=Its a Master Ball!!!
-achievement.LootMasterBallChieve.desc=You found a PokeLoot Master Ball!
+achievement.LootMasterBallChieve.desc=You found a PokéLoot Master Ball!
 achievement.GrottoChieve=There's a passage here...
 achievement.GrottoChieve.desc=You found a Hidden Grotto!
 achievement.PokedexChieve=Scientific Pursuits
 achievement.PokedexChieve.desc=Craft a Pokedex
 achievement.PokeballChieve=Gotta catch 'em all!
-achievement.PokeballChieve.desc=Craft a Pokeball
+achievement.PokeballChieve.desc=Craft a Poké Ball
 achievement.LegendaryChieve=First Legendary
 achievement.LegendaryChieve.desc=Catch your first legendary
 achievement.ShinyChieve=Ooh Shiny!
-achievement.ShinyChieve.desc=Catch a shiny Pixelmon
+achievement.ShinyChieve.desc=Catch a Shiny Pokémon
 achievement.FirstCatchChieve=1 down, many to go!
-achievement.FirstCatchChieve.desc=Catch your first Pixelmon
+achievement.FirstCatchChieve.desc=Catch your first Pokémon
 achievement.TrainerChieve=Victory!
 achievement.TrainerChieve.desc=Win a Trainer battle
 achievement.PvPChieve=Ultimate Victory!
 achievement.PvPChieve.desc=Win a PvP battle
 achievement.ApricornChieve=Kurt's Apprentice!
-achievement.ApricornChieve.desc=Cook an apricorn
-achievement.dex1Chieve=Pokedex: 1%% Complete!
-achievement.dex1Chieve.desc=Complete 1% of the Pokedex
-achievement.dex10Chieve=Pokedex: 10%% Complete!
-achievement.dex10Chieve.desc=Complete 10% of the Pokedex
-achievement.dex20Chieve=Pokedex: 20%% Complete!
-achievement.dex20Chieve.desc=Complete 20% of the Pokedex
-achievement.dex30Chieve=Pokedex: 30%% Complete!
-achievement.dex30Chieve.desc=Complete 30% of the Pokedex
-achievement.dex40Chieve=Pokedex: 40%% Complete!
-achievement.dex40Chieve.desc=Complete 40% of the Pokedex
-achievement.dex50Chieve=Pokedex: 50%% Complete!
-achievement.dex50Chieve.desc=Complete 50% of the Pokedex
-achievement.dex60Chieve=Pokedex: 60%% Complete!
-achievement.dex60Chieve.desc=Complete 60% of the Pokedex
-achievement.dex70Chieve=Pokedex: 70%% Complete!
-achievement.dex70Chieve.desc=Complete 70% of the Pokedex
-achievement.dex80Chieve=Pokedex: 80%% Complete!
-achievement.dex80Chieve.desc=Complete 80% of the Pokedex
-achievement.dex90Chieve=Pokedex: 90%% Complete!
-achievement.dex90Chieve.desc=Complete 90% of the Pokedex
-achievement.dex100Chieve=Pokedex: Pixelmon Master!
-achievement.dex100Chieve.desc=Complete the Pokedex
+achievement.ApricornChieve.desc=Cook an Apricorn
+achievement.dex1Chieve=Pokédex: 1%% Complete!
+achievement.dex1Chieve.desc=Complete 1% of the Pokédex
+achievement.dex10Chieve=Pokédex: 10%% Complete!
+achievement.dex10Chieve.desc=Complete 10% of the Pokédex
+achievement.dex20Chieve=Pokédex: 20%% Complete!
+achievement.dex20Chieve.desc=Complete 20% of the Pokédex
+achievement.dex30Chieve=Pokédex: 30%% Complete!
+achievement.dex30Chieve.desc=Complete 30% of the Pokédex
+achievement.dex40Chieve=Pokédex: 40%% Complete!
+achievement.dex40Chieve.desc=Complete 40% of the Pokédex
+achievement.dex50Chieve=Pokédex: 50%% Complete!
+achievement.dex50Chieve.desc=Complete 50% of the Pokédex
+achievement.dex60Chieve=Pokédex: 60%% Complete!
+achievement.dex60Chieve.desc=Complete 60% of the Pokédex
+achievement.dex70Chieve=Pokédex: 70%% Complete!
+achievement.dex70Chieve.desc=Complete 70% of the Pokédex
+achievement.dex80Chieve=Pokédex: 80%% Complete!
+achievement.dex80Chieve.desc=Complete 80% of the Pokédex
+achievement.dex90Chieve=Pokédex: 90%% Complete!
+achievement.dex90Chieve.desc=Complete 90% of the Pokédex
+achievement.dex100Chieve=Pokédex: Pixelmon Master!
+achievement.dex100Chieve.desc=Complete the Pokédex
 
 //Abilities
 pixelmon.abilities.angerpoint=Anger Point caused %s to become furious!
@@ -3181,6 +3223,8 @@ pixelmon.abilities.competitive=Competitive raised %s's Special Attack!
 pixelmon.abilities.cutecharm=%s's Cute Charm infatuated %s!
 pixelmon.abilities.damp=%s's Damp prevented the explosion!
 pixelmon.abilities.defiant=Defiant raised %s's Attack!
+pixelmon.abilities.drizzle=%s's Drizzle caused rain to fall!
+pixelmon.abilities.drought=%s's Drought caused the sun to intensify!
 pixelmon.abilities.dryskinheal=Dry Skin made %s heal %s instead!
 pixelmon.abilities.dryskinused=%s used %s!
 pixelmon.abilities.dryskinrain=%s regained HP because of its Dry Skin!
@@ -3215,17 +3259,20 @@ pixelmon.abilities.poisontouch=%s's Poison Touch poisoned %s!
 pixelmon.abilities.raindish=%s was healed by Rain Dish!
 pixelmon.abilities.rattled=%s's Rattled raised its Speed!
 pixelmon.abilities.roughskin=%s's Rough Skin hurt %s!
+pixelmon.abilities.runaway=%s fled using Run Away!
+pixelmon.abilities.sandstream=%s's Sand Stream whipped up a sandstorm!
 pixelmon.abilities.sapsipper=Sap Sipper raised %s's Attack!
 pixelmon.abilities.sapsipper2=%s's Sap Sipper negated the attack!
 pixelmon.abilities.shedskin=%s's Shed Skin cured it of its ailment!
-pixelmon.abilities.speedboost=%s's Speed was boosted because of Speed Boost!
 pixelmon.abilities.snowwarning=%s made it hail with Snow Warning!
 pixelmon.abilities.soundproof=%s's Soundproof rendered the attack useless!
+pixelmon.abilities.speedboost=%s's Speed was boosted because of Speed Boost!
 pixelmon.abilities.static=%s's Static paralysed %s!
 pixelmon.abilities.steadfast=%s's Speed was boosted by Steadfast!
 pixelmon.abilities.sturdy=%s just hung on with Sturdy!
 pixelmon.abilities.sturdy2=%s's Sturdy negated the attack!
 pixelmon.abilities.trace=%s traced %s's %s!
+pixelmon.abilities.unnerve=%s's Unnerve made the opponent too nervous to eat Berries!
 pixelmon.abilities.vitalspirit=%s's Vital Spirit kept it awake!
 pixelmon.abilities.voltabsorb=Volt Absorb drew in the attack and healed %s!
 pixelmon.abilities.waterabsorb=Water Absorb drew in the attack and healed %s!
@@ -3238,8 +3285,8 @@ pixelmon.abilities.wonderguard=%s's Wonder Guard prevented the attack!
 //Breeding
 pixelmon.egg.name=Egg
 ability.Egg.name=Hatching
-pixelmon.egg.hatching=Your egg hatched into a %s!
-pixelmon.egg.hatchingan=Your egg hatched into an %s!
+pixelmon.egg.hatching=Your Egg hatched into a %s!
+pixelmon.egg.hatchingan=Your Egg hatched into an %s!
 pixelmon.egg.hatchingdata=Slot: %s, Cycles: %s, Steps: %s
 pixelmon.egg.stage1=Sounds can be heard coming from inside! It will hatch soon!
 pixelmon.egg.stage2=It appears to move occasionally. It may be close to hatching. 
@@ -3254,26 +3301,26 @@ pixelmon.ranch.level3=%s's love for %s grows rapidly every day!
 pixelmon.ranch.level4=%s falls madly in love with %s every single day!
 pixelmon.ranch.maxaffection=%s loves %s as much as possible!
 
-//gui stuff
+//GUI stuff
 /*
-*   The first part of it shows its a gui eg: gui.guiEvolve.huh.
-*   The second part shows where it goes to in very short eg:
-*   guiEvolve goes to the evolve gui and guiItemDrops goes to
-*   the boss drop and trainer drop guis.
-*   The last part refers simply to their meaning in the gui.
-*   eg: gui.trading.trade has trade at the end because
+*   The first part of it shows it's a GUI, e.g., "gui.guiEvolve.huh".
+*   The second part shows where it goes to, e.g.,
+*   "guiEvolve" goes to the evolve GUI and "guiItemDrops" goes to
+*   the boss drop and Trainer drop GUIs.
+*   The last part refers simply to its meaning in the GUI.
+*   E.g., "gui.trading.trade" has "trade" at the end because
 *   the text it displays would be trade. It isn't always like that.
-*   For instance gui.guiEvolve.done doesn't say done it says
-*   Your $p evolved into a $n
+*   For instance "gui.guiEvolve.done" doesn't say done; it says
+*   "Your $p evolved into a $n"
 *
 *
 *   In here you will notice some symbols like $p and $n.
-*   $p refers to your pixelmon or a pixelmon in general when
+*   "$p" refers to your Pokémon or a Pokémon in general when
 *   there is only one being referenced in that line.
-*   $n is the other pixelmon.
-*   $d is the other player.
-*   $a was a one time occurrence which stands for enabled or disabled.
-*   Depending on what instance to call on.
+*   "$n" is the other Pokémon.
+*   "$d" is the other player.
+*   "$a" was a one time occurrence which stands for enabled or disabled
+*   depending on what instance to call on.
 */
 gui.guiEvolve.huh=Huh?
 gui.guiEvolve.evolve=What? $p is evolving!
@@ -3281,19 +3328,19 @@ gui.guiEvolve.done=Your $p evolved into a $n!
 gui.guiEvolve.cancel=Evolution cancelled!
 
 gui.guiItemDrops.beatBossPixelmon1=You beat a boss $p!
-gui.guiItemDrops.beatTrainer1=You beat a trainer!
+gui.guiItemDrops.beatTrainer1=You beat a Trainer!
 gui.guiItemDrops.ok=OK
 gui.guiItemDrops.mouse=Mouse over item
 gui.guiItemDrops.see=to see more
 gui.guiItemDrops.details=details
 
-gui.fainterChoice.noFight=$p can no longer fight
-gui.fainterChoice.switch=Switch To Another Pokémon
+gui.fainterChoice.noFight=$p can no longer fight.
+gui.fainterChoice.switch=Switch to another Pokémon
 gui.fainterChoice.run=Run
 
-gui.choosebad.nopokeballs=You can not use Pokeballs in this battle!
+gui.choosebad.nopokeballs=You cannot use Poké Balls in this battle!
 
-gui.guiDoctor.healPokemon=I'm a Pokémon Doctor.  Shall I heal your pokémon?
+gui.guiDoctor.healPokemon=I'm a Pokémon Doctor.  Shall I heal your Pokémon?
 gui.guiDoctor.waiting=Waiting
 
 gui.trading.ready=Ready
@@ -3302,13 +3349,13 @@ gui.trading.want=$d wants to trade
 gui.trading.nuf=No user found!
 gui.trading.trade=Trade
 
-gui.pokedex.pokedex=Pokedex
+gui.pokedex.pokedex=Pokédex
 gui.pokedex.height=Height:
 gui.pokedex.weight=Weight:
 gui.pokedex.more=More...
 
 gui.pokedexoptions.done=Done.
-gui.pokedexoptions.options=Pokedex Options
+gui.pokedexoptions.options=Pokédex Options
 
 gui.yesno.trade=Would you like to trade your $e for my $o?
 gui.yesno.yes=Yes
@@ -3409,21 +3456,23 @@ gui.tradereditor.level=Level
 gui.tradereditor.offer=Offer:
 gui.tradereditor.exchange=Exchange
 gui.tradereditor.delete=Delete Trader
-gui.tradereditor.changeTrainer=Change To Trainer
+gui.tradereditor.changeTrainer=Change to Trainer
 gui.tradereditor.random=Randomize
-gui.trainereditor.changeTrader=Change To Trader
+gui.trainereditor.changeTrader=Change to Trader
 
 gui.overlay1v1.lv=Lv.
 
-gui.starter.trademark1=This is a fan made mod, all trademarks and copyright for pokémon are owned
+gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
 gui.starter.trademark2=by Nintendo and Game Freak Inc.
-gui.starter.trademark3=Support Nintendo/Game Freak by buying Pokémon X/Y
-gui.starter.trademark4=Welcome to the world of Pixelmon!! Thank you for installing this mod!
+gui.starter.trademark3=Support Nintendo/Game Freak by buying Pokémon X/Y.
+gui.starter.trademark4=Welcome to the world of Pokémon!! Thank you for installing this mod!
 gui.starter.trademark5=Now, please pick your desired starter Pokémon!
 gui.starter.comingsoon=Coming Soon...
 gui.starter.disabled=Disabled
 
 gui.pc.box=Box:
+
+gui.selectpokemon.message=Select a Pokémon!
 
 gui.update.text=Update
 gui.label.text=Label
@@ -3447,8 +3496,9 @@ enum.trainerAI.wander=Wander
 enum.trainerAI.wanderandengage=Wander and Engage
 enum.trainerEncounter.once=Once
 enum.trainerEncounter.onceperday=Once per Day
-enum.trainerEncounter.oncepermcday=Once per Mc Day
+enum.trainerEncounter.oncepermcday=Once per MC Day
 enum.trainerEncounter.onceperplayer=Once per Player
+
 enum.growth.microscopic=Microscopic
 enum.growth.pygmy=Pygmy
 enum.growth.runt=Runt
@@ -3458,6 +3508,32 @@ enum.growth.huge=Huge
 enum.growth.giant=Giant
 enum.growth.enormous=Enormous
 enum.growth.ginormous=Ginormous
+
+enum.nature.adamant=Adamant
+enum.nature.bashful=Bashful
+enum.nature.bold=Bold
+enum.nature.brave=Brave
+enum.nature.calm=Calm
+enum.nature.careful=Careful
+enum.nature.docile=Docile
+enum.nature.gentle=Gentle
+enum.nature.hardy=Hardy
+enum.nature.hasty=Hasty
+enum.nature.impish=Impish
+enum.nature.jolly=Jolly
+enum.nature.lax=Lax
+enum.nature.lonely=Lonely
+enum.nature.mild=Mild
+enum.nature.modest=Modest
+enum.nature.naive=Naive
+enum.nature.naughty=Naughty
+enum.nature.quiet=Quiet
+enum.nature.quirky=Quirky
+enum.nature.rash=Rash
+enum.nature.relaxed=Relaxed
+enum.nature.sassy=Sassy
+enum.nature.serious=Serious
+enum.nature.timid=Timid
 
 enum.statuetex.originaltexture=Original
 enum.statuetex.shiny=Shiny
@@ -3478,25 +3554,25 @@ gui.battle.back=Back
 gui.battle.whatdo=What will $p do?
 gui.battle.type=Type:
 
-gui.levelupscreen.lvlup=Your $p has grown to level
+gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
 gui.mainmenu.fight=FIGHT
 gui.mainmenu.bag=BAG
-gui.mainmenu.pokémon=POKEMON
+gui.mainmenu.Pokémon=POKEMON
 gui.mainmenu.run=RUN
 gui.mainmenu.whatdo=What will $p do?
-gui.mainmenu.cantswitch=You can't switch pokémon right now!
+gui.mainmenu.cantswitch=You can't switch Pokémon right now!
 gui.mainmenu.traped=$p is trapped! You cannot flee!
 gui.mainmenu.trainer=You can't run from this battle!
 
-gui.choosebag.pokeballs=Poke Balls
+gui.choosebag.pokeballs=Poké Balls
 gui.choosebag.hppp=HP/PP Restore
 gui.choosebag.statusrestore=Status Restore
 gui.choosebag.battleitems=Battle Items
-gui.choosebag.nopokeballs=You can't use Poke Balls in this battle!
+gui.choosebag.nopokeballs=You can't use Poké Balls in this battle!
 
-gui.choosepokemon.select=Select a Pokémon to use on
-gui.choosepokemon.sendout=Choose a Pokémon to send out
+gui.choosepokemon.select=Select a Pokémon to use it on.
+gui.choosepokemon.sendout=Choose a Pokémon to send out.
 
 gui.npctrader.their=Given Pokémon
 gui.npctrader.yours=Looking For
@@ -3514,9 +3590,9 @@ gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Extend ranch block contained area
-gui.ranch.empty=There are no pokémon in the ranch
-ranch.hourglass.upgradedall=All breeding pokémon increased a breeding level
-ranch.hourglass.upgrade=%s increased a breeding level
+gui.ranch.empty=There are no Pokémon in the ranch.
+ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level.
+ranch.hourglass.upgrade=%s increased a breeding level.
 
 container.MechanicalAnvil=Mechanical Anvil
 
@@ -3525,29 +3601,29 @@ attack.category.special=Special
 attack.category.status=Status
 
 nbt.attack.name=Attack:
-nbt.defence.name=defence:
+nbt.defence.name=Defence:
 nbt.speed.name=Speed:
 nbt.spattack.name=Sp.Attack:
-nbt.spdefense.name=Sp.defence:
+nbt.spdefense.name=Sp.Defence:
 nbt.hp.name=HP:
 nbt.pp.name=PP:
 
 nbt.attack2.name=Attack
-nbt.defense2.name=defence
+nbt.defense2.name=Defence
 nbt.speed2.name=Speed
 nbt.spattack2.name=Sp.Attack
-nbt.spdefense2.name=Sp.defence
+nbt.spdefense2.name=Sp.Defence
 nbt.hp2.name=HP
 
 //  Main Chat Messages
 /*
-*   Here things are a bit different than the gui stuff.
-*   For anything that is a string and a variable like a pokémon name put %s which stands for a string.
-*   If you are referencing an integer (whole number) use %d
-*   Eg: The wild %s escaped! Lets say the pokémon that escaped is rattata it will display in game
-*   "The wild Rattata escaped!" Or on the rare occasion you come across an int.
-*   Eg: "You got rid of %d items"
-*   The previous $p and $m what have you does not apply here!
+*   Here things are a bit different than the GUI stuff.
+*   For anything that is a string and a variable like a Pokémon name, put "%s", which stands for a string.
+*   If you are referencing an integer (whole number), use "%d".
+*   E.g., "The wild %s escaped!". Let's say the Pokémon that escaped is Rattata. It will display in game
+*   "The wild Rattata escaped!". Or on the rare occasion you come across an int,
+*   E.g., "You got rid of %d items",
+*   the previous "$p" and "$m" what have you do not apply here!
 */
 
 battlecontroller.escaped=%s escaped!
@@ -3556,15 +3632,17 @@ battlecontroller.initbattle.you=You initiated a battle with %s!
 battlecontroller.initbattle.toyou=%s initiated a battle with you!
 battlecontroller.flinched=%s has flinched!
 battlecontroller.fainted=Your %s fainted!
-battlecontroller.hasfainted=%s has fainted!
-battlecontroller.outofpokemon=You've run out of usable pokémon!
+battlecontroller.hasfainted=%s fainted!
+battlecontroller.outofpokemon=You've run out of usable Pokémon!
+battlecontroller.switch=Choose a new Pokémon to send out!
+battlecontroller.targets=Choose the target for $a.
 
 battlecontroller.afk=%s has gone AFK for %d seconds, auto-battler taking turns every %d seconds!
-battlecontroller.selfafk=You have gone AFK for %d seconds, auto-battler will take your turns every %d seconds!
-battlecontroller.afkback=%s is no longer AFK, auto-battler disengaged!
-battlecontroller.selfafkback=You are no longer AFK, auto-battler disengaged!
+battlecontroller.selfafk=You have gone AFK for %d seconds. Auto-battler will take your turns every %d seconds!
+battlecontroller.afkback=%s is no longer AFK. Auto-battler disengaged!
+battlecontroller.selfafkback=You are no longer AFK. Auto-battler disengaged!
 
-battleController.recievedDamage=%s received %d damage from %s
+battleController.recievedDamage=%s received %d damage from %s!
 
 type.normal=Normal
 type.fire=Fire
@@ -3584,13 +3662,13 @@ type.dragon=Dragon
 type.dark=Dark
 type.steel=Steel
 
-aitargetenvironment.seessomething=Your Pokémon Sees Something
+aitargetenvironment.seessomething=Your Pokémon sees something.
 
-batonpass.failed=%s's move failed!
+batonpass.failed=But it failed!
 batonpass.pass=%s passes a baton!
 batonpass.noleft=There are no Pokémon left to switch to!
 
-teleport.trainerbattle=You can't teleport from a trainer battle!
+teleport.trainerbattle=You can't teleport from a Trainer battle!
 teleport.away=$s teleported away!
 //The $ sign was intended
 
@@ -3610,8 +3688,8 @@ battlequery.declined=%s declined the battle!
 
 command.battle.battlebetween=Battle between %s and %s started!
 
-bagpacket.itemnotfound=Item Could not be found!
-bagpacket.battlenotfound=Battle Could not be found!
+bagpacket.itemnotfound=Item could not be found!
+bagpacket.battlenotfound=Battle could not be found!
 
 deletemove.forgot=Your %s forgot %s!
 
@@ -3625,21 +3703,21 @@ sendpixelmon.retrieved=You retrieved %s!
 @Author Dayaffe
 //Blocks
 /*
-*   Pretty much same basic concept here. middle one represents
-*   the items blockName as defined and the first one "tile"
-*   shows its referring to a block type. Name is just
+*   Pretty much same basic concept here. Middle one represents
+*   the item's blockName as defined and the first one "tile"
+*   shows it's referring to a block type. "Name" is just
 *   standing for its name.
 */
 tile.anvil.name=Anvil
 tile.pc.name=PC
-tile.mossy rock.name=Mossy Rock
-tile.icy rock.name=Icy Rock
-tile.trade machine.name=Trade Machine
+tile.mossyrock.name=Mossy Rock
+tile.icyrock.name=Icy Rock
+tile.trademachine.name=Trade Machine
 tile.healer.name=Healer
-tile.fossil cleaner.name=Fossil Cleaner
-tile.fossil machine.name=Fossil Machine
-tile.cloning machine.name=Cloning Machine
-tile.bauxite ore.name=Bauxite Ore
+tile.fossilcleaner.name=Fossil Cleaner
+tile.fossilmachine.name=Fossil Machine
+tile.cloningMachine.name=Cloning Machine
+tile.bauxiteOre.name=Bauxite Ore
 tile.Fire Stone Ore.name=Fire Stone Ore
 tile.Water Stone Ore.name=Water Stone Ore
 tile.Leaf Stone Ore.name=Leaf Stone Ore
@@ -3648,12 +3726,17 @@ tile.Sun Stone Ore.name=Sun Stone Ore
 tile.Dawn Stone Ore.name=Dawn Stone Ore
 tile.pixelmonSpawner.name=Pixelmon Spawner
 tile.master chest.name=Master Chest
-tile.poke chest.name=Poke Chest
+tile.poke chest.name=Poké Chest
 tile.ultra chest.name=Ultra Chest
 tile.fossil.name=Fossil
-tile.uno shrine.name=Frozen Shrine
-tile.dos shrine.name=Static Shrine
-tile.tres shrine.name=Fiery Shrine
+tile.shrineuno.name=Frozen Shrine
+tile.shrinedos.name=Static Shrine
+tile.shrinetres.name=Fiery Shrine
+tile.apricorn tree.name=Apricorn Tree
+tile.mechanicalanvil.name=Mechanical Anvil
+tile.ranchblock.name=Ranch Block
+tile.leafstoneore_overlay.name=Leaf Stone Ore
+tile.null.name=Hidden Pressure Plate
 tile.unownblock_1.A.name=Unown A
 tile.unownblock_1.B.name=Unown B
 tile.unownblock_1.C.name=Unown C
@@ -3706,7 +3789,7 @@ ability.Analytic.description=Boosts move power when the Pokémon moves after the
 ability.AngerPoint.name=Anger Point
 ability.AngerPoint.description=Maxes the Attack stat after the Pokémon takes a critical hit.
 ability.Anticipation.name=Anticipation
-ability.Anticipation.description=Senses an opposing Pokemons dangerous moves.
+ability.Anticipation.description=Senses an opposing Pokémon's dangerous moves.
 ability.ArenaTrap.name=Arena Trap
 ability.ArenaTrap.description=Prevents opposing Pokémon from fleeing.
 ability.AromaVeil.name=Aroma Veil
@@ -4070,15 +4153,15 @@ ability.WonderSkin.description=Makes status moves more likely to miss.
 ability.ZenMode.name=Zen Mode
 ability.ZenMode.description=Changes the Pokémon's shape when HP is half or less.
 ability.ComingSoon.name=Coming Soon!
-ability.ComingSoon.description=This ability has not been coded yet. But it will be soon!
+ability.ComingSoon.description=This Ability has not been coded yet, but it will be soon!
 
 pixelmon.battletext.noeffect=It had no effect!
-pixelmon.battletext.movefailed=The move failed!
-pixelmon.battletext.criticalhit=Critical Hit!
+pixelmon.battletext.movefailed=But it failed!
+pixelmon.battletext.criticalhit=Critical hit!
 pixelmon.battletext.wasnoteffective=It wasn't very effective...
 pixelmon.battletext.super-effective=It's super effective!
 pixelmon.battletext.missedattack=%s tried to use %s, but it missed!
-pixelmon.battletext.butmovefailed=But the move failed!
+pixelmon.battletext.butmovefailed=But it failed!
 pixelmon.battletext.used=%s used %s!
 pixelmon.battletext.sentout=%s sent out %s!
 
@@ -4104,7 +4187,7 @@ pixelmon.effect.payday=Coins are scattered all around
 pixelmon.effect.psycheup=%s copied %s stat changes!
 pixelmon.effect.raisestats=%s's stats rose!
 pixelmon.effect.freefrom=%s freed itself from %s
-pixelmon.effect.clearspikes=%s cleared all spikes!
+pixelmon.effect.clearspikes=%s cleared all entry hazards!
 pixelmon.effect.smackdown=%s got knocked out of the sky!
 pixelmon.effect.ppdrop=%s's %s's PP dropped!
 pixelmon.effect.struggle=%s struggled!
@@ -4115,7 +4198,9 @@ pixelmon.effect.unleashenergy=%s unleashed its energy!
 pixelmon.effect.attackfailed=%s's attack failed!
 pixelmon.effect.dighole=%s digs a hole!
 pixelmon.effect.flyup=%s flies up in the air!
+pixelmon.effect.bounce=%s sprung up!
 pixelmon.effect.becameconfused=%s became confused!
+pixelmon.effect.alreadyconfused=%s is already confused!
 pixelmon.effect.razorwind=%s whips up a strong wind!
 pixelmon.effect.skyattack=%s becomes cloaked in a harsh light!
 pixelmon.effect.thrash=%s became confused due to fatigue!
@@ -4162,6 +4247,21 @@ pixelmon.effect.specdefincreased3=%s's Special Defence was increased drastically
 pixelmon.effect.specdefdecreased3=%s's Special Defence was decreased drastically!
 pixelmon.effect.speedincreased3=%s's Speed was increased drastically!
 pixelmon.effect.speeddecreased3=%s's Speed was decreased drastically!
+pixelmon.effect.critincreased=%s is getting pumped!
+pixelmon.effect.accuracytoohigh=%s's accuracy can't go higher!
+pixelmon.effect.accuracytoolow=%s's accuracy can't go lower!
+pixelmon.effect.evasiontoohigh=%s's evasion can't go higher!
+pixelmon.effect.evasiontoolow=%s's evasion can't go lower!
+pixelmon.effect.attacktoohigh=%s's Attack can't go higher!
+pixelmon.effect.attacktoolow=%s's Attack can't go lower!
+pixelmon.effect.defensetoohigh=%s's Defence can't go higher!
+pixelmon.effect.defensetoolow=%s's Defence can't go lower!
+pixelmon.effect.spatktoohigh=%s's Special Attack can't go higher!
+pixelmon.effect.spatktoolow=%s's Special Attack can't go lower!
+pixelmon.effect.spdeftoohigh=%s's Special Defence can't go higher!
+pixelmon.effect.spdeftoolow=%s's Special Defence can't go lower!
+pixelmon.effect.speedtoohigh=%s's Speed can't go higher!
+pixelmon.effect.speedtoolow=%s's Speed can't go lower!
 pixelmon.effect.surroundedbywater=%s is already surrounded by water!
 pixelmon.effect.surroundwithwater=%s surrounds itself in a veil of water!
 pixelmon.effect.burnt=%s has been burnt!
@@ -4195,7 +4295,7 @@ pixelmon.effect.vortex=%s was trapped in the vortex!
 pixelmon.effect.alreadypoisoned=%s is already poisoned!
 pixelmon.effect.poisoned=%s has been poisoned!
 pixelmon.effect.badlypoisoned=%s has been badly poisoned!
-pixelmon.effect.redaying=%s is readying itself!
+pixelmon.effect.redaying=%s protected itself!
 pixelmon.effect.raining=It started to rain!
 pixelmon.effect.sandstorm=A sandstorm kicked up!
 pixelmon.effect.alreadybarrier=%s already has a barrier!
@@ -4206,7 +4306,7 @@ pixelmon.effect.guarded=%s is looking a bit guarded!
 pixelmon.effect.harshsunlight=The sunlight turned harsh!
 pixelmon.effect.alreadysleeping=%s is already asleep!
 pixelmon.effect.fallasleep=%s has fallen asleep!
-pixelmon.effect.itfailed=It failed!
+pixelmon.effect.itfailed=But it failed!
 pixelmon.effect.moretoxicspikes=More toxic spikes were laid around %s!
 pixelmon.effect.toxicspikes=Toxic spikes were laid around %s!
 pixelmon.effect.floatingstones=Pointed stones float in the air around %s!
@@ -4215,6 +4315,18 @@ pixelmon.effect.trickroomnormal=The room returned to normal....  Or is it!!!???
 pixelmon.effect.becamedrowsy=%s became drowsy!
 pixelmon.effect.alreadydrowsy=%s is already drowsy!
 pixelmon.effect.bellydrum=%s cut its HP and maximised its Attack!
+pixelmon.effect.applydestinybond=%s is trying to take down the opponent with it!
+pixelmon.effect.destinybond=%s took down the opponent with it!
+pixelmon.effect.knockoff=%s knocked off %s's %s!
+pixelmon.effect.flee=%s was forced out!
+pixelmon.effect.healbell=The party was cured of statuses!
+pixelmon.effect.sketch=%s sketched %s!
+pixelmon.effect.healingwish=The healing wish came true!
+pixelmon.effect.wish=%s's wish came true!
+pixelmon.effect.healfailed=%s's HP is full!
+pixelmon.effect.bugbite=%s ate %s's %s!
+pixelmon.effect.trick=%s switched items with %s!
+pixelmon.effect.trickitem=%s received a %s.
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -4231,9 +4343,10 @@ pixelmon.status.takefuturesight=%s took the Future Sight attack!
 pixelmon.status.hurthail=%s was hurt by hail!
 pixelmon.status.hailstopped=The hail stopped.
 pixelmon.status.heavyhail=The hail falls heavily!
-pixelmon.status.inlove=%s is in love!
+pixelmon.status.inlove=%s is in love with %s!
+pixelmon.status.immobilizedbylove=%s is immobilised by love!
 pixelmon.status.drainhealth=%s drains health from %s!
-pixelmon.status.lightscreenoff=%s's Light Screen wears off!
+pixelmon.status.lightscreenoff=Light Screen wore off!
 pixelmon.status.mistprotect=%s tried to use %s but the target is protected by the mist!
 pixelmon.status.mistoff=The mist wore off!
 pixelmon.status.isparalyzed=%s is paralysed and cannot move!
@@ -4247,19 +4360,19 @@ pixelmon.status.hurtby=%s was hurt by %s!
 pixelmon.status.perishsongstruck=Perish Song struck %s!
 pixelmon.status.hurtbypoison=%s is hurt by poison!
 pixelmon.status.triedbutprotect=%s tried to use %s but the target protected itself!
-pixelmon.status.rainstopped=The rain stopped
+pixelmon.status.rainstopped=The rain stopped.
 pixelmon.status.heavyrain=It is raining heavily!
 pixelmon.status.recharging=%s is recharging!
 pixelmon.status.reflectoff=Reflect wore off!
 pixelmon.status.safeguardoff=Safeguard wore off!
-pixelmon.status.sandstormsubside=The sandstorm subsided
+pixelmon.status.sandstormsubside=The sandstorm subsided.
 pixelmon.status.sandstormrage=The sandstorm rages harshly!
 pixelmon.status.buffetedbysandstorm=%s was buffeted by the sandstorm!
 pixelmon.status.wokeup=%s woke up!
 pixelmon.status.stillsleeping=%s is still sleeping!
 pixelmon.status.wakesup=%s wakes up!
 pixelmon.status.hurtbyspikes=%s was hurt by spikes!
-pixelmon.status.hurtbystealthrock=%s was hurt by stealth rock!
+pixelmon.status.hurtbystealthrock=%s was hurt by Stealth Rock!
 pixelmon.status.substitutefade=The substitute faded away!
 pixelmon.status.sunlightfaded=The sunlight faded.
 pixelmon.status.brightlight=The sunlight is bright!
@@ -4269,12 +4382,16 @@ pixelmon.status.toxicspikesbadlypoisoned=The toxic spikes badly poisoned %s!
 pixelmon.status.trickroomreturntonormal=The room returns to normal...
 pixelmon.status.ragebuilding=%s's rage is building!
 pixelmon.status.fellasleep=%s fell asleep!
+pixelmon.status.taunted=%s fell for the taunt!
+pixelmon.status.tauntcantuse=%s can't use %s because of the taunt!
+pixelmon.status.tauntnolonger=%s's is no longer taunted!
 pixelmon.status.noeffect=No effect!
+pixelmon.status.tailwindstarted=%s whipped up a tailwind!
+pixelmon.status.tailwindalready=Tailwind is already active!
+pixelmon.status.tailwindfaded=%s's tailwind petered out!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
-
-tile.MechanicalAnvil.name=Mechanical Anvil
 
 // Add key names from options menu
 key.categories.pixelmon=Pixelmon
@@ -4282,5 +4399,18 @@ key.descend=Descend
 key.minmaxoverlay=Minimise/Maximise Overlay
 key.nextpokemon=Next Party Slot
 key.previouspokemon=Previous Party Slot
-key.sendpokemon=Send Out Pixelmon
-key.pokemonaction=Select Target Pixelmon
+key.sendpokemon=Send out Pokémon
+key.pokemonaction=Select Target Pokémon
+key.pokemonexternal=Use External Move
+
+halloween.entityname=The Spectral Jeweller
+halloween.gemregistered=The Spectral Jeweller recieved your %s!
+halloween.alreadyregistered=%s has already been recieved!
+halloween.alreadyawarded=You have already finished this quest!
+halloween.message=I'm here to exchange your hallowed Gems!
+
+christmas.notchristmas=You must wait until Christmas to open this gift!
+christmas.ischristmas=Merry Christmas from the Pixelmon Development Team!
+christmas.received=You have received a Christmas gift from Delibird!
+christmas.alreadygifted=You have already opened a Christmas gift!
+item.Gift Box.name=Gift Box
