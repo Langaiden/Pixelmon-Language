@@ -3238,6 +3238,7 @@ pixelmon.abilities.flashfire=Flash Fire boosted the power of %s's fire!
 pixelmon.abilities.flashfire2=%s's Flash Fire nullified the attack!
 pixelmon.abilities.forewarn=%s's Forewarn alerted it of %s!
 pixelmon.abilities.frisk=%s frisked %s and found its %s!
+pixelmon.abilities.healer=%s's Healer cured %s's status ailments!
 pixelmon.abilities.hypercut=%s's Hyper Cutter prevents Attack loss!
 pixelmon.abilities.innerfocus=%s won't flinch because of its Inner Focus!
 pixelmon.abilities.insomnia=%s's Insomnia kept it awake!
