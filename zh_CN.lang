@@ -3183,12 +3183,15 @@ achievement.dex100Chieve.desc=口袋妖怪图鉴全部收集完毕~！
 
 //Abilities
 pixelmon.abilities.angerpoint=愤怒穴道使 %s 变得大怒！
+pixelmon.abilities.anticipation=%s 因为预知到危险而害怕得颤抖！
 pixelmon.abilities.bigpecks=%s 的鸽胸让自己的防御力下降了！
 pixelmon.abilities.clearbody=%s 的透明体防止了自身的能力被降低！
 pixelmon.abilities.competitive=好胜提高了 %s 的特攻！
 pixelmon.abilities.cutecharm=%s 的迷人身躯魅惑了 %s！
 pixelmon.abilities.damp=%s 的湿气防止了爆炸！
 pixelmon.abilities.defiant=不服输提高了 %s 的攻击！
+pixelmon.abilities.download=%s 的下载提高了它的攻击！
+pixelmon.abilities.download2=%s 的下载提高了它的特攻！
 pixelmon.abilities.dryskinheal=干燥皮肤让 %s 回复了 %s ！
 pixelmon.abilities.dryskinused=%s 使用 %s！
 pixelmon.abilities.dryskinrain=%s 回复了生命因为干燥皮肤！
@@ -3211,6 +3214,7 @@ pixelmon.abilities.leafguard=%s 受到了叶片防御的保护！
 pixelmon.abilities.levitate=%s 尝试使用 %s，但是 %s 正在漂浮！
 pixelmon.abilities.limber=%s 的柔软防止了它陷入麻痹状态！
 pixelmon.abilities.magmaarmor=%s 的岩浆防护防止了它陷入冰冻状态！
+pixelmon.abilities.moldbreaker=%s 打破了模型！
 pixelmon.abilities.motordrive=电气引擎使 %s 的速度上升！
 pixelmon.abilities.motordrive2=%s 的电气引擎使攻击无效！
 pixelmon.abilities.oblivious=%s 的迟钝使攻击无效！
@@ -3242,7 +3246,9 @@ pixelmon.abilities.moxieboost=%s 的勇气因为攻击提高了！
 pixelmon.abilities.moxiemax=%s 的勇气不能再通过攻击提高了！
 pixelmon.abilities.sturdy=%s 因为结实的特性免于了一击必杀！
 pixelmon.abilities.sturdy2=%s 的结实使攻击无效！
+pixelmon.abilities.teravolt=%s 散发出了一个破灭的光环！
 pixelmon.abilities.trace=%s 的追踪让它复制了 %s 的特性 %s！
+pixelmon.abilities.turboblaze=%s 散发出了一个炽热的光环！
 pixelmon.abilities.whitesmoke=%s 的白色烟雾防止了能力的下降！
 pixelmon.abilities.wonderguard=%s 的奇异守护防止了攻击！
 
@@ -3665,6 +3671,7 @@ tile.Thunder Stone Ore.name=雷之石矿
 tile.Sun Stone Ore.name=太阳石矿
 tile.Dawn Stone Ore.name=觉醒石矿
 tile.Dusk Stone Ore.name=暗之石矿
+tile.DawnDusk Ore.name=觉醒/暗之石矿
 
 tile.pixelmonSpawner.name=神奇宝贝精灵箱
 tile.master chest.name=大师球道具箱
