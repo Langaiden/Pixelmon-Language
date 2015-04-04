@@ -367,6 +367,7 @@ item.MetalPowder.name=Metal Powder
 item.QuickPowder.name=Quick Powder
 item.Stick.name=Stick
 item.ThickClub.name=Thick Club
+item.PowerHerb.name=Power Herb
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
@@ -3290,6 +3291,7 @@ pixelmon.helditems.airballoonpop=%s's Air Balloon popped!
 pixelmon.helditems.toxicorb=%s was badly poisoned by its Toxic Orb!
 pixelmon.helditems.flameorb=%s was burned by its Flame Orb!
 pixelmon.helditems.rockyhelmet=%s was hurt by %s's Rocky Helmet!
+pixelmon.helditems.powerherb=%s's Power Herb let it skip the charging turn!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
@@ -4569,6 +4571,7 @@ pixelmon.effect.bugbite=%s ate %s's %s!
 pixelmon.effect.trick=%s switched items with %s!
 pixelmon.effect.trickitem=%s received a %s.
 pixelmon.effect.reflecttype=%s copied %s's type!
+pixelmon.effect.dive=%s dives down!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
