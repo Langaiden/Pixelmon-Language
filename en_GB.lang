@@ -3375,7 +3375,7 @@ achievement.dex100Chieve.desc=Complete the Pokédex
 
 //Abilities
 pixelmon.abilities.airlock=%s's Air Lock caused the effects of weather to disappear!
-pixelmon.abilities.angerpoint=Anger Point caused %s to become furious!
+pixelmon.abilities.angerpoint=Anger Point caused %s to become furious!pixelmon.abilities.anticipation=%s shuddered in anticipation!
 pixelmon.abilities.bigpecks=%s's Big Pecks prevents Defence loss!
 pixelmon.abilities.clearbody=%s's Clear Body prevents stat loss!
 pixelmon.abilities.cloudnine=%s's Cloud Nine caused the effects of weather to disappear!
@@ -3383,6 +3383,8 @@ pixelmon.abilities.competitive=Competitive raised %s's Special Attack!
 pixelmon.abilities.cutecharm=%s's Cute Charm infatuated %s!
 pixelmon.abilities.damp=%s's Damp prevented the explosion!
 pixelmon.abilities.defiant=Defiant raised %s's Attack!
+pixelmon.abilities.download=%s's Download raised its Attack!
+pixelmon.abilities.download2=%s's Download raised its Special Attack!
 pixelmon.abilities.drizzle=%s's Drizzle caused rain to fall!
 pixelmon.abilities.drought=%s's Drought caused the sun to intensify!
 pixelmon.abilities.dryskinheal=Dry Skin made %s heal %s instead!
