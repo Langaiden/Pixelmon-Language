@@ -258,6 +258,23 @@ item.FigBerry.name=Figy Berry
 item.IapapaBerry.name=Iapapa Berry
 item.MagoBerry.name=Mago Berry
 item.WikiBerry.name=Wiki Berry
+item.OccaBerry.name=Occa Berry
+item.PasshoBerry.name=Passho Berry
+item.WacanBerry.name=Wacan Berry
+item.RindoBerry.name=Rindo Berry
+item.YacheBerry.name=Yache Berry
+item.ChopleBerry.name=Chople Berry
+item.KebiaBerry.name=Kebia Berry
+item.ShucaBerry.name=Shuca Berry
+item.CobaBerry.name=Coba Berry
+item.PayapaBerry.name=Payapa Berry
+item.TangaBerry.name=Tanga Berry
+item.ChartiBerry.name=Charti Berry
+item.KasibBerry.name=Kasib Berry
+item.HabanBerry.name=Haban Berry
+item.ColburBerry.name=Colbur Berry
+item.BabiriBerry.name=Babiri Berry
+item.ChilanBerry.name=Chilan Berry
 
 item.Heal Powder.name=Heal Powder
 item.Energy Powder.name=Energy Powder
@@ -3293,6 +3310,7 @@ pixelmon.helditems.toxicorb=%s was badly poisoned by its Toxic Orb!
 pixelmon.helditems.flameorb=%s was burned by its Flame Orb!
 pixelmon.helditems.rockyhelmet=%s was hurt by %s's Rocky Helmet!
 pixelmon.helditems.powerherb=%s's Power Herb let it skip the charging turn!
+pixelmon.helditems.berrytypereducing=%s's %s weakened the attack!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
