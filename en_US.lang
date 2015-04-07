@@ -385,6 +385,7 @@ item.QuickPowder.name=Quick Powder
 item.Stick.name=Stick
 item.ThickClub.name=Thick Club
 item.PowerHerb.name=Power Herb
+item.RedCard.name=Red Card
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defense
@@ -3311,6 +3312,7 @@ pixelmon.helditems.flameorb=%s was burned by its Flame Orb!
 pixelmon.helditems.rockyhelmet=%s was hurt by %s's Rocky Helmet!
 pixelmon.helditems.powerherb=%s's Power Herb let it skip the charging turn!
 pixelmon.helditems.berrytypereducing=%s's %s weakened the attack!
+pixelmon.helditems.redcard=%s held up its Red Card!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
