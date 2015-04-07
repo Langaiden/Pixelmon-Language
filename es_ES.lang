@@ -3,19 +3,21 @@
 *
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
-*   reference, but its is VERY straight forward. To translate the mod
-*   all you need to do is replace the text after the = to what you
-*   desire! Its that simple!
+*   reference, but it's VERY straightforward. To translate the mod
+*   all you need to do is replace the text after the "=" to what you
+*   desire! It's that simple!
 */
 
 //Items
 /*
-*   item stands for it is an item. Just like in item.PC.name.
+*   item stands for "it is an item", just like in item.PC.name.
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=PC
+item.Ranch Block.name=Bloque del Rancho
 item.Anvil.name=Yunque
+item.MechanicalAnvil.name=Yunque Mecánico
 item.Healer.name=Poke Centro
 item.Trade Machine.name=Máquina de Intercambio
 item.Fossil Machine.name=Máquina de Fósiles
@@ -750,7 +752,6 @@ item.DawnstoneBoots.name=Botas de Piedra Alba
 item.PicketFence.name=Valla
 
 //Breeding update
-item.Ranch Block.name=Bloque del Rancho
 item.Park Ball.name=Parque Ball
 item.Quick Ball.name=Veloz Ball
 item.Lure Ball.name=Cebo Ball
@@ -815,8 +816,8 @@ gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Extender el área del rancho
 gui.ranch.empty=No hay pokemon en el rancho
-ranch.hourglass.upgradedall=Todos los Pokémon aumentaron un nivel de afecto.
-ranch.hourglass.upgrade=%s aumentó un nivel de afecto.
+ranch.hourglass.upgradedall=Todos los Pokémon aumentaron un nivel de crianza.
+ranch.hourglass.upgrade=%s aumentó un nivel de crianza.
 
 halloween.entityname=Joyero Espectral
 halloween.gemregistered=¡El Joyero Espectral recibió tu %s!
@@ -832,8 +833,8 @@ item.Gift Box.name=Regalo
 
 //Attacks and their Descriptions
 /*
-*   The ones with attack.attackName.name is the attack's actual name and
-*   The ones with description at the end is their description.
+*   The ones with "attack.attackName.name" are the attacks' actual names and
+*   the ones with "description" at the end are their descriptions.
 */
 attack.tail whip.name=Látigo
 attack.látigo.name=Látigo
@@ -2513,10 +2514,10 @@ attack.shadow sneak.name=Sombra Vil
 attack.sombra vil.name=Sombra Vil
 attack.shadow sneak.description=El usuario extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero.
 
-//Pixelmon and their descriptions
+//Pokémon and their descriptions
 /*
-*   The ones with name at the end are their names and the ones with description
-*   would be their pokedex entry descriptions.
+*   The ones with "name" at the end are their names and the ones with "description"
+*   are their Pokédex entry descriptions.
 */
 pixelmon.zubat.name=Zubat
 pixelmon.zubat.description=Utiliza las ondas ultrasónicas que emite con la boca para orientarse y evitar obstáculos.
@@ -3823,7 +3824,7 @@ pixelmon.meloetta.description=The melodies sung by Meloetta have the power to ma
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=This Pokemon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 
-//Command Stuffs
+//Command stuff
 
 pixelmon.command.battle.battlebetween=¡La batalla entre %s y %s ha comenzado!
 pixelmon.command.battle.cannotchallenge=¡No se puede intercambiar %s mientras están en combate!
@@ -3838,14 +3839,18 @@ pixelmon.command.general.notingame=¡%s no está en el juego!
 pixelmon.command.general.invalid=¡Argumentos no validos!
 pixelmon.command.general.invalidplayer=¡Nombre no valido! Intentalo de nuevo.
 pixelmon.command.give.givesuccess=¡%s ha obtenido con éxito un %s!
-pixelmon.command.give.notifygive=¡%s otorgó a %s un %s!
+pixelmon.command.give.notifygive=¡%s dio a %s un %s!
+pixelmon.command.give.givesuccessegg=¡%s ha obtenido con éxito un Huevo de %s!
+pixelmon.command.give.notifygiveegg=¡%s dio a %s un Huevo de %s!
 pixelmon.command.heal.cantheal=¡No se pueden curar a los Pokemon de %s mientras está en batalla!
 pixelmon.command.heal.healed=¡Se han curado con éxito los Pokemon de %s!
 pixelmon.command.heal.notifyhealed=¡%s ha curado con éxito los Pokemon de %s!
 pixelmon.command.spawn.spawned=Ha aparecido con éxito un %s.
 pixelmon.command.spawn.spawnednotify=%s ha spawneado con éxito un %s.
+pixelmon.command.unlock=Se ha desbloqueado con éxito los Pokémon de %s.
+pixelmon.command.copyToDB.disabled=¡Guardar en la DataBase no está activo en "config"!
 
-//other
+//Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno!¡ %s calló al suelo!
 pixelmon.drops.single=¡Has recibido %s!
 pixelmon.drops.singlean=¡Has recibido %s!
@@ -3882,7 +3887,7 @@ pixelmon.entitytrainer.superrod=¡Recibiste una Super Caña!
 
 pixelmon.statue.despawn=Pixelmon ha sido despawneado.
 
-//Pokeballs
+//Poké Balls
 pixelmon.pokeballs.inbattle=¡Este Pokémon ya está en una batalla!
 pixelmon.pokeballs.alreadyown=¡No puedes capturar un Pokémon que ya tienes!
 pixelmon.pokeballs.boss=¡No puedes capturar un Pokémon Jefe!
@@ -3891,7 +3896,7 @@ pixelmon.pokeballs.pokeinbattle=¡No puedes capturar Pokémon que están luchand
 pixelmon.pokeballs.otherspokemon=¡No puedes capturar el Pokémon de otra persona!
 pixelmon.pokeballs.statue=¡No puedes capturar una estatua Pokémon!
 
-//storage
+//Storage
 pixelmon.storage.compfull=¡No tienes suficiente espacio en tu Caja!
 pixelmon.storage.partyfull=Tu equipo está lleno. ¡%s fue enviado al PC!
 
@@ -3941,7 +3946,7 @@ pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s raised it's special defence
 pixelmon.ItemBattleItem.xspeedowner=%s's %s raised it's speed using X Speed!
 pixelmon.ItemBattleItem.xaccuracyowner=%s's %s raised it's accuracy using X Accuracy!
 
-//blocks
+//Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
 
 pixelmon.blocks.healer=¡El Poke Centro ya está en uso!
@@ -3963,7 +3968,7 @@ pixelmon.blocks.noclone=¡No tienes nada para clonar!
 pixelmon.orb.amountfull=¡Necesitas %d combates más para llenar el Orbe!
 pixelmon.orb.isfull=¡El Orbe está lleno!
 
-//achievements
+//Achievements
 achievement.ItemFinderChieve=Cazador de PokeBotín!
 achievement.ItemFinderChieve.desc=Has crafteado un Buscaobjetos!
 achievement.HiddenPokeLootChieve=PokeBotín escondido FTW!
@@ -4103,26 +4108,26 @@ pixelmon.abilities.whitesmoke=%s's White Smoke prevents stat loss!
 pixelmon.abilities.wonderguard=%s's Wonder Guard prevented the attack!
 
 
-//gui stuff
+//GUI stuff
 /*
-*   The first part of it shows its a gui eg: gui.guiEvolve.huh.
-*   The second part shows where it goes to in very short eg:
-*   guiEvolve goes to the evolve gui and guiItemDrops goes to
-*   the boss drop and trainer drop guis.
-*   The last part refers simply to their meaning in the gui.
-*   eg: gui.trading.trade has trade at the end because
-*   the text it displays would be trade. It isnt always like that.
-*   For instance gui.guiEvolve.done doesnt say done it says
-*   Your $p evolved into a $n
+*   The first part of it shows it's a GUI, e.g., "gui.guiEvolve.huh".
+*   The second part shows where it goes to, e.g.,
+*   "guiEvolve" goes to the evolve GUI and "guiItemDrops" goes to
+*   the boss drop and Trainer drop GUIs.
+*   The last part refers simply to its meaning in the GUI.
+*   E.g., "gui.trading.trade" has "trade" at the end because
+*   the text it displays would be trade. It isn't always like that.
+*   For instance "gui.guiEvolve.done" doesn't say done; it says
+*   "Your $p evolved into a $n"
 *
 *
 *   In here you will notice some symbols like $p and $n.
-*   $p refers to your pixelmon or a pixelmon in general when
+*   "$p" refers to your Pokémon or a Pokémon in general when
 *   there is only one being referenced in that line.
-*   $n is the other pixelmon.
-*   $d is the other player.
-*   $a was a one time occurance which stands for enabled or disabled.
-*   Depending on what instane to call on.
+*   "$n" is the other Pokémon.
+*   "$d" is the other player.
+*   "$a" was a one time occurrence which stands for enabled or disabled
+*   depending on what instance to call on.
 */
 gui.guiEvolve.huh=¿Oh?
 gui.guiEvolve.evolve=¿Que? ¡$p está evolucionando!
@@ -4140,7 +4145,7 @@ gui.fainterChoice.noFight=$p no puede luchar
 gui.fainterChoice.switch=cambialo por otro pokemon
 gui.fainterChoice.run=Correr
 
-gui.choosebad.nopokeballs=¡No puedes usar Poké Balls en la batalla!
+gui.choosebad.nopokeballs=¡No puedes usar Poké Balls en esta batalla!
 
 gui.guiDoctor.healPokemon=Soy un médico Pokémon. ¿Me permitirías curar a tus pokemon?
 gui.guiDoctor.waiting=Esperando
@@ -4322,7 +4327,7 @@ enum.nature.naive=Ingenua
 enum.nature.naughty=Pícara
 enum.nature.quiet=Mansa
 enum.nature.quirky=Rara
-enum.nature.rash=Rash
+enum.nature.rash=Alocada
 enum.nature.relaxed=Plácida
 enum.nature.sassy=Grosera
 enum.nature.serious=Seria
@@ -4336,7 +4341,7 @@ gui.battle.back=Atrás
 gui.battle.whatdo=¿Qué hará $p?
 gui.battle.type=Tipo: 
 
-gui.levelupscreen.lvlup=¡Tu $p ha subido al nivel $1!
+gui.levelupscreen.lvlup=¡Tu $p ha subido al nivel $l!
 
 gui.mainmenu.fight=Luchar
 gui.mainmenu.bag=Mochila
@@ -4367,7 +4372,6 @@ gui.choosemoveset.chosen=Movimientos Elegidos
 gui.choosemoveset.full=Lista de Movimientos
 
 container.MechanicalAnvil=Yunque Mecánico
-tile.MechanicalAnvil.name=Yunque Mecánico
 
 gui.guiRanch.selectPokemon=Pokémon seleccionado
 gui.guiRanch.claimEgg=Reclamar Huevo
@@ -4393,13 +4397,13 @@ nbt.hp2.name=PS
 
 //  Main Chat Messages
 /*
-*   Here things are a bit different than the gui stuff.
-*   For anything that is a string and a variable like a pokemon name put %s which stands for a string.
-*   If you are referencing an integer (whole number) use %d
-*   Eg: The wild %s escaped! Lets say the pokemon that escaped is rattata it will display in game
-*   "The wild Rattata escaped!" Or on the rare occasion you come accros an int.
-*   Eg: "You got rid of %d items"
-*   The previous $p and $m what have you does not apply here!   
+*   Here things are a bit different than the GUI stuff.
+*   For anything that is a string and a variable like a Pokémon name, put "%s", which stands for a string.
+*   If you are referencing an integer (whole number), use "%d".
+*   E.g., "The wild %s escaped!". Let's say the Pokémon that escaped is Rattata. It will display in game
+*   "The wild Rattata escaped!". Or on the rare occasion you come across an int,
+*   E.g., "You got rid of %d items",
+*   the previous "$p" and "$m" what have you do not apply here!
 */
 
 battlecontroller.escaped=¡%s escapó!
@@ -4438,7 +4442,7 @@ type.dragon=Dragón
 type.dark=Siniestro
 type.steel=Acero
 
-aitargetenvironment.seessomething=Tu Pokemon está mirando algo.
+aitargetenvironment.seessomething=Tu Pokémon está mirando algo.
 
 batonpass.failed=¡Pero falló!
 batonpass.pass=¡%s pasó el testigo!
@@ -4480,9 +4484,9 @@ sendpixelmon.retrieved=¡Has retirado a %s!
 @Author Dayaffe
 //Blocks
 /*
-*   Pretty much same basic concept here. middle one represents
-*   the items blockName as defined and the first one "tile"
-*   shows its refering to a block type. Name is just
+*   Pretty much same basic concept here. Middle one represents
+*   the item's blockName as defined and the first one "tile"
+*   shows it's referring to a block type. "Name" is just
 *   standing for its name.
 */
 tile.anvil.name=Yunque
