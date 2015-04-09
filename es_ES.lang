@@ -3,19 +3,21 @@
 *
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
-*   reference, but its is VERY straight forward. To translate the mod
-*   all you need to do is replace the text after the = to what you
-*   desire! Its that simple!
+*   reference, but it's VERY straightforward. To translate the mod
+*   all you need to do is replace the text after the "=" to what you
+*   desire! It's that simple!
 */
 
 //Items
 /*
-*   item stands for it is an item. Just like in item.PC.name.
+*   item stands for "it is an item", just like in item.PC.name.
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=PC
+item.Ranch Block.name=Bloque del Rancho
 item.Anvil.name=Yunque
+item.MechanicalAnvil.name=Yunque Mecánico
 item.Healer.name=Poke Centro
 item.Trade Machine.name=Máquina de Intercambio
 item.Fossil Machine.name=Máquina de Fósiles
@@ -238,11 +240,29 @@ item.SalacBerry.name=Baya Aslac
 item.PetayaBerry.name=Baya Yapati
 item.LansatBerry.name=Baya Zonlan
 item.StarfBerry.name=Baya Arabol
+item.CustapBerry.name=Baya Chiri
 item.AguavBerry.name=Baya Guaya
 item.FigBerry.name=Baya Higog
 item.IapapaBerry.name=Baya Pabaya
 item.MagoBerry.name=Baya Ango
 item.WikiBerry.name=Baya Wiki
+item.OccaBerry.name=Baya Caoca
+item.PasshoBerry.name=Baya Pasio
+item.WacanBerry.name=Baya Gualot
+item.RindoBerry.name=Baya Tamar
+item.YacheBerry.name=Baya Rimoya
+item.ChopleBerry.name=Baya Pomaro
+item.KebiaBerry.name=Baya Kebia
+item.ShucaBerry.name=Baya Acardo
+item.CobaBerry.name=Baya Kouba
+item.PayapaBerry.name=Baya Payapa
+item.TangaBerry.name=Baya Yecana
+item.ChartiBerry.name=Baya Alcho
+item.KasibBerry.name=Baya Drasi
+item.HabanBerry.name=Baya Anjiro
+item.ColburBerry.name=Baya Dillo
+item.BabiriBerry.name=Baya Baribá
+item.ChilanBerry.name=Baya Chilan
 
 item.Heal Powder.name=Polvo Curación
 item.Energy Powder.name=Polvoenergía
@@ -355,7 +375,7 @@ item.MetalPowder.name=Polvo Metálico
 item.QuickPowder.name=Polvo Veloz
 item.Stick.name=Palo
 item.ThickClub.name=Hueso Grueso
-
+item.PowerHerb.name=Hierba Única
 
 item.X Attack.name=Ataque X
 item.X Defence.name=Defensa X
@@ -584,8 +604,154 @@ item.PokeMail-tunnel.name=Carta Mina
 item.PokeMail-wave.name=Carta Ola
 item.PokeMail-wood.name=Carta Madera
 
+item.Tree.name=Árbol
+item.ClothedTable.name=Mesa Cubierta
+item.TV.name=TV
+item.RedPokeballRug.name=Tapete Poké Ball Roja
+item.GreenPokeballRug.name=Tapete Poké Ball Verde
+item.BluePokeballRug.name=Tapete Poké Ball Azul
+item.YellowPokeballRug.name=Tapete Poké Ball Amarilla
+item.FossilDisplay.name=Pantalla de Fósiles
+item.BlueVendingMachine.name=Máquina de Venta Azul
+item.GreenVendingMachine.name=Máquina de Venta Verde
+item.OrangeVendingMachine.name=Máquina de Venta Naranja
+item.PinkVendingMachine.name=Máquina de Venta Rosa
+item.RedVendingMachine.name=Máquina de Venta Roja
+item.YellowVendingMachine.name=Máquina de Venta Amarilla
+item.Fridge.name=Nevera
+item.RedWaterFloat.name=Flotador de Agua Rojo
+item.GreenWaterFloat.name=Flotador de Agua Verde
+item.BlueWaterFloat.name=Flotador de Agua Azul
+item.OrangeWaterFloat.name=Flotador de Agua Naranja
+item.YellowWaterFloat.name=Flotador de Agua Amarillo
+item.PinkWaterFloat.name=Flotador de Agua Rosa
+item.PurpleWaterFloat.name=Flotador de Agua Morado
+item.Amethyst.name=Amatista
+item.Ruby.name=Rubí
+item.Crystal.name=Cristal
+item.Sapphire.name=Zafiro
+item.Silicon.name=Silicio
+item.RubyHammer.name=Martillo de Rubí
+item.RubyAxe.name=Hacha de Rubí
+item.RubyHoe.name=Azada de Rubí
+item.RubyPickaxe.name=Pico de Rubí
+item.RubyShovel.name=Pala de Rubí
+item.RubySword.name=Espada de Rubí
+item.SapphireHammer.name=Martillo de Zafiro
+item.SapphireAxe.name=Hacha de Zafiro
+item.SapphireHoe.name=Azada de Zafiro
+item.SapphirePickaxe.name=Pico de Zafiro
+item.SapphireShovel.name=Pala de Zafiro
+item.SapphireSword.name=Espada de Zafiro
+item.CrystalHammer.name=Martillo de Cristal
+item.CrystalAxe.name=Hacha de Cristal
+item.CrystalHoe.name=Azada de Cristal
+item.CrystalPickaxe.name=Pico de Cristal
+item.CrystalShovel.name=Pala de Cristal
+item.CrystalSword.name=Espada de Cristal
+item.AmethystHammer.name=Martillo de Amatista
+item.AmethystAxe.name=Hacha de Amatista
+item.AmethystHoe.name=Azada de Amatista
+item.AmethystPickaxe.name=Pico de Amatista
+item.AmethystShovel.name=Pala de Amatista
+item.AmethystSword.name=Espada de Amatista
+item.FirestoneHammer.name=Martillo de Piedra Fuego
+item.FirestoneAxe.name=Hacha de Piedra Fuego
+item.FirestoneHoe.name=Azada de Piedra Fuego
+item.FirestonePickaxe.name=Pico de Piedra Fuego
+item.FirestoneShovel.name=Pala de Piedra Fuego
+item.FirestoneSword.name=Espada de Piedra Fuego
+item.WaterstoneHammer.name=Martillo de Piedra Agua
+item.WaterstoneAxe.name=Hacha de Piedra Agua
+item.WaterstoneHoe.name=Azada de Piedra Agua
+item.WaterstonePickaxe.name=Pico de Piedra Agua
+item.WaterstoneShovel.name=Pala de Piedra Agua
+item.WaterstoneSword.name=Espada de Piedra Agua
+item.LeafstoneHammer.name=Martillo de Piedra Hoja
+item.LeafstoneAxe.name=Hacha de Piedra Hoja
+item.LeafstoneHoe.name=Azada de Piedra Hoja
+item.LeafstonePickaxe.name=Pico de Piedra Hoja
+item.LeafstoneShovel.name=Pala de Piedra Hoja
+item.LeafstoneSword.name=Espada de Piedra Hoja
+item.ThunderstoneHammer.name=Martillo de Piedra Trueno
+item.ThunderstoneAxe.name=Hacha de Piedra Trueno
+item.ThunderstoneHoe.name=Azada de Piedra Trueno
+item.ThunderstonePickaxe.name=Pico de Piedra Trueno
+item.ThunderstoneShovel.name=Pala de Piedra Trueno
+item.ThunderstoneSword.name=Espada de Piedra Trueno
+item.SunstoneHammer.name=Martillo de Piedra Solar
+item.SunstoneAxe.name=Hacha de Piedra Solar
+item.SunstoneHoe.name=Azada de Piedra Solar
+item.SunstonePickaxe.name=Pico de Piedra Solar
+item.SunstoneShovel.name=Pala de Piedra Solar
+item.SunstoneSword.name=Espada de Piedra Solar
+item.MoonstoneHammer.name=Martillo de Piedra Lunar
+item.MoonstoneAxe.name=Hacha de Piedra Lunar
+item.MoonstoneHoe.name=Azada de Piedra Lunar
+item.MoonstonePickaxe.name=Pico de Piedra Lunar
+item.MoonstoneShovel.name=Pala de Piedra Lunar
+item.MoonstoneSword.name=Espada de Piedra Lunar
+item.DawnstoneHammer.name=Martillo de Piedra Alba
+item.DawnstoneAxe.name=Hacha de Piedra Alba
+item.DawnstoneHoe.name=Azada de Piedra Alba
+item.DawnstonePickaxe.name=Pico de Piedra Alba
+item.DawnstoneShovel.name=Pala de Piedra Alba
+item.DawnstoneSword.name=Espada de Piedra Alba
+item.RubyHelm.name=Casco Magma
+item.RubyPlate.name=Peto Magma
+item.RubyLegs.name=Grebas Magma
+item.RubyBoots.name=Botas Magma
+item.SapphireHelm.name=Casco Aqua
+item.SapphirePlate.name=Peto Aqua
+item.SapphireLegs.name=Grebas Aqua
+item.SapphireBoots.name=Botas Aqua
+item.PlasmaHelm.name=Casco Plasma
+item.PlasmaPlate.name=Peto Plasma
+item.PlasmaLegs.name=Grebas Plasma
+item.PlasmaBoots.name=Botas Plasma
+item.GalacticHelm.name=Peinado Galaxia
+item.GalacticPlate.name=Peto Galaxia
+item.GalacticLegs.name=Grebas Galaxia
+item.GalacticBoots.name=Botas Galaxia
+item.NeoPlasmaHelm.name=Casco Neo Plasma
+item.NeoPlasmaPlate.name=Peto Neo Plasma
+item.NeoPlasmaLegs.name=Grebas Neo Plasma
+item.NeoPlasmaBoots.name=Botas Neo Plasma
+item.RocketHelm.name=Casco T. Rocket
+item.RocketPlate.name=Peto T. Rocket
+item.RocketLegs.name=Grebas T. Rocket
+item.RocketBoots.name=Botas T. Rocket
+item.FirestoneHelm.name=Casco de Piedra Fuego
+item.FirestonePlate.name=Peto de Piedra Fuego
+item.FirestoneLegs.name=Grebas de Piedra Fuego
+item.FirestoneBoots.name=Botas de Piedra Fuego
+item.WaterstoneHelm.name=Casco de Piedra Agua
+item.WaterstonePlate.name=Peto de Piedra Agua
+item.WaterstoneLegs.name=Grebas de Piedra Agua
+item.WaterstoneBoots.name=Botas de Piedra Agua
+item.LeafstoneHelm.name=Casco de Piedra Hoja
+item.LeafstonePlate.name=Peto de Piedra Hoja
+item.LeafstoneLegs.name=Grebas de Piedra Hoja
+item.LeafstoneBoots.name=Botas de Piedra Hoja
+item.ThunderstoneHelm.name=Casco de Piedra Trueno
+item.ThunderstonePlate.name=Peto de Piedra Trueno
+item.ThunderstoneLegs.name=Grebas de Piedra Trueno
+item.ThunderstoneBoots.name=Botas de Piedra Trueno
+item.SunstoneHelm.name=Casco de Pierda Solar
+item.SunstonePlate.name=Peto de Piedra Solar
+item.SunstoneLegs.name=Grebas de Piedra Solar
+item.SunstoneBoots.name=Botas de Piedra Solar
+item.MoonstoneHelm.name=Casco de Piedra Lunar
+item.MoonstonePlate.name=Peto de Piedra Lunar
+item.MoonstoneLegs.name=Grebas de Piedra Lunar
+item.MoonstoneBoots.name=Botas de Piedra Lunar
+item.DawnstoneHelm.name=Casco de Piedra Alba
+item.DawnstonePlate.name=Peto de Piedra Alba
+item.DawnstoneLegs.name=Grebas de Piedra Alba
+item.DawnstoneBoots.name=Botas de Piedra Alba
+item.PicketFence.name=Valla
+
 //Breeding update
-item.Ranch Block.name=Bloque del Rancho
 item.Park Ball.name=Parque Ball
 item.Quick Ball.name=Veloz Ball
 item.Lure Ball.name=Cebo Ball
@@ -650,8 +816,8 @@ gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
 gui.ranch.extendTitle=Extender el área del rancho
 gui.ranch.empty=No hay pokemon en el rancho
-ranch.hourglass.upgradedall=Todos los Pokémon aumentaron un nivel de afecto.
-ranch.hourglass.upgrade=%s aumentó un nivel de afecto.
+ranch.hourglass.upgradedall=Todos los Pokémon aumentaron un nivel de crianza.
+ranch.hourglass.upgrade=%s aumentó un nivel de crianza.
 
 halloween.entityname=Joyero Espectral
 halloween.gemregistered=¡El Joyero Espectral recibió tu %s!
@@ -667,8 +833,8 @@ item.Gift Box.name=Regalo
 
 //Attacks and their Descriptions
 /*
-*   The ones with attack.attackName.name is the attack's actual name and
-*   The ones with description at the end is their description.
+*   The ones with "attack.attackName.name" are the attacks' actual names and
+*   the ones with "description" at the end are their descriptions.
 */
 attack.tail whip.name=Látigo
 attack.látigo.name=Látigo
@@ -2348,10 +2514,10 @@ attack.shadow sneak.name=Sombra Vil
 attack.sombra vil.name=Sombra Vil
 attack.shadow sneak.description=El usuario extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero.
 
-//Pixelmon and their descriptions
+//Pokémon and their descriptions
 /*
-*   The ones with name at the end are their names and the ones with description
-*   would be their pokedex entry descriptions.
+*   The ones with "name" at the end are their names and the ones with "description"
+*   are their Pokédex entry descriptions.
 */
 pixelmon.zubat.name=Zubat
 pixelmon.zubat.description=Utiliza las ondas ultrasónicas que emite con la boca para orientarse y evitar obstáculos.
@@ -3658,7 +3824,7 @@ pixelmon.meloetta.description=The melodies sung by Meloetta have the power to ma
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=This Pokemon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 
-//Command Stuffs
+//Command stuff
 
 pixelmon.command.battle.battlebetween=¡La batalla entre %s y %s ha comenzado!
 pixelmon.command.battle.cannotchallenge=¡No se puede intercambiar %s mientras están en combate!
@@ -3673,14 +3839,18 @@ pixelmon.command.general.notingame=¡%s no está en el juego!
 pixelmon.command.general.invalid=¡Argumentos no validos!
 pixelmon.command.general.invalidplayer=¡Nombre no valido! Intentalo de nuevo.
 pixelmon.command.give.givesuccess=¡%s ha obtenido con éxito un %s!
-pixelmon.command.give.notifygive=¡%s otorgó a %s un %s!
+pixelmon.command.give.notifygive=¡%s dio a %s un %s!
+pixelmon.command.give.givesuccessegg=¡%s ha obtenido con éxito un Huevo de %s!
+pixelmon.command.give.notifygiveegg=¡%s dio a %s un Huevo de %s!
 pixelmon.command.heal.cantheal=¡No se pueden curar a los Pokemon de %s mientras está en batalla!
 pixelmon.command.heal.healed=¡Se han curado con éxito los Pokemon de %s!
 pixelmon.command.heal.notifyhealed=¡%s ha curado con éxito los Pokemon de %s!
 pixelmon.command.spawn.spawned=Ha aparecido con éxito un %s.
 pixelmon.command.spawn.spawnednotify=%s ha spawneado con éxito un %s.
+pixelmon.command.unlock=Se ha desbloqueado con éxito los Pokémon de %s.
+pixelmon.command.copyToDB.disabled=¡Guardar en la DataBase no está activo en "config"!
 
-//other
+//Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno!¡ %s calló al suelo!
 pixelmon.drops.single=¡Has recibido %s!
 pixelmon.drops.singlean=¡Has recibido %s!
@@ -3717,7 +3887,7 @@ pixelmon.entitytrainer.superrod=¡Recibiste una Super Caña!
 
 pixelmon.statue.despawn=Pixelmon ha sido despawneado.
 
-//Pokeballs
+//Poké Balls
 pixelmon.pokeballs.inbattle=¡Este Pokémon ya está en una batalla!
 pixelmon.pokeballs.alreadyown=¡No puedes capturar un Pokémon que ya tienes!
 pixelmon.pokeballs.boss=¡No puedes capturar un Pokémon Jefe!
@@ -3726,7 +3896,7 @@ pixelmon.pokeballs.pokeinbattle=¡No puedes capturar Pokémon que están luchand
 pixelmon.pokeballs.otherspokemon=¡No puedes capturar el Pokémon de otra persona!
 pixelmon.pokeballs.statue=¡No puedes capturar una estatua Pokémon!
 
-//storage
+//Storage
 pixelmon.storage.compfull=¡No tienes suficiente espacio en tu Caja!
 pixelmon.storage.partyfull=Tu equipo está lleno. ¡%s fue enviado al PC!
 
@@ -3743,6 +3913,7 @@ pixelmon.helditems.aspearberry=¡%s consumió su Baya Perasi y ya no está conge
 pixelmon.helditems.persimberry=¡%s consumió su Baya Caquic y se liberó de la confusión!
 pixelmon.helditems.lumberry=%s consumió su Baya Ziuela y curó su estado!
 pixelmon.helditems.pinchberry=¡%s consumió su %s!
+pixelmon.helditems.custapberry=¡La Baya Chiri de %s le permitió atacar primero!
 pixelmon.helditems.pumkinberry=¡%s consumió su Baya Pumkin y ya no está congelado!
 pixelmon.helditems.drashberry=¡%s consumió su Baya Drash y fue curado del veneno!
 pixelmon.helditems.eggantberry=¡%s consumio su Baya Eggant y ya no está enamorado!
@@ -3764,6 +3935,8 @@ pixelmon.helditems.airballoonpop=¡El Globo Helio de %s estalló!
 pixelmon.helditems.toxicorb=¡%s está gravemente envenenado por la Toxisfera!
 pixelmon.helditems.flameorb=¡%s fue quemado por la Llamasfera!
 pixelmon.helditems.rockyhelmet=¡%s fue herido por el Casco Dentado de %s!
+pixelmon.helditems.powerherb=¡Hierba Única de %s permitió saltarse el turno de recarga!
+pixelmon.helditems.berrytypereducing=¡%s debilitó el ataque por su %s!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised it's attack using X Attack!
@@ -3773,7 +3946,7 @@ pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s raised it's special defence
 pixelmon.ItemBattleItem.xspeedowner=%s's %s raised it's speed using X Speed!
 pixelmon.ItemBattleItem.xaccuracyowner=%s's %s raised it's accuracy using X Accuracy!
 
-//blocks
+//Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
 
 pixelmon.blocks.healer=¡El Poke Centro ya está en uso!
@@ -3795,7 +3968,7 @@ pixelmon.blocks.noclone=¡No tienes nada para clonar!
 pixelmon.orb.amountfull=¡Necesitas %d combates más para llenar el Orbe!
 pixelmon.orb.isfull=¡El Orbe está lleno!
 
-//achievements
+//Achievements
 achievement.ItemFinderChieve=Cazador de PokeBotín!
 achievement.ItemFinderChieve.desc=Has crafteado un Buscaobjetos!
 achievement.HiddenPokeLootChieve=PokeBotín escondido FTW!
@@ -3846,12 +4019,18 @@ achievement.dex100Chieve=Pokédex: ¡Maestro de Pixelmon!
 achievement.dex100Chieve.desc=Completa la Pokédex
 
 //Abilities
+pixelmon.abilities.airlock=%s's Air Lock caused the effects of weather to disappear!
+pixelmon.abilities.angerpoint=Anger Point caused %s to become furious!
+pixelmon.abilities.anticipation=%s shuddered in anticipation!
 pixelmon.abilities.bigpecks=%s's Big Pecks prevents Defense loss!
 pixelmon.abilities.clearbody=%s's Clear Body prevents stat loss!
+pixelmon.abilities.cloudnine=%s's Cloud Nine caused the effects of weather to disappear!
 pixelmon.abilities.competitive=Competitive raised %s's Special Attack!
 pixelmon.abilities.cutecharm=%s's Cute Charm infatuated %s!
 pixelmon.abilities.damp=%s's Damp prevented the explosion!
 pixelmon.abilities.defiant=Defiant raised %s's Attack!
+pixelmon.abilities.download=%s's Download raised its Attack!
+pixelmon.abilities.download2=%s's Download raised its Special Attack!
 pixelmon.abilities.drizzle=%s's Drizzle caused rain to fall!
 pixelmon.abilities.drought=%s's Drought caused the sun to intensify!
 pixelmon.abilities.dryskinheal=Dry Skin made %s heal %s instead!
@@ -3868,8 +4047,10 @@ pixelmon.abilities.forewarn=%s's Forewarn alerted it of %s!
 pixelmon.abilities.frisk=%s frisked %s and found its %s!
 pixelmon.abilities.healer=%s's Healer cured %s's status ailments!
 pixelmon.abilities.hypercut=%s's Hyper Cutter prevents Attack loss!
-pixelmon.abilities.innerfocus=%s won't flinch because of its Inner Focus!
+pixelmon.abilities.immunity=%s's Immunity prevented it from being poisoned!
+pixelmon.abilities.immunity=%s's Immunity cured its poisoning!
 pixelmon.abilities.insomnia=%s's Insomnia kept it awake!
+pixelmon.abilities.insomniacure=%s's Insomnia woke it up!
 pixelmon.abilities.intimidate=%s's Intimidate activated!
 pixelmon.abilities.ironbarbs=%s's Iron Barbs hurt %s!
 pixelmon.abilities.justified=%s's Justified raised its Attack!
@@ -3877,14 +4058,19 @@ pixelmon.abilities.keeneye=%s's Keen Eye prevents Accuracy loss!
 pixelmon.abilities.leafguard=%s was protected by Leaf Guard!
 pixelmon.abilities.levitate=%s tried to use %s, but %s is levitating!
 pixelmon.abilities.limber=%s's Limber prevents paralysis!
+pixelmon.abilities.limbercure=%s's Limber cured its paralysis!
 pixelmon.abilities.magicbounce=%s's Magic Bounce bounced back the attack!
 pixelmon.abilities.magmaarmor=%s's Magma Armor prevented it from being frozen!
+pixelmon.abilities.magmaarmorcure=%s's Magma Armor thawed it out!
+pixelmon.abilities.moldbreaker=%s breaks the mold!
 pixelmon.abilities.motordrive=Motor Drive raised %s's Speed!
 pixelmon.abilities.motordrive2=%s's Motor Drive negated the attack!
 pixelmon.abilities.moxieboost=%s's Attack was boosted by Moxie!
 pixelmon.abilities.oblivious=%s's Oblivious nullified the attack!
+pixelmon.abilities.obliviouscure=%s's Oblivious cured its infatuation!
 pixelmon.abilities.overcoat=%s's Overcoat nullified the attack!
 pixelmon.abilities.owntempo=%s's Own Tempo prevented confusion!
+pixelmon.abilities.owntempocure=%s's Own Tempo snapped it out of confusion!
 pixelmon.abilities.poisonheal=Poison Heal caused the poison to heal %s!
 pixelmon.abilities.poisonpoint=%s's Poison Point poisoned %s!
 pixelmon.abilities.poisontouch=%s's Poison Touch poisoned %s!
@@ -3903,38 +4089,45 @@ pixelmon.abilities.static=%s's Static paralyzed %s!
 pixelmon.abilities.steadfast=%s's Speed was boosted by Steadfast!
 pixelmon.abilities.sturdy=%s just hung on with Sturdy!
 pixelmon.abilities.sturdy2=%s's Sturdy negated the attack!
+pixelmon.abilities.telepathy=%s's Telepathy protected it from the attack!
+pixelmon.abilities.teravolt=%s is radiating a bursting aura!
 pixelmon.abilities.trace=%s traced %s's %s!
+pixelmon.abilities.turboblaze=%s is radiating a blazing aura!
 pixelmon.abilities.unnerve=%s's Unnerve made the opponent too nervous to eat Berries!
 pixelmon.abilities.vitalspirit=%s's Vital Spirit kept it awake!
+pixelmon.abilities.vitalspiritcure=%s's Vital Spirit woke it up!
 pixelmon.abilities.voltabsorb=Volt Absorb drew in the attack and healed %s!
+pixelmon.abilities.voltabsorb2=%s's Volt Absorb negated the attack!
 pixelmon.abilities.waterabsorb=Water Absorb drew in the attack and healed %s!
+pixelmon.abilities.waterabsorb2=%s's Water Absorb negated the attack!
 pixelmon.abilities.waterveil=%s's Water Veil prevented the burn!
+pixelmon.abilities.waterveilcure=%s's Water Veil cured its burn!
 pixelmon.abilities.weakarmor=Weak Armour lowered %s's Defence!
 pixelmon.abilities.weakarmor2=Weak Armour raised %s's Speed!
 pixelmon.abilities.whitesmoke=%s's White Smoke prevents stat loss!
 pixelmon.abilities.wonderguard=%s's Wonder Guard prevented the attack!
 
 
-//gui stuff
+//GUI stuff
 /*
-*   The first part of it shows its a gui eg: gui.guiEvolve.huh.
-*   The second part shows where it goes to in very short eg:
-*   guiEvolve goes to the evolve gui and guiItemDrops goes to
-*   the boss drop and trainer drop guis.
-*   The last part refers simply to their meaning in the gui.
-*   eg: gui.trading.trade has trade at the end because
-*   the text it displays would be trade. It isnt always like that.
-*   For instance gui.guiEvolve.done doesnt say done it says
-*   Your $p evolved into a $n
+*   The first part of it shows it's a GUI, e.g., "gui.guiEvolve.huh".
+*   The second part shows where it goes to, e.g.,
+*   "guiEvolve" goes to the evolve GUI and "guiItemDrops" goes to
+*   the boss drop and Trainer drop GUIs.
+*   The last part refers simply to its meaning in the GUI.
+*   E.g., "gui.trading.trade" has "trade" at the end because
+*   the text it displays would be trade. It isn't always like that.
+*   For instance "gui.guiEvolve.done" doesn't say done; it says
+*   "Your $p evolved into a $n"
 *
 *
 *   In here you will notice some symbols like $p and $n.
-*   $p refers to your pixelmon or a pixelmon in general when
+*   "$p" refers to your Pokémon or a Pokémon in general when
 *   there is only one being referenced in that line.
-*   $n is the other pixelmon.
-*   $d is the other player.
-*   $a was a one time occurance which stands for enabled or disabled.
-*   Depending on what instane to call on.
+*   "$n" is the other Pokémon.
+*   "$d" is the other player.
+*   "$a" was a one time occurrence which stands for enabled or disabled
+*   depending on what instance to call on.
 */
 gui.guiEvolve.huh=¿Oh?
 gui.guiEvolve.evolve=¿Que? ¡$p está evolucionando!
@@ -3952,7 +4145,7 @@ gui.fainterChoice.noFight=$p no puede luchar
 gui.fainterChoice.switch=cambialo por otro pokemon
 gui.fainterChoice.run=Correr
 
-gui.choosebad.nopokeballs=¡No puedes usar Poké Balls en la batalla!
+gui.choosebad.nopokeballs=¡No puedes usar Poké Balls en esta batalla!
 
 gui.guiDoctor.healPokemon=Soy un médico Pokémon. ¿Me permitirías curar a tus pokemon?
 gui.guiDoctor.waiting=Esperando
@@ -4134,7 +4327,7 @@ enum.nature.naive=Ingenua
 enum.nature.naughty=Pícara
 enum.nature.quiet=Mansa
 enum.nature.quirky=Rara
-enum.nature.rash=Rash
+enum.nature.rash=Alocada
 enum.nature.relaxed=Plácida
 enum.nature.sassy=Grosera
 enum.nature.serious=Seria
@@ -4148,7 +4341,7 @@ gui.battle.back=Atrás
 gui.battle.whatdo=¿Qué hará $p?
 gui.battle.type=Tipo: 
 
-gui.levelupscreen.lvlup=¡Tu $p ha subido al nivel $1!
+gui.levelupscreen.lvlup=¡Tu $p ha subido al nivel $l!
 
 gui.mainmenu.fight=Luchar
 gui.mainmenu.bag=Mochila
@@ -4179,7 +4372,6 @@ gui.choosemoveset.chosen=Movimientos Elegidos
 gui.choosemoveset.full=Lista de Movimientos
 
 container.MechanicalAnvil=Yunque Mecánico
-tile.MechanicalAnvil.name=Yunque Mecánico
 
 gui.guiRanch.selectPokemon=Pokémon seleccionado
 gui.guiRanch.claimEgg=Reclamar Huevo
@@ -4205,13 +4397,13 @@ nbt.hp2.name=PS
 
 //  Main Chat Messages
 /*
-*   Here things are a bit different than the gui stuff.
-*   For anything that is a string and a variable like a pokemon name put %s which stands for a string.
-*   If you are referencing an integer (whole number) use %d
-*   Eg: The wild %s escaped! Lets say the pokemon that escaped is rattata it will display in game
-*   "The wild Rattata escaped!" Or on the rare occasion you come accros an int.
-*   Eg: "You got rid of %d items"
-*   The previous $p and $m what have you does not apply here!   
+*   Here things are a bit different than the GUI stuff.
+*   For anything that is a string and a variable like a Pokémon name, put "%s", which stands for a string.
+*   If you are referencing an integer (whole number), use "%d".
+*   E.g., "The wild %s escaped!". Let's say the Pokémon that escaped is Rattata. It will display in game
+*   "The wild Rattata escaped!". Or on the rare occasion you come across an int,
+*   E.g., "You got rid of %d items",
+*   the previous "$p" and "$m" what have you do not apply here!
 */
 
 battlecontroller.escaped=¡%s escapó!
@@ -4250,7 +4442,7 @@ type.dragon=Dragón
 type.dark=Siniestro
 type.steel=Acero
 
-aitargetenvironment.seessomething=Tu Pokemon está mirando algo.
+aitargetenvironment.seessomething=Tu Pokémon está mirando algo.
 
 batonpass.failed=¡Pero falló!
 batonpass.pass=¡%s pasó el testigo!
@@ -4292,9 +4484,9 @@ sendpixelmon.retrieved=¡Has retirado a %s!
 @Author Dayaffe
 //Blocks
 /*
-*   Pretty much same basic concept here. middle one represents
-*   the items blockName as defined and the first one "tile"
-*   shows its refering to a block type. Name is just
+*   Pretty much same basic concept here. Middle one represents
+*   the item's blockName as defined and the first one "tile"
+*   shows it's referring to a block type. "Name" is just
 *   standing for its name.
 */
 tile.anvil.name=Yunque
@@ -4364,6 +4556,73 @@ tile.hiddenCube.name=Bloque Oculto
 tile.hiddenIronDoor.name=Puerta de hierro oculta
 tile.hiddenWoodenDoor.name=Puerta de madera oculta
 tile.DawnDusk Ore.name=Mena de Piedra Alba/Noche
+
+PokeDirt.name=PokéTierra
+PokeSand.name=PokéArena
+PokeSandC1.name=PokéArena Esquina 1
+PokeSandC2.name=PokéArena Esquina 2
+PokeSandC3.name=PokéArena Esquina 3
+PokeSandC4.name=PokéArena Esquina 4
+PokeSandS1.name=PokéArena Lado 1
+PokeSandS2.name=PokéArena Lado 2
+PokeSandS3.name=PokéArena Lado 3
+PokeSandS4.name=PokéArena Lado 4
+RubyOre.name=Mena de Rubí
+SapphireOre.name=Mena de Zafiro
+AmethystOre.name=Mena de Amatista
+CrystalOre.name=Mena de Cristal
+RubyBlock.name=Bloque de Rubí
+SapphireBlock.name=Bloque de Zafiro
+AmethystBlock.name=Bloque de Amatista
+CrystalBlock.name=Bloque de Cristal
+SiliconOre.name=Mena de Silicio
+OutsideWall.name=Pared Exterior
+InsideWall.name=Pared Interior
+InsideWallMolding.name=Molde Pared Interior
+Shingles.name=Terreno Lodoso
+ShinglesC1.name=Terreno Lodoso Esquina 1
+ShinglesC2.name=Terreno Lodoso Esquina 2
+TreeTop.name=Copa del Árbol
+TreeBottom.name=Parte inferior del Árbol
+WoodenFlooring.name=Suelo de Madera
+PokeCenterSign.name=Cartel Centro Pokémon
+PokeMartSign.name=Cartel Tienda Pokémon
+Window1.name=Ventana 1
+Window2.name=Ventana 2
+SandyGrass.name=Hierba Arenosa
+Rock.name=Roca
+CaveRock.name=Roca de Cueva
+BridgeBlock.name=Bloque Puente
+Bolder.name=Piedra
+Box.name=Caja
+RedCushionChair.name=Taburete Rojo
+Trashcan.name=Cubo de Basura
+YellowCushionChair.name=Taburete Amarillo
+GymSign.name=Cartel Gimnasio
+RedUmbrella.name=Sombrilla Roja
+GreenUmbrella.name=Sombrilla Verde
+BlueUmbrella.name=Sombrilla Azul
+YellowUmbrella.name=Sombrilla Amarilla
+BlueClock.name=Reloj Azul
+PinkClock.name=Reloj Rosa
+Chair.name=Silla
+EndTable.name=Mesa Fin
+GreenFoldingChair.name=Tumbona Verde
+Tree.name=Árbol
+TV.name=TV
+ClothedTable.name=Mesa Cubierta
+RedPokeballRug.name=Tapete Poké Ball Roja
+GreenPokeballRug.name=Tapete Poké Ball Verde
+BluePokeballRug.name=Tapete Poké Ball Azul
+YellowPokeballRug.name=Tapete Poké Ball Amarilla
+FossilDisplay.name=Pantalla de Fósiles
+BlueVendingMachine.name=Máquina de Venta Azul
+GreenVendingMachine.name=Máquina de Venta Verde
+OrangeVendingMachine.name=Máquina de Venta Naranja
+PinkVendingMachine.name=Máquina de Venta Rosa
+RedVendingMachine.name=Máquina de Venta Roja
+YellowVendingMachine.name=Máquina de Venta Amarilla
+Fridge.name=Nevera
 
 ability.Adaptability.name=Adaptable
 ability.Adaptability.description=Potencia los movimientos del mismo tipo.
@@ -4917,6 +5176,7 @@ pixelmon.effect.bugbite=¡%s se comió la %s de %s!
 pixelmon.effect.trick=¡%s provocó un cambio de objeto!
 pixelmon.effect.trickitem=%s recibió %s.
 pixelmon.effect.reflecttype=¡%s ahora es del mismo tipo que %s!
+pixelmon.effect.dive=¡%s se ocultó bajo el agua!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
