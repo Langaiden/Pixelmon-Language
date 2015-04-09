@@ -3421,6 +3421,7 @@ pixelmon.abilities.forewarn=%s's Forewarn alerted it of %s!
 pixelmon.abilities.frisk=%s frisked %s and found its %s!
 pixelmon.abilities.healer=%s's Healer cured %s's status ailments!
 pixelmon.abilities.hypercut=%s's Hyper Cutter prevents Attack loss!
+pixelmon.abilities.hydration=%s's Hydration cured its status!
 pixelmon.abilities.immunity=%s's Immunity prevented it from being poisoned!
 pixelmon.abilities.immunity=%s's Immunity cured its poisoning!
 pixelmon.abilities.insomnia=%s's Insomnia kept it awake!
