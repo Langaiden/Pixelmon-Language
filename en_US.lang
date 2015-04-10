@@ -3619,6 +3619,8 @@ deletemove.forgot=Your %s forgot %s!
 
 replacemove.replace=Your %s forgot %s and learned %s!
 
+externalMove.forage.name=Forage
+
 sendpixelmon.sentout=You sent out %s!
 sendpixelmon.cantbattle=%s is unable to battle!
 sendpixelmon.inbattle=%s is in a battle!
