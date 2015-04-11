@@ -3874,6 +3874,8 @@ deletemove.forgot=您的 %s 完全忘记了技能 %s 的使用！
 
 replacemove.replace=您的 %s 完全忘记了技能 %s 的使用！然后学会了 %s!
 
+externalMove.forage.name=饲料
+
 sendpixelmon.sentout=您放出了 %s!
 sendpixelmon.cantbattle=%s 现在无法召唤（体力透支或者不可用[？]）
 sendpixelmon.inbattle=%s 正在战斗中！
