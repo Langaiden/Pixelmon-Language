@@ -387,6 +387,7 @@ item.ThickClub.name=Thick Club
 item.PowerHerb.name=Power Herb
 item.RedCard.name=Red Card
 item.ExpertBelt.name=Expert Belt
+item.LightClay.name=Light Clay
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defense
@@ -4656,11 +4657,13 @@ pixelmon.status.ragebuilding=%s's rage is building!
 pixelmon.status.fellasleep=%s fell asleep!
 pixelmon.status.taunted=%s fell for the taunt!
 pixelmon.status.tauntcantuse=%s can't use %s because of the taunt!
-pixelmon.status.tauntnolonger=%s's is no longer taunted!
+pixelmon.status.tauntnolonger=%s is no longer taunted!
 pixelmon.status.noeffect=No effect!
 pixelmon.status.tailwindstarted=%s whipped up a tailwind!
 pixelmon.status.tailwindalready=Tailwind is already active!
 pixelmon.status.tailwindfaded=%s's tailwind petered out!
+pixelmon.status.encore=%s received an encore!
+pixelmon.status.encoreend=%s's encore ended!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
