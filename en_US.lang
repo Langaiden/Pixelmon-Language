@@ -4603,6 +4603,7 @@ pixelmon.effect.trick=%s switched items with %s!
 pixelmon.effect.trickitem=%s received a %s.
 pixelmon.effect.reflecttype=%s copied %s's type!
 pixelmon.effect.dive=%s dives down!
+pixelmon.effect.skillswap=%s received %s.
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
