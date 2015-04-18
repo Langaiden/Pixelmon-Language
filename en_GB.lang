@@ -388,6 +388,7 @@ item.PowerHerb.name=Power Herb
 item.RedCard.name=Red Card
 item.ExpertBelt.name=Expert Belt
 item.LightClay.name=Light Clay
+item.MentalHerb.name=Mental Herb
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
@@ -3314,6 +3315,7 @@ pixelmon.helditems.rockyhelmet=%s was hurt by %s's Rocky Helmet!
 pixelmon.helditems.powerherb=%s's Power Herb let it skip the charging turn!
 pixelmon.helditems.berrytypereducing=%s's %s weakened the attack!
 pixelmon.helditems.redcard=%s held up its Red Card!
+pixelmon.helditems.mentalherb=%s came to its senses using its Mental Herb!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
@@ -3449,9 +3451,12 @@ pixelmon.abilities.oblivious=%s's Oblivious nullified the attack!
 pixelmon.abilities.obliviouscure=%s's Oblivious cured its infatuation!
 pixelmon.abilities.owntempo=%s's Own Tempo prevented confusion!
 pixelmon.abilities.owntempocure=%s's Own Tempo snapped it out of confusion!
+pixelmon.abilities.pickpocket=%s's Pickpocket let it steal %s's %s!
+pixelmon.abilities.pickup=%s's Pickup recovered a %s!
 pixelmon.abilities.poisonheal=Poison Heal caused the poison to heal %s!
 pixelmon.abilities.poisonpoint=%s's Poison Point poisoned %s!
 pixelmon.abilities.poisontouch=%s's Poison Touch poisoned %s!
+pixelmon.abilities.pressure=%s is exerting its Pressure!
 pixelmon.abilities.raindish=%s was healed by Rain Dish!
 pixelmon.abilities.rattled=%s's Rattled raised its Speed!
 pixelmon.abilities.roughskin=%s's Rough Skin hurt %s!
