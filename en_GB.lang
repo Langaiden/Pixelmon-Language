@@ -389,6 +389,7 @@ item.RedCard.name=Red Card
 item.ExpertBelt.name=Expert Belt
 item.LightClay.name=Light Clay
 item.MentalHerb.name=Mental Herb
+item.StickyBarb.name=Sticky Barb
 
 item.X Attack.name=X Attack
 item.X Defence.name=X Defence
@@ -3316,6 +3317,7 @@ pixelmon.helditems.powerherb=%s's Power Herb let it skip the charging turn!
 pixelmon.helditems.berrytypereducing=%s's %s weakened the attack!
 pixelmon.helditems.redcard=%s held up its Red Card!
 pixelmon.helditems.mentalherb=%s came to its senses using its Mental Herb!
+pixelmon.helditems.stickybarb=%s was hurt by its Sticky Barb!
 
 //Battle Items
 pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
@@ -3398,6 +3400,7 @@ achievement.dex100Chieve=Pokédex: Pixelmon Master!
 achievement.dex100Chieve.desc=Complete the Pokédex
 
 //Abilities
+pixelmon.abilities.aftermath=%s's Aftermath hurt %s!
 pixelmon.abilities.airlock=%s's Air Lock caused the effects of weather to disappear!
 pixelmon.abilities.angerpoint=Anger Point caused %s to become furious!pixelmon.abilities.anticipation=%s shuddered in anticipation!
 pixelmon.abilities.bigpecks=%s's Big Pecks prevents Defence loss!
@@ -3426,6 +3429,7 @@ pixelmon.abilities.frisk=%s frisked %s and found its %s!
 pixelmon.abilities.healer=%s's Healer cured %s's status ailments!
 pixelmon.abilities.hypercut=%s's Hyper Cutter prevents Attack loss!
 pixelmon.abilities.hydration=%s's Hydration cured its status!
+pixelmon.abilities.icebody=%s's Ice Body restored its health!
 pixelmon.abilities.immunity=%s's Immunity prevented it from being poisoned!
 pixelmon.abilities.immunity=%s's Immunity cured its poisoning!
 pixelmon.abilities.insomnia=%s's Insomnia kept it awake!
@@ -3445,6 +3449,7 @@ pixelmon.abilities.magicbounce=%s's Magic Bounce bounced back the attack!
 pixelmon.abilities.magmaarmor=%s's Magma Armor prevented it from being frozen!
 pixelmon.abilities.magmaarmorcure=%s's Magma Armor thawed it out!
 pixelmon.abilities.moldbreaker=%s breaks the mold!
+pixelmon.abilities.moody=%s's Moody activated!
 pixelmon.abilities.motordrive=Motor Drive raised %s's Speed!
 pixelmon.abilities.motordrive2=%s's Motor Drive negated the attack!
 pixelmon.abilities.moxieboost=%s's Attack was boosted by Moxie!
