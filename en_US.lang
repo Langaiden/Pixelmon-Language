@@ -463,6 +463,14 @@ item.SoftSand.name=Soft Sand
 item.SpellTag.name=Spell Tag
 item.TwistedSpoon.name=Twisted Spoon
 item.destinyKnot.name=Destiny Knot
+item.StickyBarb.name=Sticky Barb
+item.XAttack.name=X-Attack
+item.XDefence.name=X-Defence
+item.XSpecialAttack.name=X-Special Attack
+item.XSpecialDefence.name=x-Special Defence
+item.XSpeed.name=x-Speed
+item.XAccuracy.name=x-Accuracy
+item.DireHit.name=Dire Hit
 
 item.chisel.name=Chisel
 item.ranchupgrade.name=Ranch Upgrade
