@@ -4694,3 +4694,35 @@ christmas.ischristmas=Merry Christmas from the Pixelmon Development Team!
 christmas.received=You have received a Christmas gift from Delibird!
 christmas.alreadygifted=You have already opened a Christmas gift!
 item.Gift Box.name=Gift Box
+
+
+//Unown blocks
+UnownBlock.A.name=Unown A
+UnownBlock.B.name=Unown B
+UnownBlock.C.name=Unown C
+UnownBlock.D.name=Unown D
+UnownBlock.E.name=Unown E
+UnownBlock.F.name=Unown F
+UnownBlock.G.name=Unown G
+UnownBlock.H.name=Unown H
+UnownBlock.I.name=Unown I
+UnownBlock.J.name=Unown J
+UnownBlock.K.name=Unown K
+UnownBlock.L.name=Unown L
+UnownBlock.M.name=Unown M
+UnownBlock.N.name=Unown N
+UnownBlock.O.name=Unown O
+UnownBlock.P.name=Unown P
+UnownBlock2.Q.name=Unown Q
+UnownBlock2.R.name=Unown R
+UnownBlock2.S.name=Unown S
+UnownBlock2.T.name=Unown T
+UnownBlock2.U.name=Unown U
+UnownBlock2.V.name=Unown V
+UnownBlock2.W.name=Unown W
+UnownBlock2.X.name=Unown X
+UnownBlock2.Y.name=Unown Y
+UnownBlock2.Z.name=Unown Z
+UnownBlock2.!.name=Unown !
+UnownBlock2.?.name=Unown ?
+UnownBlock2._.name=Unown _
