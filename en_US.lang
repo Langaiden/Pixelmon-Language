@@ -391,14 +391,6 @@ item.LightClay.name=Light Clay
 item.MentalHerb.name=Mental Herb
 item.StickyBarb.name=Sticky Barb
 
-item.X Attack.name=X Attack
-item.X Defence.name=X Defense
-item.X SpecialAttack.name=X Special Attack
-item.X SpecialDefence.name=X Special Defense
-item.X Speed.name=X Speed
-item.X Accuracy.name=X Accuracy
-item.Dire Hit.name=Dire Hit
-
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
 item.Luck Incense.name=Luck Incense
@@ -465,13 +457,12 @@ item.SoftSand.name=Soft Sand
 item.SpellTag.name=Spell Tag
 item.TwistedSpoon.name=Twisted Spoon
 item.destinyKnot.name=Destiny Knot
-item.StickyBarb.name=Sticky Barb
-item.XAttack.name=X-Attack
-item.XDefence.name=X-Defence
-item.XSpecialAttack.name=X-Special Attack
-item.XSpecialDefence.name=x-Special Defence
-item.XSpeed.name=x-Speed
-item.XAccuracy.name=x-Accuracy
+item.XAttack.name=X Attack
+item.XDefence.name=X Defense
+item.XSpecialAttack.name=X Sp. Atk
+item.XSpecialDefence.name=X Sp. Def
+item.XSpeed.name=X Speed
+item.XAccuracy.name=X Accuracy
 item.DireHit.name=Dire Hit
 
 item.chisel.name=Chisel
@@ -3232,9 +3223,9 @@ pixelmon.command.give.notifygiveegg=%s gave %s a %s Egg!
 pixelmon.command.heal.cantheal=Cannot heal %s's Pokémon while they are in battle!
 pixelmon.command.heal.healed=Successfully healed %s's Pokémon!
 pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pokémon!
-pixelmon.command.spawn.spawned=Successfully spawned a %s
-pixelmon.command.spawn.spawnednotify=%s successfully spawned %s
-pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon
+pixelmon.command.spawn.spawned=Successfully spawned a %s.
+pixelmon.command.spawn.spawnednotify=%s successfully spawned %s.
+pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon.
 pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 
 //Other
@@ -3328,13 +3319,7 @@ pixelmon.helditems.redcard=%s held up its Red Card!
 pixelmon.helditems.mentalherb=%s came to its senses using its Mental Herb!
 pixelmon.helditems.stickybarb=%s was hurt by its Sticky Barb!
 
-//Battle Items
-pixelmon.ItemBattleItem.xattackowner=%s's %s raised its Attack using X Attack!
-pixelmon.ItemBattleItem.xdefenceowner=%s's %s raised its Defense using X Defense!
-pixelmon.ItemBattleItem.xspecialattackowner=%s's %s raised its Special Attack using X Special Attack!
-pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s raised its Special Defense using X Special Defense!
-pixelmon.ItemBattleItem.xspeedowner=%s's %s raised its Speed using X Speed!
-pixelmon.ItemBattleItem.xaccuracyowner=%s's %s raised its accuracy using X Accuracy!
+pixelmon.items.useitem=%s used the %s.
 
 //Blocks
 pixelmon.blocks.bonemealwatered=It looks well watered today.
