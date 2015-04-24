@@ -454,6 +454,14 @@ item.SoftSand.name=Arena Fina
 item.SpellTag.name=Hechizo
 item.TwistedSpoon.name=Cuchara Torcida
 item.destinyKnot.name=Lazo Destino
+item.StickyBarb.name=Toxiestrella
+item.XAttack.name=Ataque X
+item.XDefence.name=Defensa X
+item.XSpecialAttack.name=Especial X
+item.XSpecialDefence.name=Defensa Especial X
+item.XSpeed.name=Velocidad X
+item.XAccuracy.name=Precisión X
+item.DireHit.name=Directo
 
 item.chisel.name=Cincel
 item.ranchupgrade.name=Actualización del Rancho
@@ -769,8 +777,6 @@ item.Lure Ball Disc.name=Parte inferior Cebo Ball
 item.Sport Ball Disc.name=Parte inferior Competi Ball
 
 
-pixelmon.command.give.givesuccessegg=¡%s recibió un huevo de %s con éxito!
-pixelmon.command.give.notifygiveegg=¡%s le dió a %s un huevo de %s!
 pixelmon.general.needowner=Sólo el propietario de este bloque puede acceder a él.
 
 pixelmon.egg.name=Huevo
@@ -3850,8 +3856,8 @@ pixelmon.command.heal.healed=¡Se han curado con éxito los Pokemon de %s!
 pixelmon.command.heal.notifyhealed=¡%s ha curado con éxito los Pokemon de %s!
 pixelmon.command.spawn.spawned=Ha aparecido con éxito un %s.
 pixelmon.command.spawn.spawnednotify=%s ha spawneado con éxito un %s.
-pixelmon.command.unlock=Se ha desbloqueado con éxito los Pokémon de %s.
-pixelmon.command.copyToDB.disabled=¡Guardar en la DataBase no está activo en "config"!
+pixelmon.command.unlock=Se han desbloqueado con éxito los Pokémon de %s.
+pixelmon.command.copyToDB.disabled=¡Guardar en la DataBase no está activado en "config"!
 
 //Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno!¡ %s calló al suelo!
@@ -4040,7 +4046,7 @@ pixelmon.abilities.drought=¡Sequía de %s hizo que el sol se intensificara!
 pixelmon.abilities.dryskinheal=¡Piel Seca hizo que %s curase a %s!
 pixelmon.abilities.dryskinused=¡%s usó %s!
 pixelmon.abilities.dryskinrain=¡%s recuperó PS gracias a Piel Seca!
-pixelmon.abilities.dryskinsun=¡%s perdió PS gracias a Piel Seca!
+pixelmon.abilities.dryskinsun=¡%s perdió PS debido a Piel Seca!
 pixelmon.abilities.effectsporesleep=¡Efec. Espora de %s durmió al %s enemigo!
 pixelmon.abilities.effectsporeparal=¡Efec. Espora de %s paralizó al %s enemigo!
 pixelmon.abilities.effectsporepois=¡Efec. Espora de %s envenenó al %s enemigo!
@@ -4090,7 +4096,7 @@ pixelmon.abilities.sapsipper=¡Herbívoro sube el Ataque de %s!
 pixelmon.abilities.sapsipper2=¡Herbívoro de %s evita el ataque!
 pixelmon.abilities.shedskin=¡Mudar de %s curó todos los problemas de estado!
 pixelmon.abilities.snowwarning=¡%s hizo granizar con Nevada!
-pixelmon.abilities.soundproof=¡Insonorizar de %s hace que el ataque no tenga efecto!
+pixelmon.abilities.soundproof=¡Insonorizar de %s hizo que el ataque no tuviese efecto!
 pixelmon.abilities.speedboost=¡La Velocidad de %s subió gracias a Impulso!
 pixelmon.abilities.static=¡Elec. Estát. de %s paralizó a %s!
 pixelmon.abilities.steadfast=¡La Velocidad de %s subió gracias a Impasible!
@@ -4291,7 +4297,7 @@ gui.pc.box=Caja:
 
 gui.selectpokemon.message=¡Selecciona un Pokémon!
 
-enum.aggro.timid=Miedosa
+enum.aggro.timid=Asustado
 enum.aggro.default=Por defecto
 enum.aggro.passive=Pasivo
 enum.aggro.aggressive=Agresivo
@@ -4364,7 +4370,7 @@ gui.mainmenu.use=¡%s usó %s!
 
 gui.choosebag.pokeballs=Poké Balls
 gui.choosebag.hppp=Restaurar PS/PP
-gui.choosebag.statusrestore=objetos de Restauración
+gui.choosebag.statusrestore=Objetos de Restauración
 gui.choosebag.battleitems=Objetos de Batalla
 gui.choosebag.nopokeballs=¡No puedes usar Poke Balls en esta batalla!
 
@@ -5025,7 +5031,7 @@ pixelmon.battletext.used=¡%s usó %s!
 pixelmon.battletext.sentout=¡%s sacó a %s!
  
 pixelmon.stat.speedlowered=¡La velocidad disminuyó!
-pixelmon.stat.attackraised=¡El Ataque aumentó!
+pixelmon.stat.attackraised=¡El ataque aumentó!
 pixelmon.stat.defence=¡La defensa aumentó!
  
 pixelmon.effect.regainedenergy=¡%s recuperó energía!
@@ -5150,7 +5156,7 @@ pixelmon.effect.swirlingmagma=¡%s quedó atrapado en Lluvia Ígnea!
 pixelmon.effect.firevortex=¡%s está atrapado en un torbellino de fuego!
 pixelmon.effect.squeezed=¡%s es oprimido por %s!
 pixelmon.effect.wrapped=¡%s fue atrapado por %s!
-pixelmon.effect.vortex=%s was trapped in the vortex!
+pixelmon.effect.vortex=¡%s está atrapado en un vórtice!
 pixelmon.effect.alreadypoisoned=¡%s ya está envenenado!
 pixelmon.effect.poisoned=¡%s está envenenado!
 pixelmon.effect.badlypoisoned=¡%s ha sido envenenado gravemente!
@@ -5267,3 +5273,35 @@ key.previouspokemon=Anterior Pokémon del Grupo
 key.sendpokemon=Sacar Pokémon
 key.pokemonaction=Seleccionar Pokémon
 key.pokemonexternal=Movimiento externo
+
+
+//Unown blocks
+UnownBlock.A.name=Unown A
+UnownBlock.B.name=Unown B
+UnownBlock.C.name=Unown C
+UnownBlock.D.name=Unown D
+UnownBlock.E.name=Unown E
+UnownBlock.F.name=Unown F
+UnownBlock.G.name=Unown G
+UnownBlock.H.name=Unown H
+UnownBlock.I.name=Unown I
+UnownBlock.J.name=Unown J
+UnownBlock.K.name=Unown K
+UnownBlock.L.name=Unown L
+UnownBlock.M.name=Unown M
+UnownBlock.N.name=Unown N
+UnownBlock.O.name=Unown O
+UnownBlock.P.name=Unown P
+UnownBlock2.Q.name=Unown Q
+UnownBlock2.R.name=Unown R
+UnownBlock2.S.name=Unown S
+UnownBlock2.T.name=Unown T
+UnownBlock2.U.name=Unown U
+UnownBlock2.V.name=Unown V
+UnownBlock2.W.name=Unown W
+UnownBlock2.X.name=Unown X
+UnownBlock2.Y.name=Unown Y
+UnownBlock2.Z.name=Unown Z
+UnownBlock2.!.name=Unown !
+UnownBlock2.?.name=Unown ?
+UnownBlock2._.name=Unown _
