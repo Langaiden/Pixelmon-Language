@@ -4672,6 +4672,7 @@ pixelmon.status.tailwindalready=Tailwind is already active!
 pixelmon.status.tailwindfaded=%s's tailwind petered out!
 pixelmon.status.encore=%s received an encore!
 pixelmon.status.encoreend=%s's encore ended!
+pixelmon.status.transform=%s transformed into %s!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
