@@ -5261,6 +5261,7 @@ pixelmon.status.tailwindfaded=¡Viento Afín desapareció!
 pixelmon.status.encore=¡%s sufrió los efectos de Otra Vez!
 pixelmon.status.encoreend=¡El efecto de Otra Vez desapareció!
 pixelmon.status.transform=¡%s se transformó en %s!
+pixelmon.status.trickroom=¡%s restauró las dimensiones alteradas!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
