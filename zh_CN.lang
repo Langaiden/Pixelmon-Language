@@ -372,14 +372,8 @@ item.PowerHerb.name=力量药草
 item.RedCard.name=红牌
 item.ExpertBelt.name=达人带子
 item.LightClay.name=光之粘土
-
-item.X Attack.name=力量增强
-item.X Defence.name=伤害预防
-item.X SpecialAttack.name=特殊增强
-item.X SpecialDefence.name=特防强化
-item.X Speed.name=速度增加
-item.X Accuracy.name=命中加强
-item.Dire Hit.name=要害攻击
+item.MentalHerb.name=心灵药草
+item.QuickClaw.name=先攻之爪
 
 item.Full Incense.name=满腹熏香
 item.Lax Incense.name=悠闲熏香
@@ -3302,6 +3296,11 @@ pixelmon.helditems.rockyhelmet=%s 收到了来自 %s 的坚硬头盔的伤害！
 pixelmon.helditems.powerherb=%s 的力量药草让它跳过了消除蓄气回合！
 pixelmon.helditems.berrytypereducing=%s 的 %s 减弱了攻击！
 pixelmon.helditems.redcard=%s 举起了红牌！
+pixelmon.helditems.mentalherb=%s 利用自身的心灵药草治愈了感官！
+pixelmon.helditems.stickybarb=%s 被它的附针伤害了！
+pixelmon.helditems.quickclaw=%s 的先攻之爪让它先出！
+
+pixelmon.items.useitem=%s 使用了 %s 。
 
 
 //Battle Items
@@ -3385,6 +3384,7 @@ achievement.dex100Chieve=我可以叫你口袋妖怪大师吗OAO！
 achievement.dex100Chieve.desc=口袋妖怪图鉴全部收集完毕~！
 
 //Abilities
+pixelmon.abilities.aftermath=%s 的引爆伤害了 %s ！
 pixelmon.abilities.airlock=%s 的气闸使天气的影响消失！
 pixelmon.abilities.angerpoint=愤怒穴道使 %s 变得大怒！
 pixelmon.abilities.anticipation=%s 因为预知到危险而害怕得颤抖！
@@ -3411,6 +3411,7 @@ pixelmon.abilities.forewarn=%s 的预知梦预知到了 %s！
 pixelmon.abilities.frisk=%s 看穿了 %s 并且知道了对手携带的 %s！
 pixelmon.abilities.hypercut=%s 的怪力剪刀使 %s 不会下降攻击力！
 pixelmon.abilities.hydration=%s 的湿润身体治愈了它的状态！
+pixelmon.abilities.icebody=%s's 的冰冻身体治愈了它！
 pixelmon.abilities.healer=%s 的治愈之心治愈了 %s 的异常状态！
 pixelmon.abilities.innerfocus=%s 因为它的精神力没有陷入退缩状态！
 pixelmon.abilities.immunity=%s 的免疫避免了它中毒！
@@ -3426,9 +3427,11 @@ pixelmon.abilities.lightningrod=%s 的避雷针抵消了攻击！
 pixelmon.abilities.lightningrodredirect=%s 的避雷针吸引了攻击！
 pixelmon.abilities.limber=%s 的柔软防止了它陷入麻痹状态！
 pixelmon.abilities.limbercure=%s 的柔软治愈了它的麻痹！
+pixelmon.abilities.liquidooze=%s 吸收了黏液！
 pixelmon.abilities.magmaarmor=%s 的岩浆防护防止了它陷入冰冻状态！
 pixelmon.abilities.magmaarmorcure=%s 的岩浆防护将它从冰冻状态融化了！
 pixelmon.abilities.moldbreaker=%s 打破了影响！
+pixelmon.abilities.moody=%s 的心智不定激活了！
 pixelmon.abilities.motordrive=电气引擎使 %s 的速度上升！
 pixelmon.abilities.motordrive2=%s 的电气引擎使攻击无效！
 pixelmon.abilities.magicbounce=%s 的魔法反射把对方的技能反弹回去了！
@@ -3436,10 +3439,13 @@ pixelmon.abilities.oblivious=%s 的迟钝使攻击无效！
 pixelmon.abilities.obliviouscure=%s 的迟钝使它治愈了心醉神迷！
 pixelmon.abilities.owntempo=%s 的我行我素防止了混乱！
 pixelmon.abilities.owntempocure=%s 的我行我素让它从混乱中脱离！
+pixelmon.abilities.pickpocket=%s 的偷盗恶习让它偷走了 %s 的 %s！
+pixelmon.abilities.pickup=%s 的捡拾恢复了一个 %s!
 pixelmon.abilities.overcoat=%s's 的防尘使攻击无效！
 pixelmon.abilities.poisonheal=毒疗治疗了 %s!
 pixelmon.abilities.poisonpoint=%s 的毒刺让 %s 中毒了！
 pixelmon.abilities.poisontouch=%s 的毒手让 %s 中毒了！
+pixelmon.abilities.pressure=%s 施加了气压！
 pixelmon.abilities.raindish=%s 因为雨盘回复了HP！
 pixelmon.abilities.rattled=%s 的颤抖提高了它的速度！
 pixelmon.abilities.roughskin=%s 的蛇皮伤到了 %s！
@@ -4553,6 +4559,7 @@ pixelmon.effect.alreadybarrier=%s 已经有了一个屏障！
 pixelmon.effect.reflecttype=%s 的镜子系复制了 %s 的属性！
 pixelmon.effect.dive=%s 潜入了水下！
 pixelmon.effect.skillswap=%s 收到 %s。
+pixelmon.effect.incinerate=%s 的 %s 被烧了！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
 pixelmon.effect.alreadysafeguard=% 已经有了一个护卫！
