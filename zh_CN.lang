@@ -4653,6 +4653,7 @@ pixelmon.status.noeffect=它没有状态！
 pixelmon.status.encore=%s 受到再来一次！
 pixelmon.status.encoreend=%s 的再来一次结束了！
 pixelmon.status.transform=%s 变化成 %s！
+pixelmon.status.trickroom=%s 扭曲了维度！
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
 attack.curse.curse=%s 消耗了自己的生命值给 %s 造成了诅咒！
