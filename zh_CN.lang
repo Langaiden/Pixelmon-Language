@@ -3898,7 +3898,7 @@ deletemove.forgot=您的 %s 完全忘记了技能 %s 的使用！
 
 replacemove.replace=您的 %s 完全忘记了技能 %s 的使用！然后学会了 %s!
 
-externalMove.forage.name=饲料
+externalMove.forage.name=饲料搜集
 
 sendpixelmon.sentout=您放出了 %s!
 sendpixelmon.cantbattle=%s 现在无法召唤（体力透支或者不可用[？]）
@@ -4664,6 +4664,7 @@ tile.MechanicalAnvil.name=机械铁砧
 key.categories.pixelmon=Pixelmon - 神奇宝贝
 key.descend=骑乘精灵时下降/下潜
 key.minmaxoverlay=最小化/最大化 视图
+key.nextexternalmove=下一个对战外移动
 key.nextpokemon=下一个精灵槽
 key.previouspokemon=上一个精灵槽
 key.sendpokemon=放出精灵
