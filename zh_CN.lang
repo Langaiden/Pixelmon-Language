@@ -3756,7 +3756,7 @@ gui.battle.back=返回
 gui.battle.whatdo=请问您想让 $p 做什么？
 gui.battle.type=属性: 
 
-gui.levelupscreen.lvlup=恭喜！您的 $p 升级到了等级
+gui.levelupscreen.lvlup=恭喜！您的 $p 升级到了等级 $l ！
 
 gui.mainmenu.fight=战斗
 gui.mainmenu.bag=背包
