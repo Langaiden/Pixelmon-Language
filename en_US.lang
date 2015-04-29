@@ -4693,6 +4693,7 @@ key.previouspokemon=Previous Party Slot
 key.sendpokemon=Send out Pokémon
 key.pokemonaction=Select Target Pokémon
 key.pokemonexternal=Use External Move
+key.nextexternalmove=Next External Move
 
 halloween.entityname=The Spectral Jeweler
 halloween.gemregistered=The Spectral Jeweler recieved your %s!
