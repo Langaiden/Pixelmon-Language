@@ -4664,10 +4664,10 @@ tile.MechanicalAnvil.name=机械铁砧
 key.categories.pixelmon=Pixelmon - 神奇宝贝
 key.descend=骑乘精灵时下降/下潜
 key.minmaxoverlay=最小化/最大化 视图
-key.nextexternalmove=下一个对战外移动
+key.nextexternalmove=下一个对战外技能
 key.nextpokemon=下一个精灵槽
 key.previouspokemon=上一个精灵槽
-key.sendpokemon=放出精灵
+key.sendpokemon=放出/收回精灵
 key.pokemonaction=选择目标精灵
 key.pokemonexternal=使用对战外技能
 
