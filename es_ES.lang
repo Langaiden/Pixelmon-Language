@@ -451,7 +451,7 @@ item.TwistedSpoon.name=Cuchara Torcida
 item.destinyKnot.name=Lazo Destino
 item.XAttack.name=Ataque X
 item.XDefence.name=Defensa X
-item.XSpecialAttack.name=Especial X
+item.XSpecialAttack.name=At. Especial X
 item.XSpecialDefence.name=Def. Especial X
 item.XSpeed.name=Velocidad X
 item.XAccuracy.name=Precisión X
@@ -5275,6 +5275,7 @@ key.previouspokemon=Anterior Pokémon del Grupo
 key.sendpokemon=Sacar Pokémon
 key.pokemonaction=Seleccionar Pokémon
 key.pokemonexternal=Movimiento externo
+key.nextexternalmove=Siguiente movimiento externo
 
 
 //Unown blocks
