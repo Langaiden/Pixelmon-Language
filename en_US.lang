@@ -4613,6 +4613,8 @@ pixelmon.effect.reflecttype=%s copied %s's type!
 pixelmon.effect.dive=%s dives down!
 pixelmon.effect.skillswap=%s received %s.
 pixelmon.effect.incinerate=%s's %s was burned up!
+pixelmon.effect.focuspunch=%s is tightening its focus!
+pixelmon.effect.lostfocus=%s lost its focus and couldn't move!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
