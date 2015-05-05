@@ -390,6 +390,7 @@ item.LightClay.name=Light Clay
 item.MentalHerb.name=Mental Herb
 item.StickyBarb.name=Sticky Barb
 item.QuickClaw.name=Quick Claw
+item.WhiteHerb.name=White Herb
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3322,8 +3323,7 @@ pixelmon.helditems.tougaberry=%s consumed its Touga Berry and snapped out of its
 pixelmon.helditems.shellbell=%s restored a little HP using its Shell Bell!
 pixelmon.helditems.absorbbulb=%s's Absorb Bulb activated!
 pixelmon.helditems.leftovers=%s's Leftovers restored some of its health!
-pixelmon.helditem.lifeowner=%s's power increased, but it received recoil damage!
-pixelmon.helditems.consumegem=%s just consumed a Gem and increased its damage!
+pixelmon.helditem.lifeowner=%s lost some HP!
 pixelmon.helditems.focussash=%s held on using its Focus Sash!
 pixelmon.helditems.focusband=%s held on using its Focus Band!
 pixelmon.helditems.blacksludgepsn=%s was hurt by its Black Sludge!
@@ -3340,6 +3340,7 @@ pixelmon.helditems.redcard=%s held up its Red Card!
 pixelmon.helditems.mentalherb=%s came to its senses using its Mental Herb!
 pixelmon.helditems.stickybarb=%s was hurt by its Sticky Barb!
 pixelmon.helditems.quickclaw=%s's Quick Claw let it move first!
+pixelmon.whiteherb=%s's White Herb restored its stats!
 
 //Blocks
 pixelmon.blocks.bonemealwatered=It looks well watered today.
@@ -3972,6 +3973,10 @@ bagpacket.battlenotfound=Battle could not be found!
 deletemove.forgot=Your %s forgot %s!
 
 replacemove.replace=Your %s forgot %s and learned %s!
+
+externalMove.forage.name=Forage
+
+externalMove.Cut.fail=%s is not strong enough to cut this!
 
 sendpixelmon.sentout=You sent out %s!
 sendpixelmon.cantbattle=%s is unable to battle!
