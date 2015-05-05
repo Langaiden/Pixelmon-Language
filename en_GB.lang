@@ -4702,6 +4702,8 @@ christmas.received=You have received a Christmas gift from Delibird!
 christmas.alreadygifted=You have already opened a Christmas gift!
 item.Gift Box.name=Gift Box
 
+externalMove.Cut.fail=%s isn't strong enough to cut that down!
+
 //Unown blocks
 UnownBlock.A.name=Unown Block 'A'
 UnownBlock.B.name=Unown Block 'B'
