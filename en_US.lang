@@ -3733,6 +3733,7 @@ gui.trainereditor.changepokemon=Change Pokémon
 gui.trainereditor.nickname=Nickname
 gui.trainereditor.growth=Growth
 gui.trainereditor.gender=Gender
+gui.trainereditor.partypokemon=Party Pokémon
 
 gui.tradereditor.shiny=S
 gui.tradereditor.level=Level
@@ -3876,6 +3877,45 @@ gui.ranch.extendTitle=Extend ranch block contained area
 gui.ranch.empty=There are no Pokémon in the ranch.
 ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level.
 ranch.hourglass.upgrade=%s increased a breeding level.
+
+trainer.Steve=Steve
+trainer.Youngster=Youngster
+trainer.Lass=Lass
+trainer.BugCatcher=Bug Catcher
+trainer.PokeManiac=Poké Maniac
+trainer.PokeManiacGirl=Poké Maniac Girl
+trainer.Fisherman=Fisherman
+trainer.Fisherman2=Fisherman
+trainer.FemaleRocketGrunt=Female Rocket Grunt
+trainer.BugManiac=Bug Maniac
+trainer.LittleBoySwimmer=Little Boy Swimmer
+trainer.MaleSwimmer=Male Swimmer
+trainer.Ornithologist=Ornithologist
+trainer.FireBreather=Firebreather
+trainer.RichBoy=Rich Boy
+
+trainer.model.Steve=Steve
+trainer.model.Custom_RP=Custom Resource Pack
+trainer.model.Custom_PN=Custom Player Name
+trainer.model.Santa=Santa
+trainer.model.Suit=Suit
+trainer.model.Scottish=Scottish
+trainer.model.Prisoner=Prisoner
+trainer.model.youngster1=Spoiled Brat
+trainer.model.youngster2=Cool Youngster Boy
+trainer.model.youngster3=Hatted Youth
+trainer.model.youngster4=Hooded Blue Boy
+trainer.model.bugcatcher1=Beekeeper
+trainer.model.bugcatcher2=Super Bug Catcher
+trainer.model.bugcatcher3=Bug Catcher
+trainer.model.bugcatcher4=Bug Catcher 2
+trainer.model.pokemaniac1=Pika Boy
+trainer.model.pokemaniac2=Honchkrow
+trainer.model.firebreather1=Medieval Firebreather
+trainer.model.firebreather2=Styling Fire Guy
+trainer.model.firebreather3=Fire Man
+trainer.model.firebreather4=Team Magma
+trainer.model.firebreather5=Fire Bat
 
 container.MechanicalAnvil=Mechanical Anvil
 
