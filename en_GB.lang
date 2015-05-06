@@ -764,7 +764,7 @@ item.DawnstonePlate.name=Dawn Stone Chestplate
 item.DawnstoneLegs.name=Dawn Stone Leggings
 item.DawnstoneBoots.name=Dawn Stone Boots
 item.PicketFence.name=Picket Fence
-item.pokeGift.name=PokéGift
+item.pokeGift.name=Poké Gift
 
 itemGroup.tabPokeLoot=PokéLoot
 itemGroup.Pokeballs=Poké Balls
@@ -3461,6 +3461,54 @@ achievement.pokeGift.desc=Find a PokéGift from another player.
 achievement.givenPokeGift=PokéGift Give!
 achievement.givenPokeGift.desc=Leave a PokéGift for another player.
 
+//PixelUtilities Achievements
+achievement.teammagma=Team Magma Wannabe!
+achievement.teammagma.desc=Join Team Magma!
+achievement.teamaqua=Team Aqua Wannabe!
+achievement.teamaqua.desc=Join Team Aqua!
+achievement.teammagma1=Team Magma Grunt!
+achievement.teammagma1.desc=Become a Team Magma Grunt
+achievement.teamaqua1=Team Aqua Grunt!
+achievement.teamaqua1.desc=Become a Team Aqua Grunt
+achievement.teammagma2=Team Magma Executive!
+achievement.teammagma2.desc=Become a Team Magma Executive
+achievement.teamaqua2=Team Aqua Executive!
+achievement.teamaqua2.desc=Become a Team Aqua Executive
+achievement.teammagma3=Team Magma Leader!
+achievement.teammagma3.desc=Become a Team Magma Leader
+achievement.teamaqua3=Team Aqua Leader!
+achievement.teamaqua3.desc=Become a Team Aqua Leader
+achievement.teamgalactic=Team Galactic Wannabe!
+achievement.teamgalactic.desc=Join Team Galactic!
+achievement.teamgalactic1=Team Galactic Grunt!
+achievement.teamgalactic1.desc=Become a Team Galactic Grunt
+achievement.teamgalactic2=Team Galactic Executive!
+achievement.teamgalactic2.desc=Become a Team Galactic Executive
+achievement.teamgalactic3=Team Galactic Leader!
+achievement.teamgalactic3.desc=Become a Team Galactic Leader
+achievement.teamrocket=Team Rocket Wannabe!
+achievement.teamrocket.desc=Join Team Rocket!
+achievement.teamrocket1=Team Rocket Grunt!
+achievement.teamrocket1.desc=Become a Team Rocket Grunt
+achievement.teamrocket2=Team Rocket Executive!
+achievement.teamrocket2.desc=Become a Team Rocket Executive
+achievement.teamrocket3=Team Rocket Leader!
+achievement.teamrocket3.desc=Become a Team Rocket Leader
+achievement.teamplasma=Team Plasma Wannabe!
+achievement.teamplasma.desc=Join Team Plasma!
+achievement.teamplasma1=Team Plasma Grunt!
+achievement.teamplasma1.desc=Become a Team Plasma Grunt
+achievement.teamplasma2=Team Plasma Executive!
+achievement.teamplasma2.desc=Become a Team Plasma Executive
+achievement.teamplasma3=Team Plasma Leader!
+achievement.teamplasma3.desc=Become a Team Plasma Leader
+achievement.getSilicon=Get Silicon!
+achievement.getSilicon.desc=Smelt some Silicon
+achievement.pokeGift=Pokegift Get!
+achievement.pokeGift.desc=Find a Pokegift from another player
+achievement.givenPokeGift=Pokegift Give!
+achievement.givenPokeGift.desc=Leave a Pokegift for another player
+
 //Abilities
 pixelmon.abilities.aftermath=%s's Aftermath hurt %s!
 pixelmon.abilities.airlock=%s's Air Lock caused the effects of weather to disappear!
@@ -4805,6 +4853,8 @@ christmas.ischristmas=Merry Christmas from the Pixelmon Development Team!
 christmas.received=You have received a Christmas gift from Delibird!
 christmas.alreadygifted=You have already opened a Christmas gift!
 item.Gift Box.name=Gift Box
+
+externalMove.Cut.fail=%s isn't strong enough to cut that down!
 
 //Unown blocks
 UnownBlock.A.name=Unown Block 'A'
