@@ -4704,7 +4704,7 @@ pixelmon.effect.sandstorm=A sandstorm kicked up!
 pixelmon.effect.alreadybarrier=%s already has a barrier!
 pixelmon.effect.reflectraised=Reflect raised %s's team's Defense!
 pixelmon.effect.healthsleep=%s went to sleep and regained health!
-pixelmon.effect.alreadysafeguard=%s already has a safeguard!
+pixelmon.effect.alreadysafeguard=%s already has a Safeguard!
 pixelmon.effect.guarded=%s is looking a bit guarded!
 pixelmon.effect.harshsunlight=The sunlight turned harsh!
 pixelmon.effect.alreadysleeping=%s is already asleep!
@@ -4805,6 +4805,7 @@ pixelmon.status.encore=%s received an encore!
 pixelmon.status.encoreend=%s's encore ended!
 pixelmon.status.transform=%s transformed into %s!
 pixelmon.status.trickroom=%s twisted the dimensions!
+pixelmon.status.safeguard=%s was protected by Safeguard!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
