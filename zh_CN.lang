@@ -752,6 +752,7 @@ item.DawnstonePlate.name=觉醒之石胸甲
 item.DawnstoneLegs.name=觉醒之石裤
 item.DawnstoneBoots.name=觉醒之石靴
 item.PicketFence.name=栅栏
+item.pokeGift.name=神奇宝贝礼品盒
 
 attack.tail whip.name=摇尾巴
 attack.tail whip.description=通过摇晃尾巴来迷惑对方。使对方防御降低
@@ -3383,6 +3384,54 @@ achievement.dex90Chieve.desc=口袋妖怪图鉴 90% 已完成~
 achievement.dex100Chieve=我可以叫你口袋妖怪大师吗OAO！
 achievement.dex100Chieve.desc=口袋妖怪图鉴全部收集完毕~！
 
+//PixelUtilities Achievements
+achievement.teammagma=火岩队崇拜者！
+achievement.teammagma.desc=加入了火岩队！
+achievement.teamaqua=水舰队崇拜者！
+achievement.teamaqua.desc=加入了水舰队！
+achievement.teammagma1=火岩队队员！
+achievement.teammagma1.desc=担任火岩队的队员！
+achievement.teamaqua1=水舰队队员！
+achievement.teamaqua1.desc=担任水舰队的队员！
+achievement.teammagma2=火岩队干部！
+achievement.teammagma2.desc=担任火岩队的干部
+achievement.teamaqua2=水舰队干部！
+achievement.teamaqua2.desc=担任水舰队的干部
+achievement.teammagma3=火岩队的领导者！
+achievement.teammagma3.desc=担任火岩队的领导者
+achievement.teamaqua3=水舰队的领导者！
+achievement.teamaqua3.desc=担任水舰队的领导者
+achievement.teamgalactic=银河队崇拜者！
+achievement.teamgalactic.desc=加入了银河队！
+achievement.teamgalactic1=银河队队员！
+achievement.teamgalactic1.desc=担任银河队的队员！
+achievement.teamgalactic2=银河队干部!
+achievement.teamgalactic2.desc=担任银河队的干部
+achievement.teamgalactic3=银河队的领导者！
+achievement.teamgalactic3.desc=担任银河队的领导者
+achievement.teamrocket=火箭队崇拜者！
+achievement.teamrocket.desc=加入了火箭队！
+achievement.teamrocket1=火箭队队员！
+achievement.teamrocket1.desc=担任火箭队的队员！
+achievement.teamrocket2=火箭队干部!
+achievement.teamrocket2.desc=担任火箭队的干部
+achievement.teamrocket3=火箭队的领导者！
+achievement.teamrocket3.desc=担任火箭队的领导者
+achievement.teamplasma=电浆团崇拜者！
+achievement.teamplasma.desc=加入了电浆团！
+achievement.teamplasma1=电浆团团员！
+achievement.teamplasma1.desc=担任电浆团的团员！
+achievement.teamplasma2=电浆团干部!
+achievement.teamplasma2.desc=担任电浆团的干部
+achievement.teamplasma3=电浆团的领导者！
+achievement.teamplasma3.desc=担任电浆团的领导者
+achievement.getSilicon=获得了硅！
+achievement.getSilicon.desc=部分的熔炼硅材料
+achievement.pokeGift=获得神奇宝贝礼物盒！
+achievement.pokeGift.desc=获得其他玩家的礼物！
+achievement.givenPokeGift=往神奇宝贝礼物盒里放东西！
+achievement.givenPokeGift.desc=送给其他玩家礼物！
+
 //Abilities
 pixelmon.abilities.aftermath=%s 的引爆伤害了 %s ！
 pixelmon.abilities.airlock=%s 的气闸使天气的影响消失！
@@ -4682,6 +4731,8 @@ christmas.ischristmas=Pixelmon开发团队给您献上的圣诞节祝福！
 christmas.received=信使鸟给你带来了圣诞节礼品！
 christmas.alreadygifted=你已经打开了一个圣诞节礼品了呢…
 item.Gift Box.name=礼品箱
+
+externalMove.Cut.fail=%s 没有足够强大的力量砍倒那个！
 
 
 //Unown blocks
