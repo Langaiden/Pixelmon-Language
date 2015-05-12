@@ -391,6 +391,8 @@ item.MentalHerb.name=Mental Herb
 item.StickyBarb.name=Sticky Barb
 item.QuickClaw.name=Quick Claw
 item.WhiteHerb.name=White Herb
+item.BigRoot.name=Big Root
+item.ZoomLens.name=Zoom Lens
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -4114,6 +4116,7 @@ tile.DawnDusk Ore.name=Dawn/Dusk Ore
 tile.templePillar.Pillar.name=Temple Pillar
 tile.templePillar.BrokenPillar.name=Broken Pillar
 tile.PokeGift.name=Poké Gift
+tile.EventPokeGift.name=Event Poké Gift
 
 PokeDirt.name=PokéDirt
 PokeSand.name=PokéSand
@@ -4806,6 +4809,10 @@ pixelmon.status.encoreend=%s's encore ended!
 pixelmon.status.transform=%s transformed into %s!
 pixelmon.status.trickroom=%s twisted the dimensions!
 pixelmon.status.safeguard=%s was protected by Safeguard!
+pixelmon.status.magiccoat=%s's Magic Coat reflected the attack!
+pixelmon.status.applymagiccoat=%s set up Magic Coat!
+pixelmon.status.applyingrain=%s laid down its roots!
+pixelmon.status.ingrain=%s absorbed nutrients with its roots!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
