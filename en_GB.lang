@@ -3771,6 +3771,9 @@ gui.texture.text=Texture
 gui.cancel.text=Cancel
 gui.description.text=Description
 
+gui.mail.seal=Seal letter
+gui.mail.close=Close letter
+
 enum.aggro.timid=Timid
 enum.aggro.default=Default
 enum.aggro.passive=Passive
@@ -4545,19 +4548,18 @@ ability.ZenMode.description=Changes the Pokémon's shape when HP is half or less
 ability.ComingSoon.name=Coming Soon!
 ability.ComingSoon.description=This Ability has not been coded yet, but it will be soon!
 
-pixelmon.battletext.noeffect=It had no effect!
+pixelmon.battletext.noeffect=It doesn't affect %s...
 pixelmon.battletext.movefailed=But it failed!
 pixelmon.battletext.criticalhit=Critical hit!
+pixelmon.battletext.criticalhittarget=Critical hit on %s!
 pixelmon.battletext.wasnoteffective=It wasn't very effective...
-pixelmon.battletext.super-effective=It's super effective!
-pixelmon.battletext.missedattack=%s tried to use %s, but it missed!
+pixelmon.battletext.wasnoteffectivetarget=It wasn't very effective on %s...
+pixelmon.battletext.supereffective=It's super effective!
+pixelmon.battletext.supereffectivetarget=It's super effective on %s!
+pixelmon.battletext.missedattack=%s avoided the attack!
 pixelmon.battletext.butmovefailed=But it failed!
 pixelmon.battletext.used=%s used %s!
 pixelmon.battletext.sentout=%s sent out %s!
-
-pixelmon.stat.speedlowered=Speed was lowered!
-pixelmon.stat.attackraised=Attack was raised!
-pixelmon.stat.defence=defence was raised!
 
 pixelmon.effect.regainedenergy=%s regained energy!
 pixelmon.effect.atedreams=%s ate %s's dream!
