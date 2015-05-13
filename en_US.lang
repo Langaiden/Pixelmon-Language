@@ -3643,6 +3643,7 @@ gui.pokedex.pokedex=Pokédex
 gui.pokedex.height=Height:
 gui.pokedex.weight=Weight:
 gui.pokedex.more=More...
+gui.pokedex.wiki=View Wiki
 
 gui.pokedexoptions.done=Done.
 gui.pokedexoptions.options=Pokédex Options
