@@ -55,7 +55,7 @@ item.Uno Orb.name=寒冽珠
 item.Dos Orb.name=雷泣珠
 item.Tres Orb.name=熾炎珠
 item.Orb.name=纯净珠
-itemGroup.tabPokeLoot=奖励道具
+
 item.itemFinder.name=奖励箱探测仪
 item.Poke Ball.name=精灵球
 item.Great Ball.name=超级球
@@ -374,6 +374,7 @@ item.ExpertBelt.name=达人带子
 item.LightClay.name=光之粘土
 item.MentalHerb.name=心灵药草
 item.QuickClaw.name=先攻之爪
+item.WhiteHerb.name=白色药草
 
 item.Full Incense.name=满腹熏香
 item.Lax Incense.name=悠闲熏香
@@ -752,6 +753,20 @@ item.DawnstonePlate.name=觉醒之石胸甲
 item.DawnstoneLegs.name=觉醒之石裤
 item.DawnstoneBoots.name=觉醒之石靴
 item.PicketFence.name=栅栏
+item.pokeGift.name=神奇宝贝礼品盒
+
+itemGroup.tabPokeLoot=神奇宝贝奖励道具
+itemGroup.Pokeballs=神奇宝贝球
+itemGroup.Badges=徽章
+itemGroup.Restoration=回复道具
+itemGroup.Natural=自然产物
+itemGroup.Held Items=携带物品
+itemGroup.TMs/HMs=技能学习器/秘传技学习器
+itemGroup.PixelUtilitiesBlocks=神奇宝贝场景方块
+itemGroup.PixelUtilitiesItems=神奇宝贝实用道具
+itemGroup.PixelUtilitiesArmor=神奇宝贝盔甲
+itemGroup.PixelUtilsDecoration=神奇宝贝装饰物
+itemGroup.PixelUtilsTools=神奇宝贝实用工具
 
 attack.tail whip.name=摇尾巴
 attack.tail whip.description=通过摇晃尾巴来迷惑对方。使对方防御降低
@@ -3238,7 +3253,18 @@ pixelmon.entities.syncpassed=同步传递到了 %s
 pixelmon.entitytrainer.goodrod=您获得了一个好钓竿！
 pixelmon.entitytrainer.superod=您获得了一个超级钓竿！
 
-pixelmon.statue.despawn=Pixelmon Mod已禁止生成
+pixelmon.statue.despawn=神奇宝贝已被禁止生成
+
+pixelutilities.blocks.emptygift=你发现了一个空的 %s  _(:3」∠)_
+pixelmon.blocks.fillmefirst=你需要将要送出的精灵放在精灵槽第一个！
+pixelutilities.event.noevents=活动被禁止  _(:3」∠)_
+pixelmon.blocks.nothingtoadd=你需要先送出一个精灵！
+pixelmon.block.error=一个错误因 %s 引起。
+pixelmon.blocks.lastpoke=这是你最后的精灵！
+pixelmon.blocks.christmaspokegift=神奇宝贝圣诞节礼物
+pixelmon.blocks.halloweenpokegift=神奇宝贝万圣节礼物
+pixelmon.blocks.custompokegift=神奇宝贝自定义活动礼物
+
 
 //Pokeballs
 pixelmon.pokeballs.inbattle=那只神奇宝贝已经在战斗了！
@@ -3281,6 +3307,8 @@ pixelmon.helditems.gainedtenhp=%s 恢复了健康！
 pixelmon.helditems.absorbbulb=%s 的球根激活了！
 pixelmon.helditem.absorbowner=%s 的 %s 因为携带了球根所以提升了特攻！
 pixelmon.helditem.absorbwild=野生的 %s 因为携带了球根所以提升了特攻！
+pixelmon.helditems.leftovers=%s 的剩饭恢复了它一些体力！
+pixelmon.helditem.lifeowner=%s 失去了一些体力！
 pixelmon.helditem.lifeowner=%s 的力量由于生命宝珠增加了，但是它受到了反冲伤害！
 pixelmon.helditem.metronomeowner=%s 的技能威力因为携带了节拍器而提升！
 pixelmon.helditem.musclebandowner=%s 的物理技能威力因为携带了力量头巾而提升！
@@ -3299,6 +3327,7 @@ pixelmon.helditems.redcard=%s 举起了红牌！
 pixelmon.helditems.mentalherb=%s 利用自身的心灵药草治愈了感官！
 pixelmon.helditems.stickybarb=%s 被它的附针伤害了！
 pixelmon.helditems.quickclaw=%s 的先攻之爪让它先出！
+pixelmon.whiteherb=%s 的白色药草恢复了它的状态！
 
 pixelmon.items.useitem=%s 使用了 %s 。
 
@@ -3323,6 +3352,8 @@ pixelmon.blocks.ownerchanged=该道具箱类型已设置为服务器（任何人
 pixelmon.blocks.chestset=自定义道具箱设置： %s
 pixelmon.blocks.visible=道具箱可视等级已设置为： %s
 pixelmon.blocks.chestmode=道具箱模式：  %s
+pixelmon.blocks.chestmodePL1D=永久性存在,限制仅掉落 1 个物品
+pixelmon.blocks.chestmodeFCFS=先到先得！
 
 pixelmon.blocks.orbnotfull=您的珠还没满！
 
@@ -3382,6 +3413,54 @@ achievement.dex90Chieve=口袋妖怪图鉴: 90% 完成~
 achievement.dex90Chieve.desc=口袋妖怪图鉴 90% 已完成~
 achievement.dex100Chieve=我可以叫你口袋妖怪大师吗OAO！
 achievement.dex100Chieve.desc=口袋妖怪图鉴全部收集完毕~！
+
+//PixelUtilities Achievements
+achievement.teammagma=火岩队崇拜者！
+achievement.teammagma.desc=加入了火岩队！
+achievement.teamaqua=水舰队崇拜者！
+achievement.teamaqua.desc=加入了水舰队！
+achievement.teammagma1=火岩队队员！
+achievement.teammagma1.desc=担任火岩队的队员！
+achievement.teamaqua1=水舰队队员！
+achievement.teamaqua1.desc=担任水舰队的队员！
+achievement.teammagma2=火岩队干部！
+achievement.teammagma2.desc=担任火岩队的干部！
+achievement.teamaqua2=水舰队干部！
+achievement.teamaqua2.desc=担任水舰队的干部！
+achievement.teammagma3=火岩队的领导者！
+achievement.teammagma3.desc=担任火岩队的领导者！
+achievement.teamaqua3=水舰队的领导者！
+achievement.teamaqua3.desc=担任水舰队的领导者！
+achievement.teamgalactic=银河队崇拜者！
+achievement.teamgalactic.desc=加入了银河队！
+achievement.teamgalactic1=银河队队员！
+achievement.teamgalactic1.desc=担任银河队的队员！
+achievement.teamgalactic2=银河队干部！
+achievement.teamgalactic2.desc=担任银河队的干部！
+achievement.teamgalactic3=银河队的领导者！
+achievement.teamgalactic3.desc=担任银河队的领导者！
+achievement.teamrocket=火箭队崇拜者！
+achievement.teamrocket.desc=加入了火箭队！
+achievement.teamrocket1=火箭队队员！
+achievement.teamrocket1.desc=担任火箭队的队员！
+achievement.teamrocket2=火箭队干部！
+achievement.teamrocket2.desc=担任火箭队的干部！
+achievement.teamrocket3=火箭队的领导者！
+achievement.teamrocket3.desc=担任火箭队的领导者！
+achievement.teamplasma=电浆团崇拜者！
+achievement.teamplasma.desc=加入了电浆团！
+achievement.teamplasma1=电浆团团员！
+achievement.teamplasma1.desc=担任电浆团的团员！
+achievement.teamplasma2=电浆团干部！
+achievement.teamplasma2.desc=担任电浆团的干部！
+achievement.teamplasma3=电浆团的领导者！
+achievement.teamplasma3.desc=担任电浆团的领导者！
+achievement.getSilicon=获得了硅！
+achievement.getSilicon.desc=部分的熔炼硅材料！
+achievement.pokeGift=获得神奇宝贝礼物盒！
+achievement.pokeGift.desc=获得其他玩家的礼物！
+achievement.givenPokeGift=往神奇宝贝礼物盒里放东西！
+achievement.givenPokeGift.desc=送给其他玩家礼物！
 
 //Abilities
 pixelmon.abilities.aftermath=%s 的引爆伤害了 %s ！
@@ -3582,6 +3661,7 @@ gui.screenpokechecker.moves=技能
 gui.screenpokechecker.stats=统计
 gui.screenpokechecker.rename=重命名
 gui.screenpokechecker.lvl=Lvl:  
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=状态
 gui.screenpokechecker.fainted=*濒死*
 gui.screenpokechecker.texp=总经验值
@@ -3654,6 +3734,7 @@ gui.trainereditor.changepokemon=改变神奇宝贝
 gui.trainereditor.nickname=昵称
 gui.trainereditor.growth=体型
 gui.trainereditor.gender=性别
+gui.trainereditor.partypokemon=神奇宝贝队伍
 
 gui.tradereditor.shiny=S
 gui.tradereditor.level=等级
@@ -3797,6 +3878,30 @@ gui.ranch.empty=牧场里空空的，没有任何精灵...
 ranch.hourglass.upgradedall=所有在牧场里的精灵都提升了感情等级！
 ranch.hourglass.upgrade=%s 提升了一个感情等级！
 
+trainer.model.Steve=史蒂夫
+trainer.model.Custom_RP=自定义材质包
+trainer.model.Custom_PN=自定义玩家名称
+trainer.model.Santa=圣诞老人
+trainer.model.Suit=穿西装的人
+trainer.model.Scottish=苏格兰人
+trainer.model.Prisoner=囚犯
+trainer.model.youngster1=宠坏了的孩子
+trainer.model.youngster2=酷男孩
+trainer.model.youngster3=戴着帽子的少年
+trainer.model.youngster4=蓝色围巾少年
+trainer.model.bugcatcher1=养蜂人
+trainer.model.bugcatcher2=超级捕虫手
+trainer.model.bugcatcher3=捕虫手1
+trainer.model.bugcatcher4=捕虫手2
+trainer.model.pokemaniac1=皮卡丘男孩
+trainer.model.pokemaniac2=乌鸦头头
+trainer.model.pokemaniacgirl1=猫鼬斩
+trainer.model.firebreather1=中世纪喷火者
+trainer.model.firebreather2=纵火者
+trainer.model.firebreather3=火男
+trainer.model.firebreather4=火岩队
+trainer.model.firebreather5=火焰蝙蝠
+
 container.MechanicalAnvil=机械铁砧
 
 attack.category.physical=物理
@@ -3896,7 +4001,7 @@ bagpacket.battlenotfound=战斗未找到！
 
 deletemove.forgot=您的 %s 完全忘记了技能 %s 的使用！
 
-replacemove.replace=您的 %s 完全忘记了技能 %s 的使用！然后学会了 %s!
+replacemove.replace=您的 %s 完全忘记了技能 %s 的使用！然后学会了 %s ！
 
 externalMove.forage.name=饲料搜集
 
@@ -4000,6 +4105,7 @@ PinkVendingMachine.name=粉色的自动贩卖机
 RedVendingMachine.name=红色的自动贩卖机
 YellowVendingMachine.name=黄色的自动贩卖机
 Fridge.name=冰箱
+PixelmonGrass.name=神奇宝贝草坪
 
 tile.pixelmonSpawner.name=神奇宝贝精灵箱
 tile.master chest.name=大师球道具箱
@@ -4560,9 +4666,11 @@ pixelmon.effect.reflecttype=%s 的镜子系复制了 %s 的属性！
 pixelmon.effect.dive=%s 潜入了水下！
 pixelmon.effect.skillswap=%s 收到 %s。
 pixelmon.effect.incinerate=%s 的 %s 被烧了！
+pixelmon.effect.focuspunch=%s 集中了它的重心！
+pixelmon.effect.lostfocus=%s 失去了重心，动弹不得！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
-pixelmon.effect.alreadysafeguard=% 已经有了一个护卫！
+pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
 pixelmon.effect.guarded=%s 看上去有些谨慎！
 pixelmon.effect.harshsunlight=阳光变得耀眼了！
 pixelmon.effect.alreadysleeping=%s 已经睡着了！
@@ -4654,6 +4762,7 @@ pixelmon.status.encore=%s 受到再来一次！
 pixelmon.status.encoreend=%s 的再来一次结束了！
 pixelmon.status.transform=%s 变化成 %s！
 pixelmon.status.trickroom=%s 扭曲了维度！
+pixelmon.status.safeguard=%s 受到了护盾的保护！
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
 attack.curse.curse=%s 消耗了自己的生命值给 %s 造成了诅咒！
@@ -4682,6 +4791,8 @@ christmas.ischristmas=Pixelmon开发团队给您献上的圣诞节祝福！
 christmas.received=信使鸟给你带来了圣诞节礼品！
 christmas.alreadygifted=你已经打开了一个圣诞节礼品了呢…
 item.Gift Box.name=礼品箱
+
+externalMove.Cut.fail=%s 没有足够强大的力量砍倒那个！
 
 
 //Unown blocks
