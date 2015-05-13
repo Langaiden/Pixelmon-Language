@@ -3274,7 +3274,7 @@ pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(
 pixelmon.projectiles.nibble=Not even a nibble...
 
 pixelmon.stats.gainexp=Your %s gained %d Exp.!
-pixelmon.stats.learnedmove=%s just learnt %s!
+pixelmon.stats.learnedmove=%s just learned %s!
 
 pixelmon.entities.syncpassed=Synchronize passed it onto %s!
 
