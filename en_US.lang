@@ -391,6 +391,8 @@ item.MentalHerb.name=Mental Herb
 item.StickyBarb.name=Sticky Barb
 item.QuickClaw.name=Quick Claw
 item.WhiteHerb.name=White Herb
+item.BigRoot.name=Big Root
+item.ZoomLens.name=Zoom Lens
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3272,7 +3274,7 @@ pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(
 pixelmon.projectiles.nibble=Not even a nibble...
 
 pixelmon.stats.gainexp=Your %s gained %d Exp.!
-pixelmon.stats.learnedmove=%s just learnt %s!
+pixelmon.stats.learnedmove=%s just learned %s!
 
 pixelmon.entities.syncpassed=Synchronize passed it onto %s!
 
@@ -3512,7 +3514,7 @@ pixelmon.abilities.ironbarbs=%s's Iron Barbs hurt %s!
 pixelmon.abilities.justified=%s's Justified raised its Attack!
 pixelmon.abilities.keeneye=%s's Keen Eye prevents accuracy loss!
 pixelmon.abilities.leafguard=%s was protected by Leaf Guard!
-pixelmon.abilities.levitate=%s tried to use %s, but %s is levitating!
+pixelmon.abilities.levitate=%s's Levitate made it immune to the attack!
 pixelmon.abilities.lightningrod=%s's Lightning Rod negated the attack!
 pixelmon.abilities.lightningrodredirect=%s's Lightning Rod drew in the attack!
 pixelmon.abilities.limber=%s's Limber prevents paralysis!
@@ -3773,6 +3775,9 @@ gui.save.text=Save
 gui.texture.text=Texture
 gui.cancel.text=Cancel
 gui.description.text=Description
+
+gui.mail.seal=Seal letter
+gui.mail.close=Close letter
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default
@@ -4116,6 +4121,7 @@ tile.DawnDusk Ore.name=Dawn/Dusk Ore
 tile.templePillar.Pillar.name=Temple Pillar
 tile.templePillar.BrokenPillar.name=Broken Pillar
 tile.PokeGift.name=Poké Gift
+tile.EventPokeGift.name=Event Poké Gift
 
 PokeDirt.name=PokéDirt
 PokeSand.name=PokéSand
@@ -4564,12 +4570,15 @@ ability.ZenMode.description=Changes the Pokémon's shape when HP is half or less
 ability.ComingSoon.name=Coming Soon!
 ability.ComingSoon.description=This Ability has not been coded yet, but it will be soon!
 
-pixelmon.battletext.noeffect=It had no effect!
+pixelmon.battletext.noeffect=It doesn't affect %s...
 pixelmon.battletext.movefailed=But it failed!
 pixelmon.battletext.criticalhit=Critical hit!
+pixelmon.battletext.criticalhittarget=Critical hit on %s!
 pixelmon.battletext.wasnoteffective=It wasn't very effective...
+pixelmon.battletext.wasnoteffectivetarget=It wasn't very effective on %s...
 pixelmon.battletext.supereffective=It's super effective!
-pixelmon.battletext.missedattack=%s tried to use %s, but it missed!
+pixelmon.battletext.supereffectivetarget=It's super effective on %s!
+pixelmon.battletext.missedattack=%s avoided the attack!
 pixelmon.battletext.butmovefailed=But it failed!
 pixelmon.battletext.used=%s used %s!
 pixelmon.battletext.sentout=%s sent out %s!
@@ -4740,6 +4749,7 @@ pixelmon.effect.skillswap=%s received %s.
 pixelmon.effect.incinerate=%s's %s was burned up!
 pixelmon.effect.focuspunch=%s is tightening its focus!
 pixelmon.effect.lostfocus=%s lost its focus and couldn't move!
+pixelmon.effect.splash=But nothing happened!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -4808,6 +4818,10 @@ pixelmon.status.encoreend=%s's encore ended!
 pixelmon.status.transform=%s transformed into %s!
 pixelmon.status.trickroom=%s twisted the dimensions!
 pixelmon.status.safeguard=%s was protected by Safeguard!
+pixelmon.status.magiccoat=%s's Magic Coat reflected the attack!
+pixelmon.status.applymagiccoat=%s set up Magic Coat!
+pixelmon.status.applyingrain=%s laid down its roots!
+pixelmon.status.ingrain=%s absorbed nutrients with its roots!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
