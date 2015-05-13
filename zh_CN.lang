@@ -4105,6 +4105,7 @@ PinkVendingMachine.name=粉色的自动贩卖机
 RedVendingMachine.name=红色的自动贩卖机
 YellowVendingMachine.name=黄色的自动贩卖机
 Fridge.name=冰箱
+PixelmonGrass.name=神奇宝贝草坪
 
 tile.pixelmonSpawner.name=神奇宝贝精灵箱
 tile.master chest.name=大师球道具箱
@@ -4669,7 +4670,7 @@ pixelmon.effect.focuspunch=%s 集中了它的重心！
 pixelmon.effect.lostfocus=%s 失去了重心，动弹不得！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
-pixelmon.effect.alreadysafeguard=% 已经有了一个护卫！
+pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
 pixelmon.effect.guarded=%s 看上去有些谨慎！
 pixelmon.effect.harshsunlight=阳光变得耀眼了！
 pixelmon.effect.alreadysleeping=%s 已经睡着了！
@@ -4761,6 +4762,7 @@ pixelmon.status.encore=%s 受到再来一次！
 pixelmon.status.encoreend=%s 的再来一次结束了！
 pixelmon.status.transform=%s 变化成 %s！
 pixelmon.status.trickroom=%s 扭曲了维度！
+pixelmon.status.safeguard=%s 受到了护盾的保护！
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
 attack.curse.curse=%s 消耗了自己的生命值给 %s 造成了诅咒！

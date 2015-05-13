@@ -3905,9 +3905,9 @@ pixelmon.entitytrainer.superrod=¡Recibiste una Super Caña!
 pixelmon.statue.despawn=Se han quitado todos los Pokémon.
 
 pixelutilities.blocks.emptygift=Has encontrado un %s vacio. :(
-pixelmon.blocks.fillmefirst=¡Necesitas primero colocar un Pokémon dentro!
+pixelmon.blocks.fillmefirst=¡Primero necesitas colocar un Pokémon dentro!
 pixelutilities.event.noevents=Los eventos están deshabilitados. :'(
-pixelmon.blocks.nothingtoadd=Necestias sacar un Pokémon primero.
+pixelmon.blocks.nothingtoadd=Primero necesitas sacar un Pokémon.
 pixelmon.block.error=Un error fue causado por %s.
 pixelmon.blocks.lastpoke=¡Este es tu último Pokémon!
 pixelmon.blocks.christmaspokegift=Poké Regalo de Navidad
@@ -5368,6 +5368,7 @@ pixelmon.status.encore=¡%s sufrió los efectos de Otra Vez!
 pixelmon.status.encoreend=¡El efecto de Otra Vez desapareció!
 pixelmon.status.transform=¡%s se transformó en %s!
 pixelmon.status.trickroom=¡%s restauró las dimensiones alteradas!
+pixelmon.status.safeguard=¡%s se protegió con Velo Sagrado!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
