@@ -4799,6 +4799,8 @@ pixelmon.status.magiccoat=%s's Magic Coat reflected the attack!
 pixelmon.status.applymagiccoat=%s set up Magic Coat!
 pixelmon.status.applyingrain=%s laid down its roots!
 pixelmon.status.ingrain=%s absorbed nutrients with its roots!
+pixelmon.status.stockpile=%s stockpiled %d!
+pixelmon.status.stockpileoff=%s's stockpiled effect wore off!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
