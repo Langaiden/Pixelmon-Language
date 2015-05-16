@@ -3375,8 +3375,8 @@ achievement.LootMasterBallChieve=这是一个大师球！！！
 achievement.LootMasterBallChieve.desc=您找到了一个大师球道具箱！
 achievement.GrottoChieve=这里有一个通道…
 achievement.GrottoChieve.desc=您找到了一个隐藏的洞穴！
-achievement.PokedexChieve=追求神奇的科学
-achievement.PokedexChieve.desc=合成一个口袋妖怪图鉴
+achievement.PokedexChieve=追求神奇的科学.
+achievement.PokedexChieve.desc=合成一个口袋妖怪图鉴.
 achievement.PokeballChieve=把他们全部抓住！
 achievement.PokeballChieve.desc=合成一个精灵球！
 achievement.LegendaryChieve=第一只神兽！
@@ -3634,6 +3634,7 @@ gui.pokedex.pokedex=神奇宝贝图鉴
 gui.pokedex.height=身高：
 gui.pokedex.weight=体重：
 gui.pokedex.more=更多…
+gui.pokedex.wiki=查看百科
 
 gui.pokedexoptions.done=好
 gui.pokedexoptions.options=神奇宝贝图鉴 菜单
@@ -3763,6 +3764,9 @@ gui.save.text=保存
 gui.texture.text=材质
 gui.cancel.text=取消
 gui.description.text=介绍
+
+gui.mail.seal=密封信函
+gui.mail.close=关闭信函
 
 enum.aggro.timid=胆小
 enum.aggro.default=默认
@@ -3896,6 +3900,7 @@ trainer.model.bugcatcher4=捕虫手2
 trainer.model.pokemaniac1=皮卡丘男孩
 trainer.model.pokemaniac2=乌鸦头头
 trainer.model.pokemaniacgirl1=猫鼬斩
+trainer.model.pokemaniacgirl2=水水獭
 trainer.model.firebreather1=中世纪喷火者
 trainer.model.firebreather2=纵火者
 trainer.model.firebreather3=火男
@@ -4534,19 +4539,20 @@ ability.ZenMode.description=在危急时转变为不倒翁型态
 ability.ComingSoon.name=即将加入！
 ability.ComingSoon.description=这个特性还并未被编写进游戏内！但是很快就将会加入~！
 
-pixelmon.battletext.noeffect=这并没有任何效果！
+pixelmon.battletext.noeffect=它没有影响到 %s ...
 pixelmon.battletext.movefailed=但是失败了！
 pixelmon.battletext.criticalhit=致命一击！
+pixelmon.battletext.criticalhittarget=对 %s 造成了致命一击！
 pixelmon.battletext.wasnoteffective=这并不是很有效…
+pixelmon.battletext.wasnoteffectivetarget=它对 %s 并不是很有效...
 pixelmon.battletext.supereffective=这非常有效！
-pixelmon.battletext.missedattack=%s 尝试使用 %s，但是失败了
+pixelmon.battletext.supereffectivetarget=它对 %s 非常有效！
+pixelmon.battletext.missedattack=%s 躲避了攻击！
 pixelmon.battletext.butmovefailed=但是技能失败了！
 pixelmon.battletext.used=%s 使用了 %s！
 pixelmon.battletext.sentout=%s 放出了 %s！
 
-pixelmon.stat.speedlowered=速度降低了！
-pixelmon.stat.attackraised=攻击力降低了！
-pixelmon.stat.defense=防御力降低了！
+
 
 pixelmon.effect.regainedenergy=%s 恢复了能量！
 pixelmon.effect.atedreams=%s 吃掉了 %s 的梦！
@@ -4668,6 +4674,7 @@ pixelmon.effect.skillswap=%s 收到 %s。
 pixelmon.effect.incinerate=%s 的 %s 被烧了！
 pixelmon.effect.focuspunch=%s 集中了它的重心！
 pixelmon.effect.lostfocus=%s 失去了重心，动弹不得！
+pixelmon.effect.splash=但是什么都没有发生！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
 pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
