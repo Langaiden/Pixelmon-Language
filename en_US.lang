@@ -3504,6 +3504,7 @@ pixelmon.abilities.healer=%s's Healer cured %s's status ailments!
 pixelmon.abilities.hydration=%s's Hydration cured its status!
 pixelmon.abilities.hypercut=%s's Hyper Cutter prevents Attack loss!
 pixelmon.abilities.icebody=%s's Ice Body restored its health!
+pixelmon.abilities.illusion=%s's Illusion wore off!
 pixelmon.abilities.immunity=%s's Immunity prevented it from being poisoned!
 pixelmon.abilities.immunitycure=%s's Immunity cured its poisoning!
 pixelmon.abilities.imposter=%s's Imposter made it transform into %s!
@@ -3973,6 +3974,7 @@ battlecontroller.flinched=%s has flinched!
 battlecontroller.fainted=Your %s fainted!
 battlecontroller.hasfainted=%s fainted!
 battlecontroller.outofpokemon=You've run out of usable Pokémon!
+battlecontroller.sendout=%s sent out %s!
 battlecontroller.switch=Choose a new Pokémon to send out!
 battlecontroller.targets=Choose the target for $a.
 
