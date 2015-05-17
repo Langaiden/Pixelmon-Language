@@ -393,6 +393,7 @@ item.QuickClaw.name=Quick Claw
 item.WhiteHerb.name=White Herb
 item.BigRoot.name=Big Root
 item.ZoomLens.name=Zoom Lens
+item.BrightPowder.name=BrightPowder
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -4814,10 +4815,11 @@ key.descend=Descend
 key.minmaxoverlay=Minimise/Maximise Overlay
 key.nextpokemon=Next Party Slot
 key.previouspokemon=Previous Party Slot
-key.sendpokemon=Send out Pokémon
+key.sendpokemon=Send Out Pokémon
 key.pokemonaction=Select Target Pokémon
 key.pokemonexternal=Use External Move
 key.nextexternalmove=Next External Move
+key.pokedex=Access Pokédex/Wiki
 
 halloween.entityname=The Spectral Jeweller
 halloween.gemregistered=The Spectral Jeweller recieved your %s!
