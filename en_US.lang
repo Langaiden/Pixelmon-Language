@@ -3385,8 +3385,6 @@ achievement.LootMasterBallChieve=It's a Master Ball!!!
 achievement.LootMasterBallChieve.desc=You found a PokéLoot Master Ball!
 achievement.GrottoChieve=There's a passage here...
 achievement.GrottoChieve.desc=You found a Hidden Grotto!
-achievement.PokedexChieve=Scientific Pursuits
-achievement.PokedexChieve.desc=Craft a Pokédex.
 achievement.PokeballChieve=Gotta catch 'em all!
 achievement.PokeballChieve.desc=Craft a Poké Ball.
 achievement.LegendaryChieve=First Legendary
@@ -4836,6 +4834,7 @@ key.sendpokemon=Send out Pokémon
 key.pokemonaction=Select Target Pokémon
 key.pokemonexternal=Use External Move
 key.nextexternalmove=Next External Move
+key.pokedex=Open Pokedex or Wiki
 
 halloween.entityname=The Spectral Jeweler
 halloween.gemregistered=The Spectral Jeweler recieved your %s!
