@@ -377,6 +377,8 @@ item.QuickClaw.name=先攻之爪
 item.WhiteHerb.name=白色药草
 item.BigRoot.name=巨大根茎
 item.ZoomLens.name=对焦镜片（第四世代起）
+item.BrightPowder.name=亮光之粉
+
 
 
 item.Full Incense.name=满腹熏香
@@ -3491,9 +3493,11 @@ pixelmon.abilities.flashfire=%s 的延烧提高了自身的火系威力！
 pixelmon.abilities.flashfire2=%s 的延烧使攻击无效！
 pixelmon.abilities.forewarn=%s 的预知梦预知到了 %s！
 pixelmon.abilities.frisk=%s 看穿了 %s 并且知道了对手携带的 %s！
+pixelmon.abilities.harvest=%s 的收获收回了一个 %s！
 pixelmon.abilities.hypercut=%s 的怪力剪刀使 %s 不会下降攻击力！
 pixelmon.abilities.hydration=%s 的湿润身体治愈了它的状态！
-pixelmon.abilities.icebody=%s's 的冰冻身体治愈了它！
+pixelmon.abilities.icebody=%s 的冰冻身体治愈了它！
+pixelmon.abilities.illusion=%s 的幻觉消失了！
 pixelmon.abilities.healer=%s 的治愈之心治愈了 %s 的异常状态！
 pixelmon.abilities.innerfocus=%s 因为它的精神力没有陷入退缩状态！
 pixelmon.abilities.immunity=%s 的免疫避免了它中毒！
@@ -3951,6 +3955,11 @@ battlecontroller.flinched=%s 体力不支了！
 battlecontroller.fainted=您的 %s 体力不支了！
 battlecontroller.hasfainted=%s 体力不支了！
 battlecontroller.outofpokemon=您当前没有可以用于战斗的神奇宝贝了！
+battlecontroller.sendout=%s 放出了 %s！
+battlecontroller.switch=选择一个新的神奇宝贝放出！
+battlecontroller.targets=选择了 $a ！ 
+
+
 
 battlecontroller.afk=%s 已经AFK了 %d 秒 自动战斗已经接管训练师操作 %d 秒！
 battlecontroller.selfafk=您已经AFK了 %d 秒！自动战斗将接管您的操作 %d 秒！
@@ -4680,6 +4689,7 @@ pixelmon.effect.incinerate=%s 的 %s 被烧了！
 pixelmon.effect.focuspunch=%s 集中了它的重心！
 pixelmon.effect.lostfocus=%s 失去了重心，动弹不得！
 pixelmon.effect.splash=但是什么都没有发生！
+pixelmon.effect.recycle=%s 收回了一个 %s！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
 pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
@@ -4779,6 +4789,9 @@ pixelmon.status.magiccoat=%s 的魔术外衣把攻击反弹了回去！
 pixelmon.status.applymagiccoat=%s 建立了魔术外衣状态！
 pixelmon.status.applyingrain=%s 建立了根深蒂固状态！
 pixelmon.status.ingrain=%s 吸收了来自根的营养物质！
+pixelmon.status.stockpile=%s 储存了 %d！
+pixelmon.status.stockpileoff=%s 的储存效果消失了！
+
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
 attack.curse.curse=%s 消耗了自己的生命值给 %s 造成了诅咒！
@@ -4790,7 +4803,7 @@ key.categories.pixelmon=Pixelmon - 神奇宝贝
 key.descend=骑乘精灵时下降/下潜
 key.minmaxoverlay=最小化/最大化 视图
 key.nextexternalmove=下一个对战外技能
-key.pokedex=打开神奇宝贝图鉴或百科
+key.pokedex=打开 神奇宝贝图鉴/百科
 key.nextpokemon=下一个精灵槽
 key.previouspokemon=上一个精灵槽
 key.sendpokemon=放出/收回精灵
