@@ -368,7 +368,7 @@ item.FocusBand.name=振奮精神的頭布
 item.ToxicOrb.name=劇毒珠
 item.FlameOrb.name=火焰珠
 item.BlackSludge.name=黑色淤泥
-item.ScopeLens.name=對焦鏡片
+item.ScopeLens.name=對焦鏡片(第二世代起)
 item.AirBalloon.name=氣球
 item.RockyHelmet.name=堅硬頭盔
 item.ShedShell.name=漂亮外套
@@ -391,6 +391,8 @@ item.MentalHerb.name=心靈藥草
 item.StickyBarb.name=附針
 item.QuickClaw.name=先攻之爪
 item.WhiteHerb.name=白色藥草
+item.BigRoot.name=巨大根莖
+item.ZoomLens.name=對焦鏡片(第四世代起)
 
 item.Full Incense.name=滿腹熏香
 item.Lax Incense.name=悠閑熏香
@@ -3360,6 +3362,8 @@ pixelmon.blocks.ownerchanged=Block owner changed to server!
 pixelmon.blocks.chestset=自訂獎勵道具設置： %s
 pixelmon.blocks.visible=獎勵道具可視等級已設置為： %s
 pixelmon.blocks.chestmode=獎勵道具模式： %s
+pixelmon.blocks.chestmodePL1D=永久性的限制只掉落1項物品
+pixelmon.blocks.chestmodeFCFS=先搶先贏
 
 pixelmon.blocks.orbnotfull=這顆珠子沒有完全充能！
 
@@ -3639,7 +3643,9 @@ gui.trading.trade=交換
 
 gui.pokedex.pokedex=圖鑑
 gui.pokedex.height=身高： 
+gui.pokedex.weight=體重：
 gui.pokedex.more=更多...
+gui.pokedex.wiki=參閱Wiki
 
 gui.pokedexoptions.done=結束
 gui.pokedexoptions.options=圖鑑菜單
@@ -3651,7 +3657,6 @@ gui.yesno.yousure=要放棄學習$m嗎？
 gui.yesno.replace=確定要將$m取代$nm嗎？
 
 gui.replaceattack.effect=效果
-gui.replaceattack.description=描述
 gui.replaceattack.power=傷害
 gui.replaceattack.accuracy=命中率
 
@@ -3769,6 +3774,9 @@ gui.save.text=存檔
 gui.texture.text=紋理
 gui.cancel.text=取消
 gui.description.text=描述
+
+gui.mail.seal=密封信件
+gui.mail.close=關閉信件
 
 enum.aggro.timid=膽小
 enum.aggro.default=默認
@@ -4111,6 +4119,7 @@ tile.DawnDusk Ore.name=覺醒/闇之石礦
 tile.templePillar.Pillar.name=神社支柱
 tile.templePillar.BrokenPillar.name=毀損的支柱
 tile.PokeGift.name=神奇寶貝禮物
+tile.EventPokeGift.name=獎勵型神奇寶貝禮物
 
 PokeDirt.name=Poké泥土塊
 PokeSand.name=Poké砂土塊
@@ -4557,13 +4566,16 @@ ability.WonderSkin.description=變化技能對該特性的神奇寶貝命中率�
 ability.ZenMode.name=不倒翁模式
 ability.ZenMode.description=在HP不足一半時轉變為不倒翁型態，HP恢復時型態恢復。
 ability.ComingSoon.name=敬請期待！
-ability.ComingSoon.description=這個能力還沒有被正式編碼，但它很快就會有了！
+ability.ComingSoon.description=這個特性還沒有被正式編碼，但它很快就會有了！
 
 pixelmon.battletext.noeffect=這招完全沒有用！
 pixelmon.battletext.movefailed=出招失敗！
 pixelmon.battletext.criticalhit=擊中要害！
+pixelmon.battletext.criticalhittarget=%s被擊中要害！
 pixelmon.battletext.wasnoteffective=這不是很有效...
+pixelmon.battletext.wasnoteffectivetarget=這對%s不是很有效...
 pixelmon.battletext.supereffective=效果非常顯著！
+pixelmon.battletext.supereffectivetarget=這對%s效果非常顯著！
 pixelmon.battletext.missedattack=%s嘗試使出%s，但是沒有命中！
 pixelmon.battletext.butmovefailed=但是出招失敗！
 pixelmon.battletext.used=%s使出了%s！
@@ -4735,6 +4747,7 @@ pixelmon.effect.skillswap=%s獲得了%s
 pixelmon.effect.incinerate=%s的%s被燒毀了！
 pixelmon.effect.focuspunch=%s正在聚氣以準備使出集中猛擊！
 pixelmon.effect.lostfocus=%s聚氣失敗！現在動彈不得！
+pixelmon.effect.splash=但是甚麼都沒有發生！
 
 pixelmon.status.ringheal=%s從水柱圈狀態受到治癒！
 pixelmon.status.burnhurt=%s受到灼傷！
@@ -4803,6 +4816,10 @@ pixelmon.status.encoreend=%s的再來一次狀態解除了！
 pixelmon.status.transform=%s變身成%s！
 pixelmon.status.trickroom=%s使整個對戰場地進入騙術空間狀態！
 pixelmon.status.safeguard=%s受到神秘護身的保護！
+pixelmon.status.magiccoat=%s的魔術外衣把攻擊反彈了回去！
+pixelmon.status.applymagiccoat=%s建立了魔術外衣狀態！
+pixelmon.status.applyingrain=%s建立了根深蒂固狀態！
+pixelmon.status.ingrain=%s吸收了來自根的營養物質！
 
 attack.curse.alreadycursed=%s已經受到詛咒！
 attack.curse.curse=%s削減了自己的HP，使%s進入了詛咒狀態！
@@ -4817,6 +4834,7 @@ key.sendpokemon=放出/收回神奇寶貝
 key.pokemonaction=指定某個對象為攻擊目標
 key.pokemonexternal=對戰外招式執行
 key.nextexternalmove=對戰外招式切換
+key.pokedex=使用神奇寶貝圖鑑
 
 halloween.entityname=鬼斯通(珠寶商)
 halloween.gemregistered=鬼斯通(珠寶商)接收了你的%s！
