@@ -49,7 +49,7 @@ item.Aluminium Spade.name=Aluminum Spade
 item.Aluminium PickAxe.name=Aluminum Pickaxe
 item.Aluminium Hoe.name=Aluminum Hoe
 item.Wailmer Pail.name=Wailmer Pail
-item.Trainer Editor.name=Trainer Editor
+item.Trainer Editor.name=NPC Editor
 item.Aluminium Sword.name=Aluminum Sword
 item.Aluminium Helmet.name=Aluminum Helmet
 item.Aluminium Torso.name=Aluminum Torso
@@ -3731,7 +3731,6 @@ gui.trainereditor.randomise=Randomize
 gui.trainereditor.edit=Edit
 gui.trainereditor.add=Add
 gui.trainereditor.deletelastpoke=Delete Last Pokémon
-gui.trainereditor.delete=Delete Trainer
 gui.trainereditor.pokemoneditor=Trainer Editor - Pokémon Editor
 gui.trainereditor.name=Name
 gui.trainereditor.shiny=Shiny
@@ -3743,6 +3742,12 @@ gui.trainereditor.nickname=Nickname
 gui.trainereditor.growth=Growth
 gui.trainereditor.gender=Gender
 gui.trainereditor.partypokemon=Party Pokémon
+
+gui.npceditor.despawn=Despawn
+gui.npceditor.page1=Page 1
+gui.npceditor.page2=Page 2
+gui.npceditor.page3=Page 3
+gui.npceditor.page4=Page 4
 
 gui.tradereditor.shiny=S
 gui.tradereditor.level=Level
@@ -3920,6 +3925,7 @@ trainer.model.bugcatcher3=Bug Catcher
 trainer.model.bugcatcher4=Bug Catcher 2
 trainer.model.pokemaniac1=Pika Boy
 trainer.model.pokemaniac2=Honchkrow
+trainer.model.pokemaniac3=Rhydon
 trainer.model.pokemaniacgirl1=Zangoose
 trainer.model.pokemaniacgirl2=Oshawott
 trainer.model.firebreather1=Medieval Firebreather
@@ -3927,6 +3933,8 @@ trainer.model.firebreather2=Styling Fire Guy
 trainer.model.firebreather3=Fire Man
 trainer.model.firebreather4=Team Magma
 trainer.model.firebreather5=Fire Bat
+
+npc.model.npcchat1=Old Man
 
 container.MechanicalAnvil=Mechanical Anvil
 
