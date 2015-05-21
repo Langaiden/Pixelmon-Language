@@ -49,7 +49,7 @@ item.Aluminium Spade.name=Aluminium Spade
 item.Aluminium PickAxe.name=Aluminium Pickaxe
 item.Aluminium Hoe.name=Aluminium Hoe
 item.Wailmer Pail.name=Wailmer Pail
-item.Trainer Editor.name=Trainer Editor
+item.Trainer Editor.name=NPC Editor
 item.Aluminium Sword.name=Aluminium Sword
 item.Aluminium Helmet.name=Aluminium Helmet
 item.Aluminium Torso.name=Aluminium Torso
@@ -3753,6 +3753,14 @@ gui.tradereditor.changeTrainer=Change to Trainer
 gui.tradereditor.random=Randomize
 gui.trainereditor.changeTrader=Change to Trader
 
+gui.chooseNPC.trainer=Create NPC Trainer
+gui.chooseNPC.chatting=Create chatting NPC
+gui.npceditor.despawn=Delete NPC
+gui.npceditor.page1=Chat Text 1
+gui.npceditor.page2=Chat Text 2
+gui.npceditor.page3=Chat Text 3
+gui.npceditor.page4=Chat Text 4
+
 gui.overlay1v1.lv=Lv.
 
 gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
@@ -3854,7 +3862,7 @@ gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
 gui.mainmenu.fight=FIGHT
 gui.mainmenu.bag=BAG
-gui.mainmenu.Pokémon=POKEMON
+gui.mainmenu.pokemon=POKÉMON
 gui.mainmenu.run=RUN
 gui.mainmenu.whatdo=What will $p do?
 gui.mainmenu.cantswitch=You can't switch Pokémon right now!
@@ -3890,6 +3898,22 @@ gui.ranch.empty=There are no Pokémon in the ranch.
 ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level.
 ranch.hourglass.upgrade=%s increased a breeding level.
 
+trainer.Steve=Steve
+trainer.Youngster=Youngster
+trainer.Lass=Lass
+trainer.BugCatcher=Bug Catcher
+trainer.PokeManiac=Poké Maniac
+trainer.PokeManiacGirl=Poké Maniac Girl
+trainer.Fisherman=Fisherman
+trainer.Fisherman2=Fisherman
+trainer.FemaleRocketGrunt=Female Rocket Grunt
+trainer.BugManiac=Bug Maniac
+trainer.LittleBoySwimmer=Little Boy Swimmer
+trainer.MaleSwimmer=Male Swimmer
+trainer.Ornithologist=Ornithologist
+trainer.FireBreather=Firebreather
+trainer.RichBoy=Rich Boy
+
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Custom Resource Pack
 trainer.model.Custom_PN=Custom Player Name
@@ -3901,12 +3925,15 @@ trainer.model.youngster1=Spoiled Brat
 trainer.model.youngster2=Cool Youngster Boy
 trainer.model.youngster3=Hatted Youth
 trainer.model.youngster4=Hooded Blue Boy
+trainer.model.youngstergirl=Youngster Girl
+trainer.model.youngstergirl2=Blue Girl with Large Eyes
 trainer.model.bugcatcher1=Beekeeper
 trainer.model.bugcatcher2=Super Bug Catcher
 trainer.model.bugcatcher3=Bug Catcher
 trainer.model.bugcatcher4=Bug Catcher 2
 trainer.model.pokemaniac1=Pika Boy
 trainer.model.pokemaniac2=Honchkrow
+trainer.model.pokemaniac3=Rhydon
 trainer.model.pokemaniacgirl1=Zangoose
 trainer.model.pokemaniacgirl2=Oshawott
 trainer.model.firebreather1=Medieval Firebreather
@@ -3914,6 +3941,8 @@ trainer.model.firebreather2=Styling Fire Guy
 trainer.model.firebreather3=Fire Man
 trainer.model.firebreather4=Team Magma
 trainer.model.firebreather5=Fire Bat
+
+npc.model.npcchat1=Man
 
 container.MechanicalAnvil=Mechanical Anvil
 
