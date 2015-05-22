@@ -4761,6 +4761,7 @@ pixelmon.effect.focuspunch=%s is tightening its focus!
 pixelmon.effect.lostfocus=%s lost its focus and couldn't move!
 pixelmon.effect.splash=But nothing happened!
 pixelmon.effect.recycle=%s recovered one %s.
+pixelmon.effect.psychoshift=%s transferred its status to %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
