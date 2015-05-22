@@ -384,6 +384,7 @@ item.QuickClaw.name=Garra Rápida
 item.WhiteHerb.name=Hierba Blanca
 item.BigRoot.name=Raíz Grande
 item.ZoomLens.name=Telescopio
+item.BrightPowder.name=Polvo Brillo
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -757,7 +758,7 @@ item.DawnstonePlate.name=Peto de Piedra Alba
 item.DawnstoneLegs.name=Grebas de Piedra Alba
 item.DawnstoneBoots.name=Botas de Piedra Alba
 item.PicketFence.name=Valla
-item.pokeGift.name=Poké Gift
+item.pokeGift.name=Poké Regalo
 
 itemGroup.tabPokeLoot=PokéBotín
 itemGroup.Pokeballs=Poké Balls
@@ -4122,10 +4123,12 @@ pixelmon.abilities.flashfire=¡Absor. Fuego potencia los movs. de Fuego de %s!
 pixelmon.abilities.flashfire2=¡Absor. Fuego de %s evitó el ataque!
 pixelmon.abilities.forewarn=¡Alerta de %s le alerta de %s!
 pixelmon.abilities.frisk=¡%s cacheó a %s y pudo ver su %s!
+pixelmon.abilities.harvest=Cosecha de %s recuperó la %s!
 pixelmon.abilities.healer=¡Alma Cura de %s cura los problemas de estados de %s!
 pixelmon.abilities.hypercut=¡Corte Fuerte de %s impide que baje el Ataque!
 pixelmon.abilities.hydration=¡Hidratación de %s cura su estado!
 pixelmon.abilities.icebody=¡Gélido de %s recupera algunos PS!
+pixelmon.abilities.illusion=¡Ilusión de %s desapareció!
 pixelmon.abilities.immunity=¡Inmunidad de %s impide el envenenamiento!
 pixelmon.abilities.immunitycure=¡Inmunidad de %s cura el envenenamiento!
 pixelmon.abilities.imposter=¡Impostor de %s hizo que se transformara en %s!
@@ -4534,6 +4537,7 @@ battlecontroller.flinched=¡%s ha retrocedido!
 battlecontroller.fainted=¡Tu %s se debilitó!
 battlecontroller.hasfainted=¡%s debilitado!
 battlecontroller.outofpokemon=¡Ya no te quedan más Pokémon!
+battlecontroller.sendout=¡%s sacó a %s!
 battlecontroller.switch=¡Elige un Pokémon para combatir!
 battlecontroller.targets=Elige un objetivo para $a.
 
@@ -5313,6 +5317,7 @@ pixelmon.effect.incinerate=¡La baya de %s se desintegró!
 pixelmon.effect.focuspunch=¡%s está reforzando su concentración!
 pixelmon.effect.lostfocus=¡%s perdió la concentración y no se pudo mover!
 pixelmon.effect.splash=¡Pero no tuvo ningún efecto!
+pixelmon.effect.recycle=%s recuperó %s.
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5320,6 +5325,8 @@ pixelmon.status.confusionsnap=¡%s ya no está confuso!
 pixelmon.status.confused=%s está confundido...
 pixelmon.status.confusionhurtself=¡%s está tan confuso que se hirió así mismo!
 pixelmon.status.curseafflicted=¡%s es víctima de una maldición!
+pixelmon.status.disable=¡El ataque de %s fue desactivado!
+pixelmon.status.disabled=¡El ataque está desactivado!
 pixelmon.status.nolongerdisabled=¡%s ya puede usar %s!
 pixelmon.status.usefailed=¡%s intentó usar %s, pero falló!
 pixelmon.status.meltice=¡%s derritió el hielo!
@@ -5333,7 +5340,7 @@ pixelmon.status.inlove=¡%s está enamorado de %s!
 pixelmon.status.immobilizedbylove=¡%s no puede moverse debido al amor!
 pixelmon.status.drainhealth=¡%s absorbió vida de %s!
 pixelmon.status.lightscreenoff=¡Pantalla Luz desapareció!
-pixelmon.status.mistprotect=¡%s intentó usar %s pero el enemigo está cubierto en una densa niebla!
+pixelmon.status.mistprotect=¡%s está protegido en una espesa niebla!
 pixelmon.status.mistoff=¡La niebla ha desaparecido!
 pixelmon.status.isparalyzed=¡%s está paralizado y no puede moverse!
 pixelmon.status.freefromsandtomb=¡%s se liberó de Bucle Arena!
@@ -5385,6 +5392,8 @@ pixelmon.status.magiccoat=¡Capa Mágica de %s hizo rebotar el ataque!
 pixelmon.status.applymagiccoat=¡%s se cubrió con Capa Mágica!
 pixelmon.status.applyingrain=¡%s hechó raíces!
 pixelmon.status.ingrain=¡%s absorbió nutrientes con sus raíces!
+pixelmon.status.stockpile=%s reservó %d!
+pixelmon.status.stockpileoff=¡El efecto de Reserva de %s desapareció!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
@@ -5398,7 +5407,8 @@ key.previouspokemon=Anterior Pokémon del Grupo
 key.sendpokemon=Sacar Pokémon
 key.pokemonaction=Seleccionar Pokémon
 key.pokemonexternal=Movimiento externo
-key.nextexternalmove=Siguiente movimiento externo
+key.nextexternalmove=Cambiar movimiento externo
+key.pokedex=Abrir Pokédex/Wiki
 
 
 //Unown blocks
