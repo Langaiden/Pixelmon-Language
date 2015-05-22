@@ -33,7 +33,7 @@ item.Aluminium Spade.name=铝铲
 item.Aluminium PickAxe.name=铝镐
 item.Aluminium Hoe.name=铝锄头
 item.Wailmer Pail.name=吼吼鲸喷壶
-item.Trainer Editor.name=训练师编辑器
+item.Trainer Editor.name=NPC编辑器
 item.Aluminium Sword.name=铝剑
 item.Aluminium Helmet.name=铝头盔
 item.Aluminium Torso.name=铝胸甲
@@ -3751,7 +3751,15 @@ gui.tradereditor.exchange=交换
 gui.tradereditor.delete=删除交换
 gui.tradereditor.changeTrainer=更改训练师
 gui.tradereditor.random=随机
-trainereditor.changeTrader=修改至交换人
+gui.trainereditor.changeTrader=修改至交换人
+
+gui.chooseNPC.trainer=创建NPC训练师
+gui.chooseNPC.chatting=创建对话NPC
+gui.npceditor.despawn=删除NPC
+gui.npceditor.page1=对话文本 1
+gui.npceditor.page2=对话文本 2
+gui.npceditor.page3=对话文本 3
+gui.npceditor.page4=对话文本 4
 
 gui.overlay1v1.lv=Lv. 
 
@@ -3900,6 +3908,8 @@ trainer.model.youngster1=宠坏了的孩子
 trainer.model.youngster2=酷男孩
 trainer.model.youngster3=戴着帽子的少年
 trainer.model.youngster4=蓝色围巾少年
+trainer.model.youngstergirl=少女
+trainer.model.youngstergirl2=大眼睛蓝色女孩
 trainer.model.bugcatcher1=养蜂人
 trainer.model.bugcatcher2=超级捕虫手
 trainer.model.bugcatcher3=捕虫手1
@@ -3913,6 +3923,8 @@ trainer.model.firebreather2=纵火者
 trainer.model.firebreather3=火男
 trainer.model.firebreather4=火岩队
 trainer.model.firebreather5=火焰蝙蝠
+
+npc.model.npcchat1=男人
 
 container.MechanicalAnvil=机械铁砧
 
