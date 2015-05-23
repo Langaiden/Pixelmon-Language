@@ -5347,7 +5347,7 @@ pixelmon.effect.focuspunch=¡%s está reforzando su concentración!
 pixelmon.effect.lostfocus=¡%s perdió la concentración y no se pudo mover!
 pixelmon.effect.splash=¡Pero no tuvo ningún efecto!
 pixelmon.effect.recycle=%s recuperó %s.
-pixelmon.effect.psychoshift=¡%s transferió su estado a %s!
+pixelmon.effect.psychoshift=¡%s transfirió su estado a %s!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
