@@ -49,7 +49,7 @@ item.Aluminium Spade.name=Pala de aluminio
 item.Aluminium PickAxe.name=Pico de aluminio
 item.Aluminium Hoe.name=Azada de aluminio
 item.Wailmer Pail.name=Regadera Wailmer
-item.Trainer Editor.name=Editor de entrenador
+item.Trainer Editor.name=Editor de NPC
 item.Aluminium Sword.name=Espada de alumino
 item.Aluminium Helmet.name=Casco de aluminio
 item.Aluminium Torso.name=Peto de aluminio
@@ -4123,7 +4123,7 @@ pixelmon.abilities.flashfire=¡Absor. Fuego potencia los movs. de Fuego de %s!
 pixelmon.abilities.flashfire2=¡Absor. Fuego de %s evitó el ataque!
 pixelmon.abilities.forewarn=¡Alerta de %s le alerta de %s!
 pixelmon.abilities.frisk=¡%s cacheó a %s y pudo ver su %s!
-pixelmon.abilities.harvest=Cosecha de %s recuperó la %s!
+pixelmon.abilities.harvest=¡Cosecha de %s recuperó la %s!
 pixelmon.abilities.healer=¡Alma Cura de %s cura los problemas de estados de %s!
 pixelmon.abilities.hypercut=¡Corte Fuerte de %s impide que baje el Ataque!
 pixelmon.abilities.hydration=¡Hidratación de %s cura su estado!
@@ -4363,6 +4363,14 @@ gui.tradereditor.changeTrainer=Entrenador
 gui.tradereditor.random=Aleatorio
 gui.trainereditor.changeTrader=Intercambio
 
+gui.chooseNPC.trainer=Crear Entrenador
+gui.chooseNPC.chatting=Crear conversación NPC
+gui.npceditor.despawn=Eliminar NPC
+gui.npceditor.page1=Chat Texto 1
+gui.npceditor.page2=Chat Texto 2
+gui.npceditor.page3=Chat Texto 3
+gui.npceditor.page4=Chat Texto 4
+
 gui.overlay1v1.lv=Lv. 
 
 gui.starter.trademark1=Este es un fan made mod, todas las marcas y copyright de Pokémon están registradas
@@ -4441,10 +4449,10 @@ gui.battle.type=Tipo:
 
 gui.levelupscreen.lvlup=¡Tu $p ha subido al nivel $l!
 
-gui.mainmenu.fight=Luchar
-gui.mainmenu.bag=Mochila
-gui.mainmenu.pokemon=Pokémon
-gui.mainmenu.run=Huir
+gui.mainmenu.fight=LUCHAR
+gui.mainmenu.bag=MOCHILA
+gui.mainmenu.pokemon=POKÉMON
+gui.mainmenu.run=HUIR
 gui.mainmenu.whatdo=¿Qué debería hacer $p?
 gui.mainmenu.cantswitch=¡No puedes cambiar Pokémon en este momento!
 gui.mainmenu.traped=¡$p está atrapado! ¡No puedes huir!
@@ -4469,6 +4477,22 @@ gui.choosemoveset.attackdetails=Detalles
 gui.choosemoveset.chosen=Movimientos Elegidos
 gui.choosemoveset.full=Lista de Movimientos
 
+trainer.Steve=Steve
+trainer.Youngster=Joven
+trainer.Lass=Chica
+trainer.BugCatcher=Cazabichos
+trainer.PokeManiac=Pokemaníaco
+trainer.PokeManiacGirl=Chica Pokemaníaca
+trainer.Fisherman=Pescador
+trainer.Fisherman2=Pescador
+trainer.FemaleRocketGrunt=Soldado Rocket Femenino
+trainer.BugManiac=Bichomaníaco
+trainer.LittleBoySwimmer=Niño Nadador
+trainer.MaleSwimmer=Nadador
+trainer.Ornithologist=Ornitólogo
+trainer.FireBreather=Comefuego
+trainer.RichBoy=Niño Rico
+
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Resource Pack Personalizado
 trainer.model.Custom_PN=Nombre del Jugador Personalizado
@@ -4477,22 +4501,27 @@ trainer.model.Suit=Traje
 trainer.model.Scottish=Escocés
 trainer.model.Prisoner=Prisionero
 trainer.model.youngster1=Niño Mimado
-trainer.model.youngster2=Joven Cool
+trainer.model.youngster2=Joven Guay
 trainer.model.youngster3=Joven con gorra
 trainer.model.youngster4=Chico encapuchado
+trainer.model.youngstergirl=Chica Joven
+trainer.model.youngstergirl2=Chica Azul con grandes ojos
 trainer.model.bugcatcher1=Apicultor
 trainer.model.bugcatcher2=Super Cazabichos
 trainer.model.bugcatcher3=Cazabichos
 trainer.model.bugcatcher4=Cazabichos 2
 trainer.model.pokemaniac1=Pika Boy
 trainer.model.pokemaniac2=Honchkrow
+trainer.model.pokemaniac3=Rhydon
 trainer.model.pokemaniacgirl1=Zangoose
 trainer.model.pokemaniacgirl2=Oshawott
-trainer.model.firebreather1=Escupefuego Medieval
+trainer.model.firebreather1=Comefuego Medieval
 trainer.model.firebreather2=Chico de Fuego
 trainer.model.firebreather3=Hombre de Fuego
 trainer.model.firebreather4=Equipo Magma
 trainer.model.firebreather5=Murcíelago de Fuego
+
+npc.model.npcchat1=Hombre
 
 container.MechanicalAnvil=Yunque Mecánico
 
@@ -5318,6 +5347,7 @@ pixelmon.effect.focuspunch=¡%s está reforzando su concentración!
 pixelmon.effect.lostfocus=¡%s perdió la concentración y no se pudo mover!
 pixelmon.effect.splash=¡Pero no tuvo ningún efecto!
 pixelmon.effect.recycle=%s recuperó %s.
+pixelmon.effect.psychoshift=¡%s transfirió su estado a %s!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5392,7 +5422,7 @@ pixelmon.status.magiccoat=¡Capa Mágica de %s hizo rebotar el ataque!
 pixelmon.status.applymagiccoat=¡%s se cubrió con Capa Mágica!
 pixelmon.status.applyingrain=¡%s hechó raíces!
 pixelmon.status.ingrain=¡%s absorbió nutrientes con sus raíces!
-pixelmon.status.stockpile=%s reservó %d!
+pixelmon.status.stockpile=¡%s reservó %d!
 pixelmon.status.stockpileoff=¡El efecto de Reserva de %s desapareció!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
