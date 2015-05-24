@@ -49,7 +49,7 @@ item.Aluminium Spade.name=Aluminum Shovel
 item.Aluminium PickAxe.name=Aluminum Pickaxe
 item.Aluminium Hoe.name=Aluminum Hoe
 item.Wailmer Pail.name=Wailmer Pail
-item.Trainer Editor.name=Trainer Editor
+item.Trainer Editor.name=NPC Editor
 item.Aluminium Sword.name=Aluminum Sword
 item.Aluminium Helmet.name=Aluminum Helmet
 item.Aluminium Torso.name=Aluminum Torso
@@ -3756,6 +3756,14 @@ gui.tradereditor.changeTrainer=Change to Trainer
 gui.tradereditor.random=Randomize
 gui.trainereditor.changeTrader=Change to Trader
 
+gui.chooseNPC.trainer=Create NPC Trainer
+gui.chooseNPC.chatting=Create chatting NPC
+gui.npceditor.despawn=Delete NPC
+gui.npceditor.page1=Chat Text 1
+gui.npceditor.page2=Chat Text 2
+gui.npceditor.page3=Chat Text 3
+gui.npceditor.page4=Chat Text 4
+
 gui.overlay1v1.lv=Lv.
 
 gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
@@ -3920,12 +3928,15 @@ trainer.model.youngster1=Spoiled Brat
 trainer.model.youngster2=Cool Youngster Boy
 trainer.model.youngster3=Hatted Youth
 trainer.model.youngster4=Hooded Blue Boy
+trainer.model.youngstergirl=Youngster Girl
+trainer.model.youngstergirl2=Blue Girl with Large Eyes
 trainer.model.bugcatcher1=Beekeeper
 trainer.model.bugcatcher2=Super Bug Catcher
 trainer.model.bugcatcher3=Bug Catcher
 trainer.model.bugcatcher4=Bug Catcher 2
 trainer.model.pokemaniac1=Pika Boy
 trainer.model.pokemaniac2=Honchkrow
+trainer.model.pokemaniac3=Rhydon
 trainer.model.pokemaniacgirl1=Zangoose
 trainer.model.pokemaniacgirl2=Oshawott
 trainer.model.firebreather1=Medieval Firebreather
@@ -3933,6 +3944,8 @@ trainer.model.firebreather2=Styling Fire Guy
 trainer.model.firebreather3=Fire Man
 trainer.model.firebreather4=Team Magma
 trainer.model.firebreather5=Fire Bat
+
+npc.model.npcchat1=Man
 
 container.MechanicalAnvil=Mechanical Anvil
 
@@ -4753,6 +4766,9 @@ pixelmon.effect.focuspunch=%s is tightening its focus!
 pixelmon.effect.lostfocus=%s lost its focus and couldn't move!
 pixelmon.effect.splash=But nothing happened!
 pixelmon.effect.recycle=%s recovered one %s.
+pixelmon.effect.psychoshift=%s transferred its status to %s!
+pixelmon.effect.snatch=%s waits for the opponent to make a move!
+pixelmon.effect.snatched=%s snatched the opponent's move!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
