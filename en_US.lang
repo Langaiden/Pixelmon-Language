@@ -3557,6 +3557,7 @@ pixelmon.abilities.stormdrain=%s's Storm Drain negated the attack!
 pixelmon.abilities.stormdrainredirect=%s's Storm Drain drew in the attack!
 pixelmon.abilities.sturdy=%s just hung on with Sturdy!
 pixelmon.abilities.sturdy2=%s's Sturdy negated the attack!
+pixelmon.abilities.suctioncups=%s's Suction Cups anchored it in!
 pixelmon.abilities.telepathy=%s's Telepathy protected it from the attack!
 pixelmon.abilities.teravolt=%s is radiating a bursting aura!
 pixelmon.abilities.trace=%s traced %s's %s!
@@ -4022,9 +4023,7 @@ batonpass.failed=But it failed!
 batonpass.pass=%s passes a baton!
 batonpass.noleft=There are no Pokémon left to switch to!
 
-teleport.trainerbattle=You can't teleport from a Trainer battle!
-teleport.away=$s teleported away!
-//The $ sign was intended
+teleport.away=%s teleported away!
 
 applyperish.heard=%s heard the Perish Song!
 applyperish.already=%s has already heard the song!
