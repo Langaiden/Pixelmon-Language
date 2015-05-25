@@ -1,3 +1,6 @@
+//File translated by ToklaX
+//Spanish translators: 'ToklaX' (Put your name here if you want to help)
+
 /*
 *   @Author AnDwHaT5
 *
@@ -5348,6 +5351,8 @@ pixelmon.effect.lostfocus=¡%s perdió la concentración y no se pudo mover!
 pixelmon.effect.splash=¡Pero no tuvo ningún efecto!
 pixelmon.effect.recycle=%s recuperó %s.
 pixelmon.effect.psychoshift=¡%s transfirió su estado a %s!
+pixelmon.effect.snatch=¡%s espera a que su rival haga algún movimiento!
+pixelmon.effect.snatched=¡%s robó el movimiento del oponente!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
