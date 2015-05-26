@@ -4768,6 +4768,9 @@ pixelmon.effect.recycle=%s recovered one %s.
 pixelmon.effect.psychoshift=%s transferred its status to %s!
 pixelmon.effect.snatch=%s waits for the opponent to make a move!
 pixelmon.effect.snatched=%s snatched the opponent's move!
+pixelmon.effect.powerswap=%s swapped its Attack and Special Attack changes with %s!
+pixelmon.effect.guardswap=%s swapped its Defense and Special Defense changes with %s!
+pixelmon.effect.heartswap=%s swapped its stat changes with %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
