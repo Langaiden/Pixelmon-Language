@@ -4767,6 +4767,7 @@ pixelmon.effect.snatched=%s snatched the opponent's move!
 pixelmon.effect.powerswap=%s swapped its Attack and Special Attack changes with %s!
 pixelmon.effect.guardswap=%s swapped its Defence and Special Defence changes with %s!
 pixelmon.effect.heartswap=%s swapped its stat changes with %s!
+pixelmon.effect.entrainment=%s's Ability was changed to %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
