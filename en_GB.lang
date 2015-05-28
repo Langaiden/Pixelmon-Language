@@ -3270,6 +3270,7 @@ pixelmon.general.needowner=Only the block's owner can access this block.
 pixelmon.general.playerbusy=Player is busy!
 pixelmon.general.disabledblock=The server has disabled this block.
 
+pixelmon.npc.tradername=Trader
 pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(n) %s.
 
 pixelmon.projectiles.nibble=Not even a nibble...
