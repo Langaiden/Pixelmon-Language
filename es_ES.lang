@@ -19,20 +19,20 @@
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=PC
-item.Ranch Block.name=Bloque del Rancho
+item.Ranch Block.name=Poké-Rancho
 item.Anvil.name=Yunque
 item.MechanicalAnvil.name=Yunque Mecánico
-item.Healer.name=Poke Centro
+item.Healer.name=Centro Pokémon
 item.Trade Machine.name=Máquina de Intercambio
 item.Fossil Machine.name=Máquina de Fósiles
-item.Cloning Machine.name= Clonador
+item.Cloning Machine.name=Máquina de Clonación
 item.Fossil Machine Tank.name=Tanque máquina de fósiles 
 item.Fossil Machine Display.name=Pantalla máquina de fósiles
 item.Fossil Machine Top.name=Parte Superior máquina de fósiles
 item.Fossil Machine Base.name=Base máquina de fósiles
-item.Uno Shrine.name=Santuario Helado
-item.Dos Shrine.name=Santuario Eléctrico
-item.Tres Shrine.name=Santuario de Fuego
+item.Uno Shrine.name=Altar de Hielo
+item.Dos Shrine.name=Altar Eléctrico
+item.Tres Shrine.name=Altar de Fuego
 item.Green Tank.name=Tanque Verde
 item.Orange Tank.name=Tanque Naranja
 item.Cloner Cord.name=Cable de Clonación
@@ -59,17 +59,17 @@ item.Aluminium Helmet.name=Casco de aluminio
 item.Aluminium Torso.name=Peto de aluminio
 item.Aluminium Leggings.name=Grebas de aluminio
 item.Aluminium Boots.name=Botas de aluminio
-item.New Running Boots.name=Zapatillas Nuevas
-item.Old Running Boots.name=Zapatillas Viejas
+item.New Running Boots.name=Deportivas Nuevas
+item.Old Running Boots.name=Deprotivas Viejas
 item.Aluminium Ingot.name=Lingote de aluminio
-item.Aluminium Plate.name=Aluminio
+item.Aluminium Plate.name=Placa de aluminio
 item.Old Rod.name=Caña Vieja
 item.Good Rod.name=Caña Buena
 item.Super Rod.name=Súper Caña
-item.Trade Monitor.name=Pantalla de Máquina de Intercambios
-item.Trade Holder Right.name=Máquina de Intercambio: Derecha
-item.Trade Holder Left.name=Máquina de Intercambio: Izquierda
-item.Trade Panel.name=Panel de Intercambios
+item.Trade Monitor.name=Pantalla de Máquina de Intercambio
+item.Trade Holder Right.name=Máquina de Intercambio (Derecha)
+item.Trade Holder Left.name=Máquina de Intercambio (Izquierda)
+item.Trade Panel.name=Panel de Máquina de Intercambio
 item.mysteryDungeonMap.name=Mapa de la mazmorra misteriosa
 item.Uno Orb.name=Orbe del Alma Helada
 item.Dos Orb.name=Orbe del Alma Eléctrica
@@ -181,7 +181,7 @@ item.Freeze Badge.name=Medalla Candelizo
 item.Basic Badge.name=Medalla Base
 item.Trio Badge.name=Medalla Trío
 
-item.Rare Candy.name=Caramelo Raro
+item.Rare Candy.name=Carameloraro
 item.Potion.name=Poción
 item.Super Potion.name=Superpoción
 item.Hyper Potion.name=Hiperpoción
@@ -2415,7 +2415,7 @@ attack.retaliate.name=Represalia
 attack.represalia.name=Represalia
 attack.retaliate.description=Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.
 attack.final gambit.name=Sacrificio
-attack.final gambit.name=Sacrificio
+attack.sacrificio.name=Sacrificio
 attack.sacrificio.description=El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.
 attack.bestow.name=Ofrenda
 attack.ofrenda.name=Ofrenda
@@ -3897,6 +3897,7 @@ pixelmon.general.needop=Debes de ser OP para realizar esta acción.
 pixelmon.general.playerbusy=¡El jugador está ocupado!
 pixelmon.general.disabledblock=El server a bloqueado este bloque.
 
+pixelmon.npc.tradername=Intercambio
 pixelmon.npc.trader=¡No tienes el Pokémon que estoy buscando! Me gustaría un %s.
 
 pixelmon.projectiles.nibble=Ni siquiera un mordisco...
@@ -3980,7 +3981,7 @@ pixelmon.whiteherb=¡Hierba Blanca de %s restauró los estados!
 //Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
 
-pixelmon.blocks.healer=¡El Poke Centro ya está en uso!
+pixelmon.blocks.healer=¡El Centro Pokémon ya está en uso!
 
 pixelmon.blocks.chestfound=¡Has encontrado %s!
 pixelmon.blocks.timedclaim=¡Has recibido esta recompensa hace poco! ¡Intentalo de nuevo más tarde!
@@ -4181,10 +4182,11 @@ pixelmon.abilities.soundproof=¡Insonorizar de %s hizo que el ataque no tuviese 
 pixelmon.abilities.speedboost=¡La Velocidad de %s subie gracias a Impulso!
 pixelmon.abilities.static=¡Elec. Estát. de %s paraliza a %s!
 pixelmon.abilities.steadfast=¡La Velocidad de %s subió gracias a Impasible!
-pixelmon.abilities.stormdrain=¡Colector de %s evitó el ataque!
+pixelmon.abilities.stormdrain=¡Colector de %s evita el ataque!
 pixelmon.abilities.stormdrainredirect=¡Colector de %s atrae el ataque!
 pixelmon.abilities.sturdy=¡%s resistió gracias a Robustez!
 pixelmon.abilities.sturdy2=¡Robustez de %s evita el ataque!
+pixelmon.abilities.suctioncups=¡Ventosas de %s fijaron su cuerpo con fuerza!
 pixelmon.abilities.telepathy=¡Telepatía de %s le protegió del ataque!
 pixelmon.abilities.teravolt=¡%s irradia una aura explosiva!
 pixelmon.abilities.trace=¡%s copió la habilidad de %s!
@@ -4605,9 +4607,7 @@ batonpass.failed=¡Pero falló!
 batonpass.pass=¡%s pasó el testigo!
 batonpass.noleft=¡No quedan Pokémon para cambiar!
 
-teleport.trainerbattle=¡No puedes transportarte desde una batalla!
-teleport.away=¡$s se transportó!
-//The $ sign was intended
+teleport.away=¡$s se teletransportó!
 
 applyperish.heard=¡%s escuchó Canto Mortal!
 applyperish.already=¡%s ya ha escuchado esta canción!
@@ -5354,6 +5354,10 @@ pixelmon.effect.recycle=%s recuperó %s.
 pixelmon.effect.psychoshift=¡%s transfirió su estado a %s!
 pixelmon.effect.snatch=¡%s espera a que su rival haga algún movimiento!
 pixelmon.effect.snatched=¡%s robó el movimiento del oponente!
+pixelmon.effect.powerswap=¡%s intercambió todos los cambios de Ataque y Ataque Esp. con %s!
+pixelmon.effect.guardswap=¡%s intercambió todos los cambios de Defensa y Defensa Esp. con %s!
+pixelmon.effect.heartswap=¡%s intercambió todos los cambios de estado con %s!
+pixelmon.effect.entrainment=¡La habilidad de %s ha cambiado a %s!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
