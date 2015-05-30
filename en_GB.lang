@@ -3270,6 +3270,7 @@ pixelmon.general.needowner=Only the block's owner can access this block.
 pixelmon.general.playerbusy=Player is busy!
 pixelmon.general.disabledblock=The server has disabled this block.
 
+pixelmon.npc.tradername=Trader
 pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(n) %s.
 
 pixelmon.projectiles.nibble=Not even a nibble...
@@ -3555,6 +3556,7 @@ pixelmon.abilities.stormdrain=%s's Storm Drain negated the attack!
 pixelmon.abilities.stormdrainredirect=%s's Storm Drain drew in the attack!
 pixelmon.abilities.sturdy=%s just hung on with Sturdy!
 pixelmon.abilities.sturdy2=%s's Sturdy negated the attack!
+pixelmon.abilities.suctioncups=%s's Suction Cups anchored it in!
 pixelmon.abilities.telepathy=%s's Telepathy protected it from the attack!
 pixelmon.abilities.teravolt=%s is radiating a bursting aura!
 pixelmon.abilities.trace=%s traced %s's %s!
@@ -4019,9 +4021,7 @@ batonpass.failed=But it failed!
 batonpass.pass=%s passes a baton!
 batonpass.noleft=There are no Pokémon left to switch to!
 
-teleport.trainerbattle=You can't teleport from a Trainer battle!
-teleport.away=$s teleported away!
-//The $ sign was intended
+teleport.away=%s teleported away!
 
 applyperish.heard=%s heard the Perish Song!
 applyperish.already=%s has already heard the song!
@@ -4764,6 +4764,10 @@ pixelmon.effect.recycle=%s recovered one %s.
 pixelmon.effect.psychoshift=%s transferred its status to %s!
 pixelmon.effect.snatch=%s waits for the opponent to make a move!
 pixelmon.effect.snatched=%s snatched the opponent's move!
+pixelmon.effect.powerswap=%s swapped its Attack and Special Attack changes with %s!
+pixelmon.effect.guardswap=%s swapped its Defence and Special Defence changes with %s!
+pixelmon.effect.heartswap=%s swapped its stat changes with %s!
+pixelmon.effect.entrainment=%s's Ability was changed to %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
