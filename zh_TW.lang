@@ -3,15 +3,14 @@
 *
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
-*   reference, but its is VERY straight forward. To translate the mod
-*   all you need to do is replace the text after the = to what you
-*   desire! Its that simple!
+*   reference, but it's VERY straightforward. To translate the mod
+*   all you need to do is replace the text after the "=" to what you
+*   desire! It's that simple!
 */
-
 
 //Items
 /*
-*   item stands for it is an item. Just like in item.PC.name.
+*   item stands for "it is an item", just like in item.PC.name.
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
@@ -72,7 +71,6 @@ item.Uno Orb.name=寒冽珠
 item.Dos Orb.name=雷泣珠
 item.Tres Orb.name=熾炎珠
 item.Orb.name=純淨珠
-itemGroup.tabPokeLoot=獎勵道具
 item.itemFinder.name=探寶器
 item.Poke Ball.name=寶貝球
 item.Great Ball.name=超級球
@@ -223,6 +221,7 @@ item.Iron.name=防禦提升劑
 item.Calcium.name=特攻增加劑
 item.Zinc.name=特防甲殼劑
 item.Carbos.name=效果防護劑
+
 item.Pomeg Berry.name=紅榴
 item.Kelpsy Berry.name=藍根藻果
 item.Qualot Berry.name=粉枇杷
@@ -232,20 +231,49 @@ item.Tamato Berry.name=辣茄
 item.Oran Berry.name=藍橘
 item.Rawst Berry.name=苦莓
 item.Leppa Berry.name=紅蘋
+item.CheriBerry.name=辣櫻
+item.ChestoBerry.name=澀栗
+item.PechaBerry.name=甜桃
+item.AspearBerry.name=酸梨
+item.PersimBerry.name=甜柿
+item.LumBerry.name=綠姆果
+item.SitrusBerry.name=香柚
+item.BerryJuice.name=樹果汁
+item.PumkinBerry.name=南瓜果
+item.DrashBerry.name=蘿蔔果
+item.EggantBerry.name=茄果
+item.YagoBerry.name=苦瓜果
+item.TougaBerry.name=辣椒果
 item.ApicotBerry.name=青杏
 item.LiechiBerry.name=奇拉果
 item.GanlonBerry.name=龍佳果
 item.SalacBerry.name=天速果
 item.PetayaBerry.name=紅龍果
 item.LansatBerry.name=紅陽
-item.FocusSash.name=振奮精神的綁帶
-item.FocusBand.name=振奮精神的頭布
 item.StarfBerry.name=綠星桃
+item.CustapBerry.name=赤迦果
 item.AguavBerry.name=綠樂芭
 item.FigBerry.name=辣椰果
 item.IapapaBerry.name=酸木瓜
 item.MagoBerry.name=甘芒
 item.WikiBerry.name=藍異奇果
+item.OccaBerry.name=歐可果
+item.PasshoBerry.name=浮番果
+item.WacanBerry.name=燭木果
+item.RindoBerry.name=苦豆
+item.YacheBerry.name=冰迦果
+item.ChopleBerry.name=麻霧果
+item.KebiaBerry.name=通木果
+item.ShucaBerry.name=蜜腰果
+item.CobaBerry.name=風瓜
+item.PayapaBerry.name=糖葫果
+item.TangaBerry.name=藤櫻果
+item.ChartiBerry.name=石蠶果
+item.KasibBerry.name=佛手果
+item.HabanBerry.name=番榴
+item.ColburBerry.name=刺球果
+item.BabiriBerry.name=霹靂果
+item.ChilanBerry.name=燈籠果
 
 item.Heal Powder.name=萬能之粉
 item.Energy Powder.name=元氣之粉
@@ -293,15 +321,15 @@ item.Water Stone.name=水之石
 item.Moon Stone.name=月之石
 item.Thunder Stone.name=雷之石
 item.Leaf Stone.name=葉之石
-item.Dusk Stone.name=闇之石
 item.Dawn Stone.name=覺醒之石
+item.Dusk Stone.name=闇之石
 item.Thunder Stone Shard.name=雷之石碎片
 item.Leaf Stone Shard.name=葉之石碎片
-item.Dusk Stone Shard.name=闇之石碎片
-item.Dawn Stone Shard.name=覺醒之石碎片
 item.Water Stone Shard.name=水之石碎片
 item.Fire Stone Shard.name=火之石碎片
 item.Sun Stone Shard.name=太陽石碎片
+item.Dusk Stone Shard.name=闇之石碎片
+item.Dawn Stone Shard.name=覺醒之石碎片
 item.Ever Stone.name=不變石
 item.Lucky Egg.name=幸運蛋
 item.Exp. Share.name=學習裝置
@@ -314,11 +342,9 @@ item.Power Weight.name=力量負重
 item.Power Bracer.name=力量護腕
 item.Power Belt.name=力量腰帶
 item.Power Lens.name=力量鏡片
+item.Power Belt.name=力量腰帶
 item.Power Band.name=力量束帶
 item.Power Anklet.name=力量護踝
-item.Oran Berry.name=甜柿
-item.Rawst Berry.name=苦梅
-item.Leppa Berry.name=紅蘋
 item.Soothe Bell.name=安撫之鈴
 item.Smoke Ball.name=煙霧球
 item.WideLens.name=廣角鏡片
@@ -337,19 +363,36 @@ item.Dragon Scale.name=龍之鱗片
 item.RazorClaw.name=銳利爪子
 item.AbsorbBulb.name=球根
 item.Life Orb.name=生命之玉
-item.Focus Sash.name=振奮精神的綁帶
-item.Focus Band.name=振奮精神的頭布
+item.FocusSash.name=振奮精神的綁帶
+item.FocusBand.name=振奮精神的頭布
 item.ToxicOrb.name=劇毒珠
 item.FlameOrb.name=火焰珠
 item.BlackSludge.name=黑色淤泥
-
-item.X Attack.name=力量增強
-item.X Defence.name=傷害預防
-item.X SpecialAttack.name=特殊增強
-item.X SpecialDefence.name=特防強化
-item.X Speed.name=速度增加
-item.X Accuracy.name=命中加強
-item.Dire Hit.name=要害攻擊
+item.ScopeLens.name=對焦鏡片(第二世代起)
+item.AirBalloon.name=氣球
+item.RockyHelmet.name=堅硬頭盔
+item.ShedShell.name=漂亮外套
+item.DampRock.name=潮溼岩石
+item.HeatRock.name=炎熱岩石
+item.IcyRock.name=冰冷岩石
+item.SmoothRock.name=流沙岩石
+item.Eviolite.name=進化輝石
+item.LightBall.name=電氣球
+item.LuckyPunch.name=幸運之拳
+item.MetalPowder.name=金屬粉
+item.QuickPowder.name=速度粉
+item.Stick.name=大蔥
+item.ThickClub.name=胖骨頭
+item.PowerHerb.name=力量藥草
+item.RedCard.name=紅牌
+item.ExpertBelt.name=達人帶子
+item.LightClay.name=光之黏土
+item.MentalHerb.name=心靈藥草
+item.StickyBarb.name=附針
+item.QuickClaw.name=先攻之爪
+item.WhiteHerb.name=白色藥草
+item.BigRoot.name=巨大根莖
+item.ZoomLens.name=對焦鏡片(第四世代起)
 
 item.Full Incense.name=滿腹熏香
 item.Lax Incense.name=悠閑熏香
@@ -417,11 +460,22 @@ item.SoftSand.name=柔軟的沙子
 item.SpellTag.name=詛咒護身符
 item.TwistedSpoon.name=彎曲的湯匙
 item.destinyKnot.name=紅線
+item.XAttack.name=力量增強
+item.XDefence.name=傷害預防
+item.XSpecialAttack.name=特殊增強
+item.XSpecialDefence.name=特防強化
+item.XSpeed.name=速度增加
+item.XAccuracy.name=命中加強
+item.DireHit.name=要害攻擊
 
 item.chisel.name=鑿
 item.ranchupgrade.name=牧場升級
 item.hourglassgold.name=Isi 的黃金沙漏
 item.hourglasssilver.name=Isi 的銀沙漏
+
+item.pokeChest.name=神奇寶貝球
+item.ultraChest.name=高級球
+item.masterChest.name=掌門球
 
 item.TM1 - Hone Claws.name=招式機01 - 磨爪子
 item.TM1 - Wide Guard.name=招式機01 - 全體防禦
@@ -470,8 +524,8 @@ item.TM43 - Flame Charge.name=招式機43 - 火焰襲擊
 item.TM44 - Rest.name=招式機44 - 睡覺
 item.TM45 - Attract.name=招式機45 - 迷人
 item.TM46 - Thief.name=招式機46 - 小偷
-item.TM47 - Low Sweep=招式機47 - 低空踢
-item.TM48 - Round=招式機48 - 輪唱
+item.TM47 - Low Sweep.name=招式機47 - 低空踢
+item.TM48 - Round.name=招式機48 - 輪唱
 item.TM49 - Echoed Voice.name=招式機49 - 迴音
 item.TM50 - Overheat.name=招式機50 - 過熱
 item.TM51 - Ally Switch.name=招式機51 - 位置交換
@@ -496,7 +550,7 @@ item.TM69 - Rock Polish.name=招式機69 - 磨光岩石
 item.TM70 - Flash.name=招式機70 - 閃光
 item.TM71 - Stone Edge.name=招式機71 - 尖石攻擊
 item.TM72 - Volt Switch.name=招式機72 - 交換伏特
-item.TM73 - Thunder Wave=招式機73 - 電磁波
+item.TM73 - Thunder Wave.name=招式機73 - 電磁波
 item.TM74 - Gyro Ball.name=招式機74 - 迴轉球
 item.TM75 - Swords Dance.name=招式機75 - 劍舞
 item.TM76 - Struggle Bug.name=招式機76 - 蟲的抵抗
@@ -520,7 +574,7 @@ item.TM93 - Wild Charge.name=招式機93 - 瘋狂伏特
 item.TM94 - Rock Smash.name=招式機94 - 岩石粉碎
 item.TM95 - Snarl.name=招式機95 - 大聲咆嘯
 item.HM1 - Cut.name=秘傳機01 - 居合斬
-item.HM2 - Fly.name=祕傳機02 - 飛空
+item.HM2 - Fly.name=祕傳機02 - 飛翔
 item.HM3 - Surf.name=秘傳機03 - 衝浪
 item.HM4 - Strength.name=祕傳機04 - 怪力
 item.HM5 - Defog.name=祕傳機05 - 清除濃霧
@@ -566,10 +620,171 @@ item.PokeMail-tunnel.name=隧道郵件
 item.PokeMail-wave.name=波濤郵件
 item.PokeMail-wood.name=木紋郵件
 
+item.Tree.name=觀葉植物
+item.ClothedTable.name=附有桌布的桌子
+item.TV.name=電視
+item.RedPokeballRug.name=紅色神奇寶貝球地毯
+item.GreenPokeballRug.name=綠色神奇寶貝球地毯
+item.BluePokeballRug.name=藍色神奇寶貝球地毯
+item.YellowPokeballRug.name=黃色神奇寶貝球地毯
+item.FossilDisplay.name=化石展示臺
+item.BlueVendingMachine.name=藍色自動販賣機
+item.GreenVendingMachine.name=綠色自動販賣機
+item.OrangeVendingMachine.name=橘色自動販賣機
+item.PinkVendingMachine.name=粉紅色自動販賣機
+item.RedVendingMachine.name=紅色自動販賣機
+item.YellowVendingMachine.name=黃色自動販賣機
+item.Fridge.name=冰箱
+item.RedWaterFloat.name=紅色浮板
+item.GreenWaterFloat.name=綠色浮板
+item.BlueWaterFloat.name=藍色浮板
+item.OrangeWaterFloat.name=橘色浮板
+item.YellowWaterFloat.name=黃色浮板
+item.PinkWaterFloat.name=粉紅色浮板
+item.PurpleWaterFloat.name=紫色浮板
+item.Amethyst.name=紫水晶
+item.Ruby.name=紅寶石
+item.Crystal.name=水晶
+item.Sapphire.name=藍寶石
+item.Silicon.name=矽
+item.RubyHammer.name=紅寶石錘
+item.RubyAxe.name=紅寶石斧
+item.RubyHoe.name=紅寶石鋤
+item.RubyPickaxe.name=紅寶石鎬
+item.RubyShovel.name=紅寶石鏟
+item.RubySword.name=紅寶石劍
+item.SapphireHammer.name=藍寶石錘
+item.SapphireAxe.name=藍寶石斧
+item.SapphireHoe.name=藍寶石鋤
+item.SapphirePickaxe.name=藍寶石鎬
+item.SapphireShovel.name=藍寶石鏟
+item.SapphireSword.name=藍寶石劍
+item.CrystalHammer.name=水晶錘
+item.CrystalAxe.name=水晶斧
+item.CrystalHoe.name=水晶鋤
+item.CrystalPickaxe.name=水晶鎬
+item.CrystalShovel.name=水晶鏟
+item.CrystalSword.name=水晶劍
+item.AmethystHammer.name=紫水晶錘
+item.AmethystAxe.name=紫水晶斧
+item.AmethystHoe.name=紫水晶鋤
+item.AmethystPickaxe.name=紫水晶鎬
+item.AmethystShovel.name=紫水晶鏟
+item.AmethystSword.name=紫水晶劍
+item.FirestoneHammer.name=火之石錘
+item.FirestoneAxe.name=火之石斧
+item.FirestoneHoe.name=火之石鋤
+item.FirestonePickaxe.name=火之石鎬
+item.FirestoneShovel.name=火之石鏟
+item.FirestoneSword.name=火之石劍
+item.WaterstoneHammer.name=水之石錘
+item.WaterstoneAxe.name=水之石斧
+item.WaterstoneHoe.name=水之石鋤
+item.WaterstonePickaxe.name=水之石鎬
+item.WaterstoneShovel.name=水之石鏟
+item.WaterstoneSword.name=水之石劍
+item.LeafstoneHammer.name=葉之石錘
+item.LeafstoneAxe.name=葉之石斧
+item.LeafstoneHoe.name=葉之石鋤
+item.LeafstonePickaxe.name=葉之石鎬
+item.LeafstoneShovel.name=葉之石鏟
+item.LeafstoneSword.name=葉之石劍
+item.ThunderstoneHammer.name=雷之石錘
+item.ThunderstoneAxe.name=雷之石斧
+item.ThunderstoneHoe.name=雷之石鋤
+item.ThunderstonePickaxe.name=雷之石鎬
+item.ThunderstoneShovel.name=雷之石鏟
+item.ThunderstoneSword.name=雷之石劍
+item.SunstoneHammer.name=太陽石錘
+item.SunstoneAxe.name=太陽石斧
+item.SunstoneHoe.name=太陽石鋤
+item.SunstonePickaxe.name=太陽石鎬
+item.SunstoneShovel.name=太陽石鏟
+item.SunstoneSword.name=太陽石劍
+item.MoonstoneHammer.name=月之石錘
+item.MoonstoneAxe.name=月之石斧
+item.MoonstoneHoe.name=月之石鋤
+item.MoonstonePickaxe.name=月之石鎬
+item.MoonstoneShovel.name=月之石鏟
+item.MoonstoneSword.name=月之石劍
+item.DawnstoneHammer.name=覺醒之石錘
+item.DawnstoneAxe.name=覺醒之石斧
+item.DawnstoneHoe.name=覺醒之石鋤
+item.DawnstonePickaxe.name=覺醒之石鎬
+item.DawnstoneShovel.name=覺醒之石鏟
+item.DawnstoneSword.name=覺醒之石劍
+item.RubyHelm.name=火岩隊頭盔
+item.RubyPlate.name=火岩隊胸甲
+item.RubyLegs.name=火岩隊護腿
+item.RubyBoots.name=火岩隊靴子
+item.SapphireHelm.name=水艦隊頭盔
+item.SapphirePlate.name=水艦隊胸甲
+item.SapphireLegs.name=水艦隊護腿
+item.SapphireBoots.name=水艦隊靴子
+item.PlasmaHelm.name=原電漿團頭盔
+item.PlasmaPlate.name=原電漿團胸甲
+item.PlasmaLegs.name=原電漿團護腿
+item.PlasmaBoots.name=原電漿團靴子
+item.GalacticHelm.name=銀河隊的假髮
+item.GalacticPlate.name=銀河隊胸甲
+item.GalacticLegs.name=銀河隊護腿
+item.GalacticBoots.name=銀河隊靴子
+item.NeoPlasmaHelm.name=電漿團頭盔
+item.NeoPlasmaPlate.name=電漿團胸甲
+item.NeoPlasmaLegs.name=電漿團護腿
+item.NeoPlasmaBoots.name=電漿團靴子
+item.RocketHelm.name=火箭隊頭盔
+item.RocketPlate.name=火箭隊胸甲
+item.RocketLegs.name=火箭隊護腿
+item.RocketBoots.name=火箭隊靴子
+item.FirestoneHelm.name=火之石頭盔
+item.FirestonePlate.name=火之石胸甲
+item.FirestoneLegs.name=火之石護腿
+item.FirestoneBoots.name=火之石靴子
+item.WaterstoneHelm.name=水之石頭盔
+item.WaterstonePlate.name=水之石胸甲
+item.WaterstoneLegs.name=水之石護腿
+item.WaterstoneBoots.name=水之石靴子
+item.LeafstoneHelm.name=葉之石頭盔
+item.LeafstonePlate.name=葉之石胸甲
+item.LeafstoneLegs.name=葉之石護腿
+item.LeafstoneBoots.name=葉之石靴子
+item.ThunderstoneHelm.name=雷之石頭盔
+item.ThunderstonePlate.name=雷之石胸甲
+item.ThunderstoneLegs.name=雷之石護腿
+item.ThunderstoneBoots.name=雷之石靴子
+item.SunstoneHelm.name=太陽石頭盔
+item.SunstonePlate.name=太陽石胸甲
+item.SunstoneLegs.name=太陽石護腿
+item.SunstoneBoots.name=太陽石靴子
+item.MoonstoneHelm.name=月之石頭盔
+item.MoonstonePlate.name=月之石胸甲
+item.MoonstoneLegs.name=月之石護腿
+item.MoonstoneBoots.name=月之石靴子
+item.DawnstoneHelm.name=覺醒之石頭盔
+item.DawnstonePlate.name=覺醒之石胸甲
+item.DawnstoneLegs.name=覺醒之石護腿
+item.DawnstoneBoots.name=覺醒之石靴子
+item.PicketFence.name=柵欄
+item.pokeGift.name=神奇寶貝禮物球
+
+itemGroup.tabPokeLoot=獎勵道具
+itemGroup.Pokeballs=神奇寶貝球
+itemGroup.Badges=道館徽章
+itemGroup.Restoration=回復系道具
+itemGroup.Natural=天然物
+itemGroup.Held Items=持有物品
+itemGroup.TMs/HMs=技能學習器/秘傳技學習器
+itemGroup.PixelUtilitiesBlocks=PixelUtilities方塊
+itemGroup.PixelUtilitiesItems=PixelUtilities礦石
+itemGroup.PixelUtilitiesArmor=PixelUtilities武器防具
+itemGroup.PixelUtilsDecoration=PixelUtilities裝飾品
+itemGroup.PixelUtilsTools=PixelUtilities工具
+
 //Attacks and their Descriptions
 /*
-*   The ones with attack.attackName.name is the attack's actual name and
-*   The ones with description at the end is their description.
+*   The ones with "attack.attackName.name" are the attacks' actual names and
+*   the ones with "description" at the end are their descriptions.
 */
 attack.tail whip.name=搖尾巴
 attack.tail whip.description=通過搖晃尾巴來迷惑對方。使對方防禦降低。
@@ -1755,6 +1970,10 @@ pixelmon.sandshrew.name=穿山鼠
 pixelmon.sandshrew.description=挖出深深的洞穴並居住其中，陷入危險時就將身體蜷成一團，一聲不吭地忍耐著。
 pixelmon.sandslash.name=穿山王
 pixelmon.sandslash.description=身上的刺由皮膚硬化而成，把身體蜷成一團，用刺戳向敵人來發動攻擊。
+pixelmon.nidoran♀.description=null
+pixelmon.nidoran♀.name=Nidoran♀
+pixelmon.nidoran♂.description=null
+pixelmon.nidoran♂.name=Nidoran♂
 pixelmon.nidoranfemale.name=尼多蘭
 pixelmon.nidoranfemale.description=它有著不喜歡戰鬥的性格，從毒牙裡分泌出的毒液一滴就能致命。
 pixelmon.nidorina.name=尼多娜
@@ -1943,6 +2162,8 @@ pixelmon.starmie.name=寶石海星
 pixelmon.starmie.description=閃耀著七色光芒的核心向宇宙中發射電波，好像在進行某種通信。
 pixelmon.mrmime.name=吸盤魔偶
 pixelmon.mrmime.description=微微揮動指尖讓空氣中的分子停止運動，做出看不見的牆壁。
+pixelmon.mr._mime.name=吸盤魔偶
+pixelmon.mr._mime.description=微微揮動指尖讓空氣中的分子停止運動，做出看不見的牆壁。
 pixelmon.scyther.name=飛天螳螂
 pixelmon.scyther.description=兩臂鋒利的鐮刀越是切開堅硬的東西，就會變得越鋒利。
 pixelmon.jynx.name=迷唇姐
@@ -2237,6 +2458,8 @@ pixelmon.cascoon.name=盾甲繭
 pixelmon.cascoon.description=在繭中受到的攻擊就算進化後也不會忘記，一定會想方設法報復。
 pixelmon.dustox.name=毒粉蝶
 pixelmon.dustox.description=扑打翅膀時，毒粉隨之飛舞。也會在夜間把行道樹的葉子啃得七零八落。
+pixelmon.lotad.name=蓮葉童子
+pixelmon.lotad.description=為了尋找乾淨的水源而到處移動。長時間不飲水的話頭上的葉片會枯萎。
 pixelmon.lombre.name=蓮帽小童
 pixelmon.lombre.description=遇到釣魚的人後，就從水中拉扯漁線搗亂，以惡作劇為樂的傢伙。
 pixelmon.ludicolo.name=樂天河童
@@ -2342,6 +2565,7 @@ pixelmon.wailord.description=有時會用龐大的身體在水面上跳躍產生
 pixelmon.numel.name=呆火駝
 pixelmon.numel.description=體內儲存著1200度的熔岩，使用了炎屬性技能後駝峰就會癟下去。
 pixelmon.camerupt.name=噴火駝
+pixelmon.camerupt.description=背部的駝峰上的火山每十年大噴發一次，但是暴怒的時候也會噴發。
 pixelmon.torkoal.name=煤炭龜
 pixelmon.torkoal.description=殼裡燃燒著石炭作為能量，在陷入困境的時候，會噴出黑色的煤煙。
 pixelmon.spoink.name=跳跳豬
@@ -3019,24 +3243,31 @@ pixelmon.command.heal.notifyhealed=%s成功治癒了%s的神奇寶貝！
 pixelmon.command.spawn.spawned=成功生成了%s。
 pixelmon.command.spawn.spawnednotify=%s成功生成了%s。
 pixelmon.command.unlock=Successfully unlocked %s's locked pokemon
+pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 
 //other
 pixelmon.drops.fullinventory=你的包包已經滿了！%s掉在地上！
 pixelmon.drops.single=你獲得了%s！
 pixelmon.drops.singlean=你獲得了%s！
-pixelmon.drops.plural=你獲得了數量%d的%s！
+pixelmon.drops.singlenoa=你獲得了%s！
+pixelmon.drops.plural=你獲得了數量%d的%ss！
+pixelmon.drops.plural2=你獲得了數量%d的%s！
+pixelmon.drops.plurales=你獲得了數量%d的%ses！
 
 pixelmon.interaction.rarecandy=%s的升級功能已經停用！
 pixelmon.interaction.tmknown=%s已經習得了%s！
 pixelmon.interaction.tmcantlearn=%s無法學習%s！
-pixelmon.interaction.vitamin=%s的親密度和努力值已經增加。
+pixelmon.interaction.vitamin=%s的親密度和努力值得到了提升。
+pixelmon.interaction.vitaminfail=%s的努力值無法藉由這個營養飲品來進一步得到提升。
 pixelmon.interaction.berry=%s的親密度增加，但是努力值下降。
+pixelmon.interaction.berryfriend=與%s的親密度得到了提升。
+pixelmon.interaction.berryfail=%s的努力值已經不能再減少了。
 
 pixelmon.general.noeffect=這招沒有效果！
 pixelmon.general.needop=你必須是OP才能執行這個動作！
-pixelmon.general.needowner=Only the block's owner can access this block.
+pixelmon.general.needowner=只有這個方塊的所有者才可以更動它。
 pixelmon.general.playerbusy=玩家正在忙碌中！
-pixelmon.general.disabledblock=The server has disabled this block.
+pixelmon.general.disabledblock=伺服器禁用了這個方塊。
 
 pixelmon.npc.trader=你身上並沒有我想要的神奇寶貝，我想要%s。
 
@@ -3050,9 +3281,20 @@ pixelmon.entities.syncpassed=對手的同步特性把異常狀態也傳遞給了
 pixelmon.entitytrainer.goodrod=你得到了一個優秀釣竿！
 pixelmon.entitytrainer.superod=你得到了一個超強釣竿！
 
-pixelmon.statue.despawn=The pixelmon has been despawned.
+pixelmon.statue.despawn=神奇寶貝的生成已經被停止。
 
-//Pokeballs
+pixelutilities.blocks.emptygift=你找到了一個空的%s。
+pixelmon.blocks.fillmefirst=你必須先把神奇寶貝放進去！
+pixelutilities.event.noevents=事件被禁用。
+pixelmon.blocks.nothingtoadd=你必須先把神奇寶貝放出來。
+pixelmon.block.error=%s引發了一個錯誤。
+pixelmon.blocks.lastpoke=這是你身上唯一一隻神奇寶貝！
+pixelmon.blocks.christmaspokegift=聖誕節禮物
+pixelmon.blocks.halloweenpokegift=萬聖節禮物
+pixelmon.blocks.custompokegift=自訂神奇寶貝禮物
+
+
+//Poké Balls
 pixelmon.pokeballs.inbattle=那隻神奇寶貝正在處於對戰中！
 pixelmon.pokeballs.alreadyown=你不能收服這隻神奇寶貝，因為牠已經被你收服了！
 pixelmon.pokeballs.boss=你不能收服Boss神奇寶貝！
@@ -3068,28 +3310,47 @@ pixelmon.storage.partyfull=你身上的隊伍已經滿員，%s將會傳送到你
 //Held Items
 pixelmon.helditem.healedburn=%s已經從灼傷之中恢復！
 pixelmon.helditem.cellowner=%s的%s因為身上攜帶了充電電池，因此提升了攻擊力！
-pixelmon.helditem.cellwild=野生的%s因為身上攜帶了充電電池，因此提升了攻擊力！
-pixelmon.helditems.consumeleppa=%s剛剛吃掉了身上的紅蘋，%s恢復了10點技能PP！
-pixelmon.helditems.consumeoran=%s剛剛吃掉了身上的藍橘，恢復10點HP！
-pixelmon.helditems.consumerawst=%s剛剛吃掉了身上的苦莓，治癒了牠的燒傷！
-pixelmon.helditems.shellbellowner=%s的%s因為身上攜帶了貝殼之鈴，恢復了少量HP！
-pixelmon.helditems.shellbellwild=野生的%s因為身上攜帶了貝殼之鈴，恢復了少量HP！
-pixelmon.helditems.gainedtenhp=%s獲得了10點HP！
-pixelmon.helditem.absorbowner=%s的%s因為身上攜帶了球根，因此提升了特攻！
-pixelmon.helditem.absorbwild=野生的%s因為身上攜帶了球根，因此提升了特攻！
-pixelmon.helditem.lifeowner=%s使用了身上的生命之玉提升了技能威力，但同時也損失了些許HP！
-pixelmon.helditem.metronomeowner=%s因為身上攜帶了節拍器，因此提升了技能威力！
-pixelmon.helditems.consumegem=%s剛剛吃掉了身上的寶石，增強了傷害！
+pixelmon.helditems.consumeleppa=%s消耗掉身上的紅蘋，%s恢復了10點技能PP！
+pixelmon.helditems.consumeoran=%s消耗掉身上的藍橘，恢復10點HP！
+pixelmon.helditems.cheriberry=%s消耗掉身上的辣櫻，解除了麻痺狀態！
+pixelmon.helditems.chestoberry=%s因為身上攜帶了澀栗，解除了睡眠狀態！
+pixelmon.helditems.pechaberry=%s消耗掉身上的甜桃，解除了毒狀態！
+pixelmon.helditems.rawstberry=%s消耗掉身上的苦莓，解除了灼傷狀態！
+pixelmon.helditems.aspearberry=%s消耗掉身上的酸梨，解除了冰凍狀態！
+pixelmon.helditems.persimberry=%s消耗掉身上的甜柿，解除了混亂狀態！
+pixelmon.helditems.lumberry=%s消耗掉身上的綠姆果，解除了異常/混亂狀態！
+pixelmon.helditems.pinchberry=%s消耗掉身上的%s！
+pixelmon.helditems.custapberry=%s消耗掉身上的赤迦果，讓牠能能先制攻擊一回合！
+pixelmon.helditems.pumkinberry=%s消耗掉身上的南瓜果，解除了冰凍狀態！
+pixelmon.helditems.drashberry=%s消耗掉身上的蘿蔔果，解除了毒狀態！
+pixelmon.helditems.eggantberry=%s消耗掉身上的茄果，解除了心醉神迷狀態！
+pixelmon.helditems.yagoberry=%s消耗掉身上的苦瓜果，解除了灼傷狀態！
+pixelmon.helditems.tougaberry=%s消耗掉身上的辣椒果，解除了混亂狀態！
+pixelmon.helditems.shellbell=%s因為身上攜帶了貝殼之鈴，恢復了少量HP！
+pixelmon.helditems.absorbbulb=%s使用了攜帶在身上的球根，提升了特攻！
+pixelmon.helditems.leftovers=%s因為身上攜帶了吃剩下的東西而恢復了一些健康！
+pixelmon.helditem.lifeowner=%s的力量提升了，但同時也受到了後座力傷害！
+pixelmon.helditems.focussash=%s因為身上攜帶了振奮精神的綁帶而撐住了這次的攻擊！
+pixelmon.helditems.focusband=%s因為身上攜帶了振奮精神的頭布而撐住了這次的攻擊！
+pixelmon.helditems.blacksludgepsn=%s因為身上攜帶了黑色淤泥而受到了傷害！
+pixelmon.helditems.blacksludge=%s因為身上攜帶了黑色淤泥而恢復了一些健康！
+pixelmon.helditems.gem=%s的%s提升了招式的力量！
+pixelmon.helditems.airballoon=%s因為身上攜帶了氣球而漂浮在空中！
+pixelmon.helditems.airballoonpop=%s的氣球爆炸消失了！
+pixelmon.helditems.toxicorb=%s因為身上攜帶了劇毒珠，所以進入了猛毒狀態！
+pixelmon.helditems.flameorb=%s因為身上攜帶了火焰珠，所以進入了灼傷狀態！
+pixelmon.helditems.rockyhelmet=%s受到了傷害，因為%s身上攜帶了堅硬頭盔！
+pixelmon.helditems.powerherb=%s因為身上攜帶了力量藥草，使牠省略了蓄氣回合！
+pixelmon.helditems.berrytypereducing=%s的%s削弱了攻擊！
+pixelmon.helditems.redcard=%s舉起了牠的紅牌！
+pixelmon.helditems.mentalherb=%s使用了心靈藥草解除了頹廢狀態！
+pixelmon.helditems.stickybarb=%s因為身上攜帶了附針而受傷！
+pixelmon.helditems.quickclaw=先攻之爪讓%s能先制！
+pixelmon.helditems.whiteherb=白色藥草讓%s受到下降的能力得以恢復！
 
-//Battle Items
-pixelmon.ItemBattleItem.xattackowner=%s的%s使用了力量增強，提升了攻擊力！
-pixelmon.ItemBattleItem.xdefenceowner=%s的%s使用了傷害預防，提升了防禦力！
-pixelmon.ItemBattleItem.xspecialattackowner=%s的%s使用了特殊增強，提升了特攻！
-pixelmon.ItemBattleItem.xspecialdefenceowner=%s的%s使用了特防強化，提升了特防！
-pixelmon.ItemBattleItem.xspeedowner=%s的%s使用了速度增加，提升了速度！
-pixelmon.ItemBattleItem.xaccuracyowner=%s的%s使用了命中加強，提升了命中率！
+pixelmon.items.useitem=%s使用了%s。
 
-//blocks
+//Blocks
 pixelmon.blocks.bonemealwatered=你今天已經對這棵果樹澆過水了。
 
 pixelmon.blocks.healer=治療床正在忙碌中！
@@ -3101,6 +3362,8 @@ pixelmon.blocks.ownerchanged=Block owner changed to server!
 pixelmon.blocks.chestset=自訂獎勵道具設置： %s
 pixelmon.blocks.visible=獎勵道具可視等級已設置為： %s
 pixelmon.blocks.chestmode=獎勵道具模式： %s
+pixelmon.blocks.chestmodePL1D=永久性的限制只掉落1項物品
+pixelmon.blocks.chestmodeFCFS=先搶先贏
 
 pixelmon.blocks.orbnotfull=這顆珠子沒有完全充能！
 
@@ -3111,7 +3374,7 @@ pixelmon.blocks.noclone=你身上沒有符合條件的神奇寶貝可以複製�
 pixelmon.orb.amountfull=你還需要擊敗%d隻神奇寶貝才能完全充能這顆珠子！
 pixelmon.orb.isfull=這顆珠子已經完全充能！
 
-//achievements
+//Achievements
 achievement.ItemFinderChieve=獎勵道具獵人！
 achievement.ItemFinderChieve.desc=製作一個探寶器！
 achievement.HiddenPokeLootChieve=隱藏獎勵道具！
@@ -3128,7 +3391,7 @@ achievement.PokeballChieve=全部抓起來！
 achievement.PokeballChieve.desc=製作一個神奇寶貝球。
 achievement.LegendaryChieve=第一個傳說
 achievement.LegendaryChieve.desc=第一次收服傳說神奇寶貝。
-achievement.ShinyChieve=喔！好閃啊！
+achievement.ShinyChieve=噢！好閃啊！
 achievement.ShinyChieve.desc=收服一隻色違神奇寶貝。
 achievement.FirstCatchChieve=欲罷不能！
 achievement.FirstCatchChieve.desc=第一次收服神奇寶貝。
@@ -3161,9 +3424,70 @@ achievement.dex90Chieve.desc=完成90%全國圖鑑。
 achievement.dex100Chieve=全國圖鑑 : 全部完成！
 achievement.dex100Chieve.desc=完成全國圖鑑。
 
+//PixelUtilities Achievements
+achievement.teammagma=火岩隊崇拜者！
+achievement.teammagma.desc=加入火岩隊！
+achievement.teamaqua=水艦隊崇拜者！
+achievement.teamaqua.desc=加入水艦隊！
+achievement.teammagma1=火岩隊隊員！
+achievement.teammagma1.desc=成為火岩隊隊員。
+achievement.teamaqua1=水艦隊崇隊員！
+achievement.teamaqua1.desc=成為水艦隊隊員。
+achievement.teammagma2=火岩隊幹部！
+achievement.teammagma2.desc=成為火岩隊幹部。
+achievement.teamaqua2=水艦隊幹部！
+achievement.teamaqua2.desc=成為水艦隊幹部。
+achievement.teammagma3=火岩隊首領！
+achievement.teammagma3.desc=成為火岩隊首領。
+achievement.teamaqua3=水艦隊首領！
+achievement.teamaqua3.desc=成為水艦隊首領。
+achievement.teamgalactic=銀河隊崇拜者！
+achievement.teamgalactic.desc=加入銀河隊！
+achievement.teamgalactic1=銀河隊隊員！
+achievement.teamgalactic1.desc=成為銀河隊隊員。
+achievement.teamgalactic2=銀河隊幹部！
+achievement.teamgalactic2.desc=成為銀河隊幹部。
+achievement.teamgalactic3=銀河隊首領！
+achievement.teamgalactic3.desc=成為銀河隊首領。
+achievement.teamrocket=火箭隊崇拜者！
+achievement.teamrocket.desc=加入火箭隊。
+achievement.teamrocket1=火箭隊隊員。
+achievement.teamrocket1.desc=成為火箭隊隊員。
+achievement.teamrocket2=火箭隊幹部！
+achievement.teamrocket2.desc=成為火箭隊幹部。
+achievement.teamrocket3=火箭隊首領！
+achievement.teamrocket3.desc=成為火箭隊首領。
+achievement.teamplasma=電漿團崇拜者！
+achievement.teamplasma.desc=加入電漿團。
+achievement.teamplasma1=電漿團隊員！
+achievement.teamplasma1.desc=成為電漿團隊員。
+achievement.teamplasma2=電漿團幹部！
+achievement.teamplasma2.desc=成為電漿團幹部。
+achievement.teamplasma3=電漿團首領！
+achievement.teamplasma3.desc=成為電漿團首領。
+achievement.getSilicon=得到矽！
+achievement.getSilicon.desc=冶煉一些矽。
+achievement.pokeGift=得到神奇寶貝！
+achievement.pokeGift.desc=從別的玩家手上得到神奇寶貝。
+achievement.givenPokeGift=贈送神奇寶貝！
+achievement.givenPokeGift.desc=把自己一隻神奇寶貝贈送給其他玩家。
+
 //Abilities
+pixelmon.abilities.aftermath=%s的引爆特性傷害了%s！
+pixelmon.abilities.airlock=%s的氣閘特性使得天氣造成的影響無效！
+pixelmon.abilities.angerpoint=憤怒穴道特性使得%s變得非常生氣！
+pixelmon.abilities.anticipation=預知危險特性讓%s預知到危險而害怕得顫抖！
 pixelmon.abilities.bigpecks=%s的鴿胸特性使牠的防禦能力不會下降！
-pixelmon.abilities.cutecharm=%s擁有迷人身軀特性，使 %s陷入了心醉神迷狀態！
+pixelmon.abilities.clearbody=%s的透明體特性使得牠的能力等級不會被降低。
+pixelmon.abilities.cloudnine=%s的樂天特性特性使得天氣造成的影響無效！
+pixelmon.abilities.competitive=%s發動了好勝特性，提升了特攻！
+pixelmon.abilities.cutecharm=%s擁有迷人身軀特性，使%s陷入了心醉神迷狀態！
+pixelmon.abilities.damp=%s的溼氣特性防止了爆炸！
+pixelmon.abilities.defiant=%s發動了不服輸特性，提升了攻擊！
+pixelmon.abilities.download=下載特性使得%s提升了攻擊力！
+pixelmon.abilities.download2=下載特性使得%s提升了特攻！
+pixelmon.abilities.drizzle=%s的毛毛雨特性使得天氣轉為下雨！
+pixelmon.abilities.drought=%s的旱災特性使得天氣轉為陽光！
 pixelmon.abilities.dryskinheal=乾燥皮膚特性讓%s治癒了%s！
 pixelmon.abilities.dryskinused=%s使出了%s！
 pixelmon.abilities.dryskinrain=%s因為牠的乾燥皮膚特性而恢復了HP！
@@ -3172,23 +3496,83 @@ pixelmon.abilities.effectsporesleep=%s的孢子特性使%s陷入了睡眠狀態�
 pixelmon.abilities.effectsporeparal=%s的孢子特性使%s陷入了麻痺狀態！
 pixelmon.abilities.effectsporepois=%s的孢子特性使%s陷入了中毒狀態！
 pixelmon.abilities.flamebody=%s的火焰體特性灼傷了%s！
+pixelmon.abilities.flashfire=延燒特性提升了%s的炎系技能傷害！
+pixelmon.abilities.flashfire2=%s的延燒特性使攻擊無效！
+pixelmon.abilities.forewarn=%s的預知夢特性欲知了對方擁有%s這項招式！
+pixelmon.abilities.frisk=%s的看穿特性發現了%s擁有%s!
+pixelmon.abilities.healer=%s的治癒之心特性治癒了%s的異常狀態！
+pixelmon.abilities.hydration=%s的溼潤身體特性解除了%s的異常狀態！
 pixelmon.abilities.hypercut=%s的怪力剪刀特性使牠的攻擊能力不會下降！
+pixelmon.abilities.icebody=%s的冰凍身體特性使牠恢復體力！
+pixelmon.abilities.immunity=%s的免疫特性使牠不會陷入毒狀態！
+pixelmon.abilities.immunitycure=%s的免疫特性消除了毒狀態！
+pixelmon.abilities.imposter=%s替代品特性使牠變身為%s！
+pixelmon.abilities.insomnia=%s的失眠特性使牠不會陷入睡眠狀態！
+pixelmon.abilities.insomniacure=%s的失眠特性使牠醒來！
 pixelmon.abilities.intimidate=對手的威嚇特性削減了%s的攻擊力！
+pixelmon.abilities.ironbarbs=%s的鐵刺荊棘特性使得%s受到更多傷害！
+pixelmon.abilities.justified=%s發動了正義之心特性，提升了攻擊力！
 pixelmon.abilities.keeneye=%s的銳利目光特性使牠的命中率不會下降！
+pixelmon.abilities.leafguard=葉片防禦特性使得%s不會受到異常狀態攻擊！
 pixelmon.abilities.levitate=%s嘗試使出%s，但是%s擁有漂浮特性！
+pixelmon.abilities.lightningrod=%s的避雷針特性使攻擊無效！
+pixelmon.abilities.lightningrodredirect=%s的避雷針特性使得特攻上升！
+pixelmon.abilities.limber=%s的柔軟特性使牠不會陷入麻痺狀態！
+pixelmon.abilities.limbercure=%s的柔軟特性消除了麻痺狀態！
+pixelmon.abilities.liquidooze=%s的黏液特性使得對手吸收的不是恢復而是傷害!
+pixelmon.abilities.magicbounce=%s的魔法反射特性使得招式被反彈回去！
+pixelmon.abilities.magmaarmor=%s的岩漿防護特性使牠不會陷入冰凍狀態！
+pixelmon.abilities.magmaarmorcure=%s的岩漿防護特性使牠不會陷入冰凍狀態！
+pixelmon.abilities.moldbreaker=%s的革新特性使牠不受對手特性影響！
+pixelmon.abilities.moody=%s的心智不定特性發動了！
+pixelmon.abilities.motordrive=電氣引擎特性使得%s的速度得到提升！
+pixelmon.abilities.motordrive2=%s的電氣引擎特性使攻擊無效！
+pixelmon.abilities.moxieboost=%s因為自信過剩特性而提升了攻擊力！
+pixelmon.abilities.oblivious=%s的遲鈍特性使牠不會陷入心醉神迷/挑撥狀態！
+pixelmon.abilities.obliviouscure=%s的遲鈍特性消除了心醉神迷/挑撥狀態！
+pixelmon.abilities.overcoat=%s的防塵特性使攻擊無效！
+pixelmon.abilities.owntempo=%s的我行我素特性使牠不會陷入混亂狀態！
+pixelmon.abilities.owntempocure=%s的我行我素特性消除了混亂狀態！
+pixelmon.abilities.pickpocket=%s的偷盜惡習特性偷走了%s的%s！
+pixelmon.abilities.pickup=%s的撿拾特性回收了%s！
+pixelmon.abilities.poisonheal=毒療特性使得%s回復了體力！
 pixelmon.abilities.poisonpoint=%s的毒刺特性使%s陷入了中毒狀態！
 pixelmon.abilities.poisontouch=%s的毒手特性使%s陷入了中毒狀態！
+pixelmon.abilities.pressure=%s發揮了牠的氣壓特性！
 pixelmon.abilities.raindish=%s藉由雨盤特性恢復了少許HP！
+pixelmon.abilities.rattled=顫抖性使得%s的速度得到提升！
 pixelmon.abilities.roughskin=%s的蛇皮特性使%s受到傷害！
-pixelmon.abilities.static=%s的靜電特性麻痺了%s！
-pixelmon.abilities.speedboost=%s因為加速特性而提升了速度！
-pixelmon.abilities.soundproof=%s的隔音特性使牠不受聲音技能影響！
-pixelmon.abilities.snowwarning=%s的降雪特性使天氣轉為冰雹！
+pixelmon.abilities.runaway=%s利用逃走特性成功地逃跑了！
+pixelmon.abilities.sandstream=%s的沙流特性使得天氣轉為沙雹！
+pixelmon.abilities.sapsipper=草食特性而提升了%s的攻擊力！
+pixelmon.abilities.sapsipper2=%s因為草食特性而提升了攻擊力！
 pixlemon.abilities.shedskin=%s的脫皮特性使牠治癒了自己的異常狀態！
-pixelmon.abilities.wonderguard=%s因為自身的奇異守護特性而沒有受到傷害！
-pixelmon.abilities.moxieboost=%s因為自信過剩特性而提升了攻擊力！
-pixelmon.abilities.moxiemax=%s無法繼續因為自信過剩特性來提升攻擊力！
+pixelmon.abilities.snowwarning=%s的降雪特性使天氣轉為冰雹！
+pixelmon.abilities.soundproof=%s的隔音特性使牠不受聲音技能影響！
+pixelmon.abilities.speedboost=%s因為加速特性而提升了速度！
+pixelmon.abilities.static=%s的靜電特性麻痺了%s！
+pixelmon.abilities.steadfast=%s因為不屈之心特性而提升了速度！
+pixelmon.abilities.stormdrain=%s的引水特性使攻擊無效！
+pixelmon.abilities.stormdrainredirect=%s的引水特性把攻擊招式吸引了過去！
 pixelmon.abilities.sturdy=%s因為結實特性而免於被一擊必殺！
+pixelmon.abilities.sturdy2=%s的結實特性抵消了攻擊！
+pixelmon.abilities.telepathy=%s的超感知特性使牠不會受到同伴的攻擊技能傷害！
+pixelmon.abilities.teravolt=%s的兆級電壓特性使牠散發出了一個破滅的光環！
+pixelmon.abilities.trace=%s利用了追蹤特性複製了%s的%s特性！
+pixelmon.abilities.turboblaze=%s的渦輪高溫特性使牠散發出了一個熾熱的光環！
+pixelmon.abilities.unnerve=%s的緊張感特性使得對方無法食用樹果！
+pixelmon.abilities.vitalspirit=%s的元氣特性使牠保持清醒！
+pixelmon.abilities.vitalspiritcure=%s的元氣特性使牠醒來！
+pixelmon.abilities.voltabsorb=蓄電特性使得%s回復了體力！
+pixelmon.abilities.voltabsorb2=%s的蓄電特性使攻擊無效！
+pixelmon.abilities.waterabsorb=儲水特性使得%s回復了體力！
+pixelmon.abilities.waterabsorb2=%s的儲水特性使攻擊無效！
+pixelmon.abilities.waterveil=%s的水幕特性使牠不會陷入灼傷狀態！
+pixelmon.abilities.waterveilcure=%s的水幕特性使灼傷狀態被治癒了！
+pixelmon.abilities.weakarmor=碎甲特性降低了%s的防禦力！
+pixelmon.abilities.weakarmor2=碎甲特性提升了%s的速度！
+pixelmon.abilities.whitesmoke=%s的白色煙霧特性使牠的能力值不會被降低！
+pixelmon.abilities.wonderguard=%s因為自身的奇異守護特性而沒有受到傷害！
 
 //Breeding
 pixelmon.egg.name=蛋
@@ -3209,26 +3593,26 @@ pixelmon.ranch.level3=%s對%s的愛意與日俱增！
 pixelmon.ranch.level4=%s瘋狂地愛著%s！
 pixelmon.ranch.maxaffection=%s希望對%s的愛盡可能越多越好！
 
-//gui stuff
+//GUI stuff
 /*
-*   The first part of it shows its a gui eg: gui.guiEvolve.huh.
-*   The second part shows where it goes to in very short eg:
-*   guiEvolve goes to the evolve gui and guiItemDrops goes to
-*   the boss drop and trainer drop guis.
-*   The last part refers simply to their meaning in the gui.
-*   eg: gui.trading.trade has trade at the end because
-*   the text it displays would be trade. It isnt always like that.
-*   For instance gui.guiEvolve.done doesnt say done it says
-*   Your $p evolved into a $n
+*   The first part of it shows it's a GUI, e.g., "gui.guiEvolve.huh".
+*   The second part shows where it goes to, e.g.,
+*   "guiEvolve" goes to the evolve GUI and "guiItemDrops" goes to
+*   the boss drop and Trainer drop GUIs.
+*   The last part refers simply to its meaning in the GUI.
+*   E.g., "gui.trading.trade" has "trade" at the end because
+*   the text it displays would be trade. It isn't always like that.
+*   For instance "gui.guiEvolve.done" doesn't say done; it says
+*   "Your $p evolved into a $n"
 *
 *
 *   In here you will notice some symbols like $p and $n.
-*   $p refers to your pixelmon or a pixelmon in general when
+*   "$p" refers to your Pokémon or a Pokémon in general when
 *   there is only one being referenced in that line.
-*   $n is the other pixelmon.
-*   $d is the other player.
-*   $a was a one time occurance which stands for enabled or disabled.
-*   Depending on what instane to call on.
+*   "$n" is the other Pokémon.
+*   "$d" is the other player.
+*   "$a" was a one time occurrence which stands for enabled or disabled
+*   depending on what instance to call on.
 */
 gui.guiEvolve.huh=什麼!!!?
 gui.guiEvolve.evolve=我的$p要進化了??!
@@ -3259,7 +3643,9 @@ gui.trading.trade=交換
 
 gui.pokedex.pokedex=圖鑑
 gui.pokedex.height=身高： 
+gui.pokedex.weight=體重：
 gui.pokedex.more=更多...
+gui.pokedex.wiki=參閱Wiki
 
 gui.pokedexoptions.done=結束
 gui.pokedexoptions.options=圖鑑菜單
@@ -3271,7 +3657,6 @@ gui.yesno.yousure=要放棄學習$m嗎？
 gui.yesno.replace=確定要將$m取代$nm嗎？
 
 gui.replaceattack.effect=效果
-gui.replaceattack.description=描述
 gui.replaceattack.power=傷害
 gui.replaceattack.accuracy=命中率
 
@@ -3300,7 +3685,7 @@ gui.screenpokechecker.happiness=親密度
 gui.screenpokechecker.nature=性格
 gui.screenpokechecker.growth=體型
 gui.screenpokechecker.forget1=你確定要讓
-gui.screenpokechecker.forget2=$p 忘卻
+gui.screenpokechecker.forget2=$p忘卻
 gui.screenpokechecker.disable=關閉
 gui.screenpokechecker.enable=啟用
 gui.screenpokechecker.move=學習$a？
@@ -3323,7 +3708,7 @@ gui.pixelmonspawner.aggresion=侵略
 gui.pixelmonspawner.spawnlocation=生成區域
 
 gui.creativeinv.fainted=昏厥
-gui.creativeinv.hp=HP 
+gui.creativeinv.hp=HP
 
 gui.trainereditor.edit=編輯
 gui.trainereditor.more=更多
@@ -3358,6 +3743,7 @@ gui.trainereditor.changepokemon=更改神奇寶貝
 gui.trainereditor.nickname=暱稱
 gui.trainereditor.growth=體型
 gui.trainereditor.gender=性別
+gui.trainereditor.partypokemon=神奇寶貝隊伍
 
 gui.tradereditor.shiny=S
 gui.tradereditor.level=等級
@@ -3368,7 +3754,7 @@ gui.tradereditor.changeTrainer=切換成訓練師
 gui.tradereditor.random=隨機
 gui.trainereditor.changeTrader=切換成交換者
 
-gui.overlay1v1.lv=Lv. 
+gui.overlay1v1.lv=Lv.
 
 gui.starter.trademark1=這是國外粉絲所做的模組，所有神奇寶貝商標和版權歸Nintendo 和 Game Freak Inc. 所有
 gui.starter.trademark2=支持 Nintendo/Game Freak 的話，請購買神奇寶貝 X/Y
@@ -3380,12 +3766,17 @@ gui.starter.disabled=未啟用
 
 gui.pc.box=收納箱:
 
+gui.selectpokemon.message=選擇一隻神奇寶貝！
+
 gui.update.text=更新
 gui.label.text=標籤
 gui.save.text=存檔
 gui.texture.text=紋理
 gui.cancel.text=取消
 gui.description.text=描述
+
+gui.mail.seal=密封信件
+gui.mail.close=關閉信件
 
 enum.aggro.timid=膽小
 enum.aggro.default=默認
@@ -3404,6 +3795,7 @@ enum.trainerEncounter.once=一次性
 enum.trainerEncounter.onceperday=一天一次
 enum.trainerEncounter.oncepermcday=一天一次(MCTime)
 enum.trainerEncounter.onceperplayer=單一玩家一次
+
 enum.growth.microscopic=微小
 enum.growth.pygmy=侏儒
 enum.growth.runt=矮小
@@ -3413,6 +3805,32 @@ enum.growth.huge=大
 enum.growth.giant=龐大
 enum.growth.enormous=巨大
 enum.growth.ginormous=超巨大
+
+enum.nature.adamant=固執
+enum.nature.bashful=浮躁
+enum.nature.bold=大膽
+enum.nature.brave=勇敢
+enum.nature.calm=沈著
+enum.nature.careful=慎重
+enum.nature.docile=坦率
+enum.nature.gentle=溫順
+enum.nature.hardy=努力
+enum.nature.hasty=急躁
+enum.nature.impish=淘氣
+enum.nature.jolly=開朗
+enum.nature.lax=樂天
+enum.nature.lonely=孤獨
+enum.nature.mild=穩重
+enum.nature.modest=保守
+enum.nature.naive=天真
+enum.nature.naughty=調皮
+enum.nature.quiet=冷靜
+enum.nature.quirky=認真
+enum.nature.rash=馬虎
+enum.nature.relaxed=悠閒
+enum.nature.sassy=狂妄
+enum.nature.serious=害羞
+enum.nature.timid=膽小
 
 enum.statuetex.originaltexture=正常
 enum.statuetex.shiny=色違
@@ -3433,7 +3851,7 @@ gui.battle.back=返回
 gui.battle.whatdo=要讓$p做什麼呢?
 gui.battle.type=屬性: 
 
-gui.levelupscreen.lvlup=$p升級到了LV  
+gui.levelupscreen.lvlup=$p升級為LV$l了！
 
 gui.mainmenu.fight=戰鬥
 gui.mainmenu.bag=背包
@@ -3473,6 +3891,46 @@ gui.ranch.empty=牧場內沒有神奇寶貝
 ranch.hourglass.upgradedall=所有牧場裡神奇寶貝的感情階段都提升了一個等級！
 ranch.hourglass.upgrade=%s的感情階段提升了一個等級！
 
+trainer.Steve=史蒂夫
+trainer.Youngster=短褲少年
+trainer.Lass=迷你裙
+trainer.BugCatcher=捕蟲少年
+trainer.PokeManiac=怪獸狂
+trainer.PokeManiacGirl=怪獸狂女孩
+trainer.Fisherman=釣客
+trainer.Fisherman2=釣客
+trainer.FemaleRocketGrunt=女性火箭隊隊員
+trainer.BugManiac=昆蟲狂
+trainer.LittleBoySwimmer=泳褲男
+trainer.MaleSwimmer=比基尼姐姐
+trainer.Ornithologist=鳥類學家
+trainer.FireBreather=噴火者
+trainer.RichBoy=富家少爺
+
+trainer.model.Steve=史蒂夫
+trainer.model.Custom_RP=自訂資源包
+trainer.model.Custom_PN=自訂玩家姓名
+trainer.model.Santa=聖誕老人
+trainer.model.Suit=西裝
+trainer.model.Scottish=蘇格蘭
+trainer.model.Prisoner=囚犯
+trainer.model.youngster1=被寵壞的小鬼
+trainer.model.youngster2=頑酷少年
+trainer.model.youngster3=叛逆期的少年
+trainer.model.youngster4=藍色連帽男孩
+trainer.model.bugcatcher1=養蜂人
+trainer.model.bugcatcher2=超級昆蟲捕手
+trainer.model.bugcatcher3=捕蟲少年
+trainer.model.bugcatcher4=捕蟲少年2
+trainer.model.pokemaniac1=皮卡丘
+trainer.model.pokemaniac2=烏鴉頭頭
+trainer.model.pokemaniacgirl1=貓鼬斬
+trainer.model.firebreather1=中世紀噴火者
+trainer.model.firebreather2=勇猛火焰男
+trainer.model.firebreather3=火焰男
+trainer.model.firebreather4=火岩隊
+trainer.model.firebreather5=火焰蝙蝠
+
 container.MechanicalAnvil=機械鐵砧
 
 attack.category.physical=物理
@@ -3485,7 +3943,7 @@ nbt.speed.name=速度:
 nbt.spattack.name=特攻:
 nbt.spdefense.name=特防:
 nbt.hp.name=:血量:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=攻擊
 nbt.defense2.name=防禦
@@ -3496,13 +3954,13 @@ nbt.hp2.name=血量
 
 //  Main Chat Messages
 /*
-*   Here things are a bit different than the gui stuff.
-*   For anything that is a string and a variable like a pokemon name put %s which stands for a string.
-*   If you are referencing an integer (whole number) use %d
-*   Eg: The wild %s escaped! Lets say the pokemon that escaped is rattata it will display in game
-*   "The wild Rattata escaped!" Or on the rare occasion you come accros an int.
-*   Eg: "You got rid of %d items"
-*   The previous $p and $m what have you does not apply here!   
+*   Here things are a bit different than the GUI stuff.
+*   For anything that is a string and a variable like a Pokémon name, put "%s", which stands for a string.
+*   If you are referencing an integer (whole number), use "%d".
+*   E.g., "The wild %s escaped!". Let's say the Pokémon that escaped is Rattata. It will display in game
+*   "The wild Rattata escaped!". Or on the rare occasion you come across an int,
+*   E.g., "You got rid of %d items",
+*   the previous "$p" and "$m" what have you do not apply here!
 */
 
 battlecontroller.escaped=%s逃跑了！
@@ -3510,9 +3968,11 @@ battlecontroller.!escaped=%s沒能逃跑！
 battlecontroller.initbattle.you=與%s進行戰鬥！
 battlecontroller.initbattle.toyou=你遭遇了%s！
 battlecontroller.flinched=%s感到退縮！
-battlecontroller.fainted=你的%s昏厥了！
-battlecontroller.hasfainted=%s已經昏厥了！
+battlecontroller.fainted=你的%s失去戰鬥能力！
+battlecontroller.hasfainted=%s失去戰鬥能力！
 battlecontroller.outofpokemon=你已經沒有能夠戰鬥的神奇寶貝了！
+battlecontroller.=請選擇其他神奇寶貝來繼續進行戰鬥！
+battlecontroller.targets=請為$a選擇目標。
 
 battlecontroller.afk=%s已經AFK了%d秒，自動對戰已經接管訓練師操作%d秒！
 battlecontroller.selfafk=你已經AFK了%d秒，自動對戰將接管你的操作%d秒！
@@ -3572,6 +4032,10 @@ deletemove.forgot=你的%s遺忘了%s！
 
 replacemove.replace=你的%s遺忘了%s學會了%s！
 
+externalMove.forage.name=糧食
+
+externalMove.Cut.fail=%s還沒有強大到可以砍倒這個目標！
+
 sendpixelmon.sentout=你放出了%s！
 sendpixelmon.cantbattle=%s無法戰鬥！
 sendpixelmon.inbattle=%s正在戰鬥中！
@@ -3594,12 +4058,10 @@ tile.healer.name=治療床
 tile.fossil cleaner.name=化石洗淨機
 tile.fossil machine.name=化石重生機
 tile.cloning machine.name=克隆機
-tile.bauxite ore.name=鋁礦
+tile.bauxiteOre.name=鋁礦
 tile.Fire Stone Ore.name=火之石礦
 tile.Water Stone Ore.name=水之石礦
 tile.Leaf Stone Ore.name=葉之石礦
-tile.Dusk Stone Ore.name=闇之石礦
-tile.DawnDusk Ore.name=覺醒/闇之石礦
 tile.Thunder Stone Ore.name=雷之石礦
 tile.Sun Stone Ore.name=太陽石礦
 tile.Dawn Stone Ore.name=霞礦
@@ -3611,6 +4073,11 @@ tile.fossil.name=化石
 tile.uno shrine.name=寒冽神社
 tile.dos shrine.name=雷泣神社
 tile.tres shrine.name=熾熱神社
+tile.apricorn tree.name=圓柑果實樹
+tile.mechanicalanvil.name=機械鐵砧
+tile.ranchblock.name=牧場機組
+tile.leafstoneore_overlay.name=葉之石礦
+tile.null.name=隱藏式壓力板
 tile.unownblock_1.A.name=未知圖騰A
 tile.unownblock_1.B.name=未知圖騰B
 tile.unownblock_1.C.name=未知圖騰C
@@ -3645,7 +4112,82 @@ tile.templeBlock.name=神社座
 tile.templeStairs.name=神社梯
 tile.templeBrickStairs.name=神社磚梯
 tile.templePillar.name=神社支柱
+tile.hiddenCube.name=隱藏式方塊
+tile.hiddenIronDoor.name=隱藏式鐵門
+tile.hiddenWoodenDoor.name=隱藏式木門
+tile.DawnDusk Ore.name=覺醒/闇之石礦
+tile.templePillar.Pillar.name=神社支柱
+tile.templePillar.BrokenPillar.name=毀損的支柱
+tile.PokeGift.name=神奇寶貝禮物
+tile.EventPokeGift.name=獎勵型神奇寶貝禮物
 
+PokeDirt.name=Poké泥土塊
+PokeSand.name=Poké砂土塊
+PokeSandC1.name=Poké砂土塊-角落1
+PokeSandC2.name=Poké砂土塊-角落2
+PokeSandC3.name=Poké砂土塊-角落3
+PokeSandC4.name=Poké砂土塊-角落4
+PokeSandS1.name=Poké砂土塊-邊角1
+PokeSandS2.name=Poké砂土塊-邊角2
+PokeSandS3.name=Poké砂土塊-邊角3
+PokeSandS4.name=Poké砂土塊-邊角4
+RubyOre.name=紅寶石石礦
+SapphireOre.name=藍寶石石礦
+AmethystOre.name=紫水晶石礦
+CrystalOre.name=水晶石礦
+RubyBlock.name=紅寶石磚
+SapphireBlock.name=藍寶石磚
+AmethystBlock.name=紫水晶磚
+CrystalBlock.name=水晶磚
+SiliconOre.name=矽磚
+OutsideWall.name=外牆
+InsideWall.name=內牆
+InsideWallMolding.name=內牆造型
+Shingles.name=屋頂板
+ShinglesC1.name=屋頂板-角落1
+ShinglesC2.name=屋頂板-角落2
+TreeTop.name=樹梢
+TreeBottom.name=樹底
+WoodenFlooring.name=木質地板
+PokeCenterSign.name=神奇寶貝中心標誌
+PokeMartSign.name=神奇寶貝商店標誌
+Window1.name=窗戶1
+Window2.name=窗戶2
+SandyGrass.name=Poké砂草塊
+Rock.name=岩石
+CaveRock.name=洞穴岩石
+BridgeBlock.name=橋樑磚塊
+Bolder.name=漂礫
+Box.name=紙箱
+RedCushionChair.name=紅色磨菇椅
+Trashcan.name=垃圾桶
+YellowCushionChair.name=黃色磨菇椅
+GymSign.name=道館標誌
+RedUmbrella.name=紅色遮陽傘
+GreenUmbrella.name=綠色遮陽傘
+BlueUmbrella.name=藍色遮陽傘
+YellowUmbrella.name=黃色遮陽傘
+BlueClock.name=藍色時鐘
+PinkClock.name=粉紅色時鐘
+Chair.name=椅子
+EndTable.name=茶几
+GreenFoldingChair.name=綠色折疊椅
+Tree.name=觀葉植物
+TV.name=電視
+ClothedTable.name=附有桌布的桌子
+RedPokeballRug.name=紅色神奇寶貝球地毯
+GreenPokeballRug.name=綠色神奇寶貝球地毯
+BluePokeballRug.name=藍色神奇寶貝球地毯
+YellowPokeballRug.name=黃色神奇寶貝球地毯g
+FossilDisplay.name=化石展示臺
+BlueVendingMachine.name=藍色自動販賣機
+GreenVendingMachine.name=綠色自動販賣機
+OrangeVendingMachine.name=橘色自動販賣機
+PinkVendingMachine.name=桃紅色自動販賣機
+RedVendingMachine.name=紅色自動販賣機
+YellowVendingMachine.name=黃色自動販賣機
+Fridge.name=冰箱
+PixelmonGrass.name=Pixelmon草叢
 
 ability.Adaptability.name=適應力
 ability.Adaptability.description=增強同屬性技能的力量。屬性一致加成的效果從1.5×提升到2×。
@@ -4024,21 +4566,20 @@ ability.WonderSkin.description=變化技能對該特性的神奇寶貝命中率�
 ability.ZenMode.name=不倒翁模式
 ability.ZenMode.description=在HP不足一半時轉變為不倒翁型態，HP恢復時型態恢復。
 ability.ComingSoon.name=敬請期待！
-ability.ComingSoon.description=這個能力還沒有被正式編碼，但它很快就會有了！
+ability.ComingSoon.description=這個特性還沒有被正式編碼，但它很快就會有了！
 
 pixelmon.battletext.noeffect=這招完全沒有用！
 pixelmon.battletext.movefailed=出招失敗！
 pixelmon.battletext.criticalhit=擊中要害！
+pixelmon.battletext.criticalhittarget=%s被擊中要害！
 pixelmon.battletext.wasnoteffective=這不是很有效...
-pixelmon.battletext.supereffective=這非常有效！
+pixelmon.battletext.wasnoteffectivetarget=這對%s不是很有效...
+pixelmon.battletext.supereffective=效果非常顯著！
+pixelmon.battletext.supereffectivetarget=這對%s效果非常顯著！
 pixelmon.battletext.missedattack=%s嘗試使出%s，但是沒有命中！
 pixelmon.battletext.butmovefailed=但是出招失敗！
 pixelmon.battletext.used=%s使出了%s！
 pixelmon.battletext.sentout=%s使出了%s！
-
-pixelmon.stat.speedlowered=速度被降低了！
-pixelmon.stat.attackraised=攻擊力提升了！
-pixelmon.stat.defense=防禦提升了！
 
 pixelmon.effect.regainedenergy=%s重獲能量！
 pixelmon.effect.atedreams=%s吃掉了%s的夢！
@@ -4046,6 +4587,7 @@ pixelmon.effect.notasleep=%s沒有睡著！
 pixelmon.effect.effectfailed=但是失敗了！
 pixelmon.effect.foresawattack=%s預知到危險而害怕得顫抖！
 pixelmon.effect.modifierscleared=場上全部神奇寶貝的能力變化都被消除了！
+pixelmon.effect.clearsmog=%s的能力變化被消除了！
 pixelmon.effect.washealed=%s被治癒了！
 pixelmon.effect.healother=%s治療了%s！
 pixelmon.effect.hurtlanding=%s保持前進並且試圖降落時受到反彈傷害！
@@ -4068,7 +4610,9 @@ pixelmon.effect.unleashenergy=%s釋放了能量！
 pixelmon.effect.attackfailed=%s的攻擊失敗！
 pixelmon.effect.dighole=%s挖了一個洞！
 pixelmon.effect.flyup=%s飛在空中！
+pixelmon.effect.bounce=%s現身了！
 pixelmon.effect.becameconfused=%s陷入混亂狀態！
+pixelmon.effect.alreadyconfused=%s已經混亂！
 pixelmon.effect.razorwind=%s捲起了強風！
 pixelmon.effect.skyattack=%s隱身在微弱的光線中！
 pixelmon.effect.thrash=%s因為疲勞而陷入混亂狀態！
@@ -4087,6 +4631,49 @@ pixelmon.effect.specdefincreased=%s的特防被提升了！
 pixelmon.effect.specdefdecreased=%s的特防被降低了！
 pixelmon.effect.speedincreased=%s的速度被提升了！
 pixelmon.effect.speeddecreased=%s的速度被降低了！
+pixelmon.effect.accuracyincreased2=%s的命中率被提升了！
+pixelmon.effect.accuracydecreased2=%s的命中率被降低了！
+pixelmon.effect.evasionincreased2=%s的迴避率被提升了！
+pixelmon.effect.evasiondecreased2=%s的迴避率被降低了！
+pixelmon.effect.attackincreased2=%s的攻擊力被提升了！
+pixelmon.effect.attackdecreased2=%s的攻擊力被降低了！
+pixelmon.effect.defenseincreased2=%s的防禦力被提升了！
+pixelmon.effect.defensedecreased2=%s的防禦力被降低了！
+pixelmon.effect.specatkincreased2=%s的特攻被提升了！
+pixelmon.effect.specatkdecreased2=%s的特攻被降低了！
+pixelmon.effect.specdefincreased2=%s的特防被提升了！
+pixelmon.effect.specdefdecreased2=%s的特防被降低了！
+pixelmon.effect.speedincreased2=%s的速度被提升了！
+pixelmon.effect.speeddecreased2=%s的速度被降低了！
+pixelmon.effect.accuracyincreased3=%s的命中率被提升了！
+pixelmon.effect.accuracydecreased3=%s的命中率被降低了！
+pixelmon.effect.evasionincreased3=%s的迴避率被提升了！
+pixelmon.effect.evasiondecreased3=%s的迴避率被降低了！
+pixelmon.effect.attackincreased3=%s的攻擊力被提升了！
+pixelmon.effect.attackdecreased3=%s的攻擊力被降低了！
+pixelmon.effect.defenseincreased3=%s的防禦力被提升了！
+pixelmon.effect.defensedecreased3=%s的防禦力被降低了！
+pixelmon.effect.specatkincreased3=%s的特攻被提升了！
+pixelmon.effect.specatkdecreased3=%s的特攻被降低了！
+pixelmon.effect.specdefincreased3=%s的特防被提升了！
+pixelmon.effect.specdefdecreased3=%s的特防被降低了！
+pixelmon.effect.speedincreased3=%s的速度被提升了！
+pixelmon.effect.speeddecreased3=%s的速度被降低了！
+pixelmon.effect.critincreased=%s is getting pumped!
+pixelmon.effect.accuracytoohigh=%s的命中率無法提升！
+pixelmon.effect.accuracytoolow=%s的命中率無法被降低！
+pixelmon.effect.evasiontoohigh=%s的迴避率無法提升！
+pixelmon.effect.evasiontoolow=%s的迴避率無法被降低！
+pixelmon.effect.attacktoohigh=%s的攻擊力無法提升！
+pixelmon.effect.attacktoolow=%s的攻擊力無法被降低！
+pixelmon.effect.defensetoohigh=%s的防禦力無法提升！
+pixelmon.effect.defensetoolow=%s的防禦力無法被降低！
+pixelmon.effect.spatktoohigh=%s的特攻無法提升！
+pixelmon.effect.spatktoolow=%s的特攻無法被降低！
+pixelmon.effect.spdeftoohigh=%s的特防無法提升！
+pixelmon.effect.spdeftoolow=%s的特防無法被降低！
+pixelmon.effect.speedtoohigh=%s的速度無法提升！
+pixelmon.effect.speedtoolow=%s的速度無法被降低！
 pixelmon.effect.surroundedbywater=%s已經被水包圍！
 pixelmon.effect.surroundwithwater=%s的周圍圍繞著水幕！
 pixelmon.effect.burnt=%s陷入灼傷狀態！
@@ -4131,14 +4718,36 @@ pixelmon.effect.guarded=%s看起來有點謹慎！
 pixelmon.effect.harshsunlight=天氣變成了艷陽天！
 pixelmon.effect.alreadysleeping=%s已經睡著了！
 pixelmon.effect.fallasleep=%s睡著了！
-pixelmon.effect.itfailed=失敗了！
-pixelmon.effect.moretoxicspikes=毒尖釘被撒在%s周圍！
+pixelmon.effect.itfailed=但是失敗了！
+pixelmon.effect.spikes=滿地星散佈在%s周圍！
+pixelmon.effect.morespikes=更多的滿地星散佈在%s周圍！
+pixelmon.effect.moretoxicspikes=更多的毒尖釘被散佈在%s周圍！
 pixelmon.effect.toxicspikes=毒尖釘圍繞在%s周圍！
 pixelmon.effect.floatingstones=無數岩石懸浮在%s的周圍！
 pixelmon.effect.createsubstitute=%s製造出替身！
 pixelmon.effect.trickroomnormal=空間恢復正常....或者是！？
 pixelmon.effect.becamedrowsy=%s陷入哈欠狀態！
 pixelmon.effect.alreadydrowsy=%s已經處於哈欠狀態！
+pixelmon.effect.bellydrum=%s削減了自己的HP換取更大的攻擊力！
+pixelmon.effect.applydestinybond=%s正在試圖猛撞對手！
+pixelmon.effect.destinybond=%s成功猛撞了對手！
+pixelmon.effect.knockoff=%s除掉了%s的%s！
+pixelmon.effect.flee=%s被迫現身！
+pixelmon.effect.healbell=隊伍成員的狀態被治癒了！
+pixelmon.effect.sketch=%s使用了寫生習得了%s！
+pixelmon.effect.healingwish=治癒願望發動了！
+pixelmon.effect.wish=%s的願望實現了！
+pixelmon.effect.healfailed=%s的HP已滿！
+pixelmon.effect.bugbite=%s吃了%s的%s！
+pixelmon.effect.trick=%s與%s交換了物品！
+pixelmon.effect.trickitem=%s獲得了%s！
+pixelmon.effect.reflecttype=%s複製了%s的屬性！
+pixelmon.effect.dive=%s潛下去了！
+pixelmon.effect.skillswap=%s獲得了%s
+pixelmon.effect.incinerate=%s的%s被燒毀了！
+pixelmon.effect.focuspunch=%s正在聚氣以準備使出集中猛擊！
+pixelmon.effect.lostfocus=%s聚氣失敗！現在動彈不得！
+pixelmon.effect.splash=但是甚麼都沒有發生！
 
 pixelmon.status.ringheal=%s從水柱圈狀態受到治癒！
 pixelmon.status.burnhurt=%s受到灼傷！
@@ -4156,6 +4765,7 @@ pixelmon.status.hurthail=%s受到冰雹的傷害！
 pixelmon.status.hailstopped=冰雹停止了！
 pixelmon.status.heavyhail=天氣開始降下了大量的冰雹！
 pixelmon.status.inlove=%s處於心醉神迷狀態！
+pixelmon.status.immobilizedbylove=%s持續地處於心醉神迷狀態！
 pixelmon.status.drainhealth=%s吸收了%s的養分恢復HP！
 pixelmon.status.lightscreenoff=%s的光牆消退了！
 pixelmon.status.mistprotect=%s試圖使用%s，但是對手受到白霧的保護！
@@ -4184,6 +4794,7 @@ pixelmon.status.stillsleeping=%s熟睡中！
 pixelmon.status.wakesup=%s被喚醒！
 pixelmon.status.hurtbyspikes=%s受到了來自滿地星的傷害！
 pixelmon.status.hurtbystealthrock=%s受到了來自隱形岩的傷害！
+pixelmon.status.substitutedamage=%s的替身抵擋了攻擊！
 pixelmon.status.substitutefade=替身消失了！
 pixelmon.status.sunlightfaded=豔陽消退了！
 pixelmon.status.brightlight=豔陽更刺眼了！
@@ -4191,29 +4802,39 @@ pixelmon.status.toxicspikesabsorbed=毒尖釘被吸收了！
 pixelmon.status.toxicspikespoisoned=%s中了毒尖釘的毒！
 pixelmon.status.toxicspikesbadlypoisoned=%s受到了毒尖釘的劇毒！
 pixelmon.status.trickroomreturntonormal=空間恢復正常...
+pixelmon.status.ragebuilding=%s正在醞釀憤怒！
 pixelmon.status.fellasleep=%s睡著了！
-pixelmon.status.attacksharprise=攻擊力大幅提升！
-pixelmon.status.defsnsesharprise=防禦力大幅提升！
-pixelmon.status.speedsharprise=速度大幅提升！
-pixelmon.status.specattacksharprise=特功大幅提升！
-pixelmon.status.specdefensesharprise=特防大幅提升！
-pixelmon.status.accuracysharprise=命中率大幅提升！
-pixelmon.status.evasionsharprise=迴避率大幅提升！
+pixelmon.status.taunted=%s受到了挑撥！
+pixelmon.status.tauntcantuse=%s現在無法使出%s，因為牠現在正處於挑撥狀態！
+pixelmon.status.tauntnolonger=%s的挑撥狀態消退了！
 pixelmon.status.noeffect=沒有效果！
+pixelmon.status.tailwindstarted=%s刮起了一陣順風！
+pixelmon.status.tailwindalready=順風已經發動！
+pixelmon.status.tailwindfaded=%s的順風停止了！
+pixelmon.status.encore=%s陷入了再來一次狀態！
+pixelmon.status.encoreend=%s的再來一次狀態解除了！
+pixelmon.status.transform=%s變身成%s！
+pixelmon.status.trickroom=%s使整個對戰場地進入騙術空間狀態！
+pixelmon.status.safeguard=%s受到神秘護身的保護！
+pixelmon.status.magiccoat=%s的魔術外衣把攻擊反彈了回去！
+pixelmon.status.applymagiccoat=%s建立了魔術外衣狀態！
+pixelmon.status.applyingrain=%s建立了根深蒂固狀態！
+pixelmon.status.ingrain=%s吸收了來自根的營養物質！
 
 attack.curse.alreadycursed=%s已經受到詛咒！
 attack.curse.curse=%s削減了自己的HP，使%s進入了詛咒狀態！
-
-tile.MechanicalAnvil.name=機械鐵砧
 
 // Add key names from options menu
 key.categories.pixelmon=Pixelmon - 神奇寶貝模組
 key.descend=使用水之坐騎時下潛
 key.minmaxoverlay=顯示/隱藏左側隊伍列資訊
-key.nextpokemon=切換為隊伍裡下一個神奇寶貝
-key.previouspokemon=切換為隊伍裡上一個神奇寶貝
-key.sendpokemon=放出神奇寶貝
+key.nextpokemon=切換為隊伍裡下一隻神奇寶貝
+key.previouspokemon=切換為隊伍裡上一隻神奇寶貝
+key.sendpokemon=放出/收回神奇寶貝
 key.pokemonaction=指定某個對象為攻擊目標
+key.pokemonexternal=對戰外招式執行
+key.nextexternalmove=對戰外招式切換
+key.pokedex=使用神奇寶貝圖鑑
 
 halloween.entityname=鬼斯通(珠寶商)
 halloween.gemregistered=鬼斯通(珠寶商)接收了你的%s！
@@ -4226,3 +4847,35 @@ christmas.ischristmas=Pixelmon製作團隊祝大家聖誕節快樂！
 christmas.received=你從信使鳥的身上得到了一個聖誕禮物！
 christmas.alreadygifted=你已經打開過了一個聖誕禮物！
 item.Gift Box.name=禮物盒
+
+
+//Unown blocks
+UnownBlock.A.name=未知圖騰磚塊 'A'
+UnownBlock.B.name=未知圖騰磚塊 'B'
+UnownBlock.C.name=未知圖騰磚塊 'C'
+UnownBlock.D.name=未知圖騰磚塊 'D'
+UnownBlock.E.name=未知圖騰磚塊 'E'
+UnownBlock.F.name=未知圖騰磚塊 'F'
+UnownBlock.G.name=未知圖騰磚塊 'G'
+UnownBlock.H.name=未知圖騰磚塊 'H'
+UnownBlock.I.name=未知圖騰磚塊 'I'
+UnownBlock.J.name=未知圖騰磚塊 'J'
+UnownBlock.K.name=未知圖騰磚塊 'K'
+UnownBlock.L.name=未知圖騰磚塊 'L'
+UnownBlock.M.name=未知圖騰磚塊 'M'
+UnownBlock.N.name=未知圖騰磚塊 'N'
+UnownBlock.O.name=未知圖騰磚塊 'O'
+UnownBlock.P.name=未知圖騰磚塊 'P'
+UnownBlock2.Q.name=未知圖騰磚塊 'Q'
+UnownBlock2.R.name=未知圖騰磚塊 'R'
+UnownBlock2.S.name=未知圖騰磚塊 'S'
+UnownBlock2.T.name=未知圖騰磚塊 'T'
+UnownBlock2.U.name=未知圖騰磚塊 'U'
+UnownBlock2.V.name=未知圖騰磚塊 'V'
+UnownBlock2.W.name=未知圖騰磚塊 'W'
+UnownBlock2.X.name=未知圖騰磚塊 'X'
+UnownBlock2.Y.name=未知圖騰磚塊 'Y'
+UnownBlock2.Z.name=未知圖騰磚塊 'Z'
+UnownBlock2.!.name=未知圖騰磚塊 '!'
+UnownBlock2.?.name=未知圖騰磚塊 '?'
+UnownBlock2._.name=空白的未知圖騰磚塊
