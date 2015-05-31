@@ -394,6 +394,7 @@ item.WhiteHerb.name=White Herb
 item.BigRoot.name=Big Root
 item.ZoomLens.name=Zoom Lens
 item.BrightPowder.name=BrightPowder
+item.GinemaBerry.name=Ginema Berry
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3348,6 +3349,7 @@ pixelmon.helditems.mentalherb=%s came to its senses using its Mental Herb!
 pixelmon.helditems.stickybarb=%s was hurt by its Sticky Barb!
 pixelmon.helditems.quickclaw=%s's Quick Claw let it move first!
 pixelmon.whiteherb=%s's White Herb restored its stats!
+pixelmon.helditems.ginemaberry=%s's Ginema Berry restored its stats!
 
 //Blocks
 pixelmon.blocks.bonemealwatered=It looks well watered today.
