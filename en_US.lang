@@ -395,6 +395,8 @@ item.BigRoot.name=Big Root
 item.ZoomLens.name=Zoom Lens
 item.BrightPowder.name=BrightPowder
 item.GinemaBerry.name=Ginema Berry
+item.JabocaBerry.name=Jaboca Berry
+item.RowapBerry.name=Rowap Berry
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3351,6 +3353,7 @@ pixelmon.helditems.stickybarb=%s was hurt by its Sticky Barb!
 pixelmon.helditems.quickclaw=%s's Quick Claw let it move first!
 pixelmon.helditems.whiteherb=%s's White Herb restored its stats!
 pixelmon.helditems.ginemaberry=%s's Ginema Berry restored its stats!
+pixelmon.helditems.recoilberry=%s's %s hurt %s!
 
 pixelmon.items.useitem=%s used the %s.
 
