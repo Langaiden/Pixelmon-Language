@@ -389,6 +389,9 @@ item.WhiteHerb.name=Hierba Blanca
 item.BigRoot.name=Raíz Grande
 item.ZoomLens.name=Telescopio
 item.BrightPowder.name=Polvo Brillo
+item.GinemaBerry.name=Baya Ginema
+item.JabocaBerry.name=Baya Jaboca
+item.RowapBerry.name=Baya Magua
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -3976,7 +3979,9 @@ pixelmon.helditems.redcard=¡%s levantó su Tarjeta Roja!
 pixelmon.helditems.mentalherb=¡%s recuperó el sentido usando Hierba Mental!
 pixelmon.helditems.stickybarb=¡%s fue herido debido a Toxiestrella!
 pixelmon.helditems.quickclaw=¡Garra Rápida de %s permitió atacar primero!
-pixelmon.whiteherb=¡Hierba Blanca de %s restauró los estados!
+pixelmon.helditems.whiteherb=¡Hierba Blanca de %s restauró todos los estados!
+pixelmon.helditems.ginemaberry=¡Baya Ginema de %s restauró todos los estados!
+pixelmon.helditems.recoilberry=¡%s con %s dañó a %s!
 
 //Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
