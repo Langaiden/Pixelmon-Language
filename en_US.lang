@@ -3752,6 +3752,7 @@ gui.trainereditor.nickname=Nickname
 gui.trainereditor.growth=Growth
 gui.trainereditor.gender=Gender
 gui.trainereditor.partypokemon=Party Pokémon
+gui.trainereditor.delete=Delete Trainer
 
 gui.npceditor.despawn=Despawn
 gui.npceditor.page1=Page 1
