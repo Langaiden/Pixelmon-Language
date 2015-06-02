@@ -1,3 +1,7 @@
+//File translated by ToklaX
+//Spanish translators: 'ToklaX' 
+(If you are going to translate, put your name here)
+
 /*
 *   @Author AnDwHaT5
 *
@@ -15,20 +19,20 @@
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=PC
-item.Ranch Block.name=Bloque del Rancho
+item.Ranch Block.name=Poké-Rancho
 item.Anvil.name=Yunque
 item.MechanicalAnvil.name=Yunque Mecánico
-item.Healer.name=Poke Centro
+item.Healer.name=Centro Pokémon
 item.Trade Machine.name=Máquina de Intercambio
 item.Fossil Machine.name=Máquina de Fósiles
-item.Cloning Machine.name= Clonador
+item.Cloning Machine.name=Máquina de Clonación
 item.Fossil Machine Tank.name=Tanque máquina de fósiles 
 item.Fossil Machine Display.name=Pantalla máquina de fósiles
 item.Fossil Machine Top.name=Parte Superior máquina de fósiles
 item.Fossil Machine Base.name=Base máquina de fósiles
-item.Uno Shrine.name=Santuario Helado
-item.Dos Shrine.name=Santuario Eléctrico
-item.Tres Shrine.name=Santuario de Fuego
+item.Uno Shrine.name=Altar de Hielo
+item.Dos Shrine.name=Altar Eléctrico
+item.Tres Shrine.name=Altar de Fuego
 item.Green Tank.name=Tanque Verde
 item.Orange Tank.name=Tanque Naranja
 item.Cloner Cord.name=Cable de Clonación
@@ -49,23 +53,23 @@ item.Aluminium Spade.name=Pala de aluminio
 item.Aluminium PickAxe.name=Pico de aluminio
 item.Aluminium Hoe.name=Azada de aluminio
 item.Wailmer Pail.name=Regadera Wailmer
-item.Trainer Editor.name=Editor de entrenador
+item.Trainer Editor.name=Editor de NPC
 item.Aluminium Sword.name=Espada de alumino
 item.Aluminium Helmet.name=Casco de aluminio
 item.Aluminium Torso.name=Peto de aluminio
 item.Aluminium Leggings.name=Grebas de aluminio
 item.Aluminium Boots.name=Botas de aluminio
-item.New Running Boots.name=Zapatillas Nuevas
-item.Old Running Boots.name=Zapatillas Viejas
+item.New Running Boots.name=Deportivas Nuevas
+item.Old Running Boots.name=Deprotivas Viejas
 item.Aluminium Ingot.name=Lingote de aluminio
-item.Aluminium Plate.name=Aluminio
+item.Aluminium Plate.name=Placa de aluminio
 item.Old Rod.name=Caña Vieja
 item.Good Rod.name=Caña Buena
 item.Super Rod.name=Súper Caña
-item.Trade Monitor.name=Pantalla de Máquina de Intercambios
-item.Trade Holder Right.name=Máquina de Intercambio: Derecha
-item.Trade Holder Left.name=Máquina de Intercambio: Izquierda
-item.Trade Panel.name=Panel de Intercambios
+item.Trade Monitor.name=Pantalla de Máquina de Intercambio
+item.Trade Holder Right.name=Máquina de Intercambio (Derecha)
+item.Trade Holder Left.name=Máquina de Intercambio (Izquierda)
+item.Trade Panel.name=Panel de Máquina de Intercambio
 item.mysteryDungeonMap.name=Mapa de la mazmorra misteriosa
 item.Uno Orb.name=Orbe del Alma Helada
 item.Dos Orb.name=Orbe del Alma Eléctrica
@@ -177,7 +181,7 @@ item.Freeze Badge.name=Medalla Candelizo
 item.Basic Badge.name=Medalla Base
 item.Trio Badge.name=Medalla Trío
 
-item.Rare Candy.name=Caramelo Raro
+item.Rare Candy.name=Carameloraro
 item.Potion.name=Poción
 item.Super Potion.name=Superpoción
 item.Hyper Potion.name=Hiperpoción
@@ -2411,7 +2415,7 @@ attack.retaliate.name=Represalia
 attack.represalia.name=Represalia
 attack.retaliate.description=Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará.
 attack.final gambit.name=Sacrificio
-attack.final gambit.name=Sacrificio
+attack.sacrificio.name=Sacrificio
 attack.sacrificio.description=El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.
 attack.bestow.name=Ofrenda
 attack.ofrenda.name=Ofrenda
@@ -3893,6 +3897,7 @@ pixelmon.general.needop=Debes de ser OP para realizar esta acción.
 pixelmon.general.playerbusy=¡El jugador está ocupado!
 pixelmon.general.disabledblock=El server a bloqueado este bloque.
 
+pixelmon.npc.tradername=Intercambio
 pixelmon.npc.trader=¡No tienes el Pokémon que estoy buscando! Me gustaría un %s.
 
 pixelmon.projectiles.nibble=Ni siquiera un mordisco...
@@ -3976,7 +3981,7 @@ pixelmon.whiteherb=¡Hierba Blanca de %s restauró los estados!
 //Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
 
-pixelmon.blocks.healer=¡El Poke Centro ya está en uso!
+pixelmon.blocks.healer=¡El Centro Pokémon ya está en uso!
 
 pixelmon.blocks.chestfound=¡Has encontrado %s!
 pixelmon.blocks.timedclaim=¡Has recibido esta recompensa hace poco! ¡Intentalo de nuevo más tarde!
@@ -4123,7 +4128,7 @@ pixelmon.abilities.flashfire=¡Absor. Fuego potencia los movs. de Fuego de %s!
 pixelmon.abilities.flashfire2=¡Absor. Fuego de %s evitó el ataque!
 pixelmon.abilities.forewarn=¡Alerta de %s le alerta de %s!
 pixelmon.abilities.frisk=¡%s cacheó a %s y pudo ver su %s!
-pixelmon.abilities.harvest=Cosecha de %s recuperó la %s!
+pixelmon.abilities.harvest=¡Cosecha de %s recuperó la %s!
 pixelmon.abilities.healer=¡Alma Cura de %s cura los problemas de estados de %s!
 pixelmon.abilities.hypercut=¡Corte Fuerte de %s impide que baje el Ataque!
 pixelmon.abilities.hydration=¡Hidratación de %s cura su estado!
@@ -4177,10 +4182,11 @@ pixelmon.abilities.soundproof=¡Insonorizar de %s hizo que el ataque no tuviese 
 pixelmon.abilities.speedboost=¡La Velocidad de %s subie gracias a Impulso!
 pixelmon.abilities.static=¡Elec. Estát. de %s paraliza a %s!
 pixelmon.abilities.steadfast=¡La Velocidad de %s subió gracias a Impasible!
-pixelmon.abilities.stormdrain=¡Colector de %s evitó el ataque!
+pixelmon.abilities.stormdrain=¡Colector de %s evita el ataque!
 pixelmon.abilities.stormdrainredirect=¡Colector de %s atrae el ataque!
 pixelmon.abilities.sturdy=¡%s resistió gracias a Robustez!
 pixelmon.abilities.sturdy2=¡Robustez de %s evita el ataque!
+pixelmon.abilities.suctioncups=¡Ventosas de %s fijaron su cuerpo con fuerza!
 pixelmon.abilities.telepathy=¡Telepatía de %s le protegió del ataque!
 pixelmon.abilities.teravolt=¡%s irradia una aura explosiva!
 pixelmon.abilities.trace=¡%s copió la habilidad de %s!
@@ -4363,6 +4369,14 @@ gui.tradereditor.changeTrainer=Entrenador
 gui.tradereditor.random=Aleatorio
 gui.trainereditor.changeTrader=Intercambio
 
+gui.chooseNPC.trainer=Crear Entrenador
+gui.chooseNPC.chatting=Crear conversación NPC
+gui.npceditor.despawn=Eliminar NPC
+gui.npceditor.page1=Chat Texto 1
+gui.npceditor.page2=Chat Texto 2
+gui.npceditor.page3=Chat Texto 3
+gui.npceditor.page4=Chat Texto 4
+
 gui.overlay1v1.lv=Lv. 
 
 gui.starter.trademark1=Este es un fan made mod, todas las marcas y copyright de Pokémon están registradas
@@ -4441,10 +4455,10 @@ gui.battle.type=Tipo:
 
 gui.levelupscreen.lvlup=¡Tu $p ha subido al nivel $l!
 
-gui.mainmenu.fight=Luchar
-gui.mainmenu.bag=Mochila
-gui.mainmenu.pokemon=Pokémon
-gui.mainmenu.run=Huir
+gui.mainmenu.fight=LUCHAR
+gui.mainmenu.bag=MOCHILA
+gui.mainmenu.pokemon=POKÉMON
+gui.mainmenu.run=HUIR
 gui.mainmenu.whatdo=¿Qué debería hacer $p?
 gui.mainmenu.cantswitch=¡No puedes cambiar Pokémon en este momento!
 gui.mainmenu.traped=¡$p está atrapado! ¡No puedes huir!
@@ -4469,6 +4483,22 @@ gui.choosemoveset.attackdetails=Detalles
 gui.choosemoveset.chosen=Movimientos Elegidos
 gui.choosemoveset.full=Lista de Movimientos
 
+trainer.Steve=Steve
+trainer.Youngster=Joven
+trainer.Lass=Chica
+trainer.BugCatcher=Cazabichos
+trainer.PokeManiac=Pokemaníaco
+trainer.PokeManiacGirl=Chica Pokemaníaca
+trainer.Fisherman=Pescador
+trainer.Fisherman2=Pescador
+trainer.FemaleRocketGrunt=Soldado Rocket Femenino
+trainer.BugManiac=Bichomaníaco
+trainer.LittleBoySwimmer=Niño Nadador
+trainer.MaleSwimmer=Nadador
+trainer.Ornithologist=Ornitólogo
+trainer.FireBreather=Comefuego
+trainer.RichBoy=Niño Rico
+
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Resource Pack Personalizado
 trainer.model.Custom_PN=Nombre del Jugador Personalizado
@@ -4477,22 +4507,27 @@ trainer.model.Suit=Traje
 trainer.model.Scottish=Escocés
 trainer.model.Prisoner=Prisionero
 trainer.model.youngster1=Niño Mimado
-trainer.model.youngster2=Joven Cool
+trainer.model.youngster2=Joven Guay
 trainer.model.youngster3=Joven con gorra
 trainer.model.youngster4=Chico encapuchado
+trainer.model.youngstergirl=Chica Joven
+trainer.model.youngstergirl2=Chica Azul con grandes ojos
 trainer.model.bugcatcher1=Apicultor
 trainer.model.bugcatcher2=Super Cazabichos
 trainer.model.bugcatcher3=Cazabichos
 trainer.model.bugcatcher4=Cazabichos 2
 trainer.model.pokemaniac1=Pika Boy
 trainer.model.pokemaniac2=Honchkrow
+trainer.model.pokemaniac3=Rhydon
 trainer.model.pokemaniacgirl1=Zangoose
 trainer.model.pokemaniacgirl2=Oshawott
-trainer.model.firebreather1=Escupefuego Medieval
+trainer.model.firebreather1=Comefuego Medieval
 trainer.model.firebreather2=Chico de Fuego
 trainer.model.firebreather3=Hombre de Fuego
 trainer.model.firebreather4=Equipo Magma
 trainer.model.firebreather5=Murcíelago de Fuego
+
+npc.model.npcchat1=Hombre
 
 container.MechanicalAnvil=Yunque Mecánico
 
@@ -4572,9 +4607,7 @@ batonpass.failed=¡Pero falló!
 batonpass.pass=¡%s pasó el testigo!
 batonpass.noleft=¡No quedan Pokémon para cambiar!
 
-teleport.trainerbattle=¡No puedes transportarte desde una batalla!
-teleport.away=¡$s se transportó!
-//The $ sign was intended
+teleport.away=¡$s se teletransportó!
 
 applyperish.heard=¡%s escuchó Canto Mortal!
 applyperish.already=¡%s ya ha escuchado esta canción!
@@ -5318,6 +5351,13 @@ pixelmon.effect.focuspunch=¡%s está reforzando su concentración!
 pixelmon.effect.lostfocus=¡%s perdió la concentración y no se pudo mover!
 pixelmon.effect.splash=¡Pero no tuvo ningún efecto!
 pixelmon.effect.recycle=%s recuperó %s.
+pixelmon.effect.psychoshift=¡%s transfirió su estado a %s!
+pixelmon.effect.snatch=¡%s espera a que su rival haga algún movimiento!
+pixelmon.effect.snatched=¡%s robó el movimiento del oponente!
+pixelmon.effect.powerswap=¡%s intercambió todos los cambios de Ataque y Ataque Esp. con %s!
+pixelmon.effect.guardswap=¡%s intercambió todos los cambios de Defensa y Defensa Esp. con %s!
+pixelmon.effect.heartswap=¡%s intercambió todos los cambios de estado con %s!
+pixelmon.effect.entrainment=¡La habilidad de %s ha cambiado a %s!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5392,7 +5432,7 @@ pixelmon.status.magiccoat=¡Capa Mágica de %s hizo rebotar el ataque!
 pixelmon.status.applymagiccoat=¡%s se cubrió con Capa Mágica!
 pixelmon.status.applyingrain=¡%s hechó raíces!
 pixelmon.status.ingrain=¡%s absorbió nutrientes con sus raíces!
-pixelmon.status.stockpile=%s reservó %d!
+pixelmon.status.stockpile=¡%s reservó %d!
 pixelmon.status.stockpileoff=¡El efecto de Reserva de %s desapareció!
  
 attack.curse.alreadycursed=¡%s ya está maldito!

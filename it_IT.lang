@@ -7,13 +7,17 @@
 #Sito : http://sharplay.net/ 
 #Per info scrivi a miticohanamichi@yahoo.it
 ##########################################################################################################
-
+#updated by Meka aka InLoveOfNidoqueen
+#traduzioni incerte: Baccayago,Baccamelanzana,Baccadicchio,Baccazucca,Baccatouga
+##########################################################################################################
 
 
 
 
 item.PC.name=PC
+item.Ranch Block.name=Ranch Block
 item.Anvil.name=Incudine
+item.MechanicalAnvil.name=Incudine Meccanica
 item.Healer.name=Macchina Guaritrice
 item.Trade Machine.name=Macchina per gli Scambi
 item.Fossil Machine.name=Revitalizzatore
@@ -29,6 +33,10 @@ item.Green Tank.name=Vasca Verde
 item.Orange Tank.name=Vasca Arancione
 item.Cloner Cord.name=Cavo di Giunzione
 item.Fossil Cleaner.name=Pulisci-Fossili
+item.HiddenCube.name=Cubo Nascosto
+item.HiddenIronDoor.name=Porta di Ferro Nascosta
+item.HiddenWoodenDoor.name=Porta di Legno Nascosta
+item.HiddenPressurePlate.name=Pedana a Pressione Nascosta
 item.Pokedex.name=Pokedex
 item.Wood Hammer.name=Martello in Legno
 item.Stone Hammer.name=Martello di Pietra
@@ -63,7 +71,6 @@ item.Uno Orb.name=Globo Gelido
 item.Dos Orb.name=Globo Statico
 item.Tres Orb.name=Globo Fiammeggiante
 item.Orb.name=Globo Neutro
-itemGroup.tabPokeLoot=PokeLoot
 item.itemFinder.name=Detector
 item.Poke Ball.name=Poke Ball
 item.Great Ball.name=Mega Ball
@@ -84,7 +91,13 @@ item.Dive Ball.name=Sub Ball
 item.Luxury Ball.name=Chic Ball
 item.Heal Ball.name=Cura Ball
 item.Dusk Ball.name=Scuro Ball
+item.Park Ball.name=Parco Ball
+item.Quick Ball.name=Velox Ball
+item.Lure Ball.name=Esca Ball
+item.Sport Ball.name=Gara Ball
+item.Cherish Ball.name=Pregio Ball
 item.Premier Ball.name=Premier Ball
+item.GS Ball.name=GS Ball
 item.Poke Ball Lid.name=Coperchio Poke Ball
 item.Great Ball Lid.name=Coperchio Mega Ball
 item.Ultra Ball Lid.name=Coperchio Ultra Ball 
@@ -104,6 +117,9 @@ item.Luxury Ball Lid.name=Coperchio Chic Ball
 item.Heal Ball Lid.name=Coperchio Cura Ball
 item.Dusk Ball Lid.name=Coperchio Scuro Ball
 item.Premier Ball Lid.name=Coperchio Premier Ball
+item.Quick Ball Lid.name=Coperchio Velox Ball
+item.Lure Ball Lid.name=Coperchio Esca Ball
+item.Sport Ball Lid.name=Coperchio Gara Ball
 item.Poke Ball Disc.name=Disco Grezzo Poke Ball
 item.Great Ball Disc.name=Disco Grezzo Mega Ball
 item.Ultra Ball Disc.name=Disco Grezzo Ultra Ball
@@ -123,6 +139,9 @@ item.Luxury Ball Disc.name=Disco Grezzo Chic Ball
 item.Heal Ball Disc.name=Disco Grezzo Cura Ball
 item.Dusk Ball Disc.name=Disco Grezzo Scuro Ball 
 item.Premier Ball Disc.name=Disco Grezzo Premier Ball
+item.Quick Ball Disc.name=Disco Grezzo Velox Ball
+item.Lure Ball Disc.name=Disco Grezzo Esca Ball
+item.Sport Ball Disc.name=Disco Grezzo Gara Ball
 item.Iron Disc.name=Disco di Ferro
 item.Iron Base.name=Base in Ferro
 item.Aluminum Disc.name=Disco di alluminio
@@ -175,6 +194,10 @@ item.Potion.name=Pozione
 item.Super Potion.name=Super Pozione
 item.Hyper Potion.name=Iper Pozione
 item.Full Restore.name=Ricarica Totale
+item.Fresh Water.name=Acqua Fresca
+item.Soda Pop.name=Soda Pop
+item.Lemonade.name=Lemonsucco
+item.Moomoo Milk.name=Latte Mumu
 item.Revive.name=Revitalizzante
 item.Max Revive.name=Revitalizzante Max
 item.Max Potion.name=Pozione Max
@@ -198,12 +221,60 @@ item.Iron.name=Ferro
 item.Calcium.name=Calcio
 item.Zinc.name=Zinco
 item.Carbos.name=Carburante
+
 item.Pomeg Berry.name=Baccagrana
 item.Kelpsy Berry.name= Baccalga
 item.Qualot Berry.name=Baccaloquat
 item.Hondew Berry.name=Baccamelon
 item.Grepa Berry.name=Baccauva
 item.Tamato Berry.name=Baccamodoro
+item.Oran Berry.name=Baccarancia
+item.Rawst Berry.name=Baccafrago
+item.Leppa Berry.name=Baccamela
+item.CheriBerry.name=Baccaliegia
+item.ChestoBerry.name=Baccastagna
+item.PechaBerry.name=Baccapesca
+item.AspearBerry.name=Baccaperina
+item.PersimBerry.name=Baccaki
+item.LumBerry.name=Baccaprugna
+item.SitrusBerry.name=Baccacedro
+item.BerryJuice.name=Succo di Bacca
+item.PumkinBerry.name=Baccazucca
+item.DrashBerry.name=Baccadicchio
+item.EggantBerry.name=Baccamelanzana
+item.YagoBerry.name=Baccayago
+item.TougaBerry.name=Baccatouga
+item.ApicotBerry.name=Baccacocca
+item.LiechiBerry.name=Baccalici
+item.GanlonBerry.name=Baccalongan
+item.SalacBerry.name=Baccasalak
+item.PetayaBerry.name=Baccapitaya
+item.LansatBerry.name=Baccalagnsa
+item.StarfBerry.name=Baccambola
+item.CustapBerry.name=Baccacrela
+item.AguavBerry.name=Baccaguava
+item.FigBerry.name=Baccafico
+item.IapapaBerry.name=Baccaguava
+item.MagoBerry.name=Baccamango
+item.WikiBerry.name=Baccakiwi
+item.OccaBerry.name=Baccacao
+item.PasshoBerry.name=Baccapasflo
+item.WacanBerry.name=Baccaparmen
+item.RindoBerry.name=Baccarindo
+item.YacheBerry.name=Baccamoya
+item.ChopleBerry.name=Baccarosmel
+item.KebiaBerry.name=Baccakebia
+item.ShucaBerry.name=Baccanaca
+item.CobaBerry.name=Baccababa
+item.PayapaBerry.name=Baccapayapa
+item.TangaBerry.name=Baccaitan
+item.ChartiBerry.name=Baccaciofo
+item.KasibBerry.name=Baccacitrus
+item.HabanBerry.name=Baccahaban
+item.ColburBerry.name=Baccaxan
+item.BabiriBerry.name=Baccababiri
+item.ChilanBerry.name=Baccacinlan
+
 item.Heal Powder.name=Polvocura
 item.Energy Powder.name=Polvenergia
 item.Energy Root.name=Radicenergia
@@ -250,11 +321,15 @@ item.Water Stone.name=Pietraidrica
 item.Moon Stone.name=Pietralunare
 item.Thunder Stone.name=Pietratuono
 item.Leaf Stone.name=Pietrafoglia
+item.Dawn Stone.name=Pietralbore
+item.Dusk Stone.name=Neropietra
 item.Thunder Stone Shard.name=Frammento di Pietratuono
 item.Leaf Stone Shard.name=Frammento di Pietrafoglia
 item.Water Stone Shard.name=Frammento di Pietraidrica
 item.Fire Stone Shard.name=Frammento di Pietrafocaia
 item.Sun Stone Shard.name=Frammento di Pietrasolare
+item.Dusk Stone Shard.name=Frammento di Neropietra
+item.Dawn Stone Shard.name=Frammento di Pietralbore
 item.Ever Stone.name=Pietrastante
 item.Lucky Egg.name=Fortunuovo
 item.Exp. Share.name=Condividi Esperienza
@@ -266,13 +341,10 @@ item.Macho Brace.name=Crescicappa
 item.Power Weight.name=Vigorpeso
 item.Power Bracer.name=Vigorcerchio
 item.Power Belt.name=Vigorfascia
-
 item.Power Lens.name=Vigorlente
 item.Power Band.name=Vigorbanda
 item.Power Anklet.name=Vigorgliera
-item.Oran Berry.name=Baccarancia
-item.Rawst Berry.name=Baccafrago
-item.Leppa Berry.name=Baccamela
+
 item.Soothe Bell.name=Calmanella
 item.Smoke Ball.name=Palla Fumo
 item.WideLens.name=Grandelente
@@ -288,6 +360,7 @@ item.Protector.name=Copertura
 item.Up-Grade.name=Upgrade
 item.Razor Fang.name=Affilodente
 item.Dragon Scale.name=Squama Drago 
+item.RazorClaw.name=Affilartigli
 item.Absorb Bulb.name=Bulbo
 item.Life Orb.name=Assorbisfera
 item.Focus Sash.name=Focalnastro
@@ -492,7 +565,7 @@ item.PokeMail-wave.name=Messaggio Onda
 item.PokeMail-wood.name=Messaggio Bosco
 
 
-
+itemGroup.tabPokeLoot=PokeLoot
 
 
 

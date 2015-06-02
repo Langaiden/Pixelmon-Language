@@ -394,6 +394,9 @@ item.WhiteHerb.name=White Herb
 item.BigRoot.name=Big Root
 item.ZoomLens.name=Zoom Lens
 item.BrightPowder.name=BrightPowder
+item.GinemaBerry.name=Ginema Berry
+item.JabocaBerry.name=Jaboca Berry
+item.RowapBerry.name=Rowap Berry
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3270,6 +3273,7 @@ pixelmon.general.needowner=Only the block's owner can access this block.
 pixelmon.general.playerbusy=Player is busy!
 pixelmon.general.disabledblock=The server has disabled this block.
 
+pixelmon.npc.tradername=Trader
 pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(n) %s.
 
 pixelmon.projectiles.nibble=Not even a nibble...
@@ -3348,6 +3352,8 @@ pixelmon.helditems.mentalherb=%s came to its senses using its Mental Herb!
 pixelmon.helditems.stickybarb=%s was hurt by its Sticky Barb!
 pixelmon.helditems.quickclaw=%s's Quick Claw let it move first!
 pixelmon.helditems.whiteherb=%s's White Herb restored its stats!
+pixelmon.helditems.ginemaberry=%s's Ginema Berry restored its stats!
+pixelmon.helditems.recoilberry=%s's %s hurt %s!
 
 pixelmon.items.useitem=%s used the %s.
 
@@ -3557,6 +3563,7 @@ pixelmon.abilities.stormdrain=%s's Storm Drain negated the attack!
 pixelmon.abilities.stormdrainredirect=%s's Storm Drain drew in the attack!
 pixelmon.abilities.sturdy=%s just hung on with Sturdy!
 pixelmon.abilities.sturdy2=%s's Sturdy negated the attack!
+pixelmon.abilities.suctioncups=%s's Suction Cups anchored it in!
 pixelmon.abilities.telepathy=%s's Telepathy protected it from the attack!
 pixelmon.abilities.teravolt=%s is radiating a bursting aura!
 pixelmon.abilities.trace=%s traced %s's %s!
@@ -3761,6 +3768,14 @@ gui.tradereditor.changeTrainer=Change to Trainer
 gui.tradereditor.random=Randomize
 gui.trainereditor.changeTrader=Change to Trader
 
+gui.chooseNPC.trainer=Create NPC Trainer
+gui.chooseNPC.chatting=Create chatting NPC
+gui.npceditor.despawn=Delete NPC
+gui.npceditor.page1=Chat Text 1
+gui.npceditor.page2=Chat Text 2
+gui.npceditor.page3=Chat Text 3
+gui.npceditor.page4=Chat Text 4
+
 gui.overlay1v1.lv=Lv.
 
 gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
@@ -3925,6 +3940,8 @@ trainer.model.youngster1=Spoiled Brat
 trainer.model.youngster2=Cool Youngster Boy
 trainer.model.youngster3=Hatted Youth
 trainer.model.youngster4=Hooded Blue Boy
+trainer.model.youngstergirl=Youngster Girl
+trainer.model.youngstergirl2=Blue Girl with Large Eyes
 trainer.model.bugcatcher1=Beekeeper
 trainer.model.bugcatcher2=Super Bug Catcher
 trainer.model.bugcatcher3=Bug Catcher
@@ -4017,9 +4034,7 @@ batonpass.failed=But it failed!
 batonpass.pass=%s passes a baton!
 batonpass.noleft=There are no Pokémon left to switch to!
 
-teleport.trainerbattle=You can't teleport from a Trainer battle!
-teleport.away=$s teleported away!
-//The $ sign was intended
+teleport.away=%s teleported away!
 
 applyperish.heard=%s heard the Perish Song!
 applyperish.already=%s has already heard the song!
@@ -4761,6 +4776,13 @@ pixelmon.effect.focuspunch=%s is tightening its focus!
 pixelmon.effect.lostfocus=%s lost its focus and couldn't move!
 pixelmon.effect.splash=But nothing happened!
 pixelmon.effect.recycle=%s recovered one %s.
+pixelmon.effect.psychoshift=%s transferred its status to %s!
+pixelmon.effect.snatch=%s waits for the opponent to make a move!
+pixelmon.effect.snatched=%s snatched the opponent's move!
+pixelmon.effect.powerswap=%s swapped its Attack and Special Attack changes with %s!
+pixelmon.effect.guardswap=%s swapped its Defense and Special Defense changes with %s!
+pixelmon.effect.heartswap=%s swapped its stat changes with %s!
+pixelmon.effect.entrainment=%s's Ability was changed to %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
