@@ -378,6 +378,9 @@ item.WhiteHerb.name=白色药草
 item.BigRoot.name=巨大根茎
 item.ZoomLens.name=对焦镜片（第四世代起）
 item.BrightPowder.name=亮光之粉
+item.GinemaBerry.name=洋葱果
+item.JabocaBerry.name=嘉宝果
+item.RowapBerry.name=莲雾果
 
 
 
@@ -3333,7 +3336,9 @@ pixelmon.helditems.redcard=%s 举起了红牌！
 pixelmon.helditems.mentalherb=%s 利用自身的心灵药草治愈了感官！
 pixelmon.helditems.stickybarb=%s 被它的附针伤害了！
 pixelmon.helditems.quickclaw=%s 的先攻之爪让它先出！
-pixelmon.whiteherb=%s 的白色药草恢复了它的状态！
+pixelmon.helditems.whiteherb=%s 的白色药草恢复了它的状态！
+pixelmon.helditems.ginemaberry=%s 的洋葱果恢复了它的状态！
+pixelmon.helditems.recoilberry=%s 的 %s 伤害了 %s！
 
 pixelmon.items.useitem=%s 使用了 %s 。
 
