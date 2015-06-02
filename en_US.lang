@@ -3770,11 +3770,6 @@ gui.trainereditor.changeTrader=Change to Trader
 
 gui.chooseNPC.trainer=Create NPC Trainer
 gui.chooseNPC.chatting=Create chatting NPC
-gui.npceditor.despawn=Delete NPC
-gui.npceditor.page1=Chat Text 1
-gui.npceditor.page2=Chat Text 2
-gui.npceditor.page3=Chat Text 3
-gui.npceditor.page4=Chat Text 4
 
 gui.overlay1v1.lv=Lv.
 

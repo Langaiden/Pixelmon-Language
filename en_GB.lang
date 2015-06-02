@@ -3738,7 +3738,6 @@ gui.trainereditor.randomise=Randomise
 gui.trainereditor.edit=Edit
 gui.trainereditor.add=Add
 gui.trainereditor.deletelastpoke=Delete Last Pokémon
-gui.trainereditor.delete=Delete Trainer
 gui.trainereditor.pokemoneditor=Trainer Editor - Pokémon Editor
 gui.trainereditor.name=Name
 gui.trainereditor.shiny=Shiny
@@ -3751,6 +3750,12 @@ gui.trainereditor.growth=Growth
 gui.trainereditor.gender=Gender
 gui.trainereditor.partypokemon=Party Pokémon
 
+gui.npceditor.despawn=Despawn
+gui.npceditor.page1=Page 1
+gui.npceditor.page2=Page 2
+gui.npceditor.page3=Page 3
+gui.npceditor.page4=Page 4
+
 gui.tradereditor.shiny=S
 gui.tradereditor.level=Level
 gui.tradereditor.offer=Offer:
@@ -3762,11 +3767,6 @@ gui.trainereditor.changeTrader=Change to Trader
 
 gui.chooseNPC.trainer=Create NPC Trainer
 gui.chooseNPC.chatting=Create chatting NPC
-gui.npceditor.despawn=Delete NPC
-gui.npceditor.page1=Chat Text 1
-gui.npceditor.page2=Chat Text 2
-gui.npceditor.page3=Chat Text 3
-gui.npceditor.page4=Chat Text 4
 
 gui.overlay1v1.lv=Lv.
 
@@ -3949,7 +3949,7 @@ trainer.model.firebreather3=Fire Man
 trainer.model.firebreather4=Team Magma
 trainer.model.firebreather5=Fire Bat
 
-npc.model.npcchat1=Man
+npc.model.npcchat1=Old Man
 
 container.MechanicalAnvil=Mechanical Anvil
 
