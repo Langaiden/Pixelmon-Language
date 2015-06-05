@@ -274,6 +274,9 @@ item.HabanBerry.name=番榴
 item.ColburBerry.name=刺球果
 item.BabiriBerry.name=霹靂果
 item.ChilanBerry.name=燈籠果
+item.GinemaBerry.name=洋蔥果
+item.JabocaBerry.name=嘉寶果
+item.RowapBerry.name=蓮霧果
 
 item.Heal Powder.name=萬能之粉
 item.Energy Powder.name=元氣之粉
@@ -3270,6 +3273,7 @@ pixelmon.general.needowner=只有這個方塊的所有者才可以更動它。
 pixelmon.general.playerbusy=玩家正在忙碌中！
 pixelmon.general.disabledblock=伺服器禁用了這個方塊。
 
+pixelmon.npc.tradername=交換者
 pixelmon.npc.trader=你身上並沒有我想要的神奇寶貝，我想要%s。
 
 pixelmon.projectiles.nibble=沒有釣到神奇寶貝...
@@ -3348,6 +3352,8 @@ pixelmon.helditems.mentalherb=%s使用了心靈藥草解除了頹廢狀態！
 pixelmon.helditems.stickybarb=%s因為身上攜帶了附針而受傷！
 pixelmon.helditems.quickclaw=先攻之爪讓%s能先制！
 pixelmon.helditems.whiteherb=白色藥草讓%s受到下降的能力得以恢復！
+pixelmon.helditems.ginemaberry=洋蔥果讓%s受到下降的能力得以恢復！
+pixelmon.helditems.recoilberry=%s的%s具備了傷害反彈效果，因此%s受到了傷害！
 
 pixelmon.items.useitem=%s使用了%s。
 
@@ -3557,6 +3563,7 @@ pixelmon.abilities.stormdrain=%s的引水特性使攻擊無效！
 pixelmon.abilities.stormdrainredirect=%s的引水特性把攻擊招式吸引了過去！
 pixelmon.abilities.sturdy=%s因為結實特性而免於被一擊必殺！
 pixelmon.abilities.sturdy2=%s的結實特性抵消了攻擊！
+pixelmon.abilities.suctioncups=%s的吸盤特性使牠不會被強制離開對戰！
 pixelmon.abilities.telepathy=%s的超感知特性使牠不會受到同伴的攻擊技能傷害！
 pixelmon.abilities.teravolt=%s的兆級電壓特性使牠散發出了一個破滅的光環！
 pixelmon.abilities.trace=%s利用了追蹤特性複製了%s的%s特性！
@@ -4022,9 +4029,7 @@ batonpass.failed=%s出招失敗！
 batonpass.pass=%s傳遞接棒！
 batonpass.noleft=There are no Pokemon left to switch to!
 
-teleport.trainerbattle=你不能在訓練師戰鬥中使用瞬間移動！
 teleport.away=$s使用了瞬間移動離開了！
-//The $ sign was intended
 
 applyperish.heard=%s聽到了滅亡之歌！
 applyperish.already=%s已經聽過了滅亡之歌！
@@ -4769,6 +4774,10 @@ pixelmon.effect.recycle=%s回收了%s。
 pixelmon.effect.psychoshift=%s成功地把異常狀態轉移給%s！
 pixelmon.effect.snatch=%s正在等待對手使出招式！
 pixelmon.effect.snatched=%s成功地搶奪了對手的招式！
+pixelmon.effect.powerswap=%s成功地把牠的攻擊和特攻與%s進行了交換！
+pixelmon.effect.guardswap=%s成功地把牠的防禦和特防與%s進行了交換！
+pixelmon.effect.heartswap=%s成功地把牠全部的能力等級與%s進行了交換！
+pixelmon.effect.entrainment=%s成功地把%s的特性變得跟自己一樣！
 
 pixelmon.status.ringheal=%s從水柱圈狀態受到治癒！
 pixelmon.status.burnhurt=%s受到灼傷！
