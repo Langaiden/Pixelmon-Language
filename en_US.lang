@@ -399,6 +399,7 @@ item.JabocaBerry.name=Jaboca Berry
 item.RowapBerry.name=Rowap Berry
 item.LaggingTail.name=Lagging Tail
 item.WiseGlasses.name=Wise Glasses
+item.EjectButton.name=Eject Button
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3356,6 +3357,7 @@ pixelmon.helditems.quickclaw=%s's Quick Claw let it move first!
 pixelmon.helditems.whiteherb=%s's White Herb restored its stats!
 pixelmon.helditems.ginemaberry=%s's Ginema Berry restored its stats!
 pixelmon.helditems.recoilberry=%s's %s hurt %s!
+pixelmon.helditems.ejectbutton=%s's Eject Button caused it to switch out!
 
 pixelmon.items.useitem=%s used the %s.
 
