@@ -4851,6 +4851,7 @@ pixelmon.status.stockpileoff=%s's stockpiled effect wore off!
 pixelmon.status.gravity=The gravity intensified!
 pixelmon.status.gravityaffected=%s couldn't stay airborne because of the intense gravity!
 pixelmon.status.gravityend=The intense gravity returned to normal!
+pixelmon.status.torment=%s was subjected to the torment!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
