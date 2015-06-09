@@ -392,6 +392,9 @@ item.BrightPowder.name=Polvo Brillo
 item.GinemaBerry.name=Baya Ginema
 item.JabocaBerry.name=Baya Jaboca
 item.RowapBerry.name=Baya Magua
+item.LaggingTail.name=Cola Plúmbea
+item.WiseGlasses.name=Gafas Especiales
+item.EjectButton.name=Botón Escape
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -3982,6 +3985,7 @@ pixelmon.helditems.quickclaw=¡Garra Rápida de %s permitió atacar primero!
 pixelmon.helditems.whiteherb=¡Hierba Blanca de %s restauró todos los estados!
 pixelmon.helditems.ginemaberry=¡Baya Ginema de %s restauró todos los estados!
 pixelmon.helditems.recoilberry=¡%s con %s dañó a %s!
+pixelmon.helditems.ejectbutton=¡Botón Escape de %s le hace cambiarse!
 
 //Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
@@ -4106,6 +4110,7 @@ achievement.givenPokeGift=¡Entrega un Poké Regalo!
 achievement.givenPokeGift.desc=Deja un Poké Regalo para otro jugador.
 
 //Abilities
+pixelmon.abilities.activated=¡%s activó %s!
 pixelmon.abilities.aftermath=¡Resquicio de %s hirió a %s!
 pixelmon.abilities.airlock=¡Bucle Aire de %s anula los efectos del tiempo!
 pixelmon.abilities.angerpoint=¡%s está furioso debido a Irascible!
@@ -4113,12 +4118,8 @@ pixelmon.abilities.anticipation=¡%s sintió un escalofrío anticipado!
 pixelmon.abilities.bigpecks=¡Sacapecho de %s impide que baje la Defensa!
 pixelmon.abilities.clearbody=¡Cuerpo Puro de %s evita que bajen los estados!
 pixelmon.abilities.cloudnine=¡Aclimatación de %s anula los efectos del tiempo!
-pixelmon.abilities.competitive=¡Tenacidad aumenta el Ataque Especial de %s!
 pixelmon.abilities.cutecharm=¡Gran Encanto de %s enamoró ciegamente a %s!
 pixelmon.abilities.damp=¡Humedad de %s evita la explosión!
-pixelmon.abilities.defiant=¡Competitivo sube el Ataque de %s!
-pixelmon.abilities.download=¡Descarga de %s sube el Ataque!
-pixelmon.abilities.download2=¡Descarga de %s sube el Ataque Especial!
 pixelmon.abilities.drizzle=¡Llovizna de %s hizo que llueva!
 pixelmon.abilities.drought=¡Sequía de %s hace que el sol se intensifique!
 pixelmon.abilities.dryskinheal=¡Piel Seca hizo que %s curase a %s!
@@ -4144,7 +4145,6 @@ pixelmon.abilities.immunitycure=¡Inmunidad de %s cura el envenenamiento!
 pixelmon.abilities.imposter=¡Impostor de %s hizo que se transformara en %s!
 pixelmon.abilities.insomnia=¡Insomnio de %s evita quedarse dormido!
 pixelmon.abilities.insomniacure=¡Insomnio de %s le despertó!
-pixelmon.abilities.intimidate=¡Intimidación de %s baja el Ataque!
 pixelmon.abilities.ironbarbs=¡Punta Acero de %s hirió a %s!
 pixelmon.abilities.justified=¡Justiciero de %s sube el Ataque!
 pixelmon.abilities.keeneye=¡Vista Lince de %s evita que disminuya la Precisión!
@@ -4159,10 +4159,7 @@ pixelmon.abilities.magicbounce=¡Espejomágico de %s devuelve el Ataque!
 pixelmon.abilities.magmaarmor=¡Escudo Magma de %s impide ser congelado!
 pixelmon.abilities.magmaarmorcure=¡Escudo Magma de %s derrite el hielo!
 pixelmon.abilities.moldbreaker=¡%s rompió el molde!
-pixelmon.abilities.moody=¡Veleta de %s está activado!
-pixelmon.abilities.motordrive=¡Electro Motor sube la Velocidad de %s!
-pixelmon.abilities.motordrive2=¡Electro Motor de %s evita el ataque!
-pixelmon.abilities.moxieboost=¡El Ataque de %s sube gracias a Autoestima!
+pixelmon.abilities.motordrive=¡Electro Motor de %s evita el ataque!
 pixelmon.abilities.oblivious=¡Despiste de %s evita el ataque!
 pixelmon.abilities.obliviouscure=¡Despiste de %s cura el enamoramiento!
 pixelmon.abilities.overcoat=¡Funda de %s evita el ataque!
@@ -4179,14 +4176,11 @@ pixelmon.abilities.rattled=¡Cobardía de %s sube la Velocidad!
 pixelmon.abilities.roughskin=¡Piel Tosca de %s hiere a %s!
 pixelmon.abilities.runaway=¡%s escapó usando Fuga!
 pixelmon.abilities.sandstream=¡Chorro Arena de %s levantó una tormenta de arena!
-pixelmon.abilities.sapsipper=¡Herbívoro sube el Ataque de %s!
-pixelmon.abilities.sapsipper2=¡Herbívoro de %s evita el ataque!
+pixelmon.abilities.sapsipper=¡Herbívoro de %s evita el ataque!
 pixelmon.abilities.shedskin=¡Mudar de %s curó todos los problemas de estado!
 pixelmon.abilities.snowwarning=¡%s hizo granizar con Nevada!
 pixelmon.abilities.soundproof=¡Insonorizar de %s hizo que el ataque no tuviese efecto!
-pixelmon.abilities.speedboost=¡La Velocidad de %s subie gracias a Impulso!
 pixelmon.abilities.static=¡Elec. Estát. de %s paraliza a %s!
-pixelmon.abilities.steadfast=¡La Velocidad de %s subió gracias a Impasible!
 pixelmon.abilities.stormdrain=¡Colector de %s evita el ataque!
 pixelmon.abilities.stormdrainredirect=¡Colector de %s atrae el ataque!
 pixelmon.abilities.sturdy=¡%s resistió gracias a Robustez!
@@ -4205,8 +4199,6 @@ pixelmon.abilities.waterabsorb=¡Absor. Agua atrae el ataque y cura a %s!
 pixelmon.abilities.waterabsorb2=¡Absor. Agua de %s evita el ataque!
 pixelmon.abilities.waterveil=¡Velo Agua de %s evita la quemadura!
 pixelmon.abilities.waterveilcure=¡Velo Agua de %s cura la quemadura!
-pixelmon.abilities.weakarmor=¡Arm. Frágil disminuye la Defensa de %s!
-pixelmon.abilities.weakarmor2=¡Arm. Frágil aumenta la Velocidad de %s!
 pixelmon.abilities.whitesmoke=¡Humo Blanco de %s evita que bajen los estados!
 pixelmon.abilities.wonderguard=¡Superguarda de %s evita el ataque!
 
@@ -4365,6 +4357,12 @@ gui.trainereditor.growth=Tamaño
 gui.trainereditor.gender=Género
 gui.trainereditor.partypokemon=Equipo Pokémon
 
+gui.npceditor.despawn=Eliminar NPC
+gui.npceditor.page1=Página 1
+gui.npceditor.page2=Página 2
+gui.npceditor.page3=Página 3
+gui.npceditor.page4=Página 4
+
 gui.tradereditor.shiny=S
 gui.tradereditor.level=Nivel
 gui.tradereditor.offer=Oferta:
@@ -4375,12 +4373,7 @@ gui.tradereditor.random=Aleatorio
 gui.trainereditor.changeTrader=Intercambio
 
 gui.chooseNPC.trainer=Crear Entrenador
-gui.chooseNPC.chatting=Crear conversación NPC
-gui.npceditor.despawn=Eliminar NPC
-gui.npceditor.page1=Chat Texto 1
-gui.npceditor.page2=Chat Texto 2
-gui.npceditor.page3=Chat Texto 3
-gui.npceditor.page4=Chat Texto 4
+gui.chooseNPC.chatting=Crear NPC con diálogos
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4532,7 +4525,8 @@ trainer.model.firebreather3=Hombre de Fuego
 trainer.model.firebreather4=Equipo Magma
 trainer.model.firebreather5=Murcíelago de Fuego
 
-npc.model.npcchat1=Hombre
+npc.model.npcchat1=Anciano
+npc.model.npcchat2=Hombre
 
 container.MechanicalAnvil=Yunque Mecánico
 
@@ -4610,7 +4604,7 @@ aitargetenvironment.seessomething=Tu Pokémon está mirando algo.
 
 batonpass.failed=¡Pero falló!
 batonpass.pass=¡%s pasó el testigo!
-batonpass.noleft=¡No quedan Pokémon para cambiar!
+batonpass.noleft=¡No hay mas Pokémon para cambiar!
 
 teleport.away=¡$s se teletransportó!
 
@@ -5234,10 +5228,10 @@ pixelmon.effect.attackincreased=¡El Ataque de %s ha aumentado!
 pixelmon.effect.attackdecreased=¡El Ataque de %s ha disminuido!
 pixelmon.effect.defenseincreased=¡La Defensa de %s ha aumentado!
 pixelmon.effect.defensedecreased=¡La Defensa de %s ha disminuido!
-pixelmon.effect.specatkincreased=¡El Ataque Esp. de %s ha aumentado!
-pixelmon.effect.specatkdecreased=¡El Ataque Esp. de %s ha disminuido!
-pixelmon.effect.specdefincreased=¡La Defensa Esp. de %s ha aumentado!
-pixelmon.effect.specdefdecreased=¡La Defensa Esp. de %s ha disminuido!
+pixelmon.effect.spatkincreased=¡El Ataque Esp. de %s ha aumentado!
+pixelmon.effect.spatkdecreased=¡El Ataque Esp. de %s ha disminuido!
+pixelmon.effect.spdefincreased=¡La Defensa Esp. de %s ha aumentado!
+pixelmon.effect.spdefdecreased=¡La Defensa Esp. de %s ha disminuido!
 pixelmon.effect.speedincreased=¡La Velocidad de %s ha aumentado!
 pixelmon.effect.speeddecreased=¡La Velocidad de %s ha disminuido!
 pixelmon.effect.accuracyincreased2=¡La Precisión de %s ha aumentado bastante!
@@ -5248,10 +5242,10 @@ pixelmon.effect.attackincreased2=¡El Ataque de %s ha aumentado bastante!
 pixelmon.effect.attackdecreased2=¡El Ataque de %s ha disminuido severamente!
 pixelmon.effect.defenseincreased2=¡La Defensa de %s ha aumentado bastante!
 pixelmon.effect.defensedecreased2=¡La Defensa de %s ha disminuido severamente!
-pixelmon.effect.specatkincreased2=¡El Ataque Esp. de %s ha aumentado bastante!
-pixelmon.effect.specatkdecreased2=¡El Ataque Esp. de %s ha disminuido severamente!
-pixelmon.effect.specdefincreased2=¡La Defensa Esp. de %s ha aumentado bastante!
-pixelmon.effect.specdefdecreased2=¡La Velocidad de %s ha disminuido severamente!
+pixelmon.effect.spatkincreased2=¡El Ataque Esp. de %s ha aumentado bastante!
+pixelmon.effect.spatkdecreased2=¡El Ataque Esp. de %s ha disminuido severamente!
+pixelmon.effect.spdefincreased2=¡La Defensa Esp. de %s ha aumentado bastante!
+pixelmon.effect.spdefdecreased2=¡La Velocidad de %s ha disminuido severamente!
 pixelmon.effect.speedincreased2=¡La Velocidad de %s ha aumentado bastante!
 pixelmon.effect.speeddecreased2=¡La Velocidad de %s ha disminuido severamente!
 pixelmon.effect.accuracyincreased3=¡La Precisión de %s ha aumentado drásticamente!
@@ -5262,10 +5256,10 @@ pixelmon.effect.attackincreased3=¡El Ataque de %s ha aumentado drásticamente!
 pixelmon.effect.attackdecreased3=¡El Ataque de %s ha disminuido drásticamente!
 pixelmon.effect.defenseincreased3=¡La Defensa de %s ha aumentado drásticamente!
 pixelmon.effect.defensedecreased3=¡La Defensa de %s ha disminuido drásticamente!
-pixelmon.effect.specatkincreased3=¡El Ataque Esp. de %s ha aumentado drásticamente!
-pixelmon.effect.specatkdecreased3=¡El Ataque Esp. de %s ha disminuido drásticamente!
-pixelmon.effect.specdefincreased3=¡La Defensa Esp. de %s ha aumentado drásticamente!
-pixelmon.effect.specdefdecreased3=¡La Defensa Esp. de %s ha disminuido drásticamente!
+pixelmon.effect.spatkincreased3=¡El Ataque Esp. de %s ha aumentado drásticamente!
+pixelmon.effect.spatkdecreased3=¡El Ataque Esp. de %s ha disminuido drásticamente!
+pixelmon.effect.spdefincreased3=¡La Defensa Esp. de %s ha aumentado drásticamente!
+pixelmon.effect.spdefdecreased3=¡La Defensa Esp. de %s ha disminuido drásticamente!
 pixelmon.effect.speedincreased3=¡La Velocidad de %s ha aumentado drásticamente!
 pixelmon.effect.speeddecreased3=¡La Velocidad de %s ha disminuido drásticamente!
 pixelmon.effect.critincreased=¡%s se está preparando para la batalla!
@@ -5439,6 +5433,9 @@ pixelmon.status.applyingrain=¡%s hechó raíces!
 pixelmon.status.ingrain=¡%s absorbió nutrientes con sus raíces!
 pixelmon.status.stockpile=¡%s reservó %d!
 pixelmon.status.stockpileoff=¡El efecto de Reserva de %s desapareció!
+pixelmon.status.gravity=¡Se ha incrementado la gravedad!
+pixelmon.status.gravityaffected=¡%s no puede permanecer en el aire debido a la intensa gravedad!
+pixelmon.status.gravityend=¡La gravedad volvió a la normalidad!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
