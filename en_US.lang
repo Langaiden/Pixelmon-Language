@@ -3240,6 +3240,7 @@ pixelmon.command.general.lvlerror=Error in level.
 pixelmon.command.general.notingame=%s is not in the game!
 pixelmon.command.general.invalid=Invalid arguments!
 pixelmon.command.general.invalidplayer=Invalid name! Try again.
+pixelmon.command.general.inbattle=You can't use this command while in a battle!
 pixelmon.command.give.givesuccess=Successfully gave %s a %s!
 pixelmon.command.give.notifygive=%s gave %s a %s!
 pixelmon.command.give.givesuccessegg=Successfully gave %s a %s Egg!
