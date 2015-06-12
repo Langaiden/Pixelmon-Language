@@ -4854,6 +4854,7 @@ pixelmon.status.gravityaffected=%s couldn't stay airborne because of the intense
 pixelmon.status.gravityend=The intense gravity returned to normal!
 pixelmon.status.torment=%s was subjected to the torment!
 pixelmon.status.foresight=%s was identified!
+pixelmon.status.gastroacid=%s's Ability was suppressed!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
