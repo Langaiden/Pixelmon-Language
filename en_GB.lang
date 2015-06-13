@@ -4850,6 +4850,8 @@ pixelmon.status.gravityend=The intense gravity returned to normal!
 pixelmon.status.torment=%s was subjected to the torment!
 pixelmon.status.foresight=%s was identified!
 pixelmon.status.gastroacid=%s's Ability was suppressed!
+pixelmon.status.powersplit=%s shared its Attack and Special Attack with %s!
+pixelmon.status.guardsplit=%s shared its Defence and Special Defence with %s!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
