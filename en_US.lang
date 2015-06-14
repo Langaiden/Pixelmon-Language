@@ -4857,6 +4857,8 @@ pixelmon.status.foresight=%s was identified!
 pixelmon.status.gastroacid=%s's Ability was suppressed!
 pixelmon.status.powersplit=%s shared its Attack and Special Attack with %s!
 pixelmon.status.guardsplit=%s shared its Defense and Special Defense with %s!
+pixelmon.status.wonderroom=It created a bizarre environment where Defense and Special Defense are switched!
+pixelmon.status.wonderroomend=The bizarre environment returned to normal.
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
