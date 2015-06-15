@@ -378,7 +378,12 @@ item.WhiteHerb.name=白色药草
 item.BigRoot.name=巨大根茎
 item.ZoomLens.name=对焦镜片（第四世代起）
 item.BrightPowder.name=亮光之粉
-
+item.GinemaBerry.name=洋葱果
+item.JabocaBerry.name=嘉宝果
+item.RowapBerry.name=莲雾果
+item.LaggingTail.name=后攻之尾
+item.WiseGlasses.name=知识眼镜
+item.EjectButton.name=逃脱按钮
 
 
 item.Full Incense.name=满腹熏香
@@ -3333,7 +3338,10 @@ pixelmon.helditems.redcard=%s 举起了红牌！
 pixelmon.helditems.mentalherb=%s 利用自身的心灵药草治愈了感官！
 pixelmon.helditems.stickybarb=%s 被它的附针伤害了！
 pixelmon.helditems.quickclaw=%s 的先攻之爪让它先出！
-pixelmon.whiteherb=%s 的白色药草恢复了它的状态！
+pixelmon.helditems.whiteherb=%s 的白色药草恢复了它的状态！
+pixelmon.helditems.ginemaberry=%s 的洋葱果恢复了它的状态！
+pixelmon.helditems.recoilberry=%s 的 %s 伤害了 %s！
+pixelmon.helditems.ejectbutton=%s 的逃脱按钮使他逃离！
 
 pixelmon.items.useitem=%s 使用了 %s 。
 
@@ -3469,6 +3477,7 @@ achievement.givenPokeGift=往神奇宝贝礼物盒里放东西！
 achievement.givenPokeGift.desc=送给其他玩家礼物！
 
 //Abilities
+pixelmon.abilities.activated=%s 的 %s 激活了！
 pixelmon.abilities.aftermath=%s 的引爆伤害了 %s ！
 pixelmon.abilities.airlock=%s 的气闸使天气的影响消失！
 pixelmon.abilities.angerpoint=愤怒穴道使 %s 变得大怒！
@@ -3745,6 +3754,7 @@ gui.trainereditor.nickname=昵称
 gui.trainereditor.growth=体型
 gui.trainereditor.gender=性别
 gui.trainereditor.partypokemon=神奇宝贝队伍
+gui.trainereditor.delete=删除训练师
 
 gui.tradereditor.shiny=S
 gui.tradereditor.level=等级
@@ -3927,7 +3937,8 @@ trainer.model.firebreather3=火男
 trainer.model.firebreather4=火岩队
 trainer.model.firebreather5=火焰蝙蝠
 
-npc.model.npcchat1=男人
+npc.model.npcchat1=老男人
+npc.model.npcchat2=男人
 
 container.MechanicalAnvil=机械铁砧
 
@@ -4814,6 +4825,9 @@ pixelmon.status.applyingrain=%s 建立了根深蒂固状态！
 pixelmon.status.ingrain=%s 吸收了来自根的营养物质！
 pixelmon.status.stockpile=%s 储存了 %d！
 pixelmon.status.stockpileoff=%s 的储存效果消失了！
+pixelmon.status.gravity=重力效果增强！
+pixelmon.status.gravityaffected=%s 因为强重力，而不能在空中停留！
+pixelmon.status.gravityend=强重力效果恢复正常！
 
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
