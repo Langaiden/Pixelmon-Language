@@ -395,6 +395,7 @@ item.RowapBerry.name=Baya Magua
 item.LaggingTail.name=Cola Plúmbea
 item.WiseGlasses.name=Gafas Especiales
 item.EjectButton.name=Botón Escape
+item.EnigmaBerry.name=Baya Enigma
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -3868,6 +3869,7 @@ pixelmon.command.general.lvlerror=Error en el nivel.
 pixelmon.command.general.notingame=¡%s no está en el juego!
 pixelmon.command.general.invalid=¡Argumentos no validos!
 pixelmon.command.general.invalidplayer=¡Nombre no valido! Intentalo de nuevo.
+pixelmon.command.general.inbattle=¡No puedes usar este comando durante una batalla!
 pixelmon.command.give.givesuccess=¡%s ha obtenido con éxito un %s!
 pixelmon.command.give.notifygive=¡%s dio a %s un %s!
 pixelmon.command.give.givesuccessegg=¡%s ha obtenido con éxito un Huevo de %s!
@@ -3877,17 +3879,17 @@ pixelmon.command.heal.healed=¡Se han curado con éxito los Pokemon de %s!
 pixelmon.command.heal.notifyhealed=¡%s ha curado con éxito los Pokemon de %s!
 pixelmon.command.spawn.spawned=Ha aparecido con éxito un %s.
 pixelmon.command.spawn.spawnednotify=%s ha spawneado con éxito un %s.
-pixelmon.command.unlock=Se han desbloqueado con éxito los Pokémon de %s.
+pixelmon.command.unlock=Se ha desbloqueado con éxito los Pokémon de %s.
 pixelmon.command.copyToDB.disabled=¡Guardar en la DataBase no está activado en "config"!
 
 //Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno!¡ %s calló al suelo!
-pixelmon.drops.single=¡Has recibido %s!
-pixelmon.drops.singlean=¡Has recibido %s!
+pixelmon.drops.single=¡Has recibido un(a) %s!
+pixelmon.drops.singlean=¡Has recibido un(a) %s!
 pixelmon.drops.singlenoa=¡Has recibido %s!
-pixelmon.drops.plural=¡Has recibido %d %ss!
-pixelmon.drops.plural2=¡Has recibido %d %ss!
-pixelmon.drops.plurales=¡Has recibido %d %ses!
+pixelmon.drops.plural=¡Has recibido %d de %s!
+pixelmon.drops.plural2=¡Has recibido %d de %s!
+pixelmon.drops.plurales=¡Has recibido %d de %s!
 
 pixelmon.interaction.rarecandy=Subir de nivel con %s no está permitido.
 pixelmon.interaction.tmknown=¡%s ya conoce %s!
@@ -3985,7 +3987,7 @@ pixelmon.helditems.quickclaw=¡Garra Rápida de %s permitió atacar primero!
 pixelmon.helditems.whiteherb=¡Hierba Blanca de %s restauró todos los estados!
 pixelmon.helditems.ginemaberry=¡Baya Ginema de %s restauró todos los estados!
 pixelmon.helditems.recoilberry=¡%s con %s dañó a %s!
-pixelmon.helditems.ejectbutton=¡Botón Escape de %s le hace cambiarse!
+pixelmon.helditems.ejectbutton=¡%s abandona la batalla debido a Botón Escape!
 
 //Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
@@ -4279,17 +4281,17 @@ gui.renamePoke.cancel=gui.cancel
 gui.renamePoke.renamebutton=selectWorld.renameButton
 gui.renamePoke.renamePokemon=Renombrar Pokémon
 
-gui.screenpokechecker.moves=Movimientos
-gui.screenpokechecker.stats=Estadísticas
+gui.screenpokechecker.moves=Movs.
+gui.screenpokechecker.stats=Estadíst.
 gui.screenpokechecker.rename=Renombrar
 gui.screenpokechecker.lvl=Nvl: 
 gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=Estado
 gui.screenpokechecker.fainted=*Debilitado*
-gui.screenpokechecker.texp=Experiencia
+gui.screenpokechecker.texp=Experiencia Total
 gui.screenpokechecker.levelup=Exp. Restante
 gui.screenpokechecker.summary=Estado
-gui.screenpokechecker.ot=Entrenador Original
+gui.screenpokechecker.ot=E.O.
 gui.screenpokechecker.ability=Habilidad
 
 
@@ -4575,10 +4577,10 @@ battlecontroller.sendout=¡%s sacó a %s!
 battlecontroller.switch=¡Elige un Pokémon para combatir!
 battlecontroller.targets=Elige un objetivo para $a.
 
-battlecontroller.afk=%s has gone AFK for %d seconds, auto-battler taking turns every %d seconds!
-battlecontroller.selfafk=You have gone AFK for %d seconds, auto-battler will take your turns every %d seconds!
-battlecontroller.afkback=%s is no longer AFK, auto-battler disengaged!
-battlecontroller.selfafkback=You are no longer AFK, auto-battler disengaged!
+battlecontroller.afk=¡%s está AFK durante %d segundos, la auto-batalla toma los turnos cada %d segundos!
+battlecontroller.selfafk=¡Estás AFK durante %d segundos, la auto-batalla tomará tus turnos cada %d segundos!
+battlecontroller.afkback=¡%s ya no está AFK, auto-batalla desactivada!
+battlecontroller.selfafkback=¡Ya no estás AFK, auto-batalla desactivada!
 
 battleController.recievedDamage=¡%s recibió %d daño de %s!
 
@@ -5436,6 +5438,13 @@ pixelmon.status.stockpileoff=¡El efecto de Reserva de %s desapareció!
 pixelmon.status.gravity=¡Se ha incrementado la gravedad!
 pixelmon.status.gravityaffected=¡%s no puede permanecer en el aire debido a la intensa gravedad!
 pixelmon.status.gravityend=¡La gravedad volvió a la normalidad!
+pixelmon.status.torment=¡%s es víctima de Tormento!
+pixelmon.status.foresight=¡%s fue identificado!
+pixelmon.status.gastroacid=¡La habilidad de %s fue suprimida!
+pixelmon.status.powersplit=¡%s comparte su Ataque y Ataque Esp. con %s!
+pixelmon.status.guardsplit=¡%s comparte su Defensa y Defensa Esp. con %s!
+pixelmon.status.wonderroom=¡Se ha creado un espacio en el que la Defensa y Defensa Esp. se invierten!
+pixelmon.status.wonderroomend=El lugar volvió a la normalidad.
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
