@@ -384,6 +384,7 @@ item.RowapBerry.name=莲雾果
 item.LaggingTail.name=后攻之尾
 item.WiseGlasses.name=知识眼镜
 item.EjectButton.name=逃脱按钮
+item.EnigmaBerry.name=谜团果实
 
 
 item.Full Incense.name=满腹熏香
@@ -3217,6 +3218,7 @@ pixelmon.command.general.lvlerror=等级错误！
 pixelmon.command.general.notingame=%s 还未被加入游戏！
 pixelmon.command.general.invalid=无效的参数！
 pixelmon.command.general.invalidplayer=无效的名字！请重试！
+pixelmon.command.general.inbattle=您不能在战斗中使用此命令！
 pixelmon.command.give.givesuccess=成功给予玩家 %s 一只 %s！
 pixelmon.command.give.notifygive=%s 给与了玩家 %s 一只 %s!
 pixelmon.command.give.givesuccessegg=成功给予玩家 %s 一个 %s 的蛋！
@@ -4828,6 +4830,13 @@ pixelmon.status.stockpileoff=%s 的储存效果消失了！
 pixelmon.status.gravity=重力效果增强！
 pixelmon.status.gravityaffected=%s 因为强重力，而不能在空中停留！
 pixelmon.status.gravityend=强重力效果恢复正常！
+pixelmon.status.torment=%s 被进行了假指控！
+pixelmon.status.foresight=%s 被看破了！
+pixelmon.status.gastroacid=%s 的特性被抑制了！
+pixelmon.status.powersplit=%s 与 %s 分享了它的攻击和特攻！
+pixelmon.status.guardsplit=%s 与 %s 分享了它的防御和特防！
+pixelmon.status.wonderroom=它制造了一个奇妙的空间交换了防御与特防！
+pixelmon.status.wonderroomend=奇妙的空间恢复正常了。
 
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
