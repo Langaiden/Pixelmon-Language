@@ -3376,12 +3376,28 @@ pixelmon.blocks.chestmodePL1D=Permanent, Limit 1 Drop
 pixelmon.blocks.chestmodeFCFS=First Come, First Served
 
 pixelmon.blocks.orbnotfull=Your orb is not full!
+pixelmon.blocks.orbwrong=Your orb is not compatible with this shrine!
+pixelmon.blocks.shrineused=This shrine has already been activated!
 
 pixelmon.blocks.tradefull=Trading Machine full!
 
 pixelmon.blocks.noclone=You have nothing to clone!
 
-pixelmon.orb.amountfull=You need %d more kills for the orb to be full!
+pixelmon.blocks.fossilmachine.fossil=Insert Fossil
+pixelmon.blocks.fossilmachine.pokeball=Insert Poké Ball
+pixelmon.blocks.fossilmachine.retrieve=Retrieve Pokémon
+pixelmon.blocks.fossilmachine.working=Working
+
+pixelmon.blocks.cloningmachine.error=Error
+pixelmon.blocks.cloningmachine.finished=Finished
+pixelmon.blocks.cloningmachine.scanning=Scanning
+pixelmon.blocks.cloningmachine.mew=Insert Mew
+pixelmon.blocks.cloningmachine.catalyst=Insert Catalyst
+pixelmon.blocks.cloningmachine.retrieve=Retrieve Pokémon
+pixelmon.blocks.cloningmachine.processing=Processing...
+pixelmon.blocks.cloningmachine.boost=Boost
+
+pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
 
 //Achievements
@@ -3637,9 +3653,10 @@ gui.guiDoctor.waiting=Waiting
 
 gui.trading.ready=Ready
 gui.trading.notready=Not Ready
-gui.trading.want=$d wants to trade
+gui.trading.want=$d wants to trade.
 gui.trading.nuf=No user found!
 gui.trading.trade=Trade
+gui.trading.select=Select a Pokémon.
 
 gui.pokedex.pokedex=Pokédex
 gui.pokedex.height=Height:
@@ -3670,8 +3687,8 @@ gui.renamePoke.renamePokemon=Rename Pokémon
 gui.screenpokechecker.moves=Moves
 gui.screenpokechecker.stats=Stats
 gui.screenpokechecker.rename=Rename
-gui.screenpokechecker.lvl=Lvl:
-gui.screenpokechecker.number=No.
+gui.screenpokechecker.lvl=Lvl: 
+gui.screenpokechecker.number=No. 
 gui.screenpokechecker.status=Status
 gui.screenpokechecker.fainted=*FAINTED*
 gui.screenpokechecker.texp=Experience
@@ -3773,7 +3790,7 @@ gui.starter.trademark5=Now, please pick your desired starter Pokémon!
 gui.starter.comingsoon=Coming Soon...
 gui.starter.disabled=Disabled
 
-gui.pc.box=Box:
+gui.pc.box=Box: 
 
 gui.selectpokemon.message=Select a Pokémon!
 
@@ -3956,16 +3973,16 @@ attack.category.status=Status
 nbt.attack.name=Attack:
 nbt.defence.name=Defence:
 nbt.speed.name=Speed:
-nbt.spattack.name=Sp.Attack:
-nbt.spdefense.name=Sp.Defence:
+nbt.spattack.name=Sp. Attack:
+nbt.spdefense.name=Sp. Defence:
 nbt.hp.name=HP:
 nbt.pp.name=PP:
 
 nbt.attack2.name=Attack
 nbt.defense2.name=Defence
 nbt.speed2.name=Speed
-nbt.spattack2.name=Sp.Attack
-nbt.spdefense2.name=Sp.Defence
+nbt.spattack2.name=Sp. Attack
+nbt.spdefense2.name=Sp. Defence
 nbt.hp2.name=HP
 
 //  Main Chat Messages
@@ -3991,7 +4008,7 @@ battlecontroller.sendout=%s sent out %s!
 battlecontroller.switch=Choose a new Pokémon to send out!
 battlecontroller.targets=Choose the target for $a.
 
-battlecontroller.afk=%s has gone AFK for %d seconds, auto-battler taking turns every %d seconds!
+battlecontroller.afk=%s has gone AFK for %d seconds. Auto-battler taking turns every %d seconds!
 battlecontroller.selfafk=You have gone AFK for %d seconds. Auto-battler will take your turns every %d seconds!
 battlecontroller.afkback=%s is no longer AFK. Auto-battler disengaged!
 battlecontroller.selfafkback=You are no longer AFK. Auto-battler disengaged!
@@ -4055,6 +4072,8 @@ sendpixelmon.sentout=You sent out %s!
 sendpixelmon.cantbattle=%s is unable to battle!
 sendpixelmon.inbattle=%s is in a battle!
 sendpixelmon.retrieved=You retrieved %s!
+
+spawn.legendarymessage=A Legendary has spawned in a %s biome!
 
 @Author Dayaffe
 //Blocks
