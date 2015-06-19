@@ -4694,7 +4694,7 @@ pixelmon.effect.speedtoohigh=%s's Speed can't go higher!
 pixelmon.effect.speedtoolow=%s's Speed can't go lower!
 pixelmon.effect.surroundedbywater=%s is already surrounded by water!
 pixelmon.effect.surroundwithwater=%s surrounds itself in a veil of water!
-pixelmon.effect.burnt=%s has been burnt!
+pixelmon.effect.burnt=%s has been burned!
 pixelmon.effect.failed=%s failed!
 pixelmon.effect.nomoveyet=%s hasn't used a move yet!
 pixelmon.effect.alreadydisabled=%s is already disabled!
@@ -4775,6 +4775,7 @@ pixelmon.effect.guardswap=%s swapped its Defense and Special Defense changes wit
 pixelmon.effect.heartswap=%s swapped its stat changes with %s!
 pixelmon.effect.entrainment=%s's Ability was changed to %s!
 pixelmon.effect.feint=%s removed %s's protection!
+pixelmon.effect.fling=%s flung its %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
