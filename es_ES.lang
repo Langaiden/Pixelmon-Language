@@ -4005,12 +4005,28 @@ pixelmon.blocks.chestmodePL1D=Permanente, Límite 1 Drop
 pixelmon.blocks.chestmodeFCFS=Primero en llegar, Primero en ser recompensado
 
 pixelmon.blocks.orbnotfull=¡Tu Orbe no esta lleno!
+pixelmon.blocks.orbwrong=¡El orbe no es compatible con este altar!
+pixelmon.blocks.shrineused=¡El altar ya ha sido activado!
 
 pixelmon.blocks.tradefull=¡La Máquina de Intercambio está llena!
 
 pixelmon.blocks.noclone=¡No tienes nada para clonar!
 
-pixelmon.orb.amountfull=¡Necesitas %d combates más para llenar el Orbe!
+pixelmon.blocks.fossilmachine.fossil=Añadir Fósil
+pixelmon.blocks.fossilmachine.pokeball=Añadir Poké Ball
+pixelmon.blocks.fossilmachine.retrieve=Recueperar Pokémon
+pixelmon.blocks.fossilmachine.working=Trabajando
+
+pixelmon.blocks.cloningmachine.error=Error
+pixelmon.blocks.cloningmachine.finished=Terminado
+pixelmon.blocks.cloningmachine.scanning=Escaneando
+pixelmon.blocks.cloningmachine.mew=Añadir a Mew
+pixelmon.blocks.cloningmachine.catalyst=Añadir Catalizador
+pixelmon.blocks.cloningmachine.retrieve=Recibir Pokémon
+pixelmon.blocks.cloningmachine.processing=Procesando...
+pixelmon.blocks.cloningmachine.boost=Mejorar
+
+pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=¡El Orbe está lleno!
 
 //Achievements
@@ -4249,7 +4265,7 @@ gui.guiDoctor.waiting=Esperando
 
 gui.trading.ready=Listo
 gui.trading.notready=Cancelado
-gui.trading.want=$d quiere intercambiar
+gui.trading.want=$d quiere intercambiar.
 gui.trading.nuf=¡No se encuentra al Pokémon!
 gui.trading.trade=Intercambio
 
@@ -4285,7 +4301,7 @@ gui.screenpokechecker.moves=Movs.
 gui.screenpokechecker.stats=Estadíst.
 gui.screenpokechecker.rename=Renombrar
 gui.screenpokechecker.lvl=Nvl: 
-gui.screenpokechecker.number=No.
+gui.screenpokechecker.number=No. 
 gui.screenpokechecker.status=Estado
 gui.screenpokechecker.fainted=*Debilitado*
 gui.screenpokechecker.texp=Experiencia Total
@@ -4387,7 +4403,7 @@ gui.starter.trademark5=¡Ahora, porfavor escoje tu Pokémon inicial!
 gui.starter.commingsoon=Proximamente...
 gui.starter.disabled=No permitido
 
-gui.pc.box=Caja:
+gui.pc.box=Caja: 
 
 gui.selectpokemon.message=¡Selecciona un Pokémon!
 
@@ -4577,8 +4593,8 @@ battlecontroller.sendout=¡%s sacó a %s!
 battlecontroller.switch=¡Elige un Pokémon para combatir!
 battlecontroller.targets=Elige un objetivo para $a.
 
-battlecontroller.afk=¡%s está AFK durante %d segundos, la auto-batalla toma los turnos cada %d segundos!
-battlecontroller.selfafk=¡Estás AFK durante %d segundos, la auto-batalla tomará tus turnos cada %d segundos!
+battlecontroller.afk=%s está AFK durante %d segundos. ¡La auto-batalla toma los turnos cada %d segundos!
+battlecontroller.selfafk=Estás AFK durante %d segundos. ¡La auto-batalla tomará tus turnos cada %d segundos!
 battlecontroller.afkback=¡%s ya no está AFK, auto-batalla desactivada!
 battlecontroller.selfafkback=¡Ya no estás AFK, auto-batalla desactivada!
 
@@ -4642,6 +4658,8 @@ sendpixelmon.sentout=¡Sacaste a %s!
 sendpixelmon.cantbattle=¡%s no puede combatir!
 sendpixelmon.inbattle=¡%s está en combate!
 sendpixelmon.retrieved=¡Has retirado a %s!
+
+spawn.legendarymessage=¡Ha aparecido un Legendario en el bioma %s!
 
 @Author Dayaffe
 //Blocks
@@ -5359,6 +5377,8 @@ pixelmon.effect.powerswap=¡%s intercambió todos los cambios de Ataque y Ataque
 pixelmon.effect.guardswap=¡%s intercambió todos los cambios de Defensa y Defensa Esp. con %s!
 pixelmon.effect.heartswap=¡%s intercambió todos los cambios de estado con %s!
 pixelmon.effect.entrainment=¡La habilidad de %s ha cambiado a %s!
+pixelmon.effect.feint=¡%s eliminó la protección de %s!
+pixelmon.effect.fling=¡%s tira su %s!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5445,6 +5465,7 @@ pixelmon.status.powersplit=¡%s comparte su Ataque y Ataque Esp. con %s!
 pixelmon.status.guardsplit=¡%s comparte su Defensa y Defensa Esp. con %s!
 pixelmon.status.wonderroom=¡Se ha creado un espacio en el que la Defensa y Defensa Esp. se invierten!
 pixelmon.status.wonderroomend=El lugar volvió a la normalidad.
+pixelmon.status.lockon=¡%s apuntó a %s!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
