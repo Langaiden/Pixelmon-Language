@@ -4026,7 +4026,7 @@ pixelmon.blocks.cloningmachine.retrieve=Recibir Pokémon
 pixelmon.blocks.cloningmachine.processing=Procesando...
 pixelmon.blocks.cloningmachine.boost=Mejorar
 
-pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
+pixelmon.orb.amountfull=¡Necesitas ganar %d combates más para llenar el orbe!
 pixelmon.orb.isfull=¡El Orbe está lleno!
 
 //Achievements
