@@ -3989,6 +3989,8 @@ pixelmon.helditems.ginemaberry=¡Baya Ginema de %s restauró todos los estados!
 pixelmon.helditems.recoilberry=¡%s con %s dañó a %s!
 pixelmon.helditems.ejectbutton=¡%s abandona la batalla debido a Botón Escape!
 
+pixelmon.items.useitem=%s usó %s.
+
 //Blocks
 pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
 
@@ -3998,7 +4000,7 @@ pixelmon.blocks.chestfound=¡Has encontrado %s!
 pixelmon.blocks.timedclaim=¡Has recibido esta recompensa hace poco! ¡Intentalo de nuevo más tarde!
 pixelmon.blocks.claimedloot=¡Ya has recibido esta recompensa!
 pixelmon.blocks.ownerchanged=¡El propietario ha cambiado de servidor!
-pixelmon.blocks.chestset=Categoría del Poke Cofre: %s
+pixelmon.blocks.chestset=Objeto añadido al Poke Cofre: %s
 pixelmon.blocks.visible=Visibilidad del Poke Cofre: %s
 pixelmon.blocks.chestmode=Modo del Cofre: %s
 pixelmon.blocks.chestmodePL1D=Permanente, Límite 1 Drop
