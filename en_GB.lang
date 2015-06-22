@@ -4878,6 +4878,8 @@ pixelmon.status.guardsplit=%s shared its Defence and Special Defence with %s!
 pixelmon.status.wonderroom=It created a bizarre environment where Defence and Special Defence are switched!
 pixelmon.status.wonderroomend=The bizarre environment returned to normal.
 pixelmon.status.lockon=%s took aim at %s!
+pixelmon.status.endure=%s braced itself!
+pixelmon.status.endurehit=%s endured the hit!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
