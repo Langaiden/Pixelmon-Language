@@ -396,6 +396,7 @@ item.LaggingTail.name=Cola Plúmbea
 item.WiseGlasses.name=Gafas Especiales
 item.EjectButton.name=Botón Escape
 item.EnigmaBerry.name=Baya Enigma
+item.BindingBand.name=Banda Atadura
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -5468,6 +5469,8 @@ pixelmon.status.guardsplit=¡%s comparte su Defensa y Defensa Esp. con %s!
 pixelmon.status.wonderroom=¡Se ha creado un espacio en el que la Defensa y Defensa Esp. se invierten!
 pixelmon.status.wonderroomend=El lugar volvió a la normalidad.
 pixelmon.status.lockon=¡%s apuntó a %s!
+pixelmon.status.endure=¡%s se ha fortalecido!
+pixelmon.status.endurehit=¡%s aguantó el golpe!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
