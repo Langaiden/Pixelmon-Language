@@ -4885,6 +4885,8 @@ pixelmon.status.wonderroomend=The bizarre environment returned to normal.
 pixelmon.status.lockon=%s took aim at %s!
 pixelmon.status.endure=%s braced itself!
 pixelmon.status.endurehit=%s endured the hit!
+pixelmon.status.wideguard=Wide Guard protected %s's team!
+pixelmon.status.wideguardprotect=Wide Guard protected %s!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
