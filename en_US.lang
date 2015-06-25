@@ -4793,9 +4793,10 @@ pixelmon.effect.snatched=%s snatched the opponent's move!
 pixelmon.effect.powerswap=%s swapped its Attack and Special Attack changes with %s!
 pixelmon.effect.guardswap=%s swapped its Defense and Special Defense changes with %s!
 pixelmon.effect.heartswap=%s swapped its stat changes with %s!
-pixelmon.effect.entrainment=%s's Ability was changed to %s!
+pixelmon.effect.entrainment=%s's Ability was changed from %s to %s!
 pixelmon.effect.feint=%s removed %s's protection!
 pixelmon.effect.fling=%s flung its %s!
+pixelmon.effect.soak=%s transformed into the Water type!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -4885,6 +4886,8 @@ pixelmon.status.wonderroomend=The bizarre environment returned to normal.
 pixelmon.status.lockon=%s took aim at %s!
 pixelmon.status.endure=%s braced itself!
 pixelmon.status.endurehit=%s endured the hit!
+pixelmon.status.wideguard=Wide Guard protected %s's team!
+pixelmon.status.wideguardprotect=Wide Guard protected %s!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
