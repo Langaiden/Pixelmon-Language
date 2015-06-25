@@ -3371,13 +3371,29 @@ pixelmon.blocks.chestmode=道具箱模式：  %s
 pixelmon.blocks.chestmodePL1D=永久性存在,限制仅掉落 1 个物品
 pixelmon.blocks.chestmodeFCFS=先到先得！
 
-pixelmon.blocks.orbnotfull=您的珠还没满！
+pixelmon.blocks.orbnotfull=您的珠子还没满！
+pixelmon.blocks.orbwrong=您的珠子与此神社不兼容！
++pixelmon.blocks.shrineused=这个神社已经被激活了！
 
 pixelmon.blocks.tradefull=交换机已满！
 
 pixelmon.blocks.noclone=您没有任何东西需要克隆！
 
-pixelmon.orb.amountfull=您需要 %d 更多地战斗才能使珠变满
+pixelmon.blocks.fossilmachine.fossil=放入化石
+pixelmon.blocks.fossilmachine.pokeball=放入宝贝球
+pixelmon.blocks.fossilmachine.retrieve=取回神奇宝贝
+pixelmon.blocks.fossilmachine.working=工作中
+
+pixelmon.blocks.cloningmachine.error=错误
+pixelmon.blocks.cloningmachine.finished=已完成
+pixelmon.blocks.cloningmachine.scanning=扫描中
+pixelmon.blocks.cloningmachine.mew=放入梦幻
+pixelmon.blocks.cloningmachine.catalyst=放入催化剂
+pixelmon.blocks.cloningmachine.retrieve=取回神奇宝贝
+pixelmon.blocks.cloningmachine.processing=处理中...
+pixelmon.blocks.cloningmachine.boost=加速
+
++pixelmon.orb.amountfull=你需要 %d 的击杀数来填满宝珠！
 pixelmon.orb.isfull=您的珠满了！
 
 //achievements
@@ -3647,8 +3663,9 @@ gui.guiDoctor.waiting=请您稍等
 gui.trading.ready=准备
 gui.trading.trade=通讯交换
 gui.trading.notready=准备未完成
-gui.trading.want=玩家 $d 想要进行通讯交换
+gui.trading.want=玩家 $d 想要进行通讯交换。
 gui.trading.nuf=没有找到玩家！
+gui.trading.select=选择一个神奇宝贝。
 
 gui.pokedex.pokedex=神奇宝贝图鉴
 gui.pokedex.height=身高：
@@ -3681,8 +3698,8 @@ gui.renamePoke.renamePokemon=重命名您的神奇宝贝
 gui.screenpokechecker.moves=技能
 gui.screenpokechecker.stats=统计
 gui.screenpokechecker.rename=重命名
-gui.screenpokechecker.lvl=Lvl:  
-gui.screenpokechecker.number=No.
+gui.screenpokechecker.lvl=Lvl: 
+gui.screenpokechecker.number=No. 
 gui.screenpokechecker.status=状态
 gui.screenpokechecker.fainted=*濒死*
 gui.screenpokechecker.texp=总经验值
@@ -3785,7 +3802,7 @@ gui.starter.trademark5=现在请选择与您成为伙伴的初学者神奇宝贝
 gui.starter.comingsoon=即将开放…
 gui.starter.disabled=未启用
 
-gui.pc.box=精灵箱:
+gui.pc.box=精灵箱: 
 
 gui.update.text=更改
 gui.label.text=标签
@@ -3989,7 +4006,7 @@ battlecontroller.targets=选择了 $a ！
 
 
 
-battlecontroller.afk=%s 已经AFK了 %d 秒 自动战斗已经接管训练师操作 %d 秒！
+battlecontroller.afk=%s 已经AFK了 %d 秒。 自动战斗已经接管训练师操作 %d 秒！
 battlecontroller.selfafk=您已经AFK了 %d 秒！自动战斗将接管您的操作 %d 秒！
 battlecontroller.afkback=%s 从AFK状态回来了！自动战斗已结束！
 battlecontroller.selfafkback=您从AFK状态回来了！自动战斗已将操作权交还给您！
@@ -4052,6 +4069,8 @@ sendpixelmon.sentout=您放出了 %s!
 sendpixelmon.cantbattle=%s 现在无法召唤（体力透支或者不可用[？]）
 sendpixelmon.inbattle=%s 正在战斗中！
 sendpixelmon.retrieved=您收回了  %s!
+
+spawn.legendarymessage=一只神兽出现在了 %s 地形！
 
 @Author Dayaffe
 //Blocks
@@ -4673,7 +4692,7 @@ pixelmon.effect.speedincreased3=%s 的速度大幅提高！
 pixelmon.effect.speeddecreased3=%s 的速度急剧下降！
 pixelmon.effect.surroundedbywater=%s 被水包围了！
 pixelmon.effect.surroundwithwater=%s 用水包裹住了自己！
-pixelmon.effect.burnt=%s 被烧伤了！
+pixelmon.effect.burnt=%s 已经被烧伤了！
 pixelmon.effect.failed=%s 失败了！
 pixelmon.effect.nomoveyet=%s 还没有做任何动作！
 pixelmon.effect.alreadydisabled=%s 已经失效了！
@@ -4723,6 +4742,8 @@ pixelmon.effect.powerswap=%s 将它的攻击和特攻与 %s 进行了交换！
 pixelmon.effect.guardswap=%s 将它的防御和特防与 %s 进行了交换！
 pixelmon.effect.heartswap=%s 将它的能力等级与 %s 进行了交换！
 pixelmon.effect.entrainment=%s 的能力被 %s 改变！
+pixelmon.effect.feint=%s 移除了 %s 的守住！
+pixelmon.effect.fling=%s 将它扔到了 %s 身上！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
 pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
@@ -4837,6 +4858,7 @@ pixelmon.status.powersplit=%s 与 %s 分享了它的攻击和特攻！
 pixelmon.status.guardsplit=%s 与 %s 分享了它的防御和特防！
 pixelmon.status.wonderroom=它制造了一个奇妙的空间交换了防御与特防！
 pixelmon.status.wonderroomend=奇妙的空间恢复正常了。
+pixelmon.status.lockon=%s 瞄准了 %s！
 
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
