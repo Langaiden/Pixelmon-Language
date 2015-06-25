@@ -3662,14 +3662,14 @@ gui.acceptdeny.accept=Потвердить
 gui.acceptdeny.deny=Отменить
 
 gui.renamePoke.Reset=Сбросить
-gui.renamePoke.cancel=gui.cancel
-gui.renamePoke.renamebutton=selectWorld.renameButton
+gui.renamePoke.cancel=Отменить
+gui.renamePoke.renamebutton=Переименовать
 gui.renamePoke.renamePokemon=Переименовать покемона
 
 gui.screenpokechecker.moves=Перемещение
 gui.screenpokechecker.stats=Статистика
 gui.screenpokechecker.rename=Переименовать
-gui.screenpokechecker.lvl=Уровень:
+gui.screenpokechecker.lvl=Ур:
 gui.screenpokechecker.number=Нет.
 gui.screenpokechecker.status=Статус
 gui.screenpokechecker.fainted=*ПОВЕРЖЕН*
@@ -3677,7 +3677,7 @@ gui.screenpokechecker.texp=Общий опыт
 gui.screenpokechecker.levelup=Повышение уровня
 gui.screenpokechecker.summary=Сводка
 gui.screenpokechecker.ot=Оригинальный тренер
-gui.screenpokechecker.ability=Способность:
+gui.screenpokechecker.ability=Умение:
 
 
 gui.screenpokechecker.happiness=Счастье
@@ -3717,7 +3717,7 @@ gui.trainereditor.aimode=AI Mode
 gui.trainereditor.encountermode=Encounter Mode
 gui.trainereditor.name=Name
 gui.trainereditor.model=Model
-gui.trainereditor.lvl=Lvl
+gui.trainereditor.lvl=Уровень
 gui.trainereditor.additem=Add Item
 gui.trainereditor.moreinfo=Trainer Editor - More Info
 gui.trainereditor.greeting=Greeting
@@ -4086,7 +4086,7 @@ tile.fossil.name=Окаменелость
 tile.shrineuno.name=Замороженные руины
 tile.shrinedos.name=Статические руины
 tile.shrinetres.name=Огненные руины
-tile.apricorn tree.name=Apricorn Tree
+tile.apricorn tree.name=Дерево априкорна
 tile.mechanicalanvil.name=Механическая наковальня
 tile.ranchblock.name=Блок ранчо
 tile.leafstoneore_overlay.name=Листовая руда
