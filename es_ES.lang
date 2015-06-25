@@ -4017,7 +4017,7 @@ pixelmon.blocks.noclone=¡No tienes nada para clonar!
 
 pixelmon.blocks.fossilmachine.fossil=Añadir Fósil
 pixelmon.blocks.fossilmachine.pokeball=Añadir Poké Ball
-pixelmon.blocks.fossilmachine.retrieve=Recueperar Pokémon
+pixelmon.blocks.fossilmachine.retrieve=Recuperar Pokémon
 pixelmon.blocks.fossilmachine.working=Trabajando
 
 pixelmon.blocks.cloningmachine.error=Error
