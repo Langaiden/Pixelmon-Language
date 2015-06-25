@@ -385,6 +385,7 @@ item.LaggingTail.name=后攻之尾
 item.WiseGlasses.name=知识眼镜
 item.EjectButton.name=逃脱按钮
 item.EnigmaBerry.name=谜团果实
+item.BindingBand.name=紧固头巾
 
 
 item.Full Incense.name=满腹熏香
@@ -4859,6 +4860,8 @@ pixelmon.status.guardsplit=%s 与 %s 分享了它的防御和特防！
 pixelmon.status.wonderroom=它制造了一个奇妙的空间交换了防御与特防！
 pixelmon.status.wonderroomend=奇妙的空间恢复正常了。
 pixelmon.status.lockon=%s 瞄准了 %s！
+pixelmon.status.endure=%s 支撑住自己了！
+pixelmon.status.endurehit=%s 忍受住了攻击！
 
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
