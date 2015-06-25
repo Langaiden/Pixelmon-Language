@@ -4796,6 +4796,7 @@ pixelmon.effect.heartswap=%s swapped its stat changes with %s!
 pixelmon.effect.entrainment=%s's Ability was changed from %s to %s!
 pixelmon.effect.feint=%s removed %s's protection!
 pixelmon.effect.fling=%s flung its %s!
+pixelmon.effect.soak=%s transformed into the Water type!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
