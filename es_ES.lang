@@ -3884,7 +3884,7 @@ pixelmon.command.unlock=Se ha desbloqueado con éxito los Pokémon de %s.
 pixelmon.command.copyToDB.disabled=¡Guardar en la DataBase no está activado en "config"!
 
 //Other
-pixelmon.drops.fullinventory=¡Tu inventario está lleno!¡ %s calló al suelo!
+pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s calló al suelo!
 pixelmon.drops.single=¡Has recibido un(a) %s!
 pixelmon.drops.singlean=¡Has recibido un(a) %s!
 pixelmon.drops.singlenoa=¡Has recibido %s!
@@ -4051,7 +4051,7 @@ achievement.LegendaryChieve=Primer Legendario
 achievement.LegendaryChieve.desc=Captura tu primer Legendario.
 achievement.ShinyChieve=¡Ooh Shiny!
 achievement.ShinyChieve.desc=Captura un Pokémon Shiny.
-achievement.FirstCatchChieve=¡1 menos, quedan algunos más para hacerte con todos!
+achievement.FirstCatchChieve=¡1 menos, aún quedan muchos más!
 achievement.FirstCatchChieve.desc=Captura tu primer Pokémon.
 achievement.TrainerChieve=¡Victoria!
 achievement.TrainerChieve.desc=Gana una batalla contra un Entrenador.
@@ -4263,7 +4263,7 @@ gui.fainterChoice.run=Correr
 
 gui.choosebad.nopokeballs=¡No puedes usar Poké Balls en esta batalla!
 
-gui.guiDoctor.healPokemon=Soy un médico Pokémon. ¿Me permitirías curar a tus pokemon?
+gui.guiDoctor.healPokemon=Soy un médico Pokémon. ¿Me permitirías curar a tus Pokémon?
 gui.guiDoctor.waiting=Esperando
 
 gui.trading.ready=Listo
@@ -4296,8 +4296,8 @@ gui.acceptdeny.accept=Aceptar
 gui.acceptdeny.deny=Rechazar
 
 gui.renamePoke.Reset=Restablecer
-gui.renamePoke.cancel=gui.cancel
-gui.renamePoke.renamebutton=selectWorld.renameButton
+gui.renamePoke.cancel=Cancelar
+gui.renamePoke.renamebutton=Guardar
 gui.renamePoke.renamePokemon=Renombrar Pokémon
 
 gui.screenpokechecker.moves=Movs.
@@ -5382,6 +5382,7 @@ pixelmon.effect.heartswap=¡%s intercambió todos los cambios de estado con %s!
 pixelmon.effect.entrainment=¡La habilidad de %s ha cambiado a %s!
 pixelmon.effect.feint=¡%s eliminó la protección de %s!
 pixelmon.effect.fling=¡%s tira su %s!
+pixelmon.effect.soak=¡%s ha cambiado a tipo Agua!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5471,6 +5472,8 @@ pixelmon.status.wonderroomend=El lugar volvió a la normalidad.
 pixelmon.status.lockon=¡%s apuntó a %s!
 pixelmon.status.endure=¡%s se ha fortalecido!
 pixelmon.status.endurehit=¡%s aguantó el golpe!
+pixelmon.status.wideguard=¡Vastaguardia protege el equipo de %s!
+pixelmon.status.wideguardprotect=¡Vastaguardia protege a %s!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
