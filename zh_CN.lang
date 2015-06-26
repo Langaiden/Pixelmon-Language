@@ -4742,9 +4742,10 @@ pixelmon.effect.snatched=%s 抢夺了对手的效果！
 pixelmon.effect.powerswap=%s 将它的攻击和特攻与 %s 进行了交换！
 pixelmon.effect.guardswap=%s 将它的防御和特防与 %s 进行了交换！
 pixelmon.effect.heartswap=%s 将它的能力等级与 %s 进行了交换！
-pixelmon.effect.entrainment=%s 的能力被 %s 改变！
+pixelmon.effect.entrainment=%s 的特性从被 %s 改变成 %s！
 pixelmon.effect.feint=%s 移除了 %s 的守住！
 pixelmon.effect.fling=%s 将它扔到了 %s 身上！
+pixelmon.effect.soak=%s 转变成水系！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
 pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
@@ -4862,6 +4863,8 @@ pixelmon.status.wonderroomend=奇妙的空间恢复正常了。
 pixelmon.status.lockon=%s 瞄准了 %s！
 pixelmon.status.endure=%s 支撑住自己了！
 pixelmon.status.endurehit=%s 忍受住了攻击！
++pixelmon.status.wideguard=全体防御保护了 %s 的队伍！
++pixelmon.status.wideguardprotect=全体防御保护了 %s！
 
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
