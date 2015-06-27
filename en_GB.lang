@@ -275,10 +275,10 @@ item.ColburBerry.name=Colbur Berry
 item.BabiriBerry.name=Babiri Berry
 item.ChilanBerry.name=Chilan Berry
 
-item.Heal Powder.name=Heal Powder
-item.Energy Powder.name=Energy Powder
-item.Energy Root.name=Energy Root
-item.Revival Herb.name=Revival Herb
+item.HealPowder.name=Heal Powder
+item.EnergyPowder.name=Energy Powder
+item.EnergyRoot.name=Energy Root
+item.RevivalHerb.name=Revival Herb
 
 item.spawnGrotto.name=Grotto Spawner
 item.Mossy Rock.name=Moss Rock
@@ -3282,6 +3282,12 @@ pixelmon.general.disabledblock=The server has disabled this block.
 pixelmon.npc.tradername=Trader
 pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(n) %s.
 
+pixelmon.npc.relearnername=Move Relearner
+pixelmon.npc.relearnersetitem=The relearner's cost is now %s (x%d).
+pixelmon.npc.relearnernoitem=The relearner is now free to use.
+pixelmon.npc.relearnerfull=You can't stack this item any further!
+pixelmon.npc.relearnercost=I require %s (x%d) for my services.
+
 pixelmon.projectiles.nibble=Not even a nibble...
 
 pixelmon.stats.gainexp=Your %s gained %d Exp.!
@@ -3780,6 +3786,7 @@ gui.trainereditor.changeTrader=Change to Trader
 
 gui.chooseNPC.trainer=Create NPC Trainer
 gui.chooseNPC.chatting=Create chatting NPC
+gui.chooseNPC.relearner=Create move relearner
 
 gui.overlay1v1.lv=Lv.
 
@@ -3876,7 +3883,7 @@ gui.battle.accuracy=Accuracy
 gui.battle.power=Power
 gui.battle.back=Back
 gui.battle.whatdo=What will $p do?
-gui.battle.type=Type:
+gui.battle.type=Type: 
 
 gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
@@ -3899,13 +3906,16 @@ gui.choosepokemon.select=Select a Pokémon to use it on.
 gui.choosepokemon.sendout=Choose a Pokémon to send out.
 
 gui.npctrader.their=Given Pokémon
-gui.npctrader.yours=Looking For
+gui.npctrader.yours=Looking for
 
 gui.choosemoveset.title=Choose a Moveset
 gui.choosemoveset.power=Power
 gui.choosemoveset.attackdetails=Attack Details
 gui.choosemoveset.chosen=Chosen Moves
 gui.choosemoveset.full=Full Move List
+gui.choosemoveset.choosemove=Choose a Move
+gui.choosemoveset.relearnmove=Relearn Move
+gui.choosemoveset.cost=Cost:
 
 gui.ranch.managePokemon=Manage Pokémon
 gui.ranch.claimEgg=Claim Egg
@@ -3977,7 +3987,7 @@ nbt.speed.name=Speed:
 nbt.spattack.name=Sp. Attack:
 nbt.spdefense.name=Sp. Defence:
 nbt.hp.name=HP:
-nbt.pp.name=PP:
+nbt.pp.name=PP: 
 
 nbt.attack2.name=Attack
 nbt.defense2.name=Defence
@@ -4636,7 +4646,7 @@ pixelmon.effect.raisestats=%s's stats rose!
 pixelmon.effect.freefrom=%s freed itself from %s!
 pixelmon.effect.clearspikes=%s cleared all entry hazards!
 pixelmon.effect.smackdown=%s got knocked out of the sky!
-pixelmon.effect.ppdrop=%s's %s's PP dropped!
+pixelmon.effect.ppdrop=%s's %s lost PP!
 pixelmon.effect.struggle=%s used Struggle!
 pixelmon.effect.suicide=%s blew itself up!
 pixelmon.effect.bidetime=%s bided its time!
