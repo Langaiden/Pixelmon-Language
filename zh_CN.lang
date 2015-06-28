@@ -260,10 +260,10 @@ item.ColburBerry.name=刺球果
 item.BabiriBerry.name=霹雳果
 item.ChilanBerry.name=灯笼果
 
-item.Heal Powder.name=万能之粉
-item.Energy Powder.name=元气之粉
-item.Energy Root.name=元气之根
-item.Revival Herb.name=复活之草
+item.HealPowder.name=万能之粉
+item.EnergyPowder.name=元气之粉
+item.EnergyRoot.name=元气之根
+item.RevivalHerb.name=复活之草
 
 item.spawnGrotto.name=奖励树洞生成器
 item.Mossy Rock.name=青苔岩
@@ -3255,7 +3255,13 @@ pixelmon.general.playerbusy=玩家很繁忙！
 pixelmon.general.disabledblock=这个服务器禁用了这个方块
 
 pixelmon.npc.tradername=交换者
-pixelmon.npc.trader=你没有我想要找的神奇宝贝！我想要一只 %s
+pixelmon.npc.trader=你没有我想要找的神奇宝贝！我想要一只 %s。
+
+pixelmon.npc.relearnername=技能回忆教学者
+pixelmon.npc.relearnersetitem=这个回忆教学者现在需要物品 %s (x%d)来经行回忆教学。
+pixelmon.npc.relearnernoitem=这个回忆教学者现在可以经行回忆免费教学。
+pixelmon.npc.relearnerfull=您不能进一步地进行此物品的堆叠。
+pixelmon.npc.relearnercost=我需要 %s (x%d) 来进行我的服务。
 
 pixelmon.projectiles.nibble=没有任何精灵咬钩…
 
@@ -3787,6 +3793,7 @@ gui.trainereditor.changeTrader=修改至交换人
 
 gui.chooseNPC.trainer=创建NPC训练师
 gui.chooseNPC.chatting=创建对话NPC
+gui.chooseNPC.relearner=创建技能回忆教学NPC
 gui.npceditor.despawn=删除NPC
 gui.npceditor.page1=对话文本 1
 gui.npceditor.page2=对话文本 2
@@ -3917,6 +3924,9 @@ gui.choosemoveset.power=威力
 gui.choosemoveset.attackdetails=攻击细节
 gui.choosemoveset.chosen=选择技能
 gui.choosemoveset.full=完整技能列表
+gui.choosemoveset.choosemove=选择一个技能
+gui.choosemoveset.relearnmove=回忆技能
+gui.choosemoveset.cost=费用：
 
 gui.ranch.managePokemon=管理精灵
 gui.ranch.claimEgg=获取精灵蛋
@@ -4633,7 +4643,7 @@ pixelmon.effect.raisestats=%s 的能力上升！
 pixelmon.effect.freefrom=%s 让自己自由了
 pixelmon.effect.clearspikes=%s 清除了所有的尖锐物！
 pixelmon.effect.smackdown=%s 被打飞了！
-pixelmon.effect.ppdrop=%s's %s 的PP下降了！
+pixelmon.effect.ppdrop=%s 的 %s 的PP失去了！
 pixelmon.effect.struggle=%s 使用了挣扎！
 pixelmon.effect.suicide=%s 自爆了！
 pixelmon.effect.bidetime=%s 呆在原地不动！
