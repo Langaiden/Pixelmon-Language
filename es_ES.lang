@@ -267,10 +267,10 @@ item.ColburBerry.name=Baya Dillo
 item.BabiriBerry.name=Baya Baribá
 item.ChilanBerry.name=Baya Chilan
 
-item.Heal Powder.name=Polvo Curación
-item.Energy Powder.name=Polvoenergía
-item.Energy Root.name=Raíz Energía
-item.Revival Herb.name=Hierba revivir
+item.HealPowder.name=Polvo Curación
+item.EnergyPowder.name=Polvoenergía
+item.EnergyRoot.name=Raíz Energía
+item.RevivalHerb.name=Hierba revivir
 
 item.spawnGrotto.name=Gruta Spawn
 item.Mossy Rock.name=Roca Musgosa
@@ -1289,7 +1289,7 @@ attack.harden.name=Fortaleza
 attack.fortaleza.name=Fortaleza
 attack.harden.description=El usuario pone rígido todos sus músculos para aumentar su Defensa.
 attack.minimize.name=Reducción
-attack.reduccíon.name=Reducción
+attack.reducción.name=Reducción
 attack.minimize.description=El usuario comprime su cuerpo para hacerse más pequeño, lo que aumenta considerablemente su evasión.
 attack.confuse ray.name=Rayo Confuso
 attack.rayo confuso.name=Rayo Confuso
@@ -3909,6 +3909,12 @@ pixelmon.general.disabledblock=El server a bloqueado este bloque.
 pixelmon.npc.tradername=Intercambio
 pixelmon.npc.trader=¡No tienes el Pokémon que estoy buscando! Me gustaría un %s.
 
+pixelmon.npc.relearnername=Recordador de Movs.
+pixelmon.npc.relearnersetitem=El coste del recordador de movs. es ahora de %s (x%d).
+pixelmon.npc.relearnernoitem=El recordador de movs. no tiene ningún coste.
+pixelmon.npc.relearnerfull=¡No puedes stackear más este objeto!
+pixelmon.npc.relearnercost=Necesito %s (x%d) por mis servicios.
+
 pixelmon.projectiles.nibble=Ni siquiera un mordisco...
 
 pixelmon.stats.gainexp=¡Tu %s ganó %d puntos de experiencia!
@@ -4395,6 +4401,7 @@ gui.trainereditor.changeTrader=Intercambio
 
 gui.chooseNPC.trainer=Crear Entrenador
 gui.chooseNPC.chatting=Crear NPC con diálogos
+gui.chooseNPC.relearner=Crear Recordador de Movs.
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4402,7 +4409,7 @@ gui.starter.trademark1=Este es un fan made mod, todas las marcas y copyright de 
 gui.starter.trademark2=por Nintendo y Game Freak Inc.
 gui.starter.trademark3=Soportado por Nintendo/Game Freak comprando Pokémon X/Y
 gui.starter.trademark4=¡¡Bienvenido al mundo de Pixelmon!! ¡Gracias por instalar el mod!
-gui.starter.trademark5=¡Ahora, porfavor escoje tu Pokémon inicial!
+gui.starter.trademark5=¡Ahora, por favor escoje tu Pokémon inicial!
 gui.starter.commingsoon=Proximamente...
 gui.starter.disabled=No permitido
 
@@ -4501,6 +4508,9 @@ gui.choosemoveset.power=Energía
 gui.choosemoveset.attackdetails=Detalles
 gui.choosemoveset.chosen=Movimientos Elegidos
 gui.choosemoveset.full=Lista de Movimientos
+gui.choosemoveset.choosemove=Elige un Movimiento
+gui.choosemoveset.relearnmove=Reaprender Mov.
+gui.choosemoveset.cost=Coste:
 
 trainer.Steve=Steve
 trainer.Youngster=Joven
@@ -4587,7 +4597,7 @@ nbt.hp2.name=PS
 battlecontroller.escaped=¡%s escapó!
 battlecontroller.!escaped=¡%s no pudo escapar!
 battlecontroller.initbattle.you=¡Ha comenzado la batalla contra %s!
-battlecontroller.initbattle.toyou=¡%s ha comenzado una batalla contra ti!
+battlecontroller.initbattle.toyou=¡%s ha iniciado una batalla contigo!
 battlecontroller.flinched=¡%s ha retrocedido!
 battlecontroller.fainted=¡Tu %s se debilitó!
 battlecontroller.hasfainted=¡%s debilitado!
@@ -5227,7 +5237,7 @@ pixelmon.effect.raisestats=¡Las estados de %s aumentaron!
 pixelmon.effect.freefrom=¡%s se liberó de %s!
 pixelmon.effect.clearspikes=¡%s despejó todo de púas!
 pixelmon.effect.smackdown=¡%s fue golpeado desde el cielo!
-pixelmon.effect.ppdrop=¡%s disminuyó los PP de %s a cero!
+pixelmon.effect.ppdrop=¡%s pierde los PP de %s!
 pixelmon.effect.struggle=¡%s usó Combate!
 pixelmon.effect.suicide=¡%s se debilitó a sí mismo!
 pixelmon.effect.bidetime=¡%s espera su oportunidad!
