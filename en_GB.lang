@@ -4893,6 +4893,7 @@ pixelmon.status.endure=%s braced itself!
 pixelmon.status.endurehit=%s endured the hit!
 pixelmon.status.wideguard=Wide Guard protected %s's team!
 pixelmon.status.wideguardprotect=Wide Guard protected %s!
+pixelmon.status.charge=%s charged power!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
