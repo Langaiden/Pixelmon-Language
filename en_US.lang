@@ -3791,7 +3791,7 @@ gui.chooseNPC.trainer=Create NPC Trainer
 gui.chooseNPC.chatting=Create chatting NPC
 gui.chooseNPC.relearner=Create move relearner
 
-gui.overlay1v1.lv=Lv.
+gui.overlay1v1.lv=Lv. 
 
 gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
 gui.starter.trademark2=by Nintendo and Game Freak Inc.
@@ -4899,6 +4899,8 @@ pixelmon.status.endurehit=%s endured the hit!
 pixelmon.status.wideguard=Wide Guard protected %s's team!
 pixelmon.status.wideguardprotect=Wide Guard protected %s!
 pixelmon.status.charge=%s charged power!
+pixelmon.status.nightmareadd=%s was subjected to a nightmare!
+pixelmon.status.nightmare=%s was tormented by the nightmare!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
