@@ -274,9 +274,6 @@ item.HabanBerry.name=番榴
 item.ColburBerry.name=刺球果
 item.BabiriBerry.name=霹靂果
 item.ChilanBerry.name=燈籠果
-item.GinemaBerry.name=洋蔥果
-item.JabocaBerry.name=嘉寶果
-item.RowapBerry.name=蓮霧果
 
 item.Heal Powder.name=萬能之粉
 item.Energy Powder.name=元氣之粉
@@ -397,6 +394,14 @@ item.WhiteHerb.name=白色藥草
 item.BigRoot.name=巨大根莖
 item.ZoomLens.name=對焦鏡片(第四世代起)
 item.BrightPowder.name=亮光之粉
+item.GinemaBerry.name=洋蔥果
+item.JabocaBerry.name=嘉寶果
+item.RowapBerry.name=蓮霧果
+item.LaggingTail.name=後攻之尾
+item.WiseGlasses.name=知識眼鏡
+item.EjectButton.name=逃脫按鈕
+item.EnigmaBerry.name=謎團果實
+item.BindingBand.name=緊固頭巾
 
 item.Full Incense.name=滿腹熏香
 item.Lax Incense.name=悠閑熏香
@@ -777,7 +782,7 @@ itemGroup.Pokeballs=神奇寶貝球
 itemGroup.Badges=道館徽章
 itemGroup.Restoration=回復系道具
 itemGroup.Natural=天然物
-itemGroup.Held Items=持有物品
+itemGroup.Held Items=攜帶型道具
 itemGroup.TMs/HMs=技能學習器/秘傳技學習器
 itemGroup.PixelUtilitiesBlocks=PixelUtilities方塊
 itemGroup.PixelUtilitiesItems=PixelUtilities礦石
@@ -3354,6 +3359,7 @@ pixelmon.helditems.quickclaw=先攻之爪讓%s能先制！
 pixelmon.helditems.whiteherb=白色藥草讓%s受到下降的能力得以恢復！
 pixelmon.helditems.ginemaberry=洋蔥果讓%s受到下降的能力得以恢復！
 pixelmon.helditems.recoilberry=%s的%s具備了傷害反彈效果，因此%s受到了傷害！
+pixelmon.helditems.ejectbutton=逃脫按鈕讓%s成功地下場與同伴進行交替！
 
 pixelmon.items.useitem=%s使用了%s。
 
@@ -3478,6 +3484,7 @@ achievement.givenPokeGift=贈送神奇寶貝！
 achievement.givenPokeGift.desc=把自己一隻神奇寶貝贈送給其他玩家。
 
 //Abilities
+pixelmon.abilities.activated=%s的%s特性被引發出來了！
 pixelmon.abilities.aftermath=%s的引爆特性傷害了%s！
 pixelmon.abilities.airlock=%s的氣閘特性使得天氣造成的影響無效！
 pixelmon.abilities.angerpoint=憤怒穴道特性使得%s變得非常生氣！
@@ -3485,13 +3492,9 @@ pixelmon.abilities.anticipation=預知危險特性讓%s預知到危險而害怕�
 pixelmon.abilities.bigpecks=%s的鴿胸特性使牠的防禦能力不會下降！
 pixelmon.abilities.clearbody=%s的透明體特性使得牠的能力等級不會被降低。
 pixelmon.abilities.cloudnine=%s的樂天特性特性使得天氣造成的影響無效！
-pixelmon.abilities.competitive=%s發動了好勝特性，提升了特攻！
 pixelmon.abilities.cutecharm=%s擁有迷人身軀特性，使%s陷入了心醉神迷狀態！
 pixelmon.abilities.damp=%s的溼氣特性防止了爆炸！
-pixelmon.abilities.defiant=%s發動了不服輸特性，提升了攻擊！
-pixelmon.abilities.download=下載特性使得%s提升了攻擊力！
-pixelmon.abilities.download2=下載特性使得%s提升了特攻！
-pixelmon.abilities.drizzle=%s的毛毛雨特性使得天氣轉為下雨！
+pixelmon.abilities.drizzle=%s的毛毛雨特性讓天氣轉為下雨！
 pixelmon.abilities.drought=%s的旱災特性使得天氣轉為陽光！
 pixelmon.abilities.dryskinheal=乾燥皮膚特性讓%s治癒了%s！
 pixelmon.abilities.dryskinused=%s使出了%s！
@@ -3516,7 +3519,6 @@ pixelmon.abilities.immunitycure=%s的免疫特性消除了毒狀態！
 pixelmon.abilities.imposter=%s替代品特性使牠變身為%s！
 pixelmon.abilities.insomnia=%s的失眠特性使牠不會陷入睡眠狀態！
 pixelmon.abilities.insomniacure=%s的失眠特性使牠醒來！
-pixelmon.abilities.intimidate=對手的威嚇特性削減了%s的攻擊力！
 pixelmon.abilities.ironbarbs=%s的鐵刺荊棘特性使得%s受到更多傷害！
 pixelmon.abilities.justified=%s發動了正義之心特性，提升了攻擊力！
 pixelmon.abilities.keeneye=%s的銳利目光特性使牠的命中率不會下降！
@@ -3531,10 +3533,7 @@ pixelmon.abilities.magicbounce=%s的魔法反射特性使得招式被反彈回�
 pixelmon.abilities.magmaarmor=%s的岩漿防護特性使牠不會陷入冰凍狀態！
 pixelmon.abilities.magmaarmorcure=%s的岩漿防護特性使牠不會陷入冰凍狀態！
 pixelmon.abilities.moldbreaker=%s的革新特性使牠不受對手特性影響！
-pixelmon.abilities.moody=%s的心智不定特性發動了！
 pixelmon.abilities.motordrive=電氣引擎特性使得%s的速度得到提升！
-pixelmon.abilities.motordrive2=%s的電氣引擎特性使攻擊無效！
-pixelmon.abilities.moxieboost=%s因為自信過剩特性而提升了攻擊力！
 pixelmon.abilities.oblivious=%s的遲鈍特性使牠不會陷入心醉神迷/挑撥狀態！
 pixelmon.abilities.obliviouscure=%s的遲鈍特性消除了心醉神迷/挑撥狀態！
 pixelmon.abilities.overcoat=%s的防塵特性使攻擊無效！
@@ -3552,13 +3551,10 @@ pixelmon.abilities.roughskin=%s的蛇皮特性使%s受到傷害！
 pixelmon.abilities.runaway=%s利用逃走特性成功地逃跑了！
 pixelmon.abilities.sandstream=%s的沙流特性使得天氣轉為沙雹！
 pixelmon.abilities.sapsipper=草食特性而提升了%s的攻擊力！
-pixelmon.abilities.sapsipper2=%s因為草食特性而提升了攻擊力！
 pixlemon.abilities.shedskin=%s的脫皮特性使牠治癒了自己的異常狀態！
 pixelmon.abilities.snowwarning=%s的降雪特性使天氣轉為冰雹！
 pixelmon.abilities.soundproof=%s的隔音特性使牠不受聲音技能影響！
-pixelmon.abilities.speedboost=%s因為加速特性而提升了速度！
 pixelmon.abilities.static=%s的靜電特性麻痺了%s！
-pixelmon.abilities.steadfast=%s因為不屈之心特性而提升了速度！
 pixelmon.abilities.stormdrain=%s的引水特性使攻擊無效！
 pixelmon.abilities.stormdrainredirect=%s的引水特性把攻擊招式吸引了過去！
 pixelmon.abilities.sturdy=%s因為結實特性而免於被一擊必殺！
@@ -3577,8 +3573,6 @@ pixelmon.abilities.waterabsorb=儲水特性使得%s回復了體力！
 pixelmon.abilities.waterabsorb2=%s的儲水特性使攻擊無效！
 pixelmon.abilities.waterveil=%s的水幕特性使牠不會陷入灼傷狀態！
 pixelmon.abilities.waterveilcure=%s的水幕特性使灼傷狀態被治癒了！
-pixelmon.abilities.weakarmor=碎甲特性降低了%s的防禦力！
-pixelmon.abilities.weakarmor2=碎甲特性提升了%s的速度！
 pixelmon.abilities.whitesmoke=%s的白色煙霧特性使牠的能力值不會被降低！
 pixelmon.abilities.wonderguard=%s因為自身的奇異守護特性而沒有受到傷害！
 
@@ -3648,6 +3642,7 @@ gui.trading.notready=準備未完成
 gui.trading.want=$d想要進行通訊交換
 gui.trading.nuf=沒有通信對象！
 gui.trading.trade=交換
+gui.trading.select=選擇一隻神奇寶貝
 
 gui.pokedex.pokedex=圖鑑
 gui.pokedex.height=身高： 
@@ -3754,6 +3749,12 @@ gui.trainereditor.growth=體型
 gui.trainereditor.gender=性別
 gui.trainereditor.partypokemon=神奇寶貝隊伍
 
+gui.npceditor.despawn=刪除NPC
+gui.npceditor.page1=對話劇本 1
+gui.npceditor.page2=對話劇本 2
+gui.npceditor.page3=對話劇本 3
+gui.npceditor.page4=對話劇本 4
+
 gui.tradereditor.shiny=S
 gui.tradereditor.level=等級
 gui.tradereditor.offer=提供：
@@ -3765,11 +3766,6 @@ gui.trainereditor.changeTrader=切換成交換者
 
 gui.chooseNPC.trainer=新增NPC訓練師/交換者
 gui.chooseNPC.chatting=新增對話用NPC
-gui.npceditor.despawn=刪除NPC
-gui.npceditor.page1=對話劇本 1
-gui.npceditor.page2=對話劇本 2
-gui.npceditor.page3=對話劇本 3
-gui.npceditor.page4=對話劇本 4
 
 gui.overlay1v1.lv=Lv.
 
@@ -3909,17 +3905,17 @@ ranch.hourglass.upgradedall=所有牧場裡神奇寶貝的感情階段都提升�
 ranch.hourglass.upgrade=%s的感情階段提升了一個等級！
 
 trainer.Steve=史蒂夫
-trainer.Youngster=短褲少年
-trainer.Lass=迷你裙
-trainer.BugCatcher=捕蟲少年
-trainer.PokeManiac=怪獸狂
-trainer.PokeManiacGirl=怪獸狂女孩
+trainer.Youngster=少年
+trainer.Lass=少女
+trainer.BugCatcher=捕蟲人
+trainer.PokeManiac=男性怪獸狂
+trainer.PokeManiacGirl=女性怪獸狂
 trainer.Fisherman=釣客
 trainer.Fisherman2=釣客
 trainer.FemaleRocketGrunt=女性火箭隊隊員
 trainer.BugManiac=昆蟲狂
-trainer.LittleBoySwimmer=泳褲男
-trainer.MaleSwimmer=比基尼姐姐
+trainer.LittleBoySwimmer=泳褲男孩
+trainer.MaleSwimmer=泳裝男
 trainer.Ornithologist=鳥類學家
 trainer.FireBreather=噴火者
 trainer.RichBoy=富家少爺
@@ -3935,7 +3931,7 @@ trainer.model.youngster1=被寵壞的小鬼
 trainer.model.youngster2=頑酷少年
 trainer.model.youngster3=叛逆期的少年
 trainer.model.youngster4=藍色連帽男孩
-trainer.model.youngstergirl=少女
+trainer.model.youngstergirl=女孩
 trainer.model.youngstergirl2=藍色大眼美女
 trainer.model.bugcatcher1=養蜂人
 trainer.model.bugcatcher2=超級昆蟲捕手
@@ -3952,7 +3948,8 @@ trainer.model.firebreather3=火焰男
 trainer.model.firebreather4=火岩隊
 trainer.model.firebreather5=火焰蝙蝠
 
-npc.model.npcchat1=男人
+npc.model.npcchat1=老人
+npc.model.npcchat2=男人
 
 container.MechanicalAnvil=機械鐵砧
 
@@ -4062,6 +4059,8 @@ sendpixelmon.sentout=你放出了%s！
 sendpixelmon.cantbattle=%s無法戰鬥！
 sendpixelmon.inbattle=%s正在戰鬥中！
 sendpixelmon.retrieved=你收回了%s！
+
+spawn.legendarymessage=出現了一隻傳說神奇寶貝在%s生物群落！
 
 @Author Dayaffe
 //Blocks
@@ -4778,6 +4777,9 @@ pixelmon.effect.powerswap=%s成功地把牠的攻擊和特攻與%s進行了交�
 pixelmon.effect.guardswap=%s成功地把牠的防禦和特防與%s進行了交換！
 pixelmon.effect.heartswap=%s成功地把牠全部的能力等級與%s進行了交換！
 pixelmon.effect.entrainment=%s成功地把%s的特性變得跟自己一樣！
+pixelmon.effect.feint=%s的佯攻解除了%s的保護！
+pixelmon.effect.fling=%s快速地扔出持有道具來攻擊%s！
+pixelmon.effect.soak=%s現在暫時變成了水屬性！
 
 pixelmon.status.ringheal=%s從水柱圈狀態受到治癒！
 pixelmon.status.burnhurt=%s受到灼傷！
@@ -4854,6 +4856,21 @@ pixelmon.status.applyingrain=%s建立了根深蒂固狀態！
 pixelmon.status.ingrain=%s吸收了來自根的營養物質！
 pixelmon.status.stockpile=%s儲存了自己的%d！
 pixelmon.status.stockpileoff=%s在先前所儲存的力量消失了！
+pixelmon.status.gravity=場地上出現了強大重力！
+pixelmon.status.gravityaffected=場地上強大的重力使得%s無法繼續漂浮在半空中！
+pixelmon.status.gravityend=場地上強大的重力消失了！
+pixelmon.status.torment=%s飽受假指控的煎熬之中！
+pixelmon.status.foresight=%s被看破了！
+pixelmon.status.gastroacid=%s的特性效果被胃液壓制！
+pixelmon.status.powersplit=%s把自己和%s的攻擊與特攻加起來再進行平分！
+pixelmon.status.guardsplit=%s把自己和%s的防禦與特防加起來再進行平分！
+pixelmon.status.wonderroom=出現了一個不可思議的奇妙空間，強制交換了場上所有神奇寶貝的防禦和特防！
+pixelmon.status.wonderroomend=奇妙空間消失了。
+pixelmon.status.lockon=%s瞄準了%s！
+pixelmon.status.endure=%s撐住了一擊必殺攻擊！
+pixelmon.status.endurehit=%s忍受著攻擊！
+pixelmon.status.wideguard=全體防禦保護著%s的隊伍！
+pixelmon.status.wideguardprotect=全體防禦保護著%s！
 
 attack.curse.alreadycursed=%s已經受到詛咒！
 attack.curse.curse=%s削減了自己的HP，使%s進入了詛咒狀態！
@@ -4881,7 +4898,6 @@ christmas.ischristmas=Pixelmon製作團隊祝大家聖誕節快樂！
 christmas.received=你從信使鳥的身上得到了一個聖誕禮物！
 christmas.alreadygifted=你已經打開過了一個聖誕禮物！
 item.Gift Box.name=禮物盒
-
 
 //Unown blocks
 UnownBlock.A.name=未知圖騰磚塊 'A'
