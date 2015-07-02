@@ -4896,6 +4896,7 @@ pixelmon.status.wideguardprotect=Wide Guard protected %s!
 pixelmon.status.charge=%s charged power!
 pixelmon.status.nightmareadd=%s was subjected to a nightmare!
 pixelmon.status.nightmare=%s was tormented by the nightmare!
+pixelmon.status.powertrick=%s switched its Attack and Defence stats!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
