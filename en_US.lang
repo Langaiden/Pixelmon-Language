@@ -4808,6 +4808,7 @@ pixelmon.effect.entrainment=%s's Ability was changed from %s to %s!
 pixelmon.effect.feint=%s removed %s's protection!
 pixelmon.effect.fling=%s flung its %s!
 pixelmon.effect.changetype=%s transformed into the %s type!
+pixelmon.effect.skydrop=%s took %s into the air!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
