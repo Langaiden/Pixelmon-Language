@@ -397,6 +397,8 @@ item.WiseGlasses.name=Gafas Especiales
 item.EjectButton.name=Botón Escape
 item.EnigmaBerry.name=Baya Enigma
 item.BindingBand.name=Banda Atadura
+item.IronBall.name=Bola Férrea
+item.GripClaw.name=Garra Garfio
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -5392,7 +5394,8 @@ pixelmon.effect.heartswap=¡%s intercambió todos los cambios de estado con %s!
 pixelmon.effect.entrainment=¡La habilidad de %s ha cambiado de %s a %s!
 pixelmon.effect.feint=¡%s eliminó la protección de %s!
 pixelmon.effect.fling=¡%s tira su %s!
-pixelmon.effect.soak=¡%s ha cambiado a tipo Agua!
+pixelmon.effect.changetype=¡%s ha cambiado al tipo %s!
+pixelmon.effect.skydrop=¡%s se ha llevado a %s por los aires!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5487,6 +5490,8 @@ pixelmon.status.wideguardprotect=¡Vastaguardia protege a %s!
 pixelmon.status.charge=¡%s comenzó a cargar energía!
 pixelmon.status.nightmareadd=¡%s ha caído en una Pesadilla!
 pixelmon.status.nightmare=¡%s está inmerso en una Pesadilla!
+pixelmon.status.powertrick=¡%s cambió su Ataque y Defensa!
+pixelmon.status.autotomize=¡%s ahora es más ligero!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
