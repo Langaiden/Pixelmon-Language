@@ -275,10 +275,10 @@ item.ColburBerry.name=Colbur Berry
 item.BabiriBerry.name=Babiri Berry
 item.ChilanBerry.name=Chilan Berry
 
-item.Heal Powder.name=Heal Powder
-item.Energy Powder.name=Energy Powder
-item.Energy Root.name=Energy Root
-item.Revival Herb.name=Revival Herb
+item.HealPowder.name=Heal Powder
+item.EnergyPowder.name=Energy Powder
+item.EnergyRoot.name=Energy Root
+item.RevivalHerb.name=Revival Herb
 
 item.spawnGrotto.name=Grotto Spawner
 item.Mossy Rock.name=Moss Rock
@@ -402,6 +402,9 @@ item.WiseGlasses.name=Wise Glasses
 item.EjectButton.name=Eject Button
 item.EnigmaBerry.name=Enigma Berry
 item.BindingBand.name=Binding Band
+item.IronBall.name=Iron Ball
+item.GripClaw.name=Grip Claw
+item.FloatStone.name=Float Stone
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3282,6 +3285,12 @@ pixelmon.general.disabledblock=The server has disabled this block.
 pixelmon.npc.tradername=Trader
 pixelmon.npc.trader=You don't have the Pokémon I'm looking for! I would like a(n) %s.
 
+pixelmon.npc.relearnername=Move Relearner
+pixelmon.npc.relearnersetitem=The relearner's cost is now %s (x%d).
+pixelmon.npc.relearnernoitem=The relearner is now free to use.
+pixelmon.npc.relearnerfull=You can't stack this item any further!
+pixelmon.npc.relearnercost=I require %s (x%d) for my services.
+
 pixelmon.projectiles.nibble=Not even a nibble...
 
 pixelmon.stats.gainexp=Your %s gained %d Exp.!
@@ -3783,8 +3792,9 @@ gui.trainereditor.changeTrader=Change to Trader
 
 gui.chooseNPC.trainer=Create NPC Trainer
 gui.chooseNPC.chatting=Create chatting NPC
+gui.chooseNPC.relearner=Create move relearner
 
-gui.overlay1v1.lv=Lv.
+gui.overlay1v1.lv=Lv. 
 
 gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
 gui.starter.trademark2=by Nintendo and Game Freak Inc.
@@ -3879,7 +3889,7 @@ gui.battle.accuracy=Accuracy
 gui.battle.power=Power
 gui.battle.back=Back
 gui.battle.whatdo=What will $p do?
-gui.battle.type=Type:
+gui.battle.type=Type: 
 
 gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
@@ -3909,6 +3919,9 @@ gui.choosemoveset.power=Power
 gui.choosemoveset.attackdetails=Attack Details
 gui.choosemoveset.chosen=Chosen Moves
 gui.choosemoveset.full=Full Move List
+gui.choosemoveset.choosemove=Choose a Move
+gui.choosemoveset.relearnmove=Relearn Move
+gui.choosemoveset.cost=Cost:
 
 gui.ranch.managePokemon=Manage Pokémon
 gui.ranch.claimEgg=Claim Egg
@@ -3980,7 +3993,7 @@ nbt.speed.name=Speed:
 nbt.spattack.name=Sp. Attack:
 nbt.spdefense.name=Sp. Defense:
 nbt.hp.name=HP:
-nbt.pp.name=PP:
+nbt.pp.name=PP: 
 
 nbt.attack2.name=Attack
 nbt.defense2.name=Defense
@@ -4639,7 +4652,7 @@ pixelmon.effect.raisestats=%s's stats rose!
 pixelmon.effect.freefrom=%s freed itself from %s!
 pixelmon.effect.clearspikes=%s cleared all entry hazards!
 pixelmon.effect.smackdown=%s got knocked out of the sky!
-pixelmon.effect.ppdrop=%s's %s's PP dropped!
+pixelmon.effect.ppdrop=%s's %s lost PP!
 pixelmon.effect.struggle=%s used Struggle!
 pixelmon.effect.suicide=%s blew itself up!
 pixelmon.effect.bidetime=%s bided its time!
@@ -4796,7 +4809,8 @@ pixelmon.effect.heartswap=%s swapped its stat changes with %s!
 pixelmon.effect.entrainment=%s's Ability was changed from %s to %s!
 pixelmon.effect.feint=%s removed %s's protection!
 pixelmon.effect.fling=%s flung its %s!
-pixelmon.effect.soak=%s transformed into the Water type!
+pixelmon.effect.changetype=%s transformed into the %s type!
+pixelmon.effect.skydrop=%s took %s into the air!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -4888,6 +4902,11 @@ pixelmon.status.endure=%s braced itself!
 pixelmon.status.endurehit=%s endured the hit!
 pixelmon.status.wideguard=Wide Guard protected %s's team!
 pixelmon.status.wideguardprotect=Wide Guard protected %s!
+pixelmon.status.charge=%s charged power!
+pixelmon.status.nightmareadd=%s was subjected to a nightmare!
+pixelmon.status.nightmare=%s was tormented by the nightmare!
+pixelmon.status.powertrick=%s switched its Attack and Defense stats!
+pixelmon.status.autotomize=%s became nimble!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
