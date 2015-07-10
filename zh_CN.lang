@@ -4777,6 +4777,7 @@ pixelmon.effect.healfailed=%s 的体力是满的！
 pixelmon.effect.bugbite=%s 吃掉了 %s 的 %s！
 pixelmon.effect.trick=%s 交换了自己和 %s 的道具！
 pixelmon.effect.trickitem=%s 获得了 %s！
+pixelmon.effect.soak=%s 变成了水属性！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
 pixelmon.status.burnhurt=%s 被烧伤了！
