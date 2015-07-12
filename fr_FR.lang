@@ -1,5 +1,5 @@
 /*
-*	Latest translation 07th July of 2015
+*	Latest translation 12th July of 2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -39,10 +39,10 @@ item.Green Tank.name=Réservoir Vert
 item.Orange Tank.name=Réservoir Orange
 item.Cloner Cord.name=Cordon de Cloneur
 item.Fossil Cleaner.name=Nettoyeur de fossile
- item.HiddenCube.name=Bloc Invisible
- item.HiddenIronDoor.name=Porte en Fer Invisible
- item.HiddenWoodenDoor.name=Porte en Bois Invisible
-+item.HiddenPressurePlate.name=Plaque de Pression Invisible
+item.HiddenCube.name=Bloc Invisible
+item.HiddenIronDoor.name=Porte en Fer Invisible
+item.HiddenWoodenDoor.name=Porte en Bois Invisible
+item.HiddenPressurePlate.name=Plaque de Pression Invisible
 item.Pokedex.name=Pokédex
 item.Wood Hammer.name=Marteau en Bois
 item.Stone Hammer.name=Marteau en Pierre
@@ -281,10 +281,10 @@ item.HabanBerry.name=Baie Fraigo
 item.ColburBerry.name=Baie Lampou
 item.BabiriBerry.name=Baie Babiri
 item.ChilanBerry.name=Baie Zalis
-item.Heal Powder.name=Poudre Soin
-item.Energy Powder.name=Poudrénergie
-item.Energy Root.name=Racinénergie
-item.Revival Herb.name=Herbe Rappel
+item.HealPowder.name=Poudre Soin
+item.EnergyPowder.name=Poudrénergie
+item.EnergyRoot.name=Racinénergie
+item.RevivalHerb.name=Herbe Rappel
 item.spawnGrotto.name=Spawner à Antre Caché
 item.Mossy Rock.name=Pierre Moussue
 item.Icy Rock.name=Pierre Glacée
@@ -416,6 +416,10 @@ item.XAccuracy.name=Précision +
 item.Dire Hit.name=Muscle +
 item.EnigmaBerry.name=Baie Enigma
 item.BindingBand.name=Bande Étreinte
+item.IronBall.name=Balle Fer
+item.GripClaw.name=Accroc Griffe
+item.FloatStone.name=Pierrallégée
+
 item.Full Incense.name=Encens Plein
 item.Lax Incense.name=Encens Doux
 item.Luck Incense.name=Encens Veine
@@ -4335,6 +4339,12 @@ pixelmon.general.disabledblock=Ce serveur a désactivé ce bloc.
 pixelmon.npc.tradername=Échangeur
 pixelmon.npc.trader=Tu n'as pas le Pokemon que je recherche ! Je voudrais un %s niveau (n) 
 
+pixelmon.npc.relearnername=Maître des Capacités
+pixelmon.npc.relearnersetitem=Le coût de réapprentissage est désormais de %s (x%d)
+pixelmon.npc.relearnernoitem=Le réapprentissage est désormais utilisable gratuitement.
+pixelmon.npc.relearnerfull=Vous ne pouvez pas stack cet objet davantage !
+pixelmon.npc.relearnercost=J'ai besoin de %s (x%d) pour utiliser mes services.
+
 pixelmon.projectiles.nibble=Ça ne mord pas..
 
 pixelmon.stats.gainexp=Votre %s a gagné %d points d'expérience !
@@ -4842,6 +4852,7 @@ gui.trainereditor.changeTrader=Échangeur
 
 gui.chooseNPC.trainer=Créer un PNJ Dresseur
 gui.chooseNPC.chatting=Créer un PNJ Dresseur parlant
+gui.chooseNPC.relearner=Créer un Maître des Capacités
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4968,6 +4979,9 @@ gui.choosemoveset.power=Puissance
 gui.choosemoveset.attackdetails=Détails
 gui.choosemoveset.chosen=Capacités choisies
 gui.choosemoveset.full=Liste complètes des capacités
+gui.choosemoveset.choosemove=Choisir une capacité
+gui.choosemoveset.relearnmove=Réapprendre une capacité
+gui.choosemoveset.cost=Coût:
 
 gui.guiRanch.selectPokemon=Choisir un Pokemon
 gui.guiRanch.claimEgg=Récupérer un Œuf
@@ -5699,7 +5713,7 @@ pixelmon.effect.raisestats=Les stats de %s ont augmenté !
 pixelmon.effect.freefrom=%s c'est libéré de %s !
 pixelmon.effect.clearspikes=%s c'est libéré de tous les pics !
 pixelmon.effect.smackdown=%s est tombé K.O. en plein vol !
-pixelmon.effect.ppdrop=%s a perdu des PP sur l'Attaque %s !
+pixelmon.effect.ppdrop=%s a perdu des PP sur %s !
 pixelmon.effect.struggle=%s a lutté !
 pixelmon.effect.suicide=%s se fait exploser !
 pixelmon.effect.bidetime=%s attends son heure !
@@ -5853,9 +5867,11 @@ pixelmon.effect.snatched=%s obtient la compétence de son ennemi !
 pixelmon.effect.powerswap=%s échange tous les changements de son Attaque et de son Attaque Spé avec %s!
 pixelmon.effect.guardswap=%s échange tous les changements de sa Défense et de sa Défense Spé avec %s!
 pixelmon.effect.heartswap=%s échange les changements de stats avec %s!
-pixelmon.effect.entrainment=Le Talent du %s a été changé de %s à %s !
+pixelmon.effect.entrainment=Le talent du %s a été changé de %s à %s !
 pixelmon.effect.feint=%s retire la protection du %s !
 pixelmon.effect.fling=%s envoie %s!
+pixelmon.effect.changetype=%s devient de type %s !
+pixelmon.effect.skydrop=%s envoie %s dans les air !
 pixelmon.effect.soak=%s devient de type Eau !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
@@ -5948,6 +5964,11 @@ pixelmon.status.endure=%s se prépare !
 pixelmon.status.endurehit=%s tiens le coup !
 pixelmon.status.wideguard=Garde Large protège l'équipe du %s !
 pixelmon.status.wideguardprotect=Garde Large protège %s !
+pixelmon.status.charge=%s charge sa puissance !
+pixelmon.status.nightmareadd=%s commence un cauchemar !
+pixelmon.status.nightmare=%s est tourmenté par un cauchemar !
+pixelmon.status.powertrick=%s inverse ses stats d'Attaque et de Défense !
+pixelmon.status.autotomize=%s s'allège !
 
 attack.curse.alreadycursed=%s est déjà maudit!
 attack.curse.curse=%s Sacrifie ses PV pour maudire %s!
