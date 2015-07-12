@@ -843,7 +843,7 @@ attack.protect.description=It enables the user to evade all attacks. Its chance 
 attack.safeguard.name=Safeguard
 attack.safeguard.description=The user creates a protective field that prevents status problems for five turns.
 attack.frustration.name=Frustration
-attack.frustration.description=An attack that is stronger if the trainer is disliked.
+attack.frustration.description=An attack that is stronger if the tTrainer is disliked.
 attack.solarbeam.name=SolarBeam
 attack.solarbeam.description=A 2-turn move that blasts the foe with absorbed energy in the 2nd turn.
 attack.return.name=Return
@@ -3300,6 +3300,10 @@ pixelmon.entities.syncpassed=Synchronize passed it onto %s!
 
 pixelmon.entitytrainer.goodrod=You received a Good Rod!
 pixelmon.entitytrainer.superrod=You received a Super Rod!
+pixelmon.entitytrainer.onceday=This Trainer can only be battled once a day.
+pixelmon.entitytrainer.oncemcday=This Trainer can only be battled once a Minecraft day.
+pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each player.
+pixelmon.entitytrainer.level=Lv: 
 
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
@@ -3953,10 +3957,10 @@ trainer.RichBoy=Rich Boy
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Custom Resource Pack
 trainer.model.Custom_PN=Custom Player Name
-trainer.model.Santa=Santa
-trainer.model.Suit=Suit
-trainer.model.Scottish=Scottish
-trainer.model.Prisoner=Prisoner
+trainer.model.santa=Santa
+trainer.model.suit=Suit
+trainer.model.scottish=Scottish
+trainer.model.prisoner=Prisoner
 trainer.model.youngster1=Spoiled Brat
 trainer.model.youngster2=Cool Youngster Boy
 trainer.model.youngster3=Hatted Youth
