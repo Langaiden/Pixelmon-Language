@@ -1,5 +1,5 @@
 /*
-*	Latest translation 07th July of 2015
+*	Latest translation 12th July of 2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -39,10 +39,10 @@ item.Green Tank.name=Réservoir Vert
 item.Orange Tank.name=Réservoir Orange
 item.Cloner Cord.name=Cordon de Cloneur
 item.Fossil Cleaner.name=Nettoyeur de fossile
- item.HiddenCube.name=Bloc Invisible
- item.HiddenIronDoor.name=Porte en Fer Invisible
- item.HiddenWoodenDoor.name=Porte en Bois Invisible
-+item.HiddenPressurePlate.name=Plaque de Pression Invisible
+item.HiddenCube.name=Bloc Invisible
+item.HiddenIronDoor.name=Porte en Fer Invisible
+item.HiddenWoodenDoor.name=Porte en Bois Invisible
+item.HiddenPressurePlate.name=Plaque de Pression Invisible
 item.Pokedex.name=Pokédex
 item.Wood Hammer.name=Marteau en Bois
 item.Stone Hammer.name=Marteau en Pierre
@@ -416,6 +416,10 @@ item.XAccuracy.name=Précision +
 item.Dire Hit.name=Muscle +
 item.EnigmaBerry.name=Baie Enigma
 item.BindingBand.name=Bande Étreinte
+item.IronBall.name=Balle Fer
+item.GripClaw.name=Accroc Griffe
+item.FloatStone.name=Pierrallégée
+
 item.Full Incense.name=Encens Plein
 item.Lax Incense.name=Encens Doux
 item.Luck Incense.name=Encens Veine
