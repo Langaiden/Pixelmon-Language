@@ -1,5 +1,5 @@
 /*
-*	Latest translation 07th July of 2015
+*	Latest translation 12th July of 2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -39,10 +39,10 @@ item.Green Tank.name=Réservoir Vert
 item.Orange Tank.name=Réservoir Orange
 item.Cloner Cord.name=Cordon de Cloneur
 item.Fossil Cleaner.name=Nettoyeur de fossile
- item.HiddenCube.name=Bloc Invisible
- item.HiddenIronDoor.name=Porte en Fer Invisible
- item.HiddenWoodenDoor.name=Porte en Bois Invisible
-+item.HiddenPressurePlate.name=Plaque de Pression Invisible
+item.HiddenCube.name=Bloc Invisible
+item.HiddenIronDoor.name=Porte en Fer Invisible
+item.HiddenWoodenDoor.name=Porte en Bois Invisible
+item.HiddenPressurePlate.name=Plaque de Pression Invisible
 item.Pokedex.name=Pokédex
 item.Wood Hammer.name=Marteau en Bois
 item.Stone Hammer.name=Marteau en Pierre
@@ -258,7 +258,7 @@ item.SalacBerry.name=Baie Sailak
 item.PetayaBerry.name=Baie Pitaye
 item.LansatBerry.name=Baie Lansat
 item.StarfBerry.name=Baie Frista
-item.CustapBerry.name=Custap Berry
+item.CustapBerry.name=Baie Chérim
 item.AguavBerry.name=Baie Gowav
 item.FigBerry.name=Baie Figuy
 item.IapapaBerry.name=Baie Papaya
@@ -281,10 +281,10 @@ item.HabanBerry.name=Baie Fraigo
 item.ColburBerry.name=Baie Lampou
 item.BabiriBerry.name=Baie Babiri
 item.ChilanBerry.name=Baie Zalis
-item.Heal Powder.name=Poudre Soin
-item.Energy Powder.name=Poudrénergie
-item.Energy Root.name=Racinénergie
-item.Revival Herb.name=Herbe Rappel
+item.HealPowder.name=Poudre Soin
+item.EnergyPowder.name=Poudrénergie
+item.EnergyRoot.name=Racinénergie
+item.RevivalHerb.name=Herbe Rappel
 item.spawnGrotto.name=Spawner à Antre Caché
 item.Mossy Rock.name=Pierre Moussue
 item.Icy Rock.name=Pierre Glacée
@@ -368,7 +368,8 @@ item.Protector.name=Protecteur
 item.Up-Grade.name=Améliorator
 item.Razor Fang.name=Croc Rasoir
 item.Dragon Scale.name=Écaille Draco
-item.Absorb Bulb.name=Bulbe
+item.RazorClaw.name=Griffe Rasoir
+item.AbsorbBulb.name=Bulbe
 item.Life Orb.name=Orbe Vie
 item.FocusSash.name=Ceinture Force
 item.FocusBand.name=Bandeau
@@ -413,9 +414,13 @@ item.XSpecialAttack.name=Attaque Spé +
 item.XSpecialDefence.name=Défense Spé +
 item.XSpeed.name=Vitesse +
 item.XAccuracy.name=Précision +
-item.Dire Hit.name=Muscle +
+item.DireHit.name=Muscle +
 item.EnigmaBerry.name=Baie Enigma
 item.BindingBand.name=Bande Étreinte
+item.IronBall.name=Balle Fer
+item.GripClaw.name=Accroc Griffe
+item.FloatStone.name=Pierrallégée
+
 item.Full Incense.name=Encens Plein
 item.Lax Incense.name=Encens Doux
 item.Luck Incense.name=Encens Veine
@@ -4310,8 +4315,8 @@ pixelmon.command.copyToDB.disabled=La sauvegarde dans la BDD n'est pas activée 
 
 //other
 pixelmon.drops.fullinventory=Votre inventaire est complet! %s a été déposé au sol!
-pixelmon.drops.single=Vous avez reçu un %s!
-pixelmon.drops.singlean=Vous avez reçu une %s!
+pixelmon.drops.single=Vous avez reçu un(e) %s!
+pixelmon.drops.singlean=Vous avez reçu un(e) %s!
 pixelmon.drops.singlenoa=Vous avez reçu %s!
 pixelmon.drops.plural=Vous avez reçu %d %ss!
 pixelmon.drops.plural2=Vous avez reçu %d %s!
@@ -4334,6 +4339,12 @@ pixelmon.general.disabledblock=Ce serveur a désactivé ce bloc.
 
 pixelmon.npc.tradername=Échangeur
 pixelmon.npc.trader=Tu n'as pas le Pokemon que je recherche ! Je voudrais un %s niveau (n) 
+
+pixelmon.npc.relearnername=Maître des Capacités
+pixelmon.npc.relearnersetitem=Le coût de réapprentissage est désormais de %s (x%d)
+pixelmon.npc.relearnernoitem=Le réapprentissage est désormais utilisable gratuitement.
+pixelmon.npc.relearnerfull=Vous ne pouvez pas stack cet objet davantage !
+pixelmon.npc.relearnercost=J'ai besoin de %s (x%d) pour utiliser mes services.
 
 pixelmon.projectiles.nibble=Ça ne mord pas..
 
@@ -4668,7 +4679,7 @@ pixelmon.ranch.level0=%s a le béguin pour %s, mais ne se sent pas à l'aise dan
 pixelmon.ranch.level1=%s aime %s un peu plus chaque jour!
 pixelmon.ranch.level2=%s est de plus en plus attiré par %s chaque jour!
 pixelmon.ranch.level3=L'amour de %s pour %s grandit rapidement de jour en jour!
-pixelmon.ranch.level4=%s tombe follement amoureux de % chaque jour!
+pixelmon.ranch.level4=%s tombe follement amoureux de %s chaque jour!
 pixelmon.ranch.maxaffection=%s aime %s autant que possible!
 
 //GUI stuff
@@ -4748,13 +4759,13 @@ gui.renamePoke.renamebutton=Renommer
 gui.renamePoke.renamePokemon=Renommer le Pokemon
 
 gui.screenpokechecker.ability=Talent
-gui.screenpokechecker.moves=Compétences
+gui.screenpokechecker.moves=Atq
 gui.screenpokechecker.stats=Stats
 gui.screenpokechecker.rename=Renommer
 gui.screenpokechecker.lvl=Niv.: 
 gui.screenpokechecker.status=Statut
 gui.screenpokechecker.fainted=*K.O.*
-gui.screenpokechecker.texp=Expérience Totale
+gui.screenpokechecker.texp=Expérience
 gui.screenpokechecker.levelup=Niveau Supérieur
 gui.screenpokechecker.summary=Résumé
 gui.screenpokechecker.ot=Dresseur DO:
@@ -4811,14 +4822,14 @@ gui.trainereditor.winningdrops=Gains de Victoire
 gui.trainereditor.randomise=Aléatoire
 gui.trainereditor.edit=Editer
 gui.trainereditor.add=Ajouter
-gui.trainereditor.deletelastpoke=Supprimer le dernier Pokemon
+gui.trainereditor.deletelastpoke=Suppr. le dernier Pokemon
 gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur de Pokemon
 gui.trainereditor.name=Nom
 gui.trainereditor.shiny=Shiny
 gui.trainereditor.normal=Normal
 gui.trainereditor.male=Male
 gui.trainereditor.female=Femelle
-gui.trainereditor.changepokemon=Changer de Pokemon
+gui.trainereditor.changepokemon=Changer Pokemon
 gui.trainereditor.nickname=Nom
 gui.trainereditor.growth=Taille
 gui.trainereditor.gender=Genre
@@ -4842,6 +4853,7 @@ gui.trainereditor.changeTrader=Échangeur
 
 gui.chooseNPC.trainer=Créer un PNJ Dresseur
 gui.chooseNPC.chatting=Créer un PNJ Dresseur parlant
+gui.chooseNPC.relearner=Créer un Maître des Capacités
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4968,6 +4980,9 @@ gui.choosemoveset.power=Puissance
 gui.choosemoveset.attackdetails=Détails
 gui.choosemoveset.chosen=Capacités choisies
 gui.choosemoveset.full=Liste complètes des capacités
+gui.choosemoveset.choosemove=Choisir une capacité
+gui.choosemoveset.relearnmove=Réapprendre une capacité
+gui.choosemoveset.cost=Coût:
 
 gui.guiRanch.selectPokemon=Choisir un Pokemon
 gui.guiRanch.claimEgg=Récupérer un Œuf
@@ -5062,7 +5077,7 @@ nbt.hp2.name=PV
 battlecontroller.escaped=%s s'est échappé
 battlecontroller.!escaped=%s ne peut pas s'échapper
 battlecontroller.initbattle.you=Vous avez engagé un combat avec %s !
-battlecontroller.initbattle.toyou=%s a engager un combat avec vous !
+battlecontroller.initbattle.toyou=%s a engagé un combat avec vous !
 battlecontroller.flinched=%s a la trouille !
 battlecontroller.fainted=Votre %s est K.O. !
 battlecontroller.hasfainted=%s est K.O. !
@@ -5102,9 +5117,9 @@ batonpass.failed=L'Attaque de %s a échouée
 batonpass.pass=%s passe le relai
 batonpass.noleft=Il n'y a plus de Pokemon avec qui échanger
 
-teleport.away=%s c'est téléporté!
+teleport.away=%s s'est téléporté!
 
-applyperish.heard=%s Entends le Requiem
+applyperish.heard=%s entends le Requiem
 applyperish.already=%s a déjà entendu ce son!
 
 playerparticipant.enough=Ça suffit %s!
@@ -5674,7 +5689,7 @@ pixelmon.battletext.wasnoteffective=Ce n'est pas très efficace...
 pixelmon.battletext.wasnoteffectivetarget=Ce n'est pas très efficace sur %s...
 pixelmon.battletext.supereffective=C'est super efficace !
 pixelmon.battletext.supereffectivetarget=C'est super efficace sur %s !
-pixelmon.battletext.missedattack=%s a essayé d'utiliser %s, mais a échoué !
+pixelmon.battletext.missedattack=%s esquive l'attaque !
 pixelmon.battletext.butmovefailed=Mais l'Attaque a échoué !
 pixelmon.battletext.used=%s utilise %s !
 pixelmon.battletext.sentout=%s envoie %s !
@@ -5699,7 +5714,7 @@ pixelmon.effect.raisestats=Les stats de %s ont augmenté !
 pixelmon.effect.freefrom=%s c'est libéré de %s !
 pixelmon.effect.clearspikes=%s c'est libéré de tous les pics !
 pixelmon.effect.smackdown=%s est tombé K.O. en plein vol !
-pixelmon.effect.ppdrop=%s a perdu des PP sur l'Attaque %s !
+pixelmon.effect.ppdrop=%s a perdu des PP sur %s !
 pixelmon.effect.struggle=%s a lutté !
 pixelmon.effect.suicide=%s se fait exploser !
 pixelmon.effect.bidetime=%s attends son heure !
@@ -5853,9 +5868,11 @@ pixelmon.effect.snatched=%s obtient la compétence de son ennemi !
 pixelmon.effect.powerswap=%s échange tous les changements de son Attaque et de son Attaque Spé avec %s!
 pixelmon.effect.guardswap=%s échange tous les changements de sa Défense et de sa Défense Spé avec %s!
 pixelmon.effect.heartswap=%s échange les changements de stats avec %s!
-pixelmon.effect.entrainment=Le Talent du %s a été changé de %s à %s !
+pixelmon.effect.entrainment=Le talent du %s a été changé de %s à %s !
 pixelmon.effect.feint=%s retire la protection du %s !
 pixelmon.effect.fling=%s envoie %s!
+pixelmon.effect.changetype=%s devient de type %s !
+pixelmon.effect.skydrop=%s envoie %s dans les air !
 pixelmon.effect.soak=%s devient de type Eau !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
@@ -5948,6 +5965,11 @@ pixelmon.status.endure=%s se prépare !
 pixelmon.status.endurehit=%s tiens le coup !
 pixelmon.status.wideguard=Garde Large protège l'équipe du %s !
 pixelmon.status.wideguardprotect=Garde Large protège %s !
+pixelmon.status.charge=%s charge sa puissance !
+pixelmon.status.nightmareadd=%s commence un cauchemar !
+pixelmon.status.nightmare=%s est tourmenté par un cauchemar !
+pixelmon.status.powertrick=%s inverse ses stats d'Attaque et de Défense !
+pixelmon.status.autotomize=%s s'allège !
 
 attack.curse.alreadycursed=%s est déjà maudit!
 attack.curse.curse=%s Sacrifie ses PV pour maudire %s!
