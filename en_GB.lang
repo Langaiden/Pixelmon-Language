@@ -4909,6 +4909,7 @@ pixelmon.status.nightmare=%s was tormented by the nightmare!
 pixelmon.status.powertrick=%s switched its Attack and Defence stats!
 pixelmon.status.autotomize=%s became nimble!
 pixelmon.status.followme=%s became the center of attention!
+pixelmon.status.imprison=%s sealed the opponent's moves!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
