@@ -267,10 +267,10 @@ item.ColburBerry.name=Baya Dillo
 item.BabiriBerry.name=Baya Baribá
 item.ChilanBerry.name=Baya Chilan
 
-item.Heal Powder.name=Polvo Curación
-item.Energy Powder.name=Polvoenergía
-item.Energy Root.name=Raíz Energía
-item.Revival Herb.name=Hierba revivir
+item.HealPowder.name=Polvo Curación
+item.EnergyPowder.name=Polvoenergía
+item.EnergyRoot.name=Raíz Energía
+item.RevivalHerb.name=Hierba revivir
 
 item.spawnGrotto.name=Gruta Spawn
 item.Mossy Rock.name=Roca Musgosa
@@ -397,6 +397,8 @@ item.WiseGlasses.name=Gafas Especiales
 item.EjectButton.name=Botón Escape
 item.EnigmaBerry.name=Baya Enigma
 item.BindingBand.name=Banda Atadura
+item.IronBall.name=Bola Férrea
+item.GripClaw.name=Garra Garfio
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -473,9 +475,9 @@ item.XAccuracy.name=Precisión X
 item.DireHit.name=Directo
 
 item.chisel.name=Cincel
-item.ranchupgrade.name=Actualización del Rancho
-item.hourglassgold.name=Reloj Dorado de Arena  de Isi
-item.hourglasssilver.name=Reloj Plateado de Arena de Isi
+item.ranchupgrade.name=Mejora del Rancho
+item.hourglassgold.name=Reloj de Arena Dorado de Isi
+item.hourglasssilver.name=Reloj de Arena Plateado de Isi
 
 item.pokeChest.name=Poké Cofre
 item.ultraChest.name=Ultra Cofre
@@ -1289,7 +1291,7 @@ attack.harden.name=Fortaleza
 attack.fortaleza.name=Fortaleza
 attack.harden.description=El usuario pone rígido todos sus músculos para aumentar su Defensa.
 attack.minimize.name=Reducción
-attack.reduccíon.name=Reducción
+attack.reducción.name=Reducción
 attack.minimize.description=El usuario comprime su cuerpo para hacerse más pequeño, lo que aumenta considerablemente su evasión.
 attack.confuse ray.name=Rayo Confuso
 attack.rayo confuso.name=Rayo Confuso
@@ -1312,8 +1314,8 @@ attack.reflect.description=Pared que debilita el daño de los ataques físicos d
 attack.focus energy.name=Foco Energía
 attack.foco energía.name=Foco Energía
 attack.focus energy.description=El usuario toma una respiración profunda que hace que aumente la probabilidad de golpe crítico.
-attack.bide.name=Atadura
-attack.atadura.name=Atadura
+attack.bide.name=Venganza
+attack.venganza.name=Venganza
 attack.bide.description=El usuario no ataca durante dos turnos, finalmente contraataca para causar el doble de daño recibido.
 attack.metronome.name=Metrónomo
 attack.metrónomo.name=Metrónomo
@@ -3869,15 +3871,15 @@ pixelmon.command.general.cheater=¡Cheater!
 pixelmon.command.general.lvlerror=Error en el nivel.
 pixelmon.command.general.notingame=¡%s no está en el juego!
 pixelmon.command.general.invalid=¡Argumentos no validos!
-pixelmon.command.general.invalidplayer=¡Nombre no valido! Intentalo de nuevo.
+pixelmon.command.general.invalidplayer=¡Nombre de usuario no valido! Intentalo de nuevo.
 pixelmon.command.general.inbattle=¡No puedes usar este comando durante una batalla!
 pixelmon.command.give.givesuccess=¡%s ha obtenido con éxito un %s!
 pixelmon.command.give.notifygive=¡%s dio a %s un %s!
 pixelmon.command.give.givesuccessegg=¡%s ha obtenido con éxito un Huevo de %s!
 pixelmon.command.give.notifygiveegg=¡%s dio a %s un Huevo de %s!
-pixelmon.command.heal.cantheal=¡No se pueden curar a los Pokemon de %s mientras está en batalla!
-pixelmon.command.heal.healed=¡Se han curado con éxito los Pokemon de %s!
-pixelmon.command.heal.notifyhealed=¡%s ha curado con éxito los Pokemon de %s!
+pixelmon.command.heal.cantheal=¡No se pueden curar a los Pokémon de %s mientras está en batalla!
+pixelmon.command.heal.healed=¡Se han curado con éxito los Pokémon de %s!
+pixelmon.command.heal.notifyhealed=¡%s ha curado con éxito los Pokémon de %s!
 pixelmon.command.spawn.spawned=Ha aparecido con éxito un %s.
 pixelmon.command.spawn.spawnednotify=%s ha spawneado con éxito un %s.
 pixelmon.command.unlock=Se ha desbloqueado con éxito los Pokémon de %s.
@@ -3908,6 +3910,12 @@ pixelmon.general.disabledblock=El server a bloqueado este bloque.
 
 pixelmon.npc.tradername=Intercambio
 pixelmon.npc.trader=¡No tienes el Pokémon que estoy buscando! Me gustaría un %s.
+
+pixelmon.npc.relearnername=Recordador de Movs.
+pixelmon.npc.relearnersetitem=El coste del recordador de movs. es ahora de %s (x%d).
+pixelmon.npc.relearnernoitem=El recordador de movs. no tiene ningún coste.
+pixelmon.npc.relearnerfull=¡No puedes stackear más este objeto!
+pixelmon.npc.relearnercost=Necesito %s (x%d) por mis servicios.
 
 pixelmon.projectiles.nibble=Ni siquiera un mordisco...
 
@@ -3988,7 +3996,7 @@ pixelmon.helditems.quickclaw=¡Garra Rápida de %s permitió atacar primero!
 pixelmon.helditems.whiteherb=¡Hierba Blanca de %s restauró todos los estados!
 pixelmon.helditems.ginemaberry=¡Baya Ginema de %s restauró todos los estados!
 pixelmon.helditems.recoilberry=¡%s con %s dañó a %s!
-pixelmon.helditems.ejectbutton=¡%s abandona la batalla debido a Botón Escape!
+pixelmon.helditems.ejectbutton=¡%s abandona la batalla con su Botón Escape!
 
 pixelmon.items.useitem=%s usó %s.
 
@@ -4253,9 +4261,9 @@ gui.guiEvolve.cancel=¡Evolución cancelada!
 gui.guiItemDrops.beatBossPixelmon1=¡Derrotaste a un jefe $p!
 gui.guiItemDrops.beatTrainer1=¡Derrotaste a un entrenador!
 gui.guiItemDrops.ok=OK
-gui.guiItemDrops.mouse=Pasa el ratón sobre el objeto
-gui.guiItemDrops.see=para ver más
-gui.guiItemDrops.details=detalles
+gui.guiItemDrops.mouse=Pasa el ratón sobre
+gui.guiItemDrops.see=el objeto para ver
+gui.guiItemDrops.details=más detalles.
 
 gui.fainterChoice.noFight=$p no puede luchar
 gui.fainterChoice.switch=cambialo por otro Pokémon
@@ -4340,7 +4348,7 @@ gui.pixelmonspawner.bossratio=Ratio de Jefe
 gui.pixelmonspawner.aggresion=Agresión
 gui.pixelmonspawner.spawnlocation=Localización
 
-gui.creativeinv.fainted=Debilitado
+gui.creativeinv.fainted=(Debilitado)
 gui.creativeinv.hp=PS 
 
 gui.trainereditor.edit=Editar
@@ -4395,6 +4403,7 @@ gui.trainereditor.changeTrader=Intercambio
 
 gui.chooseNPC.trainer=Crear Entrenador
 gui.chooseNPC.chatting=Crear NPC con diálogos
+gui.chooseNPC.relearner=Crear Recordador de Movs.
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4402,7 +4411,7 @@ gui.starter.trademark1=Este es un fan made mod, todas las marcas y copyright de 
 gui.starter.trademark2=por Nintendo y Game Freak Inc.
 gui.starter.trademark3=Soportado por Nintendo/Game Freak comprando Pokémon X/Y
 gui.starter.trademark4=¡¡Bienvenido al mundo de Pixelmon!! ¡Gracias por instalar el mod!
-gui.starter.trademark5=¡Ahora, porfavor escoje tu Pokémon inicial!
+gui.starter.trademark5=¡Ahora, por favor escoje tu Pokémon inicial!
 gui.starter.commingsoon=Proximamente...
 gui.starter.disabled=No permitido
 
@@ -4410,7 +4419,7 @@ gui.pc.box=Caja:
 
 gui.selectpokemon.message=¡Selecciona un Pokémon!
 
-gui.mail.seal=Sellar carta
+gui.mail.seal=Firmar carta
 gui.mail.close=Cerrar carta
 
 enum.aggro.timid=Asustado
@@ -4479,7 +4488,7 @@ gui.mainmenu.bag=MOCHILA
 gui.mainmenu.pokemon=POKÉMON
 gui.mainmenu.run=HUIR
 gui.mainmenu.whatdo=¿Qué debería hacer $p?
-gui.mainmenu.cantswitch=¡No puedes cambiar Pokémon en este momento!
+gui.mainmenu.cantswitch=¡No puedes cambiar de Pokémon en este momento!
 gui.mainmenu.traped=¡$p está atrapado! ¡No puedes huir!
 gui.mainmenu.trainer=¡No puedes huir de esta batalla!
 gui.mainmenu.use=¡%s usó %s!
@@ -4501,6 +4510,9 @@ gui.choosemoveset.power=Energía
 gui.choosemoveset.attackdetails=Detalles
 gui.choosemoveset.chosen=Movimientos Elegidos
 gui.choosemoveset.full=Lista de Movimientos
+gui.choosemoveset.choosemove=Elige un Movimiento
+gui.choosemoveset.relearnmove=Reaprender Mov.
+gui.choosemoveset.cost=Coste:
 
 trainer.Steve=Steve
 trainer.Youngster=Joven
@@ -4586,8 +4598,8 @@ nbt.hp2.name=PS
 
 battlecontroller.escaped=¡%s escapó!
 battlecontroller.!escaped=¡%s no pudo escapar!
-battlecontroller.initbattle.you=¡Iniciaste una batalla con %s!
-battlecontroller.initbattle.toyou=¡%s inició una batalla contigo!
+battlecontroller.initbattle.you=¡Ha comenzado la batalla contra %s!
+battlecontroller.initbattle.toyou=¡%s ha iniciado una batalla contigo!
 battlecontroller.flinched=¡%s ha retrocedido!
 battlecontroller.fainted=¡Tu %s se debilitó!
 battlecontroller.hasfainted=¡%s debilitado!
@@ -5227,10 +5239,10 @@ pixelmon.effect.raisestats=¡Las estados de %s aumentaron!
 pixelmon.effect.freefrom=¡%s se liberó de %s!
 pixelmon.effect.clearspikes=¡%s despejó todo de púas!
 pixelmon.effect.smackdown=¡%s fue golpeado desde el cielo!
-pixelmon.effect.ppdrop=¡%s disminuyó los PP de %s a cero!
+pixelmon.effect.ppdrop=¡%s pierde los PP de %s!
 pixelmon.effect.struggle=¡%s usó Combate!
 pixelmon.effect.suicide=¡%s se debilitó a sí mismo!
-pixelmon.effect.bidetime=¡%s esperó su oportunidad!
+pixelmon.effect.bidetime=¡%s espera su oportunidad!
 pixelmon.effect.storeenergy=¡%s está acumulando energía!
 pixelmon.effect.unleashenergy=¡%s liberó su energía!
 pixelmon.effect.attackfailed=¡El ataque de %s falló!
@@ -5382,7 +5394,8 @@ pixelmon.effect.heartswap=¡%s intercambió todos los cambios de estado con %s!
 pixelmon.effect.entrainment=¡La habilidad de %s ha cambiado de %s a %s!
 pixelmon.effect.feint=¡%s eliminó la protección de %s!
 pixelmon.effect.fling=¡%s tira su %s!
-pixelmon.effect.soak=¡%s ha cambiado a tipo Agua!
+pixelmon.effect.changetype=¡%s ha cambiado al tipo %s!
+pixelmon.effect.skydrop=¡%s se ha llevado a %s por los aires!
  
 pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5474,6 +5487,11 @@ pixelmon.status.endure=¡%s se ha fortalecido!
 pixelmon.status.endurehit=¡%s aguantó el golpe!
 pixelmon.status.wideguard=¡Vastaguardia protege el equipo de %s!
 pixelmon.status.wideguardprotect=¡Vastaguardia protege a %s!
+pixelmon.status.charge=¡%s comenzó a cargar energía!
+pixelmon.status.nightmareadd=¡%s ha caído en una Pesadilla!
+pixelmon.status.nightmare=¡%s está inmerso en una Pesadilla!
+pixelmon.status.powertrick=¡%s cambió su Ataque y Defensa!
+pixelmon.status.autotomize=¡%s ahora es más ligero!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
