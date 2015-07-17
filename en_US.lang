@@ -405,6 +405,7 @@ item.BindingBand.name=Binding Band
 item.IronBall.name=Iron Ball
 item.GripClaw.name=Grip Claw
 item.FloatStone.name=Float Stone
+item.MicleBerry.name=Micle Berry
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3374,6 +3375,7 @@ pixelmon.helditems.whiteherb=%s's White Herb restored its stats!
 pixelmon.helditems.ginemaberry=%s's Ginema Berry restored its stats!
 pixelmon.helditems.recoilberry=%s's %s hurt %s!
 pixelmon.helditems.ejectbutton=%s's Eject Button caused it to switch out!
+pixelmon.helditems.micleberry=%s's Micle Berry raised its accuracy!
 
 pixelmon.items.useitem=%s used the %s.
 
