@@ -3884,10 +3884,16 @@ enum.statuetex.stone=Stone
 enum.statuetex.gold=Gold
 enum.statuetex.bronze=Bronze
 enum.statuetex.silver=Silver
-enum.statuetex.bossred=Boss Red
-enum.statuetex.bossgreen=Boss Green
-enum.statuetex.bossblue=Boss Blue
-enum.statuetex.bossyellow=Boss Yellow
+enum.statuetex.bossred=Red Boss
+enum.statuetex.bossgreen=Green Boss
+enum.statuetex.bossblue=Blue Boss
+enum.statuetex.bossyellow=Yellow Boss
+
+enum.spawnlocation.land=Land
+enum.spawnlocation.water=Water
+enum.spawnlocation.underground=Underground
+enum.spawnlocation.air=Air
+enum.spawnlocation.airpersistent=Air Persistent
 
 gui.battle.effect=Effect
 gui.battle.description=Description
