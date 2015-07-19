@@ -400,6 +400,8 @@ item.BindingBand.name=Banda Atadura
 item.IronBall.name=Bola Férrea
 item.GripClaw.name=Garra Garfio
 item.FloatStone.name=Piedra Pómez
+item.MicleBerry.name=Baya Lagro
+item.RingTarget.name=Blanco
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -823,26 +825,6 @@ pixelmon.ranch.level3=¡El afecto de %s por %s crece más cada día!
 pixelmon.ranch.level4=¡%s está enamorado de %s todos los días!
 pixelmon.ranch.maxaffection=¡%s ama a %s al máximo!
 
-gui.update.text=Actualizar
-gui.label.text=Mote
-gui.save.text=Guardar
-gui.texture.text=Textura
-gui.description.text=Descripción
-gui.cancel.text=Cancelar
-
-enum.growth.microscopic=Microscópico
-enum.growth.ginormous=Enorme
-enum.statuetex.originaltexture=Original
-enum.statuetex.shiny=Variocolor
-enum.statuetex.stone=Piedra
-enum.statuetex.gold=Oro
-enum.statuetex.bronze=Bronce
-enum.statuetex.silver=Plata
-enum.statuetex.bossred=Jefe Rojo
-enum.statuetex.bossgreen=Jefe Verde
-enum.statuetex.bossblue=Jefe Azul
-enum.statuetex.bossyellow=Jefe Amarillo
-
 gui.ranch.managePokemon=Gestionar Pokémon
 gui.ranch.claimEgg=Reclamar Huevo
 gui.ranch.extendplusx=+X
@@ -853,18 +835,6 @@ gui.ranch.extendTitle=Extender el área del rancho
 gui.ranch.empty=No hay pokemon en el rancho
 ranch.hourglass.upgradedall=Todos los Pokémon aumentaron un nivel de crianza.
 ranch.hourglass.upgrade=%s aumentó un nivel de crianza.
-
-halloween.entityname=Joyero Espectral
-halloween.gemregistered=¡El Joyero Espectral recibió tu %s!
-halloween.alreadyregistered=¡La %s ya ha sido entregada!
-halloween.alreadyawarded=¡Ya has finalizado esta misión!
-halloween.message=¡Estoy aquí para intercambiar tus gemas sagradas!
-
-christmas.notchristmas=¡Debes esperar hasta Navidad para abrir este regalo!
-christmas.ischristmas=¡Feliz Navidad de parte del equipo de desarrollo de Pixelmon!
-christmas.received=¡Has recibido un regalo de Navidad de Delibird!
-christmas.alreadygifted=¡Ya has abierto este regalo de Navidad!
-item.Gift Box.name=Regalo
 
 //Attacks and their Descriptions
 /*
@@ -4004,6 +3974,7 @@ pixelmon.helditems.whiteherb=¡Hierba Blanca de %s restauró todos los estados!
 pixelmon.helditems.ginemaberry=¡Baya Ginema de %s restauró todos los estados!
 pixelmon.helditems.recoilberry=¡%s con %s dañó a %s!
 pixelmon.helditems.ejectbutton=¡%s abandona la batalla con su Botón Escape!
+pixelmon.helditems.micleberry=¡La Baya Lagro de %s aumenta su precisión!
 
 pixelmon.items.useitem=%s usó %s.
 
@@ -4352,8 +4323,8 @@ gui.pixelmonspawner.minspawns=Mín. Spawns
 gui.pixelmonspawner.maxlevel=Máx. Nivel
 gui.pixelmonspawner.minlevel=Mín. Nivel
 gui.pixelmonspawner.bossratio=Ratio de Jefe
-gui.pixelmonspawner.aggresion=Agresión
-gui.pixelmonspawner.spawnlocation=Localización
+gui.pixelmonspawner.aggresion=Agresividad
+gui.pixelmonspawner.spawnlocation=Posición
 
 gui.creativeinv.fainted=(Debilitado)
 gui.creativeinv.hp=PS 
@@ -4426,6 +4397,13 @@ gui.pc.box=Caja:
 
 gui.selectpokemon.message=¡Selecciona un Pokémon!
 
+gui.update.text=Actualizar
+gui.label.text=Mote
+gui.save.text=Guardar
+gui.texture.text=Textura
+gui.description.text=Descripción
+gui.cancel.text=Cancelar
+
 gui.mail.seal=Firmar carta
 gui.mail.close=Cerrar carta
 
@@ -4446,6 +4424,8 @@ enum.trainerEncounter.once=Una vez
 enum.trainerEncounter.onceperday=Cada día
 enum.trainerEncounter.oncepermcday=Cada día de MC
 enum.trainerEncounter.onceperplayer=Una vez por jugador
+
+enum.growth.microscopic=Microscópico
 enum.growth.pygmy=Diminuto
 enum.growth.runt=Enano
 enum.growth.small=Pequeño
@@ -4453,6 +4433,7 @@ enum.growth.ordinary=Normal
 enum.growth.huge=Grande
 enum.growth.giant=Muy Grande
 enum.growth.enormous=Gigante
+enum.growth.ginormous=Enorme
 
 enum.nature.adamant=Firme
 enum.nature.bashful=Tímida
@@ -4479,6 +4460,23 @@ enum.nature.relaxed=Plácida
 enum.nature.sassy=Grosera
 enum.nature.serious=Seria
 enum.nature.timid=Miedosa
+
+enum.statuetex.originaltexture=Original
+enum.statuetex.shiny=Variocolor
+enum.statuetex.stone=Piedra
+enum.statuetex.gold=Oro
+enum.statuetex.bronze=Bronce
+enum.statuetex.silver=Plata
+enum.statuetex.bossred=Jefe Rojo
+enum.statuetex.bossgreen=Jefe Verde
+enum.statuetex.bossblue=Jefe Azul
+enum.statuetex.bossyellow=Jefe Amarillo
+
+enum.spawnlocation.land=Suelo
+enum.spawnlocation.water=Agua
+enum.spawnlocation.underground=Bajo tierra
+enum.spawnlocation.air=Aire
+enum.spawnlocation.airpersistent=Mantener en el aire
 
 gui.battle.effect=Efecto
 gui.battle.description=Descripción
@@ -5322,7 +5320,7 @@ pixelmon.effect.speedtoohigh=¡La Velocidad de %s no puede aumentar más!
 pixelmon.effect.speedtoolow=¡La Velocidad de %s no puede disminuir más!
 pixelmon.effect.surroundedbywater=¡%s ya está rodeado de un manto de agua!
 pixelmon.effect.surroundwithwater=¡%s se rodeó en un manto de agua!
-pixelmon.effect.burnt=¡%s sufre de quemadura!
+pixelmon.effect.burnt=¡%s se ha quemado!
 pixelmon.effect.failed=¡%s falló!
 pixelmon.effect.nomoveyet=¡%s aún no ha usado ningún movimiento!
 pixelmon.effect.alreadydisabled=¡%s ya está inhabilitado!
@@ -5405,8 +5403,11 @@ pixelmon.effect.fling=¡%s tira su %s!
 pixelmon.effect.changetype=¡%s ha cambiado al tipo %s!
 pixelmon.effect.skydrop=¡%s se ha llevado a %s por los aires!
 pixelmon.effect.skullbash=¡%s agachó la cabeza!
+pixelmon.effect.mimic=¡%s aprendió el último ataque de %s!
+pixelmon.effect.uproar=¡%s montó un Alboroto!
+pixelmon.effect.uproarend=%s se ha calmado.
  
-pixelmon.status.ringheal=¡%s fue curado por Acua Aro!
+pixelmon.status.ringheal=¡%s se curo con Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
 pixelmon.status.confusionsnap=¡%s ya no está confuso!
 pixelmon.status.confused=%s está confundido...
@@ -5460,7 +5461,7 @@ pixelmon.status.brightlight=¡El sol brilla intensamente!
 pixelmon.status.toxicspikesabsorbed=¡Las púas tóxicas fueron absorbidas!
 pixelmon.status.toxicspikespoisoned=¡Las púas tóxicas envenenaron a %s!
 pixelmon.status.toxicspikesbadlypoisoned=¡Las púas tóxicas envenenaron gravemente a %s!
-pixelmon.status.trickroomreturntonormal=El lugar volvió a la normalidad...
+pixelmon.status.trickroomreturntonormal=Las dimensiones alteradas volvieron a la normalidad.
 pixelmon.status.ragebuilding=¡La furia de %s está aumentando!
 pixelmon.status.fellasleep=¡%s se fue a dormir!
 pixelmon.status.taunted=¡%s se dejó engañar por Mofa!
@@ -5502,6 +5503,7 @@ pixelmon.status.nightmare=¡%s está inmerso en una Pesadilla!
 pixelmon.status.powertrick=¡%s cambió su Ataque y Defensa!
 pixelmon.status.autotomize=¡%s ahora es más ligero!
 pixelmon.status.followme=¡%s se convirtió en el centro de atención!
+pixelmon.status.imprison=¡%s selló movimientos del oponente!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
@@ -5518,6 +5520,17 @@ key.pokemonexternal=Movimiento externo
 key.nextexternalmove=Cambiar movimiento externo
 key.pokedex=Abrir Pokédex/Wiki
 
+halloween.entityname=Joyero Espectral
+halloween.gemregistered=¡El Joyero Espectral recibió tu %s!
+halloween.alreadyregistered=¡La %s ya ha sido entregada!
+halloween.alreadyawarded=¡Ya has finalizado esta misión!
+halloween.message=¡Estoy aquí para intercambiar tus gemas sagradas!
+
+christmas.notchristmas=¡Debes esperar hasta Navidad para abrir este regalo!
+christmas.ischristmas=¡Feliz Navidad de parte del equipo de desarrollo de Pixelmon!
+christmas.received=¡Has recibido un regalo de Navidad de Delibird!
+christmas.alreadygifted=¡Ya has abierto este regalo de Navidad!
+item.Gift Box.name=Regalo
 
 //Unown blocks
 UnownBlock.A.name=Bloque Unown 'A'
