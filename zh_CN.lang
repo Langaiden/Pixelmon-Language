@@ -386,6 +386,11 @@ item.WiseGlasses.name=知识眼镜
 item.EjectButton.name=逃脱按钮
 item.EnigmaBerry.name=谜团果实
 item.BindingBand.name=紧固头巾
+item.IronBall.name=黑色铁球
+item.GripClaw.name=黏着钩爪
+item.FloatStone.name=浮石
+item.MicleBerry.name=神秘果
+item.RingTarget.name=狙击标靶
 
 
 item.Full Incense.name=满腹熏香
@@ -3355,6 +3360,7 @@ pixelmon.helditems.whiteherb=%s 的白色药草恢复了它的状态！
 pixelmon.helditems.ginemaberry=%s 的洋葱果恢复了它的状态！
 pixelmon.helditems.recoilberry=%s 的 %s 伤害了 %s！
 pixelmon.helditems.ejectbutton=%s 的逃脱按钮使他逃离！
+pixelmon.helditems.micleberry=%s 的神秘果提升了它的命中率！
 
 pixelmon.items.useitem=%s 使用了 %s 。
 
@@ -3886,10 +3892,16 @@ enum.statuetex.stone=石头
 enum.statuetex.gold=金色
 enum.statuetex.bronze=青铜
 enum.statuetex.silver=银色
-enum.statuetex.bossred=Boss 红
-enum.statuetex.bossgreen=Boss 绿
-enum.statuetex.bossblue=Boss 蓝
-enum.statuetex.bossyellow=Boss 黄
+enum.statuetex.bossred=红色Boss
+enum.statuetex.bossgreen=绿色Boss 
+enum.statuetex.bossblue=蓝色Boss 
+enum.statuetex.bossyellow=黄色Boss 
+
+enum.spawnlocation.land=陆地
+enum.spawnlocation.water=水中
+enum.spawnlocation.underground=地下
+enum.spawnlocation.air=空中
+enum.spawnlocation.airpersistent=空中悬浮
 
 gui.battle.effect=效果
 gui.battle.description=介绍
@@ -4759,7 +4771,6 @@ pixelmon.effect.heartswap=%s 将它的能力等级与 %s 进行了交换！
 pixelmon.effect.entrainment=%s 的特性从被 %s 改变成 %s！
 pixelmon.effect.feint=%s 移除了 %s 的守住！
 pixelmon.effect.fling=%s 将它扔到了 %s 身上！
-pixelmon.effect.soak=%s 转变成水系！
 pixelmon.effect.changetype=%s 转变成 %s 系！
 pixelmon.effect.skydrop=%s 带着 %s 进入了高空！
 pixelmon.effect.skullbash=%s 缩起了脖子！
