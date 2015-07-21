@@ -789,6 +789,7 @@ itemGroup.Restoration=Restoration
 itemGroup.Natural=Natural
 itemGroup.Held Items=Held Items
 itemGroup.TMs/HMs=TMs/HMs
+itemGroup.utilityBlocks=Utility Blocks
 itemGroup.PixelUtilitiesBlocks=PixelUtilities Blocks
 itemGroup.PixelUtilitiesItems=PixelUtilities Items
 itemGroup.PixelUtilitiesArmor=PixelUtilities Armor
@@ -4182,6 +4183,7 @@ tile.templePillar.Pillar.name=Temple Pillar
 tile.templePillar.BrokenPillar.name=Broken Pillar
 tile.PokeGift.name=Poké Gift
 tile.EventPokeGift.name=Event Poké Gift
+tile.movementPlate.name=Movement Plate
 
 PokeDirt.name=PokéDirt
 PokeSand.name=PokéSand
@@ -4250,6 +4252,9 @@ RedVendingMachine.name=Red Vending Machine
 YellowVendingMachine.name=Yellow Vending Machine
 Fridge.name=Fridge
 PixelmonGrass.name=Pixelmon Grass
+timedFall.name=Timed Fall
+warpPlate.name=Warp Plate
+elevator.name=Elevator
 
 ability.Adaptability.name=Adaptability
 ability.Adaptability.description=Powers up moves of the same type as the Pokémon.
@@ -4922,6 +4927,8 @@ pixelmon.status.powertrick=%s switched its Attack and Defence stats!
 pixelmon.status.autotomize=%s became nimble!
 pixelmon.status.followme=%s became the center of attention!
 pixelmon.status.imprison=%s sealed the opponent's moves!
+pixelmon.status.healblock=%s was prevented from healing!
+pixelmon.status.healblockend=%s can now heal again!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
