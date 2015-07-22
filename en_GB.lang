@@ -4929,6 +4929,7 @@ pixelmon.status.followme=%s became the center of attention!
 pixelmon.status.imprison=%s sealed the opponent's moves!
 pixelmon.status.healblock=%s was prevented from healing!
 pixelmon.status.healblockend=%s can now heal again!
+pixelmon.status.sport=%s-type moves were weakened!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
