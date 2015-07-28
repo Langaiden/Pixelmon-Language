@@ -4916,6 +4916,7 @@ pixelmon.effect.skullbash=%s lowered its head!
 pixelmon.effect.mimic=%s copied %s's %s!
 pixelmon.effect.uproar=%s is making an uproar!
 pixelmon.effect.uproarend=%s calmed down.
+pixelmon.effect.quash=%s made %s move last!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
