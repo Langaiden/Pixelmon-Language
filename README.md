@@ -1,4 +1,4 @@
 Pixelmon-Language
 =================
 
-Language files for pixelmon
+Language files for Pixelmon
