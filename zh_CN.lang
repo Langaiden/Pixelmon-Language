@@ -4862,6 +4862,7 @@ pixelmon.effect.skullbash=%s 缩起了脖子！
 pixelmon.effect.mimic=%s 复制了 %s 的 %s！
 pixelmon.effect.uproar=%s 制造了吵闹！
 pixelmon.effect.uproarend=%s 冷静了。
+pixelmon.effect.quash=%s 使 %s 最后行动！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
 pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
