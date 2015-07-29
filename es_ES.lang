@@ -5491,6 +5491,7 @@ pixelmon.effect.skullbash=¡%s agachó la cabeza!
 pixelmon.effect.mimic=¡%s aprendió el último ataque de %s!
 pixelmon.effect.uproar=¡%s montó un Alboroto!
 pixelmon.effect.uproarend=%s se ha calmado.
+pixelmon.effect.quash=¡%s hace que %s retrase su turno!
  
 pixelmon.status.ringheal=¡%s se curo con Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
