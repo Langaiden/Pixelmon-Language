@@ -4027,7 +4027,7 @@ gui.choosemoveset.cost=Cost:
 
 gui.tutor.addmove=Add Move
 gui.tutor.deletemove=Delete Move
-gui.tutor.itemname=Item name
+gui.tutor.itemname=Item
 gui.tutor.itemamount=Amount
 gui.tutor.itemdamage=Damage
 gui.tutor.addcost=Add Cost
