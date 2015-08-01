@@ -3348,6 +3348,9 @@ pixelmon.npc.relearnernoitem=这个回忆教学者现在可以经行回忆免费
 pixelmon.npc.relearnerfull=您不能进一步地进行此物品的堆叠。
 pixelmon.npc.relearnercost=我需要 %s (x%d) 来进行我的服务。
 
+pixelmon.npc.tutorname=技能教学师
+pixelmon.npc.cantpay=您支付不起学习这些技能的费用！
+
 pixelmon.projectiles.nibble=没有任何精灵咬钩…
 
 pixelmon.stats.gainexp=您的 %s 获得了 %d 点经验值！
@@ -3876,15 +3879,17 @@ gui.trainereditor.delete=删除训练师
 gui.tradereditor.shiny=S
 gui.tradereditor.level=等级
 gui.tradereditor.offer=提供:
-gui.tradereditor.exchange=交换
+gui.tradereditor.exchange=交换:
 gui.tradereditor.delete=删除交换
 gui.tradereditor.changeTrainer=更改训练师
 gui.tradereditor.random=随机
 gui.trainereditor.changeTrader=修改至交换人
 
 gui.chooseNPC.trainer=创建NPC训练师
+gui.chooseNPC.trader=创建交换者
 gui.chooseNPC.chatting=创建对话NPC
 gui.chooseNPC.relearner=创建技能回忆教学NPC
+gui.chooseNPC.tutor=创建技能教学师
 gui.npceditor.despawn=删除NPC
 gui.npceditor.page1=对话文本 1
 gui.npceditor.page2=对话文本 2
@@ -4024,6 +4029,17 @@ gui.choosemoveset.full=完整技能列表
 gui.choosemoveset.choosemove=选择一个技能
 gui.choosemoveset.relearnmove=回忆技能
 gui.choosemoveset.cost=费用：
+
+gui.tutor.addmove=添加技能
+gui.tutor.deletemove=删除技能
+gui.tutor.itemname=物品名称
+gui.tutor.itemamount=数量
+gui.tutor.itemdamage=伤害
+gui.tutor.addcost=添加费用
+gui.tutor.deletetutor=删除教学师
+gui.tutor.canlearn=能学会
+gui.tutor.cantlearn=不能学会
+gui.tutor.already=已经学会
 
 gui.ranch.managePokemon=管理精灵
 gui.ranch.claimEgg=获取精灵蛋
@@ -4862,6 +4878,7 @@ pixelmon.effect.skullbash=%s 缩起了脖子！
 pixelmon.effect.mimic=%s 复制了 %s 的 %s！
 pixelmon.effect.uproar=%s 制造了吵闹！
 pixelmon.effect.uproarend=%s 冷静了。
+pixelmon.effect.quash=%s 使 %s 最后行动！
 pixelmon.effect.reflectraised=屏障提升了 %s 的队伍的防御力！
 pixelmon.effect.healthsleep=%s 睡着了，并回复生命！
 pixelmon.effect.alreadysafeguard=% 已经受到了护盾保护！
