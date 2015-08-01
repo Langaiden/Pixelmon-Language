@@ -3376,6 +3376,9 @@ pixelmon.npc.relearnernoitem=The relearner is now free to use.
 pixelmon.npc.relearnerfull=You can't stack this item any further!
 pixelmon.npc.relearnercost=I require %s (x%d) for my services.
 
+pixelmon.npc.tutorname=Move Tutor
+pixelmon.npc.cantpay=You can't pay the cost of learning this move!
+
 pixelmon.projectiles.nibble=Not even a nibble...
 
 pixelmon.stats.gainexp=Your %s gained %d Exp.!
@@ -3875,15 +3878,17 @@ gui.npceditor.page4=Page 4
 gui.tradereditor.shiny=S
 gui.tradereditor.level=Level
 gui.tradereditor.offer=Offer:
-gui.tradereditor.exchange=Exchange
+gui.tradereditor.exchange=Exchange:
 gui.tradereditor.delete=Delete Trader
 gui.tradereditor.changeTrainer=Change to Trainer
 gui.tradereditor.random=Randomize
 gui.trainereditor.changeTrader=Change to Trader
 
 gui.chooseNPC.trainer=Create NPC Trainer
-gui.chooseNPC.chatting=Create chatting NPC
-gui.chooseNPC.relearner=Create move relearner
+gui.chooseNPC.trader=Create Trader
+gui.chooseNPC.chatting=Create Chatting NPC
+gui.chooseNPC.relearner=Create Move Relearner
+gui.chooseNPC.tutor=Create Move Tutor
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4019,6 +4024,17 @@ gui.choosemoveset.full=Full Move List
 gui.choosemoveset.choosemove=Choose a Move
 gui.choosemoveset.relearnmove=Relearn Move
 gui.choosemoveset.cost=Cost:
+
+gui.tutor.addmove=Add Move
+gui.tutor.deletemove=Delete Move
+gui.tutor.itemname=Item
+gui.tutor.itemamount=Amount
+gui.tutor.itemdamage=Damage
+gui.tutor.addcost=Add Cost
+gui.tutor.deletetutor=Delete Tutor
+gui.tutor.canlearn=Can learn
+gui.tutor.cantlearn=Can't learn
+gui.tutor.already=Already learned
 
 gui.ranch.managePokemon=Manage Pokémon
 gui.ranch.claimEgg=Claim Egg
