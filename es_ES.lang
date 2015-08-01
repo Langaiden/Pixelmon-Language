@@ -3970,6 +3970,9 @@ pixelmon.npc.relearnernoitem=El recordador de movs. no tiene ningún coste.
 pixelmon.npc.relearnerfull=¡No puedes stackear más este objeto!
 pixelmon.npc.relearnercost=Necesito %s (x%d) por mis servicios.
 
+pixelmon.npc.tutorname=Tutor de Movs.
+pixelmon.npc.cantpay=¡No tienes suficiente para aprender este movimiento!
+
 pixelmon.projectiles.nibble=Ni siquiera un mordisco...
 
 pixelmon.stats.gainexp=¡Tu %s ganó %d puntos de experiencia!
@@ -4446,23 +4449,24 @@ gui.trainereditor.gender=Género
 gui.trainereditor.partypokemon=Equipo Pokémon
 
 gui.npceditor.despawn=Eliminar NPC
-gui.npceditor.page1=Página 1
-gui.npceditor.page2=Página 2
-gui.npceditor.page3=Página 3
-gui.npceditor.page4=Página 4
+gui.npceditor.page1=Texto 1
+gui.npceditor.page2=Texto 2
+gui.npceditor.page3=Texto 3
+gui.npceditor.page4=Texto 4
 
 gui.tradereditor.shiny=S
 gui.tradereditor.level=Nivel
 gui.tradereditor.offer=Oferta:
-gui.tradereditor.exchange=Intercambio
+gui.tradereditor.exchange=Intercambio:
 gui.tradereditor.delete=Borrar
 gui.tradereditor.changeTrainer=Entrenador
 gui.tradereditor.random=Aleatorio
 gui.trainereditor.changeTrader=Intercambio
 
 gui.chooseNPC.trainer=Crear Entrenador
-gui.chooseNPC.chatting=Crear NPC con diálogos
+gui.chooseNPC.chatting=Crear NPC con Diálogos
 gui.chooseNPC.relearner=Crear Recordador de Movs.
+gui.chooseNPC.tutor=Crear Tutor de Movs.
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4599,6 +4603,17 @@ gui.choosemoveset.full=Lista de Movimientos
 gui.choosemoveset.choosemove=Elige un Movimiento
 gui.choosemoveset.relearnmove=Reaprender Mov.
 gui.choosemoveset.cost=Coste:
+
+gui.tutor.addmove=Añadir Mov.
+gui.tutor.deletemove=Eliminar Mov.
+gui.tutor.itemname=Objeto
+gui.tutor.itemamount=Cantidad
+gui.tutor.itemdamage=Daño
+gui.tutor.addcost=Añadir Coste
+gui.tutor.deletetutor=Eliminar Tutor
+gui.tutor.canlearn=Puede aprender
+gui.tutor.cantlearn=No puede aprender
+gui.tutor.already=Ya ha aprendido
 
 trainer.Steve=Steve
 trainer.Youngster=Joven
@@ -5491,6 +5506,7 @@ pixelmon.effect.skullbash=¡%s agachó la cabeza!
 pixelmon.effect.mimic=¡%s aprendió el último ataque de %s!
 pixelmon.effect.uproar=¡%s montó un Alboroto!
 pixelmon.effect.uproarend=%s se ha calmado.
+pixelmon.effect.quash=¡%s hace que %s retrase su turno!
  
 pixelmon.status.ringheal=¡%s se curo con Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
