@@ -3314,6 +3314,7 @@ pixelmon.command.battle.started=Battle between %s and %s started!
 pixelmon.command.battle2.first=First participant must be a player.
 pixelmon.command.battle2.invalid=Participant %d was invalid. Please try again.
 pixelmon.command.battle2.level=Please provide a level!
+pixelmon.command.battle2.cantstart=Invalid participants.
 pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 pixelmon.command.endbattle.notinbattle=%s is not in a battle.
 pixelmon.command.endbattle.endbattle=Battle ended successfully.
@@ -3355,9 +3356,9 @@ pixelmon.interaction.tmknown=%s already knows %s!
 pixelmon.interaction.tmcantlearn=%s can't learn %s!
 pixelmon.interaction.vitamin=%s's Friendship and EVs have increased.
 pixelmon.interaction.vitaminfail=%s's EVs can't be increased by the vitamin any further.
-pixelmon.interaction.berry=%s's Friendship has increased but its EVs have decreased.
-pixelmon.interaction.berryfriend=%s's Friendship has increased.
-pixelmon.interaction.berryfail=%s's EVs can't go lower.
+pixelmon.interaction.berry=%s's %s fell!
+pixelmon.interaction.berryfriend=%s's Friendship increased!
+pixelmon.interaction.berryfail=%s's %s can't go lower.
 
 pixelmon.general.noeffect=It had no effect!
 pixelmon.general.needop=You must be an OP to perform this action.
@@ -3979,6 +3980,15 @@ enum.spawnlocation.water=Water
 enum.spawnlocation.underground=Underground
 enum.spawnlocation.air=Air
 enum.spawnlocation.airpersistent=Air Persistent
+
+enum.stat.hp=HP
+enum.stat.attack=Attack
+enum.stat.defence=Defence
+enum.stat.specialattack=Special Attack
+enum.stat.specialdefence=Special Defence
+enum.stat.speed=Speed
+enum.stat.accuracy=Accuracy
+enum.stat.evasion=Evasion
 
 gui.battle.effect=Effect
 gui.battle.description=Description
