@@ -3335,6 +3335,9 @@ pixelmon.command.heal.healed=Successfully healed %s's Pokémon!
 pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pokémon!
 pixelmon.command.spawn.spawned=Successfully spawned a %s.
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s.
+pixelmon.command.struc.cantfit=The structure was unable to fit at %s.
+pixelmon.command.struc.nostruc=No structures found for this biome. (%s)
+pixelmon.command.struc.notfound=Structure %s not found.
 pixelmon.command.teach.busy=%s is busy!
 pixelmon.command.teach.nothing=%s has nothing in that slot!
 pixelmon.command.teach.slot=Slot number must be between 1 and 6.
@@ -3781,6 +3784,9 @@ gui.replaceattack.accuracy=Accuracy
 
 gui.acceptdeny.accept=Accept
 gui.acceptdeny.deny=Decline
+gui.acceptdeny.single=Single Battle
+gui.acceptdeny.double=Double Battle
+gui.acceptdeny.invaliddouble=%s doesn't have enough Pokémon to be in a double battle!
 
 gui.renamePoke.Reset=Reset
 gui.renamePoke.cancel=gui.cancel
