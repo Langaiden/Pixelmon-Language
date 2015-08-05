@@ -2805,17 +2805,17 @@ pixelmon.command.battle.sameperson=同じ人とのバトルはできません.
 pixelmon.command.battle.started=%s と %s のバトルを開始しました!
 pixelmon.command.freeze.frozen=全てのポケモンを凍結しました!
 pixelmon.command.freeze.unfrozen=凍結を解除しました!
-pixelmon.command.general.cheater=チーターとして通報されました!詳しくはPokecraftJPのスタッフにお問い合わせください!
+pixelmon.command.general.cheater=チーター！
 pixelmon.command.general.lvlerror=エラー.
 pixelmon.command.general.notingame=%s は存在しません!
 pixelmon.command.general.invalid=エラー!
 pixelmon.command.general.invalidplayer=エラー.
-pixelmon.command.give.givesuccess=チーターとして通報されました!詳しくはPokecraftJPのスタッフにお問い合わせください!
+pixelmon.command.give.givesuccess=%s に %s を渡しました!
 pixelmon.command.give.notifygive=%s は %s に %s を渡しました!
 pixelmon.command.heal.cantheal=%s はバトル中です!
 pixelmon.command.heal.healed=%s のポケモンを回復しました!
 pixelmon.command.heal.notifyhealed=%s は %s のポケモンを回復しました!
-pixelmon.command.spawn.spawned=チーターとして通報されました!詳しくはPokecraftJPのスタッフにお問い合わせください!
+pixelmon.command.spawn.spawned=%s をスポーンしました
 pixelmon.command.spawn.spawnednotify=%s は %s をスポーンしました
 
 //other
