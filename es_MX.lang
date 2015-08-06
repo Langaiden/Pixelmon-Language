@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang") and reviewed by 'Wirlie' (for Language "es_MX.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor for minor changes): 'Wirlie'
-* Last Update: August 5, 2015 - by Wirlie
+* Last Update: August 6, 2015 - by Wirlie
 *************************************************/
 
 /**************** ES-MX *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang") y revisado por 'Wirlie' (para el idioma "es_MX.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor de cambios menores); 'Wirlie'
-* Ultima actualización: 5 de agosto de 2015 por Wirlie
+* Ultima actualización: 6 de agosto de 2015 por Wirlie
 *************************************************/
 
 /*
@@ -29,24 +29,24 @@
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=PC
-item.Ranch Block.name=Rancho Pokemon
+item.Ranch Block.name=Rancho Pokémon
 item.Anvil.name=Yunquel
 item.MechanicalAnvil.name=Yunque Mecánico
-item.Healer.name=Curador de pokemones
-item.Trade Machine.name=Máquina de intercambio Pokemon
-item.Fossil Machine.name=Máquina de fósiles Pokemon
-item.Cloning Machine.name=Máquina de Clonación
-item.Fossil Machine Tank.name=Tanque de Máquina de fósiles 
-item.Fossil Machine Display.name=Pantalla de Máquina de fósiles
-item.Fossil Machine Top.name=Parte Superior de Máquina de fósiles
-item.Fossil Machine Base.name=Base de Máquina de fósiles
-item.Uno Shrine.name=Altar de Hielo
+item.Healer.name=Curador Pokémon
+item.Trade Machine.name=Máquina de intercambio Pokémon
+item.Fossil Machine.name=Máquina de fósiles Pokémon
+item.Cloning Machine.name=Máquina de clonación Pokémon
+item.Fossil Machine Tank.name=Máquina de fósiles Pokémon (Tanque)
+item.Fossil Machine Display.name=Máquina de fósiles Pokémon (Pantalla)
+item.Fossil Machine Top.name=Máquina de fósiles Pokémon (Superior)
+item.Fossil Machine Base.name=Máquina de fósiles Pokémon (Base)
+item.Uno Shrine.name=Altar Hielo
 item.Dos Shrine.name=Altar Eléctrico
-item.Tres Shrine.name=Altar de Fuego
+item.Tres Shrine.name=Altar Fuego
 item.Green Tank.name=Tanque Verde
 item.Orange Tank.name=Tanque Naranja
 item.Cloner Cord.name=Cable de Clonación
-item.Fossil Cleaner.name=Limpiador de Fósiles Pokemon
+item.Fossil Cleaner.name=Limpiador de Fósiles Pokémon
 item.HiddenCube.name=Bloque oculto
 item.HiddenIronDoor.name=Puerta de hierro oculta
 item.HiddenWoodenDoor.name=Puerta de madera oculta
@@ -63,7 +63,7 @@ item.Aluminium Spade.name=Pala de aluminio
 item.Aluminium PickAxe.name=Pico de aluminio
 item.Aluminium Hoe.name=Azada de aluminio
 item.Wailmer Pail.name=Regadera Wailmer
-item.Trainer Editor.name=Editor de Etrenadores Pokemon (NPC)
+item.Trainer Editor.name=Editor de Etrenadores Pokémon (NPC)
 item.Aluminium Sword.name=Espada de alumino
 item.Aluminium Helmet.name=Yelmo de aluminio
 item.Aluminium Torso.name=Pechera de aluminio
@@ -76,10 +76,11 @@ item.Aluminium Plate.name=Placa de aluminio
 item.Old Rod.name=Caña Vieja
 item.Good Rod.name=Caña Buena
 item.Super Rod.name=Súper Caña
-item.Trade Monitor.name=Máquina de Intercambio Pokemon (Pantalla)
-item.Trade Holder Right.name=Máquina de Intercambio Pokemon (Derecha)
-item.Trade Holder Left.name=Máquina de Intercambio Pokemon (Izquierda)
-item.Trade Panel.name=Máquina de Intercambio Pokemon (Panel)
+item.Trade Monitor.name=Máquina de Intercambio Pokémon (Pantalla)
+item.Trade Holder Right.name=Máquina de Intercambio Pokémon (Derecha)
+item.Trade Holder Left.name=Máquina de Intercambio Pokémon (Izquierda)
+item.Trade Panel.name=Máquina de Intercambio Pokémon
+(Panel)
 item.mysteryDungeonMap.name=Mapa de Mazmorra Misteriosa
 item.Uno Orb.name=Orbe del Alma Helada
 item.Dos Orb.name=Orbe del Alma Eléctrica
@@ -106,26 +107,26 @@ item.Luxury Ball.name=Lujo Ball
 item.Heal Ball.name=Sana Ball
 item.Dusk Ball.name=Ocaso Ball
 item.Premier Ball.name=Honor Ball
-item.Poke Ball Lid.name=Parte superior Poke Ball
-item.Great Ball Lid.name=Parte superior Super Ball
-item.Ultra Ball Lid.name=Parte superior Ultra Ball
-item.Level Ball Lid.name=Parte superior Nivel Ball
-item.Moon Ball Lid.name=Parte superior Luna Ball
-item.Friend Ball Lid.name=Parte superior Amigo Ball 
-item.Love Ball Lid.name=Parte superior Amor Ball
-item.Safari Ball Lid.name=Parte superior Safari Ball
-item.Heavy Ball Lid.name=Parte superior Peso Ball
-item.Fast Ball Lid.name=Parte superior Veloz Ball
-item.Repeat Ball Lid.name=Parte superior Acopio Ball
-item.Timer Ball Lid.name=Parte superior Turno Ball
-item.Nest Ball Lid.name=Parte superior Nido Ball
-item.Net Ball Lid.name=Parte superior Malla Ball
-item.Dive Ball Lid.name=Parte superior Buceo Ball
-item.Luxury Ball Lid.name=Parte superior Lujo Ball
-item.Heal Ball Lid.name=Parte superior Sana Ball
-item.Dusk Ball Lid.name=Parte superior Ocaso Ball
-item.Premier Ball Lid.name=Parte superior Honor Ball
-item.Poke Ball Disc.name=Disco Poké Ball 
+item.Poke Ball Lid.name=Tapa Poke Ball
+item.Great Ball Lid.name=Tapa Super Ball
+item.Ultra Ball Lid.name=Tapa Ultra Ball
+item.Level Ball Lid.name=Tapa Nivel Ball
+item.Moon Ball Lid.name=Tapa Luna Ball
+item.Friend Ball Lid.name=Tapa Amigo Ball
+item.Love Ball Lid.name=Tapa Amor Ball
+item.Safari Ball Lid.name=Tapa Safari Ball
+item.Heavy Ball Lid.name=Tapa Peso Ball
+item.Fast Ball Lid.name=Tapa Veloz Ball
+item.Repeat Ball Lid.name=Tapa Acopio Ball
+item.Timer Ball Lid.name=Tapa Turno Ball
+item.Nest Ball Lid.name=Tapa Nido Ball
+item.Net Ball Lid.name=Tapa Malla Ball
+item.Dive Ball Lid.name=Tapa Buceo Ball
+item.Luxury Ball Lid.name=Tapa Lujo Ball
+item.Heal Ball Lid.name=Tapa Sana Ball
+item.Dusk Ball Lid.name=Tapa Ocaso Ball
+item.Premier Ball Lid.name=Tapa Honor Ball
+item.Poke Ball Disc.name=Disco Poké Ball
 item.Great Ball Disc.name=Disco Super Ball
 item.Ultra Ball Disc.name=Disco Ultra Ball
 item.Level Ball Disc.name=Disco Nivel Ball
@@ -282,7 +283,7 @@ item.EnergyPowder.name=Polvoenergía
 item.EnergyRoot.name=Raíz Energía
 item.RevivalHerb.name=Hierba revivir
 
-item.spawnGrotto.name=Gruta Spawn
+item.spawnGrotto.name=Aparecer Gruta
 item.Mossy Rock.name=Roca Musgosa
 item.Icy Rock.name=Roca de Hielo
 item.Black Apricorn.name=Bonguri Negro
@@ -488,7 +489,7 @@ item.XAccuracy.name=Precisión X
 item.DireHit.name=Directo
 
 item.chisel.name=Cincel
-item.ranchupgrade.name=Mejora del Rancho
+item.ranchupgrade.name=Mejora del Rancho Pokémon
 item.hourglassgold.name=Reloj de Arena Dorado de Isi
 item.hourglasssilver.name=Reloj de Arena Plateado de Isi
 
@@ -877,12 +878,12 @@ item.Lure Ball.name=Cebo Ball
 item.Sport Ball.name=Competi Ball
 item.Cherish Ball.name=Gloria Ball
 item.GS Ball.name=GS Ball
-item.Quick Ball Lid.name=Parte superior Veloz Ball
-item.Lure Ball Lid.name=Parte superior Cebo Ball
-item.Sport Ball Lid.name=Parte superior Competi Ball
-item.Quick Ball Disc.name=Parte inferior Veloz Ball
-item.Lure Ball Disc.name=Parte inferior Cebo Ball
-item.Sport Ball Disc.name=Parte inferior Competi Ball
+item.Quick Ball Lid.name=Tapa Veloz Ball
+item.Lure Ball Lid.name=Tapa Cebo Ball
+item.Sport Ball Lid.name=Tapa Competi Ball
+item.Quick Ball Disc.name=Disco Veloz Ball
+item.Lure Ball Disc.name=Disco Cebo Ball
+item.Sport Ball Disc.name=Disco Competi Ball
 
 
 pixelmon.general.needowner=Sólo el propietario de este bloque puede acceder a él.
@@ -911,9 +912,9 @@ gui.ranch.extendplusx=+X
 gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
-gui.ranch.extendTitle=Extender el área del rancho
-gui.ranch.empty=No hay pokemones en el rancho
-ranch.hourglass.upgradedall=Todos los pokemones aumentaron un nivel de crianza.
+gui.ranch.extendTitle=Extender el área del Rancho Pokémon
+gui.ranch.empty=No hay ningún Pokémon en el rancho
+ranch.hourglass.upgradedall=Todos los Pokémon aumentaron un nivel de crianza.
 ranch.hourglass.upgrade=%s aumentó un nivel de crianza.
 
 //Attacks and their Descriptions
@@ -2825,23 +2826,23 @@ pixelmon.mew.description=Varios científicos lo consideran el antecesor de los P
 pixelmon.solrock.name=Solrock
 pixelmon.solrock.description=Su fuente de energía es el sol, por lo que es más fuerte durante el día. Emite luz al girar.
 pixelmon.chikorita.name=Chikorita
-pixelmon.chikorita.description=It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.
+pixelmon.chikorita.description=Utiliza la hoja que tiene para medir la temperatura y la humedad. Le encanta tomar el sol.
 pixelmon.bayleef.name=Bayleef
-pixelmon.bayleef.description=The buds that ring its neck give off a spicy aroma that perks people up.
+pixelmon.bayleef.description=Los brotes que rodean su cuello desprenden una fragancia que anima a la gente.
 pixelmon.meganium.name=Meganium
-pixelmon.meganium.description=Its breath has the fantastic ability to revive dead plants and flowers.
+pixelmon.meganium.description=Su fragancia tiene la fantástica capacidad de revivir plantas y flores muertas.
 pixelmon.cyndaquil.name=Cyndaquil
-pixelmon.cyndaquil.description=It has a timid nature. If it is startled, the flames on its back burn more vigorously.
+pixelmon.cyndaquil.description=Posee una naturaleza tímida. Si se asusta, las llamas de su espalda arden con más fuerza.
 pixelmon.quilava.name=Quilava
-pixelmon.quilava.description=It intimidates foes with the heat of its flames. The fire burns more strongly when it readies to fight.
+pixelmon.quilava.description=Intimida a sus rivales con el calor de su llama. El fuego arde con más fuerza cuando se prepara para luchar.
 pixelmon.typhlosion.name=Typhlosion
-pixelmon.typhlosion.description=It attacks using blasts of fire. It creates heat shimmers with intense fire to hide itself.
+pixelmon.typhlosion.description=Ataca usando ráfagas de fuego. Crea reflejos de calor intenso para ocultarse.
 pixelmon.croconaw.name=Croconaw
-pixelmon.croconaw.description=Once it bites down, it won't let go until it loses its fangs. New fangs quickly grow into place.
+pixelmon.croconaw.description=Muerde a su rival con sus colmillos hasta que los pierde, en su lugar, otros colmillos crecen rápidamente.
 pixelmon.feraligatr.name=Feraligatr
-pixelmon.feraligatr.description=It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.
+pixelmon.feraligatr.description=Suele moverse lentamente, pero va a una velocidad cegadora cuando ataca y muerde a su presa.
 pixelmon.furret.name=Furret
-pixelmon.furret.description=The mother puts its offspring to sleep by curling up around them. It corners foes with speed.
+pixelmon.furret.description=La madre pone sus crías a dormir alrededor mientras se acurruca.
 pixelmon.chinchou.name=Chinchou
 pixelmon.chinchou.description=It discharges positive and negative electricity from its antenna tips to shock its foes.
 pixelmon.lanturn.name=Lanturn
