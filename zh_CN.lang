@@ -3287,9 +3287,12 @@ pixelmon.command.battle.cannotchallenge=不能与训练师 %s 发起挑战！因
 pixelmon.command.battle.dimension=参与者不在同一个空间中！
 pixelmon.command.battle.sameperson=两位参与者不能为同一人！
 pixelmon.command.battle.started=训练师 %s 和 %s 之间的战斗开始了！
+pixelmon.command.battle.nopokemon=%s 没有能战斗的神奇宝贝！
+pixelmon.command.battle2.duplicate=玩家不能再战斗中重复。
 pixelmon.command.battle2.first=第一个参与者必须是玩家。
 pixelmon.command.battle2.invalid=参与者 %d 是无效的。请再试一次。
 pixelmon.command.battle2.level=请提供一个等级！
+pixelmon.command.battle2.cantstart=无效的参与者。
 pixelmon.command.copyToDB.disabled=保存数据到数据库设置没有在配置中启用！
 pixelmon.command.endbattle.notinbattle=%s 没有在对战中。
 pixelmon.command.endbattle.endbattle=对战圆满落幕。
@@ -3308,8 +3311,13 @@ pixelmon.command.give.notifygiveegg=%s 给予了玩家 %s 一个 %s 的蛋！
 pixelmon.command.heal.cantheal=无法治疗 %s 的神奇宝贝！因为他/她正在战斗！
 pixelmon.command.heal.healed=成功治疗了 %s 的神奇宝贝！
 pixelmon.command.heal.notifyhealed=%s 成功治疗了 %s 的神奇宝贝！
-pixelmon.command.spawn.spawned=成功生成了一只 %s
-pixelmon.command.spawn.spawnednotify=%s 生成了一只 %s
+pixelmon.command.spawn.spawned=成功生成了一只 %s。
+pixelmon.command.spawn.spawnednotify=%s 生成了一只 %s。
+pixelmon.command.spectate.nobattle=此战斗不存在。
+pixelmon.command.spectate.wrong=有些不对劲。战斗/玩家不存在。
+pixelmon.command.struc.cantfit=此建筑无法生成在 %s。
+pixelmon.command.struc.nostruc=没有发现在这个生物群系上的建筑。 (%s)
+pixelmon.command.struc.notfound=建筑 %s 未找到。
 pixelmon.command.teach.busy=%s 正在忙碌！
 pixelmon.command.teach.nothing=%s 没有什么在此背包位
 pixelmon.command.teach.slot=背包位数字必须在1至6之间。
@@ -3324,20 +3332,22 @@ pixelmon.drops.singlean=您获得了一个 %s！
 pixelmon.drops.plural=您获得了 %d 个 %s！
 pixelmon.drops.singlenoa=您获得了 %s！
 pixelmon.drops.plural2=您获得了 %d %s！
-pixelmon.drops.plurales=您获得了 %d %ses!
+pixelmon.drops.plurales=您获得了 %d %ses！
 
 pixelmon.interaction.rarecandy=%s 的升级功能已关闭
-pixelmon.interaction.tmknown=%s 已经学会了 %s!
-pixelmon.interaction.tmcantlearn=%s 无法学习 %s!
-pixelmon.interaction.vitamin=%s的亲密值和努力值都增长了一些！
-pixelmon.interaction.berry=%s的亲密值增加了一些，但是努力值下降了！
-pixelmon.interaction.berryfail=%s的努力值已经超过最大限制了！
+pixelmon.interaction.tmknown=%s 已经学会了 %s！
+pixelmon.interaction.tmcantlearn=%s 无法学习 %s！
+pixelmon.interaction.vitamin=%s 的亲密值和努力值都增长了一些！
+pixelmon.interaction.berry=%s 的 %s 下降了！
+pixelmon.interaction.berryfail=%s 的 %s 已经不能再低了。
 
 pixelmon.general.noeffect=这并没有效果
 pixelmon.general.needop=您必须是OP才可以进行这个操作
 pixelmon.general.needowner=只有这个方块的主人才可以使用这个方块
 pixelmon.general.playerbusy=玩家很繁忙！
 pixelmon.general.disabledblock=这个服务器禁用了这个方块
+pixelmon.general.battleerror=战斗发生了错误！请检查控制台的详细报告，并提交该错误给Pixelmon开发团队。
+pixelmon.general.errorlog=战斗发生了错误！请将这个错误报告提交给Pixelmon开发团队。
 
 pixelmon.npc.tradername=交换者
 pixelmon.npc.trader=你没有我想要找的神奇宝贝！我想要一只 %s。
@@ -3790,6 +3800,9 @@ gui.replaceattack.accuracy=命中率
 
 gui.acceptdeny.accept=接受
 gui.acceptdeny.deny=拒绝
+gui.acceptdeny.single=单打
+gui.acceptdeny.double=双打
+gui.acceptdeny.invaliddouble=%s 没有足够的精灵参与双打！
 
 gui.renamePoke.Reset=重设
 gui.renamePoke.cancel=取消
@@ -3820,7 +3833,7 @@ gui.screenpokechecker.enable=开启
 gui.screenpokechecker.move=将升级功能 $a 吗？
 gui.screenpokechecker.effects=效果
 
-gui.pixelmonspawner.fireontick=拌线启动
+gui.pixelmonspawner.fireontick=Tick时间启动
 gui.pixelmonspawner.fireonredstone=红石启动
 gui.pixelmonspawner.pcms=自定义神奇宝贝精灵箱
 gui.pixelmonspawner.pokemonlist=神奇宝贝列表
@@ -3846,6 +3859,7 @@ gui.trainereditor.trainereditor=训练师编辑器
 gui.trainereditor.bosstype=训练师种类
 gui.trainereditor.aimode=AI模式
 gui.trainereditor.encountermode=挑战次数
+gui.trainereditor.battletype=战斗形式
 gui.trainereditor.name=名字
 gui.trainereditor.model=模型
 gui.trainereditor.lvl=等级
@@ -3989,6 +4003,15 @@ enum.spawnlocation.underground=地下
 enum.spawnlocation.air=空中
 enum.spawnlocation.airpersistent=空中悬浮
 
+enum.stat.hp=HP
+enum.stat.attack=攻击
+enum.stat.defence=防御
+enum.stat.specialattack=特攻
+enum.stat.specialdefence=特防
+enum.stat.speed=速度
+enum.stat.accuracy=命中率
+enum.stat.evasion=回避率
+
 gui.battle.effect=效果
 gui.battle.description=介绍
 gui.battle.accuracy=命中率
@@ -4032,7 +4055,7 @@ gui.choosemoveset.cost=费用：
 
 gui.tutor.addmove=添加技能
 gui.tutor.deletemove=删除技能
-gui.tutor.itemname=物品名称
+gui.tutor.itemname=物品
 gui.tutor.itemamount=数量
 gui.tutor.itemdamage=伤害
 gui.tutor.addcost=添加费用
@@ -4127,7 +4150,7 @@ battlecontroller.outofpokemon=您当前没有可以用于战斗的神奇宝贝�
 battlecontroller.sendout=%s 放出了 %s！
 battlecontroller.switch=选择一个新的神奇宝贝放出！
 battlecontroller.targets=选择了 $a ！ 
-
+battlecontroller.win=你已经赢得了这场对战！
 
 
 battlecontroller.afk=%s 已经AFK了 %d 秒。 自动战斗已经接管训练师操作 %d 秒！
