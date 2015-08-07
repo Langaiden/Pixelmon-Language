@@ -3979,7 +3979,7 @@ pixelmon.general.noeffect=¡No tuvo efecto!
 pixelmon.general.needop=Debes ser Operador (OP) para realizar esta acción.
 pixelmon.general.playerbusy=¡El jugador está ocupado!
 pixelmon.general.disabledblock=El servidor a bloqueado este bloque.
-pixelmon.general.battleerror=¡Ha ocurrido un error con la batalla! Revisa la información de la consola y reporta este error a los desarrolladores de Pixemon.
+pixelmon.general.battleerror=¡Ha ocurrido un error con la batalla! Revisa la información de la consola y reporta este error a los desarrolladores de Pixelmon.
 pixelmon.general.errorlog=¡Ha ocurrido un error con la batalla! Por favor reporta este error a los desarrolladores de Pixelmon.
 
 pixelmon.npc.tradername=Intercambio
