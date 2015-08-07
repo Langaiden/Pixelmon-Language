@@ -3419,6 +3419,7 @@ pixelmon.blocks.custompokegift=custom event Poké Gift
 pixelmon.pokeballs.inbattle=That Pokémon is already in a battle!
 pixelmon.pokeballs.alreadyown=You can't catch Pokémon you already own!
 pixelmon.pokeballs.boss=You can't catch boss Pokémon!
+pixelmon.pokeballs.throw=%s threw the %s!
 pixelmon.pokeballs.capture=You captured %s!
 pixelmon.pokeballs.brokefree=%s broke free!
 pixelmon.pokeballs.pokeinbattle=You can't catch Pokémon who are battling in another battle!
@@ -3760,9 +3761,7 @@ gui.fainterChoice.noFight=$p can no longer fight.
 gui.fainterChoice.switch=Switch to another Pokémon
 gui.fainterChoice.run=Run
 
-gui.choosebad.nopokeballs=You cannot use Poké Balls in this battle!
-
-gui.guiDoctor.healPokemon=I'm a Pokémon Doctor.  Shall I heal your Pokémon?
+gui.guiDoctor.healPokemon=I'm a Pokémon doctor. Shall I heal your Pokémon?
 gui.guiDoctor.waiting=Waiting
 
 gui.trading.ready=Ready
@@ -4023,12 +4022,14 @@ gui.mainmenu.whatdo=What will $p do?
 gui.mainmenu.cantswitch=You can't switch Pokémon right now!
 gui.mainmenu.traped=$p is trapped! You cannot flee!
 gui.mainmenu.trainer=You can't run from this battle!
+gui.mainmenu.already=You've already selected another action this turn!
 
 gui.choosebag.pokeballs=Poké Balls
 gui.choosebag.hppp=HP/PP Restore
 gui.choosebag.statusrestore=Status Restore
 gui.choosebag.battleitems=Battle Items
 gui.choosebag.nopokeballs=You can't use Poké Balls in this battle!
+gui.choosebag.multiple=You cannot use Poké Balls while there are multiple Pokémon against you!
 
 gui.choosepokemon.select=Select a Pokémon to use it on.
 gui.choosepokemon.sendout=Choose a Pokémon to send out.
@@ -4559,7 +4560,7 @@ ability.Minus.description=Boosts the Sp. Atk stat if another Pokémon has Plus o
 ability.MoldBreaker.name=Mold Breaker
 ability.MoldBreaker.description=Moves can be used on the target regardless of its Abilities.
 ability.Moody.name=Moody
-ability.Moody.description=Raises one stat and lowers another
+ability.Moody.description=Raises one stat and lowers another.
 ability.MotorDrive.name=Motor Drive
 ability.MotorDrive.description=Boosts the Speed stat when it's hit by an Electric-type move.
 ability.Moxie.name=Moxie
