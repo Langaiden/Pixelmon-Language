@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang") and reviewed by 'Wirlie' (for Language "es_MX.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor for minor changes): 'Wirlie'
-* Last Update: August 6, 2015 - by Wirlie
+* Last Update: August 7, 2015 - by Wirlie
 *************************************************/
 
 /**************** ES-MX *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang") y revisado por 'Wirlie' (para el idioma "es_MX.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor de cambios menores); 'Wirlie'
-* Ultima actualización: 6 de agosto de 2015 por Wirlie
+* Ultima actualización: 7 de agosto de 2015 por Wirlie
 *************************************************/
 
 /*
@@ -79,8 +79,7 @@ item.Super Rod.name=Súper Caña
 item.Trade Monitor.name=Máquina de Intercambio Pokémon (Pantalla)
 item.Trade Holder Right.name=Máquina de Intercambio Pokémon (Derecha)
 item.Trade Holder Left.name=Máquina de Intercambio Pokémon (Izquierda)
-item.Trade Panel.name=Máquina de Intercambio Pokémon
-(Panel)
+item.Trade Panel.name=Máquina de Intercambio Pokémon (Panel)
 item.mysteryDungeonMap.name=Mapa de Mazmorra Misteriosa
 item.Uno Orb.name=Orbe del Alma Helada
 item.Dos Orb.name=Orbe del Alma Eléctrica
@@ -107,44 +106,44 @@ item.Luxury Ball.name=Lujo Ball
 item.Heal Ball.name=Sana Ball
 item.Dusk Ball.name=Ocaso Ball
 item.Premier Ball.name=Honor Ball
-item.Poke Ball Lid.name=Tapa Poke Ball
-item.Great Ball Lid.name=Tapa Super Ball
-item.Ultra Ball Lid.name=Tapa Ultra Ball
-item.Level Ball Lid.name=Tapa Nivel Ball
-item.Moon Ball Lid.name=Tapa Luna Ball
-item.Friend Ball Lid.name=Tapa Amigo Ball
-item.Love Ball Lid.name=Tapa Amor Ball
-item.Safari Ball Lid.name=Tapa Safari Ball
-item.Heavy Ball Lid.name=Tapa Peso Ball
-item.Fast Ball Lid.name=Tapa Veloz Ball
-item.Repeat Ball Lid.name=Tapa Acopio Ball
-item.Timer Ball Lid.name=Tapa Turno Ball
-item.Nest Ball Lid.name=Tapa Nido Ball
-item.Net Ball Lid.name=Tapa Malla Ball
-item.Dive Ball Lid.name=Tapa Buceo Ball
-item.Luxury Ball Lid.name=Tapa Lujo Ball
-item.Heal Ball Lid.name=Tapa Sana Ball
-item.Dusk Ball Lid.name=Tapa Ocaso Ball
-item.Premier Ball Lid.name=Tapa Honor Ball
-item.Poke Ball Disc.name=Disco Poké Ball
-item.Great Ball Disc.name=Disco Super Ball
-item.Ultra Ball Disc.name=Disco Ultra Ball
-item.Level Ball Disc.name=Disco Nivel Ball
-item.Moon Ball Disc.name=Disco Luna Ball
-item.Friend Ball Disc.name=Disco Amigo Ball
-item.Love Ball Disc.name=Disco Amor Ball
-item.Safari Ball Disc.name=Disco Safari Ball
-item.Heavy Ball Disc.name=Disco Peso Ball
-item.Fast Ball Disc.name=Disco Veloz Ball
-item.Repeat Ball Disc.name=Disco Acopio Ball
-item.Timer Ball Disc.name=Disco Turno Ball
-item.Nest Ball Disc.name=Disco Nido Ball
-item.Net Ball Disc.name=Disco Malla Ball
-item.Dive Ball Disc.name=Disco Buceo Ball 
-item.Luxury Ball Disc.name=Disco Lujo Ball
-item.Heal Ball Disc.name=Disco Sana Ball
-item.Dusk Ball Disc.name=Disco Ocaso Ball 
-item.Premier Ball Disc.name=Disco Honor Ball 
+item.Poke Ball Lid.name=Tapa de Poke Ball
+item.Great Ball Lid.name=Tapa de Super Ball
+item.Ultra Ball Lid.name=Tapa de Ultra Ball
+item.Level Ball Lid.name=Tapa de Nivel Ball
+item.Moon Ball Lid.name=Tapa de Luna Ball
+item.Friend Ball Lid.name=Tapa de Amigo Ball
+item.Love Ball Lid.name=Tapa de Amor Ball
+item.Safari Ball Lid.name=Tapa de Safari Ball
+item.Heavy Ball Lid.name=Tapa de Peso Ball
+item.Fast Ball Lid.name=Tapa de Veloz Ball
+item.Repeat Ball Lid.name=Tapa de Acopio Ball
+item.Timer Ball Lid.name=Tapa de Turno Ball
+item.Nest Ball Lid.name=Tapa de Nido Ball
+item.Net Ball Lid.name=Tapa de Malla Ball
+item.Dive Ball Lid.name=Tapa de Buceo Ball
+item.Luxury Ball Lid.name=Tapa de Lujo Ball
+item.Heal Ball Lid.name=Tapa de Sana Ball
+item.Dusk Ball Lid.name=Tapa de Ocaso Ball
+item.Premier Ball Lid.name=Tapa de Honor Ball
+item.Poke Ball Disc.name=Disco de Poké Ball
+item.Great Ball Disc.name=Disco de Super Ball
+item.Ultra Ball Disc.name=Disco de Ultra Ball
+item.Level Ball Disc.name=Disco de Nivel Ball
+item.Moon Ball Disc.name=Disco de Luna Ball
+item.Friend Ball Disc.name=Disco de Amigo Ball
+item.Love Ball Disc.name=Disco de Amor Ball
+item.Safari Ball Disc.name=Disco de Safari Ball
+item.Heavy Ball Disc.name=Disco de Peso Ball
+item.Fast Ball Disc.name=Disco de Veloz Ball
+item.Repeat Ball Disc.name=Disco de Acopio Ball
+item.Timer Ball Disc.name=Disco de Turno Ball
+item.Nest Ball Disc.name=Disco de Nido Ball
+item.Net Ball Disc.name=Disco de Malla Ball
+item.Dive Ball Disc.name=Disco de Buceo Ball 
+item.Luxury Ball Disc.name=Disco de Lujo Ball
+item.Heal Ball Disc.name=Disco de Sana Ball
+item.Dusk Ball Disc.name=Disco de Ocaso Ball 
+item.Premier Ball Disc.name=Disco de Honor Ball 
 item.Iron Disc.name=Disco de hierro
 item.Iron Base.name=Base de hierro
 item.Aluminum Disc.name=Disco de Aluminio
@@ -878,12 +877,12 @@ item.Lure Ball.name=Cebo Ball
 item.Sport Ball.name=Competi Ball
 item.Cherish Ball.name=Gloria Ball
 item.GS Ball.name=GS Ball
-item.Quick Ball Lid.name=Tapa Veloz Ball
-item.Lure Ball Lid.name=Tapa Cebo Ball
-item.Sport Ball Lid.name=Tapa Competi Ball
-item.Quick Ball Disc.name=Disco Veloz Ball
-item.Lure Ball Disc.name=Disco Cebo Ball
-item.Sport Ball Disc.name=Disco Competi Ball
+item.Quick Ball Lid.name=Tapa de Veloz Ball
+item.Lure Ball Lid.name=Tapa de Cebo Ball
+item.Sport Ball Lid.name=Tapa de Competi Ball
+item.Quick Ball Disc.name=Disco de Veloz Ball
+item.Lure Ball Disc.name=Disco de Cebo Ball
+item.Sport Ball Disc.name=Disco de Competi Ball
 
 
 pixelmon.general.needowner=Sólo el propietario de este bloque puede acceder a él.
@@ -2842,27 +2841,27 @@ pixelmon.croconaw.description=Muerde a su rival con sus colmillos hasta que los 
 pixelmon.feraligatr.name=Feraligatr
 pixelmon.feraligatr.description=Suele moverse lentamente, pero va a una velocidad cegadora cuando ataca y muerde a su presa.
 pixelmon.furret.name=Furret
-pixelmon.furret.description=La madre pone sus crías a dormir alrededor mientras se acurruca.
+pixelmon.furret.description=La madre pone sus crías a dormir para acurrucarse a su alrededor. Esquina a los enemigos con rapidez.
 pixelmon.chinchou.name=Chinchou
-pixelmon.chinchou.description=It discharges positive and negative electricity from its antenna tips to shock its foes.
+pixelmon.chinchou.description=Libera cargas positivas y negativas a los enemigos usando sus antenas.
 pixelmon.lanturn.name=Lanturn
-pixelmon.lanturn.description=Lanturn's light can shine up from great depths. It is nicknamed "The Deep-Sea Star."
+pixelmon.lanturn.description=La luz de Lunturn puede brillar a grandes profundidades. Lo llaman "La estrella del fondo del mar"
 pixelmon.lotad.name=Lotad
-pixelmon.lotad.description=It looks like an aquatic plant and serves as a ferry to Pokemon that can't swim.
+pixelmon.lotad.description=Posee una apariencia de una planta acuática y sirve como transporte de los Pokémon que no pueden nadar.
 pixelmon.politoed.name=Politoed
-pixelmon.politoed.description=It gathers groups of others as their leader. Its cries make Poliwag obey.
+pixelmon.politoed.description=Reune a otros como su lider. Sus gritos hacen obedecer a Poliwag.
 pixelmon.hoppip.name=Hoppip
-pixelmon.hoppip.description=It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.
+pixelmon.hoppip.description=Se desplaza por los vientos. Se dice que cuando Hoppip se reúne en los campos y montañas la primavera está en camino.
 pixelmon.skiploom.name=Skiploom
-pixelmon.skiploom.description=It blooms when the weather warms. It floats in the sky to soak up as much sunlight as possible.
+pixelmon.skiploom.description=Florece en los climas cálidos. Flota en el cielo para absorver la mayor cantidad de luz solar.
 pixelmon.jumpluff.name=Jumpluff
-pixelmon.jumpluff.description=Blown by seasonal winds, it circles the globe, scattering cotton spores as it goes.
+pixelmon.jumpluff.description=Llevado por los vientos estacionales recorre el mundo disperando esporas de algodón a medida que avanza.
 pixelmon.charmander.name=Charmander
-pixelmon.charmander.description=The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.
+pixelmon.charmander.description=La llama en la punta de su cola es una medida de su vida. Si se encuentra saludable la llama arde intensamente.
 pixelmon.charmeleon.name=Charmeleon
-pixelmon.charmeleon.description=In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.
+pixelmon.charmeleon.description=En las montañas rocosas donde viven Charmeleons, sus colas ardientes brillan como estrellas por la noche.
 pixelmon.charizard.name=Charizard
-pixelmon.charizard.description=It is said that Charizard's fire burns hotter if it has experienced harsh battles.
+pixelmon.charizard.description=Se dice que el fuego de Charizard es más ardiente si ha experimentado batallas duras.
 pixelmon.squirtle.name=Squirtle
 pixelmon.squirtle.description=It shelters itself in its shell, then strikes back with spouts of water at every opportunity.
 pixelmon.wartortle.name=Wartortle
