@@ -5060,6 +5060,7 @@ pixelmon.status.autotomize=%s became nimble!
 pixelmon.status.followme=%s became the center of attention!
 pixelmon.status.imprison=%s sealed the opponent's moves!
 pixelmon.status.healblock=%s was prevented from healing!
+pixelmon.status.healblockalready=%s is already prevented from healing!
 pixelmon.status.healblockend=%s can now heal again!
 pixelmon.status.sport=%s-type moves were weakened!
 
