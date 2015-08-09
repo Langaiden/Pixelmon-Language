@@ -5056,6 +5056,13 @@ pixelmon.status.healblock=%s was prevented from healing!
 pixelmon.status.healblockalready=%s is already prevented from healing!
 pixelmon.status.healblockend=%s can now heal again!
 pixelmon.status.sport=%s-type moves were weakened!
+pixelmon.status.firepledge=A sea of fire appeared on %s's side!
+pixelmon.status.grasspledge=A swamp appeared around %s's side!
+pixelmon.status.waterpledge=A rainbow appeared above %s's side!
+pixelmon.status.firepledgeeffect=The sea of fire hurt %s!
+pixelmon.status.firepledgeend=The sea of fire on %s's side disappeared!
+pixelmon.status.grasspledgeend=The swamp around %s's side disappeared!
+pixelmon.status.waterpledgeend=The rainbow above %s's side disappeared!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
