@@ -4962,6 +4962,7 @@ pixelmon.effect.quash=%s made %s move last!
 pixelmon.effect.healbellstart=A bell chimed!
 pixelmon.effect.aromatherapy=A soothing aroma wafted through the air!
 pixelmon.effect.refresh=%s cured its status!
+pixelmon.effect.naturepower=Nature Power turned into %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
