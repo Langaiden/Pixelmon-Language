@@ -5649,11 +5649,11 @@ pixelmon.status.healblockalready=¡%s ya se le impide curarse!
 pixelmon.status.healblockend=¡%s ya puede curarse de nuevo!
 pixelmon.status.sport=¡Los movimientos de tipo %s fueron debilitados!
 pixelmon.status.firepledge=¡Un mar en llamas ha aparecido en el lado de %s!
-pixelmon.status.grasspledge=¡Un pantano ha aparecido en el lade de %s!
+pixelmon.status.grasspledge=¡Un pantano ha aparecido en el lado de %s!
 pixelmon.status.waterpledge=¡Ha aparecido un arcoíris sobre el lado de %s!
 pixelmon.status.firepledgeeffect=¡El mar de llamas hirió a %s!
-pixelmon.status.firepledgeend=¡El mar de llamas ha desaparecidoen el lado de %s!
-pixelmon.status.grasspledgeend=¡El pantano ha desaparecido en el lade de %s!
+pixelmon.status.firepledgeend=¡El mar de llamas ha desaparecido en el lado de %s!
+pixelmon.status.grasspledgeend=¡El pantano ha desaparecido en el lado de %s!
 pixelmon.status.waterpledgeend=¡El arcoíris sobre el lado de %s ha desaparecido!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
