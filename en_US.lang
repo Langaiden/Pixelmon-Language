@@ -3477,6 +3477,7 @@ pixelmon.helditems.ginemaberry=%s's Ginema Berry restored its stats!
 pixelmon.helditems.recoilberry=%s's %s hurt %s!
 pixelmon.helditems.ejectbutton=%s's Eject Button caused it to switch out!
 pixelmon.helditems.micleberry=%s's Micle Berry raised its accuracy!
+pixelmon.helditems.ironball=%s couldn't stay airborne because of the Iron Ball!
 
 pixelmon.items.useitem=%s used the %s.
 
@@ -5071,6 +5072,7 @@ pixelmon.status.firepledgeeffect=The sea of fire hurt %s!
 pixelmon.status.firepledgeend=The sea of fire on %s's side disappeared!
 pixelmon.status.grasspledgeend=The swamp around %s's side disappeared!
 pixelmon.status.waterpledgeend=The rainbow above %s's side disappeared!
+pixelmon.status.telekinesis=%s was hurled into the air!
 
 
 attack.curse.alreadycursed=%s is already cursed!
