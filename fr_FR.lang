@@ -1,5 +1,5 @@
 /*
-*	Latest translation 31th July of 2015
+*	Latest translation 13th August of 2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -1555,11 +1555,12 @@ attack.fléau.name=Fléau
 attack.flail.name=Fléau
 attack.flail.description=Le lanceur fait tournoyer son fléau. Plus ses PVs sont bas, plus l'Attaque est puissante.
 attack.conversion2.name=Conversion2
-attack.conversion2.name=Conversion2
-attack.conversion2.description=Permet de résister au type de la dernière Attaque.
-attack.aéroblast.name=Aéroblast
+attack.conversion2.description=Permet de résister au type de la dernière attaque.
+attack.conversion 2.name=Conversion2
+attack.conversion 2.description=Permet de résister au type de la dernière attaque.
 attack.aeroblast.name=Aéroblast
-attack.aeroblast.description=Implosion a taux de coups critiques élevé.
+attack.aéroblast.name=Aéroblast
+attack.aeroblast.description=Implosion à taux de coups critiques élevé.
 attack.spore coton.name=Spore Coton
 attack.cotton spore.name=Spore Coton
 attack.cotton spore.description=Envoie des spores pour baisser la Vitesse.
@@ -4366,9 +4367,12 @@ pixelmon.command.battle.cannotchallenge=Impossible de défier %s tant qu'il est 
 pixelmon.command.battle.dimension=Les participants du combat ne sont pas dans la même dimension.
 pixelmon.command.battle.sameperson=Les participants ne peuvent pas être la même personne.
 pixelmon.command.battle.started=Le combat entre %s et %s a commencé !
+pixelmon.command.battle.nopokemon=%s n'a pas de Pokémon pouvant combattre !
+pixelmon.command.battle2.duplicate=Le joueur ne peut pas s'affronter lui-même.
 pixelmon.command.battle2.first=Le premier participant doit être un joueur.
 pixelmon.command.battle2.invalid=Le participant %d est invalide. Merci de réessayer.
 pixelmon.command.battle2.level=Merci de fournir un niveau !
+pixelmon.command.battle2.cantstart=Participants invalides.
 pixelmon.command.copyToDB.disabled=La sauvegarde en base de donnée est désactivée dans la configuration !
 pixelmon.command.endbattle.notinbattle=%s n'est pas en combat.
 pixelmon.command.endbattle.endbattle=Combat arrêté avec succès.
@@ -4389,6 +4393,11 @@ pixelmon.command.heal.healed=Soin des Pokémons de %s réussi !
 pixelmon.command.heal.notifyhealed=%s a soigné les Pokémons de %s avec succès !
 pixelmon.command.spawn.spawned=Invocation de %s réalisée avec succès !
 pixelmon.command.spawn.spawnednotify=%s a invoqué un %s avec succès !
+pixelmon.command.spectate.nobattle=%s n'est pas en combat.
+pixelmon.command.spectate.self=Vous ne pouvez pas regarder votre propre combat !
+pixelmon.command.struc.cantfit=La structure ne peut pas rentrer aux coordonnées : %s.
+pixelmon.command.struc.nostruc=Aucune structure trouvée pour ce biome. (%s)
+pixelmon.command.struc.notfound=Structure %s introuvable.
 pixelmon.command.unlock=%s verrouillé a été déverrouillé avec succès !
 pixelmon.command.warpplate.notstanding=Vous ne vous tenez pas sur une plaque de téléportation.
 pixelmon.command.warpplate.set=Cible de la téléportation placée en %s
@@ -4407,15 +4416,17 @@ pixelmon.interaction.tmknown=%s connaît déjà %s!
 pixelmon.interaction.tmcantlearn=%s ne peut pas apprendre %s!
 pixelmon.interaction.vitamin=Le Bonheur et les EVs de %s ont augmenté.
 pixelmon.interaction.vitaminfail=Les EVs de %s ne peuvent plus être augmentés par des vitamines.
-pixelmon.interaction.berry=Le Bonheur de %s a augmenté mais ses EVs ont diminués.
-pixelmon.interaction.berryfriend=Le Bonheur de %s a augmenté.
-pixelmon.interaction.berryfail=Les EVs de %s ne peuvent pas aller plus bas.
+pixelmon.interaction.berry=%s de %s a diminué.
+pixelmon.interaction.berryfriend=Le Bonheur de %s a augmenté !
+pixelmon.interaction.berryfail=%s de %s ne peuvent plus diminuer.
 
 pixelmon.general.noeffect=Cela n'a aucun effet!
 pixelmon.general.needop=Vous devez être opérateur pour réaliser cette action.
 pixelmon.general.needowner=Seul le propriétaire de ce bloc peut accéder à celui-ci.
 pixelmon.general.playerbusy=Ce joueur est occupé
 pixelmon.general.disabledblock=Ce serveur a désactivé ce bloc.
+pixelmon.general.battleerror=Un problème a eu lieu en combat ! Vérifiez la console pour les détails et rapportez ce bug aux développeur de Pixelmon sur le forum.
+pixelmon.general.errorlog=Un problème a eu lieu en combat ! Merci de rapporter les log d'erreur aux développeurs de Pixelmon sur le forum.
 
 pixelmon.npc.tradername=Échangeur
 pixelmon.npc.trader=Tu n'as pas le Pokemon que je recherche ! Je voudrais un %s niveau (n) 
@@ -4453,6 +4464,7 @@ pixelmon.blocks.custompokegift=Poké Cadeau d'événement personnalisé
 pixelmon.pokeballs.inbattle=Ce Pokemon est déjà en combat!
 pixelmon.pokeballs.alreadyown=Vous ne pouvez pas attraper un Pokemon qui vous appartient !
 pixelmon.pokeballs.boss=Vous ne pouvez pas attraper un boss Pokemon !
+pixelmon.pokeballs.throw=%s envoie une %s !
 pixelmon.pokeballs.capture=Vous avez capturé %s!
 pixelmon.pokeballs.brokefree=%s s'est libéré !
 pixelmon.pokeballs.pokeinbattle=Vous ne pouvez pas attraper un Pokemon qui est en train de ce battre dans un autre combat !
@@ -4508,6 +4520,7 @@ pixelmon.helditems.ginemaberry=Baie Ginema de %s lui restaure ses stats !
 pixelmon.helditems.recoilberry=%s de %s blesse %s !
 pixelmon.helditems.ejectbutton=Bouton Fuite de %s lui fait échanger sa place !
 pixelmon.helditems.micleberry=Baie Micle de %s augmente sa précision !
+pixelmon.helditems.ironball=Balle Fer du %s l'empêche de rester en l'air !
 
 pixelmon.items.useitem=%s a utilisé %s.
 pixelmon.helditem.absorbowner=Le bulbe du %s de %s a augmenté son Attaque spéciale!
@@ -4533,7 +4546,7 @@ pixelmon.blocks.chestmodeFCFS=Premier arrivé, Premier servi !
 
 pixelmon.blocks.orbnotfull=Votre orbe n'est pas plein!
 pixelmon.blocks.orbwrong=Votre orbe n'est pas compatible avec ce totem !
-pixelmon.blocks.shrineused=This shrine has already been activated!Ce totem a déjà été activé !
+pixelmon.blocks.shrineused=Ce totem a déjà été activé !
 
 pixelmon.blocks.tradefull=Cette Machine d'échange est pleine!
 
@@ -4653,7 +4666,7 @@ achievement.givenPokeGift=Poké Cadeau offert !
 achievement.givenPokeGift.desc=Laisser un Poké Cadeau pour un autre joueur.
 
 //Abilities
-pixelmon.abilities.activated=%s d %s s'est activé !
+pixelmon.abilities.activated=%s du %s s'est activé !
 pixelmon.abilities.aftermath=Boom Final du %s blesse %s !
 pixelmon.abilities.airlock=Air Lock du %s fait disparaître les effets de la météo !
 pixelmon.abilities.angerpoint=Colérique du %s le rends furieux !
@@ -4801,10 +4814,7 @@ gui.fainterChoice.noFight=$p ne peut plus combattre
 gui.fainterChoice.switch=Changer de Pokemon
 gui.fainterChoice.run=Fuir
 
-gui.choosebad.nopokeballs=Vous ne pouvez pas utiliser de Pokeballs dans ce combat !
-
 gui.guiDoctor.healPokemon=Je suis un Docteur Pokemon. Dois-je soigner vos Pokemons ?
-gui.guiDoctor.waiting=Patientez
 
 gui.trading.ready=Prêt
 gui.trading.notready=Pas Prêt
@@ -4834,6 +4844,9 @@ gui.replaceattack.accuracy=Précision
 
 gui.acceptdeny.accept=Accepter
 gui.acceptdeny.deny=Refuser
+gui.acceptdeny.single=Combat Simple
+gui.acceptdeny.double=Combat Double
+gui.acceptdeny.invaliddouble=%s n'a pas assez de Pokémon pour participer à un combat double !
 
 gui.renamePoke.Reset=Réinitial.
 gui.renamePoke.cancel=Annuler
@@ -4889,6 +4902,7 @@ gui.trainereditor.trainereditor=Éditeur de Dresseur
 gui.trainereditor.bosstype=Type de Boss
 gui.trainereditor.aimode=Mode de l'IA
 gui.trainereditor.encountermode=Mode de Rencontre
+gui.trainereditor.battletype=Type de combat
 gui.trainereditor.name=Nom
 gui.trainereditor.model=Modèle
 gui.trainereditor.lvl=Niv.:
@@ -5032,6 +5046,16 @@ enum.spawnlocation.underground=Souterrain
 enum.spawnlocation.air=Air
 enum.spawnlocation.airpersistent=Air Permanent
 
+enum.stat.hp=PV
+enum.stat.attack=Attaque
+enum.stat.defence=Defense
+enum.stat.specialattack=Attaque Spé.
+enum.stat.specialdefence=Défense Spé.
+enum.stat.speed=Vitesse
+enum.stat.accuracy=Précision
+enum.stat.evasion=Esquive
+
+
 gui.battle.effect=Effet
 gui.battle.description=Description
 gui.battle.accuracy=Précision
@@ -5050,12 +5074,14 @@ gui.mainmenu.whatdo=Que doit faire $p ?
 gui.mainmenu.cantswitch=Vous ne pouvez pas changer de Pokemon!
 gui.mainmenu.traped=$p est piégé! Vous ne pouvez pas fuir!
 gui.mainmenu.trainer=Vous ne pouvez pas fuir de ce combat!
+gui.mainmenu.already=You've already selected another action this turn!Vous avez déjà sélectionné une autre action pendant ce tour !
 
 gui.choosebag.pokeballs=Pokeballs
 gui.choosebag.hppp=Soin PV/PP
 gui.choosebag.statusrestore=Soin Statut
 gui.choosebag.battleitems=Objet de Combat
-gui.choosebag.nopokeballs=Vous ne pouvez pas utiliser de Pokeballs dans ce combat!
+gui.choosebag.nopokeballs=Vous ne pouvez pas vous servir de Pokéballs dans ce combat!
+gui.choosebag.multiple=Vous ne pouvez pas vous servir de Pokéballs lorsqu'il y a plusieurs Pokémon contre vous !
 
 gui.choosepokemon.select=Sélectionner un Pokemon à utiliser 
 gui.choosepokemon.sendout=Choisi un Pokemon à envoyer
@@ -5173,6 +5199,7 @@ battlecontroller.outofpokemon=Vous êtes à court de Pokemon!
 battlecontroller.sendout=%s envoie %s !
 battlecontroller.switch=Choisissez un Pokémon à envoyer !
 battlecontroller.targets=Choisissez une cible pour $a.
+battlecontroller.win=Vous avez remporté le combat !
 
 battlecontroller.afk=%s est AFK depuis %d secondes, Combat automatique pour %s va jouer son tour toute les %d secondes!
 battlecontroller.selfafk=Vous êtes AFK depuis %d secondes, Une action automatique sera effectué toute les %d secondes!
@@ -5918,8 +5945,8 @@ pixelmon.effect.sandstorm=Une tempête de sable commence !
 pixelmon.effect.alreadybarrier=%s a déjà une barrière !
 pixelmon.effect.reflectraised=Protection augmente la Défense de l'équipe de %s !
 pixelmon.effect.healthsleep=%s Pique un somme et reste soigné !
-pixelmon.effect.alreadysafeguard=% already has a safeguard !
-pixelmon.effect.guarded=%s is looking a bit guarded !
+pixelmon.effect.alreadysafeguard=% est déjà protégé !
+pixelmon.effect.guarded=%s active Rune Protect 
 pixelmon.effect.harshsunlight=Le Soleil brille plus fort !
 pixelmon.effect.alreadysleeping=%s dort déjà !
 pixelmon.effect.fallasleep=%s s'endort !
@@ -5970,6 +5997,11 @@ pixelmon.effect.skullbash=%s baisse sa tête !
 pixelmon.effect.mimic=%s imite %s du %s!
 pixelmon.effect.uproar=%s provoque un brouhaha !
 pixelmon.effect.uproarend=%s s'est calmé !
+pixelmon.effect.quash=%s fait attaquer %s en dernier !
+pixelmon.effect.healbellstart=Une cloche a sonné !
+pixelmon.effect.aromatherapy=Un arôme apaisant flotte dans les airs !
+pixelmon.effect.refresh=%s est guéri !
+pixelmon.effect.naturepower=Force-Nature se transforme en %s !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
@@ -5991,9 +6023,9 @@ pixelmon.status.heavyhail=La grêle continue de tomber!
 pixelmon.status.inlove=%s est amoureux!
 pixelmon.status.immobilizedbylove=%s est incapable de bouger à cause de son amour !
 pixelmon.status.drainhealth=%s draine les PV de %s
-pixelmon.status.lightscreenoff=Le mur lumière de %s est détruit !
+pixelmon.status.lightscreenoff=Le mur lumière de %s a disparu !
 pixelmon.status.mistprotect=%s a raté l'Attaque %s a cause du brouillard!
-pixelmon.status.mistoff=le brouillard est parti !
+pixelmon.status.mistoff=Le brouillard de %s a disparu !
 pixelmon.status.isparalyzed=%s est paralysé, il ne peut pas Attaquer !
 pixelmon.status.freefromsandtomb=%s s'est libéré de tourbi-sable!
 pixelmon.status.freefromclamp=%s s'est libéré de Claquoir !
@@ -6002,14 +6034,14 @@ pixelmon.status.freefromwrap=%s n'est plus ligoté!
 pixelmon.status.freefrombind=%s s'est libéré de son étreinte !
 pixelmon.status.freefromfirespin=%s a été libéré du tourbillon de flamme !
 pixelmon.status.hurtby=%s est blessé par %s
-pixelmon.status.perishsongstruck=Requiem frappe %s !
+pixelmon.status.perishsongstruck=Le compteur de Requiem du %s descends à %d
 pixelmon.status.hurtbypoison=%s souffre du poison!
 pixelmon.status.triedbutprotect=%s a raté l'Attaque %s car la cible s'est protégé
 pixelmon.status.rainstopped=Il ne pleut plus
 pixelmon.status.heavyrain=La pluie continue de tomber!
 pixelmon.status.recharging=%s se repose!
-pixelmon.status.reflectoff=Reflect wore off!
-pixelmon.status.safeguardoff=%s's Safeguard wears off!
+pixelmon.status.reflectoff=Reflet disparaît
+pixelmon.status.safeguardoff=Rune Protect du %s disparaît !
 pixelmon.status.sandstormsubside=La tempête de sable souffle ailleurs
 pixelmon.status.sandstormrage=La tempête de sable fait toujours rage !
 pixelmon.status.buffetedbysandstorm=%s a été blessé par la tempête de sable !
@@ -6069,8 +6101,17 @@ pixelmon.status.autotomize=%s s'allège !
 pixelmon.status.followme=%s deviens le centre d'attention !
 pixelmon.status.imprison=%s scelle les attaques de son adversaire !
 pixelmon.status.healblock=%s ne peut pas se soigner !
+pixelmon.status.healblockalready=%s ne peut déjà plus se soigner !
 pixelmon.status.healblockend=%s peut se soigner de nouveau !
 pixelmon.status.sport=Les attaques de type %s sont affaiblies !
+pixelmon.status.firepledge=Un océan de feu est apparu du côté de %s !
+pixelmon.status.grasspledge=Un marais est apparu autour de %s !
+pixelmon.status.waterpledge=Un arc-en-ciel est apparu au dessus de %s !
+pixelmon.status.firepledgeeffect=L'océan de feu blesse %s !
+pixelmon.status.firepledgeend=L'océan de feu du côté de %s a disparu !
+pixelmon.status.grasspledgeend=Le marais autour de %s a disparu !
+pixelmon.status.waterpledgeend=L'arc-en-ciel au dessus de %s a disparu !
+pixelmon.status.telekinesis=%s est envoyé dans les airs !
 
 attack.curse.alreadycursed=%s est déjà maudit!
 attack.curse.curse=%s Sacrifie ses PV pour maudire %s!
