@@ -4083,6 +4083,8 @@ pixelmon.helditems.ginemaberry=¡Baya Ginema de %s restauró todos los estados!
 pixelmon.helditems.recoilberry=¡%s con %s dañó a %s!
 pixelmon.helditems.ejectbutton=¡%s abandona la batalla con su Botón Escape!
 pixelmon.helditems.micleberry=¡La Baya Lagro de %s aumenta su precisión!
+pixelmon.helditems.ironball=¡%s no puede mantenerse en el aire debido a la Bola Férrea!
+
 
 pixelmon.items.useitem=%s usó %s.
 
@@ -5655,6 +5657,11 @@ pixelmon.status.firepledgeeffect=¡El mar de llamas hirió a %s!
 pixelmon.status.firepledgeend=¡El mar de llamas ha desaparecido en el lado de %s!
 pixelmon.status.grasspledgeend=¡El pantano ha desaparecido en el lado de %s!
 pixelmon.status.waterpledgeend=¡El arcoíris sobre el lado de %s ha desaparecido!
+pixelmon.status.telekinesis=¡%s ha sido lanzado por los aires!
+pixelmon.status.helpinghand=¡%s está listo para ayudar a %s!
+pixelmon.status.quickguard=¡Anticipo protege al equipo de %s!
+pixelmon.status.quickguardprotect=¡Anticipo protege a %s!
+pixelmon.effect.allyswitch=¡%s y %s han intercambiado sus posiciones!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
