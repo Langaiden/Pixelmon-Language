@@ -637,7 +637,7 @@ item.TM138 - Mud-Slap.name=MT138: Bofetón Lodo
 item.TM139 - Ice Punch.name=MT139: Puño Hielo
 item.TM140 - Sleep Talk.name=MT140: Sonámbulo
 item.TM141 - Defense Curl.name=MT141: Rizo Defensa
-item.TM142 - ThunderPunch.name=MT142: Puño Trueno
+item.TM142 - Thunder Punch.name=MT142: Puño Trueno
 item.TM143 - Detect.name=MT143: Detección
 item.TM144 - Steel Wing.name=MT144: Ala de Acero
 item.TM145 - Fire Punch.name=MT145: Puño Fuego
@@ -3990,7 +3990,7 @@ pixelmon.npc.trader=¡No tienes el Pokémon que estoy buscando! Me gustaría un 
 pixelmon.npc.relearnername=Recordador de Movs.
 pixelmon.npc.relearnersetitem=El coste del recordador de movs. es ahora de %s (x%d).
 pixelmon.npc.relearnernoitem=El recordador de movs. ya no tiene ningún coste.
-pixelmon.npc.relearnerfull=¡No puede juntar más este objeto!
+pixelmon.npc.relearnerfull=¡No se puede añadir más este objeto!
 pixelmon.npc.relearnercost=Necesito un(a) %s (x%d) por mi servicio.
 
 pixelmon.npc.tutorname=Tutor de Movs.
@@ -5552,6 +5552,7 @@ pixelmon.effect.healbellstart=¡Ha repicado una campana!
 pixelmon.effect.aromatherapy=¡Un balsámico aroma impregnó la zona!
 pixelmon.effect.refresh=¡El estado de %s volvió a la normalidad!
 pixelmon.effect.naturepower=¡Adaptación se convirtió en %s!
+pixelmon.effect.allyswitch=¡%s y %s han intercambiado sus posiciones!
 pixelmon.effect.afteryou=¡%s permite que %s ataque el siguiente!
  
 pixelmon.status.ringheal=¡%s se curo con Acua Aro!
@@ -5665,7 +5666,6 @@ pixelmon.status.telekinesis=¡%s ha sido lanzado por los aires!
 pixelmon.status.helpinghand=¡%s está listo para ayudar a %s!
 pixelmon.status.quickguard=¡Anticipo protege al equipo de %s!
 pixelmon.status.quickguardprotect=¡Anticipo protege a %s!
-pixelmon.effect.allyswitch=¡%s y %s han intercambiado sus posiciones!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
