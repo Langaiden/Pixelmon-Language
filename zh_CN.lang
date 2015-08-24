@@ -4253,7 +4253,7 @@ tile.templePillar.Pillar.name=神社支柱
 tile.templePillar.BrokenPillar.name=残破的支柱
 tile.PokeGift.name=神奇宝贝礼物
 tile.EventPokeGift.name=奖励型神奇宝贝礼物
-tile.movementPlate.name=活动地带
+tile.movementPlate.name=传送地板
 
 PokeDirt.name=神奇宝贝泥土
 PokeSand.name=神奇宝贝沙地
@@ -4323,8 +4323,8 @@ YellowVendingMachine.name=黄色的自动贩卖机
 Fridge.name=冰箱
 PixelmonGrass.name=神奇宝贝草坪
 timedFall.name=定时秋季
-warpPlate.name=地标地带
-elevator.name=电梯
+warpPlate.name=地标区域
+elevator.name=升降机
 
 tile.pixelmonSpawner.name=神奇宝贝精灵箱
 tile.master chest.name=大师球道具箱
