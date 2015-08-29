@@ -3359,6 +3359,7 @@ pixelmon.drops.singlenoa=You received %s!
 pixelmon.drops.plural=You received %d %ss!
 pixelmon.drops.plural2=You received %d %s!
 pixelmon.drops.plurales=You received %d %ses!
+pixelmon.drops.pluralruby=You received %d Rubies!
 
 pixelmon.interaction.rarecandy=%s's levelling is disabled.
 pixelmon.interaction.tmknown=%s already knows %s!
