@@ -5080,6 +5080,8 @@ pixelmon.status.telekinesis=%s was hurled into the air!
 pixelmon.status.helpinghand=%s is ready to help %s!
 pixelmon.status.quickguard=Quick Guard protected %s's team!
 pixelmon.status.quickguardprotect=Quick Guard protected %s!
+pixelmon.status.embargo=%s can't use items!
+pixelmon.status.embargoend=%s's Embargo was lifted!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
