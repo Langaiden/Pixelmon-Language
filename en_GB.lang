@@ -5078,6 +5078,8 @@ pixelmon.status.embargo=%s can't use items!
 pixelmon.status.embargoend=%s's Embargo was lifted!
 pixelmon.status.grudge=%s wants the opponent to bear a grudge!
 pixelmon.status.grudgeactivate=%s's %s lost all of its PP due to the grudge!
+pixelmon.status.luckychant=%s joined the Lucky Chant!
+pixelmon.status.luckychantend=%s's Lucky Chant wore off!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
