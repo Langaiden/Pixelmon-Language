@@ -5556,6 +5556,7 @@ pixelmon.effect.naturepower=¡Adaptación se convirtió en %s!
 pixelmon.effect.allyswitch=¡%s y %s han intercambiado sus posiciones!
 pixelmon.effect.afteryou=¡%s permite que %s ataque el siguiente!
 pixelmon.effect.bestow=¡%s dio su %s a %s!
+pixelmon.effect.hurt=¡%s fue herido!
  
 pixelmon.status.ringheal=¡%s se ha curado con Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5670,6 +5671,10 @@ pixelmon.status.quickguard=¡Anticipo protege al equipo de %s!
 pixelmon.status.quickguardprotect=¡Anticipo protege a %s!
 pixelmon.status.embargo=¡%s no puede usar objetos!
 pixelmon.status.embargoend=¡Embargo de %s ha desaparecido!
+pixelmon.status.grudge=¡%s quiere provocar Rabia a su rival!
+pixelmon.status.grudgeactivate=¡%s ha perdido todos los PP de %s debido a la Rabia!
+pixelmon.status.luckychant=¡El Conjuro portege al equipo de %s!
+pixelmon.status.luckychantend=¡El Conjuro de %s ha desaparecido!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
