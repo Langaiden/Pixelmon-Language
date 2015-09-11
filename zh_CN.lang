@@ -4936,6 +4936,7 @@ pixelmon.effect.trick=%s 交换了自己和 %s 的道具！
 pixelmon.effect.trickitem=%s 获得了 %s！
 pixelmon.effect.soak=%s 变成了水属性！
 pixelmon.effect.bestow=%s 把它的 %s 给与了 %s！
+pixelmon.effect.hurt=%s 受到了伤害！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
 pixelmon.status.burnhurt=%s 被烧伤了！
@@ -5057,7 +5058,10 @@ pixelmon.status.wideguard=全体防御保护了 %s 的队伍！
 pixelmon.status.wideguardprotect=全体防御保护了 %s！
 pixelmon.status.embargo=%s 无法使用道具！
 pixelmon.status.embargoend=%s 的征收状态解除！
-
+pixelmon.status.grudge=%s 想要去怨恨对手！
+pixelmon.status.grudgeactivate=%s 的 %s 由于怨念失去了所有PP！
+pixelmon.status.luckychant=%s 进入了幸运咒语中！
+pixelmon.status.luckychantend=%s 的幸运咒语结束了！
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
 attack.curse.curse=%s 消耗了自己的生命值给 %s 造成了诅咒！
