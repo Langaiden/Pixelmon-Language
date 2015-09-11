@@ -3361,6 +3361,7 @@ pixelmon.drops.singlenoa=You received %s!
 pixelmon.drops.plural=You received %d %ss!
 pixelmon.drops.plural2=You received %d %s!
 pixelmon.drops.plurales=You received %d %ses!
+pixelmon.drops.pluralruby=You received %d Rubies!
 
 pixelmon.interaction.rarecandy=%s's leveling is disabled.
 pixelmon.interaction.tmknown=%s already knows %s!
@@ -4966,6 +4967,8 @@ pixelmon.effect.refresh=%s cured its status!
 pixelmon.effect.naturepower=Nature Power turned into %s!
 pixelmon.effect.allyswitch=%s switched positions with %s!
 pixelmon.effect.afteryou=%s let %s move next!
+pixelmon.effect.bestow=%s gave its %s to %s!
+pixelmon.effect.hurt=%s was hurt!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -5078,6 +5081,12 @@ pixelmon.status.telekinesis=%s was hurled into the air!
 pixelmon.status.helpinghand=%s is ready to help %s!
 pixelmon.status.quickguard=Quick Guard protected %s's team!
 pixelmon.status.quickguardprotect=Quick Guard protected %s!
+pixelmon.status.embargo=%s can't use items!
+pixelmon.status.embargoend=%s's Embargo was lifted!
+pixelmon.status.grudge=%s wants the opponent to bear a grudge!
+pixelmon.status.grudgeactivate=%s's %s lost all of its PP due to the grudge!
+pixelmon.status.luckychant=%s joined the Lucky Chant!
+pixelmon.status.luckychantend=%s's Lucky Chant wore off!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!

@@ -1,5 +1,5 @@
 /*
-*	Latest translation 03/09/2015
+*	Latest translation 08/09/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4410,6 +4410,7 @@ pixelmon.drops.singlenoa=Vous avez reçu %s!
 pixelmon.drops.plural=Vous avez reçu %d %ss!
 pixelmon.drops.plural2=Vous avez reçu %d %s!
 pixelmon.drops.plurales=Vous avez reçu %d %ses!
+pixelmon.drops.pluralruby=Vous avez reçu %s Rubis !
 
 pixelmon.interaction.rarecandy=La montée de niveau pour %s est désactivé
 pixelmon.interaction.tmknown=%s connaît déjà %s!
@@ -6114,6 +6115,11 @@ pixelmon.status.firepledgeend=L'océan de feu du côté de %s a disparu !
 pixelmon.status.grasspledgeend=Le marais autour de %s a disparu !
 pixelmon.status.waterpledgeend=L'arc-en-ciel au dessus de %s a disparu !
 pixelmon.status.telekinesis=%s est envoyé dans les airs !
+pixelmon.status.helpinghand=%s donne un coup de main à %s !
+pixelmon.status.quickguard=Prévention protège l'équipe de %s !
+pixelmon.status.quickguardprotect=Prévention a protégé %s !
+pixelmon.status.embargo=%s ne peut pas utiliser d'objets !
+pixelmon.status.embargoend=L'Embargo de %s a été levé !
 
 attack.curse.alreadycursed=%s est déjà maudit!
 attack.curse.curse=%s Sacrifie ses PV pour maudire %s!
