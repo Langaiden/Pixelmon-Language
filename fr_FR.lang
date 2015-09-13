@@ -6124,7 +6124,7 @@ pixelmon.status.embargo=%s ne peut pas utiliser d'objets !
 pixelmon.status.embargoend=L'Embargo de %s a été levé !
 pixelmon.status.grudge=%s veut que l'ennemi ait de la Rancune !
 pixelmon.status.grudgeactivate=%s de %s a perdu tous ses PP à cause de sa Rancune !
-pixelmon.status.luckychant=%s utilise Air Veinard !
+pixelmon.status.luckychant=%s rejoint l'Air Veinard !
 pixelmon.status.luckychantend=Air Veinard de %s disparaît !
 
 attack.curse.alreadycursed=%s est déjà maudit!
