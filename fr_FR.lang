@@ -1,5 +1,5 @@
 /*
-*	Latest translation 08/09/2015
+*	Latest translation 13/09/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4595,31 +4595,31 @@ achievement.PvPChieve=Victoire Ultime!
 achievement.PvPChieve.desc=Remporter un combat de Joueur contre Joueur
 achievement.ApricornChieve=Apprenti de Fargas!
 achievement.ApricornChieve.desc=Faire cuire une noigrume
-achievement.dex1Chieve=Pokédex: Complété à 1% !
+achievement.dex1Chieve=Pokédex: Complété à 1%% !
 achievement.dex1Chieve.desc=Complété 1% du Pokédex
-achievement.dex10Chieve=Pokédex: Complété à 10% !
+achievement.dex10Chieve=Pokédex: Complété à 10%% !
 achievement.dex10Chieve.desc=Complété 10% du Pokédex
-achievement.dex20Chieve=Pokédex: Complété à 20% !
+achievement.dex20Chieve=Pokédex: Complété à 20%% !
 achievement.dex20Chieve.desc=Complété 20% du Pokédex
-achievement.dex30Chieve=Pokédex: Complété à 30% !
+achievement.dex30Chieve=Pokédex: Complété à 30%% !
 achievement.dex30Chieve.desc=Complété 30% du Pokédex
-achievement.dex40Chieve=Pokédex: Complété à 40% !
+achievement.dex40Chieve=Pokédex: Complété à 40%% !
 achievement.dex40Chieve.desc=Complété 40% du Pokédex
-achievement.dex50Chieve=Pokédex: Complété à 50% !
+achievement.dex50Chieve=Pokédex: Complété à 50%% !
 achievement.dex50Chieve.desc=Complété 50% du Pokédex
-achievement.dex60Chieve=Pokédex: Complété à 60% !
+achievement.dex60Chieve=Pokédex: Complété à 60%% !
 achievement.dex60Chieve.desc=Complété 60% du Pokédex
-achievement.dex70Chieve=Pokédex: Complété à 70% !
+achievement.dex70Chieve=Pokédex: Complété à 70%% !
 achievement.dex70Chieve.desc=Complété 70% du Pokédex
-achievement.dex80Chieve=Pokédex: Complété à 80% !
+achievement.dex80Chieve=Pokédex: Complété à 80%% !
 achievement.dex80Chieve.desc=Complété 80% du Pokédex
-achievement.dex90Chieve=Pokédex: Complété à 90% !
+achievement.dex90Chieve=Pokédex: Complété à 90%% !
 achievement.dex90Chieve.desc=Complété 90% du Pokédex
 achievement.dex100Chieve=Pokédex: Maître Pixelmon !
 achievement.dex100Chieve.desc=Remplir le Pokédex entièrement
 
 //PixelUtilities Achievements
-achievement.teammagma=Aspirant de la Team Magma !	
+achievement.teammagma=Aspirant de la Team Magma !
 achievement.teammagma.desc=Rejoindre la Team Magma.
 achievement.teamaqua=Aspirant de la Team Aqua !
 achievement.teamaqua.desc=Rejoindre la Team Aqua.
@@ -6005,6 +6005,8 @@ pixelmon.effect.refresh=%s est guéri !
 pixelmon.effect.naturepower=Force-Nature se transforme en %s !
 pixelmon.effect.allyswitch=%s échange sa position avec %s !
 pixelmon.effect.afteryou=%s laisse %s attaquer après lui !
+pixelmon.effect.bestow=%s donne %s à %s !
+pixelmon.effect.hurt=%s a été blessé !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
@@ -6120,6 +6122,10 @@ pixelmon.status.quickguard=Prévention protège l'équipe de %s !
 pixelmon.status.quickguardprotect=Prévention a protégé %s !
 pixelmon.status.embargo=%s ne peut pas utiliser d'objets !
 pixelmon.status.embargoend=L'Embargo de %s a été levé !
+pixelmon.status.grudge=%s veut que l'ennemi ait de la Rancune !
+pixelmon.status.grudgeactivate=%s de %s a perdu tous ses PP à cause de sa Rancune !
+pixelmon.status.luckychant=%s rejoint l'Air Veinard !
+pixelmon.status.luckychantend=Air Veinard de %s disparaît !
 
 attack.curse.alreadycursed=%s est déjà maudit!
 attack.curse.curse=%s Sacrifie ses PV pour maudire %s!
