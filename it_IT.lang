@@ -9,8 +9,8 @@
 ##########################################################################################################
 #updated by Meka aka InLoveOfNidoqueen
 #traduzioni incerte: Baccayago,Baccamelanzana,Baccadicchio,Baccazucca,Baccatouga
+#Mancante: riga 397 714 800-823 852 855 858 859 862 3317-3321 3344 3346-3349 3352 3380 3458-3477 3491 3492 3514
 ##########################################################################################################
-
 
 
 
@@ -704,8 +704,170 @@ item.PokeMail-tunnel.name=Messaggio Tunnel
 item.PokeMail-wave.name=Messaggio Onda
 item.PokeMail-wood.name=Messaggio Bosco
 
+item.Tree.name=Albero
+item.ClothedTable.name=Tavolo con tovaglia
+item.TV.name=TV
+item.RedPokeballRug.name=Tappeto Poké Ball Rosso
+item.GreenPokeballRug.name=Tappeto Poké Ball Verde
+item.BluePokeballRug.name=Tappeto Poké Ball Blu
+item.YellowPokeballRug.name=Tappeto Poké Ball Giallo
 
-itemGroup.tabPokeLoot=PokeLoot
+item.BlueVendingMachine.name=Distributore Automatico Blu
+item.GreenVendingMachine.name=Distributore Automatico Verde
+item.OrangeVendingMachine.name=Distributore Automatico Arancione
+item.PinkVendingMachine.name=Distributore Automatico Rosa
+item.RedVendingMachine.name=Distributore Automatico Rosso
+item.YellowVendingMachine.name=Distributore Automatico Giallo
+item.Fridge.name=Frigorifero
+item.RedWaterFloat.name=Galleggiante Rosso
+item.GreenWaterFloat.name=Galleggiante Verde
+item.BlueWaterFloat.name=Galleggiante Blu
+item.OrangeWaterFloat.name=Galleggiante Arancione
+item.YellowWaterFloat.name=Galleggiante Giallo
+item.PinkWaterFloat.nameGalleggiante Rosa
+item.PurpleWaterFloat.name=Galleggiante Viola
+item.Amethyst.name=Ametista
+item.Ruby.name=Rubino
+item.Crystal.name=Cristallo
+item.Sapphire.name=Zaffiro
+item.Silicon.name=Silicone
+item.RubyHammer.name=Martello di Rubino
+item.RubyAxe.name=Ascia di Rbino
+item.RubyHoe.name=Zappa di Rubino
+item.RubyPickaxe.name=Piccone di Rubino
+item.RubyShovel.name=Pala di Rubino
+item.RubySword.name=Spada di Rubino
+item.SapphireHammer.name=Martello di Zaffiro
+item.SapphireAxe.name=Ascia di Zaffiro
+item.SapphireHoe.name=Zappa di Zaffiro
+item.SapphirePickaxe.name=Piccone di Zaffiro
+item.SapphireShovel.name=Pala di Zaffiro
+item.SapphireSword.name=Spada di Zaffiro
+item.CrystalHammer.name=Martello di Cristallo
+item.CrystalAxe.name=Ascia di Cristallo
+item.CrystalHoe.name=Zappa di Cristallo
+item.CrystalPickaxe.name=Piccone di Cristallo
+item.CrystalShovel.name=Pala di Cristallo
+item.CrystalSword.name=Spada di Cristallo
+item.AmethystHammer.name=Martello di Ametista
+item.AmethystAxe.name=Ascia di Ametista
+item.AmethystHoe.name=Zappa di Ametista
+item.AmethystPickaxe.name=Piccone di Ametista
+item.AmethystShovel.name=Pala di Ametista
+item.AmethystSword.name=Spada di Ametista
+item.FirestoneHammer.name=Martello di Pietrafocaia
+item.FirestoneAxe.name=Ascia di Pietrafocaia
+item.FirestoneHoe.name=Zappa di Pietrafocaia
+item.FirestonePickaxe.name=Piccone di Pietrafocaia
+item.FirestoneShovel.name=Pala di Pietrafocaia
+item.FirestoneSword.name=Spada di Pietrafocaia
+item.WaterstoneHammer.name=Martello di Pietraidrica
+item.WaterstoneAxe.name=Ascia di Pietraidrica
+item.WaterstoneHoe.name=Zappa di Pietraidrica
+item.WaterstonePickaxe.name=Piccone di Pietraidrica
+item.WaterstoneShovel.name=Pala di Pietraidrica
+item.WaterstoneSword.name=Spada di Pietraidrica
+item.LeafstoneHammer.name=Martello di Pietrafoglia
+item.LeafstoneAxe.name=Ascia di Pietrafoglia
+item.LeafstoneHoe.name=Zappa di Pietrafoglia
+item.LeafstonePickaxe.name=Piccone di Pietrafoglia
+item.LeafstoneShovel.name=Pala di Pietrafoglia
+item.LeafstoneSword.name=Spada di Pietrafoglia
+item.ThunderstoneHammer.name=Martello di Pietratuono
+item.ThunderstoneAxe.name=Ascia di Pietrafoglia
+item.ThunderstoneHoe.name=Zappa di Pietrafoglia
+item.ThunderstonePickaxe.name=Piccone di Pietrafoglia
+item.ThunderstoneShovel.name=Pala di Pietrafoglia
+item.ThunderstoneSword.name=Spada di Pietrafoglia
+item.SunstoneHammer.name=Martello di Pietrasolare
+item.SunstoneAxe.name=Ascia di Pietrasolare
+item.SunstoneHoe.name=Zappa di Pietrasolare
+item.SunstonePickaxe.name=Piccone di Pietrasolare
+item.SunstoneShovel.name=Pala di Pietrasolare
+item.SunstoneSword.name=Spada di Pietrasolare
+item.MoonstoneHammer.name=Martello di Pietralunare
+item.MoonstoneAxe.name=Ascia di Pietralunare
+item.MoonstoneHoe.name=Zappa di Pietralunare
+item.MoonstonePickaxe.name=Piccone di Pietralunare
+item.MoonstoneShovel.name=Pala di Pietralunare
+item.MoonstoneSword.name=Spada di Pietralunare
+item.DawnstoneHammer.name=Martello di Pietralbore
+item.DawnstoneAxe.name=Ascia di Pietralbore
+item.DawnstoneHoe.name=Zappa di Pietralbore
+item.DawnstonePickaxe.name=Piccone di Pietralbore
+item.DawnstoneShovel.name=Pala di Pietralbore
+item.DawnstoneSword.name=Spada di Pietralbore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+item.FirestoneHelm.name=Elmo di Pietrafocaia
+item.FirestonePlate.name=Corazza di Pietrafocaia
+item.FirestoneLegs.name=Gambiera di Pietrafocaia
+item.FirestoneBoots.name=Stivali di Pietrafocaia
+item.WaterstoneHelm.name=Elmo di Pietraidrica
+item.WaterstonePlate.name=Corazza di Pietraidrica
+item.WaterstoneLegs.name=Gambiera di Pietraidrica
+item.WaterstoneBoots.name=Stivali di Pietraidrica
+item.LeafstoneHelm.name=Elmo di Pietrafoglia
+item.LeafstonePlate.name=Corazza di Pietrafoglia
+item.LeafstoneLegs.name=Gambiera di Pietrafoglia
+item.LeafstoneBoots.name=Stivali di Pietrafoglia
+item.ThunderstoneHelm.name=Elmo di Pietratuono
+item.ThunderstonePlate.name=Corazza di Pietratuono
+item.ThunderstoneLegs.name=Gambiera di Pietratuono
+item.ThunderstoneBoots.name=Stivali di Pietratuono
+item.SunstoneHelm.name=Elmo di Pietrasolare
+item.SunstonePlate.name=Corazza di Pietrasolare
+item.SunstoneLegs.name=Gambiera di Pietrasolare
+item.SunstoneBoots.name=Stivali di Pietrasolare
+item.MoonstoneHelm.name=Elmo di Pietralunare
+item.MoonstonePlate.name=Corazza di Pietralunare
+item.MoonstoneLegs.name=Gambiera di Pietralunare
+item.MoonstoneBoots.name=Stivali di Pietralunare
+item.DawnstoneHelm.name=Elmo di Pietralbore
+item.DawnstonePlate.name=Corazza di Pietralbore
+item.DawnstoneLegs.name=Gambiera di Pietralbore
+item.DawnstoneBoots.name=Stivali di Pietralbore
+
+item.pokeGift.name=PokéRegalo
+
+
+itemGroup.Pokeballs=Poké Balls
+itemGroup.Badges=Medaglie
+
+
+itemGroup.Held Items=Oggetti tenuti
+itemGroup.TMs/HMs=Mt/MN
+
+itemGroup.PixelUtilitiesBlocks=Blocchi PixelUtilities
+itemGroup.PixelUtilitiesItems=Oggetti PixelUtilities
+itemGroup.PixelUtilitiesArmor=Armatura PixelUtilities
+itemGroup.PixelUtilsDecoration=Decorazioni PixelUtilities
+itemGroup.PixelUtilsTools=Attrezzi PixelUtilities
+
+
+
 
 
 
@@ -995,8 +1157,8 @@ attack.confuse ray.name=Stordiraggio
 attack.confuse ray.description=Il nemico è colpito da un raggio sinistro che lo confonde.
 attack.withdraw.name=Ritirata
 attack.withdraw.description=Il corpo si ritira nel suo duro guscio per aumentare la Difesa.
-attack.defense curl.name=Ricciolscudo
-attack.defense curl.description=Chi la usa si raggomitola per nascondere i punti deboli e aumentare la propria Difesa.
+attack.defence curl.name=Ricciolscudo
+attack.defence curl.description=Chi la usa si raggomitola per nascondere i punti deboli e aumentare la propria Difesa.
 attack.barrier.name=Barriera
 attack.barrier.description=Innalza una barriera resistente che aumenta molto la Difesa.
 attack.haze.name=Nube
@@ -1177,6 +1339,8 @@ attack.flail.name=Flagello
 attack.flail.description=Chi la usa si dimena per attaccare. àˆ più efficace se i suoi PS sono bassi.
 attack.conversion2.name=Conversione 2
 attack.conversion2.description=Chi la usa cambia tipo per rendersi resistente al tipo dell'ultima mossa usata dal bersaglio.
+attack.conversion 2.name=Conversione 2
+attack.conversion 2.description=Chi la usa cambia tipo per rendersi resistente al tipo dell'ultima mossa usata dal bersaglio.
 attack.aeroblast.name=Aerocolpo
 attack.aeroblast.description=Colpisce il nemico con un vortice d'aria per danneggiarlo. Probabile brutto colpo.
 attack.cotton spore.name=Cottonspora
@@ -3149,6 +3313,15 @@ pixelmon.command.battle.cannotchallenge=Non puoi sfidare %s mentre sta combatten
 pixelmon.command.battle.dimension=Gli sfidanti non si trovano nello stesso mondo.
 pixelmon.command.battle.sameperson=Un’allenatore non può sfidare se stesso!.
 pixelmon.command.battle.started=La lotta %s tra %s è iniziata!
+pixelmon.command.battle.nopokemon=%s non ha nessun Pokémon che possa combattere!
+
+
+
+
+
+pixelmon.command.copyToDB.disabled=Il salvataggio nel database non è abilitato nel config!
+pixelmon.command.endbattle.notinbattle=%s non sta combattendo.
+pixelmon.command.endbattle.endbattle=La battaglia è terminata con successo.
 pixelmon.command.freeze.frozen=I Pixelmon sono stati immobilizzati sul posto!
 pixelmon.command.freeze.unfrozen=I Pixelmon sono stati sbloccati!
 pixelmon.command.general.cheater=Imbroglione!
@@ -3156,33 +3329,66 @@ pixelmon.command.general.lvlerror=Errore nel livello.
 pixelmon.command.general.notingame=%s non esiste o non è ancora stato implementato!
 pixelmon.command.general.invalid=Sotto-comando invalido!
 pixelmon.command.general.invalidplayer=Giocatore non trovato! Riprova.
+pixelmon.command.general.inbattle=Non puoi usare questo comando mentre stai combattendo!
 pixelmon.command.give.givesuccess=Hai dato con successo a %s un %s!
 pixelmon.command.give.notifygive=%s ha dato %s un %s!
+pixelmon.command.give.givesuccessegg=Hai dato con successo a %s uno Uovo di %s!
+pixelmon.command.give.notifygiveegg=%s ha dato a %s un Uovo di %s!
 pixelmon.command.heal.cantheal=Non puoi curare i Pixelmon di %s mentre stanno lottando!
 pixelmon.command.heal.healed=Hai curato con successo i Pixelmon di %s!
 pixelmon.command.heal.notifyhealed=%s ha curato con successo i Pixelmon di %s!
 pixelmon.command.spawn.spawned=Hai generato con successo un %s
 pixelmon.command.spawn.spawnednotify=%s ha generato con successo un %s
+pixelmon.command.spectate.nobattle=%s non sta combattendo.
+pixelmon.command.spectate.self=Non puoi fare da spettatore a te stesso!
+
+pixelmon.command.struc.nostruc=Nessuna struttura trovata in questo bioma. (%s)
+
+
+
+
+pixelmon.command.unlock=Il Pokémon bloccato di %s è stato sbloccato.
+pixelmon.command.warpplate.notstanding=Non sei sopra una piattaforma di teletrasporto.
+
  
 //other
 pixelmon.drops.fullinventory=Il tuo inventario è pieno! %s è caduto a terra!
 pixelmon.drops.single=Hai ricevuto un oggetto: %s!
 pixelmon.drops.singlean=Hai ricevuto un oggetto: %s!
+pixelmon.drops.singlenoa=Hai ricevuto %s!
 pixelmon.drops.plural=Hai ricevuto degli oggetti: %d %s!
+pixelmon.drops.plural2=Hai ricevuto %d e %s!
+pixelmon.drops.plurales=Hai ricevuto %d %ses!
  
 pixelmon.interaction.rarecandy=L’aumento di livello di %s è disabilitato.
 pixelmon.interaction.tmknown=%s conosce già %s!
 pixelmon.interaction.tmcantlearn=%s non può imparare %s!
 pixelmon.interaction.vitamin= La felicità e gli EVs di %s sono aumentati.
-pixelmon.interaction.berry=La felicità di %s è aumentata ma i suoi EVs sono diminuiti
+pixelmon.interaction.vitaminfail=Gli EV di %s non possone essere aumentati ulteriormente dalla vitamina.
+pixelmon.interaction.berry=La felicità di %s è aumentata ma i suoi EVs sono diminuiti.
+pixelmon.interaction.berryfriend=La felicità di %s è aumentata!
+pixelmon.interaction.berryfail=%s di %s non può diminuire.
 
 pixelmon.general.noeffect=Non ha effetto!
 pixelmon.general.needop=Devi essere un Operator per eseguire questa azione.
+pixelmon.general.needowner=Solo il possessore di questo blocco può accedere ad esso.
 pixelmon.general.playerbusy=Il giocatore è occupato!
 pixelmon.general.disabledblock=Il server ha disabilitato questo blocco.
+pixelmon.general.battleerror=È avvenuto un errore in battaglia! Controlla la console per i dettagli e riferisci il bug agli sviluppatori della Pixelmon.
+pixelmon.general.errorlog=È avvenuto un errore in battaglia! Per favore riporta il log dell'errore agli sviluppatori della Pixelmon.
+
 
 pixelmon.npc.trader=Non hai il Pokemon che sto cercando! Vorrei un %s
  
+pixelmon.npc.relearnername=Ricordamosse
+pixelmon.npc.relearnersetitem=Il costo del Ricordamosse ora è %s (x%d).
+pixelmon.npc.relearnernoitem=Il Ricordamosse ora è gratis.
+pixelmon.npc.relearnerfull=Non puoi ammucchiare questo oggetto ulteriormente!
+pixelmon.npc.relearnercost=Ho bisogno di %s (x%d) per il mio servizio.
+
+pixelmon.npc.tutorname=Insegnamosse
+pixelmon.npc.cantpay=Non puoi pagare il costo dell'insegnamento di questa mossa!
+
 pixelmon.projectiles.nibble=Non abbocca nulla...
  
 pixelmon.stats.gainexp=Il tuo %s ha guadagnato %d Punti ESP.!
@@ -3191,50 +3397,87 @@ pixelmon.stats.learnedmove=%s ha appena imparato %s!
 pixelmon.entities.syncpassed=Sincronismo lo ha passato a %s
  
 pixelmon.entitytrainer.goodrod=Hai ottenuto un Amo Buono!
-pixelmon.entitytrainer.superod=Hai ottenuto un Super Amo!
+pixelmon.entitytrainer.superrod=Hai ottenuto un Super Amo!
+pixelmon.entitytrainer.onceday=Questo Allenatore può essere battuto solo una volta al giorno.
+pixelmon.entitytrainer.oncemcday=Questo Allenatore può essere battuto solo una volta in un giorno di Minecraft.
+pixelmon.entitytrainer.onceplayer=Questo Allenatore può essere battuto solo una volta da ogni Giocatore.
+pixelmon.entitytrainer.level=Lv: 
  
-pixelmon.statue.despawn=Il Pixelmon è stato rimosso..
+pixelmon.statue.despawn=Il Pixelmon è stato rimosso.
+
+pixelutilities.blocks.emptygift=Hai trovato un %s vuoto. :(
+pixelmon.blocks.fillmefirst=Devi mettere dentro un Pokémon prima!
+pixelutilities.event.noevents=Gli eventi sono disabilitati. :'(
+pixelmon.blocks.nothingtoadd=Devi mandare un Pokémon prima.
+pixelmon.block.error=Un errore è stato causato da %s.
+pixelmon.blocks.lastpoke=Questo è il tuo ultimo Pokémon!
+pixelmon.blocks.christmaspokegift=Pokéregalo di Natale
+pixelmon.blocks.halloweenpokegift=Pokéregalo di Halloween
+pixelmon.blocks.custompokegift=Pokéregalo evento custom
  
 //Pokeballs
 pixelmon.pokeballs.inbattle=Quel Pokemon è già in combattimento!
 pixelmon.pokeballs.alreadyown=Non puoi catturare il tuo stesso Pokemon!
 pixelmon.pokeballs.boss=Non puoi catturare un Pokemon boss!
+pixelmon.pokeballs.throw=%s lancia la %s!
 pixelmon.pokeballs.capture=Hai catturato %s
+pixelmon.pokeballs.brokefree=%s si è liberato!
 pixelmon.pokeballs.pokeinbattle=Non puoi catturare un Pokemon che è impegnato in una battaglia!
 pixelmon.pokeballs.otherspokemon=Non puoi catturare i Pokemon degli altri!
 pixelmon.pokeballs.statue=Non puoi catturare una statua Pokemon!
  
-//storage
+//Storage
 pixelmon.storage.compfull=Il tuo computer ha esaurito lo spazio!
 pixelmon.storage.partyfull=La tua squadra è al completo, %s è stato inviato al computer!
  
 //Held Items
-pixelmon.helditem.healedburn=%s è guarito dalla scottatura!
-pixelmon.helditem.cellowner=Il Pokemon di %s, %s, ha aumentato il proprio attacco utilizzando la sua Ricaripila!
-pixelmon.helditem.cellwild=%s ha aumentato il proprio attacco utilizzando la sua Ricaripila!
-pixelmon.helditems.consumeleppa=%s ha appena mangiato una Baccamela. %s ha guadagnato 10 PP!
-pixelmon.helditems.consumeoran=%s ha mangiato una Baccarancia e ha recuperato 10 PS!
-pixelmon.helditems.consumerawst=%s ha mangiato una Baccafrago ed è guarito dalla scottatura!
-pixelmon.helditems.shellbellowner=Il Pokemon di %s, %s, ha recuperato un pò di PS grazie alla Conchinella!
-pixelmon.helditems.shellbellwild=Il %s selvatico ha recuperato un pò di PS grazie alla Conchinella!
-pixelmon.helditems.gainedtenhp=%s ha recuperato 10 PS!
-pixelmon.helditem.absorbowner=%s's %s ha aumentato il suo attacco speciale usando bulbo!
-pixelmon.helditem.absorbwild=Il %s selvatico ha aumentato il suo attacco speciale usando bulbo!
-pixelmon.helditem.lifeowner=La potenza di %s è aumentata grazie ad Assorbisfera, ma ha ricevuto danno da contraccolpo!
-pixelmon.helditem.metronomeowner=La potenza di %s è aumentata grazie a Plessimetro!
-pixelmon.helditem.musclebandowner=La potenza di %s è aumentata grazie a Muscolbanda!
-pixelmon.helditems.consumegem=%s ha consumato un bijou ed ha aumentato il suo attacco!
+pixelmon.helditems.healedstatus=Lo stato di %s è stato curato!
+pixelmon.helditems.cellbattery=Ricaripila di %s si è attivata!
+pixelmon.helditems.consumeleppa=%s ha appena mangiato una Baccamela. %s ha guadagnato 10 PP!!
+pixelmon.helditems.consumerestorehp=%s ha consumato %s e si è ristabilito!
+pixelmon.helditems.cheriberry=Baccaliegia di %s cura il problema di paralisi!
+pixelmon.helditems.chestoberry=Baccastagna di %s l'ha svegliato!
+pixelmon.helditems.pechaberry=Baccapesca di %s cura il problema di avvelenamento!
+pixelmon.helditems.rawstberry=Baccafrago di %s cura il problema di scottatura!
+pixelmon.helditems.aspearberry=Baccaperina di %s cura il problema di congelamento!
+pixelmon.helditems.persimberry=Baccaki di %s lo libera dalla confusione!
+pixelmon.helditems.lumberry=Baccaprugna di %s cura il problema di stato!
+pixelmon.helditems.pinchberry=%s ha consumato la sua %s!
+pixelmon.helditems.custapberry=Baccacrela di %s lo fa attaccare per primo!
+pixelmon.helditems.pumkinberry=Baccapumkin di %s cura il problema di congelamento!
+pixelmon.helditems.drashberry=Baccadrash di %s cura il problema di avvelenamento!
+pixelmon.helditems.eggantberry=Baccaeggant si %s lo libera dall'attrazione!
+pixelmon.helditems.yagoberry=Baccayago di %s cura il problema di scottatura!
+pixelmon.helditems.tougaberry=Baccatouga di %s lo libera dalla confusione!
+pixelmon.helditems.shellbell=Conchinella ristabilisce parte degli PS di %s!
+pixelmon.helditems.absorbbulb=%s's Absorb Bulb activated!
+pixelmon.helditems.leftovers=Avanzi ristabilisce parte degli PS di %s!
+pixelmon.helditem.lifeowner=%s ha perde qualche PS!
+pixelmon.helditems.focussash=%s resiste usando il Focalnastro!
+pixelmon.helditems.focusband=%s resiste usando la Bandana!
 
-//Battle Items
-pixelmon.ItemBattleItem.xattackowner=%s's %s ha aumentato il suo attacco usando Attacco X!
-pixelmon.ItemBattleItem.xdefenceowner=%s's %s ha aumentato la sua difesa usando Difesa X!
-pixelmon.ItemBattleItem.xspecialattackowner=%s's %s ha aumentato il suo attacco speciale usando Attacco Speciale X!
-pixelmon.ItemBattleItem.xspecialdefenceowner=%s's %s ha aumentato la sua difesa speciale usando Difesa Speciale X!
-pixelmon.ItemBattleItem.xspeedowner=%s's %s ha aumentato la sua velocità usando Velocità X!
-pixelmon.ItemBattleItem.xaccuracyowner=%s's %s ha aumentato la sua accuratezza usando Accuratezza X!
 
-//blocks
-pixelmon.blocks.bonemealwatered=Sembra abbastanza umido, oggi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Blocks
+pixelmon.blocks.bonemealwatered=Sembra abbastanza umido oggi.
  
 pixelmon.blocks.healer=La macchina guaritrice è occupata!
  
@@ -3245,13 +3488,31 @@ pixelmon.blocks.ownerchanged=Proprietario del blocco cambiato in: server!
 pixelmon.blocks.chestset=Impostazioni personalizzate Poke Chest: %s
 pixelmon.blocks.visible=Visibilità Poke Chest: %s
 pixelmon.blocks.chestmode=Modalità Poke Chest: %s
+
+
  
 pixelmon.blocks.orbnotfull=Il tuo Globo non è carico!
+pixelmon.blocks.orbwrong=Il tuo Globo non è compatibile con questo Altare!
+pixelmon.blocks.shrineused=Questo Altare è già stato attivato!
  
 pixelmon.blocks.tradefull=La macchina per gli scambi non ha posti liberi!
  
 pixelmon.blocks.noclone=Non hai nulla da clonare!
  
+pixelmon.blocks.fossilmachine.fossil=Inserisci un Fossile
+pixelmon.blocks.fossilmachine.pokeball=Inserisci una Pokéball
+pixelmon.blocks.fossilmachine.retrieve=Ritira il Pokémon
+pixelmon.blocks.fossilmachine.working=Processando...
+
+pixelmon.blocks.cloningmachine.error=Errore
+pixelmon.blocks.cloningmachine.finished=Finito
+pixelmon.blocks.cloningmachine.scanning=Esaminando
+pixelmon.blocks.cloningmachine.mew=Inserisci Mew
+pixelmon.blocks.cloningmachine.catalyst=Inserisci i catalizzatori
+pixelmon.blocks.cloningmachine.retrieve=Ritira il Pokémon
+pixelmon.blocks.cloningmachine.processing=Processando...
+
+
 pixelmon.orb.amountfull=Hai bisogno di più kills per riempire il globo!
 pixelmon.orb.isfull=Il globo è pieno!
  
