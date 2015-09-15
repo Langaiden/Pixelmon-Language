@@ -4969,6 +4969,8 @@ pixelmon.effect.allyswitch=%s switched positions with %s!
 pixelmon.effect.afteryou=%s let %s move next!
 pixelmon.effect.bestow=%s gave its %s to %s!
 pixelmon.effect.hurt=%s was hurt!
+pixelmon.effect.freezeshock=%s began charging an attack!
+pixelmon.effect.iceburn=%s began charging an attack!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
