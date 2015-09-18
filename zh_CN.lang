@@ -4939,6 +4939,7 @@ pixelmon.effect.bestow=%s 把它的 %s 给与了 %s！
 pixelmon.effect.hurt=%s 受到了伤害！
 pixelmon.effect.freezeshock=%s 被寒冷的光包围着！
 pixelmon.effect.iceburn=%s 被冻结的光包围着！
+pixelmon.effect.lunardance=%s 被新月舞治疗了！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
 pixelmon.status.burnhurt=%s 被烧伤了！
