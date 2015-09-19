@@ -4937,6 +4937,9 @@ pixelmon.effect.trickitem=%s 获得了 %s！
 pixelmon.effect.soak=%s 变成了水属性！
 pixelmon.effect.bestow=%s 把它的 %s 给与了 %s！
 pixelmon.effect.hurt=%s 受到了伤害！
+pixelmon.effect.freezeshock=%s 被寒冷的光包围着！
+pixelmon.effect.iceburn=%s 被冻结的光包围着！
+pixelmon.effect.lunardance=%s 被新月舞治疗了！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
 pixelmon.status.burnhurt=%s 被烧伤了！
@@ -5062,6 +5065,8 @@ pixelmon.status.grudge=%s 想要去怨恨对手！
 pixelmon.status.grudgeactivate=%s 的 %s 由于怨念失去了所有PP！
 pixelmon.status.luckychant=%s 进入了幸运咒语中！
 pixelmon.status.luckychantend=%s 的幸运咒语结束了！
+pixelmon.status.magicroom=%s 制造出了不能使用道具的魔法空间！
+pixelmon.status.magicroomend=魔法空间的效果已结束！
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
 attack.curse.curse=%s 消耗了自己的生命值给 %s 造成了诅咒！
