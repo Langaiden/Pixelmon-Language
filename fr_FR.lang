@@ -1,5 +1,5 @@
 /*
-*	Latest translation 13/09/2015
+*	Latest translation 15/09/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -61,7 +61,7 @@ item.Aluminium Helmet.name=Casque en Aluminium
 item.Aluminium Torso.name=Plastron en Aluminium	
 item.Aluminium Leggings.name=Jambières en Aluminium
 item.Aluminium Boots.name=Bottes en Aluminium
-item.New Running Boots.name=Nouvelles Chaussures de Course
+item.New Running Boots.name=Chaussures de Course Neuves
 item.Old Running Boots.name=Vieilles Chaussures de Course
 item.Aluminium Ingot.name=Lingot d'Aluminium
 item.Aluminium Plate.name=Plaque d'Aluminium
@@ -4875,7 +4875,7 @@ gui.screenpokechecker.forget1=Êtes vous sûr de vouloir
 gui.screenpokechecker.forget2=$p oublie
 gui.screenpokechecker.disable=désactiver
 gui.screenpokechecker.enable=activer
-gui.screenpokechecker.move=la prise de niveau de $s ?
+gui.screenpokechecker.move=la prise de niveau de $a ?
 gui.screenpokechecker.effects=Effet
 
 gui.pixelmonspawner.fireontick=Déclenchement par tick
@@ -6007,6 +6007,8 @@ pixelmon.effect.allyswitch=%s échange sa position avec %s !
 pixelmon.effect.afteryou=%s laisse %s attaquer après lui !
 pixelmon.effect.bestow=%s donne %s à %s !
 pixelmon.effect.hurt=%s a été blessé !
+pixelmon.effect.freezeshock=%s se prépare à attaquer !
+pixelmon.effect.iceburn=%s se prépare à attaquer !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
@@ -6126,6 +6128,8 @@ pixelmon.status.grudge=%s veut que l'ennemi ait de la Rancune !
 pixelmon.status.grudgeactivate=%s de %s a perdu tous ses PP à cause de sa Rancune !
 pixelmon.status.luckychant=%s rejoint l'Air Veinard !
 pixelmon.status.luckychantend=Air Veinard de %s disparaît !
+pixelmon.status.magicroom=%s crée une zone étrange ou les objets ne fonctionnent pas !
+pixelmon.status.magicroomend=La zone étrange disparaît !
 
 attack.curse.alreadycursed=%s est déjà maudit!
 attack.curse.curse=%s Sacrifie ses PV pour maudire %s!
