@@ -4962,6 +4962,9 @@ pixelmon.effect.allyswitch=%s switched positions with %s!
 pixelmon.effect.afteryou=%s let %s move next!
 pixelmon.effect.bestow=%s gave its %s to %s!
 pixelmon.effect.hurt=%s was hurt!
+pixelmon.effect.freezeshock=%s began charging an attack!
+pixelmon.effect.iceburn=%s began charging an attack!
+pixelmon.effect.lunardance=%s was healed by Lunar Dance!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
@@ -5080,6 +5083,8 @@ pixelmon.status.grudge=%s wants the opponent to bear a grudge!
 pixelmon.status.grudgeactivate=%s's %s lost all of its PP due to the grudge!
 pixelmon.status.luckychant=%s joined the Lucky Chant!
 pixelmon.status.luckychantend=%s's Lucky Chant wore off!
+pixelmon.status.magicroom=%s created an environment where items don't function!
+pixelmon.status.magicroomend=The itemless environment wore off!
 
 attack.curse.alreadycursed=%s is already cursed!
 attack.curse.curse=%s cut its own HP and laid a curse on %s!
