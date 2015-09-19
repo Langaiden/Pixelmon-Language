@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: September 8, 2015 - by ToklaX
+* Last Update: September 16, 2015 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Ultima actualización: 8 de Septiembre de 2015 por ToklaX
+* Ultima actualización: 16 de Septiembre de 2015 por ToklaX
 *************************************************/
 
 /*
@@ -5557,6 +5557,9 @@ pixelmon.effect.allyswitch=¡%s y %s han intercambiado sus posiciones!
 pixelmon.effect.afteryou=¡%s permite que %s ataque el siguiente!
 pixelmon.effect.bestow=¡%s dio su %s a %s!
 pixelmon.effect.hurt=¡%s fue herido!
+pixelmon.effect.freezeshock=¡%s ha comenzado a cargar un ataque!
+pixelmon.effect.iceburn=¡%s ha comenzado a cargar un ataque!
+pixelmon.effect.lunardance=¡%s fue curado por Danza Lunar!
  
 pixelmon.status.ringheal=¡%s se ha curado con Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5675,6 +5678,8 @@ pixelmon.status.grudge=¡%s quiere provocar Rabia a su rival!
 pixelmon.status.grudgeactivate=¡%s ha perdido todos los PP de %s debido a la Rabia!
 pixelmon.status.luckychant=¡El Conjuro portege al equipo de %s!
 pixelmon.status.luckychantend=¡El Conjuro de %s ha desaparecido!
+pixelmon.status.magicroom=¡%s se ha creado un espacio en el que los objetos no funcionan!
+pixelmon.status.magicroomend=¡El efecto de Zona Mágica ha desaparecido!
  
 attack.curse.alreadycursed=¡%s ya está maldito!
 attack.curse.curse=¡%s reduce sus PS y maldice a %s!
