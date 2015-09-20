@@ -6009,6 +6009,7 @@ pixelmon.effect.bestow=%s donne %s à %s !
 pixelmon.effect.hurt=%s a été blessé !
 pixelmon.effect.freezeshock=%s se prépare à attaquer !
 pixelmon.effect.iceburn=%s se prépare à attaquer !
+pixelmon.effect.lunardance=%s est soigné par Danse-Lune !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
