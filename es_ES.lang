@@ -4659,8 +4659,8 @@ trainer.Steve=Steve
 trainer.Youngster=Joven
 trainer.Lass=Chica
 trainer.BugCatcher=Cazabichos
-trainer.PokeManiac=Pokemaníaco
-trainer.PokeManiacGirl=Chica Pokemaníaca
+trainer.Pokemaniac=Pokemaníaco
+trainer.PokemaniacGirl=Chica Pokemaníaca
 trainer.Fisherman=Pescador
 trainer.Fisherman2=Pescador
 trainer.FemaleRocketGrunt=Soldado Rocket Femenino
@@ -4673,7 +4673,7 @@ trainer.RichBoy=Niño Rico
 
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Resource Pack Personalizado
-trainer.model.Custom_PN=Nombre del Jugador Personalizado
+trainer.model.Custom_PN=Nombre de Jugador Personalizado
 trainer.model.santa=Santa
 trainer.model.suit=Traje
 trainer.model.scottish=Escocés
@@ -5560,6 +5560,7 @@ pixelmon.effect.hurt=¡%s fue herido!
 pixelmon.effect.freezeshock=¡%s ha comenzado a cargar un ataque!
 pixelmon.effect.iceburn=¡%s ha comenzado a cargar un ataque!
 pixelmon.effect.lunardance=¡%s fue curado por Danza Lunar!
+pixelmon.effect.shadowforce=¡%s ha desaparecido!
  
 pixelmon.status.ringheal=¡%s se ha curado con Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
