@@ -4093,7 +4093,8 @@ trainer.FireBreather=Firebreather
 trainer.RichBoy=Rich Boy
 trainer.Policeman=Policeman
 trainer.Rancher=Rancher
-trainer.ScientistWoman=Scientist Woman
+trainer.MaleScientist=Male Scientist
+trainer.FemaleScientist=Female Scientist
 
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Custom Resource Pack
