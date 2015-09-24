@@ -4091,6 +4091,9 @@ trainer.Swimmer=Swimmer
 trainer.Ornithologist=Ornithologist
 trainer.FireBreather=Firebreather
 trainer.RichBoy=Rich Boy
+trainer.Policeman=Policeman
+trainer.Rancher=Rancher
+trainer.ScientistWoman=Scientist Woman
 
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Custom Resource Pack
@@ -4119,6 +4122,12 @@ trainer.model.firebreather2=Styling Fire Guy
 trainer.model.firebreather3=Fire Man
 trainer.model.firebreather4=Team Magma
 trainer.model.firebreather5=Fire Bat
+trainer.model.rocketgruntfemale1=Grunt 1
+trainer.model.rocketgruntfemale2=Grunt 2
+trainer.model.rocketgruntfemale3=Grunt 3
+trainer.model.rocketgruntfemale4=Grunt 4
+trainer.model.rocketgruntfemale5=Grunt 5
+trainer.model.rocketgruntfemale6=Grunt 6
 
 npc.model.npcchat1=Old Man
 npc.model.npcchat2=Man
