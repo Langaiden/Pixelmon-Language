@@ -4080,6 +4080,27 @@ gui.ranch.empty=牧场里空空的，没有任何精灵...
 ranch.hourglass.upgradedall=所有在牧场里的精灵都提升了感情等级！
 ranch.hourglass.upgrade=%s 提升了一个感情等级！
 
+trainer.Steve=史蒂夫
+trainer.Youngster=少年
+trainer.Lass=少女
+trainer.BugCatcher=捕虫少年
+trainer.Pokemaniac=神奇宝贝狂人
+trainer.Pokemaniacgirl=神奇宝贝女狂人
+trainer.Fisherman=钓客
+trainer.Fisherman2=钓客
+trainer.FemaleRocketGrunt=火箭队队员
+trainer.BugManiac=昆虫狂
+trainer.LittleBoySwimmer=游泳男孩
+trainer.MaleSwimmer=泳圈男孩
+trainer.Swimmer=泳裤男
+trainer.Ornithologist=鸟类学家
+trainer.FireBreather=喷火者
+trainer.RichBoy=富家少爷
+trainer.Policeman=巡逻员
+trainer.Rancher=牧场老爷爷
+trainer.MaleScientist男科学家
+trainer.FemaleScientist=女科学家
+
 trainer.model.Steve=史蒂夫
 trainer.model.Custom_RP=自定义材质包
 trainer.model.Custom_PN=自定义玩家名称
@@ -4107,6 +4128,12 @@ trainer.model.firebreather2=纵火者
 trainer.model.firebreather3=火男
 trainer.model.firebreather4=火岩队
 trainer.model.firebreather5=火焰蝙蝠
+trainer.model.rocketgruntfemale1=队员 1
+trainer.model.rocketgruntfemale2=队员 2
+trainer.model.rocketgruntfemale3=队员 3
+trainer.model.rocketgruntfemale4=队员 4
+trainer.model.rocketgruntfemale5=队员 5
+trainer.model.rocketgruntfemale6=队员 6
 
 npc.model.npcchat1=老男人
 npc.model.npcchat2=男人
@@ -4940,6 +4967,8 @@ pixelmon.effect.hurt=%s 受到了伤害！
 pixelmon.effect.freezeshock=%s 被寒冷的光包围着！
 pixelmon.effect.iceburn=%s 被冻结的光包围着！
 pixelmon.effect.lunardance=%s 被新月舞治疗了！
+pixelmon.effect.smellingsalt=%s 的麻痹被治愈了！
+pixelmon.effect.shadowforce=%s 消失了！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
 pixelmon.status.burnhurt=%s 被烧伤了！
