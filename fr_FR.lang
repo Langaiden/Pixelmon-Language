@@ -1,5 +1,5 @@
 /*
-*	Latest translation 15/09/2015
+*	Latest translation 26/09/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -5121,10 +5121,14 @@ trainer.Fisherman2=Pêcheur n°2
 trainer.FemaleRocketGrunt=Aspirant Team Rocket
 trainer.BugManiac=Scout Adulte
 trainer.LittleBoySwimmer=Petit Garçon Nageur
-trainer.MaleSwimmer=Nageur Homme
+trainer.MaleSwimmer=Nageur ♂
+trainer.Swimmer=Nageur
 trainer.Ornithologist=Ornithologue
 trainer.FireBreather=Crache-Feu
 trainer.RichBoy=Richard
+trainer.Policeman=Policier
+trainer.Rancher=Éleveur
+trainer.ScientistWoman=Scientifique ♀
 
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Pack de Ressources personnalisé
@@ -5152,7 +5156,13 @@ trainer.model.firebreather1=Crache-Feu Médiéval
 trainer.model.firebreather2=Crache-Feu Fashion
 trainer.model.firebreather3=Homme de Feu
 trainer.model.firebreather4=Team Magma
-trainer.model.firebreather5=Chauve Souris Enflamée
+trainer.model.firebreather5=Chauve Souris Enflammée
+trainer.model.rocketgruntfemale1=Crapule ♀ 1
+trainer.model.rocketgruntfemale2=Crapule ♀ 2
+trainer.model.rocketgruntfemale3=Crapule ♀ 3
+trainer.model.rocketgruntfemale4=Crapule ♀ 4
+trainer.model.rocketgruntfemale5=Crapule ♀ 5
+trainer.model.rocketgruntfemale6=Crapule ♀ 6
 
 npc.model.npcchat1=Vieil Homme
 npc.model.npcchat2=Man
@@ -6011,6 +6021,7 @@ pixelmon.effect.freezeshock=%s se prépare à attaquer !
 pixelmon.effect.iceburn=%s se prépare à attaquer !
 pixelmon.effect.lunardance=%s est soigné par Danse-Lune !
 pixelmon.effect.shadowforce=%s disparaît !
+pixelmon.effect.smellingsalt=La paralysie de %s est guérie !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
