@@ -1,5 +1,5 @@
 /*
-*	Latest translation 26/09/2015
+*	Latest translation 29/09/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4672,9 +4672,12 @@ pixelmon.abilities.aftermath=Boom Final du %s blesse %s !
 pixelmon.abilities.airlock=Air Lock du %s fait disparaître les effets de la météo !
 pixelmon.abilities.angerpoint=Colérique du %s le rends furieux !
 pixelmon.abilities.anticipation=Anticipation du %s le fait trembler !
+pixelmon.abilities.baddreams=%s est tourmenté par Mauvais Rêve du %s !
 pixelmon.abilities.bigpecks=Coeur de Coq du %s empêche la perte de Défense !
 pixelmon.abilities.clearbody=Corps Sain du %s empêche la perte de stats !
 pixelmon.abilities.cloudnine=Ciel Gris du %s fait disparaître les effets de la météo !
+pixelmon.abilities.colourchange=Déguisement du %s le transforme en type %s !
+pixelmon.abilities.cursedbody=Corps Maudit du %s empêche %s d'utiliser %s !
 pixelmon.abilities.cutecharm=Joli Sourire du %s rend %s amoureux !
 pixelmon.abilities.damp=Moiteur du %s empêche l'explosion !
 pixelmon.abilities.drizzle=Crachin du %s fait tomber la pluie !
