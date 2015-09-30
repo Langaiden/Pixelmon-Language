@@ -3616,9 +3616,12 @@ pixelmon.abilities.aftermath=%s 的引爆伤害了 %s ！
 pixelmon.abilities.airlock=%s 的气闸使天气的影响消失！
 pixelmon.abilities.angerpoint=愤怒穴道使 %s 变得大怒！
 pixelmon.abilities.anticipation=%s 因为预知到危险而害怕得颤抖！
+pixelmon.abilities.baddreams=%s 被 %s 的恶梦所折磨！
 pixelmon.abilities.bigpecks=%s 的鸽胸让自己的防御力下降了！
 pixelmon.abilities.clearbody=%s 的透明体防止了自身的能力被降低！
 pixelmon.abilities.cloudnine=%s 的乐天使天气的影响消失！
+pixelmon.abilities.colourchange=%s 的变色使它的属性变为 %s 系！
+pixelmon.abilities.cursedbody=%s 诅咒身体禁用了 %s 的 %s！
 pixelmon.abilities.competitive=好胜提高了 %s 的特攻！
 pixelmon.abilities.cutecharm=%s 的迷人身躯魅惑了 %s！
 pixelmon.abilities.damp=%s 的湿气防止了爆炸！
@@ -4100,6 +4103,7 @@ trainer.Policeman=巡逻员
 trainer.Rancher=牧场老爷爷
 trainer.MaleScientist男科学家
 trainer.FemaleScientist=女科学家
+trainer.PreschoolerGirl=小女孩
 
 trainer.model.Steve=史蒂夫
 trainer.model.Custom_RP=自定义材质包
