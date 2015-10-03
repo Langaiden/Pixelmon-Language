@@ -1,5 +1,5 @@
 /*
-*	Latest translation 29/09/2015
+*	Latest translation 03/10/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4395,6 +4395,11 @@ pixelmon.command.spawn.spawned=Invocation de %s réalisée avec succès !
 pixelmon.command.spawn.spawnednotify=%s a invoqué un %s avec succès !
 pixelmon.command.spectate.nobattle=%s n'est pas en combat.
 pixelmon.command.spectate.self=Vous ne pouvez pas regarder votre propre combat !
+pixelmon.command.stats.losses=Défaites:
+pixelmon.command.stats.playerstats=Statistiques de:
+pixelmon.command.stats.wins=Victoires:
+pixelmon.command.stats.yourstats=Vos statistiques:
+pixelmon.command.statsreset.reset=Les données de %s ont été remises à zéro.
 pixelmon.command.struc.cantfit=La structure ne peut pas rentrer aux coordonnées : %s.
 pixelmon.command.struc.nostruc=Aucune structure trouvée pour ce biome. (%s)
 pixelmon.command.struc.notfound=Structure %s introuvable.
@@ -4731,6 +4736,7 @@ pixelmon.abilities.poisonheal=% est soigné par le poison grâce à Soin Poison 
 pixelmon.abilities.poisonpoint=Point Poison du %s a empoisonné %s !
 pixelmon.abilities.poisontouch=Toxitouche du %s a empoisonné %s !
 pixelmon.abilities.pressure=%s augmente la pression !
+pixelmon.abilities.protean=Protéen du %s le rend du type %s !
 pixelmon.abilities.raindish=%s a été soigné grâce à Cuvette.
 pixelmon.abilities.rattled=Phobique du %s augmente sa vitesse !
 pixelmon.abilities.roughskin=Peau Dure du %s blesse %s.
