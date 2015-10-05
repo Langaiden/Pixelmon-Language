@@ -3934,6 +3934,10 @@ gui.description.text=Description
 gui.mail.seal=Seal letter
 gui.mail.close=Close letter
 
+gui.nursejoy.name=Nurse Joy
+gui.nursejoy.healing=Let me just heal those pokemon for you!
+gui.nursejoy.full=I'm sorry, I can't find an available healing station.
+
 enum.aggro.timid=Timid
 enum.aggro.default=Default
 enum.aggro.passive=Passive
