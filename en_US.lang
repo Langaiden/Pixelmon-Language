@@ -4103,6 +4103,9 @@ trainer.Rancher=Rancher
 trainer.MaleScientist=Male Scientist
 trainer.FemaleScientist=Female Scientist
 trainer.PreschoolerGirl=Preschooler Girl
+trainer.PkmnBreederWoman=Female Pokémon Breeder
+trainer.Miner=Miner
+trainer.Blacksmith=Blacksmith
 
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Custom Resource Pack
@@ -4137,6 +4140,9 @@ trainer.model.rocketgruntfemale3=Grunt 3
 trainer.model.rocketgruntfemale4=Grunt 4
 trainer.model.rocketgruntfemale5=Grunt 5
 trainer.model.rocketgruntfemale6=Grunt 6
+trainer.model.pkmn_breeder_f=Breeder 1
+trainer.model.pkmn_breeder_f2=Breeder 2
+
 
 npc.model.npcchat1=Old Man
 npc.model.npcchat2=Man
