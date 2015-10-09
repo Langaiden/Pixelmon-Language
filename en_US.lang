@@ -4152,9 +4152,43 @@ trainer.model.rocketgruntfemale6=Grunt 6
 trainer.model.pkmn_breeder_f=Breeder 1
 trainer.model.pkmn_breeder_f2=Breeder 2
 
-
+npc.model.artist=Artist
+npc.model.battlegirl=Battle Girl
+npc.model.blackbelt=Black Belt
+npc.model.cueball=Cue Ball
+npc.model.doctor=Doctor
+npc.model.engineer=Engineer
+npc.model.fisherman=Fisherman
+npc.model.hexmaniac=Hex Maniac
+npc.model.hiker=Hiker
+npc.model.lass=Lass
+npc.model.littleboy=Little Boy
+npc.model.littlegirl=Little Girl
+npc.model.madame=Madame
+npc.model.mechanic=Mechanic
+npc.model.monsieur=Monsieur
 npc.model.npcchat1=Old Man
 npc.model.npcchat2=Man
+npc.model.officerjenny=Officer Jenny
+npc.model.ornithologist=Ornithologist
+npc.model.pokefan_f=Female Pokéfan
+npc.model.pokefan_m=Male Pokéfan
+npc.model.policeman=Policeman
+npc.model.preschooler_f1=Female Preschooler
+npc.model.psychic=Male Psychic
+npc.model.psychic_f=Female Psychic
+npc.model.punkgirl=Punk Girl
+npc.model.punkguy=Punk Guy
+npc.model.rancher=Rancher
+npc.model.ranger_f=Female Ranger
+npc.model.ranger_m=Male Ranger
+npc.model.richboy=Rich Boy
+npc.model.sailor=Sailor
+npc.model.schoolboy=Schoolboy
+npc.model.schoolgirl=Schoolgirl
+npc.model.scientist_f=Female Scientist
+npc.model.scientist_m=Male Scientist
+npc.model.supernerd=Super Nerd
 
 container.MechanicalAnvil=Mechanical Anvil
 
