@@ -3698,6 +3698,8 @@ pixelmon.abilities.speedboost=%s 因为加速使得速度提升了！
 pixelmon.abilities.soundproof=%s 的隔音让攻击看起来减弱了！
 pixelmon.abilities.snowwarning=%s 因为降雪产生了冰雹
 pixelmon.abilities.shedskin=%s 的脱皮治疗了它的异常状态！
+pixelmon.abilities.slowstart=%s 使不上力气！
+pixelmon.abilities.slowstartend=%s 终于使自己振作了起来！
 pixelmon.abilities.unnerve=% 的紧张感让对方无法食用树果！
 pixelmon.abilities.vitalspirit=%s 的元气使它保持清醒！
 pixelmon.abilities.vitalspiritcure=%s 的元气让它清醒了过来！
@@ -3718,6 +3720,7 @@ pixelmon.abilities.suctioncups=%s 的吸盘将它固定住了！
 pixelmon.abilities.telepathy=%s 超感知保护它免受攻击！
 pixelmon.abilities.teravolt=%s 散发出了一个破灭的光环！
 pixelmon.abilities.trace=%s 的追踪让它复制了 %s 的特性 %s！
+pixelmon.abilities.truant=%s 在到处偷懒！
 pixelmon.abilities.turboblaze=%s 散发出了一个炽热的光环！
 pixelmon.abilities.whitesmoke=%s 的白色烟雾防止了能力的下降！
 pixelmon.abilities.wonderguard=%s 的奇异守护防止了攻击！
@@ -3944,6 +3947,10 @@ gui.description.text=介绍
 gui.mail.seal=密封信函
 gui.mail.close=关闭信函
 
+gui.nursejoy.name=乔伊护士
+gui.nursejoy.healing=让我来为您治疗您的神奇宝贝吧！
+gui.nursejoy.full=很抱歉，我没能找到空闲的治疗机！
+
 enum.aggro.timid=胆小
 enum.aggro.default=默认
 enum.aggro.passive=被动
@@ -4110,6 +4117,9 @@ trainer.Rancher=牧场老爷爷
 trainer.MaleScientist男科学家
 trainer.FemaleScientist=女科学家
 trainer.PreschoolerGirl=小女孩
+trainer.PkmnBreederWoman=神奇宝贝女培育家
+trainer.Miner=矿工
+trainer.Blacksmith=铁匠
 
 trainer.model.Steve=史蒂夫
 trainer.model.Custom_RP=自定义材质包
@@ -4144,9 +4154,48 @@ trainer.model.rocketgruntfemale3=队员 3
 trainer.model.rocketgruntfemale4=队员 4
 trainer.model.rocketgruntfemale5=队员 5
 trainer.model.rocketgruntfemale6=队员 6
+trainer.model.pkmn_breeder_f=培育家 1
+trainer.model.pkmn_breeder_f2=培育家 2
 
-npc.model.npcchat1=老男人
+npc.model.artist=艺术家
+npc.model.battlegirl=对战少女
+npc.model.blackbelt=空手道王
+npc.model.cueball=光头
+npc.model.doctor=医生
+npc.model.engineer=电工大叔
+npc.model.fisherman=钓客
+npc.model.hexmaniac=灵异狂
+npc.model.hiker=登山客
+npc.model.lass=迷你裙
+npc.model.littleboy=小男孩
+npc.model.littlegirl=小女孩
+npc.model.madame=贵妇
+npc.model.mechanic=修理工
+npc.model.monsieur=男士
+npc.model.npcchat1=老人
 npc.model.npcchat2=男人
+
+npc.model.officerjenny=珍妮军官
+npc.model.ornithologist=鸟类学家
+npc.model.pokefan_f=女神奇宝贝迷
+npc.model.pokefan_m=男神奇宝贝迷
+npc.model.policeman=巡逻员
+npc.model.preschooler_f1=幼儿园小女童
+npc.model.psychic=男超能力者
+npc.model.psychic_f=女超能力者
+npc.model.punkgirl=坏女孩
+npc.model.punkguy=坏男孩
+npc.model.rancher=牧场老爷爷
+npc.model.ranger_f=神奇宝贝女保育家
+npc.model.ranger_m=神奇宝贝男保育家
+npc.model.richboy=富家少爷
+npc.model.sailor=水手
+npc.model.schoolboy=男学生
+npc.model.schoolgirl=女学生
+npc.model.scientist_f=女研究员
+npc.model.scientist_m=男研究员
+npc.model.supernerd=理科男生
+
 
 container.MechanicalAnvil=机械铁砧
 
