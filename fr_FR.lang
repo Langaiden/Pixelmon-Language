@@ -1,5 +1,5 @@
 /*
-*	Latest translation 10/10/2015
+*	Latest translation 12/10/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4929,7 +4929,8 @@ gui.trainereditor.randomise=Aléatoire
 gui.trainereditor.edit=Editer
 gui.trainereditor.add=Ajouter
 gui.trainereditor.deletelastpoke=Suppr. le dernier Pokemon
-gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur de Pokemon
+gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur Pokemon
+gui.trainereditor.advancededitor=Éditeur de Dresseur - Éditeur Pokemon Avancé
 gui.trainereditor.name=Nom
 gui.trainereditor.shiny=Shiny
 gui.trainereditor.normal=Normal
@@ -4941,6 +4942,14 @@ gui.trainereditor.growth=Taille
 gui.trainereditor.gender=Genre
 gui.trainereditor.partypokemon=Équipe Pokémon
 gui.trainereditor.delete=Supprimer
++gui.trainereditor.advanced=Avancé
++gui.trainereditor.evs=EVs
++gui.trainereditor.ivs=IVs
++gui.trainereditor.maxivs=IVs Max.
++gui.trainereditor.minivs=IVs Min.
++gui.trainereditor.randomivs=IVs aléatoires
++gui.trainereditor.resetevs=Réinitialiser EVs
++gui.trainereditor.helditem=Objets Tenus
 
 gui.npceditor.despawn=Despawn
 gui.npceditor.page1=Page 1
