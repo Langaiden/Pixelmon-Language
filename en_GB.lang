@@ -3788,10 +3788,17 @@ gui.trading.select=Select a Pokémon.
 gui.pokedex.pokedex=Pokédex
 gui.pokedex.height=Height:
 gui.pokedex.weight=Weight:
-gui.pokedex.more=More...
+gui.pokedex.more=Options
+gui.pokedex.wiki=View Wiki
+gui.pokedex.meters=m
+gui.pokedex.feet=ft.
+gui.pokedex.kilograms=kg
+gui.pokedex.pounds=lbs.
 
-gui.pokedexoptions.done=Done.
+gui.pokedexoptions.done=Done
 gui.pokedexoptions.options=Pokédex Options
+gui.pokedexoptions.metric=Metric
+gui.pokedexoptions.imperial=Imperial/US Customary
 
 gui.yesno.trade=Would you like to trade your $e for my $o?
 gui.yesno.yes=Yes
