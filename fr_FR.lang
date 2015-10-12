@@ -1,5 +1,5 @@
 /*
-*	Latest translation 03/10/2015
+*	Latest translation 10/10/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -5173,8 +5173,43 @@ trainer.model.rocketgruntfemale4=Crapule ♀ 4
 trainer.model.rocketgruntfemale5=Crapule ♀ 5
 trainer.model.rocketgruntfemale6=Crapule ♀ 6
 
+npc.model.artist=Artiste
+npc.model.battlegirl=Combattante
+npc.model.blackbelt=Karatéka
+npc.model.cueball=Loubard
+npc.model.doctor=Docteur
+npc.model.engineer=Ingénieur
+npc.model.fisherman=Pêcheur
+npc.model.hexmaniac=Mystimaniac
+npc.model.hiker=Montagnard
+npc.model.lass=Fillette
+npc.model.littleboy=Petit Garçon
+npc.model.littlegirl=Petite Fille
+npc.model.madame=Madame
+npc.model.mechanic=Mécano
+npc.model.monsieur=Monsieur
 npc.model.npcchat1=Vieil Homme
-npc.model.npcchat2=Man
+npc.model.npcchat2=Homme
+npc.model.officerjenny=Agent Jenny
+npc.model.ornithologist=Ornithologue
+npc.model.pokefan_f=Pokéfan ♀
+npc.model.pokefan_m=Pokéfan ♂
+npc.model.policeman=Policier
+npc.model.preschooler_f1=Petite
+npc.model.psychic=Kinésiste
+npc.model.psychic_f=Kinésiste
+npc.model.punkgirl=Vaurienne
+npc.model.punkguy=Vaurien
+npc.model.rancher=Fermier
+npc.model.ranger_f=Fermière
+npc.model.ranger_m=Fermier
+npc.model.richboy=Richard
+npc.model.sailor=Marin
+npc.model.schoolboy=Écolier
+npc.model.schoolgirl=Écolière
+npc.model.scientist_f=Scientifique ♀
+npc.model.scientist_m=Scientifique ♂
+npc.model.supernerd=Intello
 
 container.MechanicalAnvil=Enclume Mécanique
 
