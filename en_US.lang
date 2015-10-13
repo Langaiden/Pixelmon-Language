@@ -3792,11 +3792,17 @@ gui.trading.select=Select a Pokémon.
 gui.pokedex.pokedex=Pokédex
 gui.pokedex.height=Height:
 gui.pokedex.weight=Weight:
-gui.pokedex.more=More...
+gui.pokedex.more=Options
 gui.pokedex.wiki=View Wiki
+gui.pokedex.meters=m
+gui.pokedex.feet=ft.
+gui.pokedex.kilograms=kg
+gui.pokedex.pounds=lbs.
 
-gui.pokedexoptions.done=Done.
+gui.pokedexoptions.done=Done
 gui.pokedexoptions.options=Pokédex Options
+gui.pokedexoptions.metric=Metric
+gui.pokedexoptions.imperial=Imperial/US Customary
 
 gui.yesno.trade=Would you like to trade your $e for my $o?
 gui.yesno.yes=Yes
@@ -3897,6 +3903,14 @@ gui.trainereditor.growth=Growth
 gui.trainereditor.gender=Gender
 gui.trainereditor.partypokemon=Party Pokémon
 gui.trainereditor.delete=Delete Trainer
+gui.trainereditor.advanced=Advanced
+gui.trainereditor.evs=EVs
+gui.trainereditor.ivs=IVs
+gui.trainereditor.maxivs=Max IVs
+gui.trainereditor.minivs=Min IVs
+gui.trainereditor.randomivs=Random IVs
+gui.trainereditor.resetevs=Reset EVs
+gui.trainereditor.helditem=Held Item
 
 gui.npceditor.despawn=Despawn
 gui.npceditor.page1=Page 1
