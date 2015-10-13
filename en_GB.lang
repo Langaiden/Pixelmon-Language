@@ -3306,6 +3306,8 @@ pixelmon.meloetta.description=The melodies sung by Meloetta have the power to ma
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 
+pixelmon.unimplemented.description=This Pokémon is not implemented in Pixelmon yet.
+
 //Command stuff
 
 pixelmon.command.battle.battlebetween=Battle between %s and %s started!
