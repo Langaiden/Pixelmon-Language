@@ -3531,11 +3531,11 @@ pixelmon.orb.isfull=Your orb is full!
 
 //Achievements
 achievement.ItemFinderChieve=Hidden PokéLoot Hunter!
-achievement.ItemFinderChieve.desc=Craft an Item Finder!
+achievement.ItemFinderChieve.desc=Craft an Item Finder.
 achievement.HiddenPokeLootChieve=Hidden PokéLoot FTW!
 achievement.HiddenPokeLootChieve.desc=Find hidden PokéLoot.
 achievement.NormalPokeLootChieve=PokéLoot FTW!
-achievement.NormalPokeLootChieve.desc=Find a PokéLoot Chest!
+achievement.NormalPokeLootChieve.desc=Find a PokéLoot Chest.
 achievement.LootMasterBallChieve=It's a Master Ball!!!
 achievement.LootMasterBallChieve.desc=Find a PokéLoot Master Ball.
 achievement.GrottoChieve=There's a passage here...
