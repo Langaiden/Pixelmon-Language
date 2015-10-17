@@ -4427,7 +4427,7 @@ pixelmon.interaction.berryfriend=Le Bonheur de %s a augmenté !
 pixelmon.interaction.berryfail=%s de %s ne peuvent plus diminuer.
 
 pixelmon.general.noeffect=Cela n'a aucun effet!
-pixelmon.general.needop=Vous devez être opérateur pour réaliser cette action.
+pixelmon.general.needop=Vous devez être opérateur ou avoir la permission pour réaliser cette action.
 pixelmon.general.needowner=Seul le propriétaire de ce bloc peut accéder à celui-ci.
 pixelmon.general.playerbusy=Ce joueur est occupé
 pixelmon.general.disabledblock=Ce serveur a désactivé ce bloc.
