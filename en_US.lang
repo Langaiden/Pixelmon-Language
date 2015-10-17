@@ -4392,6 +4392,7 @@ tile.templePillar.name=Temple Pillar
 tile.hiddenCube.name=Hidden Cube
 tile.hiddenIronDoor.name=Hidden Iron Door
 tile.hiddenWoodenDoor.name=Hidden Wooden Door
+tile.hiddenPressurePlate.name=Hidden Pressure Plate
 tile.DawnDusk Ore.name=Dawn/Dusk Ore
 tile.templePillar.Pillar.name=Temple Pillar
 tile.templePillar.BrokenPillar.name=Broken Pillar
