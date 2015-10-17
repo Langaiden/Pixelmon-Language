@@ -3350,7 +3350,7 @@ pixelmon.interaction.berry=%s 的 %s 下降了！
 pixelmon.interaction.berryfail=%s 的 %s 已经不能再低了。
 
 pixelmon.general.noeffect=这并没有效果
-pixelmon.general.needop=您必须是OP才可以进行这个操作
+pixelmon.general.needop=您必须是OP或具有此操作的权限才可以进行这个操作
 pixelmon.general.needowner=只有这个方块的主人才可以使用这个方块
 pixelmon.general.playerbusy=玩家很繁忙！
 pixelmon.general.disabledblock=这个服务器禁用了这个方块
