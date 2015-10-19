@@ -1,5 +1,5 @@
 /*
-*	Latest translation 29/09/2015
+*	Latest translation 12/10/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4395,6 +4395,11 @@ pixelmon.command.spawn.spawned=Invocation de %s réalisée avec succès !
 pixelmon.command.spawn.spawnednotify=%s a invoqué un %s avec succès !
 pixelmon.command.spectate.nobattle=%s n'est pas en combat.
 pixelmon.command.spectate.self=Vous ne pouvez pas regarder votre propre combat !
+pixelmon.command.stats.losses=Défaites:
+pixelmon.command.stats.playerstats=Statistiques de:
+pixelmon.command.stats.wins=Victoires:
+pixelmon.command.stats.yourstats=Vos statistiques:
+pixelmon.command.statsreset.reset=Les données de %s ont été remises à zéro.
 pixelmon.command.struc.cantfit=La structure ne peut pas rentrer aux coordonnées : %s.
 pixelmon.command.struc.nostruc=Aucune structure trouvée pour ce biome. (%s)
 pixelmon.command.struc.notfound=Structure %s introuvable.
@@ -4731,6 +4736,7 @@ pixelmon.abilities.poisonheal=% est soigné par le poison grâce à Soin Poison 
 pixelmon.abilities.poisonpoint=Point Poison du %s a empoisonné %s !
 pixelmon.abilities.poisontouch=Toxitouche du %s a empoisonné %s !
 pixelmon.abilities.pressure=%s augmente la pression !
+pixelmon.abilities.protean=Protéen du %s le rend du type %s !
 pixelmon.abilities.raindish=%s a été soigné grâce à Cuvette.
 pixelmon.abilities.rattled=Phobique du %s augmente sa vitesse !
 pixelmon.abilities.roughskin=Peau Dure du %s blesse %s.
@@ -4923,7 +4929,8 @@ gui.trainereditor.randomise=Aléatoire
 gui.trainereditor.edit=Editer
 gui.trainereditor.add=Ajouter
 gui.trainereditor.deletelastpoke=Suppr. le dernier Pokemon
-gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur de Pokemon
+gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur Pokemon
+gui.trainereditor.advancededitor=Éditeur de Dresseur - Éditeur Pokemon Avancé
 gui.trainereditor.name=Nom
 gui.trainereditor.shiny=Shiny
 gui.trainereditor.normal=Normal
@@ -4935,6 +4942,14 @@ gui.trainereditor.growth=Taille
 gui.trainereditor.gender=Genre
 gui.trainereditor.partypokemon=Équipe Pokémon
 gui.trainereditor.delete=Supprimer
++gui.trainereditor.advanced=Avancé
++gui.trainereditor.evs=EVs
++gui.trainereditor.ivs=IVs
++gui.trainereditor.maxivs=IVs Max.
++gui.trainereditor.minivs=IVs Min.
++gui.trainereditor.randomivs=IVs aléatoires
++gui.trainereditor.resetevs=Réinitialiser EVs
++gui.trainereditor.helditem=Objets Tenus
 
 gui.npceditor.despawn=Despawn
 gui.npceditor.page1=Page 1
@@ -5167,8 +5182,43 @@ trainer.model.rocketgruntfemale4=Crapule ♀ 4
 trainer.model.rocketgruntfemale5=Crapule ♀ 5
 trainer.model.rocketgruntfemale6=Crapule ♀ 6
 
+npc.model.artist=Artiste
+npc.model.battlegirl=Combattante
+npc.model.blackbelt=Karatéka
+npc.model.cueball=Loubard
+npc.model.doctor=Docteur
+npc.model.engineer=Ingénieur
+npc.model.fisherman=Pêcheur
+npc.model.hexmaniac=Mystimaniac
+npc.model.hiker=Montagnard
+npc.model.lass=Fillette
+npc.model.littleboy=Petit Garçon
+npc.model.littlegirl=Petite Fille
+npc.model.madame=Madame
+npc.model.mechanic=Mécano
+npc.model.monsieur=Monsieur
 npc.model.npcchat1=Vieil Homme
-npc.model.npcchat2=Man
+npc.model.npcchat2=Homme
+npc.model.officerjenny=Agent Jenny
+npc.model.ornithologist=Ornithologue
+npc.model.pokefan_f=Pokéfan ♀
+npc.model.pokefan_m=Pokéfan ♂
+npc.model.policeman=Policier
+npc.model.preschooler_f1=Petite
+npc.model.psychic=Kinésiste
+npc.model.psychic_f=Kinésiste
+npc.model.punkgirl=Vaurienne
+npc.model.punkguy=Vaurien
+npc.model.rancher=Fermier
+npc.model.ranger_f=Fermière
+npc.model.ranger_m=Fermier
+npc.model.richboy=Richard
+npc.model.sailor=Marin
+npc.model.schoolboy=Écolier
+npc.model.schoolgirl=Écolière
+npc.model.scientist_f=Scientifique ♀
+npc.model.scientist_m=Scientifique ♂
+npc.model.supernerd=Intello
 
 container.MechanicalAnvil=Enclume Mécanique
 
