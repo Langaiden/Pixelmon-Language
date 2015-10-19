@@ -3385,7 +3385,7 @@ pixelmon.interaction.berryfriend=%s's Friendship increased!
 pixelmon.interaction.berryfail=%s's %s can't go lower.
 
 pixelmon.general.noeffect=It had no effect!
-pixelmon.general.needop=You must be an OP to perform this action.
+pixelmon.general.needop=You must be an OP or have permission to perform this action.
 pixelmon.general.needowner=Only the block's owner can access this block.
 pixelmon.general.playerbusy=Player is busy!
 pixelmon.general.disabledblock=The server has disabled this block.
