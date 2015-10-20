@@ -3306,6 +3306,8 @@ pixelmon.meloetta.description=The melodies sung by Meloetta have the power to ma
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 
+pixelmon.unimplemented.description=This Pokémon is not implemented in Pixelmon yet.
+
 //Command stuff
 
 pixelmon.command.battle.battlebetween=Battle between %s and %s started!
@@ -3319,6 +3321,11 @@ pixelmon.command.battle2.first=First participant must be a player.
 pixelmon.command.battle2.invalid=Participant %d was invalid. Please try again.
 pixelmon.command.battle2.level=Please provide a level!
 pixelmon.command.battle2.cantstart=Invalid participants.
+pixelmon.command.breed.giveegg=%s and %s made an Egg!
+pixelmon.command.breed.invalidslot=Slot argument %s is invalid!
+pixelmon.command.breed.notcompatible=%s and %s are not compatible!
+pixelmon.command.breed.novalidpairs=No compatible breeding pairs were found in %s's party.
+pixelmon.command.breed.nullslot=There is no Pokémon in slot %s!
 pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 pixelmon.command.endbattle.notinbattle=%s is not in a battle.
 pixelmon.command.endbattle.endbattle=Battle ended successfully.
@@ -3376,7 +3383,7 @@ pixelmon.interaction.berryfriend=%s's Friendship increased!
 pixelmon.interaction.berryfail=%s's %s can't go lower.
 
 pixelmon.general.noeffect=It had no effect!
-pixelmon.general.needop=You must be an OP to perform this action.
+pixelmon.general.needop=You must be an OP or have permission to perform this action.
 pixelmon.general.needowner=Only the block's owner can access this block.
 pixelmon.general.playerbusy=Player is busy!
 pixelmon.general.disabledblock=The server has disabled this block.
@@ -3524,15 +3531,15 @@ pixelmon.orb.isfull=Your orb is full!
 
 //Achievements
 achievement.ItemFinderChieve=Hidden PokéLoot Hunter!
-achievement.ItemFinderChieve.desc=You crafted an Item Finder!
+achievement.ItemFinderChieve.desc=Craft an Item Finder.
 achievement.HiddenPokeLootChieve=Hidden PokéLoot FTW!
-achievement.HiddenPokeLootChieve.desc=You found Hidden PokéLoot!
+achievement.HiddenPokeLootChieve.desc=Find hidden PokéLoot.
 achievement.NormalPokeLootChieve=PokéLoot FTW!
-achievement.NormalPokeLootChieve.desc=You found a PokéLoot Chest!
+achievement.NormalPokeLootChieve.desc=Find a PokéLoot Chest.
 achievement.LootMasterBallChieve=It's a Master Ball!!!
-achievement.LootMasterBallChieve.desc=You found a PokéLoot Master Ball!
+achievement.LootMasterBallChieve.desc=Find a PokéLoot Master Ball.
 achievement.GrottoChieve=There's a passage here...
-achievement.GrottoChieve.desc=You found a Hidden Grotto!
+achievement.GrottoChieve.desc=Find a Hidden Grotto.
 achievement.PokedexChieve=Scientific Pursuits
 achievement.PokedexChieve.desc=Craft a Pokédex.
 achievement.PokeballChieve=Gotta catch 'em all!
@@ -3541,7 +3548,7 @@ achievement.LegendaryChieve=First Legendary
 achievement.LegendaryChieve.desc=Catch your first Legendary.
 achievement.ShinyChieve=Ooh Shiny!
 achievement.ShinyChieve.desc=Catch a Shiny Pokémon.
-achievement.FirstCatchChieve=1 down, many to go!
+achievement.FirstCatchChieve=One down, many to go!
 achievement.FirstCatchChieve.desc=Catch your first Pokémon.
 achievement.TrainerChieve=Victory!
 achievement.TrainerChieve.desc=Win a Trainer battle.
@@ -4365,6 +4372,7 @@ tile.templePillar.name=Temple Pillar
 tile.hiddenCube.name=Hidden Cube
 tile.hiddenIronDoor.name=Hidden Iron Door
 tile.hiddenWoodenDoor.name=Hidden Wooden Door
+tile.hiddenPressurePlate.name=Hidden Pressure Plate
 tile.DawnDusk Ore.name=Dawn/Dusk Ore
 tile.templePillar.Pillar.name=Temple Pillar
 tile.templePillar.BrokenPillar.name=Broken Pillar
