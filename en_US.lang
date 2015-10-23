@@ -3417,6 +3417,7 @@ pixelmon.entitytrainer.onceday=This Trainer can only be battled once a day.
 pixelmon.entitytrainer.oncemcday=This Trainer can only be battled once a Minecraft day.
 pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each player.
 pixelmon.entitytrainer.level=Lv: 
+pixelmon.entitytrainer.winnings=You won %s pokédollars for defeating %s! 
 
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
@@ -3967,6 +3968,8 @@ gui.mail.close=Close letter
 gui.nursejoy.name=Nurse Joy
 gui.nursejoy.healing=Let me just heal those pokemon for you!
 gui.nursejoy.full=I'm sorry, I can't find an available healing station.
+
+gui.shopkeeper.money=Money:
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default
