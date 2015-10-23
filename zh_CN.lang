@@ -3281,6 +3281,7 @@ pixelmon.meloetta.name=美洛耶塔
 pixelmon.meloetta.description=演奏出的旋律有着让附近的神奇宝贝时而喜悦、时而悲伤的力量
 pixelmon.genesect.name=盖诺赛克特
 pixelmon.genesect.description=存在于三亿年前的神奇宝贝.被电浆团改造，在背部加上了炮台
+pixelmon.unimplemented.description=这个神奇宝贝并不在Pixelmon中呢。
 
 //Command Stuffs
 
@@ -3295,6 +3296,11 @@ pixelmon.command.battle2.first=第一个参与者必须是玩家。
 pixelmon.command.battle2.invalid=参与者 %d 是无效的。请再试一次。
 pixelmon.command.battle2.level=请提供一个等级！
 pixelmon.command.battle2.cantstart=无效的参与者。
+pixelmon.command.breed.giveegg=%s 和 %s 孕育出了一个蛋！
+pixelmon.command.breed.invalidslot=背包位置参数 %s 无效！
+pixelmon.command.breed.notcompatible=%s 和 %s 蛋组不相符！
+pixelmon.command.breed.novalidpairs=在 %s 的队伍中没能找到相符的繁殖对象。
+pixelmon.command.breed.nullslot=没有精灵在背包位置 %s 上！
 pixelmon.command.copyToDB.disabled=保存数据到数据库设置没有在配置中启用！
 pixelmon.command.endbattle.notinbattle=%s 没有在对战中。
 pixelmon.command.endbattle.endbattle=对战圆满落幕。
@@ -3382,6 +3388,7 @@ pixelmon.entitytrainer.onceday=这个训练师每天只能对战一次。
 pixelmon.entitytrainer.oncemcday=这个训练师Minecraft中每天只能对战一次。
 pixelmon.entitytrainer.onceplayer=这个训练师每个玩家只能对战一次。
 pixelmon.entitytrainer.level=Lv: 
+pixelmon.entitytrainer.winnings=您获得了 %s 神奇宝贝币因为击败了 %s！
 
 pixelmon.statue.despawn=神奇宝贝已被禁止生成
 
@@ -3519,15 +3526,15 @@ pixelmon.orb.isfull=您的珠满了！
 
 //achievements
 achievement.ItemFinderChieve=道具箱猎手！
-achievement.ItemFinderChieve.desc=您合成了一个道具箱搜寻装置！
+achievement.ItemFinderChieve.desc=合成了一个道具箱搜寻装置！
 achievement.HiddenPokeLootChieve=卧槽！隐藏的道具箱！
-achievement.HiddenPokeLootChieve.desc=您找到了一个隐藏的道具箱！
+achievement.HiddenPokeLootChieve.desc=找到了一个隐藏的道具箱！
 achievement.NormalPokeLootChieve=卧槽！道具箱！
-achievement.NormalPokeLootChieve.desc=您找到了一个道具箱！
+achievement.NormalPokeLootChieve.desc=找到了一个道具箱！
 achievement.LootMasterBallChieve=这是一个大师球！！！
-achievement.LootMasterBallChieve.desc=您找到了一个大师球道具箱！
+achievement.LootMasterBallChieve.desc=找到了一个大师球道具箱！
 achievement.GrottoChieve=这里有一个通道…
-achievement.GrottoChieve.desc=您找到了一个隐藏的洞穴！
+achievement.GrottoChieve.desc=找到了一个隐藏的洞穴！
 achievement.PokedexChieve=追求神奇的科学.
 achievement.PokedexChieve.desc=合成一个口袋妖怪图鉴.
 achievement.PokeballChieve=把他们全部抓住！
@@ -3941,7 +3948,7 @@ gui.npceditor.page4=对话文本 4
 gui.overlay1v1.lv=Lv. 
 
 gui.starter.trademark1=这是一个由国外粉丝制作的Mod，里面使用的神奇宝贝等资料版权均属于
-gui.starter.trademark2=任天堂 和 Game Freak 公司。 简体中文语言由 神秘幻想服务器 TT702 提供。
+gui.starter.trademark2=任天堂 和 Game Freak 公司。 简体中文语言由 神秘幻想服务器 TT702 提供，并由 Yyiyun 协助润色。
 gui.starter.trademark3=如果你们想要支持他们就去买(New)3DS和XY(ORAS)吧！
 gui.starter.trademark4=欢迎来到由Pixelmon为您提供的神奇宝贝世界！
 gui.starter.trademark5=现在请选择与您成为伙伴的初学者神奇宝贝！
@@ -3963,6 +3970,8 @@ gui.mail.close=关闭信函
 gui.nursejoy.name=乔伊护士
 gui.nursejoy.healing=让我来为您治疗您的神奇宝贝吧！
 gui.nursejoy.full=很抱歉，我没能找到空闲的治疗机！
+
+gui.shopkeeper.money=金钱：
 
 enum.aggro.timid=胆小
 enum.aggro.default=默认
@@ -4473,6 +4482,12 @@ tile.templeBlock.name=神社座
 tile.templeStairs.name=神社楼梯
 tile.templeBrickStairs.name=神社半砖
 tile.templePillar.name=神社支柱
+tile.hiddenCube.name=隐藏的方块
+tile.hiddenIronDoor.name=隐藏的铁门
+tile.hiddenWoodenDoor.name=隐藏的木门
+tile.hiddenPressurePlate.name=隐藏的压力板
+
+
 
 ability.Adaptability.name= 适应力
 ability.Adaptability.description=增强同属性技能的力量
