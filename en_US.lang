@@ -3972,7 +3972,10 @@ gui.nursejoy.name=Nurse Joy
 gui.nursejoy.healing=Let me just heal those Pokémon for you!
 gui.nursejoy.full=I'm sorry. I can't find an available healing station.
 
-gui.shopkeeper.money=Money:
+gui.shopkeeper.money=Money
+gui.shopkeeper.price=Price
+gui.shopkeeper.quantity=Quantity
+gui.shopkeeper.buy=Buy
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default
