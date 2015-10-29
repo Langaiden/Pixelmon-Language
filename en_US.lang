@@ -3976,6 +3976,7 @@ gui.shopkeeper.money=Money
 gui.shopkeeper.price=Price
 gui.shopkeeper.quantity=Quantity
 gui.shopkeeper.buy=Buy
+gui.shopkeeper.sell=Sell
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default
