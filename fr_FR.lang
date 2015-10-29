@@ -1,5 +1,5 @@
 /*
-*	Latest translation 23/10/2015
+*	Latest translation 29/10/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4399,6 +4399,9 @@ pixelmon.command.give.notifygiveegg=%s a donné à %s un œuf de %s !
 pixelmon.command.heal.cantheal=Impossible de soigner les Pokémons de %s pendant qu'il est en combat !
 pixelmon.command.heal.healed=Soin des Pokémons de %s réussi !
 pixelmon.command.heal.notifyhealed=%s a soigné les Pokémons de %s avec succès !
+pixelmon.command.snapshot.corners=Coins:
+pixelmon.command.snapshot.nobounds=Aucunes bornes n'ont encore été définies à sauvegarder !
+pixelmon.command.snapshot.nosave=Aucuns blocs n'ont encore été sauvegardés !
 pixelmon.command.spawn.spawned=Invocation de %s réalisée avec succès !
 pixelmon.command.spawn.spawnednotify=%s a invoqué un %s avec succès !
 pixelmon.command.spectate.nobattle=%s n'est pas en combat.
