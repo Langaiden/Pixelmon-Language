@@ -3319,6 +3319,9 @@ pixelmon.command.give.notifygiveegg=%s 给予了玩家 %s 一个 %s 的蛋！
 pixelmon.command.heal.cantheal=无法治疗 %s 的神奇宝贝！因为他/她正在战斗！
 pixelmon.command.heal.healed=成功治疗了 %s 的神奇宝贝！
 pixelmon.command.heal.notifyhealed=%s 成功治疗了 %s 的神奇宝贝！
+pixelmon.command.snapshot.corners=边界:
+pixelmon.command.snapshot.nobounds=没有边界设定被保存呢！
+pixelmon.command.snapshot.nosave=没有方块被保存呢！
 pixelmon.command.spawn.spawned=成功生成了一只 %s。
 pixelmon.command.spawn.spawnednotify=%s 生成了一只 %s。
 pixelmon.command.spectate.nobattle=%s 不在战斗中。
@@ -3971,7 +3974,11 @@ gui.nursejoy.name=乔伊护士
 gui.nursejoy.healing=让我来为您治疗您的神奇宝贝吧！
 gui.nursejoy.full=很抱歉，我没能找到空闲的治疗机！
 
-gui.shopkeeper.money=金钱：
+gui.shopkeeper.money=金钱
+gui.shopkeeper.price=价格
+gui.shopkeeper.quantity=数量
+gui.shopkeeper.buy=购买
+gui.shopkeeper.sell=出售
 
 enum.aggro.timid=胆小
 enum.aggro.default=默认
