@@ -3839,8 +3839,8 @@ gui.renamePoke.renamePokemon=Rename Pokémon
 gui.screenpokechecker.moves=Moves
 gui.screenpokechecker.stats=Stats
 gui.screenpokechecker.rename=Rename
-gui.screenpokechecker.lvl=Lvl: 
-gui.screenpokechecker.number=No. 
+gui.screenpokechecker.lvl=Lvl:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=Status
 gui.screenpokechecker.fainted=*FAINTED*
 gui.screenpokechecker.texp=Experience
@@ -4064,7 +4064,7 @@ gui.battle.accuracy=Accuracy
 gui.battle.power=Power
 gui.battle.back=Back
 gui.battle.whatdo=What will $p do?
-gui.battle.type=Type: 
+gui.battle.type=Type:
 
 gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
@@ -4233,7 +4233,7 @@ nbt.speed.name=Speed:
 nbt.spattack.name=Sp. Attack:
 nbt.spdefense.name=Sp. Defense:
 nbt.hp.name=HP:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=Attack
 nbt.defense2.name=Defense
