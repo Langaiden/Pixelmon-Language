@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: October 19, 2015 - by ToklaX
+* Last Update: November 2, 2015 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Ultima actualización: 19 de Octubre de 2015 por ToklaX
+* Ultima actualización: 2 de Noviembre de 2015 por ToklaX
 *************************************************/
 
 /*
@@ -3929,6 +3929,11 @@ pixelmon.command.battle2.first=El primer participante debe de ser un jugador.
 pixelmon.command.battle2.invalid=El participante %d no es válido. Por favor intentalo de nuevo.
 pixelmon.command.battle2.level=¡Por favor establezca un nivel!
 pixelmon.command.battle2.cantstart=Los participantes no son válidos.
+pixelmon.command.breed.giveegg=¡%s y %s han hecho un Huevo!
+pixelmon.command.breed.invalidslot=¡El argumento en la ranura %s no es válido!
+pixelmon.command.breed.notcompatible=¡%s y %s no son compatibles!
+pixelmon.command.breed.novalidpairs=No se han encontrado parejas compatibles en el equipo de %s.
+pixelmon.command.breed.nullslot=¡No hay ningún Pokémon en la ranura %s!
 pixelmon.command.copyToDB.disabled=¡Guardar en la database no está activado en el archivo config!
 pixelmon.command.endbattle.notinbattle=%s no está en batalla.
 pixelmon.command.endbattle.endbattle=La batalla ha finalizado con éxito.
@@ -3947,6 +3952,9 @@ pixelmon.command.give.notifygiveegg=¡%s dio a %s un Huevo de %s!
 pixelmon.command.heal.cantheal=¡No se pueden curar a los Pokémon de %s mientras está en batalla!
 pixelmon.command.heal.healed=¡Se han curado con éxito los Pokémon de %s!
 pixelmon.command.heal.notifyhealed=¡%s ha curado con éxito los Pokémon de %s!
+pixelmon.command.snapshot.corners=Esquinas:
+pixelmon.command.snapshot.nobounds=¡Ningún límite se ha definido aún para guardar!
+pixelmon.command.snapshot.nosave=¡Ningún bloque ha sido guardado aún!
 pixelmon.command.spawn.spawned=Ha aparecido con éxito un %s.
 pixelmon.command.spawn.spawnednotify=%s ha hecho aparecer con éxito un %s.
 pixelmon.command.spectate.nobattle=%s no está en ninguna batalla.
@@ -4017,6 +4025,7 @@ pixelmon.entitytrainer.onceday=Sólo puedes luchar contra este entrenador una ve
 pixelmon.entitytrainer.oncemcday=Sólo puedes luchar contra este entrenador una vez por cada día de minecraft.
 pixelmon.entitytrainer.onceplayer=Sólo puedes luchar una vez contra este entrenador.
 pixelmon.entitytrainer.level=Nvl: 
+pixelmon.entitytrainer.winnings=¡Has ganado %s PokeDólares por derrotar a %s! 
 
 pixelmon.statue.despawn=Se han quitado todos los Pokémon.
 
@@ -4554,7 +4563,13 @@ gui.mail.close=Cerrar carta
 
 gui.nursejoy.name=Enfermera Joy
 gui.nursejoy.healing=¡Por favor, permiteme curar a tus Pokémon!
-gui.nursejoy.full=Lo siento, no puedo encontrar ningún Poke-Centro disponible.
+gui.nursejoy.full=Lo siento. No puedo encontrar ningún PokéCentro disponible.
+
+gui.shopkeeper.money=Dinero
+gui.shopkeeper.price=Precio
+gui.shopkeeper.quantity=Cantidad
+gui.shopkeeper.buy=Comprar
+gui.shopkeeper.sell=Vender
 
 enum.aggro.timid=Asustado
 enum.aggro.default=Por defecto
@@ -4747,8 +4762,8 @@ trainer.model.rocketgruntfemale3=Soldado 3
 trainer.model.rocketgruntfemale4=Soldado 4
 trainer.model.rocketgruntfemale5=Soldado 5
 trainer.model.rocketgruntfemale6=Soldado 6
-trainer.model.pkmn_breeder_f=Criadora ♀ 1
-trainer.model.pkmn_breeder_f2=Criadora ♀ 2
+trainer.model.pkmn_breeder_f=Criadora 1
+trainer.model.pkmn_breeder_f2=Criadora 2
 
 npc.model.artist=Artista
 npc.model.battlegirl=Luchadora
