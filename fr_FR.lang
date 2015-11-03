@@ -1,5 +1,5 @@
 /*
-*	Latest translation 29/10/2015
+*	Latest translation 03/11/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -5019,7 +5019,11 @@ gui.nursejoy.name=Infirmière Joëlle
 gui.nursejoy.healing=Laisse moi soigner ces Pokemon pour toi !
 gui.nursejoy.full=Je suis désolé. Je ne trouve aucune station de soin disponible.
  
-gui.shopkeeper.money=Argent:
+gui.shopkeeper.money=Argent
+gui.shopkeeper.price=Prix
+gui.shopkeeper.quantity=Quantité
+gui.shopkeeper.buy=Acheter
+gui.shopkeeper.sell=Vendre
 
 enum.aggro.timid=Timide
 enum.aggro.default=Défaut
