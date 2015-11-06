@@ -1,5 +1,5 @@
 /*
-*	Latest translation 03/11/2015
+*	Latest translation 06/11/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4417,6 +4417,12 @@ pixelmon.command.struc.notfound=Structure %s introuvable.
 pixelmon.command.unlock=%s verrouillé a été déverrouillé avec succès !
 pixelmon.command.warpplate.notstanding=Vous ne vous tenez pas sur une plaque de téléportation.
 pixelmon.command.warpplate.set=Cible de la téléportation placée en %s
+pixelmon.command.transfer.notenoughmoney=Pas assez d'argent pour terminer le transfert.
+pixelmon.command.transfer.sameplayer=Vous ne pouvez pas vous envoyer de l'argent à vous même !
+pixelmon.command.transfer.transferred=Transfert de %s Pokédollars à %s réussi !
+pixelmon.command.transfer.notifytransfer=%s a transféré %s Pokédollars à %s avec succès !
+pixelmon.command.givemoney.given=%s Pokédollars ont été ajouté avec succès au solde de %s !
+pixelmon.command.givemoney.notifygive=%s a ajouté %s Pokédollars au solde de %s avec succès !
 
 //other
 pixelmon.drops.fullinventory=Votre inventaire est complet! %s a été déposé au sol!
