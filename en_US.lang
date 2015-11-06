@@ -3343,6 +3343,9 @@ pixelmon.command.give.notifygiveegg=%s gave %s a %s Egg!
 pixelmon.command.heal.cantheal=Cannot heal %s's Pokémon while they are in battle!
 pixelmon.command.heal.healed=Successfully healed %s's Pokémon!
 pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pokémon!
+pixelmon.command.snapshot.corners=Corners:
+pixelmon.command.snapshot.nobounds=No bounds have been defined to save yet!
+pixelmon.command.snapshot.nosave=No blocks have been saved yet!
 pixelmon.command.spawn.spawned=Successfully spawned a %s.
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s.
 pixelmon.command.spectate.nobattle=%s is not in a battle.
@@ -3423,7 +3426,7 @@ pixelmon.entitytrainer.onceday=This Trainer can only be battled once a day.
 pixelmon.entitytrainer.oncemcday=This Trainer can only be battled once a Minecraft day.
 pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each player.
 pixelmon.entitytrainer.level=Lv: 
-pixelmon.entitytrainer.winnings=You won %s pokédollars for defeating %s! 
+pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
 
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
@@ -3972,8 +3975,8 @@ gui.mail.seal=Seal letter
 gui.mail.close=Close letter
 
 gui.nursejoy.name=Nurse Joy
-gui.nursejoy.healing=Let me just heal those pokemon for you!
-gui.nursejoy.full=I'm sorry, I can't find an available healing station.
+gui.nursejoy.healing=Let me just heal those Pokémon for you!
+gui.nursejoy.full=I'm sorry. I can't find an available healing station.
 
 gui.shopkeeper.money=Money
 gui.shopkeeper.price=Price
