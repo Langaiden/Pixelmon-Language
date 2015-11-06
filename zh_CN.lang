@@ -3340,6 +3340,12 @@ pixelmon.command.teach.slot=背包位数字必须在1至6之间。
 pixelmon.command.unlock=成功的解锁了 %s 被锁定的神奇宝贝！
 pixelmon.command.warpplate.notstanding=您尚未站在地标点上。
 pixelmon.command.warpplate.set=设定 %s 为地标点。
+pixelmon.command.transfer.notenoughmoney=没有足够的资金来完成转让。
+pixelmon.command.transfer.sameplayer=你不能把钱给你自己！
+pixelmon.command.transfer.transferred=成功地转移 %s 神奇宝贝币给 %s！
+pixelmon.command.transfer.notifytransfer=%s 成功地转移 %s 神奇宝贝币给 %s！
+pixelmon.command.givemoney.given=成功添加 %s 神奇宝贝币到 %s 的账户！
+pixelmon.command.givemoney.notifygive=%s 成功添加 %s 神奇宝贝币到 %s 的账户！
 
 //other
 pixelmon.drops.fullinventory=您的物品栏已经满了！ %s 掉落到了地上！
