@@ -3364,6 +3364,10 @@ pixelmon.command.teach.slot=Slot number must be between 1 and 6.
 pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon.
 pixelmon.command.warpplate.notstanding=You are not standing on a warp plate.
 pixelmon.command.warpplate.set=Set warp target to %s.
+pixelmon.command.transfer.notenoughmoney=Not enough money to complete transfer.
+pixelmon.command.transfer.sameplayer=You cannot send money to yourself!
+pixelmon.command.transfer.transferred=Successfully transferred %s Pokédollars to %s!
+pixelmon.command.transfer.notifytransfer=%s successfully transferred %s Pokédollars to %s!
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
