@@ -3973,6 +3973,12 @@ pixelmon.command.teach.slot=El número de ranura debe de ser entre 1 y 6.
 pixelmon.command.unlock=Se ha desbloqueado los Pokémon de %s satisfactoriamente.
 pixelmon.command.warpplate.notstanding=No estás sobre ninguna placa de teletransporte.
 pixelmon.command.warpplate.set=Destino %s establecido.
+pixelmon.command.transfer.notenoughmoney=No tienes suficiente dinero para completar la transferencia.
+pixelmon.command.transfer.sameplayer=¡No puedes enviar dinero a tí mismo!
+pixelmon.command.transfer.transferred=¡Se ha transferido con éxito %s Pokedólares a %s!
+pixelmon.command.transfer.notifytransfer=¡%s ha transferido con éxito %s Pokedólares a %s!
+pixelmon.command.givemoney.given=¡Se ha añadido con éxito %s Pokedólares al saldo de %s!
+pixelmon.command.givemoney.notifygive=¡%s ha añadido con éxito %s Pokedólares al saldo de %s!
 
 //Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s calló al suelo!
