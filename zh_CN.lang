@@ -391,6 +391,7 @@ item.GripClaw.name=黏着钩爪
 item.FloatStone.name=浮石
 item.MicleBerry.name=神秘果
 item.RingTarget.name=狙击标靶
+item.AmuletCoin.name=护身金币
 
 
 item.Full Incense.name=满腹熏香
@@ -3848,8 +3849,8 @@ gui.renamePoke.renamePokemon=重命名您的神奇宝贝
 gui.screenpokechecker.moves=技能
 gui.screenpokechecker.stats=统计
 gui.screenpokechecker.rename=重命名
-gui.screenpokechecker.lvl=Lvl: 
-gui.screenpokechecker.number=No. 
+gui.screenpokechecker.lvl=Lvl:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=状态
 gui.screenpokechecker.fainted=*濒死*
 gui.screenpokechecker.texp=总经验值
@@ -3948,6 +3949,8 @@ gui.chooseNPC.trader=创建交换者
 gui.chooseNPC.chatting=创建对话NPC
 gui.chooseNPC.relearner=创建技能回忆教学NPC
 gui.chooseNPC.tutor=创建技能教学师
+gui.chooseNPC.nursejoy=创建医生
+gui.chooseNPC.shopkeeper=创建店长
 gui.npceditor.despawn=删除NPC
 gui.npceditor.page1=对话文本 1
 gui.npceditor.page2=对话文本 2
@@ -4072,7 +4075,7 @@ gui.battle.accuracy=命中率
 gui.battle.power=伤害
 gui.battle.back=返回
 gui.battle.whatdo=请问您想让 $p 做什么？
-gui.battle.type=属性: 
+gui.battle.type=属性:
 
 gui.levelupscreen.lvlup=恭喜！您的 $p 升级到了等级 $l ！
 
@@ -4244,7 +4247,7 @@ nbt.speed.name=速度:
 nbt.spattack.name=特攻:
 nbt.spdefense.name=特防:
 nbt.hp.name=HP:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=攻击
 nbt.defense2.name=防御
@@ -4910,6 +4913,7 @@ pixelmon.effect.wagfinger=%s 摇摆了它的手指！
 pixelmon.effect.OHKO=一击必杀！
 pixelmon.effect.painsplit=战斗中的精灵分担了它的痛苦！
 pixelmon.effect.payday=到处都散落着硬币！
+pixelmon.effect.paydayend=%s 获得了 %s 的神奇宝贝币！
 pixelmon.effect.psycheup=%s 复制了 %s 的状态变更！
 pixelmon.effect.raisestats=%s 的能力上升！
 pixelmon.effect.freefrom=%s 让自己自由了
