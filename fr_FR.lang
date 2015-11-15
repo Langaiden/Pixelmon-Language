@@ -1,5 +1,5 @@
 /*
-*	Latest translation 06/11/2015
+*	Latest translation 08/11/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4890,18 +4890,19 @@ gui.renamePoke.cancel=Annuler
 gui.renamePoke.renamebutton=Renommer
 gui.renamePoke.renamePokemon=Renommer le Pokemon
 
-gui.screenpokechecker.ability=Talent
+
 gui.screenpokechecker.moves=Attaques
 gui.screenpokechecker.stats=Stats
 gui.screenpokechecker.rename=Renommer
-gui.screenpokechecker.lvl=Niv.: 
+gui.screenpokechecker.lvl=Niv:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=Statut
 gui.screenpokechecker.fainted=*K.O.*
 gui.screenpokechecker.texp=Expérience
 gui.screenpokechecker.levelup=Niveau Supérieur
 gui.screenpokechecker.summary=Résumé
 gui.screenpokechecker.ot=Dresseur DO:
-gui.screenpokechecker.lvl=Niv.: 
+gui.screenpokechecker.ability=Talent
 
 
 gui.screenpokechecker.happiness=Bonheur
@@ -4993,9 +4994,13 @@ gui.tradereditor.changeTrainer=Dresseur
 gui.tradereditor.random=Aléatoire
 gui.trainereditor.changeTrader=Échangeur
 
-gui.chooseNPC.trainer=Créer un PNJ Dresseur
-gui.chooseNPC.chatting=Créer un PNJ Dresseur parlant
+gui.chooseNPC.trainer=Créer un NPC d'échange
+gui.chooseNPC.trader=Créer un Échangeur 
+gui.chooseNPC.chatting=Créer un Dresseur parlant
 gui.chooseNPC.relearner=Créer un Maître des Capacités
+gui.chooseNPC.tutor=Créer un Maître des Capacités
+gui.chooseNPC.nursejoy=Créer un Médecin
+gui.chooseNPC.shopkeeper=Créer un Vendeur
 
 gui.overlay1v1.lv=Lv. 
 
@@ -5118,7 +5123,7 @@ gui.battle.accuracy=Précision
 gui.battle.power=Pouvoir
 gui.battle.back=Retour
 gui.battle.whatdo=Que doit faire $p ?
-gui.battle.type=Type: 
+gui.battle.type=Type:
 
 gui.levelupscreen.lvlup=Votre $p est désormais niveau $l !
 
@@ -5269,7 +5274,7 @@ nbt.speed.name=Vitesse:
 nbt.spattack.name=Attaque Spé.:
 nbt.spdefense.name=Défense Spé.:
 nbt.hp.name=PV:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=Attaque
 nbt.defense2.name=Défense
