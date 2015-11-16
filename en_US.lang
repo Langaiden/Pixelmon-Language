@@ -407,6 +407,7 @@ item.GripClaw.name=Grip Claw
 item.FloatStone.name=Float Stone
 item.MicleBerry.name=Micle Berry
 item.RingTarget.name=Ring Target
+item.AmuletCoin.name=Amulet Coin
 
 item.Full Incense.name=Full Incense
 item.Lax Incense.name=Lax Incense
@@ -3369,10 +3370,10 @@ pixelmon.command.warpplate.notstanding=You are not standing on a warp plate.
 pixelmon.command.warpplate.set=Set warp target to %s.
 pixelmon.command.transfer.notenoughmoney=Not enough money to complete transfer.
 pixelmon.command.transfer.sameplayer=You cannot send money to yourself!
-pixelmon.command.transfer.transferred=Successfully transferred %s Pokédollars to %s!
-pixelmon.command.transfer.notifytransfer=%s successfully transferred %s Pokédollars to %s!
-pixelmon.command.givemoney.given=Successfully added %s Pokédollars to %s's balance!
-pixelmon.command.givemoney.notifygive=%s successfully added %s Pokédollars to %s's balance!
+pixelmon.command.transfer.transferred=Successfully transferred %s PokéDollars to %s!
+pixelmon.command.transfer.notifytransfer=%s successfully transferred %s PokéDollars to %s!
+pixelmon.command.givemoney.given=Successfully added %s PokéDollars to %s's balance!
+pixelmon.command.givemoney.notifygive=%s successfully added %s PokéDollars to %s's balance!
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -3845,8 +3846,8 @@ gui.renamePoke.renamePokemon=Rename Pokémon
 gui.screenpokechecker.moves=Moves
 gui.screenpokechecker.stats=Stats
 gui.screenpokechecker.rename=Rename
-gui.screenpokechecker.lvl=Lvl: 
-gui.screenpokechecker.number=No. 
+gui.screenpokechecker.lvl=Lvl:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=Status
 gui.screenpokechecker.fainted=*FAINTED*
 gui.screenpokechecker.texp=Experience
@@ -3949,6 +3950,8 @@ gui.chooseNPC.trader=Create Trader
 gui.chooseNPC.chatting=Create Chatting NPC
 gui.chooseNPC.relearner=Create Move Relearner
 gui.chooseNPC.tutor=Create Move Tutor
+gui.chooseNPC.nursejoy=Create Doctor
+gui.chooseNPC.shopkeeper=Create Shopkeeper
 
 gui.overlay1v1.lv=Lv. 
 
@@ -3976,7 +3979,7 @@ gui.mail.close=Close letter
 
 gui.nursejoy.name=Nurse Joy
 gui.nursejoy.healing=Let me just heal those Pokémon for you!
-gui.nursejoy.full=I'm sorry. I can't find an available healing station.
+gui.nursejoy.full=I'm sorry. I can't find an available healer.
 
 gui.shopkeeper.money=Money
 gui.shopkeeper.price=Price
@@ -4070,7 +4073,7 @@ gui.battle.accuracy=Accuracy
 gui.battle.power=Power
 gui.battle.back=Back
 gui.battle.whatdo=What will $p do?
-gui.battle.type=Type: 
+gui.battle.type=Type:
 
 gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
@@ -4239,7 +4242,7 @@ nbt.speed.name=Speed:
 nbt.spattack.name=Sp. Attack:
 nbt.spdefense.name=Sp. Defense:
 nbt.hp.name=HP:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=Attack
 nbt.defense2.name=Defense
@@ -4898,7 +4901,8 @@ pixelmon.effect.magnitude=Magnitude %d!
 pixelmon.effect.wagfinger=%s waggled its finger!
 pixelmon.effect.OHKO=It's a one-hit KO!
 pixelmon.effect.painsplit=The battlers shared their pain!
-pixelmon.effect.payday=Coins are scattered all around!
+pixelmon.effect.payday=Coins scattered all around!
+pixelmon.effect.paydayend=%s found %s PokéDollars!
 pixelmon.effect.psycheup=%s copied %s stat changes!
 pixelmon.effect.raisestats=%s's stats rose!
 pixelmon.effect.freefrom=%s freed itself from %s!
