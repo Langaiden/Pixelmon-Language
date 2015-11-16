@@ -412,6 +412,7 @@ item.GripClaw.name=Garra Garfio
 item.FloatStone.name=Piedra Pómez
 item.MicleBerry.name=Baya Lagro
 item.RingTarget.name=Blanco
+item.AmuletCoin.name=Moneda Amuleto
 
 item.Full Incense.name=Incienso Lento
 item.Lax Incense.name=Incienso Suave
@@ -4436,8 +4437,8 @@ gui.renamePoke.renamePokemon=Renombrar Pokémon
 gui.screenpokechecker.moves=Movs.
 gui.screenpokechecker.stats=Estadíst.
 gui.screenpokechecker.rename=Renombrar
-gui.screenpokechecker.lvl=Nvl: 
-gui.screenpokechecker.number=No. 
+gui.screenpokechecker.lvl=Nvl:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=Estado
 gui.screenpokechecker.fainted=*Debilitado*
 gui.screenpokechecker.texp=Experiencia Total
@@ -4542,6 +4543,8 @@ gui.chooseNPC.trader=Crear Intercambio
 gui.chooseNPC.chatting=Crear NPC con Diálogos
 gui.chooseNPC.relearner=Crear Recordador de Movs.
 gui.chooseNPC.tutor=Crear Tutor de Movs.
+gui.chooseNPC.nursejoy=Crear Doctor
+gui.chooseNPC.shopkeeper=Crear Tendero
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4567,9 +4570,9 @@ gui.cancel.text=Cancelar
 gui.mail.seal=Firmar carta
 gui.mail.close=Cerrar carta
 
-gui.nursejoy.name=Enfermera Joy
+gui.nursejoy.name=Enfermero Joy
 gui.nursejoy.healing=¡Por favor, permiteme curar a tus Pokémon!
-gui.nursejoy.full=Lo siento. No puedo encontrar ningún PokéCentro disponible.
+gui.nursejoy.full=Lo siento. No puedo encontrar ningún Centro Pokémon disponible.
 
 gui.shopkeeper.money=Dinero
 gui.shopkeeper.price=Precio
@@ -4663,7 +4666,7 @@ gui.battle.accuracy=Precisión
 gui.battle.power=Potencia
 gui.battle.back=Atrás
 gui.battle.whatdo=¿Qué hará $p?
-gui.battle.type=Tipo: 
+gui.battle.type=Tipo:
 
 gui.levelupscreen.lvlup=¡Tu $p ha subido al nivel $l!
 
@@ -4824,7 +4827,7 @@ nbt.speed.name=Velocidad:
 nbt.spattack.name=At. Esp.:
 nbt.spdefense.name=Def. Esp.:
 nbt.hp.name=PS:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=Ataque
 nbt.defense2.name=Defensa
@@ -5489,6 +5492,7 @@ pixelmon.effect.wagfinger=¡%s meneó el dedo!
 pixelmon.effect.OHKO=¡K.O. en 1 golpe!
 pixelmon.effect.painsplit=¡Los contrincantes compartieron su dolor!
 pixelmon.effect.payday=¡Hay monedas por todas partes!
+pixelmon.effect.paydayend=¡%s ha encontrado %s Pokedólares!
 pixelmon.effect.psycheup=¡%s copió las características de %s!
 pixelmon.effect.raisestats=¡Las estados de %s aumentaron!
 pixelmon.effect.freefrom=¡%s se ha liberado de %s!
