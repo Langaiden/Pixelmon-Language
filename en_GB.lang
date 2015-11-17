@@ -4166,6 +4166,7 @@ trainer.model.firebreather4=Team Magma
 trainer.model.firebreather5=Fire Bat
 
 npc.model.artist=Artist
+npc.model.baker=Baker
 npc.model.battlegirl=Battle Girl
 npc.model.blackbelt=Black Belt
 npc.model.cueball=Cue Ball
@@ -4184,6 +4185,7 @@ npc.model.npcchat1=Old Man
 npc.model.npcchat2=Man
 npc.model.officerjenny=Officer Jenny
 npc.model.ornithologist=Ornithologist
+npc.model.pkmn_breeder_f2=Pokémon Breeder
 npc.model.pokefan_f=Female Pokéfan
 npc.model.pokefan_m=Male Pokéfan
 npc.model.policeman=Policeman
@@ -4201,6 +4203,10 @@ npc.model.schoolboy=Schoolboy
 npc.model.schoolgirl=Schoolgirl
 npc.model.scientist_f=Female Scientist
 npc.model.scientist_m=Male Scientist
+npc.model.shopgirl=Shop Girl
+npc.model.shoplady=Shop Lady
+npc.model.shopman=Shop Man
+npc.model.streetthug=Street Thug
 npc.model.supernerd=Super Nerd
 
 container.MechanicalAnvil=Mechanical Anvil
