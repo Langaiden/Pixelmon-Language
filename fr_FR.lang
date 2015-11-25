@@ -1,5 +1,5 @@
 /*
-*	Latest translation 12/10/2015
+*	Latest translation 24/11/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -422,6 +422,7 @@ item.GripClaw.name=Accroc Griffe
 item.FloatStone.name=Pierrallégée
 item.MicleBerry.name=Baie Micle
 item.RingTarget.name=Point de Mire
+item.AmuletCoin.name=Pièce Rune
 
 item.Full Incense.name=Encens Plein
 item.Lax Incense.name=Encens Doux
@@ -3837,6 +3838,9 @@ pixelmon.meloetta.name=Meloetta
 pixelmon.meloetta.description=Les mélodies enivrantes de Meloetta touchent les Pokémon, pouvant les rendre heureux ou tristes.
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=Un Pokémon existant depuis 300 millions d'années, et modifié par la Team Plasma. Il a maintenant un canon dans le dos.
+
+pixelmon.unimplemented.description=Ce Pokémon n'est pas encore implémenté dans Pixelmon.
+
 pixelmon.bulbizarre.name=Bulbizarre
 pixelmon.herbizarre.name=Herbizarre
 pixelmon.florizarre.name=Florizarre
@@ -4373,6 +4377,11 @@ pixelmon.command.battle2.first=Le premier participant doit être un joueur.
 pixelmon.command.battle2.invalid=Le participant %d est invalide. Merci de réessayer.
 pixelmon.command.battle2.level=Merci de fournir un niveau !
 pixelmon.command.battle2.cantstart=Participants invalides.
+pixelmon.command.breed.giveegg=%s et %s ont fait un Œuf !
+pixelmon.command.breed.invalidslot=Slot %s invalide !
+pixelmon.command.breed.notcompatible=%s et %s ne sont pas compatibles !
+pixelmon.command.breed.novalidpairs=Aucune paire compatible à l'élevage n'a été trouvée dans l'équipe de %s.
+pixelmon.command.breed.nullslot=Il n'y a pas de Pokémon dans le slot %s !
 pixelmon.command.copyToDB.disabled=La sauvegarde en base de donnée est désactivée dans la configuration !
 pixelmon.command.endbattle.notinbattle=%s n'est pas en combat.
 pixelmon.command.endbattle.endbattle=Combat arrêté avec succès.
@@ -4391,6 +4400,9 @@ pixelmon.command.give.notifygiveegg=%s a donné à %s un œuf de %s !
 pixelmon.command.heal.cantheal=Impossible de soigner les Pokémons de %s pendant qu'il est en combat !
 pixelmon.command.heal.healed=Soin des Pokémons de %s réussi !
 pixelmon.command.heal.notifyhealed=%s a soigné les Pokémons de %s avec succès !
+pixelmon.command.snapshot.corners=Coins:
+pixelmon.command.snapshot.nobounds=Aucunes bornes n'ont encore été définies à sauvegarder !
+pixelmon.command.snapshot.nosave=Aucuns blocs n'ont encore été sauvegardés !
 pixelmon.command.spawn.spawned=Invocation de %s réalisée avec succès !
 pixelmon.command.spawn.spawnednotify=%s a invoqué un %s avec succès !
 pixelmon.command.spectate.nobattle=%s n'est pas en combat.
@@ -4406,6 +4418,12 @@ pixelmon.command.struc.notfound=Structure %s introuvable.
 pixelmon.command.unlock=%s verrouillé a été déverrouillé avec succès !
 pixelmon.command.warpplate.notstanding=Vous ne vous tenez pas sur une plaque de téléportation.
 pixelmon.command.warpplate.set=Cible de la téléportation placée en %s
+pixelmon.command.transfer.notenoughmoney=Pas assez d'argent pour terminer le transfert.
+pixelmon.command.transfer.sameplayer=Vous ne pouvez pas vous envoyer de l'argent à vous même !
+pixelmon.command.transfer.transferred=Transfert de %s Pokédollars à %s réussi !
+pixelmon.command.transfer.notifytransfer=%s a transféré %s Pokédollars à %s avec succès !
+pixelmon.command.givemoney.given=%s Pokédollars ont été ajouté avec succès au solde de %s !
+pixelmon.command.givemoney.notifygive=%s a ajouté %s Pokédollars au solde de %s avec succès !
 
 //other
 pixelmon.drops.fullinventory=Votre inventaire est complet! %s a été déposé au sol!
@@ -4452,7 +4470,11 @@ pixelmon.entities.syncpassed=Synchro le transmet à %s
 
 pixelmon.entitytrainer.goodrod=Vous avez reçu une Super Canne !
 pixelmon.entitytrainer.superrod=Vous avez reçu une Méga Canne !
-
+pixelmon.entitytrainer.onceday=Ce dresseur ne peut être combattu qu'une fois par jour.
+pixelmon.entitytrainer.oncemcday=Ce dresseur ne peut être combattu qu'une fois par jour Minecraft.
+pixelmon.entitytrainer.onceplayer=Ce dresseur ne peut être combattu qu'une fois par joueur.
+pixelmon.entitytrainer.level=Niv:
+pixelmon.entitytrainer.winnings=Vous remportez %s PokéDollars en vainquant %s !
 pixelmon.statue.despawn=Le Pokémon a été supprimé.
 
 pixelutilities.blocks.emptygift=Vous avez trouvé un %s vide. :(
@@ -4577,21 +4599,21 @@ pixelmon.orb.isfull=Votre orbe est plein!
 
 //Achievements
 achievement.ItemFinderChieve=Chasseur de Pokéchest Caché!
-achievement.ItemFinderChieve.desc=Vous avez fabriqué un Cherch'Objet!
+achievement.ItemFinderChieve.desc=Fabriquer un Cherch'Objet.
 achievement.HiddenPokeLootChieve=Pokéchest Caché!
-achievement.HiddenPokeLootChieve.desc=Vous avez trouver un Pokéchest Caché!
+achievement.HiddenPokeLootChieve.desc=Trouver un Pokéchest Caché.
 achievement.NormalPokeLootChieve=Pokéchest!
-achievement.NormalPokeLootChieve.desc=Vous avez trouver un Pokéchest!
+achievement.NormalPokeLootChieve.desc=Trouver un Pokéchest.
 achievement.LootMasterBallChieve=C'est une Master Ball!!!
-achievement.LootMasterBallChieve.desc=Vous avez trouver un Master Coffre!
+achievement.LootMasterBallChieve.desc=Trouver un Master Coffre.
 achievement.GrottoChieve=Il y a un passage par ici..
-achievement.GrottoChieve.desc=Vous avez trouver une Antre Cachée!
+achievement.GrottoChieve.desc=Trouver une Antre Cachée.
 achievement.PokeballChieve=Attrapez les tous!
 achievement.PokeballChieve.desc=Fabriquer une Pokeball
 achievement.LegendaryChieve=Premier Légendaire
-achievement.LegendaryChieve.desc=Capturez votre premier légendaire
+achievement.LegendaryChieve.desc=Capturez votre premier légendaire.
 achievement.ShinyChieve=Ooh Brillant!
-achievement.ShinyChieve.desc=Attraper un Pokémon chromatique
+achievement.ShinyChieve.desc=Attraper un Pokémon chromatique.
 achievement.FirstCatchChieve=Un de capturé, Encore plus à trouver!
 achievement.FirstCatchChieve.desc=Attrapez votre premier Pixelmon
 achievement.TrainerChieve=Victoire!
@@ -4836,13 +4858,19 @@ gui.trading.select=Choisir un Pokemon.
 gui.pokedex.pokedex=Pokédex
 gui.pokedex.height=Hauteur: 
 gui.pokedex.weight=Poids:
-gui.pokedex.more=Plus...
+gui.pokedex.more=Options
 gui.pokedex.wiki=Voir le Wiki
+gui.pokedex.meters=m
+gui.pokedex.feet=ft.
+gui.pokedex.kilograms=kg
+gui.pokedex.pounds=lbs.
 
-gui.pokedexoptions.done=Fait.
+gui.pokedexoptions.done=Fait
 gui.pokedexoptions.options=Options du Pokédex
+gui.pokedexoptions.metric=Métrique
+gui.pokedexoptions.imperial=Imperial/US Customary
 
-gui.yesno.trade=Réaliser l'échange ?
+gui.yesno.trade=Voulez vous échanger votre $e contre mon $o ?
 gui.yesno.yes=Oui
 gui.yesno.no=Non
 gui.yesno.yousure=Voulez vous abandonner l'apprentissage de $m ?
@@ -4863,18 +4891,19 @@ gui.renamePoke.cancel=Annuler
 gui.renamePoke.renamebutton=Renommer
 gui.renamePoke.renamePokemon=Renommer le Pokemon
 
-gui.screenpokechecker.ability=Talent
+
 gui.screenpokechecker.moves=Attaques
 gui.screenpokechecker.stats=Stats
 gui.screenpokechecker.rename=Renommer
-gui.screenpokechecker.lvl=Niv.: 
+gui.screenpokechecker.lvl=Niv:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=Statut
 gui.screenpokechecker.fainted=*K.O.*
 gui.screenpokechecker.texp=Expérience
 gui.screenpokechecker.levelup=Niveau Supérieur
 gui.screenpokechecker.summary=Résumé
 gui.screenpokechecker.ot=Dresseur DO:
-gui.screenpokechecker.lvl=Niv.: 
+gui.screenpokechecker.ability=Talent
 
 
 gui.screenpokechecker.happiness=Bonheur
@@ -4966,9 +4995,13 @@ gui.tradereditor.changeTrainer=Dresseur
 gui.tradereditor.random=Aléatoire
 gui.trainereditor.changeTrader=Échangeur
 
-gui.chooseNPC.trainer=Créer un PNJ Dresseur
-gui.chooseNPC.chatting=Créer un PNJ Dresseur parlant
+gui.chooseNPC.trainer=Créer un NPC d'échange
+gui.chooseNPC.trader=Créer un Échangeur 
+gui.chooseNPC.chatting=Créer un Dresseur parlant
 gui.chooseNPC.relearner=Créer un Maître des Capacités
+gui.chooseNPC.tutor=Créer un Maître des Capacités
+gui.chooseNPC.nursejoy=Créer un Médecin
+gui.chooseNPC.shopkeeper=Créer un Vendeur
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4991,8 +5024,18 @@ gui.texture.text=Texture
 gui.cancel.text=Annuler
 gui.description.text=Description
 
-gui.mail.seal=Lettre Scéllée
+gui.mail.seal=Lettre Scellée
 gui.mail.close=Lettre Fermée
+
+gui.nursejoy.name=Infirmière Joëlle
+gui.nursejoy.healing=Laisse moi soigner ces Pokemon pour toi !
+gui.nursejoy.full=Je suis désolé. Je ne trouve aucune station de soin disponible.
+ 
+gui.shopkeeper.money=Argent
+gui.shopkeeper.price=Prix
+gui.shopkeeper.quantity=Quantité
+gui.shopkeeper.buy=Acheter
+gui.shopkeeper.sell=Vendre
 
 enum.aggro.timid=Timide
 enum.aggro.default=Défaut
@@ -5081,7 +5124,7 @@ gui.battle.accuracy=Précision
 gui.battle.power=Pouvoir
 gui.battle.back=Retour
 gui.battle.whatdo=Que doit faire $p ?
-gui.battle.type=Type: 
+gui.battle.type=Type:
 
 gui.levelupscreen.lvlup=Votre $p est désormais niveau $l !
 
@@ -5183,6 +5226,7 @@ trainer.model.rocketgruntfemale5=Crapule ♀ 5
 trainer.model.rocketgruntfemale6=Crapule ♀ 6
 
 npc.model.artist=Artiste
+npc.model.baker=Boulanger
 npc.model.battlegirl=Combattante
 npc.model.blackbelt=Karatéka
 npc.model.cueball=Loubard
@@ -5201,6 +5245,7 @@ npc.model.npcchat1=Vieil Homme
 npc.model.npcchat2=Homme
 npc.model.officerjenny=Agent Jenny
 npc.model.ornithologist=Ornithologue
+npc.model.pkmn_breeder_f2=Éleveur Pokémon
 npc.model.pokefan_f=Pokéfan ♀
 npc.model.pokefan_m=Pokéfan ♂
 npc.model.policeman=Policier
@@ -5218,6 +5263,10 @@ npc.model.schoolboy=Écolier
 npc.model.schoolgirl=Écolière
 npc.model.scientist_f=Scientifique ♀
 npc.model.scientist_m=Scientifique ♂
+npc.model.shopgirl=Shop Girl
+npc.model.shoplady=Shop Lady
+npc.model.shopman=Shop Man
+npc.model.streetthug=Racaille
 npc.model.supernerd=Intello
 
 container.MechanicalAnvil=Enclume Mécanique
@@ -5232,7 +5281,7 @@ nbt.speed.name=Vitesse:
 nbt.spattack.name=Attaque Spé.:
 nbt.spdefense.name=Défense Spé.:
 nbt.hp.name=PV:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=Attaque
 nbt.defense2.name=Défense
@@ -5407,6 +5456,7 @@ tile.templePillar.name=Pilier de Temple
 tile.hiddenCube.name=Cubé Invisible
 tile.hiddenIronDoor.name=Porte en Fer Invisible
 tile.hiddenWoodenDoor.name=Porte en Bois Invisible
+tile.hiddenPressurePlate.name=Plaque de Pression Invisible
 tile.DawnDusk Ore.name=Minerai de Pierre Aube/Nuit
 tile.templePillar.Pillar.name=Pilier de Temple
 tile.templePillar.BrokenPillar.name=Pilier de Temple cassé
@@ -5443,7 +5493,7 @@ TreeTop.name=Haut d'Arbre
 TreeBottom.name=Bas d'Arbre
 WoodenFlooring.name=Plancher en Bois
 PokeCenterSign.name=Pancarte PokéCenter 
-PokeMartSign.name=Pancarte PokéMarché
+PokeMartSign.name=Pancarte Poké Marché
 Window1.name=Fenêtre 1
 Window2.name=Fenêtre 2
 SandyGrass.name=Herbe Sablonneuse
@@ -5892,6 +5942,7 @@ pixelmon.effect.wagfinger=%s agite son doigt !
 pixelmon.effect.OHKO=C'est un OHKO !
 pixelmon.effect.painsplit=Les combattants partagent leur souffrance !
 pixelmon.effect.payday=Des pièces sont éparpillées de partout !
+pixelmon.effect.paydayend=%s a trouvé %s PokéDollars !
 pixelmon.effect.psycheup=%s copie les changements de stats de %s !
 pixelmon.effect.raisestats=Les stats de %s ont augmenté !
 pixelmon.effect.freefrom=%s c'est libéré de %s !

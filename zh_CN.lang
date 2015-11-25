@@ -391,6 +391,7 @@ item.GripClaw.name=黏着钩爪
 item.FloatStone.name=浮石
 item.MicleBerry.name=神秘果
 item.RingTarget.name=狙击标靶
+item.AmuletCoin.name=护身金币
 
 
 item.Full Incense.name=满腹熏香
@@ -3281,6 +3282,7 @@ pixelmon.meloetta.name=美洛耶塔
 pixelmon.meloetta.description=演奏出的旋律有着让附近的神奇宝贝时而喜悦、时而悲伤的力量
 pixelmon.genesect.name=盖诺赛克特
 pixelmon.genesect.description=存在于三亿年前的神奇宝贝.被电浆团改造，在背部加上了炮台
+pixelmon.unimplemented.description=这个神奇宝贝并不在Pixelmon中呢。
 
 //Command Stuffs
 
@@ -3295,6 +3297,11 @@ pixelmon.command.battle2.first=第一个参与者必须是玩家。
 pixelmon.command.battle2.invalid=参与者 %d 是无效的。请再试一次。
 pixelmon.command.battle2.level=请提供一个等级！
 pixelmon.command.battle2.cantstart=无效的参与者。
+pixelmon.command.breed.giveegg=%s 和 %s 孕育出了一个蛋！
+pixelmon.command.breed.invalidslot=背包位置参数 %s 无效！
+pixelmon.command.breed.notcompatible=%s 和 %s 蛋组不相符！
+pixelmon.command.breed.novalidpairs=在 %s 的队伍中没能找到相符的繁殖对象。
+pixelmon.command.breed.nullslot=没有精灵在背包位置 %s 上！
 pixelmon.command.copyToDB.disabled=保存数据到数据库设置没有在配置中启用！
 pixelmon.command.endbattle.notinbattle=%s 没有在对战中。
 pixelmon.command.endbattle.endbattle=对战圆满落幕。
@@ -3313,6 +3320,9 @@ pixelmon.command.give.notifygiveegg=%s 给予了玩家 %s 一个 %s 的蛋！
 pixelmon.command.heal.cantheal=无法治疗 %s 的神奇宝贝！因为他/她正在战斗！
 pixelmon.command.heal.healed=成功治疗了 %s 的神奇宝贝！
 pixelmon.command.heal.notifyhealed=%s 成功治疗了 %s 的神奇宝贝！
+pixelmon.command.snapshot.corners=边界:
+pixelmon.command.snapshot.nobounds=没有边界设定被保存呢！
+pixelmon.command.snapshot.nosave=没有方块被保存呢！
 pixelmon.command.spawn.spawned=成功生成了一只 %s。
 pixelmon.command.spawn.spawnednotify=%s 生成了一只 %s。
 pixelmon.command.spectate.nobattle=%s 不在战斗中。
@@ -3331,6 +3341,12 @@ pixelmon.command.teach.slot=背包位数字必须在1至6之间。
 pixelmon.command.unlock=成功的解锁了 %s 被锁定的神奇宝贝！
 pixelmon.command.warpplate.notstanding=您尚未站在地标点上。
 pixelmon.command.warpplate.set=设定 %s 为地标点。
+pixelmon.command.transfer.notenoughmoney=没有足够的资金来完成转让。
+pixelmon.command.transfer.sameplayer=你不能把钱给你自己！
+pixelmon.command.transfer.transferred=成功地转移 %s 神奇宝贝币给 %s！
+pixelmon.command.transfer.notifytransfer=%s 成功地转移 %s 神奇宝贝币给 %s！
+pixelmon.command.givemoney.given=成功添加 %s 神奇宝贝币到 %s 的账户！
+pixelmon.command.givemoney.notifygive=%s 成功添加 %s 神奇宝贝币到 %s 的账户！
 
 //other
 pixelmon.drops.fullinventory=您的物品栏已经满了！ %s 掉落到了地上！
@@ -3350,7 +3366,7 @@ pixelmon.interaction.berry=%s 的 %s 下降了！
 pixelmon.interaction.berryfail=%s 的 %s 已经不能再低了。
 
 pixelmon.general.noeffect=这并没有效果
-pixelmon.general.needop=您必须是OP才可以进行这个操作
+pixelmon.general.needop=您必须是OP或具有此操作的权限才可以进行这个操作
 pixelmon.general.needowner=只有这个方块的主人才可以使用这个方块
 pixelmon.general.playerbusy=玩家很繁忙！
 pixelmon.general.disabledblock=这个服务器禁用了这个方块
@@ -3382,6 +3398,7 @@ pixelmon.entitytrainer.onceday=这个训练师每天只能对战一次。
 pixelmon.entitytrainer.oncemcday=这个训练师Minecraft中每天只能对战一次。
 pixelmon.entitytrainer.onceplayer=这个训练师每个玩家只能对战一次。
 pixelmon.entitytrainer.level=Lv: 
+pixelmon.entitytrainer.winnings=您获得了 %s 神奇宝贝币因为击败了 %s！
 
 pixelmon.statue.despawn=神奇宝贝已被禁止生成
 
@@ -3519,15 +3536,15 @@ pixelmon.orb.isfull=您的珠满了！
 
 //achievements
 achievement.ItemFinderChieve=道具箱猎手！
-achievement.ItemFinderChieve.desc=您合成了一个道具箱搜寻装置！
+achievement.ItemFinderChieve.desc=合成了一个道具箱搜寻装置！
 achievement.HiddenPokeLootChieve=卧槽！隐藏的道具箱！
-achievement.HiddenPokeLootChieve.desc=您找到了一个隐藏的道具箱！
+achievement.HiddenPokeLootChieve.desc=找到了一个隐藏的道具箱！
 achievement.NormalPokeLootChieve=卧槽！道具箱！
-achievement.NormalPokeLootChieve.desc=您找到了一个道具箱！
+achievement.NormalPokeLootChieve.desc=找到了一个道具箱！
 achievement.LootMasterBallChieve=这是一个大师球！！！
-achievement.LootMasterBallChieve.desc=您找到了一个大师球道具箱！
+achievement.LootMasterBallChieve.desc=找到了一个大师球道具箱！
 achievement.GrottoChieve=这里有一个通道…
-achievement.GrottoChieve.desc=您找到了一个隐藏的洞穴！
+achievement.GrottoChieve.desc=找到了一个隐藏的洞穴！
 achievement.PokedexChieve=追求神奇的科学.
 achievement.PokedexChieve.desc=合成一个口袋妖怪图鉴.
 achievement.PokeballChieve=把他们全部抓住！
@@ -3796,11 +3813,16 @@ gui.trading.select=选择一个神奇宝贝。
 gui.pokedex.pokedex=神奇宝贝图鉴
 gui.pokedex.height=身高：
 gui.pokedex.weight=体重：
-gui.pokedex.more=更多…
+gui.pokedex.more=选项
 gui.pokedex.wiki=查看百科
-
+gui.pokedex.meters=米
+gui.pokedex.feet=英尺
+gui.pokedex.kilograms=千克
+gui.pokedex.pounds=磅
 gui.pokedexoptions.done=好
 gui.pokedexoptions.options=神奇宝贝图鉴 菜单
+gui.pokedexoptions.metric=公制
+gui.pokedexoptions.imperial=英国/美国单位制
 
 gui.yesno.trade=您确定要进行通讯交换吗？
 gui.yesno.yes=是
@@ -3827,8 +3849,8 @@ gui.renamePoke.renamePokemon=重命名您的神奇宝贝
 gui.screenpokechecker.moves=技能
 gui.screenpokechecker.stats=统计
 gui.screenpokechecker.rename=重命名
-gui.screenpokechecker.lvl=Lvl: 
-gui.screenpokechecker.number=No. 
+gui.screenpokechecker.lvl=Lvl:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=状态
 gui.screenpokechecker.fainted=*濒死*
 gui.screenpokechecker.texp=总经验值
@@ -3892,6 +3914,14 @@ gui.trainereditor.edit=编辑
 gui.trainereditor.add=新增
 gui.trainereditor.deletelastpoke=删除最后的神奇宝贝
 gui.trainereditor.delete=删除训练师
+gui.trainereditor.advanced=高级
+gui.trainereditor.evs=努力值
+gui.trainereditor.ivs=个体值
+gui.trainereditor.maxivs=最大个体值
+gui.trainereditor.minivs=最小个体值
+gui.trainereditor.randomivs=随机个体值
+gui.trainereditor.resetevs=重置努力值
+gui.trainereditor.helditem=携带物品
 gui.trainereditor.pokemoneditor=训练师编辑器 - 神奇宝贝编辑器
 gui.trainereditor.name=名字
 gui.trainereditor.shiny=闪光
@@ -3919,6 +3949,8 @@ gui.chooseNPC.trader=创建交换者
 gui.chooseNPC.chatting=创建对话NPC
 gui.chooseNPC.relearner=创建技能回忆教学NPC
 gui.chooseNPC.tutor=创建技能教学师
+gui.chooseNPC.nursejoy=创建医生
+gui.chooseNPC.shopkeeper=创建店长
 gui.npceditor.despawn=删除NPC
 gui.npceditor.page1=对话文本 1
 gui.npceditor.page2=对话文本 2
@@ -3928,7 +3960,7 @@ gui.npceditor.page4=对话文本 4
 gui.overlay1v1.lv=Lv. 
 
 gui.starter.trademark1=这是一个由国外粉丝制作的Mod，里面使用的神奇宝贝等资料版权均属于
-gui.starter.trademark2=任天堂 和 Game Freak 公司。 简体中文语言由 神秘幻想服务器 TT702 提供。
+gui.starter.trademark2=任天堂 和 Game Freak 公司。 简体中文语言由 神秘幻想服务器 TT702 提供，并由 Yyiyun 协助润色。
 gui.starter.trademark3=如果你们想要支持他们就去买(New)3DS和XY(ORAS)吧！
 gui.starter.trademark4=欢迎来到由Pixelmon为您提供的神奇宝贝世界！
 gui.starter.trademark5=现在请选择与您成为伙伴的初学者神奇宝贝！
@@ -3950,6 +3982,12 @@ gui.mail.close=关闭信函
 gui.nursejoy.name=乔伊护士
 gui.nursejoy.healing=让我来为您治疗您的神奇宝贝吧！
 gui.nursejoy.full=很抱歉，我没能找到空闲的治疗机！
+
+gui.shopkeeper.money=金钱
+gui.shopkeeper.price=价格
+gui.shopkeeper.quantity=数量
+gui.shopkeeper.buy=购买
+gui.shopkeeper.sell=出售
 
 enum.aggro.timid=胆小
 enum.aggro.default=默认
@@ -4037,7 +4075,7 @@ gui.battle.accuracy=命中率
 gui.battle.power=伤害
 gui.battle.back=返回
 gui.battle.whatdo=请问您想让 $p 做什么？
-gui.battle.type=属性: 
+gui.battle.type=属性:
 
 gui.levelupscreen.lvlup=恭喜！您的 $p 升级到了等级 $l ！
 
@@ -4209,7 +4247,7 @@ nbt.speed.name=速度:
 nbt.spattack.name=特攻:
 nbt.spdefense.name=特防:
 nbt.hp.name=HP:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=攻击
 nbt.defense2.name=防御
@@ -4460,6 +4498,12 @@ tile.templeBlock.name=神社座
 tile.templeStairs.name=神社楼梯
 tile.templeBrickStairs.name=神社半砖
 tile.templePillar.name=神社支柱
+tile.hiddenCube.name=隐藏的方块
+tile.hiddenIronDoor.name=隐藏的铁门
+tile.hiddenWoodenDoor.name=隐藏的木门
+tile.hiddenPressurePlate.name=隐藏的压力板
+
+
 
 ability.Adaptability.name= 适应力
 ability.Adaptability.description=增强同属性技能的力量
@@ -4869,6 +4913,7 @@ pixelmon.effect.wagfinger=%s 摇摆了它的手指！
 pixelmon.effect.OHKO=一击必杀！
 pixelmon.effect.painsplit=战斗中的精灵分担了它的痛苦！
 pixelmon.effect.payday=到处都散落着硬币！
+pixelmon.effect.paydayend=%s 获得了 %s 的神奇宝贝币！
 pixelmon.effect.psycheup=%s 复制了 %s 的状态变更！
 pixelmon.effect.raisestats=%s 的能力上升！
 pixelmon.effect.freefrom=%s 让自己自由了

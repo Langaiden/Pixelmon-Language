@@ -3306,6 +3306,8 @@ pixelmon.meloetta.description=The melodies sung by Meloetta have the power to ma
 pixelmon.genesect.name=Genesect
 pixelmon.genesect.description=This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 
+pixelmon.unimplemented.description=This Pokémon is not implemented in Pixelmon yet.
+
 //Command stuff
 
 pixelmon.command.battle.battlebetween=Battle between %s and %s started!
@@ -3319,6 +3321,11 @@ pixelmon.command.battle2.first=First participant must be a player.
 pixelmon.command.battle2.invalid=Participant %d was invalid. Please try again.
 pixelmon.command.battle2.level=Please provide a level!
 pixelmon.command.battle2.cantstart=Invalid participants.
+pixelmon.command.breed.giveegg=%s and %s made an Egg!
+pixelmon.command.breed.invalidslot=Slot argument %s is invalid!
+pixelmon.command.breed.notcompatible=%s and %s are not compatible!
+pixelmon.command.breed.novalidpairs=No compatible breeding pairs were found in %s's party.
+pixelmon.command.breed.nullslot=There is no Pokémon in slot %s!
 pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 pixelmon.command.endbattle.notinbattle=%s is not in a battle.
 pixelmon.command.endbattle.endbattle=Battle ended successfully.
@@ -3337,6 +3344,9 @@ pixelmon.command.give.notifygiveegg=%s gave %s a %s Egg!
 pixelmon.command.heal.cantheal=Cannot heal %s's Pokémon while they are in battle!
 pixelmon.command.heal.healed=Successfully healed %s's Pokémon!
 pixelmon.command.heal.notifyhealed=%s successfully healed %s's Pokémon!
+pixelmon.command.snapshot.corners=Corners:
+pixelmon.command.snapshot.nobounds=No bounds have been defined to save yet!
+pixelmon.command.snapshot.nosave=No blocks have been saved yet!
 pixelmon.command.spawn.spawned=Successfully spawned a %s.
 pixelmon.command.spawn.spawnednotify=%s successfully spawned %s.
 pixelmon.command.spectate.nobattle=%s is not in a battle.
@@ -3355,6 +3365,12 @@ pixelmon.command.teach.slot=Slot number must be between 1 and 6.
 pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon.
 pixelmon.command.warpplate.notstanding=You are not standing on a warp plate.
 pixelmon.command.warpplate.set=Set warp target to %s.
+pixelmon.command.transfer.notenoughmoney=Not enough money to complete transfer.
+pixelmon.command.transfer.sameplayer=You cannot send money to yourself!
+pixelmon.command.transfer.transferred=Successfully transferred %s PokéDollars to %s!
+pixelmon.command.transfer.notifytransfer=%s successfully transferred %s PokéDollars to %s!
+pixelmon.command.givemoney.given=Successfully added %s PokéDollars to %s's balance!
+pixelmon.command.givemoney.notifygive=%s successfully added %s PokéDollars to %s's balance!
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -3408,6 +3424,7 @@ pixelmon.entitytrainer.onceday=This Trainer can only be battled once a day.
 pixelmon.entitytrainer.oncemcday=This Trainer can only be battled once a Minecraft day.
 pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each player.
 pixelmon.entitytrainer.level=Lv: 
+pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
 
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
@@ -3524,15 +3541,15 @@ pixelmon.orb.isfull=Your orb is full!
 
 //Achievements
 achievement.ItemFinderChieve=Hidden PokéLoot Hunter!
-achievement.ItemFinderChieve.desc=You crafted an Item Finder!
+achievement.ItemFinderChieve.desc=Craft an Item Finder.
 achievement.HiddenPokeLootChieve=Hidden PokéLoot FTW!
-achievement.HiddenPokeLootChieve.desc=You found Hidden PokéLoot!
+achievement.HiddenPokeLootChieve.desc=Find hidden PokéLoot.
 achievement.NormalPokeLootChieve=PokéLoot FTW!
-achievement.NormalPokeLootChieve.desc=You found a PokéLoot Chest!
+achievement.NormalPokeLootChieve.desc=Find a PokéLoot Chest.
 achievement.LootMasterBallChieve=It's a Master Ball!!!
-achievement.LootMasterBallChieve.desc=You found a PokéLoot Master Ball!
+achievement.LootMasterBallChieve.desc=Find a PokéLoot Master Ball.
 achievement.GrottoChieve=There's a passage here...
-achievement.GrottoChieve.desc=You found a Hidden Grotto!
+achievement.GrottoChieve.desc=Find a Hidden Grotto.
 achievement.PokedexChieve=Scientific Pursuits
 achievement.PokedexChieve.desc=Craft a Pokédex.
 achievement.PokeballChieve=Gotta catch 'em all!
@@ -3541,7 +3558,7 @@ achievement.LegendaryChieve=First Legendary
 achievement.LegendaryChieve.desc=Catch your first Legendary.
 achievement.ShinyChieve=Ooh Shiny!
 achievement.ShinyChieve.desc=Catch a Shiny Pokémon.
-achievement.FirstCatchChieve=1 down, many to go!
+achievement.FirstCatchChieve=One down, many to go!
 achievement.FirstCatchChieve.desc=Catch your first Pokémon.
 achievement.TrainerChieve=Victory!
 achievement.TrainerChieve.desc=Win a Trainer battle.
@@ -3824,8 +3841,8 @@ gui.renamePoke.renamePokemon=Rename Pokémon
 gui.screenpokechecker.moves=Moves
 gui.screenpokechecker.stats=Stats
 gui.screenpokechecker.rename=Rename
-gui.screenpokechecker.lvl=Lvl: 
-gui.screenpokechecker.number=No. 
+gui.screenpokechecker.lvl=Lvl:
+gui.screenpokechecker.number=No.
 gui.screenpokechecker.status=Status
 gui.screenpokechecker.fainted=*FAINTED*
 gui.screenpokechecker.texp=Experience
@@ -3928,6 +3945,8 @@ gui.chooseNPC.trader=Create Trader
 gui.chooseNPC.chatting=Create Chatting NPC
 gui.chooseNPC.relearner=Create Move Relearner
 gui.chooseNPC.tutor=Create Move Tutor
+gui.chooseNPC.nursejoy=Create Doctor
+gui.chooseNPC.shopkeeper=Create Shopkeeper
 
 gui.overlay1v1.lv=Lv. 
 
@@ -3953,6 +3972,11 @@ gui.description.text=Description
 gui.mail.seal=Seal letter
 gui.mail.close=Close letter
 
+gui.nursejoy.name=Nurse Joy
+gui.nursejoy.healing=Let me just heal those Pokémon for you!
+gui.nursejoy.full=I'm sorry. I can't find an available healer.
+
+gui.shopkeeper.money=Money:
 enum.aggro.timid=Timid
 enum.aggro.default=Default
 enum.aggro.passive=Passive
@@ -4039,7 +4063,7 @@ gui.battle.accuracy=Accuracy
 gui.battle.power=Power
 gui.battle.back=Back
 gui.battle.whatdo=What will $p do?
-gui.battle.type=Type: 
+gui.battle.type=Type:
 
 gui.levelupscreen.lvlup=Your $p has grown to level $l!
 
@@ -4142,6 +4166,7 @@ trainer.model.firebreather4=Team Magma
 trainer.model.firebreather5=Fire Bat
 
 npc.model.artist=Artist
+npc.model.baker=Baker
 npc.model.battlegirl=Battle Girl
 npc.model.blackbelt=Black Belt
 npc.model.cueball=Cue Ball
@@ -4160,6 +4185,7 @@ npc.model.npcchat1=Old Man
 npc.model.npcchat2=Man
 npc.model.officerjenny=Officer Jenny
 npc.model.ornithologist=Ornithologist
+npc.model.pkmn_breeder_f2=Pokémon Breeder
 npc.model.pokefan_f=Female Pokéfan
 npc.model.pokefan_m=Male Pokéfan
 npc.model.policeman=Policeman
@@ -4177,6 +4203,10 @@ npc.model.schoolboy=Schoolboy
 npc.model.schoolgirl=Schoolgirl
 npc.model.scientist_f=Female Scientist
 npc.model.scientist_m=Male Scientist
+npc.model.shopgirl=Shop Girl
+npc.model.shoplady=Shop Lady
+npc.model.shopman=Shop Man
+npc.model.streetthug=Street Thug
 npc.model.supernerd=Super Nerd
 
 container.MechanicalAnvil=Mechanical Anvil
@@ -4191,7 +4221,7 @@ nbt.speed.name=Speed:
 nbt.spattack.name=Sp. Attack:
 nbt.spdefense.name=Sp. Defence:
 nbt.hp.name=HP:
-nbt.pp.name=PP: 
+nbt.pp.name=PP:
 
 nbt.attack2.name=Attack
 nbt.defense2.name=Defence
@@ -4365,6 +4395,7 @@ tile.templePillar.name=Temple Pillar
 tile.hiddenCube.name=Hidden Cube
 tile.hiddenIronDoor.name=Hidden Iron Door
 tile.hiddenWoodenDoor.name=Hidden Wooden Door
+tile.hiddenPressurePlate.name=Hidden Pressure Plate
 tile.DawnDusk Ore.name=Dawn/Dusk Ore
 tile.templePillar.Pillar.name=Temple Pillar
 tile.templePillar.BrokenPillar.name=Broken Pillar
@@ -4401,7 +4432,7 @@ TreeTop.name=Tree Top
 TreeBottom.name=Tree Bottom
 WoodenFlooring.name=Wooden Flooring
 PokeCenterSign.name=PokéCenter Sign
-PokeMartSign.name=PokéMart Sign
+PokeMartSign.name=Poké Mart Sign
 Window1.name=Window 1
 Window2.name=Window 2
 SandyGrass.name=Sandy Grass
@@ -4849,7 +4880,8 @@ pixelmon.effect.magnitude=Magnitude %d!
 pixelmon.effect.wagfinger=%s waggled its finger!
 pixelmon.effect.OHKO=It's a one-hit KO!
 pixelmon.effect.painsplit=The battlers shared their pain!
-pixelmon.effect.payday=Coins are scattered all around!
+pixelmon.effect.payday=Coins scattered all around!
+pixelmon.effect.paydayend=%s found %s PokéDollars!
 pixelmon.effect.psycheup=%s copied %s stat changes!
 pixelmon.effect.raisestats=%s's stats rose!
 pixelmon.effect.freefrom=%s freed itself from %s!
