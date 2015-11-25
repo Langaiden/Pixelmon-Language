@@ -797,6 +797,12 @@ item.DawnstoneHoe.name=Dawn Stone Hoe
 item.DawnstonePickaxe.name=Dawn Stone Pickaxe
 item.DawnstoneShovel.name=Dawn Stone Shovel
 item.DawnstoneSword.name=Dawn Stone Sword
+item.DuskstoneHammer.name=Dusk Stone Hammer
+item.DuskstoneAxe.name=Dusk Stone Axe
+item.DuskstoneHoe.name=Dusk Stone Hoe
+item.DuskstonePickaxe.name=Dusk Stone Pickaxe
+item.DuskstoneShovel.name=Dusk Stone Shovel
+item.DuskstoneSword.name=Dusk Stone Sword
 item.RubyHelm.name=Magma Helmet
 item.RubyPlate.name=Magma Chestplate
 item.RubyLegs.name=Magma Leggings
@@ -849,6 +855,10 @@ item.DawnstoneHelm.name=Dawn Stone Helmet
 item.DawnstonePlate.name=Dawn Stone Chestplate
 item.DawnstoneLegs.name=Dawn Stone Leggings
 item.DawnstoneBoots.name=Dawn Stone Boots
+item.DuskstoneHelm.name=Dusk Stone Helmet
+item.DuskstonePlate.name=Dusk Stone Chestplate
+item.DuskstoneLegs.name=Dusk Stone Leggings
+item.DuskstoneBoots.name=Dusk Stone Boots
 item.PicketFence.name=Picket Fence
 item.pokeGift.name=Poké Gift
 
@@ -3948,6 +3958,8 @@ gui.chooseNPC.tutor=Create Move Tutor
 gui.chooseNPC.nursejoy=Create Doctor
 gui.chooseNPC.shopkeeper=Create Shopkeeper
 
+gui.shopkeeper.json=Type
+
 gui.overlay1v1.lv=Lv. 
 
 gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
@@ -4204,10 +4216,23 @@ npc.model.schoolgirl=Schoolgirl
 npc.model.scientist_f=Female Scientist
 npc.model.scientist_m=Male Scientist
 npc.model.shopgirl=Shop Girl
-npc.model.shoplady=Shop Lady
+npc.model.shoplady2=Shop Lady 2
+npc.model.shoplady3=Shop Lady 3
+npc.model.shoplady4=Shop Lady 4
 npc.model.shopman=Shop Man
+npc.model.shopman2=Shop Man 2
+npc.model.shopman3=Shop Man 3
+npc.model.shopman4=Shop Man 4
+npc.model.shopman5=Shop Man 5
+npc.model.shopsecondman=Shop Second Man
 npc.model.streetthug=Street Thug
 npc.model.supernerd=Super Nerd
+
+npc.shopkeeper.pokemartmain1=Poké Mart Main 1
+npc.shopkeeper.pokemartmain2=Poké Mart Main 2
+npc.shopkeeper.pokemartmain3=Poké Mart Main 3
+npc.shopkeeper.pokemartsecond1=Poké Mart Second 1
+npc.shopkeeper.pokemartsecond2=Poké Mart Second 2
 
 container.MechanicalAnvil=Mechanical Anvil
 
