@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: November 2, 2015 - by ToklaX
+* Last Update: November 27, 2015 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Ultima actualización: 2 de Noviembre de 2015 por ToklaX
+* Ultima actualización: 27 de Noviembre de 2015 por ToklaX
 *************************************************/
 
 /*
@@ -802,6 +802,12 @@ item.DawnstoneHoe.name=Azada de Piedra Alba
 item.DawnstonePickaxe.name=Pico de Piedra Alba
 item.DawnstoneShovel.name=Pala de Piedra Alba
 item.DawnstoneSword.name=Espada de Piedra Alba
+item.DuskstoneHammer.name=Martillo de Piedra Noche
+item.DuskstoneAxe.name=Hacha de Piedra Noche
+item.DuskstoneHoe.name=Azada de Piedra Noche
+item.DuskstonePickaxe.name=Pico de Piedra Noche
+item.DuskstoneShovel.name=Pala de Piedra Noche
+item.DuskstoneSword.name=Espada de Piedra Noche
 item.RubyHelm.name=Casco Magma
 item.RubyPlate.name=Peto Magma
 item.RubyLegs.name=Grebas Magma
@@ -854,6 +860,10 @@ item.DawnstoneHelm.name=Casco de Piedra Alba
 item.DawnstonePlate.name=Peto de Piedra Alba
 item.DawnstoneLegs.name=Grebas de Piedra Alba
 item.DawnstoneBoots.name=Botas de Piedra Alba
+item.DuskstoneHelm.name=Casco de Piedra Noche
+item.DuskstonePlate.name=Peto de Piedra Noche
+item.DuskstoneLegs.name=Grebas de Piedra Noche
+item.DuskstoneBoots.name=Botas de Piedra Noche
 item.PicketFence.name=Valla
 item.pokeGift.name=Poké Regalo
 
@@ -4775,6 +4785,7 @@ trainer.model.pkmn_breeder_f=Criadora 1
 trainer.model.pkmn_breeder_f2=Criadora 2
 
 npc.model.artist=Artista
+npc.model.baker=Pastelera
 npc.model.battlegirl=Luchadora
 npc.model.blackbelt=Karateka
 npc.model.cueball=Calvo
@@ -4793,6 +4804,7 @@ npc.model.npcchat1=Anciano
 npc.model.npcchat2=Hombre
 npc.model.officerjenny=Agente Mara
 npc.model.ornithologist=Ornitólogo
+npc.model.pkmn_breeder_f2=Criadora Pokémon
 npc.model.pokefan_f=Pokéfan ♀
 npc.model.pokefan_m=Pokéfan ♂
 npc.model.policeman=Policía
@@ -4810,6 +4822,10 @@ npc.model.schoolboy=Estudiante ♂
 npc.model.schoolgirl=Estudiante ♀
 npc.model.scientist_f=Científica
 npc.model.scientist_m=Científico
+npc.model.shopgirl=Dependienta
+npc.model.shoplady=Vendedora
+npc.model.shopman=Dependiente
+npc.model.streetthug=Macarra
 npc.model.supernerd=Supernecio
 
 container.MechanicalAnvil=Yunque Mecánico
@@ -5076,7 +5092,7 @@ PinkVendingMachine.name=Máquina de Refrescos Rosa
 RedVendingMachine.name=Máquina de Refrescos Roja
 YellowVendingMachine.name=Máquina de Refrescos Amarilla
 Fridge.name=Nevera
-PixelmonGrass.name=Hierba de Pixelmon
+PixelmonGrass.name=Hierba Pixelmon
 timedFall.name=Timed Fall
 warpPlate.name=Placa de teletransporte
 elevator.name=Ascensor
@@ -5100,7 +5116,7 @@ ability.ArenaTrap.description=Evita la huida.
 ability.AromaVeil.name=Velo Aroma
 ability.AromaVeil.description=Protege a los aliados de movimientos que afecten a su mente, como atracción.
 ability.AuraBreak.name=Rompeaura
-ability.AuraBreak.description=Invierte todas las habilidades de aura
+ability.AuraBreak.description=Invierte todas las habilidades de aura.
 ability.BadDreams.name=Mal Sueño
 ability.BadDreams.description=Reduce los PS del enemigo cuando duerme.
 ability.BattleArmour.name=Armadura Batalla
