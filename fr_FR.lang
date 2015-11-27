@@ -1,5 +1,5 @@
 /*
-*	Latest translation 08/11/2015
+*	Latest translation 25/11/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -422,6 +422,7 @@ item.GripClaw.name=Accroc Griffe
 item.FloatStone.name=Pierrallégée
 item.MicleBerry.name=Baie Micle
 item.RingTarget.name=Point de Mire
+item.AmuletCoin.name=Pièce Rune
 
 item.Full Incense.name=Encens Plein
 item.Lax Incense.name=Encens Doux
@@ -838,14 +839,18 @@ item.SunstoneHelm.name=Casque en Pierre Soleil
 item.SunstonePlate.name=Plastron en Pierre Soleil
 item.SunstoneLegs.name=Jambières en Pierre Soleil
 item.SunstoneBoots.name=Bottes en Pierre Soleil
-item.MoonstoneHelm.name=Casque en Pierre Nuit
-item.MoonstonePlate.name=Plastron en Pierre Nuit
-item.MoonstoneLegs.name=Jambières en Pierre Nuit
-item.MoonstoneBoots.name=Bottes en Pierre Nuit
+item.MoonstoneHelm.name=Casque en Pierre Lune
+item.MoonstonePlate.name=Plastron en Pierre Lune
+item.MoonstoneLegs.name=Jambières en Pierre Lune
+item.MoonstoneBoots.name=Bottes en Pierre Lune
 item.DawnstoneHelm.name=Casque en Pierre Aube
 item.DawnstonePlate.name=Plastron en Pierre Aube
 item.DawnstoneLegs.name=Jambières en Pierre Aube
 item.DawnstoneBoots.name=Bottes en Pierre Aube
+item.DuskstoneHelm.name=Casque en Pierre Nuit
+item.DuskstonePlate.name=Plastron en Pierre Nuit
+item.DuskstoneLegs.name=Jambières en Pierre Nuit
+item.DuskstoneBoots.name=Bottes en Pierre Nuit
 item.PicketFence.name=Palissade
 item.pokeGift.name=Poké Cadeau
 itemGroup.tabPokeLoot=PokéButin
@@ -5225,6 +5230,7 @@ trainer.model.rocketgruntfemale5=Crapule ♀ 5
 trainer.model.rocketgruntfemale6=Crapule ♀ 6
 
 npc.model.artist=Artiste
+npc.model.baker=Boulanger
 npc.model.battlegirl=Combattante
 npc.model.blackbelt=Karatéka
 npc.model.cueball=Loubard
@@ -5243,6 +5249,7 @@ npc.model.npcchat1=Vieil Homme
 npc.model.npcchat2=Homme
 npc.model.officerjenny=Agent Jenny
 npc.model.ornithologist=Ornithologue
+npc.model.pkmn_breeder_f2=Éleveur Pokémon
 npc.model.pokefan_f=Pokéfan ♀
 npc.model.pokefan_m=Pokéfan ♂
 npc.model.policeman=Policier
@@ -5260,6 +5267,10 @@ npc.model.schoolboy=Écolier
 npc.model.schoolgirl=Écolière
 npc.model.scientist_f=Scientifique ♀
 npc.model.scientist_m=Scientifique ♂
+npc.model.shopgirl=Commerçante Fille
+npc.model.shoplady=Commerçante Femme
+npc.model.shopman=Commerçant
+npc.model.streetthug=Racaille
 npc.model.supernerd=Intello
 
 container.MechanicalAnvil=Enclume Mécanique
@@ -5486,7 +5497,7 @@ TreeTop.name=Haut d'Arbre
 TreeBottom.name=Bas d'Arbre
 WoodenFlooring.name=Plancher en Bois
 PokeCenterSign.name=Pancarte PokéCenter 
-PokeMartSign.name=Pancarte PokéMarché
+PokeMartSign.name=Pancarte Poké Marché
 Window1.name=Fenêtre 1
 Window2.name=Fenêtre 2
 SandyGrass.name=Herbe Sablonneuse
@@ -5935,6 +5946,7 @@ pixelmon.effect.wagfinger=%s agite son doigt !
 pixelmon.effect.OHKO=C'est un OHKO !
 pixelmon.effect.painsplit=Les combattants partagent leur souffrance !
 pixelmon.effect.payday=Des pièces sont éparpillées de partout !
+pixelmon.effect.paydayend=%s a trouvé %s PokéDollars !
 pixelmon.effect.psycheup=%s copie les changements de stats de %s !
 pixelmon.effect.raisestats=Les stats de %s ont augmenté !
 pixelmon.effect.freefrom=%s c'est libéré de %s !
