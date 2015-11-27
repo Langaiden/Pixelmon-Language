@@ -787,6 +787,12 @@ item.DawnstoneHoe.name=觉醒之石锄
 item.DawnstonePickaxe.name=觉醒之石镐
 item.DawnstoneShovel.name=觉醒之石铲
 item.DawnstoneSword.name=觉醒之石剑
+item.DuskstoneHammer.name=暗之石锤
+item.DuskstoneAxe.name=暗之石斧
+item.DuskstoneHoe.name=暗之石锄
+item.DuskstonePickaxe.name=暗之石镐
+item.DuskstoneShovel.name=暗之石铲
+item.DuskstoneSword.name=暗之石剑
 item.RubyHelm.name=火岩队头盔
 item.RubyPlate.name=火岩队胸甲
 item.RubyLegs.name=火岩队裤
@@ -839,6 +845,10 @@ item.DawnstoneHelm.name=觉醒之石头盔
 item.DawnstonePlate.name=觉醒之石胸甲
 item.DawnstoneLegs.name=觉醒之石裤
 item.DawnstoneBoots.name=觉醒之石靴
+item.DuskstoneHelm.name=暗之石头盔
+item.DuskstonePlate.name=暗之石胸甲
+item.DuskstoneLegs.name=暗之石裤
+item.DuskstoneBoots.name=暗之石靴
 item.PicketFence.name=栅栏
 item.pokeGift.name=神奇宝贝礼品盒
 
@@ -4196,6 +4206,7 @@ trainer.model.pkmn_breeder_f=培育家 1
 trainer.model.pkmn_breeder_f2=培育家 2
 
 npc.model.artist=艺术家
+npc.model.baker=面包师
 npc.model.battlegirl=对战少女
 npc.model.blackbelt=空手道王
 npc.model.cueball=光头
@@ -4215,6 +4226,7 @@ npc.model.npcchat2=男人
 
 npc.model.officerjenny=珍妮军官
 npc.model.ornithologist=鸟类学家
+npc.model.pkmn_breeder_f2=神奇宝贝培育家
 npc.model.pokefan_f=女神奇宝贝迷
 npc.model.pokefan_m=男神奇宝贝迷
 npc.model.policeman=巡逻员
@@ -4232,6 +4244,10 @@ npc.model.schoolboy=男学生
 npc.model.schoolgirl=女学生
 npc.model.scientist_f=女研究员
 npc.model.scientist_m=男研究员
+npc.model.shopgirl=女店员
+npc.model.shoplady=店内小姐
+npc.model.shopman=男店员
+npc.model.streetthug=可怕的大叔
 npc.model.supernerd=理科男生
 
 
