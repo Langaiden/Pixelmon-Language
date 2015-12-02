@@ -4455,6 +4455,9 @@ tile.templePillar.BrokenPillar.name=Broken Pillar
 tile.PokeGift.name=Poké Gift
 tile.EventPokeGift.name=Event Poké Gift
 tile.movementPlate.name=Movement Plate
+tile.pokechest.name=Poké Chest
+tile.ultrachest.name=Ultra Chest
+tile.masterchest.name=Master Chest
 
 PokeDirt.name=PokéDirt
 PokeSand.name=PokéSand
