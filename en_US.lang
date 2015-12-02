@@ -3999,6 +3999,8 @@ gui.shopkeeper.quantity=Quantity
 gui.shopkeeper.buy=Buy
 gui.shopkeeper.sell=Sell
 
+gui.shopkeepereditor.refreshItems=Refresh Items
+
 enum.aggro.timid=Timid
 enum.aggro.default=Default
 enum.aggro.passive=Passive
