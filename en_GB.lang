@@ -486,7 +486,8 @@ item.chisel.name=Chisel
 item.ranchupgrade.name=Ranch Upgrade
 item.hourglassgold.name=Isi's Golden Hourglass
 item.hourglasssilver.name=Isi's Silver Hourglass
-item.PixelmonSprite.name=Pixelmon Sprite
+item.PixelmonSprite.name=Token
+item.EntityPixelmonPaintingItem.name=Pokémon Painting
 
 item.pokeChest.name=Poké Chest
 item.ultraChest.name=Ultra Chest
