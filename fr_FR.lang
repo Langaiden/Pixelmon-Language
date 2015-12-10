@@ -1,5 +1,5 @@
 /*
-*	Latest translation 25/11/2015
+*	Latest translation 10/12/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -491,6 +491,14 @@ item.chisel.name=Cisaille
 item.ranchupgrade.name=Amélioration de Ranch
 item.hourglassgold.name=Sablier en Or d'Isi
 item.hourglasssilver.name=Sablier en Argent d'Isi
+
+item.PixelmonSprite.name=Jeton
+item.EntityPixelmonPaintingItem.name=Peinture Pokémon
+ 
+item.pokeChest.name=Poké Chest
+item.ultraChest.name=Ultra Chest
+item.masterChest.name=Master Chest
+ 
 item.TM1 - Hone Claws.name=CT1: Aiguisage
 item.TM1 - Wide Guard.name=CT1: Garde Large
 item.TM2 - Dragon Claw.name=CT2: Dracogriffe
@@ -5041,6 +5049,8 @@ gui.shopkeeper.quantity=Quantité
 gui.shopkeeper.buy=Acheter
 gui.shopkeeper.sell=Vendre
 
+gui.shopkeepereditor.refreshItems=Actualiser Objets
+
 enum.aggro.timid=Timide
 enum.aggro.default=Défaut
 enum.aggro.passive=Passif
@@ -5467,6 +5477,9 @@ tile.templePillar.BrokenPillar.name=Pilier de Temple cassé
 tile.PokeGift.name=Poké Cadeau
 tile.EventPokeGift.name=Poké Cadeau d'événement
 tile.movementPlate.name=Plaque de mouvement
+tile.pokechest.name=Poké Chest
+tile.ultrachest.name=Ultra Chest
+tile.masterchest.name=Master Chest
 
 PokeDirt.name=PokéTerre
 PokeSand.name=PokéSable
