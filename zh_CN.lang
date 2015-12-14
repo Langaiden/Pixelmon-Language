@@ -473,6 +473,7 @@ item.chisel.name=精灵雕刻工具
 item.ranchupgrade.name=大家的精灵牧场升级
 item.hourglassgold.name=Isi的金色的沙漏
 item.hourglasssilver.name=Isi的银色的沙漏
+item.PixelmonSprite.name=像素精灵雪碧
 
 item.HiddenPressurePlate.name=隐藏的压力板
 item.HiddenCube.name=隐藏的方块
@@ -787,6 +788,12 @@ item.DawnstoneHoe.name=觉醒之石锄
 item.DawnstonePickaxe.name=觉醒之石镐
 item.DawnstoneShovel.name=觉醒之石铲
 item.DawnstoneSword.name=觉醒之石剑
+item.DuskstoneHammer.name=暗之石锤
+item.DuskstoneAxe.name=暗之石斧
+item.DuskstoneHoe.name=暗之石锄
+item.DuskstonePickaxe.name=暗之石镐
+item.DuskstoneShovel.name=暗之石铲
+item.DuskstoneSword.name=暗之石剑
 item.RubyHelm.name=火岩队头盔
 item.RubyPlate.name=火岩队胸甲
 item.RubyLegs.name=火岩队裤
@@ -839,6 +846,10 @@ item.DawnstoneHelm.name=觉醒之石头盔
 item.DawnstonePlate.name=觉醒之石胸甲
 item.DawnstoneLegs.name=觉醒之石裤
 item.DawnstoneBoots.name=觉醒之石靴
+item.DuskstoneHelm.name=暗之石头盔
+item.DuskstonePlate.name=暗之石胸甲
+item.DuskstoneLegs.name=暗之石裤
+item.DuskstoneBoots.name=暗之石靴
 item.PicketFence.name=栅栏
 item.pokeGift.name=神奇宝贝礼品盒
 
@@ -3951,6 +3962,9 @@ gui.chooseNPC.relearner=创建技能回忆教学NPC
 gui.chooseNPC.tutor=创建技能教学师
 gui.chooseNPC.nursejoy=创建医生
 gui.chooseNPC.shopkeeper=创建店长
+
+gui.shopkeeper.json=类型
+
 gui.npceditor.despawn=删除NPC
 gui.npceditor.page1=对话文本 1
 gui.npceditor.page2=对话文本 2
@@ -3988,6 +4002,8 @@ gui.shopkeeper.price=价格
 gui.shopkeeper.quantity=数量
 gui.shopkeeper.buy=购买
 gui.shopkeeper.sell=出售
+
+gui.shopkeepereditor.refreshItems=回复物品
 
 enum.aggro.timid=胆小
 enum.aggro.default=默认
@@ -4196,6 +4212,7 @@ trainer.model.pkmn_breeder_f=培育家 1
 trainer.model.pkmn_breeder_f2=培育家 2
 
 npc.model.artist=艺术家
+npc.model.baker=面包师
 npc.model.battlegirl=对战少女
 npc.model.blackbelt=空手道王
 npc.model.cueball=光头
@@ -4215,6 +4232,7 @@ npc.model.npcchat2=男人
 
 npc.model.officerjenny=珍妮军官
 npc.model.ornithologist=鸟类学家
+npc.model.pkmn_breeder_f2=神奇宝贝培育家
 npc.model.pokefan_f=女神奇宝贝迷
 npc.model.pokefan_m=男神奇宝贝迷
 npc.model.policeman=巡逻员
@@ -4232,8 +4250,25 @@ npc.model.schoolboy=男学生
 npc.model.schoolgirl=女学生
 npc.model.scientist_f=女研究员
 npc.model.scientist_m=男研究员
+npc.model.shopgirl=女店员
+npc.model.shoplady=小姐店员
+npc.model.shoplady2=小姐店员 2
+npc.model.shoplady3=小姐店员 3
+npc.model.shoplady4=小姐店员 4
+npc.model.shopman=男店员
+npc.model.shopman2=男店员 2
+npc.model.shopman3=男店员 3
+npc.model.shopman4=男店员 4
+npc.model.shopman5=男店员 5
+npc.model.shopsecondman=二号男店员
+npc.model.streetthug=可怕的大叔
 npc.model.supernerd=理科男生
 
+npc.shopkeeper.pokemartmain1=神奇宝贝商店店长 1
+npc.shopkeeper.pokemartmain2==神奇宝贝商店店长 2
+npc.shopkeeper.pokemartmain3==神奇宝贝商店店长 3
+npc.shopkeeper.pokemartsecond1=神奇宝贝商店二号 1
+npc.shopkeeper.pokemartsecond2=神奇宝贝商店二号 2
 
 container.MechanicalAnvil=机械铁砧
 
@@ -4379,6 +4414,9 @@ tile.templePillar.BrokenPillar.name=残破的支柱
 tile.PokeGift.name=神奇宝贝礼物
 tile.EventPokeGift.name=奖励型神奇宝贝礼物
 tile.movementPlate.name=传送地板
+tile.pokechest.name=宝贝球奖励箱
+tile.ultrachest.name=高级球奖励箱
+tile.masterchest.name=大师球奖励箱
 
 PokeDirt.name=神奇宝贝泥土
 PokeSand.name=神奇宝贝沙地
