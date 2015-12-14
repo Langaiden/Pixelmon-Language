@@ -1,5 +1,5 @@
 /*
-*	Latest translation 10/12/2015
+*	Latest translation 11/12/2015
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -492,8 +492,10 @@ item.ranchupgrade.name=Amélioration de Ranch
 item.hourglassgold.name=Sablier en Or d'Isi
 item.hourglasssilver.name=Sablier en Argent d'Isi
 
-item.PixelmonSprite.name=Jeton
+item.PixelmonSprite.name=Photo
 item.EntityPixelmonPaintingItem.name=Peinture Pokémon
+item.camera.name=Caméra
+item.film.name=Film
  
 item.pokeChest.name=Poké Chest
 item.ultraChest.name=Ultra Chest
