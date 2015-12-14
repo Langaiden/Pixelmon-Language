@@ -492,6 +492,10 @@ item.chisel.name=Cincel
 item.ranchupgrade.name=Mejora del Poké-Rancho
 item.hourglassgold.name=Reloj de Arena Dorado de Isi
 item.hourglasssilver.name=Reloj de Arena Plateado de Isi
+item.PixelmonSprite.name=Foto
+item.EntityPixelmonPaintingItem.name=Pintura Pokémon
+item.camera.name=Cámara
+item.film.name=Película
 
 item.pokeChest.name=Poké Cofre
 item.ultraChest.name=Ultra Cofre
@@ -4554,7 +4558,9 @@ gui.chooseNPC.chatting=Crear NPC con Diálogos
 gui.chooseNPC.relearner=Crear Recordador de Movs.
 gui.chooseNPC.tutor=Crear Tutor de Movs.
 gui.chooseNPC.nursejoy=Crear Doctor
-gui.chooseNPC.shopkeeper=Crear Tendero
+gui.chooseNPC.shopkeeper=Crear Comerciante
+
+gui.shopkeeper.json=Tipo
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4589,6 +4595,8 @@ gui.shopkeeper.price=Precio
 gui.shopkeeper.quantity=Cantidad
 gui.shopkeeper.buy=Comprar
 gui.shopkeeper.sell=Vender
+
+gui.shopkeepereditor.refreshItems=Actualizar Objetos
 
 enum.aggro.timid=Asustado
 enum.aggro.default=Por defecto
@@ -4824,9 +4832,23 @@ npc.model.scientist_f=Científica
 npc.model.scientist_m=Científico
 npc.model.shopgirl=Dependienta
 npc.model.shoplady=Vendedora
+npc.model.shoplady2=Vendedora 2
+npc.model.shoplady3=Vendedora 3
+npc.model.shoplady4=Vendedora 4
 npc.model.shopman=Dependiente
+npc.model.shopman2=Dependiente 2
+npc.model.shopman3=Dependiente 3
+npc.model.shopman4=Dependiente 4
+npc.model.shopman5=Dependiente 5
+npc.model.shopsecondman=Vendedor Secundario
 npc.model.streetthug=Macarra
 npc.model.supernerd=Supernecio
+
+npc.shopkeeper.pokemartmain1=Vendedor Principal 1
+npc.shopkeeper.pokemartmain2=Vendedor Principal 2
+npc.shopkeeper.pokemartmain3=Vendedor Principal 3
+npc.shopkeeper.pokemartsecond1=Vendedor Secundario 1
+npc.shopkeeper.pokemartsecond2=Vendedor Secundario 2
 
 container.MechanicalAnvil=Yunque Mecánico
 
@@ -5025,6 +5047,9 @@ tile.templePillar.BrokenPillar.name=Pilar en ruinas
 tile.PokeGift.name=Poké Regalo
 tile.EventPokeGift.name=Evento Poké Regalo
 tile.movementPlate.name=Placa de movimento
+tile.pokechest.name=Poké Cofre
+tile.ultrachest.name=Ultra Cofre
+tile.masterchest.name=Master Cofre
 
 PokeDirt.name=PokéTierra
 PokeSand.name=PokéArena
