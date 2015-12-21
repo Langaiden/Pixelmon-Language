@@ -4010,6 +4010,7 @@ enum.aggro.default=Default
 enum.aggro.passive=Passive
 enum.aggro.aggressive=Aggressive
 enum.trainerBoss.notboss=Not Boss
+enum.trainerBoss.equal=Equal
 enum.trainerBoss.uncommon=Uncommon
 enum.trainerBoss.rare=Rare
 enum.trainerBoss.legendary=Legendary
@@ -4022,6 +4023,7 @@ enum.trainerEncounter.once=Once
 enum.trainerEncounter.onceperday=Once per Day
 enum.trainerEncounter.oncepermcday=Once per MC Day
 enum.trainerEncounter.onceperplayer=Once per Player
+enum.trainerEncounter.unlimited=Unlimited
 
 enum.growth.microscopic=Microscopic
 enum.growth.pygmy=Pygmy
@@ -4075,6 +4077,7 @@ enum.spawnlocation.water=Water
 enum.spawnlocation.underground=Underground
 enum.spawnlocation.air=Air
 enum.spawnlocation.airpersistent=Air Persistent
+enum.spawnlocation.legendary=Legendary
 
 enum.stat.hp=HP
 enum.stat.attack=Attack
