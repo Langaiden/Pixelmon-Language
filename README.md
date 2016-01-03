@@ -17,7 +17,7 @@ Now you're all set to start translating! Here's how you do it. First you need to
 
 Once you're there, you will see a very long text file. To edit it, click the little pencil on the right.
 
-![Finding the edit button](https://gyazo.com/e773f566e3e3039f74a7fccd2ece6bba.png.png "Edit button")
+![Finding the edit button](https://gyazo.com/e773f566e3e3039f74a7fccd2ece6bba.png "Edit button")
 
 From here you will go to each lang key (the text to the left of the =) and translate the text on the right of the =. It is very important you do not change what's on the left-side of the equals sign. For example, `item.Ranch Block.name=Ranch Block` will always be `item.Ranch Block.name=[something]`. 
 
