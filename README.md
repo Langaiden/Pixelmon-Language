@@ -21,4 +21,8 @@ Once you're there, you will see a very long text file. To edit it, click the lit
 
 From here you will go to each lang key (the text to the left of the =) and translate the text on the right of the =. It is very important you do not change what's on the left-side of the equals sign. For example, `item.Ranch Block.name=Ranch Block` will always be `item.Ranch Block.name=[something]`. 
 
-When you are finished with your changes, down the bottom you enter a title for what you have changed, and optionally a description. Then make sure you have `Commit directly to the master branch` ticked, then press `Commit changes`.
+When you are finished with your changes, down the bottom you enter a title for what you have changed, and optionally a description. Then make sure you have `Commit directly to the master branch` ticked, then press `Commit changes`. After that, you'll want to make a 'pull request'. A pull request is what you do when you want your changes to be added to the mod. To make one, first make your way to the pull request tab, then click the New pull request button.
+
+![Find pull request tab](https://gyazo.com/5143477d21ba0ad31c3f5f904e5d1b05.png "New pull request")
+
+After that, it will have a few confusing parts, talking about the base and head. Don't touch any of that scary stuff, just click the nice green button saying Create pull request. Then all you need to do is put in a helpful description, then click the button to create the PR. Eventually, someone with authorisation will check your changes and accept them into the mod. 
