@@ -26,3 +26,15 @@ When you are finished with your changes, down the bottom you enter a title for w
 ![Find pull request tab](https://gyazo.com/5143477d21ba0ad31c3f5f904e5d1b05.png "New pull request")
 
 After that, it will have a few confusing parts, talking about the base and head. Don't touch any of that scary stuff, just click the nice green button saying Create pull request. Then all you need to do is put in a helpful description, then click the button to create the PR. Eventually, someone with authorisation will check your changes and accept them into the mod. 
+
+#### Updating your language files
+
+When someone has modified the same language file as you, you won't immediately have those changes in your fork. You need to do a pull request in the opposite direction to get updates to yours. You should do this every time you are about to add some translation. First off, get back to the Pull Request screen, as you need to get up to where the confusing Head and Base stuff was. Then, change the left-most repository (The "base") to your repository. It will do a little bit of thinking and then show a slightly different page, but then click the Compare across forks link.
+
+![Compare across forks](https://gyazo.com/0c0edbec66c9074cb078b2c18e8dbad8.png "Compare across forks")
+
+Now you just change the "head" to Pixelmon/Pixelmon-Language. What this does is moves all recent changes from the official repository into your fork. It should end up looking something like this (except instead of "Hiroku" it will have your username)
+
+![What it should look like](https://gyazo.com/84b61624b94820b0977ec1a753e17774.png "What it should look like")
+
+Create the pull request - there should be no need to change the title or description. After you've clicked to create the pull request, it will take you to a page where you need to hit "Merge pull request" which is once again a very nice green button. Press confirm, and it's done! You've updated your fork. Happy translating!
