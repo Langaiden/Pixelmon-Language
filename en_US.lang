@@ -4005,6 +4005,9 @@ gui.shopkeeper.sell=Sell
 
 gui.shopkeepereditor.refreshItems=Refresh Items
 
+gui.model.standing=Standing
+gui.model.flying=Flying
+
 enum.aggro.timid=Timid
 enum.aggro.default=Default
 enum.aggro.passive=Passive
