@@ -1023,6 +1023,8 @@ attack.thunder punch.name=Thunder Punch
 attack.thunder punch.description=The target is punched with an electrified fist. It may also leave the target with paralysis.
 attack.vice grip.name=ViceGrip
 attack.vice grip.description=The target is gripped and squeezed from both sides to inflict damage.
+attack.vicegrip.name=ViceGrip
+attack.vicegrip.description=The target is gripped and squeezed from both sides to inflict damage.
 attack.guillotine.name=Guillotine
 attack.guillotine.description=A vicious, tearing attack with big pincers. The target will faint instantly if this attack hits.
 attack.razor wind.name=Razor Wind
@@ -4006,6 +4008,9 @@ gui.shopkeeper.sell=Sell
 
 gui.shopkeepereditor.refreshItems=Refresh Items
 
+gui.model.standing=Standing
+gui.model.flying=Flying
+
 enum.aggro.timid=Timid
 enum.aggro.default=Default
 enum.aggro.passive=Passive
@@ -4023,7 +4028,8 @@ enum.trainerAI.wanderandengage=Wander and Engage
 enum.battleAI.default=Default
 enum.battleAI.random=Random
 enum.battleAI.aggressive=Aggressive
-enum.battleAI.smart=Smart
+enum.battleAI.tactical=Tactical
+enum.battleAI.advanced=Advanced
 enum.trainerEncounter.once=Once
 enum.trainerEncounter.onceperday=Once per Day
 enum.trainerEncounter.oncepermcday=Once per MC Day

@@ -473,7 +473,7 @@ item.chisel.name=精灵雕刻工具
 item.ranchupgrade.name=大家的精灵牧场升级
 item.hourglassgold.name=Isi的金色的沙漏
 item.hourglasssilver.name=Isi的银色的沙漏
-item.PixelmonSprite.name=像素精灵雪碧
+item.PixelmonSprite.name=照片
 
 item.HiddenPressurePlate.name=隐藏的压力板
 item.HiddenCube.name=隐藏的方块
@@ -852,6 +852,9 @@ item.DuskstoneLegs.name=暗之石裤
 item.DuskstoneBoots.name=暗之石靴
 item.PicketFence.name=栅栏
 item.pokeGift.name=神奇宝贝礼品盒
+item.EntityPixelmonPaintingItem.name=神奇宝贝绘画
+item.camera.name=照相机
+item.film.name=影片
 
 itemGroup.tabPokeLoot=神奇宝贝奖励道具
 itemGroup.Pokeballs=神奇宝贝球
@@ -4250,25 +4253,26 @@ npc.model.schoolboy=男学生
 npc.model.schoolgirl=女学生
 npc.model.scientist_f=女研究员
 npc.model.scientist_m=男研究员
-npc.model.shopgirl=女店员
-npc.model.shoplady=小姐店员
-npc.model.shoplady2=小姐店员 2
-npc.model.shoplady3=小姐店员 3
-npc.model.shoplady4=小姐店员 4
-npc.model.shopman=男店员
+npc.model.shopgirl=女店员(道具)
+npc.model.shoplady=女店员(邮件)
+npc.model.shoplady2=女店员 2
+npc.model.shoplady3=女店员 3
+npc.model.shoplady4=女店员 4
+npc.model.shopman=男店员(道具)
 npc.model.shopman2=男店员 2
 npc.model.shopman3=男店员 3
 npc.model.shopman4=男店员 4
 npc.model.shopman5=男店员 5
-npc.model.shopsecondman=二号男店员
+npc.model.shopsecondman=男店员(邮件)
 npc.model.streetthug=可怕的大叔
 npc.model.supernerd=理科男生
 
 npc.shopkeeper.pokemartmain1=神奇宝贝商店店长 1
 npc.shopkeeper.pokemartmain2==神奇宝贝商店店长 2
 npc.shopkeeper.pokemartmain3==神奇宝贝商店店长 3
-npc.shopkeeper.pokemartsecond1=神奇宝贝商店二号 1
-npc.shopkeeper.pokemartsecond2=神奇宝贝商店二号 2
+npc.shopkeeper.pokemartsecond1=神奇宝贝商店店长二 1
+npc.shopkeeper.pokemartsecond2=神奇宝贝商店店长二 2
+
 
 container.MechanicalAnvil=机械铁砧
 
