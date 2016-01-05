@@ -4010,6 +4010,11 @@ gui.shopkeepereditor.refreshItems=Refresh Items
 
 gui.model.standing=Standing
 gui.model.flying=Flying
+gui.model.animation=Animation
+gui.model.frame=Frame
+gui.model.walk=Walking
+gui.model.idle=Idle
+gui.model.fly=Flying
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default

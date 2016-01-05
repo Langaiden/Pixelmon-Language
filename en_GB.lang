@@ -3995,7 +3995,22 @@ gui.nursejoy.name=Nurse Joy
 gui.nursejoy.healing=Let me just heal those Pokémon for you!
 gui.nursejoy.full=I'm sorry. I can't find an available healer.
 
-gui.shopkeeper.money=Money:
+gui.shopkeeper.money=Money
+gui.shopkeeper.price=Price
+gui.shopkeeper.quantity=Quantity
+gui.shopkeeper.buy=Buy
+gui.shopkeeper.sell=Sell
+
+gui.shopkeepereditor.refreshItems=Refresh Items
+
+gui.model.standing=Standing
+gui.model.flying=Flying
+gui.model.animation=Animation
+gui.model.frame=Frame
+gui.model.walk=Walking
+gui.model.idle=Idle
+gui.model.fly=Flying
+
 enum.aggro.timid=Timid
 enum.aggro.default=Default
 enum.aggro.passive=Passive
