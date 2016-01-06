@@ -1,5 +1,5 @@
 /*
-*	Latest translation 11/12/2015
+*	Latest translation 06/01/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -1086,6 +1086,8 @@ attack.thunder punch.name=Poing-Éclair
 attack.thunder punch.description=Un coup de poing électrique vient frapper l'ennemi. Peut le paralyser.
 attack.force poigne.name=Force Poigne
 attack.vice grip.name=Force Poigne
+attack.vice grip.description=Empoigne l'ennemi avec de puissantes pinces.
+attack.vicegrip.name=Force Poigne
 attack.vicegrip.description=Empoigne l'ennemi avec de puissantes pinces.
 attack.guillotine.name=Guillotine
 attack.guillotine.description=Un puissant coup de pince qui peut mettre K.O.
@@ -4953,7 +4955,8 @@ gui.trainereditor.edit=Éditer
 gui.trainereditor.more=Plus 
 gui.trainereditor.trainereditor=Éditeur de Dresseur
 gui.trainereditor.bosstype=Type de Boss
-gui.trainereditor.aimode=Mode de l'IA
+gui.trainereditor.aimode=IA Mouvement
+gui.trainereditor.battleaimode=IA Combat
 gui.trainereditor.encountermode=Mode de Rencontre
 gui.trainereditor.battletype=Type de combat
 gui.trainereditor.name=Nom
@@ -5053,11 +5056,20 @@ gui.shopkeeper.sell=Vendre
 
 gui.shopkeepereditor.refreshItems=Actualiser Objets
 
+gui.model.standing=Immobile
+gui.model.flying=En vol
+gui.model.animation=Animation
+gui.model.frame=Corps
+gui.model.walk=Marche
+gui.model.idle=Au repos
+gui.model.fly=En vol
+ 
 enum.aggro.timid=Timide
 enum.aggro.default=Défaut
 enum.aggro.passive=Passif
 enum.aggro.aggressive=Agressif
 enum.trainerBoss.notboss=Non Boss
+enum.trainerBoss.equal=Égal
 enum.trainerBoss.uncommon=Non Commun
 enum.trainerBoss.rare=Rare
 enum.trainerBoss.legendary=Légendaire
@@ -5066,10 +5078,16 @@ enum.trainerAI.standstill=Ne bouge pas
 enum.trainerAI.stillandengage=Ne bouge pas et Agresse
 enum.trainerAI.wander=Ce balade
 enum.trainerAI.wanderandengage=Ce balade et Agresse
+enum.battleAI.default=Par défaut
+enum.battleAI.random=Aléatoire
+enum.battleAI.aggressive=Agressive
+enum.battleAI.tactical=Tactique
+enum.battleAI.advanced=Avancée
 enum.trainerEncounter.once=Une fois
 enum.trainerEncounter.onceperday=Une fois par jour
 enum.trainerEncounter.oncepermcday=Une fois par jour de jeu
 enum.trainerEncounter.onceperplayer=Une fois par joueur
+enum.trainerEncounter.unlimited=Illimité
 
 enum.growth.microscopic=Microscopique
 enum.growth.pygmy=Minuscule
@@ -5123,6 +5141,7 @@ enum.spawnlocation.water=Eau
 enum.spawnlocation.underground=Souterrain
 enum.spawnlocation.air=Air
 enum.spawnlocation.airpersistent=Air Permanent
+enum.spawnlocation.legendary=Légendaire
 
 enum.stat.hp=PV
 enum.stat.attack=Attaque
