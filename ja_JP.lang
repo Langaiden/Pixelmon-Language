@@ -8,7 +8,7 @@
 *   The middle one stands for its name as defined by code.
 *   The final part is just saying it is the name of the item.
 */
-item.PC.name=PC
+item.PC.name=パソコン
 item.Anvil.name=かなとこ
 item.Healer.name=ヒーラー
 item.Trade Machine.name=トレードマシン
