@@ -1,5 +1,5 @@
 /*
-*	Latest translation 06/01/2016
+*	Latest translation 17/01/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4725,8 +4725,7 @@ pixelmon.abilities.cutecharm=Joli Sourire du %s rend %s amoureux !
 pixelmon.abilities.damp=Moiteur du %s empêche l'explosion !
 pixelmon.abilities.drizzle=Crachin du %s fait tomber la pluie !
 pixelmon.abilities.drought=Sécheresse du %s intensifie les rayons du soleil !
-pixelmon.abilities.dryskinheal=Peau Sèche a fait en sorte que %s soigne %s !
-pixelmon.abilities.dryskinused=%s a utilisé %s!
+pixelmon.abilities.dryskinnegate=Peau Sèche du %s annule l'attaque !
 pixelmon.abilities.dryskinrain=%s c'est soigné grâce à sa Peau Sèche !
 pixelmon.abilities.dryskinsun=%s a été blessé à cause de sa Peau Sèche !
 pixelmon.abilities.effectsporesleep=Pose Spore du %s a endormi %s !
