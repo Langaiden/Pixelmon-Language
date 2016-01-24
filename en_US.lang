@@ -3401,7 +3401,13 @@ pixelmon.drops.plural2=You received %d %s!
 pixelmon.drops.plurales=You received %d %ses!
 pixelmon.drops.pluralruby=You received %d Rubies!
 
+pixelmon.interaction.helditem=%s was given the %s.
+pixelmon.interaction.hprestore=%s's HP was restored.
+pixelmon.interaction.pprestore=%s's PP was restored.
+pixelmon.interaction.ppfail=%s already has full PP!
 pixelmon.interaction.rarecandy=%s's leveling is disabled.
+pixelmon.interaction.statusfail=The item won't have any effect.
+pixelmon.interaction.statusheal=%s's status was healed.
 pixelmon.interaction.tmknown=%s already knows %s!
 pixelmon.interaction.tmcantlearn=%s can't learn %s!
 pixelmon.interaction.vitamin=%s's Friendship and EVs have increased.
