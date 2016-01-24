@@ -5352,8 +5352,8 @@ pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
 
-pixelmon.config.minMusicDelay = Minimum music delay
-pixelmon.config.maxMusicDelay = Maximum music delay
+pixelmon.config.minMusicDelay=Minimum music delay
+pixelmon.config.maxMusicDelay=Maximum music delay
 
 pixelmon.config.spawnNormal=Spawn normal PokéLoot
 pixelmon.config.spawnHidden=Spawn invisible PokéLoot
