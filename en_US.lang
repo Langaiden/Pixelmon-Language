@@ -5577,7 +5577,7 @@ pixelmon.config.spawnHidden.comment=Allows invisible PokeChests to spawn around 
 pixelmon.config.spawnGrotto.comment=Allow Hidden Grottos to spawn in the world.
 pixelmon.config.spawnRate.comment=Chest spawn rate. 0: 1 per 64 chunks. 1: 1 per 32 chunks. 2: 1 per 18 chunks. 3: 1 per 10 chunks
 pixelmon.config.spawnMode.comment=Default spawn mode (FCFS=0, PL1D=1, PUD=2, TIMED=3). FCFS = First Come First Serve, only one player can loot chest, then chests vanishes. PL1D = Player 1 Drop, chest gives one drop per person. Chest remains for others to use once each. PUD = Player Unlimited Drops, chests can be used infinitely by all players. TIMED = Each player allowed to loot again after specified time interval (individual timers). Chest remains after looting.
-pixelmon.config.timedLootReuseSeconds.comment=Sets frequency that a player can reuse a timed loot chest (both placed in Creative and naturally spawned if set to TIMED. Time conversions: one hour = 3600 seconds, one day = 86400 seconds, one week = 604800 seconds.
+pixelmon.config.timedLootReuseSeconds.comment=Sets frequency that a player can reuse a timed loot chest (both placed in Creative and naturally spawned) if set to TIMED. Time conversions: one hour = 3600 seconds, one day = 86400 seconds, one week = 604800 seconds.
 
 pixelmon.config.enableAFKHandler.comment=Have auto-battle take over if the player is AFK during a battle. Activates after the specified time period and gives specified time for each turn after that.
 pixelmon.config.afkActivateSeconds.comment=The time in seconds before a player in a battle is declared to be AFK and the auto-battle code takes over for them.
