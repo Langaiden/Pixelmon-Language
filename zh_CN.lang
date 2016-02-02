@@ -3329,6 +3329,7 @@ pixelmon.command.general.notingame=%s 还未被加入游戏！
 pixelmon.command.general.invalid=无效的参数！
 pixelmon.command.general.invalidplayer=无效的名字！请重试！
 pixelmon.command.general.inbattle=您不能在战斗中使用此命令！
+pixelmon.command.general.usage=/breed <玩家名> <背包序号#1> <背包序号#2>
 pixelmon.command.give.givesuccess=成功给予玩家 %s 一只 %s！
 pixelmon.command.give.notifygive=%s 给与了玩家 %s 一只 %s!
 pixelmon.command.give.givesuccessegg=成功给予玩家 %s 一个 %s 的蛋！
