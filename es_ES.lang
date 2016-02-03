@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: November 27, 2015 - by ToklaX
+* Last Update: January 2, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Ultima actualización: 27 de Noviembre de 2015 por ToklaX
+* Última actualización: 2 de Enero de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -4005,7 +4005,13 @@ pixelmon.drops.plural2=¡Has recibido %d de %s!
 pixelmon.drops.plurales=¡Has recibido %d de %s!
 pixelmon.drops.pluralruby=¡Has recibido %d Rubíes!
 
+pixelmon.interaction.helditem=%s ahora tiene %s.
+pixelmon.interaction.hprestore=Los PS de %s fueron restaurados.
+pixelmon.interaction.pprestore=Los PP de %s fueron restaurados.
+pixelmon.interaction.ppfail=%s already has full PP!
 pixelmon.interaction.rarecandy=Subir de nivel con %s no está permitido.
+pixelmon.interaction.statusfail=El objeto no tendrá ningún efecto.
+pixelmon.interaction.statusheal=El estado de %s fue curado.
 pixelmon.interaction.tmknown=¡%s ya conoce %s!
 pixelmon.interaction.tmcantlearn=¡%s no puede aprender %s!
 pixelmon.interaction.vitamin=Los puntos de amistad y EVs de %s han aumentado.
@@ -4139,7 +4145,7 @@ pixelmon.blocks.chestset=Objeto añadido al Poke Cofre: %s
 pixelmon.blocks.visible=Visibilidad del Poke Cofre: %s
 pixelmon.blocks.chestmode=Modo del Cofre: %s
 pixelmon.blocks.chestmodePL1D=Permanente, Límite 1 Drop
-pixelmon.blocks.chestmodeFCFS=Primero en llegar, Primero en ser recompensado
+pixelmon.blocks.chestmodeFCFS=Primero en llegar, Primero en ganar
 
 pixelmon.blocks.orbnotfull=¡Tu Orbe no esta lleno!
 pixelmon.blocks.orbwrong=¡El orbe no es compatible con este altar!
@@ -4280,8 +4286,7 @@ pixelmon.abilities.cutecharm=¡Gran Encanto de %s enamoró ciegamente a %s!
 pixelmon.abilities.damp=¡Humedad de %s evita la explosión!
 pixelmon.abilities.drizzle=¡Llovizna de %s hizo que llueva!
 pixelmon.abilities.drought=¡Sequía de %s hace que el sol se intensifique!
-pixelmon.abilities.dryskinheal=¡Piel Seca hizo que %s curase a %s!
-pixelmon.abilities.dryskinused=¡%s usó %s!
+pixelmon.abilities.dryskinnegate=¡Piel Seca de %s negó el ataque!
 pixelmon.abilities.dryskinrain=¡%s recupera PS gracias a Piel Seca!
 pixelmon.abilities.dryskinsun=¡%s perdió PS debido a Piel Seca!
 pixelmon.abilities.effectsporesleep=¡Efec. Espora de %s durmió al %s enemigo!
@@ -4495,7 +4500,8 @@ gui.trainereditor.edit=Editar
 gui.trainereditor.more=Más
 gui.trainereditor.trainereditor=Editor del entrenador
 gui.trainereditor.bosstype=Jefe
-gui.trainereditor.aimode=Modo IA
+gui.trainereditor.aimode=IA de Movimiento
+gui.trainereditor.battleaimode=IA de Batalla
 gui.trainereditor.encountermode=Modo de Encuentro
 gui.trainereditor.battletype=Tipo de Batalla
 gui.trainereditor.name=Nombre
@@ -4598,11 +4604,20 @@ gui.shopkeeper.sell=Vender
 
 gui.shopkeepereditor.refreshItems=Actualizar Objetos
 
+gui.model.standing=En Pie
+gui.model.flying=Volando
+gui.model.animation=Animación
+gui.model.frame=Frame
+gui.model.walk=Caminando
+gui.model.idle=Quieto
+gui.model.fly=Volando
+
 enum.aggro.timid=Asustado
 enum.aggro.default=Por defecto
 enum.aggro.passive=Pasivo
 enum.aggro.aggressive=Agresivo
 enum.trainerBoss.notboss=No
+enum.trainerBoss.equal=Igualado
 enum.trainerBoss.uncommon=Extraño
 enum.trainerBoss.rare=Raro
 enum.trainerBoss.legendary=Legendario
@@ -4611,10 +4626,16 @@ enum.trainerAI.standstill=Tranquilo
 enum.trainerAI.stillandengage=TranquiloyEntregado
 enum.trainerAI.wander=Caminante
 enum.trainerAI.wanderandengage=CaminanteyEntregado
+enum.battleAI.default=Por defecto
+enum.battleAI.random=Aleatorio
+enum.battleAI.aggressive=Agresivo
+enum.battleAI.tactical=Táctico
+enum.battleAI.advanced=Avanzado
 enum.trainerEncounter.once=Una vez
 enum.trainerEncounter.onceperday=Cada día
 enum.trainerEncounter.oncepermcday=Cada día de MC
 enum.trainerEncounter.onceperplayer=Una vez por jugador
+enum.trainerEncounter.unlimited=Sin límite
 
 enum.growth.microscopic=Microscópico
 enum.growth.pygmy=Diminuto
@@ -4668,6 +4689,7 @@ enum.spawnlocation.water=Agua
 enum.spawnlocation.underground=Bajo tierra
 enum.spawnlocation.air=Aire
 enum.spawnlocation.airpersistent=Mantener en el aire
+enum.spawnlocation.legendary=Legendario
 
 enum.stat.hp=PS
 enum.stat.attack=Ataque
@@ -5715,6 +5737,7 @@ pixelmon.effect.iceburn=¡%s ha comenzado a cargar un ataque!
 pixelmon.effect.lunardance=¡%s fue curado por Danza Lunar!
 pixelmon.effect.shadowforce=¡%s ha desaparecido!
 pixelmon.effect.smellingsalt=¡%s ya no esta paralizado!
+pixelmon.effect.revived=¡%s fue revivido!
  
 pixelmon.status.ringheal=¡%s se ha curado con Acua Aro!
 pixelmon.status.burnhurt=¡%s fue herido debido a su quemadura!
@@ -5893,3 +5916,302 @@ UnownBlock2.Z.name=Bloque Unown 'Z'
 UnownBlock2.!.name=Bloque Unown '!'
 UnownBlock2.?.name=Bloque Unown '?'
 UnownBlock2._.name=Bloque Blanco Unown
+
+pixelmon.dev.name=Pixelmon Dev
+pixelmon.dev.join=se ha unido.
+
+pixelmon.config.title=Configurar Pixelmon
+pixelmon.config.afkhandler=Modo AFK
+pixelmon.config.afkhandler.tooltip=Ajustes del Modo AFK
+pixelmon.config.breeding=Crianza
+pixelmon.config.breeding.tooltip=Ajustes de Crianza
+pixelmon.config.database=Database
+pixelmon.config.database.tooltip=Ajustes de la Database
+pixelmon.config.elevator=Elevador
+pixelmon.config.elevator.tooltip=Ajustes del Elevador
+pixelmon.config.externalmoves=Movimientos Externos
+pixelmon.config.externalmoves.tooltip=Ajustes de Movs. Externos
+pixelmon.config.general=General
+pixelmon.config.general.tooltip=Ajustes Generales
+pixelmon.config.gens=Generaciones
+pixelmon.config.gens.tooltip=Ajustes de las Generaciones
+pixelmon.config.graphics=Gráficos
+pixelmon.config.graphics.tooltip=Ajustes Gráficos
+pixelmon.config.pixelutilities=PixelUtilities
+pixelmon.config.pixelutilities=Ajustes de PixelUtilities
+pixelmon.config.pokeloot=PokéBotín
+pixelmon.config.pokeloot.tooltip=Ajustes PokeBotín
+pixelmon.config.sound=Sonido
+pixelmon.config.sound.tooltip=Ajustes de Sonido
+pixelmon.config.spawning=Aparición
+pixelmon.config.spawning.tooltip=Ajustes de aparición
+pixelmon.config.starter=Inicial
+pixelmon.config.starter.tooltip=Ajustes de Iniciales
+
+pixelmon.config.spawnDimensions=Dimensiones de aparición
+pixelmon.config.shinySpawnRate=Prob. de aparición de Shiny (1/x)
+pixelmon.config.bossSpawnRate=Prob. de aparición de Jefes (1/x)
+pixelmon.config.legendarySpawnTicks=Ticks para los Legendarios
+pixelmon.config.legendaryRepeatSpawnTicks=Repetir ticks para Legendarios
+pixelmon.config.legendarySpawnChance=Prob. de Legendarios
+pixelmon.config.hiddenAbilitySpawnRate=Prob. de Habilidad Oculta
+pixelmon.config.allowLegendarySpawn=Permitir Legendarios
+pixelmon.config.displayLegendaryGlobalMessage=Mostrar mensaje global de Legendarios
+pixelmon.config.replaceMCVillagers=Remplazar aldeanos de Minecraft
+pixelmon.config.spawnPokeMarts=Permitir Tiendas
+
+pixelmon.config.Gen1=Generación 1
+pixelmon.config.Gen2=Generación 2
+pixelmon.config.Gen3=Generación 3
+pixelmon.config.Gen4=Generación 4
+pixelmon.config.Gen5=Generación 5
+
+pixelmon.config.minMusicDelay=Tiempo Mínimo de Música
+pixelmon.config.maxMusicDelay=Tiempo Máximo de Música
+
+pixelmon.config.spawnNormal=Habilitar PokeBotín normal
+pixelmon.config.spawnHidden=Habilitar PokeBotín oculto
+pixelmon.config.spawnGrotto=Habilitar Grutas Ocultas
+pixelmon.config.spawnRate=Prob. de aparición de PokeBotín
+pixelmon.config.spawnMode=Modo de aparición de PokeBotín
+pixelmon.config.timedLootReuseSeconds=Reutilizar tiempo de Enfriamiento
+
+pixelmon.config.scaleGrassBattles=Escalar el nivel de la hierba con el jugador
+pixelmon.config.pokeGiftReusable=Poké Regalo reusable
+pixelmon.config.pokeGiftHaveEvents=Habilitar eventos de Poké Regalo
+pixelmon.config.eventPokeGiftLoad=Habilitar aparición del evento de Poké Regalo
+pixelmon.config.eventHasLegendaries=Permitir Legendarios en evento de Poké Regalo
+pixelmon.config.eventHasShinies=Permitir Shinies en Evento Poké Regalo
+pixelmon.config.eventMaxPokemon=Evento Poké Regalo máx. Pokémon
+pixelmon.config.eventShinyRate=Prob. de Shinies en Evento Poké Regalo (1/x)
+pixelmon.config.eventTime=Evento Poké Regalo fecha personalizada (D/M)
+pixelmon.config.eventCoords=Coordenadas de aparición del Evento Poké Regalo
+
+pixelmon.config.lowResTextures=Modo Patata
+pixelmon.config.useSmoothShadingOnPokeBalls=Sombreado suave en Poké Balls
+pixelmon.config.useSmoothShadingOnPokemon=Sombreado suave en Pokémon
+pixelmon.config.useOriginalPokemonTexturesForStatues=Las estatuas usan texturas originales
+pixelmon.config.showCurrentAttackTarget=Mostrar objetivo presente
+
+pixelmon.config.awardPhotos=Activar fotos al ganar batallas salvajes
+pixelmon.config.wildCanFlee=Permitir a los Pokémon salvajes huir
+pixelmon.config.spinBattleCamera=Giro de cámara en batalla
+pixelmon.config.spawnStructures=Activar estructuras de Pixelmon en el mundo
+pixelmon.config.allowPokemonNicknames=Habilitar motes para Pokémon
+pixelmon.config.allowAnvilAutoreloading=Activar autorecarga del yunque
+pixelmon.config.allowVanillaMobs=Activar mobs de vanilla 
+pixelmon.config.allowCaptureOutsideBattle=Activar capturar fuera de batalla
+pixelmon.config.npcRarity=Frecuencia de NPCs
+pixelmon.config.namePlateRange=Asignar Distancia
+pixelmon.config.scalePokemonModels=Aumentar tamaño de modelos en un 30%
+pixelmon.config.growthScaleModifier=Variación del tamaño de crecimiento
+pixelmon.config.pokemonDropsEnabled=Activar drops Pokémon
+pixelmon.config.printErrors=Mostrar los errores con más detalle
+pixelmon.config.allowRiding=Habilitar montar sobre Pokémon
+pixelmon.config.allowPlanting=Activar plantar Bonguris
+pixelmon.config.allowPvPExperience=Activar exp. en JcJ
+pixelmon.config.allowTrainerExperience=Activar exp. en Entrenadores
+pixelmon.config.returnHeldItems=Devolver objetos en batallas JcJ
+pixelmon.config.forceEndBattleResult=Forzar resultado de batalla
+pixelmon.config.engagePlayerByPokeBall=Habilitar desafío lanzando Poké Ball
+pixelmon.config.computerBoxes=Cantidad de PCs
+pixelmon.config.enableWildAggression=Habilitar ataque de Pokémon salvajes
+pixelmon.config.allowRareCandyCrafting=Activar creación de Carameloraros
+pixelmon.config.allowTMReuse=Permitir reutilizar MTs
+pixelmon.config.writeEntitiesToWorld=Guardar entidades del mundo
+pixelmon.config.spawnBirdShrines=Activar altares de los pájaros
+pixelmon.config.spawnGemShrines=Activar altares de Gemas
+pixelmon.config.reusableBirdShrines=Reutilizar altares de pájaros
+pixelmon.config.spawnersOpOnly=Spawners sólo siendo OP
+pixelmon.config.needHMToRide=MOs necesarias para montar
+pixelmon.config.cloningMachineEnabled=Activar máquina de clonación
+pixelmon.config.tradersReusable=Los comerciantes son reusables
+pixelmon.config.allowGemCrafting=Activar creación de Gemas
+pixelmon.config.allowGemBossDrop=Permitir drop de Gemas en Jefes
+pixelmon.config.allowEventMoveTutors=Activar Tutor de Movs.
+pixelmon.config.allowRanchUpgradeBossDrop=Activar drop Mejora del Rancho en Jefes
+pixelmon.config.useCustomTabList=Usar lista diferente
+pixelmon.config.starterOnJoin=Lista de Iniciales al entrar
+pixelmon.config.isiHourglassBossDrop=Activar drop Reloj de Isi en Jefes
+pixelmon.config.enablePointToSteer=Permitir punto de manejo
+pixelmon.config.useSystemTimeForWorldTime=Usar sistema horas real
+pixelmon.config.systemTimeSyncInterval=Tiempo de sincronización
+pixelmon.config.enablePokedexWikiWebsiteOpen=Permitir a la Pokédex abrir la wiki
+pixelmon.config.useExternalNPCFiles=Usar archivos NPC externos
+pixelmon.config.useExternalStructureFiles=Usar archivos de estructuras externos
+pixelmon.config.chunkSpawnRadius=Distancia de chunks Pókemon
+pixelmon.config.battleAIWild=Pokémon salvajes IA de batalla
+pixelmon.config.battleAIBoss=Jefes Pokémon IA de batalla
+pixelmon.config.battleAITrainer=Entrenadores IA de batalla
+
+pixelmon.config.enableAFKHandler=Modo AFK activado
+pixelmon.config.afkActivateSeconds=Activar segundos de AFK
+pixelmon.config.afkHandlerTurnSeconds=Segundos por turno de AFK
+
+pixelmon.config.allowBreeding=Activar Crianza
+pixelmon.config.allowDittoDittoBreeding=Activar crianza Ditto-Ditto
+pixelmon.config.allowRandomBreedingEggsToBeLegendary=Ditto-Ditto pueden tener Legendarios
+pixelmon.config.allowRandomSpawnedEggsToBeLegendary=/pokegiveegg puede dar Legendarios
+pixelmon.config.allowRanchCrafting=Activar creación del rancho
+pixelmon.config.useBreedingEnvironment=Usar ambientes adecuados para criar
+pixelmon.config.breedingEnvironmentCheckSeconds=Tiempo de verificación del entorno
+pixelmon.config.stepsPerEggCycle=Pasos por ciclo del Huevo
+pixelmon.config.numBreedingStages=Etapas de Crianza
+pixelmon.config.breedingTicks=Ticks por etapa
+pixelmon.config.allowRanchExpansion=Activar expansión del rancho
+
+pixelmon.config.level=Nivel del Inicial
+pixelmon.config.shiny=Iniciales Shiny
+pixelmon.config.starterList=Lista de Iniciales
+
+pixelmon.config.connectionString=String de conexión
+pixelmon.config.saveToExternalDatabase=Usar database superior para guardar
+
+pixelmon.config.elevatorSearchRange=Buscar rango (arriba/abajo)
+
+pixelmon.config.allowExternalMoves=Activar movs. externos
+
+pixelmon.config.general.comment=Ajustes generales del mundo.
+pixelmon.config.spawning.comment=Ajustes que controlan qué y cuántos Pokémon aparecen.
+pixelmon.config.gens.comment=Estos valores establecen que Generación de Pokémon aparecerá.
+pixelmon.config.pokeloot.comment=Ajustes que controlan el cofre de PokeBotín y su funcionamiento.
+pixelmon.config.afkhandler.comment=Ajustes para controlar la autobatalla para los jugadores AFK.
+pixelmon.config.graphics.comment=Ajustes Gráficos.
+pixelmon.config.breeding.comment=Ajustes para el funcionamiento de la crianza.
+pixelmon.config.externalmoves.comment=Ajustes para controlar los movs. externos.
+pixelmon.config.database.comment=Ajustes para relocalizar el sistema de guardado de Pixelmon en una database externa.
+pixelmon.config.sound.comment=Ajustes de sonido.
+pixelmon.config.pixelutilities.comment=Ajustes de PixelUtilities.
+pixelmon.config.elevator.comment=Opciones del elevador.
+
+pixelmon.config.awardPhotos.comment=Concede imagenes a los jugadores de los Pokémon salvajes que derrotan.
+pixelmon.config.wildCanFlee.comment=Los Pokémon salvajes tendrán la ocasión, basado en condiciones de batalla desfavorables, de poder huir de la batalla.
+pixelmon.config.spinBattleCamera.comment=La cámara en batalla gira alrededor del jugador si está activo, y estable si está desactivado.
+pixelmon.config.spawnStructures.comment=Permite generar estructuras aleatorias como Centros Pokémon, altares, y otras construcciones si está activo.
+pixelmon.config.allowPokemonNicknames.comment=Permite al jugador apodar a los Pokémon (no es ajuste para servidores, sólo ajuste de cliente).
+pixelmon.config.allowAnvilAutoreloading.comment=Permite al yunque remplazar objetos terminados con objetos iniciales del inventario del jugador sin colocar manualmente.
+pixelmon.config.allowVanillaMobs.comment=Pueden aparecer creepers, esqueletos, etc. en el mundo. PELIGRO - pueden matarte mientras combates.
+pixelmon.config.allowCaptureOutsideBattle.comment=Permite al jugador lanzar Poké Balls desde el inventario. Si está desactivado, sólo se podrán usar Poké Balls en batalla.
+pixelmon.config.npcRarity.comment=Establece la frecuencia de los NPCs. Con valores altos aparecerán NPCs (entrenadores, tutores) con más frecuencia, 0 no aparecerán NPCs.
+pixelmon.config.namePlateRange.comment=Fija la distancia en que los nombres y niveles de los Pokémon puden ser vistos (sólo ajuste de cliente). 1=Por defecto, 2=Muy lejos, 3=Lejos
+pixelmon.config.scalePokemonModels.comment=Incrementa el tamaño de los modelos Pokémon en el juego 30%.
+pixelmon.config.growthScaleModifier.comment=Ajusta la variación del tamaño causada por el crecimiento (0-2). 1 es normal.
+pixelmon.config.pokemonDropsEnabled.comment=Permite que los Pokemon salvajes suelten objetos como plumas, etc. cuando se debilitan.
+pixelmon.config.printErrors.comment=Muestra mensajes de errores más detallados en el archivo "server.log" si está activado.
+pixelmon.config.allowRiding.comment=Permite a los jugadores montar sobre Pokémon. Si está desctivado, no se podrá montar en los Pokémon (opción de servidor).
+pixelmon.config.allowPlanting.comment=Permite a los jugadores plantar Bonguris en el suelo.
+pixelmon.config.allowPvPExperience.comment=Determina si las batallas jugador contra jugador dan experiencia a los Pokémon. No ganarás EXP en JcJ si está desctivado.
+pixelmon.config.allowTrainerExperience.comment=Determina si las batallas jugador contra Entrenador dan experiencia a los Pokémon. No ganarás EXP con Entrenadores si está desactivado.
+pixelmon.config.returnHeldItems.comment=Si está activado, los objetos consumidos se devolverán a los Pokémon al finalizar batallas jugador contra jugador.
+pixelmon.config.forceEndBattleResult.comment=Qué ocurrira si una batalla es finalizada sin una conclusión exacta. 0: El ganador se determina basado en el número de Pokémon restantes (con % de los PS como desempate). 1: La batalla se considera un empate. 2: La batalla se considera inusualmente finalizada.
+pixelmon.config.engagePlayerByPokeBall.comment=Si está activado, los jugadores podrán desafiar a los demás lanzando un Pokémon al jugador enemigo más bien como un Pokémon.
+pixelmon.config.computerBoxes.comment=Fija la cantidad de cajas que los jugadores pueden tener en sus PCs (cómo máximo 256 por jugador).
+pixelmon.config.enableWildAggression.comment=Permite a los Pokémon iniciar batallas.
+pixelmon.config.allowRareCandyCrafting.comment=Permite a los jugadores poder hacer Carameloraros (opción de servidor).
+pixelmon.config.allowTMReuse.comment=Si está activado, las MTs son reusables. Si está desactivado, las MTs desaparecen tras su uso.
+pixelmon.config.writeEntitiesToWorld.comment=Guarda las entidades de Pixelmon a un archivo cuando el mundo se guarda (Aumenta en gran medida el tamaño del archivo de guardado y guarda la hora si está activado). Necesario para el mod Morph.
+pixelmon.config.spawnBirdShrines.comment=Permite aparecer aleatoriamente altares de los Pájaros legendarios en el mundo.
+pixelmon.config.spawnGemShrines.comment=Permite aparecer aleatoriamente altares de Gemas Espectrales en el mundo.
+pixelmon.config.reusableBirdShrines.comment=Los altares Legendarios serán de un sólo uso (desactivado) o de múltiples usos (activado).
+pixelmon.config.spawnersOpOnly.comment=Si está activado, necesitarás ser OP para usar spawners. Si está desactivado, se podrá usar en modo Creativo.
+pixelmon.config.needHMToRide.comment=Los Pokémon de tipo volador o agua necesitan tener movimientos Vuelo o Surf (respectivamente) para poder montar en ellos.
+pixelmon.config.cloningMachineEnabled.comment=Permite a los jugadores usar máquinas de clonación para clonar a Mew en Mewtwo.
+pixelmon.config.tradersReusable.comment=Los comerciantes serán de un sólo uso (desactivado) o de múltiples usos (true).
+pixelmon.config.allowGemCrafting.comment=Permite a los jugadores crear los 17 tipos de Gemas.
+pixelmon.config.allowGemBossDrop.comment=Permite a los jefes soltar los 17 tipos de Gemas.
+pixelmon.config.allowEventMoveTutors.comment=Permite a los tutores de movs. que enseñan movimientos aparecer naturalmente.
+pixelmon.config.allowRanchUpgradeBossDrop.comment=Permite a los jefes soltar mejoras del rancho.
+pixelmon.config.useCustomTabList.comment=Te permite cambiar el estilo de la lista de jugadores. Activa para usar el de Pixelmon, desactiva para ver el de Vanilla.
+pixelmon.config.starterOnJoin.comment=Permite elegir dar/no dar un inicial a un jugador cuando se une (por medio de la pantalla de iniciales de Pixelmon).
+pixelmon.config.isiHourglassBossDrop.comment=Permite soltar a los jefes relojes de Isi, objetos que te permiten saltar etapas durante la crianza.
+pixelmon.config.enablePointToSteer.comment=Cuando estás montado, permite dirigir al Pokémon hacia donde mires.
+pixelmon.config.useSystemTimeForWorldTime.comment=Tu mundo seguirá, o no, el tiempo del mundo real (utiliza el reloj del sistema del servidor).
+pixelmon.config.systemTimeSyncInterval.comment=Tiempo que deberá pasar para sincronizar el reloj del sistema (en segundos).
+pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Permite a la Pokédex abrir páginas de la wiki. Desactivalo si no quieres abrir la wiki desde Pixelmon.
+pixelmon.config.useExternalNPCFiles.comment=Carga archivos de NPC externos de la carpeta "npcs". Si está activado y la carpeta "npcs" no existe, Pixelmon creará la carpeta y colocará los archivos existentes.
+pixelmon.config.useExternalStructureFiles.comment=Carga archivos de estructuras externos de la carpeta "structures". Si está activado y la carpeta "structures" no existe, Pixelmon creará la carpeta y colocará los archivos existentes.
+pixelmon.config.chunkSpawnRadius.comment=El radio de chunks alrededor del jugador en que los Pokémon pueden aparecer.
+pixelmon.config.battleAIDescription=1: Utiliza ataques aleatoriamente. 2: Utiliza los ataques con más daño posible (en función del tipo), ignorando movs. de estado. 3: Usa ataques ofensivos y de estado. 4: Usa los ataques inteligentemente y cambia cuando sea conveniente.
+pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salvajes durante la batalla.
+pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon jefes durante la batalla.
+pixelmon.config.battleAITrainer.comment=El tipo de IA que usarán los Entrenadores durante la batalla.
+
+pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
+pixelmon.config.shinySpawnRate.comment=El calculo Shiny utiliza 1/(tasa de Shiny) para obtener la probabilidad de ser Shiny.
+pixelmon.config.bossSpawnRate.comment=Probabilidad de que un grupo de Pokémon salvajes contenga un jefe (1/tasa). 0 no aparecerán jefes.
+pixelmon.config.legendarySpawnTicks.comment=Número medio de ticks antes de que aparezca un Legendario (modificado por la probabilidad de aparecer).
+pixelmon.config.legendaryRepeatSpawnTicks.comment=Número mínimo de ticks antes de que un legendario en particular pueda aparecer de nuevo (vía spawn natural).
+pixelmon.config.legendarySpawnChance.comment=Probabilidad de que la aparición de un Legendario tendrá éxito (0-1).
+pixelmon.config.hiddenAbilitySpawnRate.comment=Probabilidad de que un Pokémon aparezca con Habilidad Oculta (1/tasa). 0 desactiva la Habilidad Oculta.
+pixelmon.config.allowLegendarySpawn.comment=Permite la aparición de Legendarios salvajes (además de determinados eventos).
+pixelmon.config.displayLegendaryGlobalMessage.comment=Muestra un anuncio en todo el servidor 'Un legendario ha aparecido en el bioma <nombre>' cuando aparece un legendario.
+pixelmon.config.replaceMCVillagers.comment=Remplaza a los aldeanos de Minecraft por los NPCs de Pixelmon.
+pixelmon.config.spawnPokeMarts.comment=Las Tiendas Pokémon aparecerán con comerciantes en las aldeas de Minecraft
+
+pixelmon.config.Gen1.comment=Pokédex 1-151
+pixelmon.config.Gen2.comment=Pokédex 152-251
+pixelmon.config.Gen3.comment=Pokédex 252-386
+pixelmon.config.Gen4.comment=Pokédex 387-493
+pixelmon.config.Gen5.comment=Pokédex 494-649
+
+pixelmon.config.maxLandPokemon.comment=Máximo número de Pokémon en tierra a la misma vez.
+pixelmon.config.maxUndergroundPokemon.comment=Máximo número de Pokémon bajo tierra a la misma vez.
+pixelmon.config.maxWaterPokemon.comment=Máximo número de Pokémon en el agua a la misma vez.
+pixelmon.config.maxFlyingPokemon.comment=Máximo número de Pokemon voladores a la misma vez (mantener bajo).
+pixelmon.config.despawnOnFleeOrLoss.comment=Fuerza a los Pokémon salvajes a desaparecer después de una batalla.
+
+pixelmon.config.spawnNormal.comment=Permite aparecer PokeCofres visibles aleatoriamente por todo el mundo.
+pixelmon.config.spawnHidden.comment=Permite aparecer PokeCofre invisibles aleatoriamente por todo el mundo.
+pixelmon.config.spawnGrotto.comment=Permite aparecer Grutas Ocultas en el mundo.
+pixelmon.config.spawnRate.comment=Tasa de aparición de cofres. 0: 1 por cada 64 chunks. 1: 1 por cada 32 chunks. 2: 1 por cada 18 chunks. 3: 1 por cada 10 chunks
+pixelmon.config.spawnMode.comment=Modo de aparición por defecto (PLPG=0, 1PPG=1, PI=2, TIEMPO=3). PLPG = Primero en Llegar Primero en Ganar, sólo un jugador puede ganar el cofre, después desaparece. 1PPG = 1 Premio por Jugador, el cofre entrega un premio por persona. El cofre permanece para que el resto pueda usarlo. PI = Premio Ilimitado, los cofre pueden usarse infinitamente por todos los jugadores. TIEMPO = Cada jugador puede ser premiado después de un intervalo de tiempo especificado (tiempo individual). El cofre permanecerá.
+pixelmon.config.timedLootReuseSeconds.comment=Fija la frencuencia en la que un jugador puede volver a usar un cofre (colocados en Creativo o aparición nautral) si se activa TIEMPO. Conversiones de tiempo: una hora = 3600 segundos, un día = 86400 segundos, una semana = 604800 segundos.
+
+pixelmon.config.enableAFKHandler.comment=Have auto-battle take over if the player is AFK during a battle. Activates after the specified time period and gives specified time for each turn after that.
+pixelmon.config.afkActivateSeconds.comment=The time in seconds before a player in a battle is declared to be AFK and the auto-battle code takes over for them.
+pixelmon.config.afkHandlerTurnSeconds.comment=The time in seconds before the auto-battle handler picks a move automatically each turn.
+
+pixelmon.config.renderDistanceWeight.comment=Multiplier of the 64 distance usually used for rendering.
+pixelmon.config.lowResTextures.comment=Use the low resolution textures for Pokemon and Poke Balls. Useful for low-end systems.
+pixelmon.config.useSmoothShadingOnPokeBalls.comment=Use the SMD normal maps for shading Poke Balls.
+pixelmon.config.useSmoothShadingOnPokemon.comment=Use the SMD normal maps for shading Pokemon.
+pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Use the original Pokemon textures for statues.
+pixelmon.config.showCurrentAttackTarget.comment=Display the currently selected Pokemon's attack target on the screen.
+
+pixelmon.config.allowBreeding.comment=Allows the placement of ranch blocks, which are required for breeding Pokemon.
+pixelmon.config.allowDittoDittoBreeding.comment=Allows two Ditto to breed together to produce Eggs with random Pokémon inside.
+pixelmon.config.allowRandomBreedingEggsToBeLegendary.comment=Enable random Eggs from Ditto-Ditto breeding to contain Legendaries.
+pixelmon.config.allowRandomSpawnedEggsToBeLegendary.comment=Enables random Eggs from /pokegiveegg to contain Legendaries.
+pixelmon.config.allowRanchCrafting.comment=Allow the crafting of ranch blocks.
+pixelmon.config.useBreedingEnvironment.comment=Control speed of breeding based on the blocks set in the area. If false, will set breeding speed to 1.0x.
+pixelmon.config.breedingEnvironmentCheckSeconds.comment=Seconds between running the environment check for breeders, requires useBreedingEnvironment to be enabled
+pixelmon.config.stepsPerEggCycle.comment=Sets the number of steps per Egg cycle. Lower numbers hatch Eggs faster.
+pixelmon.config.numBreedingStages.comment=Number of stages to go through before breeding occurs (1-5).
+pixelmon.config.breedingTicks.comment=Number of world ticks needed to increase the breeding stage.
+pixelmon.config.allowRanchExpansion.comment=Allow the ranch expansion.
+
+pixelmon.config.allowExternalMoves.comment=Allows the use of external moves such as Rock Smash and Cut.
+
+pixelmon.config.saveToExternalDatabase.comment=Enable this to change the save system over to a database specified in the connection string property. Only H2 and MySQL currently supported.
+pixelmon.config.connectionString.comment=Put the connection string for the external database in the form jdbc:dbtype://...
+
+pixelmon.config.minMusicDelay.comment=Minimum number of world ticks before a new music track will start.
+pixelmon.config.maxMusicDelay.comment=Maximum number of world ticks before a new music track will start.
+
+pixelmon.config.scaleGrassBattles.comment=Scale grass battles to players' team levels?
+pixelmon.config.pokeGiftReusable.comment=Enable multiple players to get the Pokemon from the gift.
+pixelmon.config.pokeGiftHaveEvents.comment=Allows Poke Gifts to be used (both placing and using, prevention against spam).
+pixelmon.config.eventPokeGiftLoad.comment=Should an event Poke Gift spawn?
+pixelmon.config.eventHasLegendaries.comment=Enable/Disable Legendaries from being added to the event Poke Gift.
+
+pixelmon.config.eventHasShinies.comment=Each Pokemon has a 1/10 chance of being a Shiny.
+pixelmon.config.eventMaxPokemon.comment=Sets the maximum amount of Pokemon that are in spawned Poke Gifts.
+pixelmon.config.eventShinyRate.comment=The rate of Shiny Pokemon appearing in a Poke Gift (1/x).
+pixelmon.config.eventTime.comment=Define a custom date for Poke Gift events (day then month).
+pixelmon.config.eventCoords.comment=Specify the coordinates of the event Poke Gift chest here.
+
+pixelmon.config.elevatorSearchRange.comment=Maximum search range up/down for a pairing elevator.
+
+pixelmon.config.starterLevel.comment=Nivel (Mín=5, Máx=100).
+pixelmon.config.starterShiny.comment=Iniciales Shiny.
+pixelmon.config.starterList.comment=Lista de Iniciales (Máx. de 15).
