@@ -3918,6 +3918,7 @@ gui.trainereditor.moreinfo=Trainer Editor - More Info
 gui.trainereditor.greeting=Greeting
 gui.trainereditor.win=Win
 gui.trainereditor.lose=Lose
+gui.trainereditor.winmoney=Win Money
 gui.trainereditor.winningdrops=Winning Drops
 gui.trainereditor.adddrops=Add Drops
 gui.trainereditor.enteritemname=Enter Item Name or ID
