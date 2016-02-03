@@ -473,6 +473,7 @@ item.chisel.name=精灵雕刻工具
 item.ranchupgrade.name=大家的精灵牧场升级
 item.hourglassgold.name=Isi的金色的沙漏
 item.hourglasssilver.name=Isi的银色的沙漏
+item.PixelmonSprite.name=照片
 
 item.HiddenPressurePlate.name=隐藏的压力板
 item.HiddenCube.name=隐藏的方块
@@ -787,6 +788,12 @@ item.DawnstoneHoe.name=觉醒之石锄
 item.DawnstonePickaxe.name=觉醒之石镐
 item.DawnstoneShovel.name=觉醒之石铲
 item.DawnstoneSword.name=觉醒之石剑
+item.DuskstoneHammer.name=暗之石锤
+item.DuskstoneAxe.name=暗之石斧
+item.DuskstoneHoe.name=暗之石锄
+item.DuskstonePickaxe.name=暗之石镐
+item.DuskstoneShovel.name=暗之石铲
+item.DuskstoneSword.name=暗之石剑
 item.RubyHelm.name=火岩队头盔
 item.RubyPlate.name=火岩队胸甲
 item.RubyLegs.name=火岩队裤
@@ -839,8 +846,15 @@ item.DawnstoneHelm.name=觉醒之石头盔
 item.DawnstonePlate.name=觉醒之石胸甲
 item.DawnstoneLegs.name=觉醒之石裤
 item.DawnstoneBoots.name=觉醒之石靴
+item.DuskstoneHelm.name=暗之石头盔
+item.DuskstonePlate.name=暗之石胸甲
+item.DuskstoneLegs.name=暗之石裤
+item.DuskstoneBoots.name=暗之石靴
 item.PicketFence.name=栅栏
 item.pokeGift.name=神奇宝贝礼品盒
+item.EntityPixelmonPaintingItem.name=神奇宝贝绘画
+item.camera.name=照相机
+item.film.name=影片
 
 itemGroup.tabPokeLoot=神奇宝贝奖励道具
 itemGroup.Pokeballs=神奇宝贝球
@@ -994,6 +1008,8 @@ attack.thunder punch.name=雷光掌
 attack.thunder punch.description=用附带着电气的拳头攻击对方。有时会使对方麻痹
 attack.vice grip.name=剪断
 attack.vice grip.description=将对方从两边夹起来给与伤害
+attack.vicegrip.name=剪断
+attack.vicegrip.description=将对方从两边夹起来给与伤害
 attack.guillotine.name=剪刀断头台
 attack.guillotine.description=用巨大的钳子切断对方进行攻击。只要打中就会使对方濒死
 attack.razor wind.name=旋风刀
@@ -3313,6 +3329,7 @@ pixelmon.command.general.notingame=%s 还未被加入游戏！
 pixelmon.command.general.invalid=无效的参数！
 pixelmon.command.general.invalidplayer=无效的名字！请重试！
 pixelmon.command.general.inbattle=您不能在战斗中使用此命令！
+pixelmon.command.general.usage=/breed <玩家名> <背包序号#1> <背包序号#2>
 pixelmon.command.give.givesuccess=成功给予玩家 %s 一只 %s！
 pixelmon.command.give.notifygive=%s 给与了玩家 %s 一只 %s!
 pixelmon.command.give.givesuccessegg=成功给予玩家 %s 一个 %s 的蛋！
@@ -3358,7 +3375,13 @@ pixelmon.drops.plural2=您获得了 %d %s！
 pixelmon.drops.plurales=您获得了 %d %s！
 pixelmon.drops.pluralruby=您获得了 %d 个红宝石！
 
+pixelmon.interaction.helditem=%s 被给予了 %s。
+pixelmon.interaction.hprestore=%s 的HP被恢复。
+pixelmon.interaction.pprestore=%s 的PP被恢复。
+pixelmon.interaction.ppfail=%s 的PP已经满了！
 pixelmon.interaction.rarecandy=%s 的升级功能已关闭
+pixelmon.interaction.statusfail=这个物品将不会产生任何效果。
+pixelmon.interaction.statusheal=%s 的状态被治愈了。
 pixelmon.interaction.tmknown=%s 已经学会了 %s！
 pixelmon.interaction.tmcantlearn=%s 无法学习 %s！
 pixelmon.interaction.vitamin=%s 的亲密值和努力值都增长了一些！
@@ -3647,11 +3670,12 @@ pixelmon.abilities.cursedbody=%s 诅咒身体禁用了 %s 的 %s！
 pixelmon.abilities.competitive=好胜提高了 %s 的特攻！
 pixelmon.abilities.cutecharm=%s 的迷人身躯魅惑了 %s！
 pixelmon.abilities.damp=%s 的湿气防止了爆炸！
+pixelmon.abilities.drizzle=%s 的毛毛雨使天空降下了雨！
 pixelmon.abilities.defiant=不服输提高了 %s 的攻击！
 pixelmon.abilities.download=%s 的下载提高了它的攻击！
 pixelmon.abilities.download2=%s 的下载提高了它的特攻！
-pixelmon.abilities.dryskinheal=干燥皮肤让 %s 回复了 %s ！
-pixelmon.abilities.dryskinused=%s 使用 %s！
+pixelmon.abilities.drought=%s 的旱灾使阳光加强！
+pixelmon.abilities.dryskinnegate=%s 的干燥皮肤使它受伤了！
 pixelmon.abilities.dryskinrain=%s 回复了生命因为干燥皮肤！
 pixelmon.abilities.dryskinsun=%s 受伤了因为干燥皮肤！
 pixelmon.abilities.effectsporesleep=%s 的孢子让 %s 睡着了！
@@ -3894,7 +3918,8 @@ gui.trainereditor.edit=编辑
 gui.trainereditor.more=更多 
 gui.trainereditor.trainereditor=训练师编辑器
 gui.trainereditor.bosstype=训练师种类
-gui.trainereditor.aimode=AI模式
+gui.trainereditor.aimode=移动型AI
+gui.trainereditor.battleaimode=好战型AI
 gui.trainereditor.encountermode=挑战次数
 gui.trainereditor.battletype=战斗形式
 gui.trainereditor.name=名字
@@ -3951,6 +3976,9 @@ gui.chooseNPC.relearner=创建技能回忆教学NPC
 gui.chooseNPC.tutor=创建技能教学师
 gui.chooseNPC.nursejoy=创建医生
 gui.chooseNPC.shopkeeper=创建店长
+
+gui.shopkeeper.json=类型
+
 gui.npceditor.despawn=删除NPC
 gui.npceditor.page1=对话文本 1
 gui.npceditor.page2=对话文本 2
@@ -3989,11 +4017,22 @@ gui.shopkeeper.quantity=数量
 gui.shopkeeper.buy=购买
 gui.shopkeeper.sell=出售
 
+gui.shopkeepereditor.refreshItems=回复物品
+
+gui.model.standing=站立
+gui.model.flying=飞行
+gui.model.animation=动态
+gui.model.frame=帧动画
+gui.model.walk=行走
+gui.model.idle=闲置
+gui.model.fly=飞行
+
 enum.aggro.timid=胆小
 enum.aggro.default=默认
 enum.aggro.passive=被动
 enum.aggro.aggressive=主动
 enum.trainerBoss.notboss=一般
+enum.trainerBoss.equal=实力相当
 enum.trainerBoss.uncommon=优秀Boss
 enum.trainerBoss.rare=罕见Boss
 enum.trainerBoss.legendary=传说Boss
@@ -4002,10 +4041,16 @@ enum.trainerAI.standstill=站立不动
 enum.trainerAI.stillandengage=警戒
 enum.trainerAI.wander=四处游荡
 enum.trainerAI.wanderandengage=警戒性游荡
+enum.battleAI.default=默认
+enum.battleAI.random=随机
+enum.battleAI.aggressive=积极
+enum.battleAI.tactical=战术型
+enum.battleAI.advanced=专业型
 enum.trainerEncounter.once=一次性
 enum.trainerEncounter.onceperday=一天一次
 enum.trainerEncounter.oncepermcday=一天一次(MC中的一天)
 enum.trainerEncounter.onceperplayer=每个玩家一次
+enum.trainerEncounter.unlimited=无限制
 
 enum.growth.microscopic=细小
 enum.growth.pygmy=矮人
@@ -4059,6 +4104,7 @@ enum.spawnlocation.water=水中
 enum.spawnlocation.underground=地下
 enum.spawnlocation.air=空中
 enum.spawnlocation.airpersistent=空中悬浮
+enum.spawnlocation.legendary=传说
 
 enum.stat.hp=HP
 enum.stat.attack=攻击
@@ -4196,6 +4242,7 @@ trainer.model.pkmn_breeder_f=培育家 1
 trainer.model.pkmn_breeder_f2=培育家 2
 
 npc.model.artist=艺术家
+npc.model.baker=面包师
 npc.model.battlegirl=对战少女
 npc.model.blackbelt=空手道王
 npc.model.cueball=光头
@@ -4215,6 +4262,7 @@ npc.model.npcchat2=男人
 
 npc.model.officerjenny=珍妮军官
 npc.model.ornithologist=鸟类学家
+npc.model.pkmn_breeder_f2=神奇宝贝培育家
 npc.model.pokefan_f=女神奇宝贝迷
 npc.model.pokefan_m=男神奇宝贝迷
 npc.model.policeman=巡逻员
@@ -4232,7 +4280,25 @@ npc.model.schoolboy=男学生
 npc.model.schoolgirl=女学生
 npc.model.scientist_f=女研究员
 npc.model.scientist_m=男研究员
+npc.model.shopgirl=女店员(道具)
+npc.model.shoplady=女店员(邮件)
+npc.model.shoplady2=女店员 2
+npc.model.shoplady3=女店员 3
+npc.model.shoplady4=女店员 4
+npc.model.shopman=男店员(道具)
+npc.model.shopman2=男店员 2
+npc.model.shopman3=男店员 3
+npc.model.shopman4=男店员 4
+npc.model.shopman5=男店员 5
+npc.model.shopsecondman=男店员(邮件)
+npc.model.streetthug=可怕的大叔
 npc.model.supernerd=理科男生
+
+npc.shopkeeper.pokemartmain1=神奇宝贝商店店长 1
+npc.shopkeeper.pokemartmain2==神奇宝贝商店店长 2
+npc.shopkeeper.pokemartmain3==神奇宝贝商店店长 3
+npc.shopkeeper.pokemartsecond1=神奇宝贝商店店长二 1
+npc.shopkeeper.pokemartsecond2=神奇宝贝商店店长二 2
 
 
 container.MechanicalAnvil=机械铁砧
@@ -4379,6 +4445,9 @@ tile.templePillar.BrokenPillar.name=残破的支柱
 tile.PokeGift.name=神奇宝贝礼物
 tile.EventPokeGift.name=奖励型神奇宝贝礼物
 tile.movementPlate.name=传送地板
+tile.pokechest.name=宝贝球奖励箱
+tile.ultrachest.name=高级球奖励箱
+tile.masterchest.name=大师球奖励箱
 
 PokeDirt.name=神奇宝贝泥土
 PokeSand.name=神奇宝贝沙地
@@ -5072,6 +5141,7 @@ pixelmon.effect.freezeshock=%s 被寒冷的光包围着！
 pixelmon.effect.iceburn=%s 被冻结的光包围着！
 pixelmon.effect.lunardance=%s 被新月舞治疗了！
 pixelmon.effect.smellingsalt=%s 的麻痹被治愈了！
+pixelmon.effect.revived=%s 被复活了！
 pixelmon.effect.shadowforce=%s 消失了！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
@@ -5263,3 +5333,210 @@ UnownBlock2.Z.name=未知图腾 'Z'
 UnownBlock2.!.name=未知图腾 '!'
 UnownBlock2.?.name=未知图腾 '?'
 UnownBlock2._.name=空白未知图腾
+
+
+pixelmon.dev.name=Pixelmon开发
+pixelmon.dev.join=加入。
+
+pixelmon.config.title=Pixelmon配置文件
+pixelmon.config.afkhandler=AFK处理器
+pixelmon.config.afkhandler.tooltip=AFK处理器设置
+pixelmon.config.breeding=饲育
+pixelmon.config.breeding.tooltip=饲育设置
+pixelmon.config.database=数据库
+pixelmon.config.database.tooltip=数据库设置
+pixelmon.config.elevator=升降
+pixelmon.config.elevator.tooltip=升降设置
+pixelmon.config.externalmoves=战斗外技能
+pixelmon.config.externalmoves.tooltip=战斗外技能设置
+pixelmon.config.general=常规
+pixelmon.config.general.tooltip=常规设置
+pixelmon.config.gens=世代
+pixelmon.config.gens.tooltip=生成世代设置
+pixelmon.config.graphics=图像
+pixelmon.config.graphics.tooltip=图像设置
+pixelmon.config.pixelutilities=神奇宝贝实用工具
+pixelmon.config.pixelutilities=神奇宝贝实用工具设置
+pixelmon.config.pokeloot=神奇宝贝奖励箱
+pixelmon.config.pokeloot.tooltip=神奇宝贝奖励箱设置
+pixelmon.config.sound=音频
+pixelmon.config.sound.tooltip=音频设置
+pixelmon.config.spawning=生成
+pixelmon.config.spawning.tooltip=生成设置
+pixelmon.config.starter=启动
+pixelmon.config.starter.tooltip=启动设置
+
+pixelmon.config.spawnDimensions=生成地点
+pixelmon.config.shinySpawnRate=闪光生成率 (1/x)
+pixelmon.config.bossSpawnRate=Boss生成率 (1/x)
+pixelmon.config.legendarySpawnTicks=神兽生成时间
+pixelmon.config.legendaryRepeatSpawnTicks=神兽重新生成时间
+pixelmon.config.legendarySpawnChance=神兽生成率
+pixelmon.config.hiddenAbilitySpawnRate=隐藏特性生成率
+pixelmon.config.allowLegendarySpawn=允许神兽生成
+pixelmon.config.displayLegendaryGlobalMessage=关闭神兽生成提示
+pixelmon.config.replaceMCVillagers=替换Minecraft村民
+pixelmon.config.spawnPokeMarts=生成商店
+
+pixelmon.config.Gen1=1世代
+pixelmon.config.Gen2=2世代
+pixelmon.config.Gen3=3世代
+pixelmon.config.Gen4=4世代
+pixelmon.config.Gen5=5世代
+
+pixelmon.config.minMusicDelay=最小音乐延迟
+pixelmon.config.maxMusicDelay=最大音乐延迟
+
+pixelmon.config.spawnNormal=生成普通神奇宝贝奖励箱
+pixelmon.config.spawnHidden=生成隐身神奇宝贝奖励箱
+pixelmon.config.spawnGrotto=生成隐藏洞窟
+pixelmon.config.spawnRate=神奇宝贝奖励箱生成率
+pixelmon.config.spawnMode=神奇宝贝奖励箱生成模式
+pixelmon.config.timedLootReuseSeconds=重复使用冷却时间
+
+pixelmon.config.scaleGrassBattles=对玩家缩小草中战斗难度
+pixelmon.config.pokeGiftReusable=神奇宝贝礼品盒重复使用
+pixelmon.config.pokeGiftHaveEvents=开启神奇宝贝礼品盒功能
+pixelmon.config.eventPokeGiftLoad=开启神奇宝贝礼品盒生成功能
+pixelmon.config.eventHasLegendaries=允许神兽在神奇宝贝礼品盒
+pixelmon.config.eventHasShinies=开启神奇宝贝礼品盒闪光功能
+pixelmon.config.eventMaxPokemon=神奇宝贝礼品盒中神奇宝贝最大值
+pixelmon.config.eventShinyRate=神奇宝礼品盒中闪光率 (1/x)
+pixelmon.config.eventTime=神奇宝贝礼品盒定义日期 (D/M)
+pixelmon.config.eventCoords=神奇宝贝礼品盒生成坐标
+
+pixelmon.config.lowResTextures=照片模式
+pixelmon.config.useSmoothShadingOnPokeBalls=神奇宝贝球平滑阴影
+pixelmon.config.useSmoothShadingOnPokemon=神奇宝贝平滑阴影
+pixelmon.config.useOriginalPokemonTexturesForStatues=雕塑使用原始纹理
+pixelmon.config.showCurrentAttackTarget=显示当前的攻击目标
+
+pixelmon.config.awardPhotos.comment=当玩家战胜野生口袋妖怪时给予照片。
+pixelmon.config.wildCanFlee.comment=野生神奇宝贝有几率在不利的对战环境尝试逃离对战。
+pixelmon.config.spinBattleCamera.comment=对战时画面是否旋转。
+pixelmon.config.spawnStructures.comment=允许随机生成建筑如:精灵中心，神社祭坛和其他建筑物，true为生成。
+pixelmon.config.allowPokemonNicknames.comment=允许玩家给神奇宝贝命名(这不是服务器设置，是客户端设置)。
+pixelmon.config.allowAnvilAutoreloading.comment=允许铁砧在玩家操作后自动将玩家背包内的初始操作物品替换成已完成的物品。
+pixelmon.config.allowVanillaMobs.comment是否允许苦力怕,骷髅怪,等怪物生成。危险呢-它会在您对战的时候杀死您。
+pixelmon.config.allowCaptureOutsideBattle.comment=是否允许玩家在非对战情况下丢出神奇宝贝球。如果设置为false则只能在对战中扔神奇宝贝球。
+pixelmon.config.npcRarity.comment=设置NPC的罕见程度。更高的数值将会比通常NPC（训练师等）刷新的更多，设为0可以禁止NPC刷新。
+pixelmon.config.namePlateRange.comment=设置玩家可以看见多远的精灵的等级和名称。1=Default 默认, 2=Farther 较远 , 3=Far 很远
+pixelmon.config.scalePokemonModels.comment=在游戏中使用提高了30%体型的神奇宝贝。
+pixelmon.config.growthScaleModifier.comment=调整升级对体型的变化影响(0-2)。1为普通。
+pixelmon.config.pokemonDropsEnabled.comment=是否让精灵死亡后掉落物品。
+pixelmon.config.printErrors.comment=如果启用此设置则生成更详细的错误报告到server.log。
+pixelmon.config.allowRiding.comment=是否允许玩家骑乘神奇宝贝(服务器设置)。
+pixelmon.config.allowPlanting.comment=是否允许玩家种植树果。
+pixelmon.config.allowPvPExperience.comment=是否允许玩家之间的对战中使神奇宝贝获得经验。当设置为false时无经验。
+pixelmon.config.allowTrainerExperience.comment=是否允许和NPC的对战中使神奇宝贝获得经验。
+pixelmon.config.returnHeldItems.comment=如果启用，对战中损失的携带道具将于对战结束后返还给相应神奇宝贝。
+pixelmon.config.forceEndBattleResult.comment=当一个对战于某种未知情况下没有正常结束时强行结束的结果。0-由剩余精灵的HP决定胜者。1-认定这为一个平局。2-认定这为异常结束。
+pixelmon.config.engagePlayerByPokeBall.comment=如果启用，玩家将可以通过投掷神奇宝贝到玩家身上进行对战，而不是玩家的神奇宝贝。
+pixelmon.config.computerBoxes.comment=设置玩家的PC的最大可用页数（上限为256页）
+pixelmon.config.enableWildAggression.comment=是否允许野生神奇宝贝主动对玩家发起战斗
+pixelmon.config.allowRareCandyCrafting.comment=是否允许玩家合成奇异甜食(服务器设置)
+pixelmon.config.allowTMReuse.comment=是否允许技能教学机重复使用。
+pixelmon.config.writeEntitiesToWorld.comment=当保存世界时保存Pixelmon实体到文件中(如果为true，大大增加了保存文件的大小和保存时间)。需要变形mod支持。
+pixelmon.config.spawnBirdShrines.comment=是否允许神鸟神社随机生成。
+pixelmon.config.spawnGemShrines.comment=是否允许宝石神社随机生成。
+pixelmon.config.reusableBirdShrines.comment=是否允许祭坛多次使用。
+pixelmon.config.spawnersOpOnly.comment=如果设置为true则必须为OP才能生成神奇宝贝，如果设置为false则必须为创造模式。
+pixelmon.config.needHMToRide.comment=是否使精灵学会飞翔和冲浪之后才能骑乘。
+pixelmon.config.cloningMachineEnabled.comment=是否允许玩家使用梦幻来克隆超梦。
+pixelmon.config.tradersReusable.comment=设置交换者一次性使用(false)或设置交换者可多次使用(true)。
+pixelmon.config.allowGemCrafting.comment=允许玩家合成17种宝石。
+pixelmon.config.allowGemBossDrop.comment=允许BOSS掉落17种宝石。
+pixelmon.config.allowEventMoveTutors.comment=允许技能教学师自然生成教学技能。
+pixelmon.config.allowRanchUpgradeBossDrop.comment=是否允许BOSS掉落牧场升级道具。
+pixelmon.config.useCustomTabList.comment=请您选择并切换到您喜欢的Tab表列。true为Pixelmon的，false为原版的。
+pixelmon.config.starterOnJoin.comment=请您选择提供/不提供当一个玩家进入游戏时的首发伙伴(通过Pixelmon的进入页面)。
+pixelmon.config.isiHourglassBossDrop.comment=是否允许BOSS掉落Isi的沙漏，这个物品能让您跳过繁殖阶段。
+pixelmon.config.enablePointToSteer.comment=在安装好时启用查看神奇宝贝。
+pixelmon.config.useSystemTimeForWorldTime.comment=是否让游戏使用现实时间(根据服务端运行的电脑的时间)。
+pixelmon.config.systemTimeSyncInterval.comment=将之前的时间同步为系统时间(以秒为单位)。
+pixelmon.config.enablePokedexWikiWebsiteOpen.comment=是否允许图鉴打开维基页面。
+pixelmon.config.useExternalNPCFiles.comment=加载NPC到外部"npcs"文件夹。若设置为true并且不存在"npcs"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
+pixelmon.config.useExternalStructureFiles.comment=加载建筑到外部"structures"文件夹。若设置为true并且不存在"structures"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
+pixelmon.config.chunkSpawnRadius.comment=玩家周围的生成神奇宝贝的半径。
+pixelmon.config.battleAIDescription=1:选择随机移动 2:选择最具破坏性的举动(伴随着巅峰状态),忽略自身状态的行为。3:选择攻防兼备的行为。4:选择智能行为。
+pixelmon.config.battleAIWild.comment=对战中野怪的AI类型。
+pixelmon.config.battleAIBoss.comment=对战中BOSS的AI类型。
+pixelmon.config.battleAITrainer.comment=对战中NPC训练师的AI类型。
+pixelmon.config.spawnDimensions.comment=生成神奇宝贝的维度列表
+pixelmon.config.shinySpawnRate.comment=通过闪光的几率1/X的(闪光率),来确定闪光率。
+pixelmon.config.bossSpawnRate.comment=BOSS的生成率,1/x的生成率,若设置为0则禁止BOSS生成。
+pixelmon.config.legendarySpawnTicks.comment=神兽的平均生成时间(随生成率改动)。
+pixelmon.config.legendaryRepeatSpawnTicks.comment=神兽的特定时间内最小再次生成数量(只要通过生成)。
+pixelmon.config.legendarySpawnChance.comment=改变一个神兽生成的几率 (0-1).
+pixelmon.config.hiddenAbilitySpawnRate.comment=改变野生神奇宝贝隐藏特性的几率(1/X)，0为禁止隐藏特性产生。
+pixelmon.config.allowLegendarySpawn.comment=允许野生神兽产生(特定事件除外)。
+pixelmon.config.displayLegendaryGlobalMessage.comment=关闭公告'一只神兽在 <name> 地形生成了'当神兽产生时。
+pixelmon.config.replaceMCVillagers.comment=是否替换村民为Pixelmon的NPC。
+pixelmon.config.spawnPokeMarts.comment=在Minecraft村庄里神奇宝贝商店。
+
+pixelmon.config.Gen1.comment=神奇宝贝图鉴 1-151
+pixelmon.config.Gen2.comment=神奇宝贝图鉴 152-251
+pixelmon.config.Gen3.comment=神奇宝贝图鉴 252-386
+pixelmon.config.Gen4.comment=神奇宝贝图鉴 387-493
+pixelmon.config.Gen5.comment=神奇宝贝图鉴 494-649
+
+pixelmon.config.maxLandPokemon.comment=陆地神奇宝贝最大数量。
+pixelmon.config.maxUndergroundPokemon.comment=地下神奇宝贝最大数量。
+pixelmon.config.maxWaterPokemon.comment=水中神奇宝贝最大数量。
+pixelmon.config.maxFlyingPokemon.comment天空中神奇宝贝最大数量(请保持此项数字很低,对服务器影响很大)。
+pixelmon.config.despawnOnFleeOrLoss.comment=强制野生精灵在对战后消失。
+
+pixelmon.config.spawnNormal.comment=允许普通的神奇宝贝奖励箱随机生成。
+pixelmon.config.spawnHidden.comment=允许隐形的神奇宝贝奖励箱随机生成。
+pixelmon.config.spawnGrotto.comment=允许隐藏洞穴随机生成。
+pixelmon.config.spawnRate.comment=奖励箱生成率。0:64个区块里1个。1:32个区块里1个。2:18个区块里1个。3:10个区块里1个。
+pixelmon.config.spawnMode.comment=默认生成模式(FCFS=0, PL1D=1, PUD=2, TIMED=3)。 FCFS = 先到先得，只有一个玩家能获得，打开后箱子消失。 PL1D = 每个玩家可领取一次。 PUD =无限制领取。 TIMED = 每一段时间可领取一次(个人计时)。
+pixelmon.config.timedLootReuseSeconds.comment=设置一个玩家可以重复领取奖励箱的时间（无论是放置在人工的和自然产生的，如果设置定时的频率。时间转换：一小时= 3600秒，一天= 86400秒，一周= 604800秒。
+
+pixelmon.config.enableAFKHandler.comment=如果有玩家在对战中AFK自动对战，则在指定时间内进行回合。
+pixelmon.config.afkActivateSeconds.comment=在对战中若玩家AFK则用自动对战代码托管战斗。
+pixelmon.config.afkHandlerTurnSeconds.comment=自动对战系统每回合自动选取几个行动。
+
+pixelmon.config.renderDistanceWeight.comment=通常以64为距离的渲染。
+pixelmon.config.lowResTextures.comment=使用低分辨率纹理的神奇宝贝和神奇宝贝球。对低端电脑有帮助。
+pixelmon.config.useSmoothShadingOnPokeBalls.comment=使用SMD的神奇宝贝球。
+pixelmon.config.useSmoothShadingOnPokemon.comment=使用SMD的神奇宝贝。
+pixelmon.config.useOriginalPokemonTexturesForStatues.comment=使用原始的神奇宝贝纹理。
+pixelmon.config.showCurrentAttackTarget.comment=在画面中显示当前神奇宝贝攻击的目标。
+
+pixelmon.config.allowBreeding.comment=允许放置牧场方块，这是用于繁殖神奇宝贝的必要物品。
+pixelmon.config.allowDittoDittoBreeding.comment=允许两只百变怪生蛋随机产生神奇宝贝蛋。
+pixelmon.config.allowRandomBreedingEggsToBeLegendary.comment=允许两只百变怪生蛋随机产生神兽蛋。
+pixelmon.config.allowRandomSpawnedEggsToBeLegendary.comment=允许用指令/pokegiveegg中的随机蛋中有神兽蛋。
+pixelmon.config.allowRanchCrafting.comment=允许制作牧场方块。
+pixelmon.config.useBreedingEnvironment.comment=根据育种不同来控制繁殖速度。若设置为false则繁殖速度为默认的1.0倍。
+pixelmon.config.breedingEnviromentCheckSeconds.comment=启用环境检测，需要先启用繁殖环境。
+pixelmon.config.stepsPerEggCycle.comment=设置神奇宝贝蛋一个周期需要的步数。数字越小，孵化蛋越快。
+pixelmon.config.numBreedingStages.comment=繁殖时需要几个感情等级(1-5)。
+pixelmon.config.breedingTicks.comment=经过每个繁殖阶段需要多少tick。
+pixelmon.config.allowRanchExpansion.comment=允许牧场扩张。
+
+pixelmon.config.allowExternalMoves.comment=是否允许玩家使用对战外技能如碎岩。
+
+pixelmon.config.saveToExternalDatabase.comment=启用使用数据库保存数据。目前仅支持H2和MySQL。
+
+pixelmon.config.minMusicDelay.comment=新音乐开始播放的最小tick。
+pixelmon.config.maxMusicDelay.comment=新音乐开始播放的最大tick。
+
+pixelmon.config.scaleGrassBattles.comment=根据玩家队伍决定神奇宝贝草中的神奇宝贝水平?
+pixelmon.config.pokeGiftReusable.comment=是否允许玩家在神奇宝贝礼物盒中得到神奇宝贝。
+pixelmon.config.pokeGiftHaveEvents.comment=是否允许使用神奇宝贝礼品盒(包括放置和使用，放置无用礼品盒)。
+pixelmon.config.eventPokeGiftLoad.comment=是否允许神奇宝贝礼品盒生成。
+pixelmon.config.eventHasLegendaries.comment=允许/禁止神兽被放入神奇宝贝礼品盒。
+
+pixelmon.config.eventHasShinies.comment=每只神奇宝贝有1/10的几率成为闪光的。
+pixelmon.config.eventMaxPokemon.comment=设置神奇宝贝礼品盒中最多的神奇宝贝数。
+pixelmon.config.eventShinyRate.comment=神奇宝贝礼品盒中出现闪光的几率(1/x)。
+pixelmon.config.eventTime.comment=选定一个能打开神奇宝贝礼品盒的日期(先日期接着月)
+pixelmon.config.eventCoords.comment=指定神奇宝贝礼品盒出现的坐标。
+
+pixelmon.config.elevatorSearchRange.comment=设置升降机的最大上下范围。
+
+pixelmon.config.starterLevel.comment=初始神奇宝贝等级(最小=5, 最大=100).
+pixelmon.config.starterShiny.comment=初始神奇宝贝是否闪光
+pixelmon.config.starterList.comment=初始神奇宝贝数量(15只满)
