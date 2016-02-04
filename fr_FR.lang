@@ -1,5 +1,5 @@
 /*
-*	Latest translation 27/01/2016
+*	Latest translation 04/02/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4971,7 +4971,8 @@ gui.trainereditor.additem=Nouveau Loot
 gui.trainereditor.moreinfo=Éditeur de Dresseur - Plus d'Infos
 gui.trainereditor.greeting=Félicitations
 gui.trainereditor.win=Victoire
-gui.trainereditor.lose=Perdre
+gui.trainereditor.lose=Défaite
+gui.trainereditor.winmoney=Gain d'argent
 gui.trainereditor.winningdrops=Gains de Victoire
 gui.trainereditor.adddrops=Ajouter des gains
 gui.trainereditor.enteritemname=Entrer le nom de l'Item ou son ID
@@ -6169,7 +6170,6 @@ pixelmon.effect.iceburn=%s se prépare à attaquer !
 pixelmon.effect.lunardance=%s est soigné par Danse-Lune !
 pixelmon.effect.shadowforce=%s disparaît !
 pixelmon.effect.smellingsalt=La paralysie de %s est guérie !
-pixelmon.effect.revived=%s a été ressuscité
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
@@ -6371,7 +6371,7 @@ pixelmon.config.gens.tooltip=Paramètres de Générations
 pixelmon.config.graphics=Graphismes
 pixelmon.config.graphics.tooltip=Paramètres Graphismes
 pixelmon.config.pixelutilities=PixelUtilities
-pixelmon.config.pixelutilities=Paramètres PixelUtilities 
+pixelmon.config.pixelutilities.tooltip=Paramètres PixelUtilities 
 pixelmon.config.pokeloot=PokéButin
 pixelmon.config.pokeloot.tooltip=Paramètres PokéButin
 pixelmon.config.sound=Son
@@ -6392,6 +6392,8 @@ pixelmon.config.allowLegendarySpawn=Autoriser l'apparition de Légendaires
 pixelmon.config.displayLegendaryGlobalMessage=Message lors de l'apparition d'un légendaire
 pixelmon.config.replaceMCVillagers=Remplacer les villageois de Minecraft 
 pixelmon.config.spawnPokeMarts=Spawn de Marchands
+pixelmon.config.increaseVillageSpawnRate=Augmente le ratio de spawn de village
+
 pixelmon.config.Gen1=Génération 1
 pixelmon.config.Gen2=Génération 2
 pixelmon.config.Gen3=Génération 3
@@ -6409,6 +6411,7 @@ pixelmon.config.spawnMode=Mode de spawn PokéButin
 pixelmon.config.timedLootReuseSeconds=Délai de réutilisation
 
 pixelmon.config.scaleGrassBattles=Ajuster le niveau des combats au joueur
+pixelmon.config.blocksHaveLegendaries=Spawn de légendaires dans des blocs
 pixelmon.config.pokeGiftReusable=Poké Cadeau réutilisable
 pixelmon.config.pokeGiftHaveEvents=Activer les Poké Cadeaux d'événement
 pixelmon.config.eventPokeGiftLoad=Activer le spawn de Poké Cadeau d'événement
@@ -6579,6 +6582,7 @@ pixelmon.config.allowLegendarySpawn.comment=Autorise l'apparition de Légendaire
 pixelmon.config.displayLegendaryGlobalMessage.comment=Affiche une annonce dans tout le serveur "Un Pokemon Légendaire est apparu dans un biome <nom>" lorsqu'un légendaire apparaît.
 pixelmon.config.replaceMCVillagers.comment=Remplace les villageois de base par des PNJ Pixelmon.
 pixelmon.config.spawnPokeMarts.comment=Les Poké Marchés apparaissent avec un marchands dans les villages de Minecraft.
+pixelmon.config.increaseVillageSpawnRate.comment=Augmente le ratio de spawn de villages Minecraft de 100%.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
@@ -6631,6 +6635,7 @@ pixelmon.config.minMusicDelay.comment=Nombre minimum de ticks avant qu'un nouvea
 pixelmon.config.maxMusicDelay.comment=Nombre maximum de ticks avant qu'un nouveau morceau ne commence.
 
 pixelmon.config.scaleGrassBattles.comment=Ajuster le niveau des combats en hautes herbes au niveau de l'équipe du joueur ?
+pixelmon.config.blocksHaveLegendaries.comment=Permet aux légendaires de spawn depuis des blocs (ex: herbe).
 pixelmon.config.pokeGiftReusable.comment=Permet à plusieurs joueurs d'obtenir un Pokémon grâce à un cadeau.
 pixelmon.config.pokeGiftHaveEvents.comment=Autorise l'utilisation de Poké Cadeau (à placer/utiliser).
 pixelmon.config.eventPokeGiftLoad.comment=Un Poké Cadeau d'événement doit-il apparaître ?
