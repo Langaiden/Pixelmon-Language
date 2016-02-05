@@ -5951,8 +5951,8 @@ pixelmon.config.starter.tooltip=Ajustes de Iniciales
 pixelmon.config.spawnDimensions=Dimensiones de aparición
 pixelmon.config.shinySpawnRate=Prob. de aparición de Shiny (1/x)
 pixelmon.config.bossSpawnRate=Prob. de aparición de Jefes (1/x)
-pixelmon.config.legendarySpawnTicks=Ticks para los Legendarios
-pixelmon.config.legendaryRepeatSpawnTicks=Repetir ticks para Legendarios
+pixelmon.config.legendarySpawnTicks=Ticks de los Legendarios
+pixelmon.config.legendaryRepeatSpawnTicks=Repetir ticks de los Legendarios
 pixelmon.config.legendarySpawnChance=Prob. de Legendarios
 pixelmon.config.hiddenAbilitySpawnRate=Prob. de Habilidad Oculta
 pixelmon.config.allowLegendarySpawn=Permitir Legendarios
@@ -5981,9 +5981,9 @@ pixelmon.config.pokeGiftReusable=Poké Regalo reusable
 pixelmon.config.pokeGiftHaveEvents=Habilitar eventos de Poké Regalo
 pixelmon.config.eventPokeGiftLoad=Habilitar aparición del evento de Poké Regalo
 pixelmon.config.eventHasLegendaries=Permitir Legendarios en evento de Poké Regalo
-pixelmon.config.eventHasShinies=Permitir Shinies en Evento Poké Regalo
+pixelmon.config.eventHasShinies=Permitir Shinies en Evento de Poké Regalo
 pixelmon.config.eventMaxPokemon=Evento Poké Regalo máx. Pokémon
-pixelmon.config.eventShinyRate=Prob. de Shinies en Evento Poké Regalo (1/x)
+pixelmon.config.eventShinyRate=Prob. de Shinies en Evento de Poké Regalo (1/x)
 pixelmon.config.eventTime=Evento Poké Regalo fecha personalizada (D/M)
 pixelmon.config.eventCoords=Coordenadas de aparición del Evento Poké Regalo
 
@@ -5991,7 +5991,7 @@ pixelmon.config.lowResTextures=Modo Patata
 pixelmon.config.useSmoothShadingOnPokeBalls=Sombreado suave en Poké Balls
 pixelmon.config.useSmoothShadingOnPokemon=Sombreado suave en Pokémon
 pixelmon.config.useOriginalPokemonTexturesForStatues=Las estatuas usan texturas originales
-pixelmon.config.showCurrentAttackTarget=Mostrar objetivo presente
+pixelmon.config.showCurrentAttackTarget=Mostrar objetivo actual
 
 pixelmon.config.awardPhotos=Activar fotos al ganar batallas salvajes
 pixelmon.config.wildCanFlee=Permitir a los Pokémon salvajes huir
@@ -6005,12 +6005,12 @@ pixelmon.config.npcRarity=Frecuencia de NPCs
 pixelmon.config.namePlateRange=Asignar Distancia
 pixelmon.config.scalePokemonModels=Aumentar tamaño de modelos en un 30%
 pixelmon.config.growthScaleModifier=Variación del tamaño de crecimiento
-pixelmon.config.pokemonDropsEnabled=Activar drops Pokémon
+pixelmon.config.pokemonDropsEnabled=Permitir drops de Pokémon
 pixelmon.config.printErrors=Mostrar los errores con más detalle
 pixelmon.config.allowRiding=Habilitar montar sobre Pokémon
-pixelmon.config.allowPlanting=Activar plantar Bonguris
-pixelmon.config.allowPvPExperience=Activar exp. en JcJ
-pixelmon.config.allowTrainerExperience=Activar exp. en Entrenadores
+pixelmon.config.allowPlanting=Permitir plantar Bonguris
+pixelmon.config.allowPvPExperience=Permitir exp. en JcJ
+pixelmon.config.allowTrainerExperience=Permitir exp. en Entrenadores
 pixelmon.config.returnHeldItems=Devolver objetos en batallas JcJ
 pixelmon.config.forceEndBattleResult=Forzar resultado de batalla
 pixelmon.config.engagePlayerByPokeBall=Habilitar desafío lanzando Poké Ball
@@ -6037,8 +6037,8 @@ pixelmon.config.enablePointToSteer=Permitir punto de manejo
 pixelmon.config.useSystemTimeForWorldTime=Usar sistema horas real
 pixelmon.config.systemTimeSyncInterval=Tiempo de sincronización
 pixelmon.config.enablePokedexWikiWebsiteOpen=Permitir a la Pokédex abrir la wiki
-pixelmon.config.useExternalNPCFiles=Usar archivos NPC externos
-pixelmon.config.useExternalStructureFiles=Usar archivos de estructuras externos
+pixelmon.config.useExternalNPCFiles=Usar archivos de NPC externos
+pixelmon.config.useExternalStructureFiles=Usar archivos externos de estructuras
 pixelmon.config.chunkSpawnRadius=Distancia de chunks Pókemon
 pixelmon.config.battleAIWild=Pokémon salvajes IA de batalla
 pixelmon.config.battleAIBoss=Jefes Pokémon IA de batalla
@@ -6067,7 +6067,7 @@ pixelmon.config.starterList=Lista de Iniciales
 pixelmon.config.connectionString=String de conexión
 pixelmon.config.saveToExternalDatabase=Usar database superior para guardar
 
-pixelmon.config.elevatorSearchRange=Buscar rango (arriba/abajo)
+pixelmon.config.elevatorSearchRange=Examinar distancia (arriba/abajo)
 
 pixelmon.config.allowExternalMoves=Activar movs. externos
 
@@ -6108,7 +6108,7 @@ pixelmon.config.engagePlayerByPokeBall.comment=Si está activado, los jugadores 
 pixelmon.config.computerBoxes.comment=Fija la cantidad de cajas que los jugadores pueden tener en sus PCs (cómo máximo 256 por jugador).
 pixelmon.config.enableWildAggression.comment=Permite a los Pokémon iniciar batallas.
 pixelmon.config.allowRareCandyCrafting.comment=Permite a los jugadores poder hacer Carameloraros (opción de servidor).
-pixelmon.config.allowTMReuse.comment=Si está activado, las MTs son reusables. Si está desactivado, las MTs desaparecen tras su uso.
+pixelmon.config.allowTMReuse.comment=Si está activado, las MTs se pueden volver a usar. Si está desactivado, las MTs desaparecen tras su uso.
 pixelmon.config.writeEntitiesToWorld.comment=Guarda las entidades de Pixelmon a un archivo cuando el mundo se guarda (Aumenta en gran medida el tamaño del archivo de guardado y guarda la hora si está activado). Necesario para el mod Morph.
 pixelmon.config.spawnBirdShrines.comment=Permite aparecer aleatoriamente altares de los Pájaros legendarios en el mundo.
 pixelmon.config.spawnGemShrines.comment=Permite aparecer aleatoriamente altares de Gemas Espectrales en el mundo.
@@ -6131,7 +6131,7 @@ pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Permite a la Pokédex abrir
 pixelmon.config.useExternalNPCFiles.comment=Carga archivos de NPC externos de la carpeta "npcs". Si está activado y la carpeta "npcs" no existe, Pixelmon creará la carpeta y colocará los archivos existentes.
 pixelmon.config.useExternalStructureFiles.comment=Carga archivos de estructuras externos de la carpeta "structures". Si está activado y la carpeta "structures" no existe, Pixelmon creará la carpeta y colocará los archivos existentes.
 pixelmon.config.chunkSpawnRadius.comment=El radio de chunks alrededor del jugador en que los Pokémon pueden aparecer.
-pixelmon.config.battleAIDescription=1: Utiliza ataques aleatoriamente. 2: Utiliza los ataques con más daño posible (en función del tipo), ignorando movs. de estado. 3: Usa ataques ofensivos y de estado. 4: Usa los ataques inteligentemente y cambia cuando sea conveniente.
+pixelmon.config.battleAIDescription=1: Utiliza ataques aleatoriamente. 2: Utiliza ataques con mayor daño posible (en función del tipo), ignorando movs. de estado. 3: Usa ataques ofensivos y de estado. 4: Usa ataques inteligentemente y cambia cuando sea conveniente.
 pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salvajes durante la batalla.
 pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon jefes durante la batalla.
 pixelmon.config.battleAITrainer.comment=El tipo de IA que usarán los Entrenadores durante la batalla.
@@ -6143,10 +6143,11 @@ pixelmon.config.legendarySpawnTicks.comment=Número medio de ticks antes de que 
 pixelmon.config.legendaryRepeatSpawnTicks.comment=Número mínimo de ticks antes de que un legendario en particular pueda aparecer de nuevo (vía spawn natural).
 pixelmon.config.legendarySpawnChance.comment=Probabilidad de que la aparición de un Legendario tendrá éxito (0-1).
 pixelmon.config.hiddenAbilitySpawnRate.comment=Probabilidad de que un Pokémon aparezca con Habilidad Oculta (1/tasa). 0 desactiva la Habilidad Oculta.
-pixelmon.config.allowLegendarySpawn.comment=Permite la aparición de Legendarios salvajes (además de determinados eventos).
+pixelmon.config.allowLegendarySpawn.comment=Permite la aparición de Legendarios salvajes (a parte de determinados eventos).
 pixelmon.config.displayLegendaryGlobalMessage.comment=Muestra un anuncio en todo el servidor 'Un legendario ha aparecido en el bioma <nombre>' cuando aparece un legendario.
 pixelmon.config.replaceMCVillagers.comment=Remplaza a los aldeanos de Minecraft por los NPCs de Pixelmon.
-pixelmon.config.spawnPokeMarts.comment=Las Tiendas Pokémon aparecerán con comerciantes en las aldeas de Minecraft
+pixelmon.config.spawnPokeMarts.comment=Las Tiendas Pokémon aparecerán con comerciantes en las aldeas de Minecraft.
+pixelmon.config.increaseVillageSpawnRate.comment=Incrementa la tasa de aparición de las aldeas de Minecraft un 100%.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
@@ -6164,53 +6165,53 @@ pixelmon.config.spawnNormal.comment=Permite aparecer PokeCofres visibles aleator
 pixelmon.config.spawnHidden.comment=Permite aparecer PokeCofre invisibles aleatoriamente por todo el mundo.
 pixelmon.config.spawnGrotto.comment=Permite aparecer Grutas Ocultas en el mundo.
 pixelmon.config.spawnRate.comment=Tasa de aparición de cofres. 0: 1 por cada 64 chunks. 1: 1 por cada 32 chunks. 2: 1 por cada 18 chunks. 3: 1 por cada 10 chunks
-pixelmon.config.spawnMode.comment=Modo de aparición por defecto (PLPG=0, 1PPG=1, PI=2, TIEMPO=3). PLPG = Primero en Llegar Primero en Ganar, sólo un jugador puede ganar el cofre, después desaparece. 1PPG = 1 Premio por Jugador, el cofre entrega un premio por persona. El cofre permanece para que el resto pueda usarlo. PI = Premio Ilimitado, los cofre pueden usarse infinitamente por todos los jugadores. TIEMPO = Cada jugador puede ser premiado después de un intervalo de tiempo especificado (tiempo individual). El cofre permanecerá.
-pixelmon.config.timedLootReuseSeconds.comment=Fija la frencuencia en la que un jugador puede volver a usar un cofre (colocados en Creativo o aparición nautral) si se activa TIEMPO. Conversiones de tiempo: una hora = 3600 segundos, un día = 86400 segundos, una semana = 604800 segundos.
+pixelmon.config.spawnMode.comment=Modo de aparición por defecto (PLPG=0, 1PPG=1, PI=2, TIEMPO=3). PLPG = Primero en Llegar Primero en Ganar, sólo un jugador puede ganar el cofre, después desaparece. 1PPG = 1 Premio por Jugador, el cofre otorga un premio por persona. El cofre permanece para que el resto pueda usarlo. PI = Premio Ilimitado, los cofre pueden usarse ilimitadamente por todos los jugadores. TIEMPO = Cada jugador puede ser premiado después de un intervalo de tiempo especificado (tiempo individual). El cofre permanecerá.
+pixelmon.config.timedLootReuseSeconds.comment=Fija el intervalo de tiempo en la que un jugador puede volver a usar un cofre (colocados en Creativo o aparición nautral) activando TIEMPO. Conversiones de tiempo: una hora = 3600 segundos, un día = 86400 segundos, una semana = 604800 segundos.
 
-pixelmon.config.enableAFKHandler.comment=Have auto-battle take over if the player is AFK during a battle. Activates after the specified time period and gives specified time for each turn after that.
-pixelmon.config.afkActivateSeconds.comment=The time in seconds before a player in a battle is declared to be AFK and the auto-battle code takes over for them.
-pixelmon.config.afkHandlerTurnSeconds.comment=The time in seconds before the auto-battle handler picks a move automatically each turn.
+pixelmon.config.enableAFKHandler.comment=La batalla automática se activará si el jugador está AFK durante la batalla. Se activa después del periodo de tiempo especificado con un tiempo especificado para cada turno.
+pixelmon.config.afkActivateSeconds.comment=El tiempo en segundos antes de que un jugador en batalla se declaré estar AFK, y el codigo de batalla automática continue por él.
+pixelmon.config.afkHandlerTurnSeconds.comment=El tiempo en segundos antes de que el modo de batalla automática seleccione un ataque automáticamente por cada turno.
 
-pixelmon.config.renderDistanceWeight.comment=Multiplier of the 64 distance usually used for rendering.
-pixelmon.config.lowResTextures.comment=Use the low resolution textures for Pokemon and Poke Balls. Useful for low-end systems.
-pixelmon.config.useSmoothShadingOnPokeBalls.comment=Use the SMD normal maps for shading Poke Balls.
-pixelmon.config.useSmoothShadingOnPokemon.comment=Use the SMD normal maps for shading Pokemon.
-pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Use the original Pokemon textures for statues.
-pixelmon.config.showCurrentAttackTarget.comment=Display the currently selected Pokemon's attack target on the screen.
+pixelmon.config.renderDistanceWeight.comment=Valor multiplicado con la distancia de renderizado por defecto (64) para obtener una distancia de renderizado final.
+pixelmon.config.lowResTextures.comment=Usar texturas de baja resolución para Pokémon y Poké Balls. Útil para sistemas de baja gama.
+pixelmon.config.useSmoothShadingOnPokeBalls.comment=Usar normal maps SMD para el sombreado de Poké Balls.
+pixelmon.config.useSmoothShadingOnPokemon.comment=Usar normal maps SMD para el sombreado de Pokémon.
+pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Usar texturas originales para las estatuas Pokémon.
+pixelmon.config.showCurrentAttackTarget.comment=Mostrar el actual objetivo seleccionado del Pokémon en la pantalla.
 
-pixelmon.config.allowBreeding.comment=Allows the placement of ranch blocks, which are required for breeding Pokemon.
-pixelmon.config.allowDittoDittoBreeding.comment=Allows two Ditto to breed together to produce Eggs with random Pokémon inside.
-pixelmon.config.allowRandomBreedingEggsToBeLegendary.comment=Enable random Eggs from Ditto-Ditto breeding to contain Legendaries.
-pixelmon.config.allowRandomSpawnedEggsToBeLegendary.comment=Enables random Eggs from /pokegiveegg to contain Legendaries.
-pixelmon.config.allowRanchCrafting.comment=Allow the crafting of ranch blocks.
-pixelmon.config.useBreedingEnvironment.comment=Control speed of breeding based on the blocks set in the area. If false, will set breeding speed to 1.0x.
-pixelmon.config.breedingEnvironmentCheckSeconds.comment=Seconds between running the environment check for breeders, requires useBreedingEnvironment to be enabled
-pixelmon.config.stepsPerEggCycle.comment=Sets the number of steps per Egg cycle. Lower numbers hatch Eggs faster.
-pixelmon.config.numBreedingStages.comment=Number of stages to go through before breeding occurs (1-5).
-pixelmon.config.breedingTicks.comment=Number of world ticks needed to increase the breeding stage.
-pixelmon.config.allowRanchExpansion.comment=Allow the ranch expansion.
+pixelmon.config.allowBreeding.comment=Permite colocar bloques del rancho, necesarios para la reproducción Pokémon.
+pixelmon.config.allowDittoDittoBreeding.comment=Permite a dos Dittos criar juntos para producir Huevos con Pokémon aleatorios.
+pixelmon.config.allowRandomBreedingEggsToBeLegendary.comment=Activar Huevos aleatorios de Legendarios durante la crianza Ditto-Ditto.
+pixelmon.config.allowRandomSpawnedEggsToBeLegendary.comment=Activar Huevos aleatorios de Legendarios al introducir /pokegiveegg.
+pixelmon.config.allowRanchCrafting.comment=Permite la creación de bloques del rancho.
+pixelmon.config.useBreedingEnvironment.comment=Controla la velocidad de reproducción en función de los bloques colocados en la zona. Si está desactivado, la velocidad de crianza se establecerá en 1.0x.
+pixelmon.config.breedingEnvironmentCheckSeconds.comment=Segundos que deben pasar para verificar el entorno para la reproducción. Es necesario activar Entorno de Reproducción.
+pixelmon.config.stepsPerEggCycle.comment=Fija el número de pasos por cada ciclo del Huevo. Dígitos bajos eclosionarán los Huevos más rápido.
+pixelmon.config.numBreedingStages.comment=Número de etapas que deberán pasar antes de que se reproduzcan (1-5).
+pixelmon.config.breedingTicks.comment=Número de ticks del mundo necesarios para incrementar la etapa de reproducción.
+pixelmon.config.allowRanchExpansion.comment=Permitir la expansión del rancho.
 
-pixelmon.config.allowExternalMoves.comment=Allows the use of external moves such as Rock Smash and Cut.
+pixelmon.config.allowExternalMoves.comment=Permite el uso de movimientos externos como Golpe Roca y Corte.
 
-pixelmon.config.saveToExternalDatabase.comment=Enable this to change the save system over to a database specified in the connection string property. Only H2 and MySQL currently supported.
-pixelmon.config.connectionString.comment=Put the connection string for the external database in the form jdbc:dbtype://...
+pixelmon.config.saveToExternalDatabase.comment=Activa esto para cambiar el sistema de guardado a una database especificada en la conexión string property. Únicamente sporta H2 y MySQL.
+pixelmon.config.connectionString.comment=Coloca el string de conexión para la database externa de la forma jdbc:dbtype://...
 
-pixelmon.config.minMusicDelay.comment=Minimum number of world ticks before a new music track will start.
-pixelmon.config.maxMusicDelay.comment=Maximum number of world ticks before a new music track will start.
+pixelmon.config.minMusicDelay.comment=Número mínimo de ticks del mundo antes de que una nueva melodia comience.
+pixelmon.config.maxMusicDelay.comment=Número máximo de ticks del mundo antes de que una nueva melodía comience.
 
-pixelmon.config.scaleGrassBattles.comment=Scale grass battles to players' team levels?
-pixelmon.config.pokeGiftReusable.comment=Enable multiple players to get the Pokemon from the gift.
-pixelmon.config.pokeGiftHaveEvents.comment=Allows Poke Gifts to be used (both placing and using, prevention against spam).
-pixelmon.config.eventPokeGiftLoad.comment=Should an event Poke Gift spawn?
-pixelmon.config.eventHasLegendaries.comment=Enable/Disable Legendaries from being added to the event Poke Gift.
+pixelmon.config.scaleGrassBattles.comment=¿Ajustar las batallas de la hierba al nivel del equipo del jugador?
+pixelmon.config.pokeGiftReusable.comment=Permitir a varios jugadores conseguir un Pokémon de un regalo.
+pixelmon.config.pokeGiftHaveEvents.comment=Autorizar la utilización de Poké Regalos (colocar y su uso).
+pixelmon.config.eventPokeGiftLoad.comment=¿Debería aparecer un evento de Poké Regalo?
+pixelmon.config.eventHasLegendaries.comment=Activar/Desactivar añadir Legendarios durante el evento de Poké Regalo.
 
-pixelmon.config.eventHasShinies.comment=Each Pokemon has a 1/10 chance of being a Shiny.
-pixelmon.config.eventMaxPokemon.comment=Sets the maximum amount of Pokemon that are in spawned Poke Gifts.
-pixelmon.config.eventShinyRate.comment=The rate of Shiny Pokemon appearing in a Poke Gift (1/x).
-pixelmon.config.eventTime.comment=Define a custom date for Poke Gift events (day then month).
-pixelmon.config.eventCoords.comment=Specify the coordinates of the event Poke Gift chest here.
+pixelmon.config.eventHasShinies.comment=Cada Pokémon tiene la probabilidad de 1/10 de ser Shiny.
+pixelmon.config.eventMaxPokemon.comment=Establece la cantidad máxima de Pokémon que aparecerán en los Poké Regalos.
+pixelmon.config.eventShinyRate.comment=Tasa de Pokémon Shiny que aparecerán en un Poké Regalo (1/x).
+pixelmon.config.eventTime.comment=Define una fecha personalizada para los eventos de Poké Regalo (día y mes).
+pixelmon.config.eventCoords.comment=Establece las coordenadas del cofre del evento de Poké Regalo aquí.
 
-pixelmon.config.elevatorSearchRange.comment=Maximum search range up/down for a pairing elevator.
+pixelmon.config.elevatorSearchRange.comment=Distancia máxima de registro de arriba a abajo para enlazar dos elevadores.
 
 pixelmon.config.starterLevel.comment=Nivel (Mín=5, Máx=100).
 pixelmon.config.starterShiny.comment=Iniciales Shiny.
