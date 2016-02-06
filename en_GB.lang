@@ -5434,6 +5434,7 @@ pixelmon.config.chunkSpawnRadius=Pokémon chunk spawn distance
 pixelmon.config.battleAIWild=Wild Pokémon battle AI
 pixelmon.config.battleAIBoss=Boss Pokémon battle AI
 pixelmon.config.battleAITrainer=NPC Trainer battle AI
+pixelmon.config.expModifier=Experience modifier
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
@@ -5526,6 +5527,7 @@ pixelmon.config.battleAIDescription=1: Choose moves randomly. 2: Choose the most
 pixelmon.config.battleAIWild.comment=The type of AI to use for wild Pokemon in battle.
 pixelmon.config.battleAIBoss.comment=The type of AI to use for boss Pokemon in battle.
 pixelmon.config.battleAITrainer.comment=The type of AI to use for NPC Trainers in battle.
+pixelmon.config.expModifier.comment=Multiplier for experience gained in Pokemon battles.
 
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
