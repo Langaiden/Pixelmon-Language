@@ -3923,6 +3923,7 @@ gui.trainereditor.moreinfo=Trainer Editor - More Info
 gui.trainereditor.greeting=Greeting
 gui.trainereditor.win=Win
 gui.trainereditor.lose=Lose
+gui.trainereditor.winmoney=Win Money
 gui.trainereditor.winningdrops=Winning Drops
 gui.trainereditor.adddrops=Add Drops
 gui.trainereditor.enteritemname=Enter Item Name or ID
@@ -5389,6 +5390,7 @@ pixelmon.config.spawnMode=PokéLoot spawn mode
 pixelmon.config.timedLootReuseSeconds=Reuse cooldown
 
 pixelmon.config.scaleGrassBattles=Scale grass battle levels to player
+pixelmon.config.blocksHaveLegendaries=Allow Legendaries from Blocks
 pixelmon.config.pokeGiftReusable=Poké Gifts reusable
 pixelmon.config.pokeGiftHaveEvents=Enable Poké Gift events
 pixelmon.config.eventPokeGiftLoad=Enable event Poké Gift spawning
@@ -5612,6 +5614,7 @@ pixelmon.config.minMusicDelay.comment=Minimum number of world ticks before a new
 pixelmon.config.maxMusicDelay.comment=Maximum number of world ticks before a new music track will start.
 
 pixelmon.config.scaleGrassBattles.comment=Scale grass battles to players' team levels?
+pixelmon.config.blocksHaveLegendaries.comment=Allows Legendaries to spawn from blocks (ie grass).
 pixelmon.config.pokeGiftReusable.comment=Enable multiple players to get the Pokemon from the gift.
 pixelmon.config.pokeGiftHaveEvents.comment=Allows Poke Gifts to be used (both placing and using, prevention against spam).
 pixelmon.config.eventPokeGiftLoad.comment=Should an event Poke Gift spawn?
