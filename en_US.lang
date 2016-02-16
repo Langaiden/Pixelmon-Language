@@ -4177,6 +4177,8 @@ gui.ranch.empty=There are no Pokémon in the ranch.
 ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level.
 ranch.hourglass.upgrade=%s increased a breeding level.
 
+gui.spectate.spectateMessage=Press $l to spectate $p's battle
+
 trainer.Steve=Steve
 trainer.Youngster=Youngster
 trainer.Lass=Lass
@@ -5289,6 +5291,7 @@ key.pokemonaction=Select Target Pokémon
 key.pokemonexternal=Use External Move
 key.nextexternalmove=Next External Move
 key.pokedex=Open Pokédex/Wiki
+key.spectateBattle=Spectate Battle
 
 halloween.entityname=The Spectral Jeweler
 halloween.gemregistered=The Spectral Jeweler recieved your %s!
