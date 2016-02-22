@@ -4184,6 +4184,9 @@ gui.ranch.empty=牧场里空空的，没有任何精灵...
 ranch.hourglass.upgradedall=所有在牧场里的精灵都提升了感情等级！
 ranch.hourglass.upgrade=%s 提升了一个感情等级！
 
+gui.spectate.spectateMessage=按 $l 去观看 $p 的对战。
+gui.spectate.stopspectate=停止观战
+
 trainer.Steve=史蒂夫
 trainer.Youngster=少年
 trainer.Lass=少女
