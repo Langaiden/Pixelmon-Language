@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: January 2, 2016 - by ToklaX
+* Last Update: February 14, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 2 de Enero de 2016 por ToklaX
+* Última actualización: 14 de Febrero de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -326,13 +326,16 @@ item.Thunder Stone.name=Piedra Trueno
 item.Leaf Stone.name=Piedra Hoja
 item.Dawn Stone.name=Piedra Alba
 item.Dusk Stone.name=Piedra Noche
+item.Shiny Stone.name=Piedra Día
 item.Thunder Stone Shard.name=Fragmento Piedra Trueno
 item.Leaf Stone Shard.name=Fragmento Piedra Hoja
 item.Water Stone Shard.name=Fragmento Piedra Agua
 item.Fire Stone Shard.name=Fragmento Piedra Fuego
 item.Sun Stone Shard.name=Fragmento Piedra Solar
+item.Moon Stone Shard.name=Fragmento de Piedra Lunar
 item.Dusk Stone Shard.name=Fragmento Piedra Noche
 item.Dawn Stone Shard.name=Fragmento Piedra Alba
+item.Shiny Stone Shard.name=Fragmento de Piedra Día
 item.Ever Stone.name=Piedra Eterna
 item.Lucky Egg.name=Huevo Suerte
 item.Exp. Share.name=Repartir Exp.
@@ -493,7 +496,7 @@ item.ranchupgrade.name=Mejora del Poké-Rancho
 item.hourglassgold.name=Reloj de Arena Dorado de Isi
 item.hourglasssilver.name=Reloj de Arena Plateado de Isi
 item.PixelmonSprite.name=Foto
-item.EntityPixelmonPaintingItem.name=Pintura Pokémon
+item.EntityPixelmonPaintingItem.name=Cuadro Pokémon
 item.camera.name=Cámara
 item.film.name=Película
 
@@ -4086,17 +4089,17 @@ pixelmon.helditems.healedstatus=¡El estado de %s fue curado!
 pixelmon.helditem.cellbattery=¡La Pila de %s está activada!
 pixelmon.helditems.consumeleppa=¡%s consumió su Baya Zanama y restauró PP de %s!
 pixelmon.helditems.consumerestorehp=¡%s consumió su %s y restauró su vida!
-pixelmon.helditems.cheriberry=¡%s consumió su Baya Zreza y fue curado de la parálisis!
+pixelmon.helditems.cheriberry=¡%s consumió su Baya Zreza y se ha curado de la parálisis!
 pixelmon.helditems.chestoberry=¡%s consumió su Baya Atania y se despertó!
-pixelmon.helditems.pechaberry=¡%s consumió su Baya Meloc y fue curado del veneno!
-pixelmon.helditems.rawstberry=¡%s consumio su Baya Safre y fue curado de la quemadura!
+pixelmon.helditems.pechaberry=¡%s consumió su Baya Meloc y se ha curado del veneno!
+pixelmon.helditems.rawstberry=¡%s consumio su Baya Safre y se ha curado de la quemadura!
 pixelmon.helditems.aspearberry=¡%s consumió su Baya Perasi y ya no está congelado!
 pixelmon.helditems.persimberry=¡%s consumió su Baya Caquic y se liberó de la confusión!
 pixelmon.helditems.lumberry=%s consumió su Baya Ziuela y curó su estado!
 pixelmon.helditems.pinchberry=¡%s consumió su %s!
 pixelmon.helditems.custapberry=¡La Baya Chiri de %s le permitió atacar primero!
 pixelmon.helditems.pumkinberry=¡%s consumió su Baya Pumkin y ya no está congelado!
-pixelmon.helditems.drashberry=¡%s consumió su Baya Drash y fue curado del veneno!
+pixelmon.helditems.drashberry=¡%s consumió su Baya Drash y se ha curado del veneno!
 pixelmon.helditems.eggantberry=¡%s consumio su Baya Eggant y ya no está enamorado!
 pixelmon.helditems.yagoberry=¡%s consumió su Baya Yago y curó sus quemaduras!
 pixelmon.helditems.tougaberry=¡%s consumió su Baya Touga y se liberó de la confusión!
@@ -4335,7 +4338,7 @@ pixelmon.abilities.poisonpoint=¡Punto Tóxico de %s envenenó a %s!
 pixelmon.abilities.poisontouch=¡Toque Tóxico de %s envenenó a %s!
 pixelmon.abilities.pressure=¡%s ejerce Presión!
 pixelmon.abilities.protean=¡Mutatipo de %s le cambia al tipo %s!
-pixelmon.abilities.raindish=¡%s fue curado gracias a Cura Lluvia!
+pixelmon.abilities.raindish=¡%s se ha curado gracias a Cura Lluvia!
 pixelmon.abilities.rattled=¡Cobardía de %s sube la Velocidad!
 pixelmon.abilities.roughskin=¡Piel Tosca de %s hiere a %s!
 pixelmon.abilities.runaway=¡%s escapó usando Fuga!
@@ -4392,7 +4395,7 @@ pixelmon.abilities.wonderguard=¡Superguarda de %s evita el ataque!
 *   depending on what instance to call on.
 */
 gui.guiEvolve.huh=¿Oh?
-gui.guiEvolve.evolve=¿Que? ¡$p está evolucionando!
+gui.guiEvolve.evolve=¿Qué? ¡$p está evolucionando!
 gui.guiEvolve.done=¡Tu $p evolucionó a $n!
 gui.guiEvolve.cancel=¡Evolución cancelada!
 
@@ -4411,7 +4414,7 @@ gui.guiDoctor.healPokemon=Soy un médico Pokémon. ¿Me permitirías curar a tus
 gui.guiDoctor.waiting=Esperando
 
 gui.trading.ready=Listo
-gui.trading.notready=Eligiendo
+gui.trading.notready=Escogiendo
 gui.trading.want=$d quiere intercambiar.
 gui.trading.nuf=¡No se encuentra al Pokémon!
 gui.trading.trade=Intercambio
@@ -4512,9 +4515,10 @@ gui.trainereditor.moreinfo=Editor del entrenador - Más Info.
 gui.trainereditor.greeting=Bienvenida
 gui.trainereditor.win=Victoria
 gui.trainereditor.lose=Derrota
+gui.trainereditor.winmoney=Dinero Ganado
 gui.trainereditor.winningdrops=Premios por Victoria
 gui.trainereditor.adddrops=Añadir objetos
-gui.trainereditor.enteritemname=Pon el nombre del objeto o la ID
+gui.trainereditor.enteritemname=Nombre de objeto o ID
 gui.trainereditor.winningdrops=Premios por Victoria
 gui.trainereditor.randomise=Aleatorio
 gui.trainereditor.edit=Editar
@@ -4522,18 +4526,17 @@ gui.trainereditor.add=Añadir
 gui.trainereditor.deletelastpoke=Elimina el último Pokémon
 gui.trainereditor.delete=Eliminar
 gui.trainereditor.pokemoneditor=Editor de entrenador - Editor Pokémon
-gui.trainereditor.advancededitor=Editor de entrenador - Editor Pokémon Avanzado
 gui.trainereditor.name=Nombre
 gui.trainereditor.shiny=Shiny
 gui.trainereditor.normal=Normal
-gui.trainereditor.male=Masculino
-gui.trainereditor.female=Femenino
+gui.trainereditor.male=Macho
+gui.trainereditor.female=Hembra
 gui.trainereditor.changepokemon=Cambiar Pokémon
 gui.trainereditor.nickname=Nombre
 gui.trainereditor.growth=Tamaño
 gui.trainereditor.gender=Género
 gui.trainereditor.partypokemon=Equipo Pokémon
-gui.trainereditor.delete=Eliminar Entrenador
+gui.trainereditor.delete=Eliminar
 gui.trainereditor.advanced=Avanzado
 gui.trainereditor.evs=EVs
 gui.trainereditor.ivs=IVs
@@ -4574,7 +4577,7 @@ gui.starter.trademark1=Este es un fan made mod, todas las marcas y copyright de 
 gui.starter.trademark2=por Nintendo y Game Freak Inc.
 gui.starter.trademark3=Soportado por Nintendo/Game Freak comprando Pokémon X/Y
 gui.starter.trademark4=¡¡Bienvenido al mundo de Pixelmon!! ¡Gracias por instalar el mod!
-gui.starter.trademark5=¡Ahora, por favor escoje tu Pokémon inicial!
+gui.starter.trademark5=¡Ahora, por favor escoge tu Pokémon inicial!
 gui.starter.commingsoon=Proximamente...
 gui.starter.disabled=No permitido
 
@@ -4635,7 +4638,7 @@ enum.trainerEncounter.once=Una vez
 enum.trainerEncounter.onceperday=Cada día
 enum.trainerEncounter.oncepermcday=Cada día de MC
 enum.trainerEncounter.onceperplayer=Una vez por jugador
-enum.trainerEncounter.unlimited=Sin límite
+enum.trainerEncounter.unlimited=Ilimitado
 
 enum.growth.microscopic=Microscópico
 enum.growth.pygmy=Diminuto
@@ -4752,6 +4755,8 @@ gui.tutor.deletetutor=Eliminar Tutor
 gui.tutor.canlearn=Puede aprender
 gui.tutor.cantlearn=No puede aprender
 gui.tutor.already=Ya ha aprendido
+
+gui.spectate.spectateMessage=Presiona $l para observar la batalla de $p
 
 trainer.Steve=Steve
 trainer.Youngster=Joven
@@ -5009,7 +5014,7 @@ tile.bauxiteOre.name=Mena de bauxita
 tile.Fire Stone Ore.name=Mena de Piedra Fuego
 tile.Water Stone Ore.name=Mena de Piedra Agua
 tile.Leaf Stone Ore.name=Mena de Piedra Hoja
-tile.Thunder Stone Ore.name=Menda de Piedra Trueno
+tile.Thunder Stone Ore.name=Mena de Piedra Trueno
 tile.Sun Stone Ore.name=Mena de Piedra Solar
 tile.Dawn Stone Ore.name=Mena de Piedra Alba
 tile.pixelmonSpawner.name=Pixelmon Spawner
@@ -5142,7 +5147,7 @@ Fridge.name=Nevera
 PixelmonGrass.name=Hierba Pixelmon
 timedFall.name=Timed Fall
 warpPlate.name=Placa de teletransporte
-elevator.name=Ascensor
+elevator.name=Elevador
 
 ability.Adaptability.name=Adaptable
 ability.Adaptability.description=Potencia los movimientos del mismo tipo.
@@ -5547,7 +5552,7 @@ pixelmon.effect.effectfailed=¡Pero falló!
 pixelmon.effect.foresawattack=¡%s previó el ataque!
 pixelmon.effect.modifierscleared=¡Todos los cambios de estado fueron eliminados!
 pixelmon.effect.clearsmog=¡Los cambios de estado de %s fueron eliminados!
-pixelmon.effect.washealed=¡%s fue curado!
+pixelmon.effect.washealed=¡%s se ha curado!
 pixelmon.effect.healother=¡%s curó a %s!
 pixelmon.effect.hurtlanding=¡%s mantuvo el rumbo y se hirió a sí mismo tratando de aterrizar!
 pixelmon.effect.magnitude=¡Magnitud %d!
@@ -5731,10 +5736,10 @@ pixelmon.effect.naturepower=¡Adaptación se convirtió en %s!
 pixelmon.effect.allyswitch=¡%s y %s han intercambiado sus posiciones!
 pixelmon.effect.afteryou=¡%s permite que %s ataque el siguiente!
 pixelmon.effect.bestow=¡%s dio su %s a %s!
-pixelmon.effect.hurt=¡%s fue herido!
+pixelmon.effect.hurt=¡%s está herido!
 pixelmon.effect.freezeshock=¡%s ha comenzado a cargar un ataque!
 pixelmon.effect.iceburn=¡%s ha comenzado a cargar un ataque!
-pixelmon.effect.lunardance=¡%s fue curado por Danza Lunar!
+pixelmon.effect.lunardance=¡%s se ha curado por Danza Lunar!
 pixelmon.effect.shadowforce=¡%s ha desaparecido!
 pixelmon.effect.smellingsalt=¡%s ya no esta paralizado!
 pixelmon.effect.revived=¡%s fue revivido!
@@ -5873,6 +5878,7 @@ key.pokemonaction=Seleccionar Pokémon
 key.pokemonexternal=Movimiento externo
 key.nextexternalmove=Cambiar movimiento externo
 key.pokedex=Abrir Pokédex/Wiki
+key.spectateBattle=Espectador de batalla
 
 halloween.entityname=Joyero Espectral
 halloween.gemregistered=¡El Joyero Espectral recibió tu %s!
@@ -5920,17 +5926,17 @@ UnownBlock2._.name=Bloque Blanco Unown
 pixelmon.dev.name=Pixelmon Dev
 pixelmon.dev.join=se ha unido.
 
-pixelmon.config.title=Configurar Pixelmon
+pixelmon.config.title=Configuración de Pixelmon
 pixelmon.config.afkhandler=Modo AFK
 pixelmon.config.afkhandler.tooltip=Ajustes del Modo AFK
 pixelmon.config.breeding=Crianza
 pixelmon.config.breeding.tooltip=Ajustes de Crianza
 pixelmon.config.database=Database
-pixelmon.config.database.tooltip=Ajustes de la Database
+pixelmon.config.database.tooltip=Ajustes de Database
 pixelmon.config.elevator=Elevador
 pixelmon.config.elevator.tooltip=Ajustes del Elevador
 pixelmon.config.externalmoves=Movimientos Externos
-pixelmon.config.externalmoves.tooltip=Ajustes de Movs. Externos
+pixelmon.config.externalmoves.tooltip=Ajustes de Ataques Externos
 pixelmon.config.general=General
 pixelmon.config.general.tooltip=Ajustes Generales
 pixelmon.config.gens=Generaciones
@@ -5944,21 +5950,22 @@ pixelmon.config.pokeloot.tooltip=Ajustes PokeBotín
 pixelmon.config.sound=Sonido
 pixelmon.config.sound.tooltip=Ajustes de Sonido
 pixelmon.config.spawning=Aparición
-pixelmon.config.spawning.tooltip=Ajustes de aparición
+pixelmon.config.spawning.tooltip=Ajustes de Aparición
 pixelmon.config.starter=Inicial
 pixelmon.config.starter.tooltip=Ajustes de Iniciales
 
 pixelmon.config.spawnDimensions=Dimensiones de aparición
-pixelmon.config.shinySpawnRate=Prob. de aparición de Shiny (1/x)
+pixelmon.config.shinySpawnRate=Prob. de aparición de Shinies (1/x)
 pixelmon.config.bossSpawnRate=Prob. de aparición de Jefes (1/x)
-pixelmon.config.legendarySpawnTicks=Ticks de los Legendarios
-pixelmon.config.legendaryRepeatSpawnTicks=Repetir ticks de los Legendarios
-pixelmon.config.legendarySpawnChance=Prob. de Legendarios
+pixelmon.config.legendarySpawnTicks=Ticks en Legendarios
+pixelmon.config.legendaryRepeatSpawnTicks=Repetir ticks en Legendarios
+pixelmon.config.legendarySpawnChance=Prob. de aparición de Legendarios
 pixelmon.config.hiddenAbilitySpawnRate=Prob. de Habilidad Oculta
 pixelmon.config.allowLegendarySpawn=Permitir Legendarios
 pixelmon.config.displayLegendaryGlobalMessage=Mostrar mensaje global de Legendarios
 pixelmon.config.replaceMCVillagers=Remplazar aldeanos de Minecraft
 pixelmon.config.spawnPokeMarts=Permitir Tiendas
+pixelmon.config.increaseVillageSpawnRate=Incrementar tasa de aparición de las Aldeas
 
 pixelmon.config.Gen1=Generación 1
 pixelmon.config.Gen2=Generación 2
@@ -5969,94 +5976,96 @@ pixelmon.config.Gen5=Generación 5
 pixelmon.config.minMusicDelay=Tiempo Mínimo de Música
 pixelmon.config.maxMusicDelay=Tiempo Máximo de Música
 
-pixelmon.config.spawnNormal=Habilitar PokeBotín normal
-pixelmon.config.spawnHidden=Habilitar PokeBotín oculto
+pixelmon.config.spawnNormal=Habilitar Poke Botín normal
+pixelmon.config.spawnHidden=Habilitar Poke Botín oculto
 pixelmon.config.spawnGrotto=Habilitar Grutas Ocultas
-pixelmon.config.spawnRate=Prob. de aparición de PokeBotín
-pixelmon.config.spawnMode=Modo de aparición de PokeBotín
+pixelmon.config.spawnRate=Prob. de aparición de Poke Botín
+pixelmon.config.spawnMode=Modo de aparición de Poke Botín
 pixelmon.config.timedLootReuseSeconds=Reutilizar tiempo de Enfriamiento
 
-pixelmon.config.scaleGrassBattles=Escalar el nivel de la hierba con el jugador
-pixelmon.config.pokeGiftReusable=Poké Regalo reusable
+pixelmon.config.scaleGrassBattles=Escalar nivel de batallas de hierba con el del jugador
+pixelmon.config.blocksHaveLegendaries=Permitir Legendarios de Bloques
+pixelmon.config.pokeGiftReusable=Poké Regalo reutilizable
 pixelmon.config.pokeGiftHaveEvents=Habilitar eventos de Poké Regalo
-pixelmon.config.eventPokeGiftLoad=Habilitar aparición del evento de Poké Regalo
+pixelmon.config.eventPokeGiftLoad=Habilitar evento de Poké Regalo
 pixelmon.config.eventHasLegendaries=Permitir Legendarios en evento de Poké Regalo
 pixelmon.config.eventHasShinies=Permitir Shinies en Evento de Poké Regalo
 pixelmon.config.eventMaxPokemon=Evento Poké Regalo máx. Pokémon
 pixelmon.config.eventShinyRate=Prob. de Shinies en Evento de Poké Regalo (1/x)
-pixelmon.config.eventTime=Evento Poké Regalo fecha personalizada (D/M)
+pixelmon.config.eventTime=Fecha personalizada del Evento de Poké Regalo(D/M)
 pixelmon.config.eventCoords=Coordenadas de aparición del Evento Poké Regalo
 
 pixelmon.config.lowResTextures=Modo Patata
-pixelmon.config.useSmoothShadingOnPokeBalls=Sombreado suave en Poké Balls
-pixelmon.config.useSmoothShadingOnPokemon=Sombreado suave en Pokémon
-pixelmon.config.useOriginalPokemonTexturesForStatues=Las estatuas usan texturas originales
-pixelmon.config.showCurrentAttackTarget=Mostrar objetivo actual
+pixelmon.config.useSmoothShadingOnPokeBalls=Sombreado suave en las Poké Balls
+pixelmon.config.useSmoothShadingOnPokemon=Sombreado suave en los Pokémon
+pixelmon.config.useOriginalPokemonTexturesForStatues=Usar texturas originales en estatuas
+pixelmon.config.showCurrentAttackTarget=Mostrar el objetivo actual
 
-pixelmon.config.awardPhotos=Activar fotos al ganar batallas salvajes
-pixelmon.config.wildCanFlee=Permitir a los Pokémon salvajes huir
+pixelmon.config.awardPhotos=Premiar con fotos al ganar combates salvajes
+pixelmon.config.wildCanFlee=Permitir escapar a los Pokémon salvajes
 pixelmon.config.spinBattleCamera=Giro de cámara en batalla
 pixelmon.config.spawnStructures=Activar estructuras de Pixelmon en el mundo
-pixelmon.config.allowPokemonNicknames=Habilitar motes para Pokémon
-pixelmon.config.allowAnvilAutoreloading=Activar autorecarga del yunque
-pixelmon.config.allowVanillaMobs=Activar mobs de vanilla 
-pixelmon.config.allowCaptureOutsideBattle=Activar capturar fuera de batalla
-pixelmon.config.npcRarity=Frecuencia de NPCs
+pixelmon.config.allowPokemonNicknames=Permitir motes para Pokémon
+pixelmon.config.allowAnvilAutoreloading=Permitir autorecarga del yunque
+pixelmon.config.allowVanillaMobs=Permitir mobs de vanilla 
+pixelmon.config.allowCaptureOutsideBattle=Capturar fuera de batalla
+pixelmon.config.npcRarity=Frecuencia de aparición de NPCs
 pixelmon.config.namePlateRange=Asignar Distancia
-pixelmon.config.scalePokemonModels=Aumentar tamaño de modelos en un 30%
+pixelmon.config.scalePokemonModels=Aumentar el tamaño de los modelos un 30%
 pixelmon.config.growthScaleModifier=Variación del tamaño de crecimiento
 pixelmon.config.pokemonDropsEnabled=Permitir drops de Pokémon
-pixelmon.config.printErrors=Mostrar los errores con más detalle
-pixelmon.config.allowRiding=Habilitar montar sobre Pokémon
+pixelmon.config.printErrors=Mostrar errores con más detalles
+pixelmon.config.allowRiding=Permitir montar sobre Pokémon
 pixelmon.config.allowPlanting=Permitir plantar Bonguris
 pixelmon.config.allowPvPExperience=Permitir exp. en JcJ
-pixelmon.config.allowTrainerExperience=Permitir exp. en Entrenadores
+pixelmon.config.allowTrainerExperience=Permitir exp. de Entrenadores
 pixelmon.config.returnHeldItems=Devolver objetos en batallas JcJ
-pixelmon.config.forceEndBattleResult=Forzar resultado de batalla
-pixelmon.config.engagePlayerByPokeBall=Habilitar desafío lanzando Poké Ball
-pixelmon.config.computerBoxes=Cantidad de PCs
-pixelmon.config.enableWildAggression=Habilitar ataque de Pokémon salvajes
-pixelmon.config.allowRareCandyCrafting=Activar creación de Carameloraros
-pixelmon.config.allowTMReuse=Permitir reutilizar MTs
+pixelmon.config.forceEndBattleResult=Forzar resultado de la batalla
+pixelmon.config.engagePlayerByPokeBall=Habilitar desafíos lanzando Poké Ball
+pixelmon.config.computerBoxes=Cantidad de Cajas
+pixelmon.config.enableWildAggression=Activar Pokémon salvajes agresivos
+pixelmon.config.allowRareCandyCrafting=Permitir crear Carameloraros
+pixelmon.config.allowTMReuse=Reutilizar MTs
 pixelmon.config.writeEntitiesToWorld=Guardar entidades del mundo
 pixelmon.config.spawnBirdShrines=Activar altares de los pájaros
 pixelmon.config.spawnGemShrines=Activar altares de Gemas
 pixelmon.config.reusableBirdShrines=Reutilizar altares de pájaros
-pixelmon.config.spawnersOpOnly=Spawners sólo siendo OP
-pixelmon.config.needHMToRide=MOs necesarias para montar
+pixelmon.config.spawnersOpOnly=Usar Spawners sólo siendo OP
+pixelmon.config.needHMToRide=MOs son necesarias para montar
 pixelmon.config.cloningMachineEnabled=Activar máquina de clonación
-pixelmon.config.tradersReusable=Los comerciantes son reusables
-pixelmon.config.allowGemCrafting=Activar creación de Gemas
-pixelmon.config.allowGemBossDrop=Permitir drop de Gemas en Jefes
+pixelmon.config.tradersReusable=Reutilizar comerciantes
+pixelmon.config.allowGemCrafting=Permitir crear Gemas
+pixelmon.config.allowGemBossDrop=Permitir soltar Gemas de Jefes
 pixelmon.config.allowEventMoveTutors=Activar Tutor de Movs.
-pixelmon.config.allowRanchUpgradeBossDrop=Activar drop Mejora del Rancho en Jefes
+pixelmon.config.allowRanchUpgradeBossDrop=Permitir soltar Mejora del Rancho de Jefes
 pixelmon.config.useCustomTabList=Usar lista diferente
 pixelmon.config.starterOnJoin=Lista de Iniciales al entrar
-pixelmon.config.isiHourglassBossDrop=Activar drop Reloj de Isi en Jefes
+pixelmon.config.isiHourglassBossDrop=Permitir soltar Reloj de Isi de Jefes
 pixelmon.config.enablePointToSteer=Permitir punto de manejo
-pixelmon.config.useSystemTimeForWorldTime=Usar sistema horas real
+pixelmon.config.useSystemTimeForWorldTime=Usar sistema horario real
 pixelmon.config.systemTimeSyncInterval=Tiempo de sincronización
 pixelmon.config.enablePokedexWikiWebsiteOpen=Permitir a la Pokédex abrir la wiki
 pixelmon.config.useExternalNPCFiles=Usar archivos de NPC externos
 pixelmon.config.useExternalStructureFiles=Usar archivos externos de estructuras
 pixelmon.config.chunkSpawnRadius=Distancia de chunks Pókemon
-pixelmon.config.battleAIWild=Pokémon salvajes IA de batalla
-pixelmon.config.battleAIBoss=Jefes Pokémon IA de batalla
-pixelmon.config.battleAITrainer=Entrenadores IA de batalla
+pixelmon.config.battleAIWild=Pokémon salvajes (IA de batalla)
+pixelmon.config.battleAIBoss=Jefes Pokémon (IA de batalla)
+pixelmon.config.battleAITrainer=Entrenadores (IA de batalla)
+pixelmon.config.expModifier=Modificador de Experiencia
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
-pixelmon.config.afkActivateSeconds=Activar segundos de AFK
-pixelmon.config.afkHandlerTurnSeconds=Segundos por turno de AFK
+pixelmon.config.afkActivateSeconds=Segundos estando AFK
+pixelmon.config.afkHandlerTurnSeconds=Segundos por cada turno estando AFK
 
 pixelmon.config.allowBreeding=Activar Crianza
 pixelmon.config.allowDittoDittoBreeding=Activar crianza Ditto-Ditto
-pixelmon.config.allowRandomBreedingEggsToBeLegendary=Ditto-Ditto pueden tener Legendarios
+pixelmon.config.allowRandomBreedingEggsToBeLegendary=Ditto-Ditto se puede obtener Legendarios
 pixelmon.config.allowRandomSpawnedEggsToBeLegendary=/pokegiveegg puede dar Legendarios
 pixelmon.config.allowRanchCrafting=Activar creación del rancho
 pixelmon.config.useBreedingEnvironment=Usar ambientes adecuados para criar
 pixelmon.config.breedingEnvironmentCheckSeconds=Tiempo de verificación del entorno
 pixelmon.config.stepsPerEggCycle=Pasos por ciclo del Huevo
-pixelmon.config.numBreedingStages=Etapas de Crianza
+pixelmon.config.numBreedingStages=Etapas hasta la Reproducción
 pixelmon.config.breedingTicks=Ticks por etapa
 pixelmon.config.allowRanchExpansion=Activar expansión del rancho
 
@@ -6067,19 +6076,19 @@ pixelmon.config.starterList=Lista de Iniciales
 pixelmon.config.connectionString=String de conexión
 pixelmon.config.saveToExternalDatabase=Usar database superior para guardar
 
-pixelmon.config.elevatorSearchRange=Examinar distancia (arriba/abajo)
+pixelmon.config.elevatorSearchRange=Buscar rango (arriba/abajo)
 
-pixelmon.config.allowExternalMoves=Activar movs. externos
+pixelmon.config.allowExternalMoves=Activar ataques externos
 
 pixelmon.config.general.comment=Ajustes generales del mundo.
 pixelmon.config.spawning.comment=Ajustes que controlan qué y cuántos Pokémon aparecen.
-pixelmon.config.gens.comment=Estos valores establecen que Generación de Pokémon aparecerá.
-pixelmon.config.pokeloot.comment=Ajustes que controlan el cofre de PokeBotín y su funcionamiento.
+pixelmon.config.gens.comment=Estos valores establecen las Generaciones de Pokémon que aparecerán.
+pixelmon.config.pokeloot.comment=Ajustes que controlan el cofre de Poke Botín y su funcionamiento.
 pixelmon.config.afkhandler.comment=Ajustes para controlar la autobatalla para los jugadores AFK.
 pixelmon.config.graphics.comment=Ajustes Gráficos.
 pixelmon.config.breeding.comment=Ajustes para el funcionamiento de la crianza.
-pixelmon.config.externalmoves.comment=Ajustes para controlar los movs. externos.
-pixelmon.config.database.comment=Ajustes para relocalizar el sistema de guardado de Pixelmon en una database externa.
+pixelmon.config.externalmoves.comment=Ajustes para controlar los ataques externos.
+pixelmon.config.database.comment=Ajustes para reubicar el sistema de guardado de Pixelmon en una database externa.
 pixelmon.config.sound.comment=Ajustes de sonido.
 pixelmon.config.pixelutilities.comment=Ajustes de PixelUtilities.
 pixelmon.config.elevator.comment=Opciones del elevador.
@@ -6135,6 +6144,7 @@ pixelmon.config.battleAIDescription=1: Utiliza ataques aleatoriamente. 2: Utiliz
 pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salvajes durante la batalla.
 pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon jefes durante la batalla.
 pixelmon.config.battleAITrainer.comment=El tipo de IA que usarán los Entrenadores durante la batalla.
+pixelmon.config.expModifier.comment=Multiplicador de la experiencia ganada en batallas Pokémon.
 
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
 pixelmon.config.shinySpawnRate.comment=El calculo Shiny utiliza 1/(tasa de Shiny) para obtener la probabilidad de ser Shiny.
@@ -6147,7 +6157,7 @@ pixelmon.config.allowLegendarySpawn.comment=Permite la aparición de Legendarios
 pixelmon.config.displayLegendaryGlobalMessage.comment=Muestra un anuncio en todo el servidor 'Un legendario ha aparecido en el bioma <nombre>' cuando aparece un legendario.
 pixelmon.config.replaceMCVillagers.comment=Remplaza a los aldeanos de Minecraft por los NPCs de Pixelmon.
 pixelmon.config.spawnPokeMarts.comment=Las Tiendas Pokémon aparecerán con comerciantes en las aldeas de Minecraft.
-pixelmon.config.increaseVillageSpawnRate.comment=Incrementa la tasa de aparición de las aldeas de Minecraft un 100%.
+pixelmon.config.increaseVillageSpawnRate.comment=Incrementa la tasa de aparición de aldeas de Minecraft en un 100%.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
@@ -6155,10 +6165,10 @@ pixelmon.config.Gen3.comment=Pokédex 252-386
 pixelmon.config.Gen4.comment=Pokédex 387-493
 pixelmon.config.Gen5.comment=Pokédex 494-649
 
-pixelmon.config.maxLandPokemon.comment=Máximo número de Pokémon en tierra a la misma vez.
-pixelmon.config.maxUndergroundPokemon.comment=Máximo número de Pokémon bajo tierra a la misma vez.
-pixelmon.config.maxWaterPokemon.comment=Máximo número de Pokémon en el agua a la misma vez.
-pixelmon.config.maxFlyingPokemon.comment=Máximo número de Pokemon voladores a la misma vez (mantener bajo).
+pixelmon.config.maxLandPokemon.comment=Máximo número de Pokémon sobre tierra al mismo tiempo.
+pixelmon.config.maxUndergroundPokemon.comment=Máximo número de Pokémon bajo tierra al mismo tiempo.
+pixelmon.config.maxWaterPokemon.comment=Máximo número de Pokémon en el agua al mismo tiempo.
+pixelmon.config.maxFlyingPokemon.comment=Máximo número de Pokemon en vuelo al mismo tiempo (es recomendado mantener valores bajos).
 pixelmon.config.despawnOnFleeOrLoss.comment=Fuerza a los Pokémon salvajes a desaparecer después de una batalla.
 
 pixelmon.config.spawnNormal.comment=Permite aparecer PokeCofres visibles aleatoriamente por todo el mundo.
@@ -6200,6 +6210,7 @@ pixelmon.config.minMusicDelay.comment=Número mínimo de ticks del mundo antes d
 pixelmon.config.maxMusicDelay.comment=Número máximo de ticks del mundo antes de que una nueva melodía comience.
 
 pixelmon.config.scaleGrassBattles.comment=¿Ajustar las batallas de la hierba al nivel del equipo del jugador?
+pixelmon.config.blocksHaveLegendaries.comment=Permite a los Legendarios aparecer de bloques (ej.: hierba).
 pixelmon.config.pokeGiftReusable.comment=Permitir a varios jugadores conseguir un Pokémon de un regalo.
 pixelmon.config.pokeGiftHaveEvents.comment=Autorizar la utilización de Poké Regalos (colocar y su uso).
 pixelmon.config.eventPokeGiftLoad.comment=¿Debería aparecer un evento de Poké Regalo?
@@ -6209,10 +6220,10 @@ pixelmon.config.eventHasShinies.comment=Cada Pokémon tiene la probabilidad de 1
 pixelmon.config.eventMaxPokemon.comment=Establece la cantidad máxima de Pokémon que aparecerán en los Poké Regalos.
 pixelmon.config.eventShinyRate.comment=Tasa de Pokémon Shiny que aparecerán en un Poké Regalo (1/x).
 pixelmon.config.eventTime.comment=Define una fecha personalizada para los eventos de Poké Regalo (día y mes).
-pixelmon.config.eventCoords.comment=Establece las coordenadas del cofre del evento de Poké Regalo aquí.
+pixelmon.config.eventCoords.comment=Establecer coordenadas del cofre del evento de Poké Regalo aquí.
 
-pixelmon.config.elevatorSearchRange.comment=Distancia máxima de registro de arriba a abajo para enlazar dos elevadores.
+pixelmon.config.elevatorSearchRange.comment=Distancia máxima de busqueda (de arriba a abajo) para enlazar dos elevadores.
 
-pixelmon.config.starterLevel.comment=Nivel (Mín=5, Máx=100).
+pixelmon.config.starterLevel.comment=Nivel (Mín.=5, Máx.=100).
 pixelmon.config.starterShiny.comment=Iniciales Shiny.
 pixelmon.config.starterList.comment=Lista de Iniciales (Máx. de 15).
