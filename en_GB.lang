@@ -3529,6 +3529,8 @@ pixelmon.blocks.bonemealwatered=It looks well watered today.
 
 pixelmon.blocks.healer=Healer is busy!
 
+pixelmon.blocks.pc.ownership=This PC does not belong to you
+
 pixelmon.blocks.chestfound=You found one %s!
 pixelmon.blocks.timedclaim=You've already claimed this timed loot! Try again later!
 pixelmon.blocks.claimedloot=You've already claimed this loot!
@@ -3544,6 +3546,7 @@ pixelmon.blocks.orbwrong=Your orb is not compatible with this shrine!
 pixelmon.blocks.shrineused=This shrine has already been activated!
 
 pixelmon.blocks.tradefull=Trading Machine full!
+pixelmon.blocks.trader.ownership=This trader does not belong to you
 
 pixelmon.blocks.noclone=You have nothing to clone!
 
@@ -3551,6 +3554,9 @@ pixelmon.blocks.fossilmachine.fossil=Insert Fossil
 pixelmon.blocks.fossilmachine.pokeball=Insert Poké Ball
 pixelmon.blocks.fossilmachine.retrieve=Retrieve Pokémon
 pixelmon.blocks.fossilmachine.working=Working
+
+pixelmon.blocks.fossildisplay.ownership=This display case does not belong to you
+pixelmon.blocks.fossildisplay.placecheck=You can only place clean fossils in the display case
 
 pixelmon.blocks.cloningmachine.error=Error
 pixelmon.blocks.cloningmachine.finished=Finished
@@ -4171,6 +4177,9 @@ gui.ranch.extendTitle=Extend ranch block contained area
 gui.ranch.empty=There are no Pokémon in the ranch.
 ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level.
 ranch.hourglass.upgrade=%s increased a breeding level.
+
+gui.spectate.spectateMessage=Press $l to spectate $p's battle.
+gui.spectate.stopspectate=Stop Spectating
 
 trainer.Steve=Steve
 trainer.Youngster=Youngster

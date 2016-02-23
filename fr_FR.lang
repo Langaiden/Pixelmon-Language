@@ -1,5 +1,5 @@
 /*
-*	Latest translation 04/02/2016
+*	Latest translation 17/02/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -327,14 +327,17 @@ item.Moon Stone.name=Pierre Lune
 item.Thunder Stone.name=Pierre Foudre
 item.Leaf Stone.name=Pierre Feuille 
 item.Dusk Stone.name=Pierre Nuit
+item.Shiny Stone.name=Pierre Éclat
 item.Dawn Stone.name=Pierre Aube
-item.Thunder Stone Shard.name=Éclat de Pierre Foudre
-item.Leaf Stone Shard.name=Éclat de Pierre Feuille
-item.Water Stone Shard.name=Éclat de Pierre Eau
-item.Fire Stone Shard.name=Éclat de Pierre Feu
-item.Sun Stone Shard.name=Éclat de Pierre Soleil
-item.Dusk Stone Shard.name=Éclat de Pierre Nuit
-item.Dawn Stone Shard.name=Éclat de Pierre Aube
+item.Thunder Stone Shard.name=Fragment de Pierre Foudre
+item.Leaf Stone Shard.name=Fragment de Pierre Feuille
+item.Water Stone Shard.name=Fragment de Pierre Eau
+item.Fire Stone Shard.name=Fragment de Pierre Feu
+item.Sun Stone Shard.name=Fragment de Pierre Soleil
+item.Moon Stone Shard.name=Fragment de Pierre Lune
+item.Dusk Stone Shard.name=Fragment de Pierre Nuit
+item.Dawn Stone Shard.name=Fragment de Pierre Aube
+item.Shiny Stone Shard.name=Fragment de Pierre Éclat
 item.Ever Stone.name=Pierre Stase
 item.Lucky Egg.name=Oeuf Chance
 item.Exp. Share.name=Multi exp.
@@ -5212,6 +5215,8 @@ gui.ranch.empty=Il n'y a pas de pokemon dans le ranch.
 ranch.hourglass.upgradedall=Tout les pokemon d'élevage ont augmenté d'un niveau de reproduction.
 ranch.hourglass.upgrade=%s a augmenté d'un niveau de reproduction.
 
+gui.spectate.spectateMessage=Appuyez sur $l pour regarder le combat de $p
+
 trainer.Steve=Steve
 trainer.Youngster=Jeune Homme
 trainer.Lass=Fille
@@ -6305,7 +6310,8 @@ key.sendpokemon=Envoyer son Pokemon
 key.pokemonaction=Sélectionner le Pixelmon ciblé
 key.pokemonexternal=Utiliser Compétence d'Extérieur
 key.nextexternalmove=Prochaine Compétence 
-key.pokedex=Open Pokédex/Wiki
+key.pokedex=Ouvrir Pokédex/Wiki
+key.spectateBattle=Regarder un combat
 
 halloween.entityname=Le Bijoutier Spectral
 halloween.gemregistered=Le Bijoutier Spectral a reçu votre %s
@@ -6478,6 +6484,7 @@ pixelmon.config.chunkSpawnRadius=Rayon de spawn des Pokémon (en chunk)
 pixelmon.config.battleAIWild=IA combat Pokémon Sauvage
 pixelmon.config.battleAIBoss=IA combat Pokémon Boss
 pixelmon.config.battleAITrainer=IA combat PNJ Dresseur
+pixelmon.config.expModifier=Modifieur d'expérience
 
 pixelmon.config.enableAFKHandler=Mode AFK actif
 pixelmon.config.afkActivateSeconds=Délai d'activation du mode AFK
@@ -6570,6 +6577,7 @@ pixelmon.config.battleAIDescription=1: Choisir les attaques au hasard. 2: Choisi
 pixelmon.config.battleAIWild.comment=Le type d'IA à utiliser pour les combats de Pokémons sauvages.
 pixelmon.config.battleAIBoss.comment=Le type d'IA à utiliser pour les combats de Pokémons boss.
 pixelmon.config.battleAITrainer.comment=Le type d'IA à utiliser pour les combats de PNJ.
+pixelmon.config.expModifier.comment=Multiplieur de l'expérience gagnée en combat Pokémon.
 
 pixelmon.config.spawnDimensions.comment=Liste de dimensions dans lesquelles les Pokémon pourront apparaître.
 pixelmon.config.shinySpawnRate.comment=Le calcul de Shiny utilise 1/Ratio Shiny pour obtenir une chance d'avoir un Shiny.
