@@ -5460,6 +5460,7 @@ pixelmon.config.systemTimeSyncInterval=Seconds between time syncs
 pixelmon.config.enablePokedexWikiWebsiteOpen=Allow Pokédex to open wiki
 pixelmon.config.useExternalNPCFiles=Use external NPC files
 pixelmon.config.useExternalStructureFiles=Use external structure files
+pixelmon.config.useExternalDropFiles=Use external drop files
 pixelmon.config.chunkSpawnRadius=Pokémon chunk spawn distance
 pixelmon.config.battleAIWild=Wild Pokémon battle AI
 pixelmon.config.battleAIBoss=Boss Pokémon battle AI
@@ -5550,6 +5551,7 @@ pixelmon.config.enablePointToSteer.comment=When mounted, enables steering the Po
 pixelmon.config.useSystemTimeForWorldTime.comment=Lets your world follow real world time or not (uses the server's system clock).
 pixelmon.config.systemTimeSyncInterval.comment=The time taken before syncing to the system clock (in seconds).
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Allows the Pokedex to open wiki pages. Turn this off if you don't want the wiki opening from inside Pixelmon.
+pixelmon.config.useExternalDropFiles.commentLoad external Drops files from the "drops" folder. If set to true and the "drops" folder does not exist, Pixelmon will create the folder and dump the existing files there.
 pixelmon.config.useExternalNPCFiles.comment=Load external NPC files from the "npcs" folder. If set to true and the "npcs" folder does not exist, Pixelmon will create the folder and dump the existing files there.
 pixelmon.config.useExternalStructureFiles.comment=Load external structure files from the "structures" folder. If set to true and the "structures" folder does not exist, Pixelmon will create the folder and dump the existing files there.
 pixelmon.config.chunkSpawnRadius.comment=The radius in chunks around a player that Pokemon can spawn within.
