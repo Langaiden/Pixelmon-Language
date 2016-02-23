@@ -1,5 +1,5 @@
 /*
-*	Latest translation 16/02/2016
+*	Latest translation 17/02/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -5215,6 +5215,8 @@ gui.ranch.empty=Il n'y a pas de pokemon dans le ranch.
 ranch.hourglass.upgradedall=Tout les pokemon d'élevage ont augmenté d'un niveau de reproduction.
 ranch.hourglass.upgrade=%s a augmenté d'un niveau de reproduction.
 
+gui.spectate.spectateMessage=Appuyez sur $l pour regarder le combat de $p
+
 trainer.Steve=Steve
 trainer.Youngster=Jeune Homme
 trainer.Lass=Fille
@@ -6308,7 +6310,8 @@ key.sendpokemon=Envoyer son Pokemon
 key.pokemonaction=Sélectionner le Pixelmon ciblé
 key.pokemonexternal=Utiliser Compétence d'Extérieur
 key.nextexternalmove=Prochaine Compétence 
-key.pokedex=Open Pokédex/Wiki
+key.pokedex=Ouvrir Pokédex/Wiki
+key.spectateBattle=Regarder un combat
 
 halloween.entityname=Le Bijoutier Spectral
 halloween.gemregistered=Le Bijoutier Spectral a reçu votre %s
