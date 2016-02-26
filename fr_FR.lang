@@ -1,5 +1,5 @@
 /*
-*	Latest translation 17/02/2016
+*	Latest translation 24/02/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -21,7 +21,7 @@
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=PC
-item.Ranch Block.name=Ranch Block
+item.Ranch Block.name=Bloc de Ranch
 item.Anvil.name=Enclume
 item.MechanicalAnvil.name=Enclume Mécanique
 item.Healer.name=Healer
@@ -4602,6 +4602,7 @@ pixelmon.blocks.orbwrong=Votre orbe n'est pas compatible avec ce totem !
 pixelmon.blocks.shrineused=Ce totem a déjà été activé !
 
 pixelmon.blocks.tradefull=Cette Machine d'échange est pleine!
+pixelmon.blocks.trader.ownership=Cette échangeur ne t'appartient pas
 
 pixelmon.blocks.noclone=Vous n'avez rien à cloner!
 
@@ -4609,6 +4610,9 @@ pixelmon.blocks.fossilmachine.fossil=Insérer un Fossile
 pixelmon.blocks.fossilmachine.pokeball=Insérer une Poke Ball
 pixelmon.blocks.fossilmachine.retrieve=Récupérer le Pokémon
 pixelmon.blocks.fossilmachine.working=En fonctionnement
+
+pixelmon.blocks.fossildisplay.ownership=Cette machine ne t'appartient pas.
+pixelmon.blocks.fossildisplay.placecheck=Tu ne peux placer que des fossiles nettoyés dans cette machine.
 
 pixelmon.blocks.cloningmachine.error=Erreur
 pixelmon.blocks.cloningmachine.finished=Terminé
