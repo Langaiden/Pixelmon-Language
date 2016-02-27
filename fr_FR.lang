@@ -1,5 +1,5 @@
 /*
-*	Latest translation 17/02/2016
+*	Latest translation 24/02/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -21,7 +21,7 @@
 *   The final part is just saying it is the name of the item.
 */
 item.PC.name=PC
-item.Ranch Block.name=Ranch Block
+item.Ranch Block.name=Bloc de Ranch
 item.Anvil.name=Enclume
 item.MechanicalAnvil.name=Enclume Mécanique
 item.Healer.name=Healer
@@ -4602,6 +4602,7 @@ pixelmon.blocks.orbwrong=Votre orbe n'est pas compatible avec ce totem !
 pixelmon.blocks.shrineused=Ce totem a déjà été activé !
 
 pixelmon.blocks.tradefull=Cette Machine d'échange est pleine!
+pixelmon.blocks.trader.ownership=Cette échangeur ne t'appartient pas
 
 pixelmon.blocks.noclone=Vous n'avez rien à cloner!
 
@@ -4609,6 +4610,9 @@ pixelmon.blocks.fossilmachine.fossil=Insérer un Fossile
 pixelmon.blocks.fossilmachine.pokeball=Insérer une Poke Ball
 pixelmon.blocks.fossilmachine.retrieve=Récupérer le Pokémon
 pixelmon.blocks.fossilmachine.working=En fonctionnement
+
+pixelmon.blocks.fossildisplay.ownership=Cette machine ne t'appartient pas.
+pixelmon.blocks.fossildisplay.placecheck=Tu ne peux placer que des fossiles nettoyés dans cette machine.
 
 pixelmon.blocks.cloningmachine.error=Erreur
 pixelmon.blocks.cloningmachine.finished=Terminé
@@ -6468,12 +6472,9 @@ pixelmon.config.needHMToRide=CS nécessaire pour monter un Pokémon
 pixelmon.config.cloningMachineEnabled=Activer la machine de clonage
 pixelmon.config.tradersReusable=Échangeurs réutilisables
 pixelmon.config.allowGemCrafting=Autoriser le craft de gemmes
-pixelmon.config.allowGemBossDrop=Autoriser le drop de gemmes sur les boss
 pixelmon.config.allowEventMoveTutors=Autoriser l'apparition de maître de capacité d'événement
-pixelmon.config.allowRanchUpgradeBossDrop=Autoriser le drop d'augmentation de ranch sur les boss
 pixelmon.config.useCustomTabList=Utiliser une liste d'onglet personnalisée
 pixelmon.config.starterOnJoin=Liste des starter à la connexion
-pixelmon.config.isiHourglassBossDrop=Autoriser le drop de sablier d'Isi sur les boss
 pixelmon.config.enablePointToSteer=Activer l'orientation du pokémon à la souris (chevauchée)
 pixelmon.config.useSystemTimeForWorldTime=Utiliser l'heure du système pour l'heure du monde
 pixelmon.config.systemTimeSyncInterval=Secondes entre la synchronisation de temps
@@ -6560,12 +6561,9 @@ pixelmon.config.needHMToRide.comment=Pour monter un Pokémon, il faut qu'il soit
 pixelmon.config.cloningMachineEnabled.comment=Permet l'utilisation de machine de clonage pour cloner Mew en Mewtwo.
 pixelmon.config.tradersReusable.comment=Les Échangeurs sont à usage unique (désactivé) ou multiple (activé).
 pixelmon.config.allowGemCrafting.comment=Permet la création des 17 types de Gemmes par les joueurs.
-pixelmon.config.allowGemBossDrop.comment=Permet le drop des 17 types de Gemmes sur les boss.
 pixelmon.config.allowEventMoveTutors.comment=Autorise l'apparition naturelle de Maître de Capacités d'événements.
-pixelmon.config.allowRanchUpgradeBossDrop.comment=Permet aux boss le drop d'augmentation de ranch.
 pixelmon.config.useCustomTabList.comment=Vous permet de choisir quelle liste d'onglet vous voulez utiliser. Activé pour celle de Pixelmon, désactivé pour celle Vanilla.
 pixelmon.config.starterOnJoin.comment=Vous permet de choisir si vous offrez ou non un starter lors de la connexion d'un joueur (via l'écran de starter Pixelmon).
-pixelmon.config.isiHourglassBossDrop.comment=Permet aux boss le drop du sablier d'Isi, objet permettant d'accélérer la reproduction.
 pixelmon.config.enablePointToSteer.comment=Permet le guidage à la souris d'un Pokémon monté.
 pixelmon.config.useSystemTimeForWorldTime.comment=Laisse votre monde suivre l'heure réelle ou non (utilise l'horloge système du serveur).
 pixelmon.config.systemTimeSyncInterval.comment=Temps attendu avant de synchroniser l'horloge système (en secondes).
