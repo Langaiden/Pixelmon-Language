@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: February 14, 2016 - by ToklaX
+* Last Update: February 27, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 14 de Febrero de 2016 por ToklaX
+* Última actualización: 27 de Febrero de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -309,15 +309,15 @@ item.SkullFossil.name=Fósil Craneo
 item.ArmorFossil.name=Fósil Coraza
 item.CoverFossil.name=Fósil Tapa
 item.PlumeFossil.name=Fósil Pluma
-item.coveredFossil0.name=Fósil Cerrado
-item.coveredFossil1.name=Fósil Cerrado
-item.coveredFossil2.name=Fósil Cerrado
-item.coveredFossil3.name=Fósil Cerrado
-item.coveredFossil4.name=Fósil Cerrado
-item.coveredFossil5.name=Fósil Cerrado
-item.coveredFossil6.name=Fósil Cerrado
-item.coveredFossil7.name=Fósil Cerrado
-item.coveredFossil8.name=Fósil Cerrado
+item.coveredFossil0.name=Fósil Cubierto
+item.coveredFossil1.name=Fósil Cubierto
+item.coveredFossil2.name=Fósil Cubierto
+item.coveredFossil3.name=Fósil Cubierto
+item.coveredFossil4.name=Fósil Cubierto
+item.coveredFossil5.name=Fósil Cubierto
+item.coveredFossil6.name=Fósil Cubierto
+item.coveredFossil7.name=Fósil Cubierto
+item.coveredFossil8.name=Fósil Cubierto
 item.Sun Stone.name=Piedra Solar
 item.Fire Stone.name=Piedra Fuego
 item.Water Stone.name=Piedra Agua
@@ -4140,6 +4140,8 @@ pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
 
 pixelmon.blocks.healer=¡El Centro Pokémon ya está en uso!
 
+pixelmon.blocks.pc.ownership=Este PC no te pertenece
+
 pixelmon.blocks.chestfound=¡Has encontrado %s!
 pixelmon.blocks.timedclaim=¡Has recibido esta recompensa hace poco! ¡Intentalo de nuevo más tarde!
 pixelmon.blocks.claimedloot=¡Ya has recibido esta recompensa!
@@ -4155,6 +4157,7 @@ pixelmon.blocks.orbwrong=¡El orbe no es compatible con este altar!
 pixelmon.blocks.shrineused=¡El altar ya ha sido activado!
 
 pixelmon.blocks.tradefull=¡La Máquina de Intercambio está llena!
+pixelmon.blocks.trader.ownership=Esta máquina de intercambios no te pertence
 
 pixelmon.blocks.noclone=¡No tienes nada para clonar!
 
@@ -4163,10 +4166,13 @@ pixelmon.blocks.fossilmachine.pokeball=Añadir Poké Ball
 pixelmon.blocks.fossilmachine.retrieve=Recibir Pokémon
 pixelmon.blocks.fossilmachine.working=Procesando
 
+pixelmon.blocks.fossildisplay.ownership=Este expositor no te pertence
+pixelmon.blocks.fossildisplay.placecheck=Sólo puedes colocar fósiles en el expositor
+
 pixelmon.blocks.cloningmachine.error=Error
 pixelmon.blocks.cloningmachine.finished=Terminado
 pixelmon.blocks.cloningmachine.scanning=Escaneando
-pixelmon.blocks.cloningmachine.mew=Añadir a Mew
+pixelmon.blocks.cloningmachine.mew=Añadir Mew
 pixelmon.blocks.cloningmachine.catalyst=Añadir Catalizador
 pixelmon.blocks.cloningmachine.retrieve=Recibir Pokémon
 pixelmon.blocks.cloningmachine.processing=Procesando...
@@ -4756,7 +4762,8 @@ gui.tutor.canlearn=Puede aprender
 gui.tutor.cantlearn=No puede aprender
 gui.tutor.already=Ya ha aprendido
 
-gui.spectate.spectateMessage=Presiona $l para observar la batalla de $p
+gui.spectate.spectateMessage=Presiona $l para observar la batalla de $p.
+gui.spectate.stopspectate=Parar de Espectar
 
 trainer.Steve=Steve
 trainer.Youngster=Joven
@@ -6044,6 +6051,7 @@ pixelmon.config.systemTimeSyncInterval=Tiempo de sincronización
 pixelmon.config.enablePokedexWikiWebsiteOpen=Permitir a la Pokédex abrir la wiki
 pixelmon.config.useExternalNPCFiles=Usar archivos de NPC externos
 pixelmon.config.useExternalStructureFiles=Usar archivos externos de estructuras
+pixelmon.config.useExternalDropFiles=Usar archivos externos de drop
 pixelmon.config.chunkSpawnRadius=Distancia de chunks Pókemon
 pixelmon.config.battleAIWild=Pokémon salvajes (IA de batalla)
 pixelmon.config.battleAIBoss=Jefes Pokémon (IA de batalla)
@@ -6131,8 +6139,9 @@ pixelmon.config.enablePointToSteer.comment=Cuando estás montado, permite dirigi
 pixelmon.config.useSystemTimeForWorldTime.comment=Tu mundo seguirá, o no, el tiempo del mundo real (utiliza el reloj del sistema del servidor).
 pixelmon.config.systemTimeSyncInterval.comment=Tiempo que deberá pasar para sincronizar el reloj del sistema (en segundos).
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Permite a la Pokédex abrir páginas de la wiki. Desactivalo si no quieres abrir la wiki desde Pixelmon.
-pixelmon.config.useExternalNPCFiles.comment=Carga archivos de NPC externos de la carpeta "npcs". Si está activado y la carpeta "npcs" no existe, Pixelmon creará la carpeta y colocará los archivos existentes.
-pixelmon.config.useExternalStructureFiles.comment=Carga archivos de estructuras externos de la carpeta "structures". Si está activado y la carpeta "structures" no existe, Pixelmon creará la carpeta y colocará los archivos existentes.
+pixelmon.config.useExternalNPCFiles.comment=Carga archivos externos de NPCs en la carpeta "npcs". Si está activado y la carpeta "npcs" no existe, Pixelmon creará la carpeta y cargará los archivos existentes.
+pixelmon.config.useExternalDropFiles.comment=Carga archivos externos de drops en la carpeta "drops". Si está activado y la carpeta "drops" no existe, Pixelmon creará la carpeta y cargará los archivos existentes.
+pixelmon.config.useExternalStructureFiles.comment=Carga archivos de estructuras externos en la carpeta "structures". Si está activado y la carpeta "structures" no existe, Pixelmon creará la carpeta y cargará los archivos existentes.
 pixelmon.config.chunkSpawnRadius.comment=El radio de chunks alrededor del jugador en que los Pokémon pueden aparecer.
 pixelmon.config.battleAIDescription=1: Utiliza ataques aleatoriamente. 2: Utiliza ataques con mayor daño posible (en función del tipo), ignorando movs. de estado. 3: Usa ataques ofensivos y de estado. 4: Usa ataques inteligentemente y cambia cuando sea conveniente.
 pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salvajes durante la batalla.
