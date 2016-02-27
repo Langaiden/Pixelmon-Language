@@ -1,5 +1,5 @@
 /*
-*	Latest translation 24/02/2016
+*	Latest translation 27/02/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -6481,6 +6481,7 @@ pixelmon.config.systemTimeSyncInterval=Secondes entre la synchronisation de temp
 pixelmon.config.enablePokedexWikiWebsiteOpen=Autoriser le Pokedex à ouvrir le wiki
 pixelmon.config.useExternalNPCFiles=Utiliser des fichiers de PNJ externes
 pixelmon.config.useExternalStructureFiles=Utiliser des fichiers de structure externes
+pixelmon.config.useExternalDropFiles=Utiliser des fichiers de drops externes
 pixelmon.config.chunkSpawnRadius=Rayon de spawn des Pokémon (en chunk)
 pixelmon.config.battleAIWild=IA combat Pokémon Sauvage
 pixelmon.config.battleAIBoss=IA combat Pokémon Boss
@@ -6570,6 +6571,7 @@ pixelmon.config.systemTimeSyncInterval.comment=Temps attendu avant de synchronis
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Permet l'ouverture du Wiki par le Pokédex. Désactivez cette option si vous ne souhaitez pas ouvrir le wiki depuis Pixelmon.
 pixelmon.config.useExternalNPCFiles.comment=Charger des fichiers externes de PNJ depuis le dossier "npcs". Si actif et que le dossier n'existe pas, Pixelmon le créera et les fichiers existants seront mis dedans.
 pixelmon.config.useExternalStructureFiles.comment=Charger des fichiers externes de structures depuis le dossier "structures". Si actif et que le dossier n'existe pas, Pixelmon le créera et les fichiers existants seront mis dedans.
+pixelmon.config.useExternalDropFiles.comment=Charger des fichiers externes de drops depuis le dossier "drops". Si actif et que le dossier n'existe pas, Pixelmon le créera et les fichiers existants seront mis dedans.
 pixelmon.config.chunkSpawnRadius.comment=Le rayon en chunk autour du joueur dans lequel les Pokémon pourront apparaître.
 pixelmon.config.battleAIDescription=1: Choisir les attaques au hasard. 2: Choisir l'attaque faisant le plus de dégâts (en fonction du type), ignorant les attaques de statut. 3: Utiliser des attaques offensives et de statut. 4: Utiliser toutes les compétences intelligemment et changer de Pokémon de façon avantageuse.
 pixelmon.config.battleAIWild.comment=Le type d'IA à utiliser pour les combats de Pokémons sauvages.
