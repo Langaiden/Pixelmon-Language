@@ -3544,8 +3544,10 @@ pixelmon.blocks.ownerchanged=Block owner changed to server!
 pixelmon.blocks.chestset=Custom Poké Chest Set: %s
 pixelmon.blocks.visible=Poké Chest Visibility: %s
 pixelmon.blocks.chestmode=Chest Mode: %s
-pixelmon.blocks.chestmodePL1D=Permanent, Limit 1 Drop
-pixelmon.blocks.chestmodeFCFS=First Come, First Served
+pixelmon.blocks.chestmodePL1D=Permanent, limit 1 drop
+pixelmon.blocks.chestmodeTD=Timed drops
+pixelmon.blocks.chestmodeFCFS=First come, first served
+pixelmon.blocks.chestmodePUD=Permanent, unlimited drops
 
 pixelmon.blocks.orbnotfull=Your orb is not full!
 pixelmon.blocks.orbwrong=Your orb is not compatible with this shrine!
