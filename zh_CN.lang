@@ -5422,7 +5422,6 @@ pixelmon.config.showCurrentAttackTarget=显示当前的攻击目标
 
 pixelmon.config.awardPhotos=战胜野生精灵时奖励照片
 pixelmon.config.wildCanFlee=允许野生精灵逃跑
-pixelmon.config.spinBattleCamera=旋转对战镜头
 pixelmon.config.spawnStructures=生成Pixelmon相关建筑
 pixelmon.config.allowPokemonNicknames=允许给神奇宝贝取昵称
 pixelmon.config.allowAnvilAutoreloading=启用铁砧自动填充

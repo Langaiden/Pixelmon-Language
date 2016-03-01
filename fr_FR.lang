@@ -6440,7 +6440,6 @@ pixelmon.config.showCurrentAttackTarget=Afficher la cible des attaques
 
 pixelmon.config.awardPhotos=Photo du Pokémon en cas de victoire
 pixelmon.config.wildCanFlee=Autoriser la fuite des Pokémon Sauvages
-pixelmon.config.spinBattleCamera=Rotation de la caméra de combat
 pixelmon.config.spawnStructures=Apparition de structures Pixelmon dans le monde
 pixelmon.config.allowPokemonNicknames=Autoriser les surnoms de Pokémon
 pixelmon.config.allowAnvilAutoreloading=Activer la recharge auto des enclumes

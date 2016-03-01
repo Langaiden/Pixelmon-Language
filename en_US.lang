@@ -5425,7 +5425,6 @@ pixelmon.config.showCurrentAttackTarget=Show current attack target
 
 pixelmon.config.awardPhotos=Award photos to wild battle winners
 pixelmon.config.wildCanFlee=Allow wild Pokémon to flee
-pixelmon.config.spinBattleCamera=Spin battle camera
 pixelmon.config.spawnStructures=Spawn Pixelmon structures in world
 pixelmon.config.allowPokemonNicknames=Allow Pokémon nicknames
 pixelmon.config.allowAnvilAutoreloading=Enable anvil auto-reloading
