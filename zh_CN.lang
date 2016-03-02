@@ -3525,9 +3525,11 @@ pixelmon.blocks.bonemealwatered=看上去今天已经浇过水了
 
 pixelmon.blocks.healer=治疗仪正在工作中！
 
+pixelmon.blocks.pc.ownership=这台PC不属于您
+
 pixelmon.blocks.chestfound=您找到了一个 %s！
-pixelmon.blocks.timedclaim=你已经认领了这个定时的神奇宝贝道具箱！
-pixelmon.blocks.claimedloot=你已经认领了这个神奇宝贝道具箱！
+pixelmon.blocks.timedclaim=您已经认领了这个定时的神奇宝贝道具箱！
+pixelmon.blocks.claimedloot=您已经认领了这个神奇宝贝道具箱！
 pixelmon.blocks.ownerchanged=该道具箱类型已设置为服务器（任何人都可以打开它）
 pixelmon.blocks.chestset=自定义道具箱设置： %s
 pixelmon.blocks.visible=道具箱可视等级已设置为： %s
@@ -3541,12 +3543,17 @@ pixelmon.blocks.orbwrong=您的珠子与此神社不兼容！
 
 pixelmon.blocks.tradefull=交换机已满！
 
+pixelmon.blocks.trader.ownership=这个交换机不属于您
+
 pixelmon.blocks.noclone=您没有任何东西需要克隆！
 
 pixelmon.blocks.fossilmachine.fossil=放入化石
 pixelmon.blocks.fossilmachine.pokeball=放入宝贝球
 pixelmon.blocks.fossilmachine.retrieve=取回神奇宝贝
 pixelmon.blocks.fossilmachine.working=工作中
+
+pixelmon.blocks.fossildisplay.ownership=这个化石显示器不属于您
+pixelmon.blocks.fossildisplay.placecheck=您只能在自己的化石显示器里清洗化石
 
 pixelmon.blocks.cloningmachine.error=错误
 pixelmon.blocks.cloningmachine.finished=已完成
@@ -5462,6 +5469,7 @@ pixelmon.config.systemTimeSyncInterval=以秒为单位同步间隔
 pixelmon.config.enablePokedexWikiWebsiteOpen=允许神奇宝贝图鉴打开WIKI
 pixelmon.config.useExternalNPCFiles=使用外界文件夹的NPC
 pixelmon.config.useExternalStructureFiles=使用外界文件夹的建筑
+pixelmon.config.useExternalDropFiles=使用外界文件夹的掉落物品
 pixelmon.config.chunkSpawnRadius=神奇宝贝生成区块距离
 pixelmon.config.battleAIWild=野生神奇宝贝AI
 pixelmon.config.battleAIBoss=BOSS神奇宝贝AI
@@ -5549,6 +5557,7 @@ pixelmon.config.enablePointToSteer.comment=在安装好时启用查看神奇宝�
 pixelmon.config.useSystemTimeForWorldTime.comment=是否让游戏使用现实时间(根据服务端运行的电脑的时间)。
 pixelmon.config.systemTimeSyncInterval.comment=将之前的时间同步为系统时间(以秒为单位)。
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=是否允许图鉴打开维基页面。
+pixelmon.config.useExternalDropFiles.comment=加载掉落物到外部"drops"文件夹。若设置为true并且不存在"drops"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
 pixelmon.config.useExternalNPCFiles.comment=加载NPC到外部"npcs"文件夹。若设置为true并且不存在"npcs"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
 pixelmon.config.useExternalStructureFiles.comment=加载建筑到外部"structures"文件夹。若设置为true并且不存在"structures"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
 pixelmon.config.chunkSpawnRadius.comment=玩家周围的生成神奇宝贝的半径。
