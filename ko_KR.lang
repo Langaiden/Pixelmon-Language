@@ -4946,10 +4946,10 @@ pixelmon.effect.moretoxicspikes=%s의 주변에 독압정이 더욱 많이 흩�
 pixelmon.effect.toxicspikes=%s의 주변에 독압정이 흩뿌려졌다!
 pixelmon.effect.floatingstones=%s의 주변에 뾰족한 바위가 떠다니기 시작했다!
 pixelmon.effect.createsubstitute=%s의 대타가 등장하였다!
-pixelmon.effect.trickroomnormal=시공이 되돌아왔다!
+pixelmon.effect.trickroomnormal=시공간이 되돌아왔다!
 pixelmon.effect.becamedrowsy=%s에게 졸음을 유도하였다!
 pixelmon.effect.alreadydrowsy=%s은(는) 이미 졸린 상태이다! 
-pixelmon.effect.bellydrum = %S은(는) HP를 절단하고 공격을 극대화!
+pixelmon.effect.bellydrum = %S은(는) HP를 깎아 공격을 최대로 올렸다!
 
 pixelmon.status.ringheal=%s은(는) 아쿠아링으로 체력을 회복했다!
 pixelmon.status.burnhurt=%s은(는) 화상으로 인해 피해를 입었다!
