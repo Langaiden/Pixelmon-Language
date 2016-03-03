@@ -3529,7 +3529,7 @@ pixelmon.blocks.bonemealwatered=It looks well watered today.
 
 pixelmon.blocks.healer=Healer is busy!
 
-pixelmon.blocks.pc.ownership=This PC does not belong to you
+pixelmon.blocks.pc.ownership=This PC does not belong to you.
 
 pixelmon.blocks.chestfound=You found one %s!
 pixelmon.blocks.timedclaim=You've already claimed this timed loot! Try again later!
@@ -3547,8 +3547,8 @@ pixelmon.blocks.orbnotfull=Your orb is not full!
 pixelmon.blocks.orbwrong=Your orb is not compatible with this shrine!
 pixelmon.blocks.shrineused=This shrine has already been activated!
 
-pixelmon.blocks.tradefull=Trading Machine full!
-pixelmon.blocks.trader.ownership=This trader does not belong to you
+pixelmon.blocks.tradefull=Trading machine full!
+pixelmon.blocks.trader.ownership=This trader does not belong to you.
 
 pixelmon.blocks.noclone=You have nothing to clone!
 
@@ -3557,8 +3557,8 @@ pixelmon.blocks.fossilmachine.pokeball=Insert Poké Ball
 pixelmon.blocks.fossilmachine.retrieve=Retrieve Pokémon
 pixelmon.blocks.fossilmachine.working=Working
 
-pixelmon.blocks.fossildisplay.ownership=This display case does not belong to you
-pixelmon.blocks.fossildisplay.placecheck=You can only place clean fossils in the display case
+pixelmon.blocks.fossildisplay.ownership=This display case does not belong to you.
+pixelmon.blocks.fossildisplay.placecheck=You can only place clean Fossils in the display case.
 
 pixelmon.blocks.cloningmachine.error=Error
 pixelmon.blocks.cloningmachine.finished=Finished
