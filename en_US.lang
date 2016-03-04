@@ -5473,7 +5473,7 @@ pixelmon.config.battleAIWild=Wild Pokémon battle AI
 pixelmon.config.battleAIBoss=Boss Pokémon battle AI
 pixelmon.config.battleAITrainer=NPC Trainer battle AI
 pixelmon.config.expModifier=Experience modifier
-pixelmon.config.multiplePhotosOfSamePokemon=Allow multiple photos of the same Pokémon
+pixelmon.config.multiplePhotosOfSamePokemon=Allow duplicate Pokémon photos
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
@@ -5565,7 +5565,7 @@ pixelmon.config.battleAIWild.comment=The type of AI to use for wild Pokemon in b
 pixelmon.config.battleAIBoss.comment=The type of AI to use for boss Pokemon in battle.
 pixelmon.config.battleAITrainer.comment=The type of AI to use for NPC Trainers in battle.
 pixelmon.config.expModifier.comment=Multiplier for experience gained in Pokemon battles.
-pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon spawn.
+pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon.
 
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
