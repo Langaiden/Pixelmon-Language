@@ -4183,6 +4183,8 @@ gui.ranch.empty=There are no Pokémon in the ranch.
 ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level.
 ranch.hourglass.upgrade=%s increased a breeding level.
 
+gui.trader.eggDescription=I wonder what this will hatch into...
+
 gui.spectate.spectateMessage=Press $l to spectate $p's battle.
 gui.spectate.stopspectate=Stop Spectating
 
