@@ -3535,7 +3535,7 @@ pixelmon.blocks.bonemealwatered=It looks well watered today.
 
 pixelmon.blocks.healer=Healer is busy!
 
-pixelmon.blocks.pc.ownership=This PC does not belong to you
+pixelmon.blocks.pc.ownership=This PC does not belong to you.
 
 pixelmon.blocks.chestfound=You found one %s!
 pixelmon.blocks.timedclaim=You've already claimed this timed loot! Try again later!
@@ -3544,15 +3544,17 @@ pixelmon.blocks.ownerchanged=Block owner changed to server!
 pixelmon.blocks.chestset=Custom Poké Chest Set: %s
 pixelmon.blocks.visible=Poké Chest Visibility: %s
 pixelmon.blocks.chestmode=Chest Mode: %s
-pixelmon.blocks.chestmodePL1D=Permanent, Limit 1 Drop
-pixelmon.blocks.chestmodeFCFS=First Come, First Served
+pixelmon.blocks.chestmodePL1D=Permanent, limit 1 drop
+pixelmon.blocks.chestmodeTD=Timed drops
+pixelmon.blocks.chestmodeFCFS=First come, first served
+pixelmon.blocks.chestmodePUD=Permanent, unlimited drops
 
 pixelmon.blocks.orbnotfull=Your orb is not full!
 pixelmon.blocks.orbwrong=Your orb is not compatible with this shrine!
 pixelmon.blocks.shrineused=This shrine has already been activated!
 
-pixelmon.blocks.tradefull=Trading Machine full!
-pixelmon.blocks.trader.ownership=This trader does not belong to you
+pixelmon.blocks.tradefull=Trading machine full!
+pixelmon.blocks.trader.ownership=This trader does not belong to you.
 
 pixelmon.blocks.noclone=You have nothing to clone!
 
@@ -3561,8 +3563,8 @@ pixelmon.blocks.fossilmachine.pokeball=Insert Poké Ball
 pixelmon.blocks.fossilmachine.retrieve=Retrieve Pokémon
 pixelmon.blocks.fossilmachine.working=Working
 
-pixelmon.blocks.fossildisplay.ownership=This display case does not belong to you
-pixelmon.blocks.fossildisplay.placecheck=You can only place clean fossils in the display case
+pixelmon.blocks.fossildisplay.ownership=This display case does not belong to you.
+pixelmon.blocks.fossildisplay.placecheck=You can only place clean Fossils in the display case.
 
 pixelmon.blocks.cloningmachine.error=Error
 pixelmon.blocks.cloningmachine.finished=Finished
@@ -5425,7 +5427,6 @@ pixelmon.config.showCurrentAttackTarget=Show current attack target
 
 pixelmon.config.awardPhotos=Award photos to wild battle winners
 pixelmon.config.wildCanFlee=Allow wild Pokémon to flee
-pixelmon.config.spinBattleCamera=Spin battle camera
 pixelmon.config.spawnStructures=Spawn Pixelmon structures in world
 pixelmon.config.allowPokemonNicknames=Allow Pokémon nicknames
 pixelmon.config.allowAnvilAutoreloading=Enable anvil auto-reloading
@@ -5472,7 +5473,7 @@ pixelmon.config.battleAIWild=Wild Pokémon battle AI
 pixelmon.config.battleAIBoss=Boss Pokémon battle AI
 pixelmon.config.battleAITrainer=NPC Trainer battle AI
 pixelmon.config.expModifier=Experience modifier
-pixelmon.config.multiplePhotosOfSamePokemon=Allow multiple photos of the same Pokémon
+pixelmon.config.multiplePhotosOfSamePokemon=Allow duplicate Pokémon photos
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
@@ -5564,7 +5565,7 @@ pixelmon.config.battleAIWild.comment=The type of AI to use for wild Pokemon in b
 pixelmon.config.battleAIBoss.comment=The type of AI to use for boss Pokemon in battle.
 pixelmon.config.battleAITrainer.comment=The type of AI to use for NPC Trainers in battle.
 pixelmon.config.expModifier.comment=Multiplier for experience gained in Pokemon battles.
-pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon spawn.
+pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon.
 
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
