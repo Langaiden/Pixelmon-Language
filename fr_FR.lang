@@ -1,5 +1,5 @@
 /*
-*	Latest translation 27/02/2016
+*	Latest translation 06/03/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4595,14 +4595,16 @@ pixelmon.blocks.chestset=Un Pokéchest modifié a été posé: %s
 pixelmon.blocks.visible=Visibilité du Pokéchest: %s
 pixelmon.blocks.chestmode=Mode du Pokéchest: %s
 pixelmon.blocks.chestmodePL1D=Permanent, Limité à 1 butin
+pixelmon.blocks.chestmodeTD=Drop avec délai
 pixelmon.blocks.chestmodeFCFS=Premier arrivé, Premier servi !
+pixelmon.blocks.chestmodePUD=Permanent, butins infinis
 
 pixelmon.blocks.orbnotfull=Votre orbe n'est pas plein!
 pixelmon.blocks.orbwrong=Votre orbe n'est pas compatible avec ce totem !
 pixelmon.blocks.shrineused=Ce totem a déjà été activé !
 
 pixelmon.blocks.tradefull=Cette Machine d'échange est pleine!
-pixelmon.blocks.trader.ownership=Cette échangeur ne t'appartient pas
+pixelmon.blocks.trader.ownership=Cette échangeur ne t'appartient pas.
 
 pixelmon.blocks.noclone=Vous n'avez rien à cloner!
 
@@ -5057,7 +5059,7 @@ gui.description.text=Description
 gui.mail.seal=Lettre Scellée
 gui.mail.close=Lettre Fermée
 
-gui.nursejoy.name=Infirmière Joëlle
+gui.nursejoy.name=Infirmier Joël
 gui.nursejoy.healing=Laisse moi soigner ces Pokemon pour toi !
 gui.nursejoy.full=Je suis désolé. Je ne trouve aucune station de soin disponible.
  
@@ -5219,7 +5221,10 @@ gui.ranch.empty=Il n'y a pas de pokemon dans le ranch.
 ranch.hourglass.upgradedall=Tout les pokemon d'élevage ont augmenté d'un niveau de reproduction.
 ranch.hourglass.upgrade=%s a augmenté d'un niveau de reproduction.
 
+gui.trader.eggDescription=Je me demande qu'est ce qui va en sortir...
+
 gui.spectate.spectateMessage=Appuyez sur $l pour regarder le combat de $p
+gui.spectate.stopspectate=Arrêter de regarder
 
 trainer.Steve=Steve
 trainer.Youngster=Jeune Homme
@@ -5429,6 +5434,8 @@ sendpixelmon.sentout=Vous avez envoyé %s!
 sendpixelmon.cantbattle=%s est incapable de se battre!
 sendpixelmon.inbattle=%s est dans un combat!
 sendpixelmon.retrieved=Vous rappelez %s!
+
+camera.error.samepokemon=Vous avez déjà pris une photo de ce %s !
 
 spawn.legendarymessage=Un Pokemon Légendaire est apparu dans un biome %s !
 
@@ -6486,6 +6493,7 @@ pixelmon.config.battleAIWild=IA combat Pokémon Sauvage
 pixelmon.config.battleAIBoss=IA combat Pokémon Boss
 pixelmon.config.battleAITrainer=IA combat PNJ Dresseur
 pixelmon.config.expModifier=Modifieur d'expérience
+pixelmon.config.multiplePhotosOfSamePokemon=Autoriser plusieurs photos du même Pokémon
 
 pixelmon.config.enableAFKHandler=Mode AFK actif
 pixelmon.config.afkActivateSeconds=Délai d'activation du mode AFK
@@ -6577,6 +6585,7 @@ pixelmon.config.battleAIWild.comment=Le type d'IA à utiliser pour les combats d
 pixelmon.config.battleAIBoss.comment=Le type d'IA à utiliser pour les combats de Pokémons boss.
 pixelmon.config.battleAITrainer.comment=Le type d'IA à utiliser pour les combats de PNJ.
 pixelmon.config.expModifier.comment=Multiplieur de l'expérience gagnée en combat Pokémon.
+pixelmon.config.multiplePhotosOfSamePokemon.comment=Autorise chaque joueur à prendre plusieurs photos du même Pokémon.
 
 pixelmon.config.spawnDimensions.comment=Liste de dimensions dans lesquelles les Pokémon pourront apparaître.
 pixelmon.config.shinySpawnRate.comment=Le calcul de Shiny utilise 1/Ratio Shiny pour obtenir une chance d'avoir un Shiny.
