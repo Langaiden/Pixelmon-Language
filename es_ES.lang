@@ -4140,7 +4140,7 @@ pixelmon.blocks.bonemealwatered=Parece bien regado por hoy.
 
 pixelmon.blocks.healer=¡El Centro Pokémon ya está en uso!
 
-pixelmon.blocks.pc.ownership=Este PC no te pertenece
+pixelmon.blocks.pc.ownership=Este PC no te pertenece.
 
 pixelmon.blocks.chestfound=¡Has encontrado %s!
 pixelmon.blocks.timedclaim=¡Has recibido esta recompensa hace poco! ¡Intentalo de nuevo más tarde!
@@ -4149,15 +4149,17 @@ pixelmon.blocks.ownerchanged=¡El propietario ha cambiado de servidor!
 pixelmon.blocks.chestset=Objeto añadido al Poke Cofre: %s
 pixelmon.blocks.visible=Visibilidad del Poke Cofre: %s
 pixelmon.blocks.chestmode=Modo del Cofre: %s
-pixelmon.blocks.chestmodePL1D=Permanente, Límite 1 Drop
-pixelmon.blocks.chestmodeFCFS=Primero en llegar, Primero en ganar
+pixelmon.blocks.chestmodePL1D=Permanente, límite 1 Drop
+pixelmon.blocks.chestmodeFCFS=Primero en llegar, primero en ganar
+pixelmon.blocks.chestmodeTD=Regalo Temporizado
+pixelmon.blocks.chestmodePUD=Permanente, regalos ilimitados
 
 pixelmon.blocks.orbnotfull=¡Tu Orbe no esta lleno!
 pixelmon.blocks.orbwrong=¡El orbe no es compatible con este altar!
 pixelmon.blocks.shrineused=¡El altar ya ha sido activado!
 
-pixelmon.blocks.tradefull=¡La Máquina de Intercambio está llena!
-pixelmon.blocks.trader.ownership=Esta máquina de intercambios no te pertence
+pixelmon.blocks.tradefull=¡La Máquina de intercambio está llena!
+pixelmon.blocks.trader.ownership=Esta máquina de intercambios no te pertence.
 
 pixelmon.blocks.noclone=¡No tienes nada para clonar!
 
@@ -4166,8 +4168,8 @@ pixelmon.blocks.fossilmachine.pokeball=Añadir Poké Ball
 pixelmon.blocks.fossilmachine.retrieve=Recibir Pokémon
 pixelmon.blocks.fossilmachine.working=Procesando
 
-pixelmon.blocks.fossildisplay.ownership=Este expositor no te pertence
-pixelmon.blocks.fossildisplay.placecheck=Sólo puedes colocar fósiles en el expositor
+pixelmon.blocks.fossildisplay.ownership=Este expositor no te pertence.
+pixelmon.blocks.fossildisplay.placecheck=Sólo puedes colocar Fósiles limpios en el expositor.
 
 pixelmon.blocks.cloningmachine.error=Error
 pixelmon.blocks.cloningmachine.finished=Terminado
@@ -4601,7 +4603,7 @@ gui.cancel.text=Cancelar
 gui.mail.seal=Firmar carta
 gui.mail.close=Cerrar carta
 
-gui.nursejoy.name=Enfermera Joy
+gui.nursejoy.name=Enfermero Jhon
 gui.nursejoy.healing=¡Por favor, permiteme curar a tus Pokémon!
 gui.nursejoy.full=Lo siento. No puedo encontrar ningún Centro Pokémon disponible.
 
@@ -4997,6 +4999,8 @@ sendpixelmon.sentout=¡Sacaste a %s!
 sendpixelmon.cantbattle=¡%s no puede combatir!
 sendpixelmon.inbattle=¡%s está en combate!
 sendpixelmon.retrieved=¡Has retirado a %s!
+
+camera.error.samepokemon=¡Ya has sacado una foto de este %s!
 
 spawn.legendarymessage=¡Ha aparecido un Legendario en el bioma %s!
 
@@ -5882,8 +5886,8 @@ key.nextpokemon=Siguiente Pókemon del Grupo
 key.previouspokemon=Anterior Pokémon del Grupo
 key.sendpokemon=Sacar Pokémon
 key.pokemonaction=Seleccionar Pokémon
-key.pokemonexternal=Movimiento externo
-key.nextexternalmove=Cambiar movimiento externo
+key.pokemonexternal=Ataque externo
+key.nextexternalmove=Cambiar ataque externo
 key.pokedex=Abrir Pokédex/Wiki
 key.spectateBattle=Espectador de batalla
 
@@ -5942,7 +5946,7 @@ pixelmon.config.database=Database
 pixelmon.config.database.tooltip=Ajustes de Database
 pixelmon.config.elevator=Elevador
 pixelmon.config.elevator.tooltip=Ajustes del Elevador
-pixelmon.config.externalmoves=Movimientos Externos
+pixelmon.config.externalmoves=Ataques Externos
 pixelmon.config.externalmoves.tooltip=Ajustes de Ataques Externos
 pixelmon.config.general=General
 pixelmon.config.general.tooltip=Ajustes Generales
@@ -6056,6 +6060,7 @@ pixelmon.config.battleAIWild=Pokémon salvajes (IA de batalla)
 pixelmon.config.battleAIBoss=Jefes Pokémon (IA de batalla)
 pixelmon.config.battleAITrainer=Entrenadores (IA de batalla)
 pixelmon.config.expModifier=Modificador de Experiencia
+pixelmon.config.multiplePhotosOfSamePokemon=Permite sacar varias fotos del mismo Pokémon
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
 pixelmon.config.afkActivateSeconds=Segundos estando AFK
@@ -6147,6 +6152,7 @@ pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salv
 pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon jefes durante la batalla.
 pixelmon.config.battleAITrainer.comment=El tipo de IA que usarán los Entrenadores durante la batalla.
 pixelmon.config.expModifier.comment=Multiplicador de la experiencia ganada en batallas Pokémon.
+pixelmon.config.multiplePhotosOfSamePokemon.comment=Permite a cada jugador sacar varias fotos al mismo Pokémon.
 
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
 pixelmon.config.shinySpawnRate.comment=El calculo Shiny utiliza 1/(tasa de Shiny) para obtener la probabilidad de ser Shiny.

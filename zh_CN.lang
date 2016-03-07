@@ -4426,6 +4426,8 @@ sendpixelmon.cantbattle=%s 现在无法召唤（体力透支或者不可用[？]
 sendpixelmon.inbattle=%s 正在战斗中！
 sendpixelmon.retrieved=您收回了  %s!
 
+camera.error.samepokemon=你已经拍了 %s 这个照片！
+
 spawn.legendarymessage=一只神兽出现在了 %s 地形！
 
 @Author Dayaffe
@@ -5475,6 +5477,8 @@ pixelmon.config.battleAIWild=野生神奇宝贝AI
 pixelmon.config.battleAIBoss=BOSS神奇宝贝AI
 pixelmon.config.battleAITrainer=NPC训练师AI
 pixelmon.config.expModifier=经验修正
+
+pixelmon.config.multiplePhotosOfSamePokemon=允许多人游戏当中能有多个同样的宝可梦照片。
 
 pixelmon.config.enableAFKHandler=启用AFK程序
 pixelmon.config.afkActivateSeconds=AFK激活秒数
