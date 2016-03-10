@@ -5142,6 +5142,7 @@ pixelmon.effect.lunardance=%s was healed by Lunar Dance!
 pixelmon.effect.shadowforce=%s vanished!
 pixelmon.effect.smellingsalt=%s's paralysis was cured!
 pixelmon.effect.revived=%s was revived!
+pixelmon.effect.thief=%s stole %s's %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
