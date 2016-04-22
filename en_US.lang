@@ -869,6 +869,36 @@ item.DuskstoneBoots.name=Dusk Stone Boots
 item.PicketFence.name=Picket Fence
 item.pokeGift.name=Poké Gift
 
+BrailleBlock.A.name=Braille Block A
+BrailleBlock.B.name=Braille Block B
+BrailleBlock.C.name=Braille Block C
+BrailleBlock.D.name=Braille Block D
+BrailleBlock.E.name=Braille Block E
+BrailleBlock.F.name=Braille Block F
+BrailleBlock.G.name=Braille Block G
+BrailleBlock.H.name=Braille Block H
+BrailleBlock.I.name=Braille Block I
+BrailleBlock.J.name=Braille Block J
+BrailleBlock.K.name=Braille Block K
+BrailleBlock.L.name=Braille Block L
+BrailleBlock.M.name=Braille Block M
+BrailleBlock.N.name=Braille Block N
+BrailleBlock.O.name=Braille Block O
+BrailleBlock.P.name=Braille Block P
+BrailleBlock.Q.name=Braille Block Q
+BrailleBlock.R.name=Braille Block R
+BrailleBlock.S.name=Braille Block S
+BrailleBlock.T.name=Braille Block T
+BrailleBlock.U.name=Braille Block U
+BrailleBlock.V.name=Braille Block V
+BrailleBlock.W.name=Braille Block W
+BrailleBlock.X.name=Braille Block X
+BrailleBlock.Y.name=Braille Block Y
+BrailleBlock.Z.name=Braille Block Z
+BrailleBlock...name=Braille Block .
+BrailleBlock.,.name=Braille Block ,
+BrailleBlock._.name=Braille Block _
+
 itemGroup.tabPokeLoot=PokéLoot
 itemGroup.Pokeballs=Poké Balls
 itemGroup.Badges=Badges
@@ -3575,6 +3605,11 @@ pixelmon.blocks.cloningmachine.retrieve=Retrieve Pokémon
 pixelmon.blocks.cloningmachine.processing=Processing...
 pixelmon.blocks.cloningmachine.boost=Boost
 
+pixelmon.blocks.tree.change1=The tree is now using design #1.
+pixelmon.blocks.tree.change2=The tree is now using design #2.
+pixelmon.blocks.tree.change3=The tree is now using design #3.
+pixelmon.blocks.tree.change4=The tree is now using design #4.
+
 pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
 
@@ -3963,6 +3998,7 @@ gui.trainereditor.minivs=Min IVs
 gui.trainereditor.randomivs=Random IVs
 gui.trainereditor.resetevs=Reset EVs
 gui.trainereditor.helditem=Held Item
+gui.trainereditor.form=Form
 
 gui.npceditor.despawn=Despawn
 gui.npceditor.page1=Page 1
@@ -5169,6 +5205,7 @@ pixelmon.effect.lunardance=%s was healed by Lunar Dance!
 pixelmon.effect.shadowforce=%s vanished!
 pixelmon.effect.smellingsalt=%s's paralysis was cured!
 pixelmon.effect.revived=%s was revived!
+pixelmon.effect.thief=%s stole %s's %s!
 
 pixelmon.status.ringheal=%s is healed by its ring!
 pixelmon.status.burnhurt=%s is hurt by its burn!
