@@ -3423,6 +3423,7 @@ pixelmon.command.transfer.transferred=Successfully transferred %s PokéDollars t
 pixelmon.command.transfer.notifytransfer=%s successfully transferred %s PokéDollars to %s!
 pixelmon.command.givemoney.given=Successfully added %s PokéDollars to %s's balance!
 pixelmon.command.givemoney.notifygive=%s successfully added %s PokéDollars to %s's balance!
+pixelmon.command.trainerhat.invalidcolour=Invalid colours entered for hat.  Should be r g b from 0-255
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
