@@ -4518,6 +4518,7 @@ tile.movementPlate.name=Movement Plate
 tile.pokechest.name=Poké Chest
 tile.ultrachest.name=Ultra Chest
 tile.masterchest.name=Master Chest
+tile.stickPlate.name=Stick Plate
 
 PokeDirt.name=PokéDirt
 PokeSand.name=PokéSand
