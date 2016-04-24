@@ -6014,7 +6014,6 @@ pixelmon.config.showCurrentAttackTarget=Mostrar el objetivo actual
 
 pixelmon.config.awardPhotos=Premiar con fotos al ganar combates salvajes
 pixelmon.config.wildCanFlee=Permitir escapar a los Pokémon salvajes
-pixelmon.config.spinBattleCamera=Giro de cámara en batalla
 pixelmon.config.spawnStructures=Activar estructuras de Pixelmon en el mundo
 pixelmon.config.allowPokemonNicknames=Permitir motes para Pokémon
 pixelmon.config.allowAnvilAutoreloading=Permitir autorecarga del yunque
