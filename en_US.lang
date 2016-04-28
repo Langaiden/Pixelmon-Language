@@ -869,6 +869,17 @@ item.DuskstoneBoots.name=Dusk Stone Boots
 item.PicketFence.name=Picket Fence
 item.pokeGift.name=Poké Gift
 
+item.record.asmbts.desc=A simple moment by the sea
+item.record.atd.desc=Across the desert
+item.record.ds.desc=Distant shores
+item.record.fptp.desc=From peak to peak
+item.record.jtts.desc=Journey to the sky
+item.record.nf.desc=Nightfall
+item.record.otwoa.desc=On the wings of adventure
+item.record.pw.desc=Pixelmon waltz
+item.record.tef.desc=The enchanted forest
+item.record.tfl.desc=The frozen land
+
 BrailleBlock.A.name=Braille Block A
 BrailleBlock.B.name=Braille Block B
 BrailleBlock.C.name=Braille Block C
