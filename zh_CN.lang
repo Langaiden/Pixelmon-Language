@@ -3583,7 +3583,7 @@ pixelmon.blocks.chestmodeFCFS=先到先得！
 
 pixelmon.blocks.orbnotfull=您的珠子还没满！
 pixelmon.blocks.orbwrong=您的珠子与此神社不兼容！
-+pixelmon.blocks.shrineused=这个神社已经被激活了！
+pixelmon.blocks.shrineused=这个神社已经被激活了！
 
 pixelmon.blocks.tradefull=交换机已满！
 
