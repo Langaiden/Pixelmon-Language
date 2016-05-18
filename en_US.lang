@@ -3622,6 +3622,8 @@ pixelmon.blocks.tree.change2=The tree is now using design #2.
 pixelmon.blocks.tree.change3=The tree is now using design #3.
 pixelmon.blocks.tree.change4=The tree is now using design #4.
 
+pixelmon.blocks.movepad.loopbuilderror=Infinite loops of movement plates are not allowed!
+
 pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
 
@@ -4402,10 +4404,7 @@ battlecontroller.switch=Choose a new Pokémon to send out!
 battlecontroller.targets=Choose the target for $a.
 battlecontroller.win=You've won the battle!
 
-battlecontroller.afk=%s has gone AFK for %d seconds. Auto-battler taking turns every %d seconds!
-battlecontroller.selfafk=You have gone AFK for %d seconds. Auto-battler will take your turns every %d seconds!
-battlecontroller.afkback=%s is no longer AFK. Auto-battler disengaged!
-battlecontroller.selfafkback=You are no longer AFK. Auto-battler disengaged!
+battlecontroller.afktimer=Turn timer: 
 
 battleController.recievedDamage=%s received %d damage from %s!
 
