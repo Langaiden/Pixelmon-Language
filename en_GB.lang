@@ -4380,10 +4380,11 @@ battlecontroller.sendout=%s sent out %s!
 battlecontroller.switch=Choose a new Pokémon to send out!
 battlecontroller.targets=Choose the target for $a.
 battlecontroller.win=You've won the battle!
-
 battlecontroller.afktimer=Turn timer: 
-
-battleController.recievedDamage=%s received %d damage from %s!
+battlecontroller.forfeitask=Do you want to forfeit the battle?
+battlecontroller.forfeit=%s forfeited the battle!
+battlecontroller.forfeitself=You forfeited the battle.
+battlecontroller.draw=The battle has been declared a draw.
 
 type.normal=Normal
 type.fire=Fire
