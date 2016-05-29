@@ -874,6 +874,17 @@ item.DuskstoneBoots.name=Botas de Piedra Noche
 item.PicketFence.name=Valla
 item.pokeGift.name=Poké Regalo
 
+item.record.asmbts.desc=Un Tranquilo Momento por el Mar
+item.record.atd.desc=A Través del Desierto
+item.record.ds.desc=Costas Remotas
+item.record.fptp.desc=De Cumbre en Cumbre
+item.record.jtts.desc=Travesía a los Cielos
+item.record.nf.desc=Anochecer
+item.record.otwoa.desc=En las Alas de la Aventura
+item.record.pw.desc=Vals de Pixelmon
+item.record.tef.desc=El Bosque Encantado
+item.record.tfl.desc=Las Tierras Heladas
+
 BrailleBlock.A.name=Bloque Braille A
 BrailleBlock.B.name=Bloque Braille B
 BrailleBlock.C.name=Bloque Braille C
@@ -4027,7 +4038,7 @@ pixelmon.command.transfer.transferred=¡Se ha transferido con éxito %s Pokedól
 pixelmon.command.transfer.notifytransfer=¡%s ha transferido con éxito %s Pokedólares a %s!
 pixelmon.command.givemoney.given=¡Se ha añadido con éxito %s Pokedólares al saldo de %s!
 pixelmon.command.givemoney.notifygive=¡%s ha añadido con éxito %s Pokedólares al saldo de %s!
-pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para el sombrero no son válidos.  Deberá ser r g b entre 0-255
+pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para el sombrero no son válidos. Tiene que ser rojo/verde/azul entre valores de 0-255.
 
 //Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s calló al suelo!
@@ -4215,6 +4226,8 @@ pixelmon.blocks.tree.change1=El árbol ahora está utilizando el diseño #1.
 pixelmon.blocks.tree.change2=El árbol ahora está utilizando el diseño #2.
 pixelmon.blocks.tree.change3=El árbol ahora está utilizando el diseño #3.
 pixelmon.blocks.tree.change4=El árbol ahora está utilizando el diseño #4.
+
+pixelmon.blocks.movepad.loopbuilderror=¡No es posible hacer bucles infinitos con placas de movimiento!
 
 pixelmon.orb.amountfull=¡Necesitas ganar %d combates más para llenar el orbe!
 pixelmon.orb.isfull=¡El Orbe está lleno!
@@ -4972,13 +4985,11 @@ battlecontroller.sendout=¡%s sacó a %s!
 battlecontroller.switch=¡Elige un Pokémon para combatir!
 battlecontroller.targets=Elige un objetivo para $a.
 battlecontroller.win=¡Has ganado la batalla!
-
-battlecontroller.afk=%s está AFK durante %d segundos. ¡La auto-batalla toma los turnos cada %d segundos!
-battlecontroller.selfafk=Estás AFK durante %d segundos. ¡La auto-batalla tomará tus turnos cada %d segundos!
-battlecontroller.afkback=¡%s ya no está AFK, auto-batalla desactivada!
-battlecontroller.selfafkback=¡Ya no estás AFK, auto-batalla desactivada!
-
-battleController.recievedDamage=¡%s recibió %d daño de %s!
+battlecontroller.afktimer=Tiempo por Turno: 
+battlecontroller.forfeitask=¿Quieres perder el combate?
+battlecontroller.forfeit=¡%s ha perdido el combate!
+battlecontroller.forfeitself=Has perdido el combate.
+battlecontroller.draw=El combate ha sido declarado como empate.
 
 type.normal=Normal
 type.fire=Fuego
@@ -6018,6 +6029,7 @@ pixelmon.config.displayLegendaryGlobalMessage=Mostrar mensaje global de Legendar
 pixelmon.config.replaceMCVillagers=Remplazar aldeanos de Minecraft
 pixelmon.config.spawnPokeMarts=Permitir Tiendas
 pixelmon.config.increaseVillageSpawnRate=Incrementar tasa de aparición de las Aldeas
+pixelmon.config.useRecentLevelMoves=Aparecer con ataques actuales
 
 pixelmon.config.Gen1=Generación 1
 pixelmon.config.Gen2=Generación 2
@@ -6102,6 +6114,7 @@ pixelmon.config.battleAIBoss=Jefes Pokémon (IA de Combate)
 pixelmon.config.battleAITrainer=Entrenadores (IA de Combate)
 pixelmon.config.expModifier=Modificador de Experiencia
 pixelmon.config.multiplePhotosOfSamePokemon=Permite sacar varias fotos del mismo Pokémon
+pixelmon.config.allowPayDayMoney=Activar dinero con Día de Pago
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
 pixelmon.config.afkActivateSeconds=Segundos estando AFK
@@ -6194,6 +6207,7 @@ pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon jefe
 pixelmon.config.battleAITrainer.comment=El tipo de IA que usarán los Entrenadores durante un combate.
 pixelmon.config.expModifier.comment=Multiplicador de la experiencia conseguida en combates Pokémon.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Permite a cada jugador sacar varias fotos al mismo Pokémon.
+pixelmon.config.allowPayDayMoney.comment=Permite que Día de Pago de Pokédolares cuando es usado.
 
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
 pixelmon.config.shinySpawnRate.comment=El calculo Shiny utiliza 1/(tasa de Shiny) para obtener la probabilidad de ser Shiny.
@@ -6207,6 +6221,7 @@ pixelmon.config.displayLegendaryGlobalMessage.comment=Muestra un anuncio en todo
 pixelmon.config.replaceMCVillagers.comment=Remplaza a los aldeanos de Minecraft por los NPCs de Pixelmon.
 pixelmon.config.spawnPokeMarts.comment=Las Tiendas Pokémon aparecerán con comerciantes en las aldeas de Minecraft.
 pixelmon.config.increaseVillageSpawnRate.comment=Incrementa la tasa de aparición de aldeas de Minecraft en un 100%.
+pixelmon.config.useRecentLevelMoves.comment=Si está activado, los Pokémon aparecerán con sus ataques más recientes de su lista de movimientos. Si está desactivado, los Pokémon aparecerán con ataques aleatorios de su lista de movimientos.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
