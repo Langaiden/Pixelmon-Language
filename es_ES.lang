@@ -4038,7 +4038,7 @@ pixelmon.command.transfer.transferred=¡Se ha transferido con éxito %s Pokedól
 pixelmon.command.transfer.notifytransfer=¡%s ha transferido con éxito %s Pokedólares a %s!
 pixelmon.command.givemoney.given=¡Se ha añadido con éxito %s Pokedólares al saldo de %s!
 pixelmon.command.givemoney.notifygive=¡%s ha añadido con éxito %s Pokedólares al saldo de %s!
-pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para el sombrero no son válidos. Tiene que ser rojo/verde/azul entre valores de 0-255.
+pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para el sombrero no son válidos. Tiene que ser rojo/verde/azul con valores entre 0-255.
 
 //Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s calló al suelo!
@@ -4986,10 +4986,10 @@ battlecontroller.switch=¡Elige un Pokémon para combatir!
 battlecontroller.targets=Elige un objetivo para $a.
 battlecontroller.win=¡Has ganado la batalla!
 battlecontroller.afktimer=Tiempo por Turno: 
-battlecontroller.forfeitask=¿Quieres perder el combate?
-battlecontroller.forfeit=¡%s ha perdido el combate!
-battlecontroller.forfeitself=Has perdido el combate.
-battlecontroller.draw=El combate ha sido declarado como empate.
+battlecontroller.forfeitask=¿Quieres terminar el combate?
+battlecontroller.forfeit=¡%s ha renunciado al combate!
+battlecontroller.forfeitself=Has renunciado al combate.
+battlecontroller.draw=El combate se ha declarado como empate.
 
 type.normal=Normal
 type.fire=Fuego
