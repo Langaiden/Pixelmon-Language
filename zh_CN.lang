@@ -855,49 +855,6 @@ item.DuskstoneLegs.name=暗之石裤
 item.DuskstoneBoots.name=暗之石靴
 item.PicketFence.name=栅栏
 item.pokeGift.name=宝可梦礼品盒
-
-item.record.asmbts.desc=简单的海边时光
-item.record.atd.desc=横穿沙漠
-item.record.ds.desc=遥远的彼岸
-item.record.fptp.desc=从高峰到顶峰
-item.record.jtts.desc=天空旅程
-item.record.nf.desc=黄昏
-item.record.otwoa.desc=探险之翼
-item.record.pw.desc=像素精灵华尔兹
-item.record.tef.desc=魔法森林
-item.record.tfl.desc=冰冻大陆
-
-
-
-BrailleBlock.A.name=雕文方块 A
-BrailleBlock.B.name=雕文方块 B
-BrailleBlock.C.name=雕文方块 C
-BrailleBlock.D.name=雕文方块 D
-BrailleBlock.E.name=雕文方块 E
-BrailleBlock.F.name=雕文方块 F
-BrailleBlock.G.name=雕文方块 G
-BrailleBlock.H.name=雕文方块 H
-BrailleBlock.I.name=雕文方块 I
-BrailleBlock.J.name=雕文方块 J
-BrailleBlock.K.name=雕文方块 K
-BrailleBlock.L.name=雕文方块 L
-BrailleBlock.M.name=雕文方块 M
-BrailleBlock.N.name=雕文方块 N
-BrailleBlock.O.name=雕文方块 O
-BrailleBlock.P.name=雕文方块 P
-BrailleBlock.Q.name=雕文方块 Q
-BrailleBlock.R.name=雕文方块 R
-BrailleBlock.S.name=雕文方块 S
-BrailleBlock.T.name=雕文方块 T
-BrailleBlock.U.name=雕文方块 U
-BrailleBlock.V.name=雕文方块 V
-BrailleBlock.W.name=雕文方块 W
-BrailleBlock.X.name=雕文方块 X
-BrailleBlock.Y.name=雕文方块 Y
-BrailleBlock.Z.name=雕文方块 Z
-BrailleBlock...name=雕文方块 .
-BrailleBlock.,.name=雕文方块 ,
-BrailleBlock._.name=雕文方块 _
 item.EntityPixelmonPaintingItem.name=宝可梦绘画
 item.camera.name=照相机
 item.film.name=影片
@@ -3410,7 +3367,6 @@ pixelmon.command.transfer.transferred=成功地转移 %s 宝可梦币给 %s！
 pixelmon.command.transfer.notifytransfer=%s 成功地转移 %s 宝可梦币给 %s！
 pixelmon.command.givemoney.given=成功添加 %s 宝可梦币到 %s 的账户！
 pixelmon.command.givemoney.notifygive=%s 成功添加 %s 宝可梦币到 %s 的账户！
-pixelmon.command.trainerhat.invalidcolour=无效的帽子颜色。R G B值应该在 0-255 范围内。
 
 //other
 pixelmon.drops.fullinventory=您的物品栏已经满了！ %s 掉落到了地上！
@@ -3583,7 +3539,7 @@ pixelmon.blocks.chestmodeFCFS=先到先得！
 
 pixelmon.blocks.orbnotfull=您的珠子还没满！
 pixelmon.blocks.orbwrong=您的珠子与此神社不兼容！
-pixelmon.blocks.shrineused=这个神社已经被激活了！
++pixelmon.blocks.shrineused=这个神社已经被激活了！
 
 pixelmon.blocks.tradefull=交换机已满！
 
@@ -3608,11 +3564,7 @@ pixelmon.blocks.cloningmachine.retrieve=取回宝可梦
 pixelmon.blocks.cloningmachine.processing=处理中...
 pixelmon.blocks.cloningmachine.boost=加速
 
-pixelmon.blocks.tree.change1=这棵树现在使用的形状 #1。
-pixelmon.blocks.tree.change2=这棵树现在使用的形状 #2。
-pixelmon.blocks.tree.change3=这棵树现在使用的形状 #3。
-pixelmon.blocks.tree.change4=这棵树现在使用的形状 #4。
-pixelmon.orb.amountfull=你需要 %d 的击杀数来填满宝珠！
++pixelmon.orb.amountfull=你需要 %d 的击杀数来填满宝珠！
 pixelmon.orb.isfull=您的珠满了！
 
 //achievements
@@ -4006,7 +3958,6 @@ gui.trainereditor.minivs=最小个体值
 gui.trainereditor.randomivs=随机个体值
 gui.trainereditor.resetevs=重置努力值
 gui.trainereditor.helditem=携带物品
-gui.trainereditor.form=形态
 gui.trainereditor.pokemoneditor=训练师编辑器 - 宝可梦编辑器
 gui.trainereditor.name=名字
 gui.trainereditor.shiny=闪光
@@ -4239,8 +4190,6 @@ gui.ranch.extendTitle=扩展牧场面积区块
 gui.ranch.empty=牧场里空空的，没有任何宝可梦...
 ranch.hourglass.upgradedall=所有在牧场里的宝可梦都提升了感情等级！
 ranch.hourglass.upgrade=%s 提升了一个感情等级！
-
-gui.trader.eggDescription=我想知道这里面会孵化出什么...
 
 gui.spectate.spectateMessage=按 $l 去观看 $p 的对战。
 gui.spectate.stopspectate=停止观战
@@ -4515,7 +4464,6 @@ tile.movementPlate.name=传送地板
 tile.pokechest.name=宝贝球奖励箱
 tile.ultrachest.name=高级球奖励箱
 tile.masterchest.name=大师球奖励箱
-tile.stickPlate.name=棒子板式
 
 PokeDirt.name=精灵宝可梦泥土
 PokeSand.name=精灵宝可梦沙地
@@ -5210,7 +5158,6 @@ pixelmon.effect.iceburn=%s 被冻结的光包围着！
 pixelmon.effect.lunardance=%s 被新月舞治疗了！
 pixelmon.effect.smellingsalt=%s 的麻痹被治愈了！
 pixelmon.effect.revived=%s 被复活了！
-pixelmon.effect.thief=%s 偷走了 %s 的 %s！
 pixelmon.effect.shadowforce=%s 消失了！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
@@ -5350,13 +5297,12 @@ key.categories.pixelmon=Pixelmon - 精灵宝可梦
 key.descend=骑乘宝可梦时下降/下潜
 key.minmaxoverlay=最小化/最大化 视图
 key.nextexternalmove=下一个对战外技能
-key.pokedex=打开宝可梦图鉴/百科
+key.pokedex=打开 宝可梦图鉴/百科
 key.nextpokemon=下一个精灵槽
 key.previouspokemon=上一个精灵槽
 key.sendpokemon=放出/收回宝可梦
 key.pokemonaction=选择目标宝可梦
 key.pokemonexternal=使用对战外技能
-key.spectateBattle=观战
 
 halloween.entityname=灵魂珠宝商
 halloween.gemregistered=灵魂珠宝商收到了您的 %s！
@@ -5532,7 +5478,7 @@ pixelmon.config.battleAIBoss=BOSS宝可梦AI
 pixelmon.config.battleAITrainer=NPC训练师AI
 pixelmon.config.expModifier=经验修正
 
-pixelmon.config.multiplePhotosOfSamePokemon=允许精灵照片重复。
+pixelmon.config.multiplePhotosOfSamePokemon=允许多人游戏当中能有多个同样的宝可梦照片。
 
 pixelmon.config.enableAFKHandler=启用AFK程序
 pixelmon.config.afkActivateSeconds=AFK激活秒数
@@ -5623,14 +5569,13 @@ pixelmon.config.battleAIDescription=1:选择随机移动 2:选择最具破坏性
 pixelmon.config.battleAIWild.comment=对战中野怪的AI类型。
 pixelmon.config.battleAIBoss.comment=对战中BOSS的AI类型。
 pixelmon.config.battleAITrainer.comment=对战中NPC训练师的AI类型。
-pixelmon.config.expModifier.comment=神奇宝贝对战获得的经验的倍数。
-pixelmon.config.multiplePhotosOfSamePokemon.comment=允许玩家重复获得相同的精灵照片。
-pixelmon.config.spawnDimensions.comment=生成神奇宝贝的维度列表。
+pixelmon.config.expModifier.comment=宝可梦对战获得的经验的倍数
+pixelmon.config.spawnDimensions.comment=生成宝可梦的维度列表
 pixelmon.config.shinySpawnRate.comment=通过闪光的几率1/X的(闪光率),来确定闪光率。
 pixelmon.config.bossSpawnRate.comment=BOSS的生成率,1/x的生成率,若设置为0则禁止BOSS生成。
 pixelmon.config.legendarySpawnTicks.comment=神兽的平均生成时间(随生成率改动)。
 pixelmon.config.legendaryRepeatSpawnTicks.comment=神兽的特定时间内最小再次生成数量(只要通过生成)。
-pixelmon.config.legendarySpawnChance.comment=改变一个神兽生成的几率 (0-1)。
+pixelmon.config.legendarySpawnChance.comment=改变一个神兽生成的几率 (0-1).
 pixelmon.config.hiddenAbilitySpawnRate.comment=改变野生宝可梦隐藏特性的几率(1/X)，0为禁止隐藏特性产生。
 pixelmon.config.allowLegendarySpawn.comment=允许野生神兽产生(特定事件除外)。
 pixelmon.config.displayLegendaryGlobalMessage.comment=关闭公告'一只神兽在 <name> 地形生成了'当神兽产生时。
