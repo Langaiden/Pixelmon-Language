@@ -3432,9 +3432,13 @@ pixelmon.command.transfer.notenoughmoney=Not enough money to complete transfer.
 pixelmon.command.transfer.sameplayer=You cannot send money to yourself!
 pixelmon.command.transfer.transferred=Successfully transferred %s PokéDollars to %s!
 pixelmon.command.transfer.notifytransfer=%s successfully transferred %s PokéDollars to %s!
+pixelmon.command.transfer.received=%s successfully transferred %s PokéDollars to you!
 pixelmon.command.givemoney.given=Successfully added %s PokéDollars to %s's balance!
 pixelmon.command.givemoney.notifygive=%s successfully added %s PokéDollars to %s's balance!
-pixelmon.command.trainerhat.invalidcolour=Invalid colours entered for hat.  Should be r g b from 0-255
+pixelmon.command.givemoney.received=%s successfully added %s PokéDollars to your balance!
+pixelmon.command.givemoney.moneylimit=%s cannot hold any more PokéDollars!
+pixelmon.command.givemoney.nomoney=%s has no PokéDollars to take away!
+pixelmon.command.trainerhat.invalidcolour=Invalid colors entered for hat. Should be red/green/blue from 0-255.
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -5450,6 +5454,7 @@ pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
 
+pixelmon.config.removeVanillaMusic=Remove vanilla music
 pixelmon.config.minMusicDelay=Minimum music delay
 pixelmon.config.maxMusicDelay=Maximum music delay
 
@@ -5683,6 +5688,7 @@ pixelmon.config.allowExternalMoves.comment=Allows the use of external moves such
 pixelmon.config.saveToExternalDatabase.comment=Enable this to change the save system over to a database specified in the connection string property. Only H2 and MySQL currently supported.
 pixelmon.config.connectionString.comment=Put the connection string for the external database in the form jdbc:dbtype://...
 
+pixelmon.config.removeVanillaMusic.comment=Whether to remove Minecraft music and only play Pixelmon music in-game.
 pixelmon.config.minMusicDelay.comment=Minimum number of world ticks before a new music track will start.
 pixelmon.config.maxMusicDelay.comment=Maximum number of world ticks before a new music track will start.
 
