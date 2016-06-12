@@ -869,17 +869,6 @@ item.DuskstoneBoots.name=Dusk Stone Boots
 item.PicketFence.name=Picket Fence
 item.pokeGift.name=Poké Gift
 
-item.record.asmbts.desc=A Simple Moment by the Sea
-item.record.atd.desc=Across the Desert
-item.record.ds.desc=Distant Shores
-item.record.fptp.desc=From Peak to Peak
-item.record.jtts.desc=Journey to the Sky
-item.record.nf.desc=Nightfall
-item.record.otwoa.desc=On the Wings of Adventure
-item.record.pw.desc=Pixelmon Waltz
-item.record.tef.desc=The Enchanted Forest
-item.record.tfl.desc=The Frozen Land
-
 BrailleBlock.A.name=Braille Block A
 BrailleBlock.B.name=Braille Block B
 BrailleBlock.C.name=Braille Block C
@@ -3435,7 +3424,6 @@ pixelmon.command.givemoney.notifygive=%s successfully added %s PokéDollars to %
 pixelmon.command.givemoney.received=%s successfully added %s PokéDollars to your balance!
 pixelmon.command.givemoney.moneylimit=%s cannot hold any more PokéDollars!
 pixelmon.command.givemoney.nomoney=%s has no PokéDollars to take away!
-pixelmon.command.trainerhat.invalidcolour=Invalid colours entered for hat. Should be red/green/blue from 0-255.
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -3619,8 +3607,6 @@ pixelmon.blocks.tree.change1=The tree is now using design #1.
 pixelmon.blocks.tree.change2=The tree is now using design #2.
 pixelmon.blocks.tree.change3=The tree is now using design #3.
 pixelmon.blocks.tree.change4=The tree is now using design #4.
-
-pixelmon.blocks.movepad.loopbuilderror=Infinite loops of movement plates are not allowed!
 
 pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
@@ -4384,11 +4370,13 @@ battlecontroller.sendout=%s sent out %s!
 battlecontroller.switch=Choose a new Pokémon to send out!
 battlecontroller.targets=Choose the target for $a.
 battlecontroller.win=You've won the battle!
-battlecontroller.afktimer=Turn timer: 
-battlecontroller.forfeitask=Do you want to forfeit the battle?
-battlecontroller.forfeit=%s forfeited the battle!
-battlecontroller.forfeitself=You forfeited the battle.
-battlecontroller.draw=The battle has been declared a draw.
+
+battlecontroller.afk=%s has gone AFK for %d seconds. Auto-battler taking turns every %d seconds!
+battlecontroller.selfafk=You have gone AFK for %d seconds. Auto-battler will take your turns every %d seconds!
+battlecontroller.afkback=%s is no longer AFK. Auto-battler disengaged!
+battlecontroller.selfafkback=You are no longer AFK. Auto-battler disengaged!
+
+battleController.recievedDamage=%s received %d damage from %s!
 
 type.normal=Normal
 type.fire=Fire
@@ -5418,7 +5406,6 @@ pixelmon.config.displayLegendaryGlobalMessage=Display Legendary global message
 pixelmon.config.replaceMCVillagers=Replace Minecraft villagers
 pixelmon.config.spawnPokeMarts=Spawn shopkeepers
 pixelmon.config.increaseVillageSpawnRate=Increase village spawn rate
-pixelmon.config.useRecentLevelMoves=Spawn with recent moves
 
 pixelmon.config.Gen1=Generation 1
 pixelmon.config.Gen2=Generation 2
@@ -5504,7 +5491,6 @@ pixelmon.config.battleAIBoss=Boss Pokémon battle AI
 pixelmon.config.battleAITrainer=NPC Trainer battle AI
 pixelmon.config.expModifier=Experience modifier
 pixelmon.config.multiplePhotosOfSamePokemon=Allow duplicate Pokémon photos
-pixelmon.config.allowPayDayMoney=Allow Pay Day money
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
@@ -5597,7 +5583,6 @@ pixelmon.config.battleAIBoss.comment=The type of AI to use for boss Pokemon in b
 pixelmon.config.battleAITrainer.comment=The type of AI to use for NPC Trainers in battle.
 pixelmon.config.expModifier.comment=Multiplier for experience gained in Pokemon battles.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon.
-pixelmon.config.allowPayDayMoney.comment=Allow Pay Day to award PokéDollars when used.
 
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
@@ -5611,7 +5596,6 @@ pixelmon.config.displayLegendaryGlobalMessage.comment=Displays server-wide annou
 pixelmon.config.replaceMCVillagers.comment=Replaces Minecraft's villagers with Pixelmon NPCs.
 pixelmon.config.spawnPokeMarts.comment=Poke Marts will spawn with shopkeepers in Minecraft's towns.
 pixelmon.config.increaseVillageSpawnRate.comment=Increase the Minecraft village spawn rate by 100%.
-pixelmon.config.useRecentLevelMoves.comment=If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
 
 pixelmon.config.Gen1.comment=Pokedex 1-151
 pixelmon.config.Gen2.comment=Pokedex 152-251
