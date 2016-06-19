@@ -898,6 +898,19 @@ BrailleBlock.Z.name=Braille Block Z
 BrailleBlock...name=Braille Block .
 BrailleBlock.,.name=Braille Block ,
 BrailleBlock._.name=Braille Block _
+BrailleBlock2.Q.name=Braille Block Q
+BrailleBlock2.R.name=Braille Block R
+BrailleBlock2.S.name=Braille Block S
+BrailleBlock2.T.name=Braille Block T
+BrailleBlock2.U.name=Braille Block U
+BrailleBlock2.V.name=Braille Block V
+BrailleBlock2.W.name=Braille Block W
+BrailleBlock2.X.name=Braille Block X
+BrailleBlock2.Y.name=Braille Block Y
+BrailleBlock2.Z.name=Braille Block Z
+BrailleBlock2...name=Braille Block .
+BrailleBlock2.,.name=Braille Block ,
+BrailleBlock2._.name=Braille Block _
 
 itemGroup.tabPokeLoot=PokéLoot
 itemGroup.Pokeballs=Poké Balls
@@ -5493,6 +5506,8 @@ pixelmon.config.battleAIBoss=Boss Pokémon battle AI
 pixelmon.config.battleAITrainer=NPC Trainer battle AI
 pixelmon.config.expModifier=Experience modifier
 pixelmon.config.multiplePhotosOfSamePokemon=Allow duplicate Pokémon photos
+pixelmon.config.allowPayDayMoney=Allow Pay Day money
+pixelmon.config.pickupRate=Pickup rate
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
@@ -5585,6 +5600,7 @@ pixelmon.config.battleAIBoss.comment=The type of AI to use for boss Pokemon in b
 pixelmon.config.battleAITrainer.comment=The type of AI to use for NPC Trainers in battle.
 pixelmon.config.expModifier.comment=Multiplier for experience gained in Pokemon battles.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon.
+pixelmon.config.pickupRate.comment=Chance of the Pickup Ability picking up an item after a battle (1/rate). 0 disables this.
 
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
