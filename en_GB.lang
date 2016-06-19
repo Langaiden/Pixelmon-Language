@@ -5506,6 +5506,8 @@ pixelmon.config.battleAIBoss=Boss Pokémon battle AI
 pixelmon.config.battleAITrainer=NPC Trainer battle AI
 pixelmon.config.expModifier=Experience modifier
 pixelmon.config.multiplePhotosOfSamePokemon=Allow duplicate Pokémon photos
+pixelmon.config.allowPayDayMoney=Allow Pay Day money
+pixelmon.config.pickupRate=Pickup rate
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
@@ -5598,6 +5600,7 @@ pixelmon.config.battleAIBoss.comment=The type of AI to use for boss Pokemon in b
 pixelmon.config.battleAITrainer.comment=The type of AI to use for NPC Trainers in battle.
 pixelmon.config.expModifier.comment=Multiplier for experience gained in Pokemon battles.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon.
+pixelmon.config.pickupRate.comment=Chance of the Pickup Ability picking up an item after a battle (1/rate). 0 disables this.
 
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
