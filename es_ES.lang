@@ -914,6 +914,19 @@ BrailleBlock.Z.name=Bloque Braille Z
 BrailleBlock...name=Bloque Braille .
 BrailleBlock.,.name=Bloque Braille ,
 BrailleBlock._.name=Bloque Braille _
+BrailleBlock2.Q.name=Bloque Braille Q
+BrailleBlock2.R.name=Bloque Braille R
+BrailleBlock2.S.name=Bloque Braille S
+BrailleBlock2.T.name=Bloque Braille T
+BrailleBlock2.U.name=Bloque Braille U
+BrailleBlock2.V.name=Bloque Braille V
+BrailleBlock2.W.name=Bloque Braille W
+BrailleBlock2.X.name=Bloque Braille X
+BrailleBlock2.Y.name=Bloque Braille Y
+BrailleBlock2.Z.name=Bloque Braille Z
+BrailleBlock2...name=Bloque Braille .
+BrailleBlock2.,.name=Bloque Braille ,
+BrailleBlock2._.name=Bloque Braille _
 
 itemGroup.tabPokeLoot=Poke-Botín
 itemGroup.Pokeballs=Poké Balls
@@ -3994,8 +4007,10 @@ pixelmon.command.breed.notcompatible=¡%s y %s no son compatibles!
 pixelmon.command.breed.novalidpairs=No se han encontrado parejas compatibles en el equipo de %s.
 pixelmon.command.breed.nullslot=¡No hay ningún Pokémon en la ranura %s!
 pixelmon.command.copyToDB.disabled=¡Guardar en la database no está activado en el archivo config!
-pixelmon.command.endbattle.notinbattle=%s no está en batalla.
-pixelmon.command.endbattle.endbattle=La batalla ha finalizado con éxito.
+pixelmon.command.endbattle.notinbattle=%s no está en combate.
+pixelmon.command.endbattle.endbattle=El combate ha finalizado con éxito.
+pixelmon.command.endbattle.permissionself=No tienes permisos para finalizar el combate.
+pixelmon.command.endbattle.permissionother=No tienes permisos para finalizar el combate de otra persona.
 pixelmon.command.freeze.frozen=¡Los Pokémon están congelados!
 pixelmon.command.freeze.unfrozen=¡Los Pokémon ya no están congelados!
 pixelmon.command.general.cheater=¡Cheater!
@@ -4036,9 +4051,13 @@ pixelmon.command.transfer.notenoughmoney=No tienes suficiente dinero para comple
 pixelmon.command.transfer.sameplayer=¡No te puedes mandar dinero a ti mismo!
 pixelmon.command.transfer.transferred=¡Se ha transferido con éxito %s Pokedólares a %s!
 pixelmon.command.transfer.notifytransfer=¡%s ha transferido con éxito %s Pokedólares a %s!
+pixelmon.command.transfer.received=¡%s te ha transferido con éxito %s Pokedólares!
 pixelmon.command.givemoney.given=¡Se ha añadido con éxito %s Pokedólares al saldo de %s!
 pixelmon.command.givemoney.notifygive=¡%s ha añadido con éxito %s Pokedólares al saldo de %s!
-pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para la gorra no son válidos. Tiene que ser rojo/verde/azul con valores entre 0-255.
+pixelmon.command.givemoney.received=¡%s ha añadido %s Pokedólares a tu saldo!
+pixelmon.command.givemoney.moneylimit=¡%s no puede tener más Pokedólares!
+pixelmon.command.givemoney.nomoney=¡%s no tiene Pokedólares para restar!
+pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para la gorra no son válidos. Deberá ser rojo/verde/azul con valores entre 0-255.
 
 //Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s calló al suelo!
@@ -6037,6 +6056,7 @@ pixelmon.config.Gen3=Generación 3
 pixelmon.config.Gen4=Generación 4
 pixelmon.config.Gen5=Generación 5
 
+pixelmon.config.removeVanillaMusic=Quitar Música por defecto
 pixelmon.config.minMusicDelay=Tiempo Mínimo de Música
 pixelmon.config.maxMusicDelay=Tiempo Máximo de Música
 
@@ -6115,6 +6135,7 @@ pixelmon.config.battleAITrainer=Entrenadores (IA de Combate)
 pixelmon.config.expModifier=Modificador de Experiencia
 pixelmon.config.multiplePhotosOfSamePokemon=Permite sacar varias fotos del mismo Pokémon
 pixelmon.config.allowPayDayMoney=Activar dinero con Día de Pago
+pixelmon.config.pickupRate=Tasa de Recogida
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
 pixelmon.config.afkActivateSeconds=Segundos estando AFK
@@ -6206,8 +6227,9 @@ pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salv
 pixelmon.config.battleAIBoss.comment=El tipo de IA que usarán los Pokémon jefes durante un combate.
 pixelmon.config.battleAITrainer.comment=El tipo de IA que usarán los Entrenadores durante un combate.
 pixelmon.config.expModifier.comment=Multiplicador de la experiencia conseguida en combates Pokémon.
-pixelmon.config.multiplePhotosOfSamePokemon.comment=Permite a cada jugador sacar varias fotos al mismo Pokémon.
-pixelmon.config.allowPayDayMoney.comment=Permite que Día de Pago de Pokédolares cuando es usado.
+pixelmon.config.multiplePhotosOfSamePokemon.comment=Permite que cada jugador pueda sacar varias fotos al mismo Pokémon.
+pixelmon.config.allowPayDayMoney.comment=Hace que Día de Pago dé Pokédolares cuando se usa.
+pixelmon.config.pickupRate.comment=Probabilidad de que la Habilidad Recogida recoga un objeto después de un combate (1/tasa). El valor 0 lo desactiva.
 
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
 pixelmon.config.shinySpawnRate.comment=El calculo Shiny utiliza 1/(tasa de Shiny) para obtener la probabilidad de ser Shiny.
@@ -6239,7 +6261,6 @@ pixelmon.config.spawnNormal.comment=Permite aparecer PokeCofres visibles aleator
 pixelmon.config.spawnHidden.comment=Permite aparecer PokeCofre invisibles aleatoriamente por todo el mundo.
 pixelmon.config.spawnGrotto.comment=Permite aparecer Grutas Ocultas en el mundo.
 pixelmon.config.spawnRate.comment=Tasa de aparición de cofres. 0: 1 por cada 64 chunks. 1: 1 por cada 32 chunks. 2: 1 por cada 18 chunks. 3: 1 por cada 10 chunks
-pixelmon.config.spawnMode.comment=Modo de aparición por defecto (PLPG=0, 1PPG=1, PI=2, TIEMPO=3). PLPG = Primero en Llegar Primero en Ganar, sólo un jugador puede ganar el cofre, después desaparece. 1PPG = 1 Premio por Jugador, el cofre otorga un premio por persona. El cofre permanece para que el resto pueda usarlo. PI = Premio Ilimitado, los cofre pueden usarse ilimitadamente por todos los jugadores. TIEMPO = Cada jugador puede ser premiado después de un intervalo de tiempo especificado (tiempo individual). El cofre permanecerá.
 pixelmon.config.timedLootReuseSeconds.comment=Fija el intervalo de tiempo en la que un jugador puede volver a usar un cofre (colocados en Creativo o aparición nautral) activando TIEMPO. Conversiones de tiempo: una hora = 3600 segundos, un día = 86400 segundos, una semana = 604800 segundos.
 
 pixelmon.config.enableAFKHandler.comment=La batalla automática se activará si el jugador está AFK durante el combate. Se activa después de un periodo de tiempo especificado, con un tiempo especificado para cada turno.
@@ -6270,18 +6291,19 @@ pixelmon.config.allowExternalMoves.comment=Permite el uso de movimientos externo
 pixelmon.config.saveToExternalDatabase.comment=Activa esto para cambiar el sistema de guardado a una database especificada en la conexión string property. Únicamente sporta H2 y MySQL.
 pixelmon.config.connectionString.comment=Coloca el string de conexión para la database externa de la forma jdbc:dbtype://...
 
+pixelmon.config.removeVanillaMusic.comment=Si se desea quitar la música de Minecraft y sólo reproducir la música de Pixelmon in-game.
 pixelmon.config.minMusicDelay.comment=Número mínimo de ticks del mundo antes de que una nueva melodia comience.
 pixelmon.config.maxMusicDelay.comment=Número máximo de ticks del mundo antes de que una nueva melodía comience.
 
 pixelmon.config.scaleGrassBattles.comment=¿Ajustar los combates de la hierba al nivel del equipo del jugador?
 pixelmon.config.blocksHaveLegendaries.comment=Permite a los Legendarios aparecer de bloques (ej.: hierba).
 pixelmon.config.pokeGiftReusable.comment=Permitir a varios jugadores conseguir un Pokémon de un regalo.
-pixelmon.config.pokeGiftHaveEvents.comment=Autorizar la utilización de Poké Regalos (colocar y su uso).
+pixelmon.config.pokeGiftHaveEvents.comment=Autorizar el uso de Poké Regalos (colocar y su uso).
 pixelmon.config.eventPokeGiftLoad.comment=¿Debería aparecer un evento de Poké Regalo?
 pixelmon.config.eventHasLegendaries.comment=Activar/Desactivar añadir Legendarios durante el evento de Poké Regalo.
 
 pixelmon.config.eventHasShinies.comment=Cada Pokémon tiene la probabilidad de 1/10 de ser Shiny.
-pixelmon.config.eventMaxPokemon.comment=Establece la cantidad máxima de Pokémon que aparecerán en los Poké Regalos.
+pixelmon.config.eventMaxPokemon.comment=Establece la cantidad máxima de Pokémon que aparecerán en Poké Regalos.
 pixelmon.config.eventShinyRate.comment=Tasa de Pokémon Shiny que aparecerán en un Poké Regalo (1/x).
 pixelmon.config.eventTime.comment=Define una fecha personalizada para los eventos de Poké Regalo (día y mes).
 pixelmon.config.eventCoords.comment=Establecer coordenadas del cofre del evento de Poké Regalo aquí.
