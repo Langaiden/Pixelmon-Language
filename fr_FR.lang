@@ -1,5 +1,5 @@
 /*
-*	Latest translation 06/03/2016
+*	Latest translation 15/06/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -866,6 +866,48 @@ item.DuskstoneLegs.name=Jambières en Pierre Nuit
 item.DuskstoneBoots.name=Bottes en Pierre Nuit
 item.PicketFence.name=Palissade
 item.pokeGift.name=Poké Cadeau
+
+item.record.asmbts.desc=Balade en Bord de Mer
+item.record.atd.desc=A travers le Désert
+item.record.ds.desc=Rivages Lointains
+item.record.fptp.desc=De Sommet en Sommet
+item.record.jtts.desc=Voyage vers les Cieux
+item.record.nf.desc=Tombée de la Nuit
+item.record.otwoa.desc=Sur les Ailes de l'Aventure
+item.record.pw.desc=Valse Pixelmon
+item.record.tef.desc=La Forêt Enchantée
+item.record.tfl.desc=La Terre Gelée
+
+BrailleBlock.A.name=Bloc Braille A
+BrailleBlock.B.name=Bloc Braille B
+BrailleBlock.C.name=Bloc Braille C
+BrailleBlock.D.name=Bloc Braille D
+BrailleBlock.E.name=Bloc Braille E
+BrailleBlock.F.name=Bloc Braille F
+BrailleBlock.G.name=Bloc Braille G
+BrailleBlock.H.name=Bloc Braille H
+BrailleBlock.I.name=Bloc Braille I
+BrailleBlock.J.name=Bloc Braille J
+BrailleBlock.K.name=Bloc Braille K
+BrailleBlock.L.name=Bloc Braille L
+BrailleBlock.M.name=Bloc Braille M
+BrailleBlock.N.name=Bloc Braille N
+BrailleBlock.O.name=Bloc Braille O
+BrailleBlock.P.name=Bloc Braille P
+BrailleBlock.Q.name=Bloc Braille Q
+BrailleBlock.R.name=Bloc Braille R
+BrailleBlock.S.name=Bloc Braille S
+BrailleBlock.T.name=Bloc Braille T
+BrailleBlock.U.name=Bloc Braille U
+BrailleBlock.V.name=Bloc Braille V
+BrailleBlock.W.name=Bloc Braille W
+BrailleBlock.X.name=Bloc Braille X
+BrailleBlock.Y.name=Bloc Braille Y
+BrailleBlock.Z.name=Bloc Braille Z
+BrailleBlock...name=Bloc Braille .
+BrailleBlock.,.name=Bloc Braille ,
+BrailleBlock._.name=Bloc Braille _
+
 itemGroup.tabPokeLoot=PokéButin
 itemGroup.Pokeballs=Pokeballs
 itemGroup.Badges=Badges
@@ -4404,6 +4446,8 @@ pixelmon.command.breed.nullslot=Il n'y a pas de Pokémon dans le slot %s !
 pixelmon.command.copyToDB.disabled=La sauvegarde en base de donnée est désactivée dans la configuration !
 pixelmon.command.endbattle.notinbattle=%s n'est pas en combat.
 pixelmon.command.endbattle.endbattle=Combat arrêté avec succès.
+pixelmon.command.endbattle.permissionself=Vous n'avez pas la permission d'arrêter votre combat.
+pixelmon.command.endbattle.permissionother=Vous n'avez pas la permission d'arrêter le combat de quelqu'un d'autre
 pixelmon.command.freeze.frozen=Les Pokémons ne peuvent plus bouger !
 pixelmon.command.freeze.unfrozen=Les Pokémons peuvent de nouveau bouger !
 pixelmon.command.general.cheater=Tricheur !
@@ -4441,8 +4485,13 @@ pixelmon.command.transfer.notenoughmoney=Pas assez d'argent pour terminer le tra
 pixelmon.command.transfer.sameplayer=Vous ne pouvez pas vous envoyer de l'argent à vous même !
 pixelmon.command.transfer.transferred=Transfert de %s Pokédollars à %s réussi !
 pixelmon.command.transfer.notifytransfer=%s a transféré %s Pokédollars à %s avec succès !
+pixelmon.command.transfer.received=%s vous a transféré %s Pokédollars avec succés !
 pixelmon.command.givemoney.given=%s Pokédollars ont été ajouté avec succès au solde de %s !
 pixelmon.command.givemoney.notifygive=%s a ajouté %s Pokédollars au solde de %s avec succès !
+pixelmon.command.givemoney.received=% a ajouté %s Pokédollars à votre solde avec succès !
+pixelmon.command.givemoney.moneylimit=%s ne peut plus obtenir des Pokédollars !
+pixelmon.command.givemoney.nomoney=%s n'a aucun Pokédollars en poche !
+pixelmon.command.trainerhat.invalidcolour=Couleurs invalides. Elles doivent être en rouge/vert/bleu entre 0 et 255.
 
 //other
 pixelmon.drops.fullinventory=Votre inventaire est complet! %s a été déposé au sol!
@@ -4587,6 +4636,8 @@ pixelmon.blocks.bonemealwatered=Il semble bien arrosé aujourd'hui.
 
 pixelmon.blocks.healer=Ce healer est déjà utilisé.
 
+pixelmon.blocks.pc.ownership=Ce PC ne vous appartient pas.
+
 pixelmon.blocks.chestfound=Vous avez trouvé un %s!
 pixelmon.blocks.timedclaim=Vous avez déjà revendiqué ce trésor! Réessayez à un autre moment!
 pixelmon.blocks.claimedloot=Vous avez déjà revendiqué ce trésor!
@@ -4595,7 +4646,7 @@ pixelmon.blocks.chestset=Un Pokéchest modifié a été posé: %s
 pixelmon.blocks.visible=Visibilité du Pokéchest: %s
 pixelmon.blocks.chestmode=Mode du Pokéchest: %s
 pixelmon.blocks.chestmodePL1D=Permanent, Limité à 1 butin
-pixelmon.blocks.chestmodeTD=Drop avec délai
+pixelmon.blocks.chestmodeTD=Butin avec délai
 pixelmon.blocks.chestmodeFCFS=Premier arrivé, Premier servi !
 pixelmon.blocks.chestmodePUD=Permanent, butins infinis
 
@@ -4625,7 +4676,15 @@ pixelmon.blocks.cloningmachine.retrieve=Récupérement le Pokémon
 pixelmon.blocks.cloningmachine.processing=En fonctionnement ...
 pixelmon.blocks.cloningmachine.boost=Amélioration
 
-pixelmon.orb.amountfull=Vous avez encore besoin de tuer %d pokemons pour que votre orbe soit plein!
+
+pixelmon.blocks.tree.change1=L'arbre utilise désormais le modèle #1.
+pixelmon.blocks.tree.change2=L'arbre utilise désormais le modèle #2.
+pixelmon.blocks.tree.change3=L'arbre utilise désormais le modèle #3.
+pixelmon.blocks.tree.change4=L'arbre utilise désormais le modèle #4.
+
+pixelmon.blocks.movepad.loopbuilderror=Les boucles infinies de plaques de mouvement ne sont pas autorisées !
+
+pixelmon.orb.amountfull=Vous devez encore tuer %d pokemons pour que votre orbe soit plein!
 pixelmon.orb.isfull=Votre orbe est plein!
 
 //Achievements
@@ -5003,14 +5062,15 @@ gui.trainereditor.growth=Taille
 gui.trainereditor.gender=Genre
 gui.trainereditor.partypokemon=Équipe Pokémon
 gui.trainereditor.delete=Supprimer
-+gui.trainereditor.advanced=Avancé
-+gui.trainereditor.evs=EVs
-+gui.trainereditor.ivs=IVs
-+gui.trainereditor.maxivs=IVs Max.
-+gui.trainereditor.minivs=IVs Min.
-+gui.trainereditor.randomivs=IVs aléatoires
-+gui.trainereditor.resetevs=Réinitialiser EVs
-+gui.trainereditor.helditem=Objets Tenus
+gui.trainereditor.advanced=Avancé
+gui.trainereditor.evs=EVs
+gui.trainereditor.ivs=IVs
+gui.trainereditor.maxivs=IVs Max.
+gui.trainereditor.minivs=IVs Min.
+gui.trainereditor.randomivs=IVs aléatoires
+gui.trainereditor.resetevs=Réinitialiser EVs
+gui.trainereditor.helditem=Objets Tenus
+gui.trainereditor.form=Forme
 
 gui.npceditor.despawn=Despawn
 gui.npceditor.page1=Page 1
@@ -5368,13 +5428,11 @@ battlecontroller.sendout=%s envoie %s !
 battlecontroller.switch=Choisissez un Pokémon à envoyer !
 battlecontroller.targets=Choisissez une cible pour $a.
 battlecontroller.win=Vous avez remporté le combat !
-
-battlecontroller.afk=%s est AFK depuis %d secondes, Combat automatique pour %s va jouer son tour toute les %d secondes!
-battlecontroller.selfafk=Vous êtes AFK depuis %d secondes, Une action automatique sera effectuée toute les %d secondes!
-battlecontroller.afkback=%s n'est plus AFK, il reprend les commandes !
-battlecontroller.selfafkback=Vous n'êtes plus AFK, Retour en manuel !
-
-battleController.recievedDamage=%s a reçu %d dégâts de la part de %s
+battlecontroller.afktimer=Temps du tour
+battlecontroller.forfeitask=Voulez vous déclarer forfait?
+battlecontroller.forfeit=%s a déclaré forfait!
+battlecontroller.forfeitself=Vous avez déclaré forfait.
+battlecontroller.draw=Le combat a été déclaré match nul.
 
 type.normal=Normal
 type.fire=Feu
@@ -5523,6 +5581,7 @@ tile.movementPlate.name=Plaque de mouvement
 tile.pokechest.name=Poké Coffre
 tile.ultrachest.name=Ultra Coffre
 tile.masterchest.name=Master Coffre
+tile.stickPlate.name=Plaque collante
 
 PokeDirt.name=PokéTerre
 PokeSand.name=PokéSable
@@ -6186,6 +6245,8 @@ pixelmon.effect.iceburn=%s se prépare à attaquer !
 pixelmon.effect.lunardance=%s est soigné par Danse-Lune !
 pixelmon.effect.shadowforce=%s disparaît !
 pixelmon.effect.smellingsalt=La paralysie de %s est guérie !
+pixelmon.effect.revived=%s a été ressucité !
+pixelmon.effect.thief=%s vole %s de %s !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
@@ -6410,6 +6471,7 @@ pixelmon.config.displayLegendaryGlobalMessage=Message lors de l'apparition d'un 
 pixelmon.config.replaceMCVillagers=Remplacer les villageois de Minecraft 
 pixelmon.config.spawnPokeMarts=Spawn de Marchands
 pixelmon.config.increaseVillageSpawnRate=Augmente le ratio de spawn de village
+pixelmon.config.useRecentLevelMoves=Apparaît avec des capacités de son niveau
 
 pixelmon.config.Gen1=Génération 1
 pixelmon.config.Gen2=Génération 2
@@ -6417,6 +6479,7 @@ pixelmon.config.Gen3=Génération 3
 pixelmon.config.Gen4=Génération 4
 pixelmon.config.Gen5=Génération 5
 
+pixelmon.config.removeVanillaMusic=Désactiver la musique Vanilla
 pixelmon.config.minMusicDelay=Délai minimum musique
 pixelmon.config.maxMusicDelay=Délai maximum musique
 
@@ -6494,10 +6557,12 @@ pixelmon.config.battleAIBoss=IA combat Pokémon Boss
 pixelmon.config.battleAITrainer=IA combat PNJ Dresseur
 pixelmon.config.expModifier=Modifieur d'expérience
 pixelmon.config.multiplePhotosOfSamePokemon=Autoriser plusieurs photos du même Pokémon
+pixelmon.config.allowPayDayMoney=Allow Pay Day money
 
 pixelmon.config.enableAFKHandler=Mode AFK actif
 pixelmon.config.afkActivateSeconds=Délai d'activation du mode AFK
 pixelmon.config.afkHandlerTurnSeconds=Temps entre chaque attaque du mode AFK
+pixelmon.config.allowPayDayMoney=Jackpot génère de l'argent
 
 pixelmon.config.allowBreeding=Autoriser la reproduction
 pixelmon.config.allowDittoDittoBreeding=Autoriser la reproduction entre Métarmorph
@@ -6537,7 +6602,6 @@ pixelmon.config.elevator.comment=Réglages pour l'ascenseur.
 
 pixelmon.config.awardPhotos.comment=Récompenser les joueurs vainqueurs de combats sauvages d'une photo.
 pixelmon.config.wildCanFlee.comment=Les Pokémons sauvages ont une chance, basée sur des conditions de combat qui ne leur sont pas favorable, de tenter de fuir d'un combat.
-pixelmon.config.spinBattleCamera.comment=La caméra de combat tourne autour du joueur si actif, ne bouge pas si désactivé.
 pixelmon.config.spawnStructures.comment=Autorise la génération aléatoire de structure telle que les Centres Pokémons, les Totems, et d'autre bâtiments si actif.
 pixelmon.config.allowPokemonNicknames.comment=Autorise le joueur à renommer ses Pokémons (Réglage coté client,et non côté serveur).
 pixelmon.config.allowAnvilAutoreloading.comment=Permet à l'enclume de remplacer les objets finis par des objets à commencer depuis l'inventaire du joueur sans avoir à les placer manuellement.
@@ -6586,6 +6650,7 @@ pixelmon.config.battleAIBoss.comment=Le type d'IA à utiliser pour les combats d
 pixelmon.config.battleAITrainer.comment=Le type d'IA à utiliser pour les combats de PNJ.
 pixelmon.config.expModifier.comment=Multiplieur de l'expérience gagnée en combat Pokémon.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Autorise chaque joueur à prendre plusieurs photos du même Pokémon.
+pixelmon.config.allowPayDayMoney.comment=Autorise Jackpot à récompenser en PokéDollars lors de l'utilisation.
 
 pixelmon.config.spawnDimensions.comment=Liste de dimensions dans lesquelles les Pokémon pourront apparaître.
 pixelmon.config.shinySpawnRate.comment=Le calcul de Shiny utilise 1/Ratio Shiny pour obtenir une chance d'avoir un Shiny.
@@ -6599,6 +6664,7 @@ pixelmon.config.displayLegendaryGlobalMessage.comment=Affiche une annonce dans t
 pixelmon.config.replaceMCVillagers.comment=Remplace les villageois de base par des PNJ Pixelmon.
 pixelmon.config.spawnPokeMarts.comment=Les Poké Marchés apparaissent avec un marchands dans les villages de Minecraft.
 pixelmon.config.increaseVillageSpawnRate.comment=Augmente le ratio de spawn de villages Minecraft de 100%.
+pixelmon.config.useRecentLevelMoves.comment=Si actif, les Pokémon apparaîtront avec leurs capacités les plus récentes de leur table des capacités. Sinon, les Pokémon apparaîtront avec des capacités aléatoire du niveau de leur table des capacités.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
@@ -6647,6 +6713,7 @@ pixelmon.config.allowExternalMoves.comment=Autorise l'utilisation de compétence
 pixelmon.config.saveToExternalDatabase.comment=Enable this to change the save system over to a database specified in the connection string property. Only H2 and MySQL currently supported.
 pixelmon.config.connectionString.comment=Put the connection string for the external database in the form jdbc:dbtype://...
 
+pixelmon.config.removeVanillaMusic.comment=Désactiver la musique de Minecraft et jouer uniquement la musique de Pixelmon en jeu.
 pixelmon.config.minMusicDelay.comment=Nombre minimum de ticks avant qu'un nouveau morceau ne commence.
 pixelmon.config.maxMusicDelay.comment=Nombre maximum de ticks avant qu'un nouveau morceau ne commence.
 

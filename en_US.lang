@@ -869,16 +869,16 @@ item.DuskstoneBoots.name=Dusk Stone Boots
 item.PicketFence.name=Picket Fence
 item.pokeGift.name=Poké Gift
 
-item.record.asmbts.desc=A simple moment by the sea
-item.record.atd.desc=Across the desert
-item.record.ds.desc=Distant shores
-item.record.fptp.desc=From peak to peak
-item.record.jtts.desc=Journey to the sky
+item.record.asmbts.desc=A Simple Moment by the Sea
+item.record.atd.desc=Across the Desert
+item.record.ds.desc=Distant Shores
+item.record.fptp.desc=From Peak to Peak
+item.record.jtts.desc=Journey to the Sky
 item.record.nf.desc=Nightfall
-item.record.otwoa.desc=On the wings of adventure
-item.record.pw.desc=Pixelmon waltz
-item.record.tef.desc=The enchanted forest
-item.record.tfl.desc=The frozen land
+item.record.otwoa.desc=On the Wings of Adventure
+item.record.pw.desc=Pixelmon Waltz
+item.record.tef.desc=The Enchanted Forest
+item.record.tfl.desc=The Frozen Land
 
 BrailleBlock.A.name=Braille Block A
 BrailleBlock.B.name=Braille Block B
@@ -909,6 +909,19 @@ BrailleBlock.Z.name=Braille Block Z
 BrailleBlock...name=Braille Block .
 BrailleBlock.,.name=Braille Block ,
 BrailleBlock._.name=Braille Block _
+BrailleBlock2.Q.name=Braille Block Q
+BrailleBlock2.R.name=Braille Block R
+BrailleBlock2.S.name=Braille Block S
+BrailleBlock2.T.name=Braille Block T
+BrailleBlock2.U.name=Braille Block U
+BrailleBlock2.V.name=Braille Block V
+BrailleBlock2.W.name=Braille Block W
+BrailleBlock2.X.name=Braille Block X
+BrailleBlock2.Y.name=Braille Block Y
+BrailleBlock2.Z.name=Braille Block Z
+BrailleBlock2...name=Braille Block .
+BrailleBlock2.,.name=Braille Block ,
+BrailleBlock2._.name=Braille Block _
 
 itemGroup.tabPokeLoot=PokéLoot
 itemGroup.Pokeballs=Poké Balls
@@ -3389,6 +3402,8 @@ pixelmon.command.breed.nullslot=There is no Pokémon in slot %s!
 pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 pixelmon.command.endbattle.notinbattle=%s is not in a battle.
 pixelmon.command.endbattle.endbattle=Battle ended successfully.
+pixelmon.command.endbattle.permissionself=You don't have permission to end your battle.
+pixelmon.command.endbattle.permissionother=You don't have permission to end someone else's battle.
 pixelmon.command.freeze.frozen=Pokémon are frozen in place!
 pixelmon.command.freeze.unfrozen=Pokémon are unfrozen!
 pixelmon.command.general.cheater=Cheater!
@@ -3432,9 +3447,13 @@ pixelmon.command.transfer.notenoughmoney=Not enough money to complete transfer.
 pixelmon.command.transfer.sameplayer=You cannot send money to yourself!
 pixelmon.command.transfer.transferred=Successfully transferred %s PokéDollars to %s!
 pixelmon.command.transfer.notifytransfer=%s successfully transferred %s PokéDollars to %s!
+pixelmon.command.transfer.received=%s successfully transferred %s PokéDollars to you!
 pixelmon.command.givemoney.given=Successfully added %s PokéDollars to %s's balance!
 pixelmon.command.givemoney.notifygive=%s successfully added %s PokéDollars to %s's balance!
-pixelmon.command.trainerhat.invalidcolour=Invalid colours entered for hat.  Should be r g b from 0-255
+pixelmon.command.givemoney.received=%s successfully added %s PokéDollars to your balance!
+pixelmon.command.givemoney.moneylimit=%s cannot hold any more PokéDollars!
+pixelmon.command.givemoney.nomoney=%s has no PokéDollars to take away!
+pixelmon.command.trainerhat.invalidcolour=Invalid colors entered for hat. Should be red/green/blue from 0-255.
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -3621,6 +3640,8 @@ pixelmon.blocks.tree.change1=The tree is now using design #1.
 pixelmon.blocks.tree.change2=The tree is now using design #2.
 pixelmon.blocks.tree.change3=The tree is now using design #3.
 pixelmon.blocks.tree.change4=The tree is now using design #4.
+
+pixelmon.blocks.movepad.loopbuilderror=Infinite loops of movement plates are not allowed!
 
 pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
@@ -4401,13 +4422,11 @@ battlecontroller.sendout=%s sent out %s!
 battlecontroller.switch=Choose a new Pokémon to send out!
 battlecontroller.targets=Choose the target for $a.
 battlecontroller.win=You've won the battle!
-
-battlecontroller.afk=%s has gone AFK for %d seconds. Auto-battler taking turns every %d seconds!
-battlecontroller.selfafk=You have gone AFK for %d seconds. Auto-battler will take your turns every %d seconds!
-battlecontroller.afkback=%s is no longer AFK. Auto-battler disengaged!
-battlecontroller.selfafkback=You are no longer AFK. Auto-battler disengaged!
-
-battleController.recievedDamage=%s received %d damage from %s!
+battlecontroller.afktimer=Turn timer: 
+battlecontroller.forfeitask=Do you want to forfeit the battle?
+battlecontroller.forfeit=%s forfeited the battle!
+battlecontroller.forfeitself=You forfeited the battle.
+battlecontroller.draw=The battle has been declared a draw.
 
 type.normal=Normal
 type.fire=Fire
@@ -5442,6 +5461,7 @@ pixelmon.config.displayLegendaryGlobalMessage=Display Legendary global message
 pixelmon.config.replaceMCVillagers=Replace Minecraft villagers
 pixelmon.config.spawnPokeMarts=Spawn shopkeepers
 pixelmon.config.increaseVillageSpawnRate=Increase village spawn rate
+pixelmon.config.useRecentLevelMoves=Spawn with recent moves
 
 pixelmon.config.Gen1=Generation 1
 pixelmon.config.Gen2=Generation 2
@@ -5449,6 +5469,7 @@ pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
 
+pixelmon.config.removeVanillaMusic=Remove vanilla music
 pixelmon.config.minMusicDelay=Minimum music delay
 pixelmon.config.maxMusicDelay=Maximum music delay
 
@@ -5526,6 +5547,8 @@ pixelmon.config.battleAIBoss=Boss Pokémon battle AI
 pixelmon.config.battleAITrainer=NPC Trainer battle AI
 pixelmon.config.expModifier=Experience modifier
 pixelmon.config.multiplePhotosOfSamePokemon=Allow duplicate Pokémon photos
+pixelmon.config.allowPayDayMoney=Allow Pay Day money
+pixelmon.config.pickupRate=Pickup rate
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
@@ -5618,6 +5641,8 @@ pixelmon.config.battleAIBoss.comment=The type of AI to use for boss Pokemon in b
 pixelmon.config.battleAITrainer.comment=The type of AI to use for NPC Trainers in battle.
 pixelmon.config.expModifier.comment=Multiplier for experience gained in Pokemon battles.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Allow each player to take multiple photos of the same Pokémon.
+pixelmon.config.allowPayDayMoney.comment=Allow Pay Day to award PokéDollars when used.
+pixelmon.config.pickupRate.comment=Chance of the Pickup Ability picking up an item after a battle (1/rate). 0 disables this.
 
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
@@ -5631,6 +5656,7 @@ pixelmon.config.displayLegendaryGlobalMessage.comment=Displays server-wide annou
 pixelmon.config.replaceMCVillagers.comment=Replaces Minecraft's villagers with Pixelmon NPCs.
 pixelmon.config.spawnPokeMarts.comment=Poke Marts will spawn with shopkeepers in Minecraft's towns.
 pixelmon.config.increaseVillageSpawnRate.comment=Increase the Minecraft village spawn rate by 100%.
+pixelmon.config.useRecentLevelMoves.comment=If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
 
 pixelmon.config.Gen1.comment=Pokedex 1-151
 pixelmon.config.Gen2.comment=Pokedex 152-251
@@ -5679,6 +5705,7 @@ pixelmon.config.allowExternalMoves.comment=Allows the use of external moves such
 pixelmon.config.saveToExternalDatabase.comment=Enable this to change the save system over to a database specified in the connection string property. Only H2 and MySQL currently supported.
 pixelmon.config.connectionString.comment=Put the connection string for the external database in the form jdbc:dbtype://...
 
+pixelmon.config.removeVanillaMusic.comment=Whether to remove Minecraft music and only play Pixelmon music in-game.
 pixelmon.config.minMusicDelay.comment=Minimum number of world ticks before a new music track will start.
 pixelmon.config.maxMusicDelay.comment=Maximum number of world ticks before a new music track will start.
 
