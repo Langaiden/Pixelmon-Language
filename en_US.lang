@@ -5453,7 +5453,6 @@ pixelmon.config.spawnTickRate=Spawn Ticks
 pixelmon.config.spawnDimensions=Dimensions to spawn in
 pixelmon.config.shinySpawnRate=Shiny spawn rate (1/x)
 pixelmon.config.bossSpawnRate=Boss spawn rate (1/x)
-pixelmon.config.pokemonSpawnTicks=Pokemon spawn ticks
 pixelmon.config.legendarySpawnTicks=Legendary spawn ticks
 pixelmon.config.legendaryRepeatSpawnTicks=Legendary repeat spawn ticks
 pixelmon.config.legendarySpawnChance=Legendary spawn chance
@@ -5470,6 +5469,13 @@ pixelmon.config.Gen2=Generation 2
 pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
+
+pixelmon.config.maxLandPokemon=Max land Pokémon
+pixelmon.config.maxUndergroundPokemon=Max underground Pokémon
+pixelmon.config.maxWaterPokemon=Max water Pokémon
+pixelmon.config.maxFlyingPokemon=Max flying Pokémon
+pixelmon.config.maxNumNPCs=Max num NPCs
+pixelmon.config.despawnOnFleeOrLoss=Despawn on flee or loss
 
 pixelmon.config.removeVanillaMusic=Remove vanilla music
 pixelmon.config.minMusicDelay=Minimum music delay
@@ -5499,7 +5505,7 @@ pixelmon.config.useSmoothShadingOnPokeBalls=Smooth shading on Poké Balls
 pixelmon.config.useSmoothShadingOnPokemon=Smooth shading on Pokémon
 pixelmon.config.useOriginalPokemonTexturesForStatues=Statues use original textures
 pixelmon.config.showCurrentAttackTarget=Show current attack target
-pixelmon.config.drawHealthBars=Draw Pokémon health bars 
+pixelmon.config.drawHealthBars=Draw Pokémon health bars
 
 pixelmon.config.awardPhotos=Award photos to wild battle winners
 pixelmon.config.wildCanFlee=Allow wild Pokémon to flee
@@ -5647,7 +5653,6 @@ pixelmon.config.spawnTickRate.comment=Number of ticks before an attempt to spawn
 pixelmon.config.spawnDimensions.comment=List of dimensions that Pokemon will spawn in.
 pixelmon.config.shinySpawnRate.comment=Shiny calculation uses 1/(Shiny rate) to get odds of becoming Shiny.
 pixelmon.config.bossSpawnRate.comment=Chance of a group of wild Pokemon containing a boss Pokemon (1/rate). 0 disables boss spawns.
-pixelmon.config.pokemonSpawnTicks.comment=Spawn tick interval for attempting to spawn Pokemon.
 pixelmon.config.legendarySpawnTicks.comment=Average number of ticks before an attempt at Legendary spawning will be made (modified by spawn chance).
 pixelmon.config.legendaryRepeatSpawnTicks.comment=Minimum number of ticks before a particular legendary can spawn again (via main spawner).
 pixelmon.config.legendarySpawnChance.comment=Chance that a Legendary spawn attempt will succeed (0-1).
@@ -5669,7 +5674,7 @@ pixelmon.config.maxLandPokemon.comment=Max number of land Pokemon at one time.
 pixelmon.config.maxUndergroundPokemon.comment=Max number of underground Pokemon at one time.
 pixelmon.config.maxWaterPokemon.comment=Max number of water Pokemon at one time.
 pixelmon.config.maxFlyingPokemon.comment=Max number of flying Pokemon at one time (keep this low).
-pixelmon.config.maxNPCs.comment=Max number of NPCs at one time.
+pixelmon.config.maxNumNPCs.comment=Max number of NPCs at one time.
 pixelmon.config.despawnOnFleeOrLoss.comment=Forces wild Pokemon to despawn after a battle.
 
 pixelmon.config.spawnNormal.comment=Allows normal visible PokeChests to spawn around the world randomly.
@@ -5689,7 +5694,7 @@ pixelmon.config.useSmoothShadingOnPokeBalls.comment=Use the SMD normal maps for 
 pixelmon.config.useSmoothShadingOnPokemon.comment=Use the SMD normal maps for shading Pokemon.
 pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Use the original Pokemon textures for statues.
 pixelmon.config.showCurrentAttackTarget.comment=Display the currently selected Pokemon's attack target on the screen.
-pixelmon.config.drawHealthBars.comment=Show each Pokemon's health in a bar above their head.
+pixelmon.config.drawHealthBars.comment=Show each Pokemon's health in a bar above their heads.
 
 pixelmon.config.allowBreeding.comment=Allows the placement of ranch blocks, which are required for breeding Pokemon.
 pixelmon.config.allowDittoDittoBreeding.comment=Allows two Ditto to breed together to produce Eggs with random Pokémon inside.
