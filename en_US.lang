@@ -5471,6 +5471,13 @@ pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
 
+pixelmon.config.maxLandPokemon=Max land Pokémon
+pixelmon.config.maxUndergroundPokemon=Max underground Pokémon
+pixelmon.config.maxWaterPokemon=Max water Pokémon
+pixelmon.config.maxFlyingPokemon=Max flying Pokémon
+pixelmon.config.maxNumNPCs=Max num NPCs
+pixelmon.config.despawnOnFleeOrLoss=Despawn on flee or loss
+
 pixelmon.config.removeVanillaMusic=Remove vanilla music
 pixelmon.config.minMusicDelay=Minimum music delay
 pixelmon.config.maxMusicDelay=Maximum music delay
@@ -5499,7 +5506,7 @@ pixelmon.config.useSmoothShadingOnPokeBalls=Smooth shading on Poké Balls
 pixelmon.config.useSmoothShadingOnPokemon=Smooth shading on Pokémon
 pixelmon.config.useOriginalPokemonTexturesForStatues=Statues use original textures
 pixelmon.config.showCurrentAttackTarget=Show current attack target
-pixelmon.config.drawHealthBars=Draw Pokémon health bars 
+pixelmon.config.drawHealthBars=Draw Pokémon health bars
 
 pixelmon.config.awardPhotos=Award photos to wild battle winners
 pixelmon.config.wildCanFlee=Allow wild Pokémon to flee
@@ -5668,7 +5675,7 @@ pixelmon.config.maxLandPokemon.comment=Max number of land Pokemon at one time.
 pixelmon.config.maxUndergroundPokemon.comment=Max number of underground Pokemon at one time.
 pixelmon.config.maxWaterPokemon.comment=Max number of water Pokemon at one time.
 pixelmon.config.maxFlyingPokemon.comment=Max number of flying Pokemon at one time (keep this low).
-pixelmon.config.maxNPCs.comment=Max number of NPCs at one time.
+pixelmon.config.maxNumNPCs.comment=Max number of NPCs at one time.
 pixelmon.config.despawnOnFleeOrLoss.comment=Forces wild Pokemon to despawn after a battle.
 
 pixelmon.config.spawnNormal.comment=Allows normal visible PokeChests to spawn around the world randomly.
@@ -5688,7 +5695,7 @@ pixelmon.config.useSmoothShadingOnPokeBalls.comment=Use the SMD normal maps for 
 pixelmon.config.useSmoothShadingOnPokemon.comment=Use the SMD normal maps for shading Pokemon.
 pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Use the original Pokemon textures for statues.
 pixelmon.config.showCurrentAttackTarget.comment=Display the currently selected Pokemon's attack target on the screen.
-pixelmon.config.drawHealthBars.comment=Show each Pokemon's health in a bar above their head.
+pixelmon.config.drawHealthBars.comment=Show each Pokemon's health in a bar above their heads.
 
 pixelmon.config.allowBreeding.comment=Allows the placement of ranch blocks, which are required for breeding Pokemon.
 pixelmon.config.allowDittoDittoBreeding.comment=Allows two Ditto to breed together to produce Eggs with random Pokémon inside.
