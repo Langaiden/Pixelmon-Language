@@ -3524,8 +3524,8 @@ pixelmon.pokeballs.otherspokemon=You can't catch other people's Pokémon!
 pixelmon.pokeballs.statue=You can't catch a statue Pokémon!
 
 //Storage
-pixelmon.storage.compfull=You have no space left in your computer!
-pixelmon.storage.partyfull=Your party is full. %s was sent to your computer!
+pixelmon.storage.compfull=You have no space left in your PC!
+pixelmon.storage.partyfull=Your party is full. %s was sent to your PC!
 
 //Held Items
 pixelmon.helditems.healedstatus=%s's status was healed!
@@ -5486,7 +5486,7 @@ pixelmon.config.allowTrainerExperience=Enable Trainer exp.
 pixelmon.config.returnHeldItems=Return held items after PvP battles
 pixelmon.config.forceEndBattleResult=Force-end battle result
 pixelmon.config.engagePlayerByPokeBall=Enable challenge by throwing Poké Ball
-pixelmon.config.computerBoxes=Amount of computer boxes
+pixelmon.config.computerBoxes=Amount of PC boxes
 pixelmon.config.enableWildAggression=Enable aggressive wild Pokémon
 pixelmon.config.allowRareCandyCrafting=Enable Rare Candy crafting
 pixelmon.config.allowTMReuse=Allow TM reuse
