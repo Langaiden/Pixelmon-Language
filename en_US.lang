@@ -1,6 +1,4 @@
 /*
-*   @Author AnDwHaT5
-*
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
 *   reference, but it's VERY straightforward. To translate the mod
@@ -3512,7 +3510,8 @@ pixelmon.entitytrainer.superrod=You received a Super Rod!
 pixelmon.entitytrainer.onceday=This Trainer can only be battled once a day.
 pixelmon.entitytrainer.oncemcday=This Trainer can only be battled once a Minecraft day.
 pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each player.
-pixelmon.entitytrainer.level=Lv: pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
+pixelmon.entitytrainer.level=Lv:
+pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
 
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
