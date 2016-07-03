@@ -5666,7 +5666,7 @@ pixelmon.config.replaceMCVillagers.comment=Replaces Minecraft's villagers with P
 pixelmon.config.spawnPokeMarts.comment=Poke Marts will spawn with shopkeepers in Minecraft's towns.
 pixelmon.config.increaseVillageSpawnRate.comment=Increase the Minecraft village spawn rate by 100%.
 pixelmon.config.useRecentLevelMoves.comment=If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
-pixelmon.config.spawnGyms.comment=Spawn Gyms with villages.
+pixelmon.config.spawnGyms.comment=Sets spawning of Gyms in close proximity to newly generated towns on or off.
 
 pixelmon.config.Gen1.comment=Pokedex 1-151
 pixelmon.config.Gen2.comment=Pokedex 152-251
