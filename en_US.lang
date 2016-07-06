@@ -1,6 +1,4 @@
 /*
-*   @Author AnDwHaT5
-*
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
 *   reference, but it's VERY straightforward. To translate the mod
@@ -3512,7 +3510,8 @@ pixelmon.entitytrainer.superrod=You received a Super Rod!
 pixelmon.entitytrainer.onceday=This Trainer can only be battled once a day.
 pixelmon.entitytrainer.oncemcday=This Trainer can only be battled once a Minecraft day.
 pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each player.
-pixelmon.entitytrainer.level=Lv: pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
+pixelmon.entitytrainer.level=Lv:
+pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
 
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
@@ -5464,6 +5463,7 @@ pixelmon.config.replaceMCVillagers=Replace Minecraft villagers
 pixelmon.config.spawnPokeMarts=Spawn shopkeepers
 pixelmon.config.increaseVillageSpawnRate=Increase village spawn rate
 pixelmon.config.useRecentLevelMoves=Spawn with recent moves
+pixelmon.config.spawnGyms=Spawn gyms
 
 pixelmon.config.Gen1=Generation 1
 pixelmon.config.Gen2=Generation 2
@@ -5664,6 +5664,7 @@ pixelmon.config.replaceMCVillagers.comment=Replaces Minecraft's villagers with P
 pixelmon.config.spawnPokeMarts.comment=Poke Marts will spawn with shopkeepers in Minecraft's towns.
 pixelmon.config.increaseVillageSpawnRate.comment=Increase the Minecraft village spawn rate by 100%.
 pixelmon.config.useRecentLevelMoves.comment=If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
+pixelmon.config.spawnGyms.comment=Sets Spawning of gyms in close proximity to newly generated towns on or off
 
 pixelmon.config.Gen1.comment=Pokedex 1-151
 pixelmon.config.Gen2.comment=Pokedex 152-251
