@@ -13,8 +13,6 @@
 *************************************************/
 
 /*
-*   @Author AnDwHaT5
-*
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
 *   reference, but it's VERY straightforward. To translate the mod
@@ -4666,8 +4664,9 @@ gui.update.text=Actualizar
 gui.label.text=Mote
 gui.save.text=Guardar
 gui.texture.text=Textura
-gui.description.text=Descripción
 gui.cancel.text=Cancelar
+gui.description.text=Descripción
+gui.boss.text=Jefe:
 
 gui.mail.seal=Firmar carta
 gui.mail.close=Cerrar carta
@@ -4681,6 +4680,7 @@ gui.shopkeeper.price=Precio
 gui.shopkeeper.quantity=Cantidad
 gui.shopkeeper.buy=Comprar
 gui.shopkeeper.sell=Vender
+gui.shopkeeper.name=Vendedor
 
 gui.shopkeepereditor.refreshItems=Actualizar Objetos
 
@@ -6036,6 +6036,7 @@ pixelmon.config.spawning.tooltip=Ajustes de Aparición
 pixelmon.config.starter=Inicial
 pixelmon.config.starter.tooltip=Ajustes de Iniciales
 
+pixelmon.config.spawnTickRate=Ticks de Aparición
 pixelmon.config.spawnDimensions=Dimensiones de aparición
 pixelmon.config.shinySpawnRate=Prob. de aparición de Shinies (1/x)
 pixelmon.config.bossSpawnRate=Prob. de aparición de Jefes (1/x)
@@ -6043,18 +6044,26 @@ pixelmon.config.legendarySpawnTicks=Ticks en Legendarios
 pixelmon.config.legendaryRepeatSpawnTicks=Repetir ticks en Legendarios
 pixelmon.config.legendarySpawnChance=Prob. de aparición de Legendarios
 pixelmon.config.hiddenAbilitySpawnRate=Prob. de Habilidad Oculta
-pixelmon.config.allowLegendarySpawn=Permitir Legendarios
+pixelmon.config.allowLegendarySpawn=Aparición de Legendarios
 pixelmon.config.displayLegendaryGlobalMessage=Mostrar mensaje global de Legendarios
 pixelmon.config.replaceMCVillagers=Remplazar aldeanos de Minecraft
-pixelmon.config.spawnPokeMarts=Permitir Tiendas
+pixelmon.config.spawnPokeMarts=Aparición de Tiendas
 pixelmon.config.increaseVillageSpawnRate=Incrementar tasa de aparición de las Aldeas
-pixelmon.config.useRecentLevelMoves=Aparecer con ataques actuales
+pixelmon.config.useRecentLevelMoves=Aparición con ataques recientes
+pixelmon.config.spawnGyms=Aparición de Gimnasios
 
 pixelmon.config.Gen1=Generación 1
 pixelmon.config.Gen2=Generación 2
 pixelmon.config.Gen3=Generación 3
 pixelmon.config.Gen4=Generación 4
 pixelmon.config.Gen5=Generación 5
+
+pixelmon.config.maxLandPokemon=Máx. Pokémon en tierra
+pixelmon.config.maxUndergroundPokemon=Máx. Pokémon bajo tierra
+pixelmon.config.maxWaterPokemon=Máx. Pokémon en el agua
+pixelmon.config.maxFlyingPokemon=Máx. Pokémon en vuelo
+pixelmon.config.maxNumNPCs=Máx. núm. de NPCs
+pixelmon.config.despawnOnFleeOrLoss=Desaparecer al escapar o perder
 
 pixelmon.config.removeVanillaMusic=Quitar Música por defecto
 pixelmon.config.minMusicDelay=Tiempo Mínimo de Música
@@ -6082,8 +6091,9 @@ pixelmon.config.eventCoords=Coordenadas de aparición del Evento Poké Regalo
 pixelmon.config.lowResTextures=Modo Patata
 pixelmon.config.useSmoothShadingOnPokeBalls=Sombreado suave en las Poké Balls
 pixelmon.config.useSmoothShadingOnPokemon=Sombreado suave en los Pokémon
-pixelmon.config.useOriginalPokemonTexturesForStatues=Usar texturas originales en estatuas
+pixelmon.config.useOriginalPokemonTexturesForStatues=Usar texturas originales de las estatuas
 pixelmon.config.showCurrentAttackTarget=Mostrar el objetivo actual
+pixelmon.config.drawHealthBars=Dibujar barras de salud de los Pokémon
 
 pixelmon.config.awardPhotos=Premiar con fotos al ganar combates salvajes
 pixelmon.config.wildCanFlee=Permitir escapar a los Pokémon salvajes
@@ -6125,9 +6135,7 @@ pixelmon.config.enablePointToSteer=Activar punto de manejo
 pixelmon.config.useSystemTimeForWorldTime=Usar sistema horario real
 pixelmon.config.systemTimeSyncInterval=Tiempo de sincronización
 pixelmon.config.enablePokedexWikiWebsiteOpen=Permitir a la Pokédex abrir la wiki
-pixelmon.config.useExternalNPCFiles=Usar archivos de NPC externos
-pixelmon.config.useExternalStructureFiles=Usar archivos externos de estructuras
-pixelmon.config.useExternalDropFiles=Usar archivos externos de drop
+pixelmon.config.useExternalJSONFiles=Usar archivos externos JSON
 pixelmon.config.chunkSpawnRadius=Distancia de chunks Pókemon
 pixelmon.config.battleAIWild=Pokémon salvajes (IA de Combate)
 pixelmon.config.battleAIBoss=Jefes Pokémon (IA de Combate)
@@ -6136,6 +6144,7 @@ pixelmon.config.expModifier=Modificador de Experiencia
 pixelmon.config.multiplePhotosOfSamePokemon=Permite sacar varias fotos del mismo Pokémon
 pixelmon.config.allowPayDayMoney=Activar dinero con Día de Pago
 pixelmon.config.pickupRate=Tasa de Recogida
+pixelmon.config.bedsHealPokemon=Dormir cura a los Pokémon
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
 pixelmon.config.afkActivateSeconds=Segundos estando AFK
@@ -6218,9 +6227,7 @@ pixelmon.config.enablePointToSteer.comment=Cuando estás montado, permite dirigi
 pixelmon.config.useSystemTimeForWorldTime.comment=Tu mundo seguirá, o no, el tiempo del mundo real (utiliza el reloj del sistema del servidor).
 pixelmon.config.systemTimeSyncInterval.comment=Tiempo que deberá pasar para sincronizar el reloj del sistema (en segundos).
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Permite a la Pokédex abrir páginas de la wiki. Desactivalo si no quieres abrir la wiki desde Pixelmon.
-pixelmon.config.useExternalNPCFiles.comment=Carga archivos externos de NPCs en la carpeta "npcs". Si está activado y la carpeta "npcs" no existe, Pixelmon creará la carpeta y cargará los archivos existentes.
-pixelmon.config.useExternalDropFiles.comment=Carga archivos externos de drops en la carpeta "drops". Si está activado y la carpeta "drops" no existe, Pixelmon creará la carpeta y cargará los archivos existentes.
-pixelmon.config.useExternalStructureFiles.comment=Carga archivos de estructuras externos en la carpeta "structures". Si está activado y la carpeta "structures" no existe, Pixelmon creará la carpeta y cargará los archivos existentes.
+pixelmon.config.useExternalJSONFiles.comment=Carga archivos de configuración externos de la carpeta "pixelmon". Si está activado y la carpeta "pixelmon" no existe, Pixelmon creará la carpeta y cargará los archivos existentes.
 pixelmon.config.chunkSpawnRadius.comment=El radio de chunks alrededor del jugador en que los Pokémon pueden aparecer.
 pixelmon.config.battleAIDescription=1: Utiliza ataques aleatoriamente. 2: Utiliza ataques con mayor daño posible (en función del tipo), ignorando movs. de estado. 3: Usa ataques ofensivos y de estado. 4: Usa ataques inteligentemente y cambia cuando sea conveniente.
 pixelmon.config.battleAIWild.comment=El tipo de IA que usarán los Pokémon salvajes durante un combate.
@@ -6230,7 +6237,9 @@ pixelmon.config.expModifier.comment=Multiplicador de la experiencia conseguida e
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Permite que cada jugador pueda sacar varias fotos al mismo Pokémon.
 pixelmon.config.allowPayDayMoney.comment=Hace que Día de Pago dé Pokédolares cuando se usa.
 pixelmon.config.pickupRate.comment=Probabilidad de que la Habilidad Recogida recoga un objeto después de un combate (1/tasa). El valor 0 lo desactiva.
+pixelmon.config.bedsHealPokemon.comment=Si al dormir en camas cura los Pokémon del jugador.
 
+pixelmon.config.spawnTickRate.comment=Número de ticks antes de que se produzca un intento de hacer aparecer entiedades.
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
 pixelmon.config.shinySpawnRate.comment=El calculo Shiny utiliza 1/(tasa de Shiny) para obtener la probabilidad de ser Shiny.
 pixelmon.config.bossSpawnRate.comment=Probabilidad de que un grupo de Pokémon salvajes contenga un jefe (1/tasa). 0 no aparecerán jefes.
@@ -6239,11 +6248,12 @@ pixelmon.config.legendaryRepeatSpawnTicks.comment=Número mínimo de ticks antes
 pixelmon.config.legendarySpawnChance.comment=Probabilidad de que la aparición de un Legendario tendrá éxito (0-1).
 pixelmon.config.hiddenAbilitySpawnRate.comment=Probabilidad de que un Pokémon aparezca con Habilidad Oculta (1/tasa). 0 desactiva la Habilidad Oculta.
 pixelmon.config.allowLegendarySpawn.comment=Permite la aparición de Legendarios salvajes (a parte de determinados eventos).
-pixelmon.config.displayLegendaryGlobalMessage.comment=Muestra un anuncio en todo el servidor 'Un legendario ha aparecido en el bioma <nombre>' cuando aparece un legendario.
+pixelmon.config.displayLegendaryGlobalMessage.comment=Muestra un anuncio en todo el servidor 'Un legendario ha aparecido en el bioma <nombre>' cuando un legendario aparece.
 pixelmon.config.replaceMCVillagers.comment=Remplaza a los aldeanos de Minecraft por los NPCs de Pixelmon.
 pixelmon.config.spawnPokeMarts.comment=Las Tiendas Pokémon aparecerán con comerciantes en las aldeas de Minecraft.
 pixelmon.config.increaseVillageSpawnRate.comment=Incrementa la tasa de aparición de aldeas de Minecraft en un 100%.
 pixelmon.config.useRecentLevelMoves.comment=Si está activado, los Pokémon aparecerán con sus ataques más recientes de su lista de movimientos. Si está desactivado, los Pokémon aparecerán con ataques aleatorios de su lista de movimientos.
+pixelmon.config.spawnGyms.comment=Activa o desactiva la aparición de Gimnasios en las proximidades de nuevas aldeas generadas.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
@@ -6251,16 +6261,18 @@ pixelmon.config.Gen3.comment=Pokédex 252-386
 pixelmon.config.Gen4.comment=Pokédex 387-493
 pixelmon.config.Gen5.comment=Pokédex 494-649
 
-pixelmon.config.maxLandPokemon.comment=Máximo número de Pokémon sobre tierra al mismo tiempo.
-pixelmon.config.maxUndergroundPokemon.comment=Máximo número de Pokémon bajo tierra al mismo tiempo.
-pixelmon.config.maxWaterPokemon.comment=Máximo número de Pokémon en el agua al mismo tiempo.
-pixelmon.config.maxFlyingPokemon.comment=Máximo número de Pokemon en vuelo al mismo tiempo (es recomendado mantener valores bajos).
+pixelmon.config.maxLandPokemon.comment=Número máximo de Pokémon sobre tierra a la misma vez.
+pixelmon.config.maxUndergroundPokemon.comment=Número máximo de Pokémon bajo tierra a la misma vez.
+pixelmon.config.maxWaterPokemon.comment=Número máximo de Pokémon en el agua a la misma vez.
+pixelmon.config.maxFlyingPokemon.comment=Número máximo de Pokemon en vuelo a la misma vez (es recomendable no establecer altos valores).
+pixelmon.config.maxNumNPCs.comment=Número máximo de NPCs a la misma vez.
 pixelmon.config.despawnOnFleeOrLoss.comment=Obliga a los Pokémon salvajes a desaparecer después de un combate.
 
 pixelmon.config.spawnNormal.comment=Permite aparecer PokeCofres visibles aleatoriamente por todo el mundo.
 pixelmon.config.spawnHidden.comment=Permite aparecer PokeCofre invisibles aleatoriamente por todo el mundo.
 pixelmon.config.spawnGrotto.comment=Permite aparecer Grutas Ocultas en el mundo.
 pixelmon.config.spawnRate.comment=Tasa de aparición de cofres. 0: 1 por cada 64 chunks. 1: 1 por cada 32 chunks. 2: 1 por cada 18 chunks. 3: 1 por cada 10 chunks
+pixelmon.config.spawnMode.comment=Modo de aparición por defecto (PLPG=0, 1PPG=1, PI=2, TIEMPO=3). PLPG = Primero en Llegar Primero en Ganar, sólo un jugador podrá ganar el premio, después desaparece. 1PPG = 1 Premio por Jugador, el cofre otorga un premio por persona. El cofre permanece para que el resto pueda usarlo. PI = Premio Ilimitado, los cofre pueden usarse ilimitadamente por todos los jugadores. TIEMPO = Cada jugador puede ser premiado después de un intervalo de tiempo especificado (tiempo individual). El cofre permanecerá.
 pixelmon.config.timedLootReuseSeconds.comment=Fija el intervalo de tiempo en la que un jugador puede volver a usar un cofre (colocados en Creativo o aparición nautral) activando TIEMPO. Conversiones de tiempo: una hora = 3600 segundos, un día = 86400 segundos, una semana = 604800 segundos.
 
 pixelmon.config.enableAFKHandler.comment=La batalla automática se activará si el jugador está AFK durante el combate. Se activa después de un periodo de tiempo especificado, con un tiempo especificado para cada turno.
