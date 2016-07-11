@@ -224,6 +224,9 @@ item.PersimBerry.name=甜柿
 item.LumBerry.name=绿姆果
 item.SitrusBerry.name=香柚
 item.BerryJuice.name=树果汁
+item.JabocaBerry.name=嘉宝果
+item.RowapBerry.name=莲雾果
+item.GinemaBerry.name=洋葱果
 item.PumkinBerry.name=南瓜果
 item.DrashBerry.name=萝卜果
 item.EggantBerry.name=茄果
@@ -259,6 +262,8 @@ item.HabanBerry.name=番榴
 item.ColburBerry.name=刺球果
 item.BabiriBerry.name=霹雳果
 item.ChilanBerry.name=灯笼果
+item.MicleBerry.name=神秘果
+
 
 item.HealPowder.name=万能之粉
 item.EnergyPowder.name=元气之粉
@@ -898,6 +903,19 @@ BrailleBlock.Z.name=雕文方块 Z
 BrailleBlock...name=雕文方块 .
 BrailleBlock.,.name=雕文方块 ,
 BrailleBlock._.name=雕文方块 _
+BrailleBlock2.Q.name=雕文方块 Q
+BrailleBlock2.R.name=雕文方块 R
+BrailleBlock2.S.name=雕文方块 S
+BrailleBlock2.T.name=雕文方块 T
+BrailleBlock2.U.name=雕文方块 U
+BrailleBlock2.V.name=雕文方块 V
+BrailleBlock2.W.name=雕文方块 W
+BrailleBlock2.X.name=雕文方块 X
+BrailleBlock2.Y.name=雕文方块 Y
+BrailleBlock2.Z.name=雕文方块 Z
+BrailleBlock2...name=雕文方块 .
+BrailleBlock2.,.name=雕文方块 ,
+BrailleBlock2._.name=雕文方块 _
 item.EntityPixelmonPaintingItem.name=宝可梦绘画
 item.camera.name=照相机
 item.film.name=影片
@@ -3367,6 +3385,8 @@ pixelmon.command.breed.nullslot=没有精灵在背包位置 %s 上！
 pixelmon.command.copyToDB.disabled=保存数据到数据库设置没有在配置中启用！
 pixelmon.command.endbattle.notinbattle=%s 没有在对战中。
 pixelmon.command.endbattle.endbattle=对战圆满落幕。
+pixelmon.command.endbattle.permissionself=您没有权限去结束对战。
+pixelmon.command.endbattle.permissionother=您没有权限去结束他人的对战。
 pixelmon.command.freeze.frozen=Pixelmon Mod全部暂停
 pixelmon.command.freeze.unfrozen=Pixelmon Mod全部恢复
 pixelmon.command.general.cheater=作弊！
@@ -3408,8 +3428,12 @@ pixelmon.command.transfer.notenoughmoney=没有足够的资金来完成转让。
 pixelmon.command.transfer.sameplayer=你不能把钱给你自己！
 pixelmon.command.transfer.transferred=成功地转移 %s 宝可梦币给 %s！
 pixelmon.command.transfer.notifytransfer=%s 成功地转移 %s 宝可梦币给 %s！
+pixelmon.command.transfer.received=%s 成功转了 %s 宝可梦币给您！
 pixelmon.command.givemoney.given=成功添加 %s 宝可梦币到 %s 的账户！
 pixelmon.command.givemoney.notifygive=%s 成功添加 %s 宝可梦币到 %s 的账户！
+pixelmon.command.givemoney.received=%s 成功添加了 %s 宝可梦币到您的账户。
+pixelmon.command.givemoney.moneylimit=%s 无法持有更多的宝可梦币！
+pixelmon.command.givemoney.nomoney=%s 没有多余的宝可梦币给予他人！
 pixelmon.command.trainerhat.invalidcolour=无效的帽子颜色。R G B值应该在 0-255 范围内。
 
 //other
@@ -3468,6 +3492,7 @@ pixelmon.entitytrainer.onceday=这个训练师每天只能对战一次。
 pixelmon.entitytrainer.oncemcday=这个训练师Minecraft中每天只能对战一次。
 pixelmon.entitytrainer.onceplayer=这个训练师每个玩家只能对战一次。
 pixelmon.entitytrainer.level=Lv: 
+
 pixelmon.entitytrainer.winnings=您获得了 %s 宝可梦币因为击败了 %s！
 
 pixelmon.statue.despawn=宝可梦已被禁止生成
@@ -3612,6 +3637,9 @@ pixelmon.blocks.tree.change1=这棵树现在使用的形状 #1。
 pixelmon.blocks.tree.change2=这棵树现在使用的形状 #2。
 pixelmon.blocks.tree.change3=这棵树现在使用的形状 #3。
 pixelmon.blocks.tree.change4=这棵树现在使用的形状 #4。
+
+pixelmon.blocks.movepad.loopbuilderror=传送带无限循环是不被允许的！
+
 pixelmon.orb.amountfull=你需要 %d 的击杀数来填满宝珠！
 pixelmon.orb.isfull=您的珠满了！
 
@@ -4063,6 +4091,7 @@ gui.save.text=保存
 gui.texture.text=材质
 gui.cancel.text=取消
 gui.description.text=介绍
+gui.boss.text=Boss:
 
 gui.mail.seal=密封信函
 gui.mail.close=关闭信函
@@ -4076,6 +4105,7 @@ gui.shopkeeper.price=价格
 gui.shopkeeper.quantity=数量
 gui.shopkeeper.buy=购买
 gui.shopkeeper.sell=出售
+gui.shopkeeper.name=店员
 
 gui.shopkeepereditor.refreshItems=回复物品
 
@@ -4410,15 +4440,12 @@ battlecontroller.outofpokemon=您当前没有可以用于战斗的宝可梦了�
 battlecontroller.sendout=%s 放出了 %s！
 battlecontroller.switch=选择一个新的宝可梦放出！
 battlecontroller.targets=选择了 $a ！ 
-battlecontroller.win=你已经赢得了这场对战！
-
-
-battlecontroller.afk=%s 已经AFK了 %d 秒。 自动战斗已经接管训练师操作 %d 秒！
-battlecontroller.selfafk=您已经AFK了 %d 秒！自动战斗将接管您的操作 %d 秒！
-battlecontroller.afkback=%s 从AFK状态回来了！自动战斗已结束！
-battlecontroller.selfafkback=您从AFK状态回来了！自动战斗已将操作权交还给您！
-
-battleController.recievedDamage=%s 受到了 %d 来自 %s 的伤害
+battlecontroller.win=您已经赢得了这场对战！
+battlecontroller.afktimer=开启计时器: 
+battlecontroller.forfeitask=您想要取消这场对战吗？
+battlecontroller.forfeit=%s 取消了这场对战。
+battlecontroller.forfeitself=您取消了这场对战。
+battlecontroller.draw=这场对战已经被取消了。
 
 type.normal=普通系
 type.fire=火系
@@ -5436,6 +5463,7 @@ pixelmon.config.spawning.tooltip=生成设置
 pixelmon.config.starter=启动
 pixelmon.config.starter.tooltip=启动设置
 
+pixelmon.config.spawnTickRate=生成时间
 pixelmon.config.spawnDimensions=生成地点
 pixelmon.config.shinySpawnRate=闪光生成率 (1/x)
 pixelmon.config.bossSpawnRate=Boss生成率 (1/x)
@@ -5448,6 +5476,8 @@ pixelmon.config.displayLegendaryGlobalMessage=关闭神兽生成提示
 pixelmon.config.replaceMCVillagers=替换Minecraft村民
 pixelmon.config.spawnPokeMarts=生成商店
 pixelmon.config.increaseVillageSpawnRate=提高村庄生成率
+pixelmon.config.useRecentLevelMoves=生成技能回忆师
+pixelmon.config.spawnGyms=生成道馆
 
 pixelmon.config.Gen1=1世代
 pixelmon.config.Gen2=2世代
@@ -5455,6 +5485,14 @@ pixelmon.config.Gen3=3世代
 pixelmon.config.Gen4=4世代
 pixelmon.config.Gen5=5世代
 
+pixelmon.config.maxLandPokemon=最大陆地宝可梦数量
+pixelmon.config.maxUndergroundPokemon=最大地下宝可梦数量
+pixelmon.config.maxWaterPokemon=最大水中宝可梦数量
+pixelmon.config.maxFlyingPokemon=最大空中宝可梦数量
+pixelmon.config.maxNumNPCs=最大NPC数量
+pixelmon.config.despawnOnFleeOrLoss=在逃脱或失败时重生成。
+
+pixelmon.config.removeVanillaMusic=移除原版音乐
 pixelmon.config.minMusicDelay=最小音乐延迟
 pixelmon.config.maxMusicDelay=最大音乐延迟
 
@@ -5482,6 +5520,7 @@ pixelmon.config.useSmoothShadingOnPokeBalls=精灵球平滑阴影
 pixelmon.config.useSmoothShadingOnPokemon=宝可梦平滑阴影
 pixelmon.config.useOriginalPokemonTexturesForStatues=雕塑使用原始纹理
 pixelmon.config.showCurrentAttackTarget=显示当前的攻击目标
+pixelmon.config.drawHealthBars=绘制宝可梦血量方块
 
 pixelmon.config.awardPhotos=战胜野生宝可梦时奖励照片
 pixelmon.config.wildCanFlee=允许野生宝可梦逃跑
@@ -5523,9 +5562,7 @@ pixelmon.config.enablePointToSteer=启用引导点
 pixelmon.config.useSystemTimeForWorldTime=使用系统时间作为World时间
 pixelmon.config.systemTimeSyncInterval=以秒为单位同步间隔
 pixelmon.config.enablePokedexWikiWebsiteOpen=允许宝可梦图鉴打开WIKI
-pixelmon.config.useExternalNPCFiles=使用外界文件夹的NPC
-pixelmon.config.useExternalStructureFiles=使用外界文件夹的建筑
-pixelmon.config.useExternalDropFiles=使用外界文件夹的掉落物品
+pixelmon.config.useExternalJSONFiles=使用外部的JSON文件
 pixelmon.config.chunkSpawnRadius=宝可梦生成区块距离
 pixelmon.config.battleAIWild=野生宝可梦AI
 pixelmon.config.battleAIBoss=BOSS宝可梦AI
@@ -5533,6 +5570,8 @@ pixelmon.config.battleAITrainer=NPC训练师AI
 pixelmon.config.expModifier=经验修正
 
 pixelmon.config.multiplePhotosOfSamePokemon=允许精灵照片重复。
+pixelmon.config.allowPayDayMoney=允许聚宝功使用金钱。
+pixelmon.config.pickupRate=捡拾几率
 
 pixelmon.config.enableAFKHandler=启用AFK程序
 pixelmon.config.afkActivateSeconds=AFK激活秒数
@@ -5615,17 +5654,19 @@ pixelmon.config.enablePointToSteer.comment=在安装好时启用查看宝可梦�
 pixelmon.config.useSystemTimeForWorldTime.comment=是否让游戏使用现实时间(根据服务端运行的电脑的时间)。
 pixelmon.config.systemTimeSyncInterval.comment=将之前的时间同步为系统时间(以秒为单位)。
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=是否允许图鉴打开维基页面。
-pixelmon.config.useExternalDropFiles.comment=加载掉落物到外部"drops"文件夹。若设置为true并且不存在"drops"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
-pixelmon.config.useExternalNPCFiles.comment=加载NPC到外部"npcs"文件夹。若设置为true并且不存在"npcs"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
-pixelmon.config.useExternalStructureFiles.comment=加载建筑到外部"structures"文件夹。若设置为true并且不存在"structures"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
+pixelmon.config.useExternalJSONFiles.comment=从外部的"pixelmon"文件夹加载配置。若设置为true并且不存在"pixelmon"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
 pixelmon.config.chunkSpawnRadius.comment=玩家周围的生成宝可梦的半径。
 pixelmon.config.battleAIDescription=1:选择随机移动 2:选择最具破坏性的举动(伴随着巅峰状态),忽略自身状态的行为。3:选择攻防兼备的行为。4:选择智能行为。
 pixelmon.config.battleAIWild.comment=对战中野怪的AI类型。
 pixelmon.config.battleAIBoss.comment=对战中BOSS的AI类型。
 pixelmon.config.battleAITrainer.comment=对战中NPC训练师的AI类型。
-pixelmon.config.expModifier.comment=神奇宝贝对战获得的经验的倍数。
+pixelmon.config.expModifier.comment=宝可梦对战获得的经验的倍数。
 pixelmon.config.multiplePhotosOfSamePokemon.comment=允许玩家重复获得相同的精灵照片。
-pixelmon.config.spawnDimensions.comment=生成神奇宝贝的维度列表。
+pixelmon.config.pickupRate.comment=捡拾特性在战斗后获得道具的几率 (1/几率). 0 为禁用此功能。
+
+pixelmon.config.spawnTickRate.comment=生成宝可梦前允许的实体数目。
+pixelmon.config.allowPayDayMoney.comment=允许宝可梦币被聚宝功使用。
+pixelmon.config.spawnDimensions.comment=生成宝可梦的维度列表。
 pixelmon.config.shinySpawnRate.comment=通过闪光的几率1/X的(闪光率),来确定闪光率。
 pixelmon.config.bossSpawnRate.comment=BOSS的生成率,1/x的生成率,若设置为0则禁止BOSS生成。
 pixelmon.config.legendarySpawnTicks.comment=神兽的平均生成时间(随生成率改动)。
@@ -5637,6 +5678,8 @@ pixelmon.config.displayLegendaryGlobalMessage.comment=关闭公告'一只神兽�
 pixelmon.config.replaceMCVillagers.comment=是否替换村民为Pixelmon的NPC。
 pixelmon.config.spawnPokeMarts.comment=在Minecraft村庄里生成宝可梦商店。
 pixelmon.config.increaseVillageSpawnRate.comment=提高Minecraft村庄的生成率到100%
+pixelmon.config.useRecentLevelMoves.comment=如果为true将按照宝可梦最近一次升级时的招式来生成。若为false按照宝可梦随机选择升级时的技能来生成。
+pixelmon.config.spawnGyms.comment=设置是否关闭生成道馆周围的村子。
 
 pixelmon.config.Gen1.comment=宝可梦图鉴 1-151
 pixelmon.config.Gen2.comment=宝可梦图鉴 152-251
@@ -5647,7 +5690,8 @@ pixelmon.config.Gen5.comment=宝可梦图鉴 494-649
 pixelmon.config.maxLandPokemon.comment=陆地宝可梦最大数量。
 pixelmon.config.maxUndergroundPokemon.comment=地下宝可梦最大数量。
 pixelmon.config.maxWaterPokemon.comment=水中宝可梦最大数量。
-pixelmon.config.maxFlyingPokemon.comment天空中宝可梦最大数量(请保持此项数字很低,对服务器影响很大)。
+pixelmon.config.maxFlyingPokemon.comment=天空中宝可梦最大数量(请保持此项数字很低,对服务器影响很大)。
+pixelmon.config.maxNPCs.comment=同一时间内最大NPC数量。
 pixelmon.config.despawnOnFleeOrLoss.comment=强制野生宝可梦在对战后消失。
 
 pixelmon.config.spawnNormal.comment=允许普通的宝可梦奖励箱随机生成。
@@ -5667,6 +5711,7 @@ pixelmon.config.useSmoothShadingOnPokeBalls.comment=使用SMD的精灵球。
 pixelmon.config.useSmoothShadingOnPokemon.comment=使用SMD的宝可梦。
 pixelmon.config.useOriginalPokemonTexturesForStatues.comment=使用原始的宝可梦纹理。
 pixelmon.config.showCurrentAttackTarget.comment=在画面中显示当前宝可梦攻击的目标。
+pixelmon.config.drawHealthBars.comment=在宝可梦头上显示其血量方块。
 
 pixelmon.config.allowBreeding.comment=允许放置牧场方块，这是用于繁殖宝可梦的必要物品。
 pixelmon.config.allowDittoDittoBreeding.comment=允许两只百变怪生蛋随机产生宝可梦蛋。
