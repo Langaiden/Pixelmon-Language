@@ -1,5 +1,5 @@
 /*
-*	Latest translation 15/06/2016
+*	Latest translation 18/07/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -55,6 +55,7 @@ item.Aluminium Spade.name=Pelle en Aluminium
 item.Aluminium PickAxe.name=Pioche en Aluminium
 item.Aluminium Hoe.name=Houe en Aluminium
 item.Wailmer Pail.name=Seau Wailmer
+item.Pokemon Editor.name=Éditeur de Pokémon
 item.Trainer Editor.name=Éditeur de Dresseur
 item.Aluminium Sword.name=Épée en Aluminium
 item.Aluminium Helmet.name=Casque en Aluminium
@@ -281,6 +282,9 @@ item.HabanBerry.name=Baie Fraigo
 item.ColburBerry.name=Baie Lampou
 item.BabiriBerry.name=Baie Babiri
 item.ChilanBerry.name=Baie Zalis
+
+item.Berry Juice.name=Jus de Baie
+
 item.HealPowder.name=Poudre Soin
 item.EnergyPowder.name=Poudrénergie
 item.EnergyRoot.name=Racinénergie
@@ -353,9 +357,6 @@ item.Power Lens.name=Lentille Pouvoir
 item.Power Belt.name=Ceinture Pouvoir
 item.Power Band.name=Bandeau Pouvoir
 item.Power Anklet.name=Chaine Pouvoir
-item.Oran Berry.name=Baie Oran
-item.Rawst Berry.name=Baie Fraive
-item.Leppa Berry.name=Baie Mepo
 item.Soothe Bell.name=Grelot Zen
 item.Smoke Ball.name=Boule Fumée
 item.WideLens.name=Loupe
@@ -408,9 +409,6 @@ item.BigRoot.name=Grosseracine
 item.WiseGlasses.name=Lunettes Sages
 item.ZoomLens.name=Lentille Zoom
 item.BrightPowder.name=Poudre Claire
-item.GinemaBerry.name=Baie Ginema
-item.JabocaBerry.name=Baie Jaboca
-item.RowapBerry.name=Baie Pommo
 item.XAttack.name=Attaque +
 item.XDefence.name=Défense +
 item.XSpecialAttack.name=Attaque Spé +
@@ -907,7 +905,20 @@ BrailleBlock.Z.name=Bloc Braille Z
 BrailleBlock...name=Bloc Braille .
 BrailleBlock.,.name=Bloc Braille ,
 BrailleBlock._.name=Bloc Braille _
-
+BrailleBlock2.Q.name=Bloc Braille Q
+BrailleBlock2.R.name=Bloc Braille R
+BrailleBlock2.S.name=Bloc Braille S
+BrailleBlock2.T.name=Bloc Braille T
+BrailleBlock2.U.name=Bloc Braille U
+BrailleBlock2.V.name=Bloc Braille V
+BrailleBlock2.W.name=Bloc Braille W
+BrailleBlock2.X.name=Bloc Braille X
+BrailleBlock2.Y.name=Bloc Braille Y
+BrailleBlock2.Z.name=Bloc Braille Z
+BrailleBlock2...name=Bloc Braille .
+BrailleBlock2.,.name=Bloc Braille ,
+BrailleBlock2._.name=Bloc Braille _
+ 
 itemGroup.tabPokeLoot=PokéButin
 itemGroup.Pokeballs=Pokeballs
 itemGroup.Badges=Badges
@@ -5048,6 +5059,8 @@ gui.trainereditor.winningdrops=Gains de Victoire
 gui.trainereditor.randomise=Aléatoire
 gui.trainereditor.edit=Editer
 gui.trainereditor.add=Ajouter
+gui.trainereditor.deletepoke=Supprimer le Pokémon
+
 gui.trainereditor.deletelastpoke=Suppr. le dernier Pokemon
 gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur Pokemon
 gui.trainereditor.advancededitor=Éditeur de Dresseur - Éditeur Pokemon Avancé
@@ -5094,6 +5107,14 @@ gui.chooseNPC.relearner=Créer un Maître des Capacités
 gui.chooseNPC.tutor=Créer un Maître des Capacités
 gui.chooseNPC.nursejoy=Créer un Médecin
 gui.chooseNPC.shopkeeper=Créer un Vendeur
+
+gui.shopkeeper.json=Type
+
+gui.pokemoneditor.title=Édieur de Pokémon
+gui.pokemoneditor.pokeball=PokéBall
+gui.pokemoneditor.importexport=Importer/Exporter
+gui.pokemoneditor.import=Importer
+gui.pokemoneditor.export=Exporter
 
 gui.overlay1v1.lv=Lv. 
 
@@ -6472,6 +6493,7 @@ pixelmon.config.replaceMCVillagers=Remplacer les villageois de Minecraft
 pixelmon.config.spawnPokeMarts=Spawn de Marchands
 pixelmon.config.increaseVillageSpawnRate=Augmente le ratio de spawn de village
 pixelmon.config.useRecentLevelMoves=Apparaît avec des capacités de son niveau
+pixelmon.config.spawnGyms=Apparition d'Arènes
 
 pixelmon.config.Gen1=Génération 1
 pixelmon.config.Gen2=Génération 2
@@ -6557,12 +6579,14 @@ pixelmon.config.battleAIBoss=IA combat Pokémon Boss
 pixelmon.config.battleAITrainer=IA combat PNJ Dresseur
 pixelmon.config.expModifier=Modifieur d'expérience
 pixelmon.config.multiplePhotosOfSamePokemon=Autoriser plusieurs photos du même Pokémon
-pixelmon.config.allowPayDayMoney=Allow Pay Day money
+pixelmon.config.allowPayDayMoney=Jackpot génère de l'argent
+pixelmon.config.pickupRate=Ratio de Ramassage
+pixelmon.config.bedsHealPokemon=Dormir soigne les Pokémon
+pixelmon.config.useBattleCamera=Utiliser caméra de combat
 
 pixelmon.config.enableAFKHandler=Mode AFK actif
 pixelmon.config.afkActivateSeconds=Délai d'activation du mode AFK
 pixelmon.config.afkHandlerTurnSeconds=Temps entre chaque attaque du mode AFK
-pixelmon.config.allowPayDayMoney=Jackpot génère de l'argent
 
 pixelmon.config.allowBreeding=Autoriser la reproduction
 pixelmon.config.allowDittoDittoBreeding=Autoriser la reproduction entre Métarmorph
@@ -6651,6 +6675,9 @@ pixelmon.config.battleAITrainer.comment=Le type d'IA à utiliser pour les combat
 pixelmon.config.expModifier.comment=Multiplieur de l'expérience gagnée en combat Pokémon.
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Autorise chaque joueur à prendre plusieurs photos du même Pokémon.
 pixelmon.config.allowPayDayMoney.comment=Autorise Jackpot à récompenser en PokéDollars lors de l'utilisation.
+pixelmon.config.pickupRate.comment=Chance que le talent Ramassage se déclenche après un combat (1/ratio). 0 désactive ceci.
+pixelmon.config.bedsHealPokemon.comment=Dormir dans un lit soigne les Pokémon d'un joueur.
+pixelmon.config.useBattleCamera.comment=Définir si vous passez à une caméra externe lors des combats ou non.
 
 pixelmon.config.spawnDimensions.comment=Liste de dimensions dans lesquelles les Pokémon pourront apparaître.
 pixelmon.config.shinySpawnRate.comment=Le calcul de Shiny utilise 1/Ratio Shiny pour obtenir une chance d'avoir un Shiny.
@@ -6665,6 +6692,7 @@ pixelmon.config.replaceMCVillagers.comment=Remplace les villageois de base par d
 pixelmon.config.spawnPokeMarts.comment=Les Poké Marchés apparaissent avec un marchands dans les villages de Minecraft.
 pixelmon.config.increaseVillageSpawnRate.comment=Augmente le ratio de spawn de villages Minecraft de 100%.
 pixelmon.config.useRecentLevelMoves.comment=Si actif, les Pokémon apparaîtront avec leurs capacités les plus récentes de leur table des capacités. Sinon, les Pokémon apparaîtront avec des capacités aléatoire du niveau de leur table des capacités.
+pixelmon.config.spawnGyms.comment=Active ou désactive l'apparition d'Arènes à proximité des villages nouvellement générés.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
