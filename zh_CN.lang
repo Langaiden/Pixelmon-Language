@@ -33,6 +33,7 @@ item.Aluminium Spade.name=铝铲
 item.Aluminium PickAxe.name=铝镐
 item.Aluminium Hoe.name=铝锄头
 item.Wailmer Pail.name=吼吼鲸喷壶
+item.Pokemon Editor.name=宝可梦编辑器
 item.Trainer Editor.name=NPC编辑器
 item.Aluminium Sword.name=铝剑
 item.Aluminium Helmet.name=铝头盔
@@ -4000,8 +4001,9 @@ gui.pixelmonspawner.spawnlocation=生成区域
 gui.creativeinv.fainted=濒死
 gui.creativeinv.hp=HP 
 
-gui.trainereditor.edit=编辑
-gui.trainereditor.more=更多 
+gui.trainereditor.deletepoke=删除宝可梦
+gui.trainereditor.deletelastpoke=删除最后一个宝可梦
+gui.trainereditor.more=更多
 gui.trainereditor.trainereditor=训练师编辑器
 gui.trainereditor.bosstype=训练师种类
 gui.trainereditor.aimode=移动型AI
@@ -4066,6 +4068,13 @@ gui.chooseNPC.nursejoy=创建医生
 gui.chooseNPC.shopkeeper=创建店长
 
 gui.shopkeeper.json=类型
+
+gui.pokemoneditor.title=宝可梦编辑器
+gui.pokemoneditor.pokeball=宝可梦球
+gui.pokemoneditor.importexport=导入/导出
+gui.pokemoneditor.save=保存
+gui.pokemoneditor.reset=重置
+gui.pokemoneditor.cancel=删除
 
 gui.npceditor.despawn=删除NPC
 gui.npceditor.page1=对话文本 1
