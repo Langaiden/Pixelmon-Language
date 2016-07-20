@@ -5572,6 +5572,7 @@ pixelmon.config.expModifier=经验修正
 pixelmon.config.multiplePhotosOfSamePokemon=允许精灵照片重复。
 pixelmon.config.allowPayDayMoney=允许聚宝功使用金钱。
 pixelmon.config.pickupRate=捡拾几率
+pixelmon.config.useBattleCamera=使用对战镜头
 
 pixelmon.config.enableAFKHandler=启用AFK程序
 pixelmon.config.afkActivateSeconds=AFK激活秒数
@@ -5663,6 +5664,7 @@ pixelmon.config.battleAITrainer.comment=对战中NPC训练师的AI类型。
 pixelmon.config.expModifier.comment=宝可梦对战获得的经验的倍数。
 pixelmon.config.multiplePhotosOfSamePokemon.comment=允许玩家重复获得相同的精灵照片。
 pixelmon.config.pickupRate.comment=捡拾特性在战斗后获得道具的几率 (1/几率). 0 为禁用此功能。
+pixelmon.config.useBattleCamera.comment=是否设置对战镜头改为外部镜头设置。
 
 pixelmon.config.spawnTickRate.comment=生成宝可梦前允许的实体数目。
 pixelmon.config.allowPayDayMoney.comment=允许宝可梦币被聚宝功使用。
