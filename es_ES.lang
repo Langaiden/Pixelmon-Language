@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: June 7, 2016 - by ToklaX
+* Last Update: July 20, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 7 de Junio de 2016 por ToklaX
+* Última actualización: 20 de Julio de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -61,7 +61,8 @@ item.Aluminium Spade.name=Pala de aluminio
 item.Aluminium PickAxe.name=Pico de aluminio
 item.Aluminium Hoe.name=Azada de aluminio
 item.Wailmer Pail.name=Regadera Wailmer
-item.Trainer Editor.name=Editor de NPC
+item.Trainer Editor.name=Editor NPC
+item.Pokemon Editor.name=Editor Pokémon
 item.Aluminium Sword.name=Espada de alumino
 item.Aluminium Helmet.name=Casco de aluminio
 item.Aluminium Torso.name=Peto de aluminio
@@ -4613,7 +4614,8 @@ gui.trainereditor.winningdrops=Premios por Victoria
 gui.trainereditor.randomise=Aleatorio
 gui.trainereditor.edit=Editar
 gui.trainereditor.add=Añadir
-gui.trainereditor.deletelastpoke=Elimina el último Pokémon
+gui.trainereditor.deletepoke=Eliminar Pokémon
+gui.trainereditor.deletelastpoke=Eliminar último Pokémon
 gui.trainereditor.delete=Eliminar
 gui.trainereditor.pokemoneditor=Editor de entrenador - Editor Pokémon
 gui.trainereditor.name=Nombre
@@ -4661,6 +4663,13 @@ gui.chooseNPC.nursejoy=Crear Doctor
 gui.chooseNPC.shopkeeper=Crear Comerciante
 
 gui.shopkeeper.json=Tipo
+
+gui.pokemoneditor.title=Editor Pokémon
+gui.pokemoneditor.pokeball=Poké Ball
+gui.pokemoneditor.importexport=Importar/Exportar
+gui.pokemoneditor.save=Guardar
+gui.pokemoneditor.reset=Reiniciar
+gui.pokemoneditor.cancel=Cancelar
 
 gui.overlay1v1.lv=Lv. 
 
@@ -6160,7 +6169,8 @@ pixelmon.config.expModifier=Modificador de Experiencia
 pixelmon.config.multiplePhotosOfSamePokemon=Permite sacar varias fotos del mismo Pokémon
 pixelmon.config.allowPayDayMoney=Activar dinero con Día de Pago
 pixelmon.config.pickupRate=Tasa de Recogida
-pixelmon.config.bedsHealPokemon=Dormir cura a los Pokémon
+pixelmon.config.bedsHealPokemon=Dormir cura los Pokémon
+pixelmon.config.useBattleCamera=Utilizar Cámara de Batalla
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
 pixelmon.config.afkActivateSeconds=Segundos estando AFK
@@ -6253,7 +6263,8 @@ pixelmon.config.expModifier.comment=Multiplicador de la experiencia conseguida e
 pixelmon.config.multiplePhotosOfSamePokemon.comment=Permite que cada jugador pueda sacar varias fotos al mismo Pokémon.
 pixelmon.config.allowPayDayMoney.comment=Hace que Día de Pago dé Pokédolares cuando se usa.
 pixelmon.config.pickupRate.comment=Probabilidad de que la Habilidad Recogida recoga un objeto después de un combate (1/tasa). El valor 0 lo desactiva.
-pixelmon.config.bedsHealPokemon.comment=Si al dormir en camas cura los Pokémon del jugador.
+pixelmon.config.bedsHealPokemon.comment=Si el dormir en camas cura los Pokémon del jugador.
+pixelmon.config.useBattleCamera.comment=Establece si se desea o no cambiar a una cámara externa durante los combates.
 
 pixelmon.config.spawnTickRate.comment=Número de ticks antes de que se produzca un intento de hacer aparecer entiedades.
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
@@ -6280,16 +6291,16 @@ pixelmon.config.Gen5.comment=Pokédex 494-649
 pixelmon.config.maxLandPokemon.comment=Número máximo de Pokémon sobre tierra a la misma vez.
 pixelmon.config.maxUndergroundPokemon.comment=Número máximo de Pokémon bajo tierra a la misma vez.
 pixelmon.config.maxWaterPokemon.comment=Número máximo de Pokémon en el agua a la misma vez.
-pixelmon.config.maxFlyingPokemon.comment=Número máximo de Pokemon en vuelo a la misma vez (es recomendable no establecer altos valores).
+pixelmon.config.maxFlyingPokemon.comment=Número máximo de Pokemon en vuelo a la misma vez (se recomienda no introducir valores altos).
 pixelmon.config.maxNumNPCs.comment=Número máximo de NPCs a la misma vez.
-pixelmon.config.despawnOnFleeOrLoss.comment=Obliga a los Pokémon salvajes a desaparecer después de un combate.
+pixelmon.config.despawnOnFleeOrLoss.comment=Obliga a los Pokémon salvajes a desaparecer tras un combate.
 
 pixelmon.config.spawnNormal.comment=Permite aparecer PokeCofres visibles aleatoriamente por todo el mundo.
 pixelmon.config.spawnHidden.comment=Permite aparecer PokeCofre invisibles aleatoriamente por todo el mundo.
 pixelmon.config.spawnGrotto.comment=Permite aparecer Grutas Ocultas en el mundo.
-pixelmon.config.spawnRate.comment=Tasa de aparición de cofres. 0: 1 por cada 64 chunks. 1: 1 por cada 32 chunks. 2: 1 por cada 18 chunks. 3: 1 por cada 10 chunks
-pixelmon.config.spawnMode.comment=Modo de aparición por defecto (PLPG=0, 1PPG=1, PI=2, TIEMPO=3). PLPG = Primero en Llegar Primero en Ganar, sólo un jugador podrá ganar el premio, después desaparece. 1PPG = 1 Premio por Jugador, el cofre otorga un premio por persona. El cofre permanece para que el resto pueda usarlo. PI = Premio Ilimitado, los cofre pueden usarse ilimitadamente por todos los jugadores. TIEMPO = Cada jugador puede ser premiado después de un intervalo de tiempo especificado (tiempo individual). El cofre permanecerá.
-pixelmon.config.timedLootReuseSeconds.comment=Fija el intervalo de tiempo en la que un jugador puede volver a usar un cofre (colocados en Creativo o aparición nautral) activando TIEMPO. Conversiones de tiempo: una hora = 3600 segundos, un día = 86400 segundos, una semana = 604800 segundos.
+pixelmon.config.spawnRate.comment=Tasa de aparición de cofres. 0: 1 por cada 64 chunks. 1: 1 por cada 32 chunks. 2: 1 por cada 18 chunks. 3: 1 por cada 10 chunks.
+pixelmon.config.spawnMode.comment=Modo de aparición por defecto (PLPG=0, 1PPG=1, PI=2, TIEMPO=3). PLPG = Primero en Llegar Primero en Ganar, sólo un jugador podrá ganar el premio, después desaparece. 1PPG = 1 Premio por Jugador, el cofre otorga un premio por persona. El cofre permanece para que el resto pueda utilizarlo. PI = Premio Ilimitado, los cofres pueden utilizarse ilimitadamente por todos los jugadores. TIEMPO = Cada jugador puede ser premiado después de un intervalo de tiempo especificado (tiempo individual). El cofre permanecerá.
+pixelmon.config.timedLootReuseSeconds.comment=Establece el intervalo de tiempo en el que un jugador pueda volver a usar un cofre (mediante Creativo o aparición nautral) activando la opción "TIEMPO". Conversiones de tiempo: una hora = 3600 segundos, un día = 86400 segundos, una semana = 604800 segundos.
 
 pixelmon.config.enableAFKHandler.comment=La batalla automática se activará si el jugador está AFK durante el combate. Se activa después de un periodo de tiempo especificado, con un tiempo especificado para cada turno.
 pixelmon.config.afkActivateSeconds.comment=El tiempo en segundos antes de que un jugador en combate confirme estar AFK, y el codigo de batalla automática continue por él.
