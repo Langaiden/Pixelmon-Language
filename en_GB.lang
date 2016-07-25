@@ -4045,6 +4045,7 @@ gui.pokemoneditor.importexport=Import/Export
 gui.pokemoneditor.save=Save
 gui.pokemoneditor.reset=Reset
 gui.pokemoneditor.cancel=Cancel
+gui.pokemoneditor.errorimport=Invalid import text
 
 gui.overlay1v1.lv=Lv. 
 
