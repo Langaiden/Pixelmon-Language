@@ -4552,7 +4552,7 @@ tile.movementPlate.name=传送地板
 tile.pokechest.name=宝贝球奖励箱
 tile.ultrachest.name=高级球奖励箱
 tile.masterchest.name=大师球奖励箱
-tile.stickPlate.name=棒子板式
+tile.stickPlate.name=弹跳地板
 
 PokeDirt.name=精灵宝可梦泥土
 PokeSand.name=精灵宝可梦沙地
