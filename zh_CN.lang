@@ -4003,7 +4003,7 @@ gui.creativeinv.fainted=濒死
 gui.creativeinv.hp=HP 
 
 gui.trainereditor.deletepoke=删除宝可梦
-gui.trainereditor.deletelastpoke=删除最后的宝可梦
+gui.trainereditor.deletelastpoke=删除最后一只宝可梦
 gui.trainereditor.more=更多
 gui.trainereditor.trainereditor=训练师编辑器
 gui.trainereditor.bosstype=训练师种类
