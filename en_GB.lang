@@ -3937,8 +3937,6 @@ gui.screenpokechecker.levelup=Level Up
 gui.screenpokechecker.summary=Summary
 gui.screenpokechecker.ot=Original Trainer
 gui.screenpokechecker.ability=Ability
-
-
 gui.screenpokechecker.happiness=Happiness
 gui.screenpokechecker.nature=Nature
 gui.screenpokechecker.growth=Growth
@@ -3993,6 +3991,7 @@ gui.trainereditor.randomise=Randomise
 gui.trainereditor.edit=Edit
 gui.trainereditor.add=Add
 gui.trainereditor.deletepoke=Delete Pokémon
+gui.trainereditor.deletelastpoke=Delete Last Pokémon
 gui.trainereditor.pokemoneditor=Trainer Editor - Pokémon Editor
 gui.trainereditor.name=Name
 gui.trainereditor.shiny=Shiny
@@ -4043,8 +4042,9 @@ gui.shopkeeper.json=Type
 gui.pokemoneditor.title=Pokémon Editor
 gui.pokemoneditor.pokeball=Poké Ball
 gui.pokemoneditor.importexport=Import/Export
-gui.pokemoneditor.import=Import
-gui.pokemoneditor.export=Export
+gui.pokemoneditor.save=Save
+gui.pokemoneditor.reset=Reset
+gui.pokemoneditor.cancel=Cancel
 
 gui.overlay1v1.lv=Lv. 
 
