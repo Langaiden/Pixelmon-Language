@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: July 20, 2016 - by ToklaX
+* Last Update: July 28, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 20 de Julio de 2016 por ToklaX
+* Última actualización: 28 de Julio de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -380,6 +380,7 @@ item.Shell Bell.name=Campana Concha
 item.Cell Battery.name=Pila
 item.Metronome.name=Metrónomo
 item.Metal Coat.name=Revestimiento Metálico
+item.Prism Scale.name=Escama Bella
 item.Dubious Disc.name=Disco Extraño
 item.Electirizer.name=Electrizador
 item.Magmarizer.name=Magmatizador
@@ -4575,16 +4576,16 @@ gui.pixelmonspawner.fireontick=Fuego con un Tick
 gui.pixelmonspawner.fireonredstone=Fuego con Redstone
 gui.pixelmonspawner.pcms=Pixelmon Custom Mob Spawner
 gui.pixelmonspawner.pokemonlist=Lista Pokémon
-gui.pixelmonspawner.name=Pokémon
+gui.pixelmonspawner.name=Nombre del Pokémon
 gui.pixelmonspawner.rarity=Rareza
 gui.pixelmonspawner.spawntick=Spawn Tick
-gui.pixelmonspawner.radius=Radio de Spawn
+gui.pixelmonspawner.radius=Area de Spawn
 gui.pixelmonspawner.maxspawns=Máx. Spawns
 gui.pixelmonspawner.minspawns=Mín. Spawns
 gui.pixelmonspawner.maxlevel=Máx. Nivel
 gui.pixelmonspawner.minlevel=Mín. Nivel
-gui.pixelmonspawner.bossratio=Ratio de Jefe
-gui.pixelmonspawner.aggresion=Agresividad
+gui.pixelmonspawner.bossratio=Prob. de Jefe
+gui.pixelmonspawner.aggression=Agresividad
 gui.pixelmonspawner.spawnlocation=Posición
 
 gui.creativeinv.fainted=(Debilitado)
@@ -4592,7 +4593,7 @@ gui.creativeinv.hp=PS
 
 gui.trainereditor.edit=Editar
 gui.trainereditor.more=Más
-gui.trainereditor.trainereditor=Editor del entrenador
+gui.trainereditor.trainereditor=Editor de entrenador
 gui.trainereditor.bosstype=Jefe
 gui.trainereditor.aimode=IA de Movimiento
 gui.trainereditor.battleaimode=IA de Batalla
@@ -4723,24 +4724,24 @@ enum.aggro.passive=Pasivo
 enum.aggro.aggressive=Agresivo
 enum.trainerBoss.notboss=No
 enum.trainerBoss.equal=Igualado
-enum.trainerBoss.uncommon=Extraño
+enum.trainerBoss.uncommon=Poco Común
 enum.trainerBoss.rare=Raro
 enum.trainerBoss.legendary=Legendario
 enum.trainerBoss.ultimate=Definitivo
-enum.trainerAI.standstill=Tranquilo
-enum.trainerAI.stillandengage=TranquiloyEntregado
+enum.trainerAI.standstill=Quieto
+enum.trainerAI.stillandengage=Quieto(Agresivo)
 enum.trainerAI.wander=Caminante
-enum.trainerAI.wanderandengage=CaminanteyEntregado
+enum.trainerAI.wanderandengage=Caminante(Agresivo)
 enum.battleAI.default=Por defecto
 enum.battleAI.random=Aleatorio
 enum.battleAI.aggressive=Agresivo
 enum.battleAI.tactical=Táctico
 enum.battleAI.advanced=Avanzado
 enum.trainerEncounter.once=Una vez
-enum.trainerEncounter.onceperday=Cada día
+enum.trainerEncounter.onceperday=Una vez al día
 enum.trainerEncounter.oncepermcday=Cada día de MC
 enum.trainerEncounter.onceperplayer=Una vez por jugador
-enum.trainerEncounter.unlimited=Ilimitado
+enum.trainerEncounter.unlimited=Sin límite
 
 enum.growth.microscopic=Microscópico
 enum.growth.pygmy=Diminuto
@@ -5025,14 +5026,14 @@ battlecontroller.flinched=¡%s ha retrocedido!
 battlecontroller.fainted=¡Tu %s se debilitó!
 battlecontroller.hasfainted=¡%s debilitado!
 battlecontroller.outofpokemon=¡Ya no te quedan más Pokémon!
-battlecontroller.sendout=¡%s sacó a %s!
+battlecontroller.sendout=¡%s saca a %s!
 battlecontroller.switch=¡Elige un Pokémon para combatir!
 battlecontroller.targets=Elige un objetivo para $a.
 battlecontroller.win=¡Has ganado la batalla!
 battlecontroller.afktimer=Tiempo por Turno: 
 battlecontroller.forfeitask=¿Quieres terminar el combate?
 battlecontroller.forfeit=¡%s ha renunciado al combate!
-battlecontroller.forfeitself=Has renunciado al combate.
+battlecontroller.forfeitself=Has perdido el combate.
 battlecontroller.draw=El combate se ha declarado como empate.
 
 type.normal=Normal
@@ -5059,7 +5060,7 @@ batonpass.failed=¡Pero falló!
 batonpass.pass=¡%s pasó el testigo!
 batonpass.noleft=¡No hay mas Pokémon para cambiar!
 
-teleport.away=¡$s se teletransportó!
+teleport.away=¡%s se teletransportó!
 
 applyperish.heard=¡%s escuchó Canto Mortal!
 applyperish.already=¡%s ya ha escuchado esta canción!
