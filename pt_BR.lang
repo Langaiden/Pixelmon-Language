@@ -50,7 +50,7 @@ item.Dos Orb.name=Segundo Orb
 item.Tres Orb.name=Terceiro Orb
 item.Orb.name=Orb
 itemGroup.tabPokeLoot=PokeLoot
-item.itemFinder.name=ItemFinder
+item.itemFinder.name=Radar de Item
 item.Poke Ball.name=Poke Bola
 item.Great Ball.name=Great Ball
 item.Ultra Ball.name=Ultra Ball
@@ -2790,19 +2790,19 @@ pixelmon.genesect.description=This Pokemon existed 300 million years ago. Team P
 
 //gui stuff
 gui.guiEvolve.huh=Huh?
-gui.guiEvolve.evolve1=What?
-gui.guiEvolve.evolve2=is evolving!
-gui.guiEvolve.done1=Your
-gui.guiEvolve.done2=evolved into a
-gui.guiEvolve.cancel=Evolution cancelled!
+gui.guiEvolve.evolve1=O que?
+gui.guiEvolve.evolve2=está evoluindo!!
+gui.guiEvolve.done1=Seu
+gui.guiEvolve.done2=evoluiu em um(a)
+gui.guiEvolve.cancel=Evolução cancelada!
 
 
-gui.guiItemDrops.beatBossPixelmon1=You beat a boss
-gui.guiItemDrops.beatTrainer1=You beat a trainer!
+gui.guiItemDrops.beatBossPixelmon1=Você derrotou um chefe!
+gui.guiItemDrops.beatTrainer1=Você derrotou um treinador!
 gui.guiItemDrops.ok=OK
-gui.guiItemDrops.mouse=Mouse over item
-gui.guiItemDrops.see=to see more
-gui.guiItemDrops.details=details
+gui.guiItemDrops.mouse=Mouse acima do item
+gui.guiItemDrops.see=para ver mais
+gui.guiItemDrops.details=detalhes
 
 
 
@@ -2811,25 +2811,25 @@ gui.guiItemDrops.details=details
 
 
 
-tile.anvil.name=Anvil
+tile.anvil.name=Bigorna
 tile.pc.name=PC
-tile.mossy rock.name=Mossy Rock
-tile.icy rock.name=Icy Rock
-tile.trade machine.name=Trade Machine
-tile.healer.name=Healer
-tile.fossil cleaner.name=Fossil Cleaner
-tile.fossil machine.name=Fossil Machine
-tile.cloning machine.name=Cloning Machine
-tile.bauxite ore.name=Bauxite Ore
-tile.fire stone ore.name=Fire Stone Ore
-tile.water stone ore.name=Water Stone Ore
-tile.leaf stone ore.name=Leaf Stone Ore
-tile.thunder stone ore.name=Thunder Stone Ore
-tile.sun stone ore.name=Sun Stone Ore
+tile.mossy rock.name=Rocha Mugosa
+tile.icy rock.name=Rocha Gelada
+tile.trade machine.name=Máquina de troca
+tile.healer.name=Curador
+tile.fossil cleaner.name=Limpador de Fossil
+tile.fossil machine.name=Máquina de fossil
+tile.cloning machine.name=Máquina de clonagem
+tile.bauxite ore.name=Minério de Aluminio
+tile.fire stone ore.name=Minério da Fire Stone Ore
+tile.water stone ore.name=Minério da Water Stone Ore
+tile.leaf stone ore.name=Minério da Leaf Stone Ore
+tile.thunder stone ore.name=Minério da Thunder Stone Ore
+tile.sun stone ore.name=Minério da Sun Stone
 tile.master chest.name=Master Chest
 tile.poke chest.name=Poke Chest
 tile.ultra chest.name=Ultra Chest
 tile.fossil.name=Fossil
-tile.uno shrine.name=Frozen Shrine
-tile.dos shrine.name=Static Shrine
-tile.tres shrine.name=Fiery Shrine
+tile.uno shrine.name=Altar Gelado
+tile.dos shrine.name=Altar Estático
+tile.tres shrine.name=Altar Flamejante
