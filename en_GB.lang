@@ -4311,6 +4311,7 @@ npc.model.cueball=Cue Ball
 npc.model.doctor=Doctor
 npc.model.engineer=Engineer
 npc.model.fisherman=Fisherman
+npc.model.gnome_trader=Gnome Trader
 npc.model.hexmaniac=Hex Maniac
 npc.model.hiker=Hiker
 npc.model.lass=Lass
@@ -4351,6 +4352,7 @@ npc.model.shopman3=Shop Man 3
 npc.model.shopman4=Shop Man 4
 npc.model.shopman5=Shop Man 5
 npc.model.shopsecondman=Shop Second Man
+npc.model.spawntrader=Spawn Trader
 npc.model.streetthug=Street Thug
 npc.model.supernerd=Super Nerd
 
@@ -4359,6 +4361,7 @@ npc.shopkeeper.pokemartmain2=Poké Mart Main 2
 npc.shopkeeper.pokemartmain3=Poké Mart Main 3
 npc.shopkeeper.pokemartsecond1=Poké Mart Second 1
 npc.shopkeeper.pokemartsecond2=Poké Mart Second 2
+npc.shopkeeper.spawn1=Spawn 1
 
 container.MechanicalAnvil=Mechanical Anvil
 
