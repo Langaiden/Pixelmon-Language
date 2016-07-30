@@ -3950,8 +3950,8 @@ gui.acceptdeny.double=Double Battle
 gui.acceptdeny.invaliddouble=%s doesn't have enough Pokémon to be in a double battle!
 
 gui.renamePoke.Reset=Reset
-gui.renamePoke.cancel=gui.cancel
-gui.renamePoke.renamebutton=selectWorld.renameButton
+gui.renamePoke.cancel=Cancel
+gui.renamePoke.renamebutton=Rename
 gui.renamePoke.renamePokemon=Rename Pokémon
 
 gui.screenpokechecker.moves=Moves
