@@ -4639,6 +4639,12 @@ PinkWaterFloat.name=Pink Water Float
 PurpleWaterFloat.name=Purple Water Float
 RedWaterFloat.name=Red Water Float
 YellowWaterFloat.name=Yellow Water Float
+shrineuno.name=Frozen Shrine
+shrinedos.name=Static Shrine
+shrinetres.name=Fiery Shrine
+PicketFenceNormal.name=Picket Fence
+PicketFenceCorner.name=Picket Fence
+PicketFenceCross.name=Picket Fence
 
 ability.Adaptability.name=Adaptability
 ability.Adaptability.description=Powers up moves of the same type as the Pokémon.
