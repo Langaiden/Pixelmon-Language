@@ -3654,6 +3654,8 @@ pixelmon.blocks.tree.change4=The tree is now using design #4.
 
 pixelmon.blocks.movepad.loopbuilderror=Infinite loops of movement plates are not allowed!
 
+pixelmon.blocks.gymsign.ownership=This Gym sign does not belong to you.
+
 pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
 
