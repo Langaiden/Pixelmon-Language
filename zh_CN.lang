@@ -359,6 +359,7 @@ item.FocusBand.name=振奋精神的头布
 item.ToxicOrb.name=剧毒珠
 item.FlameOrb.name=火焰珠
 item.Metal Coat.name=金属涂层
+item.Prism Scale.name=绮丽鳞片
 item.MuscleBand.name=力量头巾
 item.RazorClaw.name=锐利爪子
 item.BlackSludge.name=黑色淤泥
@@ -4002,7 +4003,7 @@ gui.creativeinv.fainted=濒死
 gui.creativeinv.hp=HP 
 
 gui.trainereditor.deletepoke=删除宝可梦
-gui.trainereditor.deletelastpoke=删除最后一个宝可梦
+gui.trainereditor.deletelastpoke=删除最后一只宝可梦
 gui.trainereditor.more=更多
 gui.trainereditor.trainereditor=训练师编辑器
 gui.trainereditor.bosstype=训练师种类
@@ -4551,7 +4552,7 @@ tile.movementPlate.name=传送地板
 tile.pokechest.name=宝贝球奖励箱
 tile.ultrachest.name=高级球奖励箱
 tile.masterchest.name=大师球奖励箱
-tile.stickPlate.name=棒子板式
+tile.stickPlate.name=弹跳地板
 
 PokeDirt.name=精灵宝可梦泥土
 PokeSand.name=精灵宝可梦沙地
