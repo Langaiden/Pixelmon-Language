@@ -1,5 +1,5 @@
 /*
-*	Latest translation 18/07/2016
+*	Latest translation 02/08/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -5026,7 +5026,7 @@ gui.screenpokechecker.forget1=Êtes vous sûr de vouloir
 gui.screenpokechecker.forget2=$p oublie
 gui.screenpokechecker.disable=désactiver
 gui.screenpokechecker.enable=activer
-gui.screenpokechecker.move=la prise de niveau de $a ?
+gui.screenpokechecker.move=$a la prise de niveau ?
 gui.screenpokechecker.effects=Effets
 
 gui.pixelmonspawner.fireontick=Déclenchement par tick
@@ -5618,7 +5618,7 @@ tile.templeBlock.name=Bloc de Temple
 tile.templeStairs.name=Escalier de Temple
 tile.templeBrickStairs.name=Escalier en Brique de Temple
 tile.templePillar.name=Pilier de Temple
-tile.hiddenCube.name=Cubé Invisible
+tile.hiddenCube.name=Cube Invisible
 tile.hiddenIronDoor.name=Porte en Fer Invisible
 tile.hiddenWoodenDoor.name=Porte en Bois Invisible
 tile.hiddenPressurePlate.name=Plaque de Pression Invisible
@@ -6448,6 +6448,7 @@ key.pokemonexternal=Utiliser Compétence d'Extérieur
 key.nextexternalmove=Prochaine Compétence 
 key.pokedex=Ouvrir Pokédex/Wiki
 key.spectateBattle=Regarder un combat
+key.pixelmonoptions=Ouvrir les réglages
 
 halloween.entityname=Le Bijoutier Spectral
 halloween.gemregistered=Le Bijoutier Spectral a reçu votre %s
