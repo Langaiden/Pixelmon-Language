@@ -41,19 +41,34 @@ item.Stone Hammer.name=Stone Hammer
 item.Iron Hammer.name=Iron Hammer
 item.Gold Hammer.name=Gold Hammer
 item.Diamond Hammer.name=Diamond Hammer
+item.Wood_Hammer.name=Wood Hammer
+item.Stone_Hammer.name=Stone Hammer
+item.Iron_Hammer.name=Iron Hammer
+item.Gold_Hammer.name=Gold Hammer
+item.Diamond_Hammer.name=Diamond Hammer
 item.Aluminium Hammer.name=Aluminum Hammer
 item.Aluminium Axe.name=Aluminum Axe
 item.Aluminium Spade.name=Aluminum Shovel
 item.Aluminium PickAxe.name=Aluminum Pickaxe
 item.Aluminium Hoe.name=Aluminum Hoe
+item.Aluminium_Hammer.name=Aluminum Hammer
+item.Aluminium_Axe.name=Aluminum Axe
+item.Aluminium_Spade.name=Aluminum Shovel
+item.Aluminium_PickAxe.name=Aluminum Pickaxe
+item.Aluminium_Hoe.name=Aluminum Hoe
 item.Wailmer Pail.name=Wailmer Pail
 item.Pokemon Editor.name=Pokémon Editor
 item.Trainer Editor.name=NPC Editor
 item.Aluminium Sword.name=Aluminum Sword
 item.Aluminium Helmet.name=Aluminum Helmet
-item.Aluminium Torso.name=Aluminum Torso
+item.Aluminium Torso.name=Aluminum Chestplate
 item.Aluminium Leggings.name=Aluminum Leggings
 item.Aluminium Boots.name=Aluminum Boots
+item.Aluminium_Sword.name=Aluminum Sword
+item.Aluminium_Helmet.name=Aluminum Helmet
+item.Aluminium_Torso.name=Aluminum Chestplate
+item.Aluminium_Leggings.name=Aluminum Leggings
+item.Aluminium_Boots.name=Aluminum Boots
 item.New Running Boots.name=New Running Boots
 item.Old Running Boots.name=Old Running Boots
 item.Aluminium Ingot.name=Aluminum Ingot
@@ -931,11 +946,7 @@ itemGroup.Natural=Natural
 itemGroup.Held Items=Held Items
 itemGroup.TMs/HMs=TMs/HMs
 itemGroup.utilityBlocks=Utility Blocks
-itemGroup.PixelUtilitiesBlocks=PixelUtilities Blocks
-itemGroup.PixelUtilitiesItems=PixelUtilities Items
-itemGroup.PixelUtilitiesArmor=PixelUtilities Armor
-itemGroup.PixelUtilsDecoration=PixelUtilities Decoration
-itemGroup.PixelUtilsTools=PixelUtilities Tools
+itemGroup.Decoration=Decoration
 
 //Attacks and their Descriptions
 /*
@@ -3643,6 +3654,8 @@ pixelmon.blocks.tree.change4=The tree is now using design #4.
 
 pixelmon.blocks.movepad.loopbuilderror=Infinite loops of movement plates are not allowed!
 
+pixelmon.blocks.gymsign.ownership=This Gym sign does not belong to you.
+
 pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
 
@@ -3939,8 +3952,8 @@ gui.acceptdeny.double=Double Battle
 gui.acceptdeny.invaliddouble=%s doesn't have enough Pokémon to be in a double battle!
 
 gui.renamePoke.Reset=Reset
-gui.renamePoke.cancel=gui.cancel
-gui.renamePoke.renamebutton=selectWorld.renameButton
+gui.renamePoke.cancel=Cancel
+gui.renamePoke.renamebutton=Rename
 gui.renamePoke.renamePokemon=Rename Pokémon
 
 gui.screenpokechecker.moves=Moves
@@ -4063,6 +4076,7 @@ gui.pokemoneditor.importexport=Import/Export
 gui.pokemoneditor.save=Save
 gui.pokemoneditor.reset=Reset
 gui.pokemoneditor.cancel=Cancel
+gui.pokemoneditor.errorimport=Invalid import text
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4336,6 +4350,7 @@ npc.model.cueball=Cue Ball
 npc.model.doctor=Doctor
 npc.model.engineer=Engineer
 npc.model.fisherman=Fisherman
+npc.model.gnome_trader=Gnome Trader
 npc.model.hexmaniac=Hex Maniac
 npc.model.hiker=Hiker
 npc.model.lass=Lass
@@ -4377,6 +4392,7 @@ npc.model.shopman3=Shop Man 3
 npc.model.shopman4=Shop Man 4
 npc.model.shopman5=Shop Man 5
 npc.model.shopsecondman=Shop Second Man
+npc.model.spawntrader=Spawn Trader
 npc.model.streetthug=Street Thug
 npc.model.supernerd=Super Nerd
 
@@ -4385,6 +4401,7 @@ npc.shopkeeper.pokemartmain2=Poké Mart Main 2
 npc.shopkeeper.pokemartmain3=Poké Mart Main 3
 npc.shopkeeper.pokemartsecond1=Poké Mart Second 1
 npc.shopkeeper.pokemartsecond2=Poké Mart Second 2
+npc.shopkeeper.spawn1=Spawn 1
 
 container.MechanicalAnvil=Mechanical Anvil
 
@@ -4574,6 +4591,7 @@ tile.hiddenIronDoor.name=Hidden Iron Door
 tile.hiddenWoodenDoor.name=Hidden Wooden Door
 tile.hiddenPressurePlate.name=Hidden Pressure Plate
 tile.DawnDusk Ore.name=Dawn/Dusk Ore
+tile.dawnduskore.name=Dawn/Dusk Ore
 tile.templePillar.Pillar.name=Temple Pillar
 tile.templePillar.BrokenPillar.name=Broken Pillar
 tile.PokeGift.name=Poké Gift
@@ -4654,6 +4672,19 @@ PixelmonGrass.name=Pixelmon Grass
 timedFall.name=Timed Fall
 warpPlate.name=Warp Plate
 elevator.name=Elevator
+BlueWaterFloat.name=Blue Water Float
+GreenWaterFloat.name=Green Water Float
+OrangeWaterFloat.name=Orange Water Float
+PinkWaterFloat.name=Pink Water Float
+PurpleWaterFloat.name=Purple Water Float
+RedWaterFloat.name=Red Water Float
+YellowWaterFloat.name=Yellow Water Float
+shrineuno.name=Frozen Shrine
+shrinedos.name=Static Shrine
+shrinetres.name=Fiery Shrine
+PicketFenceNormal.name=Picket Fence
+PicketFenceCorner.name=Picket Fence
+PicketFenceCross.name=Picket Fence
 
 ability.Adaptability.name=Adaptability
 ability.Adaptability.description=Powers up moves of the same type as the Pokémon.
@@ -5382,6 +5413,7 @@ key.pokemonexternal=Use External Move
 key.nextexternalmove=Next External Move
 key.pokedex=Open Pokédex/Wiki
 key.spectateBattle=Spectate Battle
+key.pixelmonoptions=Open Config Screen
 
 halloween.entityname=The Spectral Jeweler
 halloween.gemregistered=The Spectral Jeweler recieved your %s!
