@@ -6545,6 +6545,13 @@ pixelmon.config.Gen3=Génération 3
 pixelmon.config.Gen4=Génération 4
 pixelmon.config.Gen5=Génération 5
 
+pixelmon.config.maxLandPokemon=Pokémon terrestres max
+pixelmon.config.maxUndergroundPokemon=Pokémon souterrains max
+pixelmon.config.maxWaterPokemon=Pokémon aquatiques max
+pixelmon.config.maxFlyingPokemon=Pokémon volants max
+pixelmon.config.maxNumNPCs=Nombre de PNJ max
+pixelmon.config.despawnOnFleeOrLoss=Despawn si défaite/fuite
+
 pixelmon.config.removeVanillaMusic=Désactiver la musique Vanilla
 pixelmon.config.minMusicDelay=Délai minimum musique
 pixelmon.config.maxMusicDelay=Délai maximum musique
@@ -6634,7 +6641,7 @@ pixelmon.config.afkHandlerTurnSeconds=Temps entre chaque attaque du mode AFK
 
 pixelmon.config.allowBreeding=Autoriser la reproduction
 pixelmon.config.allowDittoDittoBreeding=Autoriser la reproduction entre Métarmorph
-pixelmon.config.allowRandomBreedingEggsToBeLegendary=Les reproductions entre Métamorph peuvent produire des Légendaires
+pixelmon.config.allowRandomBreedingEggsToBeLegendary=La reproduction entre Métamorph produit des Légendaires
 pixelmon.config.allowRandomSpawnedEggsToBeLegendary=/pokegiveegg peut donner des Légendaires
 pixelmon.config.allowRanchCrafting=Autoriser la confection de bloc de ranch
 pixelmon.config.useBreedingEnvironment=Activer les environnements de reproduction favorables
