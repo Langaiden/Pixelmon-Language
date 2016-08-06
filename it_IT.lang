@@ -8,10 +8,8 @@
 #Per info scrivi a miticohanamichi@yahoo.it
 ##########################################################################################################
 #updated by Meka aka InLoveOfNidoqueen
-#traduzioni incerte: Baccayago,Baccamelanzana,Baccadicchio,Baccazucca,Baccatouga
 #Mancante: riga 397 714 800-823 852 855 858 859 862 3317-3321 3344 3346-3349 3352 3380 3458-3477 3491 3492 3514
 ##########################################################################################################
-
 
 
 item.PC.name=PC
@@ -43,18 +41,34 @@ item.Stone Hammer.name=Martello di Pietra
 item.Iron Hammer.name=Martello di Ferro
 item.Gold Hammer.name=Martello in Oro
 item.Diamond Hammer.name=Martello di Diamante
+item.Wood_Hammer.name=Martello in Legno
+item.Stone_Hammer.name=Martello di Pietra
+item.Iron_Hammer.name=Martello di Ferro
+item.Gold_Hammer.name=Martello in Oro
+item.Diamond_Hammer.name=Martello di Diamante
 item.Aluminium Hammer.name=Martello di Alluminio
 item.Aluminium Axe.name=Ascia di Alluminio
 item.Aluminium Spade.name=Vanga di Alluminio
 item.Aluminium PickAxe.name=Piccone di Alluminio
 item.Aluminium Hoe.name=Zappa di Alluminio
+item.Aluminium_Hammer.name=Martello di Alluminio
+item.Aluminium_Axe.name=Ascia di Alluminio
+item.Aluminium_Spade.name=Vanga di Alluminio
+item.Aluminium_PickAxe.name=Piccone di Alluminio
+item.Aluminium_Hoe.name=Zappa di Alluminio
 item.Wailmer Pail.name=Annaffiatoio Wailmer
 item.Trainer Editor.name=Editor Allenatori
+item.Pokemon Editor.name=Pokémon Editor
 item.Aluminium Sword.name=Spada d'Alluminio
 item.Aluminium Helmet.name=Elmo d'Alluminio
 item.Aluminium Torso.name=Corazza in Alluminio
 item.Aluminium Leggings.name=Gambali in Alluminio
 item.Aluminium Boots.name=Stivali di Alluminio
+item.Aluminium_Sword.name=Spada d'Alluminio
+item.Aluminium_Helmet.name=Elmo d'Alluminio
+item.Aluminium_Torso.name=Corazza in Alluminio
+item.Aluminium_Leggings.name=Gambali in Alluminio
+item.Aluminium_Boots.name=Stivali di Alluminio
 item.New Running Boots.name=Scarpe da Corsa
 item.Old Running Boots.name=Scarpe da Corsa Usate
 item.Aluminium Ingot.name=Lingotto d'Alluminio
@@ -323,13 +337,16 @@ item.Thunder Stone.name=Pietratuono
 item.Leaf Stone.name=Pietrafoglia
 item.Dawn Stone.name=Pietralbore
 item.Dusk Stone.name=Neropietra
+item.Shiny Stone.name=Pietrabrillo
 item.Thunder Stone Shard.name=Frammento di Pietratuono
 item.Leaf Stone Shard.name=Frammento di Pietrafoglia
 item.Water Stone Shard.name=Frammento di Pietraidrica
 item.Fire Stone Shard.name=Frammento di Pietrafocaia
 item.Sun Stone Shard.name=Frammento di Pietrasolare
+item.Moon Stone Shard.name=Frammento di Pietralunare
 item.Dusk Stone Shard.name=Frammento di Neropietra
 item.Dawn Stone Shard.name=Frammento di Pietralbore
+item.Shiny Stone Shard.name=Frammento di Pietrabrillo
 item.Ever Stone.name=Pietrastante
 item.Lucky Egg.name=Fortunuovo
 item.Exp. Share.name=Condividi Esperienza
@@ -394,7 +411,7 @@ item.WhiteHerb.name=Erbachiara
 item.BigRoot.name=Granradice
 item.ZoomLens.name=Zoomlente
 item.BrightPowder.name=Luminpolvere
-
+item.GinemaBerry.name=Baccaenigma
 item.JabocaBerry.name=Baccajaba
 item.RowapBerry.name=Baccaroam
 item.LaggingTail.name=Rallentocoda
@@ -407,6 +424,7 @@ item.GripClaw.name=Presartigli
 item.FloatStone.name=Pietralieve
 item.MicleBerry.name=Baccaracolo
 item.RingTarget.name=Facilsaglio
+item.AmuletCoin.name=Monetamuleto
 
 item.Full Incense.name=Gonfioaroma 
 item.Lax Incense.name=Distraroma 
@@ -464,6 +482,7 @@ item.HardStone.name=Pietradura
 item.Magnet.name=Calamita 
 item.Metal Coat.name=Metalcoperta 
 item.MiracleSeed.name=Miracolseme 
+item.Prism Scale.name=Squama Bella
 item.MysticWater.name=Acquamagica 
 item.NeverMeltIce.name=Gelomai
 item.PoisonBarb.name=Velenaculeo
@@ -486,13 +505,16 @@ item.chisel.name=Scalpello
 item.ranchupgrade.name=Ranch Upgrade
 item.hourglassgold.name=Clessidra Dorata di Isi
 item.hourglasssilver.name=Clessidra Argentata di Isi
+item.PixelmonSprite.name=Foto
+item.EntityPixelmonPaintingItem.name=Dipinto Pokémon
+item.camera.name=Macchina Fotografica
+item.film.name=Film
 
 item.pokeChest.name=Poké Chest
 item.ultraChest.name=Ultra Chest
 item.masterChest.name=Master Chest
 
 item.TM1 - Hone Claws.name=TM1: Unghiaguzze
-item.TM1 - Wide Guard.name=MT1: Bodyguard
 item.TM2 - Dragon Claw.name=MT2: Dragartigli
 item.TM3 - Psyshock.name=MT3: Psicoshock
 item.TM4 - Calm Mind.name=MT4: Calmamente
@@ -711,7 +733,7 @@ item.RedPokeballRug.name=Tappeto Poké Ball Rosso
 item.GreenPokeballRug.name=Tappeto Poké Ball Verde
 item.BluePokeballRug.name=Tappeto Poké Ball Blu
 item.YellowPokeballRug.name=Tappeto Poké Ball Giallo
-
+item.FossilDisplay.name=Display Fossile
 item.BlueVendingMachine.name=Distributore Automatico Blu
 item.GreenVendingMachine.name=Distributore Automatico Verde
 item.OrangeVendingMachine.name=Distributore Automatico Arancione
@@ -797,30 +819,36 @@ item.DawnstoneHoe.name=Zappa di Pietralbore
 item.DawnstonePickaxe.name=Piccone di Pietralbore
 item.DawnstoneShovel.name=Pala di Pietralbore
 item.DawnstoneSword.name=Spada di Pietralbore
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+item.DuskstoneHammer.name=Martello di Neropietra
+item.DuskstoneAxe.name=Ascia di Neropietra
+item.DuskstoneHoe.name=Zappa di Neropietra
+item.DuskstonePickaxe.name=Piccone di Neropietra
+item.DuskstoneShovel.name=Pala di Neropietra
+item.DuskstoneSword.name=Spada di Neropietra
+item.RubyHelm.name=Elmo Magmatico
+item.RubyPlate.name=Corazza Magmatica
+item.RubyLegs.name=Gambiera Magmatica
+item.RubyBoots.name=Stivali Magmatici
+item.SapphireHelm.name=Elmo Acquatico
+item.SapphirePlate.name=Corazza Acquatica
+item.SapphireLegs.name=Gambiera Acquatica
+item.SapphireBoots.name=Stivali Acquatici
+item.PlasmaHelm.name=Elmo Plasmatico
+item.PlasmaPlate.name=Corazza Plasmatica
+item.PlasmaLegs.name=Gambiera Plasmatica
+item.PlasmaBoots.name=Stivali Plasmatici
+item.GalacticHelm.name=Elmo Galattico
+item.GalacticPlate.name=Corazza Galattica
+item.GalacticLegs.name=Gambiera Galattica
+item.GalacticBoots.name=Stivali Galattici
+item.NeoPlasmaHelm.name=Elmo Neo Plasmatico
+item.NeoPlasmaPlate.name=Corazza Neo Plasmatica
+item.NeoPlasmaLegs.name=Gambiera Neo Plasmatica
+item.NeoPlasmaBoots.name=Stivali Neo Plasmatici
+item.RocketHelm.name=Elmo Spaziale
+item.RocketPlate.name=Corazza Spaziale
+item.RocketLegs.name=Gambiera Spaziale
+item.RocketBoots.name=Stivali Spaziali
 item.FirestoneHelm.name=Elmo di Pietrafocaia
 item.FirestonePlate.name=Corazza di Pietrafocaia
 item.FirestoneLegs.name=Gambiera di Pietrafocaia
@@ -849,28 +877,82 @@ item.DawnstoneHelm.name=Elmo di Pietralbore
 item.DawnstonePlate.name=Corazza di Pietralbore
 item.DawnstoneLegs.name=Gambiera di Pietralbore
 item.DawnstoneBoots.name=Stivali di Pietralbore
-
+item.DuskstoneHelm.name=Elmo di Neropietra
+item.DuskstonePlate.name=Corazza di Neropietra
+item.DuskstoneLegs.name=Gambiera di Neropietra
+item.DuskstoneBoots.name=Stivali di Neropietra
+item.PicketFence.name=Staccionata
 item.pokeGift.name=PokéRegalo
 
+item.record.asmbts.desc=Un Sempice Momento sul Mare
+item.record.atd.desc=Attraverso il Deserto
+item.record.ds.desc=Rive Lontane
+item.record.fptp.desc=Da Cima a Cima
+item.record.jtts.desc=Viaggio verso il Cielo
+item.record.nf.desc=Nightfall
+item.record.otwoa.desc=Sulle Ali dell'Avventura
+item.record.pw.desc=Pixelmon Waltz
+item.record.tef.desc=La Foresta Incantata
+item.record.tfl.desc=La Terra Congelata
 
+BrailleBlock.A.name=Braille Block A
+BrailleBlock.B.name=Braille Block B
+BrailleBlock.C.name=Braille Block C
+BrailleBlock.D.name=Braille Block D
+BrailleBlock.E.name=Braille Block E
+BrailleBlock.F.name=Braille Block F
+BrailleBlock.G.name=Braille Block G
+BrailleBlock.H.name=Braille Block H
+BrailleBlock.I.name=Braille Block I
+BrailleBlock.J.name=Braille Block J
+BrailleBlock.K.name=Braille Block K
+BrailleBlock.L.name=Braille Block L
+BrailleBlock.M.name=Braille Block M
+BrailleBlock.N.name=Braille Block N
+BrailleBlock.O.name=Braille Block O
+BrailleBlock.P.name=Braille Block P
+BrailleBlock.Q.name=Braille Block Q
+BrailleBlock.R.name=Braille Block R
+BrailleBlock.S.name=Braille Block S
+BrailleBlock.T.name=Braille Block T
+BrailleBlock.U.name=Braille Block U
+BrailleBlock.V.name=Braille Block V
+BrailleBlock.W.name=Braille Block W
+BrailleBlock.X.name=Braille Block X
+BrailleBlock.Y.name=Braille Block Y
+BrailleBlock.Z.name=Braille Block Z
+BrailleBlock...name=Braille Block .
+BrailleBlock.,.name=Braille Block ,
+BrailleBlock._.name=Braille Block _
+BrailleBlock2.Q.name=Braille Block Q
+BrailleBlock2.R.name=Braille Block R
+BrailleBlock2.S.name=Braille Block S
+BrailleBlock2.T.name=Braille Block T
+BrailleBlock2.U.name=Braille Block U
+BrailleBlock2.V.name=Braille Block V
+BrailleBlock2.W.name=Braille Block W
+BrailleBlock2.X.name=Braille Block X
+BrailleBlock2.Y.name=Braille Block Y
+BrailleBlock2.Z.name=Braille Block Z
+BrailleBlock2...name=Braille Block .
+BrailleBlock2.,.name=Braille Block ,
+BrailleBlock2._.name=Braille Block _
+
+itemGroup.tabPokeLoot=PokéLoot
 itemGroup.Pokeballs=Poké Balls
 itemGroup.Badges=Medaglie
-
-
+itemGroup.Restoration=Restoration
+itemGroup.Natural=Natural
 itemGroup.Held Items=Oggetti tenuti
 itemGroup.TMs/HMs=Mt/MN
+itemGroup.utilityBlocks=Utility Blocks
+itemGroup.Decoration=Decoration
 
-itemGroup.PixelUtilitiesBlocks=Blocchi PixelUtilities
-itemGroup.PixelUtilitiesItems=Oggetti PixelUtilities
-itemGroup.PixelUtilitiesArmor=Armatura PixelUtilities
-itemGroup.PixelUtilsDecoration=Decorazioni PixelUtilities
-itemGroup.PixelUtilsTools=Attrezzi PixelUtilities
-
-
-
-
-
-
+//Attacks and their Descriptions
+/*
+*   The ones with "attack.attackName.name" are the attacks' actual names and
+*   the ones with "description" at the end are their descriptions.
+*/
 attack.tail whip.name=Colpocoda
 attack.tail whip.description=Chi la usa agita la coda per distrarre i nemici, riducendone la Difesa.
 attack.tackle.name=Azione
