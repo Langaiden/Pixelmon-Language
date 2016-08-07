@@ -5394,6 +5394,7 @@ key.sendpokemon=放出/收回宝可梦
 key.pokemonaction=选择目标宝可梦
 key.pokemonexternal=使用对战外技能
 key.spectateBattle=观战
+key.pixelmonoptions=打开设置界面
 
 halloween.entityname=灵魂珠宝商
 halloween.gemregistered=灵魂珠宝商收到了您的 %s！
