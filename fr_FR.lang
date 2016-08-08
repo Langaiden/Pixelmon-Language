@@ -1,5 +1,5 @@
 /*
-*	Latest translation 18/07/2016
+*	Latest translation 02/08/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -27,12 +27,12 @@ item.MechanicalAnvil.name=Enclume Mécanique
 item.Healer.name=Healer
 item.Trade Machine.name=Machine d'Échange
 item.Fossil Machine.name=Réanimateur de Fossile
-item.Cloning Machine.name=Cloneur
+item.Cloning Machine.name=Machine de Clonage
 item.Fossil Machine Tank.name=Réservoir de machine à fossile
 item.Fossil Machine Display.name=Écran de machine à fossile
 item.Fossil Machine Top.name=Haut de machine à fossile
 item.Fossil Machine Base.name=Base de machine à fossile
-item.Uno Shrine.name=Totem Glacé
+item.Uno Shrine.name=Totem Gelé
 item.Dos Shrine.name=Totem Électrique
 item.Tres Shrine.name=Totem Enflammé
 item.Green Tank.name=Réservoir Vert
@@ -49,11 +49,21 @@ item.Stone Hammer.name=Marteau en Pierre
 item.Iron Hammer.name=Marteau en Fer
 item.Gold Hammer.name=Marteau en Or
 item.Diamond Hammer.name=Marteau en Diamant
+item.Wood_Hammer.name=Marteau en Bois
+item.Stone_Hammer.name=Marteau en Pierre
+item.Iron_Hammer.name=Marteau en Fer
+item.Gold_Hammer.name=Marteau en Or
+item.Diamond_Hammer.name=Marteau en Diamant
 item.Aluminium Hammer.name=Marteau en Aluminium
 item.Aluminium Axe.name=Hache en Aluminium
 item.Aluminium Spade.name=Pelle en Aluminium
 item.Aluminium PickAxe.name=Pioche en Aluminium
 item.Aluminium Hoe.name=Houe en Aluminium
+item.Aluminium_Hammer.name=Marteau en Aluminium
+item.Aluminium_Axe.name=Hache en Aluminium
+item.Aluminium_Spade.name=Pelle en Aluminium
+item.Aluminium_PickAxe.name=Pioche en Aluminium
+item.Aluminium_Hoe.name=Houe en Aluminium
 item.Wailmer Pail.name=Seau Wailmer
 item.Pokemon Editor.name=Éditeur de Pokémon
 item.Trainer Editor.name=Éditeur de Dresseur
@@ -62,6 +72,11 @@ item.Aluminium Helmet.name=Casque en Aluminium
 item.Aluminium Torso.name=Plastron en Aluminium	
 item.Aluminium Leggings.name=Jambières en Aluminium
 item.Aluminium Boots.name=Bottes en Aluminium
+item.Aluminium_Sword.name=Épée en Aluminium
+item.Aluminium_Helmet.name=Casque en Aluminium
+item.Aluminium_Torso.name=Plastron en Aluminium	
+item.Aluminium_Leggings.name=Jambières en Aluminium
+item.Aluminium_Boots.name=Bottes en Aluminium
 item.New Running Boots.name=Chaussures de Course Neuves
 item.Old Running Boots.name=Vieilles Chaussures de Course
 item.Aluminium Ingot.name=Lingot d'Aluminium
@@ -477,6 +492,7 @@ item.DragonFang.name=Croc Dragon
 item.HardStone.name=Pierre Dure
 item.Magnet.name=Aimant
 item.Metal Coat.name=Peau Métal
+item.Prism Scale.name=Bel'Écaille
 item.MiracleSeed.name=Graine Miracle
 item.MysticWater.name=Eau Mystique
 item.NeverMeltIce.name=Glace Éternelle
@@ -806,6 +822,12 @@ item.DawnstoneHoe.name=Houe en Pierre Aube
 item.DawnstonePickaxe.name=Pioche en Pierre Aube
 item.DawnstoneShovel.name=Pelle en Pierre Aube
 item.DawnstoneSword.name=Épée en Pierre Aube
+item.DuskstoneHammer.name=Marteau en Pierre Nuit
+item.DuskstoneAxe.name=Hache en Pierre Nuit
+item.DuskstoneHoe.name=Houe en Pierre Nuit
+item.DuskstonePickaxe.name=Pioche en Pierre Nuit
+item.DuskstoneShovel.name=Pelle en Pierre Nuit
+item.DuskstoneSword.name=Épée en Pierre Nuit
 item.RubyHelm.name=Casque Magma
 item.RubyPlate.name=Plastron Magma
 item.RubyLegs.name=Jambières Magma
@@ -927,11 +949,8 @@ itemGroup.Natural=Nature
 itemGroup.Held Items=Objets Tenus 
 itemGroup.TMs/HMs=CTs/CSs
 itemGroup.utilityBlocks=Blocs Utilitaires
-itemGroup.PixelUtilitiesBlocks=Blocs PixelUtilities
-itemGroup.PixelUtilitiesItems=Objets PixelUtilities
-itemGroup.PixelUtilitiesArmor=Armures PixelUtilities
-itemGroup.PixelUtilsDecoration=Décorations PixelUtilities
-itemGroup.PixelUtilsTools=Outils PixelUtilities
+itemGroup.Decoration=Décoration
+
 //Attacks and their Descriptions
 /*
 *   The ones with attack.attackName.name is the attack's actual name and
@@ -4695,6 +4714,8 @@ pixelmon.blocks.tree.change4=L'arbre utilise désormais le modèle #4.
 
 pixelmon.blocks.movepad.loopbuilderror=Les boucles infinies de plaques de mouvement ne sont pas autorisées !
 
+pixelmon.blocks.gymsign.ownership=This Gym sign does not belong to you.
+
 pixelmon.orb.amountfull=Vous devez encore tuer %d pokemons pour que votre orbe soit plein!
 pixelmon.orb.isfull=Votre orbe est plein!
 
@@ -4986,7 +5007,7 @@ gui.acceptdeny.single=Combat Simple
 gui.acceptdeny.double=Combat Double
 gui.acceptdeny.invaliddouble=%s n'a pas assez de Pokémon pour participer à un combat double !
 
-gui.renamePoke.Reset=Réinitial.
+gui.renamePoke.Reset=Reset
 gui.renamePoke.cancel=Annuler
 gui.renamePoke.renamebutton=Renommer
 gui.renamePoke.renamePokemon=Renommer le Pokemon
@@ -5002,10 +5023,8 @@ gui.screenpokechecker.fainted=*K.O.*
 gui.screenpokechecker.texp=Expérience
 gui.screenpokechecker.levelup=Niveau Supérieur
 gui.screenpokechecker.summary=Résumé
-gui.screenpokechecker.ot=Dresseur DO:
+gui.screenpokechecker.ot=Dresseur Originel
 gui.screenpokechecker.ability=Talent
-
-
 gui.screenpokechecker.happiness=Bonheur
 gui.screenpokechecker.nature=Nature
 gui.screenpokechecker.growth=Taille
@@ -5013,8 +5032,8 @@ gui.screenpokechecker.forget1=Êtes vous sûr de vouloir
 gui.screenpokechecker.forget2=$p oublie
 gui.screenpokechecker.disable=désactiver
 gui.screenpokechecker.enable=activer
-gui.screenpokechecker.move=la prise de niveau de $a ?
-gui.screenpokechecker.effects=Effet
+gui.screenpokechecker.move=$a la prise de niveau ?
+gui.screenpokechecker.effects=Effets
 
 gui.pixelmonspawner.fireontick=Déclenchement par tick
 gui.pixelmonspawner.fireonredstone=Déclenchement par redstone
@@ -5058,9 +5077,8 @@ gui.trainereditor.enteritemname=Entrer le nom de l'Item ou son ID
 gui.trainereditor.winningdrops=Gains de Victoire
 gui.trainereditor.randomise=Aléatoire
 gui.trainereditor.edit=Editer
-gui.trainereditor.add=Ajouter
+gui.trainereditor.add=Ajout
 gui.trainereditor.deletepoke=Supprimer le Pokémon
-
 gui.trainereditor.deletelastpoke=Suppr. le dernier Pokemon
 gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur Pokemon
 gui.trainereditor.advancededitor=Éditeur de Dresseur - Éditeur Pokemon Avancé
@@ -5113,8 +5131,9 @@ gui.shopkeeper.json=Type
 gui.pokemoneditor.title=Édieur de Pokémon
 gui.pokemoneditor.pokeball=PokéBall
 gui.pokemoneditor.importexport=Importer/Exporter
-gui.pokemoneditor.import=Importer
-gui.pokemoneditor.export=Exporter
+gui.pokemoneditor.save=Sauvegarder
+gui.pokemoneditor.reset=Reset
+gui.pokemoneditor.cancel=Annuler
 
 gui.overlay1v1.lv=Lv. 
 
@@ -5238,6 +5257,8 @@ enum.spawnlocation.underground=Souterrain
 enum.spawnlocation.air=Air
 enum.spawnlocation.airpersistent=Air Permanent
 enum.spawnlocation.legendary=Légendaire
+enum.spawnlocation.landnpc=Land NPC
+enum.spawnlocation.landvillager=Land villager
 
 enum.stat.hp=PV
 enum.stat.attack=Attaque
@@ -5325,7 +5346,12 @@ trainer.FireBreather=Crache-Feu
 trainer.RichBoy=Richard
 trainer.Policeman=Policier
 trainer.Rancher=Éleveur
-trainer.ScientistWoman=Scientifique ♀
+trainer.MaleScientist=Scientifique ♂
+trainer.FemaleScientist=Scientifique ♀
+trainer.PreschoolerGirl=Petite Fille
+trainer.PkmnBreederWoman=Éleveuse Pokémon
+trainer.Miner=Mineur
+trainer.Blacksmith=Forgeron
 
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Pack de Ressources personnalisé
@@ -5360,6 +5386,8 @@ trainer.model.rocketgruntfemale3=Crapule ♀ 3
 trainer.model.rocketgruntfemale4=Crapule ♀ 4
 trainer.model.rocketgruntfemale5=Crapule ♀ 5
 trainer.model.rocketgruntfemale6=Crapule ♀ 6
+trainer.model.pkmn_breeder_f=Éleveur 1
+trainer.model.pkmn_breeder_f2=Éleveur 2
 
 npc.model.artist=Artiste
 npc.model.baker=Boulanger
@@ -5369,6 +5397,7 @@ npc.model.cueball=Loubard
 npc.model.doctor=Docteur
 npc.model.engineer=Ingénieur
 npc.model.fisherman=Pêcheur
+npc.model.gnome_trader=Gnome Marchand
 npc.model.hexmaniac=Mystimaniac
 npc.model.hiker=Montagnard
 npc.model.lass=Fillette
@@ -5400,10 +5429,25 @@ npc.model.schoolgirl=Écolière
 npc.model.scientist_f=Scientifique ♀
 npc.model.scientist_m=Scientifique ♂
 npc.model.shopgirl=Commerçante Fille
-npc.model.shoplady=Commerçante Femme
+npc.model.shoplady2=Commerçante 2
+npc.model.shoplady3=Commerçante 3
+npc.model.shoplady4=Commerçante 4
 npc.model.shopman=Commerçant
+npc.model.shopman=Commerçant 2
+npc.model.shopman=Commerçant 3
+npc.model.shopman=Commerçant 4
+npc.model.shopman=Commerçant 5
+npc.model.shopsecondman=Commerçant second
+npc.model.spawntrader=Spawn Trader
 npc.model.streetthug=Racaille
 npc.model.supernerd=Intello
+
+npc.shopkeeper.pokemartmain1=Poké Mart Principal 1
+npc.shopkeeper.pokemartmain2=Poké Mart Principal 2
+npc.shopkeeper.pokemartmain3=Poké Mart Principal 3
+npc.shopkeeper.pokemartsecond1=Poké Mart Second 1
+npc.shopkeeper.pokemartsecond2=Poké Mart Second 2
+npc.shopkeeper.spawn1=Spawn 1
 
 container.MechanicalAnvil=Enclume Mécanique
 
@@ -5533,8 +5577,8 @@ tile.icyrock.name=Pierre Gelée
 tile.trademachine.name=Machine à Échange
 tile.healer.name=Soigneur
 tile.fossilcleaner.name=Nettoyeur de Fossile
-tile.fossilmachine.name=Machine à Fossile
-tile.cloningmachine.name=Machine de Clonage
+tile.fossilmachine.name=Réanimateur de Fossile
+tile.cloningMachine.name=Machine de Clonage
 tile.bauxiteOre.name=Minerai de Bauxite
 tile.Fire Stone Ore.name=Minerai de Pierre Feu
 tile.Water Stone Ore.name=Minerai de Pierre Eau
@@ -5547,9 +5591,9 @@ tile.master chest.name=Master Coffre
 tile.poke chest.name=Poke Coffre
 tile.ultra chest.name=Hyper Coffre
 tile.fossil.name=Fossile
-tile.shrineuno.name=Totem de Glace
+tile.shrineuno.name=Totem Gelé
 tile.shrinedos.name=Totem Électrique
-tile.shrinetres.name=Totem de Flamme
+tile.shrinetres.name=Totem Enflammé
 tile.apricorn tree.name=Noigrumier
 tile.mechanicalanvil.name=Enclume Mécanique
 tile.ranchblock.name=Ranch Block
@@ -5589,11 +5633,12 @@ tile.templeBlock.name=Bloc de Temple
 tile.templeStairs.name=Escalier de Temple
 tile.templeBrickStairs.name=Escalier en Brique de Temple
 tile.templePillar.name=Pilier de Temple
-tile.hiddenCube.name=Cubé Invisible
+tile.hiddenCube.name=Cube Invisible
 tile.hiddenIronDoor.name=Porte en Fer Invisible
 tile.hiddenWoodenDoor.name=Porte en Bois Invisible
 tile.hiddenPressurePlate.name=Plaque de Pression Invisible
 tile.DawnDusk Ore.name=Minerai de Pierre Aube/Nuit
+tile.dawnduskore.name=Minerai de Pierre Aube/Nuit
 tile.templePillar.Pillar.name=Pilier de Temple
 tile.templePillar.BrokenPillar.name=Pilier de Temple cassé
 tile.PokeGift.name=Poké Cadeau
@@ -5674,6 +5719,19 @@ PixelmonGrass.name=Herbe Pixelmon
 timedFall.name=Chute chronométrée
 warpPlate.name=Plaque de téléportation
 elevator.name=Ascenseur
+BlueWaterFloat.name=Flotteur Bleu
+GreenWaterFloat.name=Flotteur Vert
+OrangeWaterFloat.name=Flotteur Orange
+PinkWaterFloat.name=Flotteur Rose
+PurpleWaterFloat.name=Flotteur Violet
+RedWaterFloat.name=Flotteur Rouge
+YellowWaterFloat.name=Flotteur Jaune
+shrineuno.name=Totem Gelé
+shrinedos.name=Totem Électrique
+shrinetres.name=Totem Enflammé
+PicketFenceNormal.name=Palissade
+PicketFenceCorner.name=Palissade Coin
+PicketFenceCross.name=Palissade Croisement
 
 ability.Adaptability.name=Adaptabilité
 ability.Adaptability.description=Augmente la puissance des capacités de même type.
@@ -6405,6 +6463,7 @@ key.pokemonexternal=Utiliser Compétence d'Extérieur
 key.nextexternalmove=Prochaine Compétence 
 key.pokedex=Ouvrir Pokédex/Wiki
 key.spectateBattle=Regarder un combat
+key.pixelmonoptions=Ouvrir les réglages
 
 halloween.entityname=Le Bijoutier Spectral
 halloween.gemregistered=Le Bijoutier Spectral a reçu votre %s
@@ -6478,7 +6537,7 @@ pixelmon.config.sound.tooltip=Paramètres Son
 pixelmon.config.spawning=Spawn
 pixelmon.config.spawning.tooltip=Paramètres de Spawn
 pixelmon.config.starter=Starter
-pixelmon.config.starter.tooltip=Paramètres Starter	
+pixelmon.config.starter.tooltip=Paramètres Starter
 
 pixelmon.config.spawnDimensions=Dimensions de spawn
 pixelmon.config.shinySpawnRate=Ratio d'apparition de Shiny (1/x)
@@ -6501,6 +6560,13 @@ pixelmon.config.Gen3=Génération 3
 pixelmon.config.Gen4=Génération 4
 pixelmon.config.Gen5=Génération 5
 
+pixelmon.config.maxLandPokemon=Pokémon terrestres max
+pixelmon.config.maxUndergroundPokemon=Pokémon souterrains max
+pixelmon.config.maxWaterPokemon=Pokémon aquatiques max
+pixelmon.config.maxFlyingPokemon=Pokémon volants max
+pixelmon.config.maxNumNPCs=Nombre de PNJ max
+pixelmon.config.despawnOnFleeOrLoss=Despawn si défaite/fuite
+
 pixelmon.config.removeVanillaMusic=Désactiver la musique Vanilla
 pixelmon.config.minMusicDelay=Délai minimum musique
 pixelmon.config.maxMusicDelay=Délai maximum musique
@@ -6517,7 +6583,7 @@ pixelmon.config.blocksHaveLegendaries=Spawn de légendaires dans des blocs
 pixelmon.config.pokeGiftReusable=Poké Cadeau réutilisable
 pixelmon.config.pokeGiftHaveEvents=Activer les Poké Cadeaux d'événement
 pixelmon.config.eventPokeGiftLoad=Activer le spawn de Poké Cadeau d'événement
-pixelmon.config.eventHasLegendaries=Autoriser les Légendaires dans les Poké Cadeaux d'événement
+pixelmon.config.eventHasLegendaries=Légendaires dans les Poké Cadeaux d'événement
 pixelmon.config.eventHasShinies=Activer les Poké Cadeaux d'événement Shiny
 pixelmon.config.eventMaxPokemon=Maximum de Pokémon dans les Poké Cadeaux d'événement
 pixelmon.config.eventShinyRate=Ratio de Shiny dans les Poké Cadeaux d'événement (1/x)
@@ -6590,11 +6656,11 @@ pixelmon.config.afkHandlerTurnSeconds=Temps entre chaque attaque du mode AFK
 
 pixelmon.config.allowBreeding=Autoriser la reproduction
 pixelmon.config.allowDittoDittoBreeding=Autoriser la reproduction entre Métarmorph
-pixelmon.config.allowRandomBreedingEggsToBeLegendary=Les reproductions entre Métamorph peuvent produire des Légendaires
+pixelmon.config.allowRandomBreedingEggsToBeLegendary=La reproduction entre Métamorph produit des Légendaires
 pixelmon.config.allowRandomSpawnedEggsToBeLegendary=/pokegiveegg peut donner des Légendaires
 pixelmon.config.allowRanchCrafting=Autoriser la confection de bloc de ranch
 pixelmon.config.useBreedingEnvironment=Activer les environnements de reproduction favorables
-pixelmon.config.breedingEnvironmentCheckSeconds=Délai entre chaque vérification de l'environement de reproduction
+pixelmon.config.breedingEnvironmentCheckSeconds=Délai vérification de l'environement de reproduction
 pixelmon.config.stepsPerEggCycle=Pas entre chaque cycle d'œuf
 pixelmon.config.numBreedingStages=Nombre d'étape de reproduction
 pixelmon.config.breedingTicks=Ticks entre chaque étape
