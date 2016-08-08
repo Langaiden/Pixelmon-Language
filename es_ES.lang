@@ -907,14 +907,15 @@ item.pokeGift.name=Poké Regalo
 
 item.record.asmbts.desc=Un Tranquilo Momento por el Mar
 item.record.atd.desc=A Través del Desierto
-item.record.ds.desc=Costas Remotas
+item.record.ds.desc=Orillas Remotas
 item.record.fptp.desc=De Cumbre en Cumbre
 item.record.jtts.desc=Travesía a los Cielos
 item.record.nf.desc=Anochecer
+item.record.ml.desc=Luz de Luna
 item.record.otwoa.desc=En las Alas de la Aventura
 item.record.pw.desc=Vals de Pixelmon
 item.record.tef.desc=El Bosque Encantado
-item.record.tfl.desc=Las Tierras Heladas
+item.record.tfl.desc=La Tierra Helada
 
 BrailleBlock.A.name=Bloque Braille A
 BrailleBlock.B.name=Bloque Braille B
@@ -4453,6 +4454,7 @@ pixelmon.abilities.shedskin=¡Mudar de %s le cura de todos sus problemas de esta
 pixelmon.abilities.slowstart=¡%s no pudo ponerse en marcha!
 pixelmon.abilities.slowstartend=¡%s finalmente se puso en marcha!
 pixelmon.abilities.snowwarning=¡%s hizo granizar con Nevada!
+pixelmon.abilities.solarpower=¡Poder Solar de %s hace que se esfuerce!
 pixelmon.abilities.soundproof=¡Insonorizar de %s hizo que el ataque no tuviese efecto!
 pixelmon.abilities.static=¡Elec. Estát. de %s paraliza a %s!
 pixelmon.abilities.stormdrain=¡Colector de %s evita el ataque!
