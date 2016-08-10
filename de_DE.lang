@@ -1,5 +1,5 @@
 ﻿/*
-*   @Author AnDwHaT5, I9hdkill
+*   @Author AnDwHaT5, I9hdkill, ghacproductions
 *
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
@@ -3886,9 +3886,9 @@ achievement.teamplasma3.desc=Become a Team Plasma Leader.
 achievement.getSilicon=Get Silicon!
 achievement.getSilicon.desc=Smelt some silicon.
 achievement.pokeGift=Poké Gift Get!
-achievement.pokeGift.desc=Find a Poké Gift from another player.
+achievement.pokeGift.desc=Finde ein Poké Gift eines anderes Spielers.
 achievement.givenPokeGift=Poké Gift Give!
-achievement.givenPokeGift.desc=Leave a Poké Gift for another player.
+achievement.givenPokeGift.desc=Hinterlasse ein Poké Gift für andere Spieler.
 
 //Abilities
 pixelmon.abilities.activated=%s's %s activated!
