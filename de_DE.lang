@@ -1,5 +1,5 @@
 ﻿/*
-*   @Author AnDwHaT5, I9hdkill
+*   @Author AnDwHaT5, I9hdkill, ghacproductions
 *
 *   Hello, and thanks for looking at the lang! If you are here to
 *   translate it there are little tidbits above each section to
@@ -3675,15 +3675,15 @@ pixelmon.blocks.custompokegift=custom event Poké Gift
 
 
 //Poké Balls
-pixelmon.pokeballs.inbattle=That Pokémon ist bereits in einem Kampf!
-pixelmon.pokeballs.alreadyown=You can't catch Pokémon you already own!
-pixelmon.pokeballs.boss=You can't catch boss Pokémon!
+pixelmon.pokeballs.inbattle=Dieses Pokémon ist bereits in einem Kampf!
+pixelmon.pokeballs.alreadyown=Du kannst keine Pokémon fangen, die du bereits besitzt!
+pixelmon.pokeballs.boss=Du kannst keine Boss-Pokémon fangen!
 pixelmon.pokeballs.throw=%s threw the %s!
-pixelmon.pokeballs.capture=You captured %s!
+pixelmon.pokeballs.capture=Du hast %s gefangen!
 pixelmon.pokeballs.brokefree=%s broke free!
 pixelmon.pokeballs.pokeinbattle=You can't catch Pokémon who are battling in another battle!
-pixelmon.pokeballs.otherspokemon=You can't catch other people's Pokémon!
-pixelmon.pokeballs.statue=You can't catch a statue Pokémon!
+pixelmon.pokeballs.otherspokemon=Du kannst keine Pokémon von anderen Spielern fangen!
+pixelmon.pokeballs.statue=Du kannst keine Pokémon-Statuen fangen!
 
 //Storage
 pixelmon.storage.compfull=Du hast in Deinem PC kein Platz mehr!
@@ -3735,7 +3735,7 @@ pixelmon.helditems.ejectbutton=%s's Eject Button caused it to switch out!
 pixelmon.helditems.micleberry=%s's Micle Berry raised its accuracy!
 pixelmon.helditems.ironball=%s couldn't stay airborne because of the Iron Ball!
 
-pixelmon.items.useitem=%s used the %s.
+pixelmon.items.useitem=%s hat %s verwendet.
 
 //Blocks
 pixelmon.blocks.bonemealwatered=It looks well watered today.
@@ -3744,9 +3744,9 @@ pixelmon.blocks.healer=Heiler ist beschäftigt!
 
 pixelmon.blocks.pc.ownership=Dieser PC gehört Dir nicht.
 
-pixelmon.blocks.chestfound=You found one %s!
+pixelmon.blocks.chestfound=Du hast eine %s gefunden!
 pixelmon.blocks.timedclaim=You've already claimed this timed loot! Try again later!
-pixelmon.blocks.claimedloot=You've already claimed this loot!
+pixelmon.blocks.claimedloot=Du hast diesen Loot bereits verwendet!
 pixelmon.blocks.ownerchanged=Block owner changed to server!
 pixelmon.blocks.chestset=Custom Poké Chest Set: %s
 pixelmon.blocks.visible=Poké Chest Visibility: %s
@@ -3763,7 +3763,7 @@ pixelmon.blocks.shrineused=This shrine has already been activated!
 pixelmon.blocks.tradefull=Trading machine full!
 pixelmon.blocks.trader.ownership=This trader does not belong to you.
 
-pixelmon.blocks.noclone=You have nothing to clone!
+pixelmon.blocks.noclone=Du hast nichts zum klonen!
 
 pixelmon.blocks.fossilmachine.fossil=Insert Fossil
 pixelmon.blocks.fossilmachine.pokeball=Insert Poké Ball
@@ -3791,62 +3791,62 @@ pixelmon.blocks.movepad.loopbuilderror=Infinite loops of movement plates are not
 
 pixelmon.blocks.gymsign.ownership=Dieses Gym Schild gehört Dir nicht!
 
-pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
+pixelmon.orb.amountfull=Du brauchst noch %d KOs um das Orb vollständig aufzufüllen!
 pixelmon.orb.isfull=Dein Orb ist voll!
 
 //Achievements
 achievement.ItemFinderChieve=Hidden PokéLoot Hunter!
-achievement.ItemFinderChieve.desc=Craft an Item Finder.
+achievement.ItemFinderChieve.desc=Crafte einen Item Finder.
 achievement.HiddenPokeLootChieve=Hidden PokéLoot FTW!
-achievement.HiddenPokeLootChieve.desc=Find hidden PokéLoot.
+achievement.HiddenPokeLootChieve.desc=Finde verstecktes PokéLoot.
 achievement.NormalPokeLootChieve=PokéLoot FTW!
-achievement.NormalPokeLootChieve.desc=Find a PokéLoot Chest.
+achievement.NormalPokeLootChieve.desc=Finde eine PokéLoot Truhe.
 achievement.LootMasterBallChieve=It's a Master Ball!!!
-achievement.LootMasterBallChieve.desc=Find a PokéLoot Master Ball.
+achievement.LootMasterBallChieve.desc=Finde einen PokéLoot Meisterball.
 achievement.GrottoChieve=There's a passage here...
-achievement.GrottoChieve.desc=Find a Hidden Grotto.
+achievement.GrottoChieve.desc=Finde ein verstecktes Grotto.
 achievement.PokeballChieve=Gotta catch 'em all!
-achievement.PokeballChieve.desc=Craft a Poké Ball.
+achievement.PokeballChieve.desc=Crafte einen Poké Ball.
 achievement.LegendaryChieve=First Legendary
-achievement.LegendaryChieve.desc=Catch your first Legendary.
+achievement.LegendaryChieve.desc=Fange dein erstes Legendary.
 achievement.ShinyChieve=Ooh Shiny!
-achievement.ShinyChieve.desc=Catch a Shiny Pokémon.
+achievement.ShinyChieve.desc=Fange ein Shiny Pokémon.
 achievement.FirstCatchChieve=One down, many to go!
-achievement.FirstCatchChieve.desc=Catch your first Pokémon.
+achievement.FirstCatchChieve.desc=Fange dein erstes Pokémon.
 achievement.TrainerChieve=Victory!
-achievement.TrainerChieve.desc=Win a Trainer battle.
+achievement.TrainerChieve.desc=Gewinne einen Kampf gegen einen Trainer.
 achievement.PvPChieve=Ultimate Victory!
-achievement.PvPChieve.desc=Win a PvP battle.
+achievement.PvPChieve.desc=Gewinne einen PvP Kampf.
 achievement.ApricornChieve=Kurt's Apprentice!
-achievement.ApricornChieve.desc=Cook an Apricorn.
+achievement.ApricornChieve.desc=Koche eine Aprikoko.
 achievement.dex1Chieve=Pokédex: 1%% Complete!
-achievement.dex1Chieve.desc=Complete 1% of the Pokédex.
+achievement.dex1Chieve.desc=Schließe 1% des Pokédex ab.
 achievement.dex10Chieve=Pokédex: 10%% Complete!
-achievement.dex10Chieve.desc=Complete 10% of the Pokédex.
+achievement.dex10Chieve.desc=Schließe 10% des Pokédex ab.
 achievement.dex20Chieve=Pokédex: 20%% Complete!
-achievement.dex20Chieve.desc=Complete 20% of the Pokédex.
+achievement.dex20Chieve.desc=Schließe 20% des Pokédex ab.
 achievement.dex30Chieve=Pokédex: 30%% Complete!
-achievement.dex30Chieve.desc=Complete 30% of the Pokédex.
+achievement.dex30Chieve.desc=Schließe 30% des Pokédex ab.
 achievement.dex40Chieve=Pokédex: 40%% Complete!
-achievement.dex40Chieve.desc=Complete 40% of the Pokédex.
+achievement.dex40Chieve.desc=Schließe 40% des Pokédex ab.
 achievement.dex50Chieve=Pokédex: 50%% Complete!
-achievement.dex50Chieve.desc=Complete 50% of the Pokédex.
+achievement.dex50Chieve.desc=Schließe 50% des Pokédex ab.
 achievement.dex60Chieve=Pokédex: 60%% Complete!
-achievement.dex60Chieve.desc=Complete 60% of the Pokédex.
+achievement.dex60Chieve.desc=Schließe 60% des Pokédex ab.
 achievement.dex70Chieve=Pokédex: 70%% Complete!
-achievement.dex70Chieve.desc=Complete 70% of the Pokédex.
+achievement.dex70Chieve.desc=Schließe 70% des Pokédex ab.
 achievement.dex80Chieve=Pokédex: 80%% Complete!
-achievement.dex80Chieve.desc=Complete 80% of the Pokédex.
+achievement.dex80Chieve.desc=Schließe 80% des Pokédex ab.
 achievement.dex90Chieve=Pokédex: 90%% Complete!
-achievement.dex90Chieve.desc=Complete 90% of the Pokédex.
+achievement.dex90Chieve.desc=Schließe 90% des Pokédex ab.
 achievement.dex100Chieve=Pokédex: Pixelmon Master!
-achievement.dex100Chieve.desc=Complete the Pokédex.
+achievement.dex100Chieve.desc=Schließe das Pokédex ab.
 
 //PixelUtilities Achievements
 achievement.teammagma=Team Magma Wannabe!
-achievement.teammagma.desc=Join Team Magma!
+achievement.teammagma.desc=Trete Team Magma bei!
 achievement.teamaqua=Team Aqua Wannabe!
-achievement.teamaqua.desc=Join Team Aqua!
+achievement.teamaqua.desc=Trete Team Aqua bei!
 achievement.teammagma1=Team Magma Grunt!
 achievement.teammagma1.desc=Become a Team Magma Grunt.
 achievement.teamaqua1=Team Aqua Grunt!
@@ -3886,9 +3886,9 @@ achievement.teamplasma3.desc=Become a Team Plasma Leader.
 achievement.getSilicon=Get Silicon!
 achievement.getSilicon.desc=Smelt some silicon.
 achievement.pokeGift=Poké Gift Get!
-achievement.pokeGift.desc=Find a Poké Gift from another player.
+achievement.pokeGift.desc=Finde ein Poké Gift eines anderes Spielers.
 achievement.givenPokeGift=Poké Gift Give!
-achievement.givenPokeGift.desc=Leave a Poké Gift for another player.
+achievement.givenPokeGift.desc=Hinterlasse ein Poké Gift für andere Spieler.
 
 //Abilities
 pixelmon.abilities.activated=%s's %s activated!
