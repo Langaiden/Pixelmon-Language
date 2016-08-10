@@ -886,6 +886,18 @@ item.DuskstoneBoots.name=Dusk Stone Boots
 item.PicketFence.name=Picket Fence
 item.pokeGift.name=Poké Gift
 
+item.record.asmbts.desc=A Simple Moment by the Sea
+item.record.atd.desc=Across the Desert
+item.record.ds.desc=Distant Shores
+item.record.fptp.desc=From Peak to Peak
+item.record.jtts.desc=Journey to the Sky
+item.record.nf.desc=Nightfall
+item.record.ml.desc=Moonlight
+item.record.otwoa.desc=On the Wings of Adventure
+item.record.pw.desc=Pixelmon Waltz
+item.record.tef.desc=The Enchanted Forest
+item.record.tfl.desc=The Frozen Land
+
 BrailleBlock.A.name=Braille Block A
 BrailleBlock.B.name=Braille Block B
 BrailleBlock.C.name=Braille Block C
@@ -3513,6 +3525,8 @@ pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each 
 pixelmon.entitytrainer.level=Lv: 
 pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
 
+trainer.edit.opwarning=You don't have permission to edit NPCs.
+
 pixelmon.statue.despawn=The Pokémon has been despawned.
 
 pixelutilities.blocks.emptygift=You found an empty %s. :(
@@ -4063,7 +4077,7 @@ gui.pokemoneditor.save=Save
 gui.pokemoneditor.reset=Reset
 gui.pokemoneditor.cancel=Cancel
 gui.pokemoneditor.errorimport=Import error
-gui.pokemoneditor.notallowedserver=Pokémon editors cannot be used on this server.
+gui.pokemoneditor.notallowedserver=You are not allowed to use Pokémon editors.
 gui.pokemoneditor.notallowedplayer=%s does not allow Pokémon editors.
 gui.pokemoneditor.editedplayer=%s is editing your Pokémon.
 gui.pokemoneditor.cancelediting=%s cancelled your editing.
