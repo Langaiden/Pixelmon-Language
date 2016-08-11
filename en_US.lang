@@ -5413,7 +5413,8 @@ key.sendpokemon=Send Out Pokémon
 key.pokemonaction=Select Target Pokémon
 key.pokemonexternal=Use External Move
 key.nextexternalmove=Next External Move
-key.pokedex=Open Pokédex/Wiki
+key.pokedex=Open Pokédex
+key.wiki=Open Wiki
 key.spectateBattle=Spectate Battle
 key.pixelmonoptions=Open Config Screen
 
