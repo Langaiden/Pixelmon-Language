@@ -1,5 +1,5 @@
 /*
-*	Latest translation 02/08/2016
+*	Latest translation 11/08/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4579,6 +4579,9 @@ pixelmon.entitytrainer.oncemcday=Ce dresseur ne peut être combattu qu'une fois 
 pixelmon.entitytrainer.onceplayer=Ce dresseur ne peut être combattu qu'une fois par joueur.
 pixelmon.entitytrainer.level=Niv:
 pixelmon.entitytrainer.winnings=Vous remportez %s PokéDollars en vainquant %s !
+
+trainer.edit.opwarning=Vous n'avez pas la permission de modifier les PNJs.
+
 pixelmon.statue.despawn=Le Pokémon a été supprimé.
 
 pixelutilities.blocks.emptygift=Vous avez trouvé un %s vide. :(
@@ -4888,6 +4891,7 @@ pixelmon.abilities.sandstream=Sable Volant du %s provoque une tempête de sable 
 pixelmon.abilities.sapsipper=Herbivore du %s annule l'attaque !
 pixelmon.abilities.shedskin=Mue a guéri %s de sa maladie !
 pixelmon.abilities.snowwarning=Il grêle grâce à Alerte Neige du %s
+pixelmon.abilities.solarpower=Force Soleil du %s le met à rude épreuve !
 pixelmon.abilities.soundproof=Anti-Bruit du %s a rendu l'attaque inutile !
 pixelmon.abilities.static=Statik du %s paralyse %s !
 pixelmon.abilities.stormdrain=Lavabo du %s rends l'attaque inutile !
@@ -5128,12 +5132,17 @@ gui.chooseNPC.shopkeeper=Créer un Vendeur
 
 gui.shopkeeper.json=Type
 
-gui.pokemoneditor.title=Édieur de Pokémon
+gui.pokemoneditor.title=Éditeur de Pokémon
 gui.pokemoneditor.pokeball=PokéBall
 gui.pokemoneditor.importexport=Importer/Exporter
 gui.pokemoneditor.save=Sauvegarder
 gui.pokemoneditor.reset=Reset
 gui.pokemoneditor.cancel=Annuler
+gui.pokemoneditor.errorimport=Erreur d'importation
+gui.pokemoneditor.notallowedserver=Vous n'avez pas le droit d'utiliser l'Éditeur de Pokémon.
+gui.pokemoneditor.notallowedplayer=%s n'autorise pas l'Éditeur de Pokémon.
+gui.pokemoneditor.editedplayer=%s modifie votre Pokémon.
+gui.pokemoneditor.cancelediting=%s a annulé votre modification.
 
 gui.overlay1v1.lv=Lv. 
 
@@ -6649,6 +6658,7 @@ pixelmon.config.allowPayDayMoney=Jackpot génère de l'argent
 pixelmon.config.pickupRate=Ratio de Ramassage
 pixelmon.config.bedsHealPokemon=Dormir soigne les Pokémon
 pixelmon.config.useBattleCamera=Utiliser caméra de combat
+pixelmon.config.allowPokemonEditors=Autoriser l'Éditeur de Pokémon.
 
 pixelmon.config.enableAFKHandler=Mode AFK actif
 pixelmon.config.afkActivateSeconds=Délai d'activation du mode AFK
@@ -6744,6 +6754,7 @@ pixelmon.config.allowPayDayMoney.comment=Autorise Jackpot à récompenser en Pok
 pixelmon.config.pickupRate.comment=Chance que le talent Ramassage se déclenche après un combat (1/ratio). 0 désactive ceci.
 pixelmon.config.bedsHealPokemon.comment=Dormir dans un lit soigne les Pokémon d'un joueur.
 pixelmon.config.useBattleCamera.comment=Définir si vous passez à une caméra externe lors des combats ou non.
+pixelmon.config.allowPokemonEditors.comment=Côté serveur, définit si les joueurs peuvent utiliser l'Éditeur de Pokémon. Côté client, définit si les autres joueurs peuvent utiliser l'Éditeur de Pokémon sur un joueur avec cette option.
 
 pixelmon.config.spawnDimensions.comment=Liste de dimensions dans lesquelles les Pokémon pourront apparaître.
 pixelmon.config.shinySpawnRate.comment=Le calcul de Shiny utilise 1/Ratio Shiny pour obtenir une chance d'avoir un Shiny.
