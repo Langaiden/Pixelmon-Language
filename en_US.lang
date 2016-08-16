@@ -5419,7 +5419,8 @@ key.sendpokemon=Send Out Pokémon
 key.pokemonaction=Select Target Pokémon
 key.pokemonexternal=Use External Move
 key.nextexternalmove=Next External Move
-key.pokedex=Open Pokédex/Wiki
+key.pokedex=Open Pokédex
+key.wiki=Open Wiki
 key.spectateBattle=Spectate Battle
 key.pixelmonoptions=Open Config Screen
 
@@ -5512,6 +5513,8 @@ pixelmon.config.spawnPokeMarts=Spawn shopkeepers
 pixelmon.config.increaseVillageSpawnRate=Increase village spawn rate
 pixelmon.config.useRecentLevelMoves=Spawn with recent moves
 pixelmon.config.spawnGyms=Spawn Gyms
+pixelmon.config.spawnLevelsByDistance=Spawn Levels By Distance
+pixelmon.config.distancePerLevel=Distance per level
 
 pixelmon.config.Gen1=Generation 1
 pixelmon.config.Gen2=Generation 2
@@ -5719,6 +5722,8 @@ pixelmon.config.spawnPokeMarts.comment=Poke Marts will spawn with shopkeepers in
 pixelmon.config.increaseVillageSpawnRate.comment=Increase the Minecraft village spawn rate by 100%.
 pixelmon.config.useRecentLevelMoves.comment=If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
 pixelmon.config.spawnGyms.comment=Sets spawning of Gyms in close proximity to newly generated towns on or off.
+pixelmon.config.spawnLevelsByDistance.comment=Sets whether or not Pokemon levels are determined by distance from the World's spawn point.
+pixelmon.config.distancePerLevel.comment=Number of blocks for a level increase when Spawn Levels By Distance enabled.
 
 pixelmon.config.Gen1.comment=Pokedex 1-151
 pixelmon.config.Gen2.comment=Pokedex 152-251
