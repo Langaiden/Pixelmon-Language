@@ -4097,6 +4097,7 @@ gui.starter.comingsoon=Coming Soon...
 gui.starter.disabled=Disabled
 
 gui.pc.box=Box: 
+gui.pc.releasewarning=Are you sure you want to release %s?
 
 gui.selectpokemon.message=Select a Pokémon!
 
