@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: July 28, 2016 - by ToklaX
+* Last Update: August 17, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 28 de Julio de 2016 por ToklaX
+* Última actualización: 17 de Agosto de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -4705,6 +4705,7 @@ gui.starter.commingsoon=Próximamente...
 gui.starter.disabled=No permitido
 
 gui.pc.box=Caja: 
+gui.pc.releasewarning=¿Seguro que quieres liberar a %s?
 
 gui.selectpokemon.message=¡Selecciona un Pokémon!
 
