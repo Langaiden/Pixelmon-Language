@@ -1,5 +1,5 @@
 /*
-*	Latest translation 11/08/2016
+*	Latest translation 27/08/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -5155,6 +5155,7 @@ gui.starter.commingsoon=A venir...
 gui.starter.disabled=Désactivé
 
 gui.pc.box=Boîte n°
+gui.pc.releasewarning=Êtes vous sûr de vouloir libérer %s ?
 
 gui.selectpokemon.message=Selectionnez un Pokémon!
 
