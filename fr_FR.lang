@@ -1,5 +1,5 @@
 /*
-*	Latest translation 27/08/2016
+*	Latest translation 29/08/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4533,9 +4533,9 @@ pixelmon.drops.plural2=Vous avez reçu %d %s!
 pixelmon.drops.plurales=Vous avez reçu %d %ses!
 pixelmon.drops.pluralruby=Vous avez reçu %s Rubis !
 
-pixelmon.interaction.helditem=%s a recu le %s.
-pixelmon.interaction.hprestore=HP de %s ont été restaurés.
-pixelmon.interaction.pprestore=PP de %s ont été restaurés.
+pixelmon.interaction.helditem=%s a reçu le %s.
+pixelmon.interaction.hprestore=Les PdV de %s ont été restaurés.
+pixelmon.interaction.pprestore=Les PP de %s ont été restaurés.
 pixelmon.interaction.ppfail=%s est déjà au maximum de ses PP!
 pixelmon.interaction.rarecandy=La montée de niveau pour %s est désactivé
 pixelmon.interaction.statusfail=Cet objet n'aura aucun effet.
