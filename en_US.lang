@@ -5612,6 +5612,7 @@ pixelmon.config.pickupRate=Pickup rate
 pixelmon.config.bedsHealPokemon=Beds heal Pokémon
 pixelmon.config.useBattleCamera=Use battle camera
 pixelmon.config.allowPokemonEditors=Allow Pokemon editors
+pixelmon.config.dataSaveOnWorldSave.comment=If players party and computer are forcefully saved upon every world save (If false, you should be saving data via /saveall, or risk data loss)
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
