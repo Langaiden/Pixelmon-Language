@@ -3922,7 +3922,7 @@ gui.trading.notready=Não está pronto
 gui.trading.want=$d quer fazer uma troca.
 gui.trading.nuf=Nenhum usuário encontrado!
 gui.trading.trade=Trocar
-gui.trading.select=Selecione um Pokémon.
+gui.trading.select=Escolha um Pokémon.
 
 gui.pokedex.pokedex=Pokédex
 gui.pokedex.height=Altura:
@@ -3939,7 +3939,7 @@ gui.pokedexoptions.options=Opções de Pokédex
 gui.pokedexoptions.metric=Métrico
 gui.pokedexoptions.imperial=Imperial/US Customary
 
-gui.yesno.trade=Você gostaria de trocar seu/sua $e pelo meu/minha $o?
+gui.yesno.trade=Você gostaria de trocar o(a) $e pelo(a) $o?
 gui.yesno.yes=Sim
 gui.yesno.no=Não
 gui.yesno.yousure=Você deseja desistir de aprender $m?
@@ -3985,18 +3985,18 @@ gui.screenpokechecker.effects=Efeitos
 gui.pixelmonspawner.fireontick=Fire on Tick
 gui.pixelmonspawner.fireonredstone=Fire on Redstone
 gui.pixelmonspawner.pcms=Pixelmon Custom Mob Spawner
-gui.pixelmonspawner.pokemonlist=Pokémon List
-gui.pixelmonspawner.name=Pokémon Name
-gui.pixelmonspawner.rarity=Rarity
-gui.pixelmonspawner.spawntick=Spawn Tick
-gui.pixelmonspawner.radius=Spawn Radius
-gui.pixelmonspawner.maxspawns=Max Spawns
-gui.pixelmonspawner.minspawns=Min Spawns
-gui.pixelmonspawner.maxlevel=Max Level
-gui.pixelmonspawner.minlevel=Min Level
-gui.pixelmonspawner.bossratio=Boss Ratio
-gui.pixelmonspawner.aggression=Aggression
-gui.pixelmonspawner.spawnlocation=Spawn Location
+gui.pixelmonspawner.pokemonlist=Lista Pokémon
+gui.pixelmonspawner.name=Nome do Pokémon
+gui.pixelmonspawner.rarity=Raridade
+gui.pixelmonspawner.spawntick=Intervalo do Spawn
+gui.pixelmonspawner.radius=Distância do Spawn
+gui.pixelmonspawner.maxspawns=Máx de Spawns
+gui.pixelmonspawner.minspawns=Mín de Spawns
+gui.pixelmonspawner.maxlevel=Nível Máximo
+gui.pixelmonspawner.minlevel=Nível Mínimo
+gui.pixelmonspawner.bossratio=Taxa de chefes
+gui.pixelmonspawner.aggression=Agressividade
+gui.pixelmonspawner.spawnlocation=Localização do Spawn
 
 gui.creativeinv.fainted=Desmaiado
 gui.creativeinv.hp=HP
@@ -4013,7 +4013,7 @@ gui.trainereditor.name=Nome
 gui.trainereditor.model=Modelo
 gui.trainereditor.lvl=Nvl
 gui.trainereditor.additem=Adicionar Item
-gui.trainereditor.moreinfo=Trainer Editor - More Info
+gui.trainereditor.moreinfo=Editor de Treinador - Mais Informações
 gui.trainereditor.greeting=Saudação
 gui.trainereditor.win=Ganhar
 gui.trainereditor.lose=Perder
@@ -4022,7 +4022,7 @@ gui.trainereditor.winningdrops=Drops Premiados
 gui.trainereditor.adddrops=Adcionar Drops
 gui.trainereditor.enteritemname=Insira o Nome do Item ou ID
 gui.trainereditor.winningdrops=Drops Premiados
-gui.trainereditor.randomise=Aleatorizar
+gui.trainereditor.randomise=Randomizar
 gui.trainereditor.edit=Editar
 gui.trainereditor.add=Adicionar
 gui.trainereditor.deletepoke=Deletar Pokémon
@@ -4044,7 +4044,7 @@ gui.trainereditor.evs=EVs
 gui.trainereditor.ivs=IVs
 gui.trainereditor.maxivs=Máx de IVs
 gui.trainereditor.minivs=Mín de IVs
-gui.trainereditor.randomivs=Aleatorizar IVs
+gui.trainereditor.randomivs=Randomizar IVs
 gui.trainereditor.resetevs=Resetar EVs
 gui.trainereditor.helditem=Item de Auxílio
 gui.trainereditor.form=Forma
@@ -4060,113 +4060,113 @@ gui.tradereditor.level=Nível
 gui.tradereditor.offer=Oferta:
 gui.tradereditor.exchange=Troca:
 gui.tradereditor.delete=Deletar Negociante
-gui.tradereditor.changeTrainer=Mudar para Treinador
-gui.tradereditor.random=Aleatorizar
-gui.trainereditor.changeTrader=Mudar para Negociante
+gui.tradereditor.changeTrainer=Mudar Treinador
+gui.tradereditor.random=Randomizar
+gui.trainereditor.changeTrader=Mudar Negociante
 
 gui.chooseNPC.trainer=Criar NPC Treinador
-gui.chooseNPC.trader=Create Negociante
-gui.chooseNPC.chatting=Create Chatting NPC
+gui.chooseNPC.trader=Criar Negociante
+gui.chooseNPC.chatting=Criar NPC Conversante
 gui.chooseNPC.relearner=Create Move Relearner
 gui.chooseNPC.tutor=Create Move Tutor
-gui.chooseNPC.nursejoy=Create Doctor
-gui.chooseNPC.shopkeeper=Create Shopkeeper
+gui.chooseNPC.nursejoy=Criar Doutor
+gui.chooseNPC.shopkeeper=Criar Lojista
 
-gui.shopkeeper.json=Type
+gui.shopkeeper.json=Tipo
 
-gui.pokemoneditor.title=Pokémon Editor
-gui.pokemoneditor.pokeball=Poké Ball
-gui.pokemoneditor.importexport=Import/Export
-gui.pokemoneditor.save=Save
-gui.pokemoneditor.reset=Reset
-gui.pokemoneditor.cancel=Cancel
-gui.pokemoneditor.errorimport=Import error
-gui.pokemoneditor.notallowedserver=You are not allowed to use Pokémon editors.
-gui.pokemoneditor.notallowedplayer=%s does not allow Pokémon editors.
-gui.pokemoneditor.editedplayer=%s is editing your Pokémon.
-gui.pokemoneditor.cancelediting=%s canceled your editing.
+gui.pokemoneditor.title=Editor de Pokémon
+gui.pokemoneditor.pokeball=Pokébola
+gui.pokemoneditor.importexport=Importar/Exportar
+gui.pokemoneditor.save=Salvar
+gui.pokemoneditor.reset=Resetar
+gui.pokemoneditor.cancel=Cancelar
+gui.pokemoneditor.errorimport=Erro ao importar
+gui.pokemoneditor.notallowedserver=Você não tem permissão para usar Editores de Pokémon.
+gui.pokemoneditor.notallowedplayer=%s não permite Editores de Pokémon.
+gui.pokemoneditor.editedplayer=%s está editando seu Pokémon.
+gui.pokemoneditor.cancelediting=%s cancelou sua edição.
 
-gui.overlay1v1.lv=Lv. 
+gui.overlay1v1.lv=Nv. 
 
 gui.starter.trademark1=This is a fan-made mod. All trademarks and copyright for Pokémon are owned
 gui.starter.trademark2=by Nintendo and Game Freak Inc.
 gui.starter.trademark3=Support Nintendo/Game Freak by buying Pokémon X/Y.
 gui.starter.trademark4=Bem-vindo ao mundo de Pokémon!! Obrigado por instalar este mod!
-gui.starter.trademark5=Agora, por favor selecione o seu Pokémon inicial desejado!
+gui.starter.trademark5=Agora, por favor escolha o seu Pokémon inicial desejado!
 gui.starter.comingsoon=Em breve...
 gui.starter.disabled=Desabilitado
 
 gui.pc.box=Caixa: 
-gui.pc.releasewarning=Você tem certeza que quer soltar %s?
+gui.pc.releasewarning=Você tem certeza que deseja soltar seu %s?
 
-gui.selectpokemon.message=Selecione um Pokémon!
+gui.selectpokemon.message=Escolha um Pokémon!
 
-gui.update.text=Update
-gui.label.text=Label
-gui.save.text=Save
-gui.texture.text=Texture
-gui.cancel.text=Cancel
-gui.description.text=Description
-gui.boss.text=Boss:
+gui.update.text=Atualizar
+gui.label.text=Rótulo
+gui.save.text=Salvar
+gui.texture.text=Textura
+gui.cancel.text=Cancelar
+gui.description.text=Descrição
+gui.boss.text=Chefe:
 
-gui.mail.seal=Seal letter
-gui.mail.close=Close letter
+gui.mail.seal=Selar Carta
+gui.mail.close=Fechar Carta
 
-gui.nursejoy.name=Nurse John
-gui.nursejoy.healing=Let me just heal those Pokémon for you!
-gui.nursejoy.full=I'm sorry. I can't find an available healer.
+gui.nursejoy.name=Enfermeiro John
+gui.nursejoy.healing=Deixe-me curar esses Pokémons para você!
+gui.nursejoy.full=Eu sinto muito. Eu não consigo encontrar uma Máquina de Cura disponível.
 
-gui.shopkeeper.money=Money
-gui.shopkeeper.price=Price
-gui.shopkeeper.quantity=Quantity
-gui.shopkeeper.buy=Buy
-gui.shopkeeper.sell=Sell
-gui.shopkeeper.name=Shopkeeper
+gui.shopkeeper.money=Dinheiro
+gui.shopkeeper.price=Preço
+gui.shopkeeper.quantity=Quantidade
+gui.shopkeeper.buy=Comprar
+gui.shopkeeper.sell=Vender
+gui.shopkeeper.name=Lojista
 
-gui.shopkeepereditor.refreshItems=Refresh Items
+gui.shopkeepereditor.refreshItems=Atualizar Itens
 
-gui.model.standing=Standing
-gui.model.flying=Flying
-gui.model.animation=Animation
-gui.model.frame=Frame
-gui.model.walk=Walking
-gui.model.idle=Idle
-gui.model.fly=Flying
+gui.model.standing=De pé
+gui.model.flying=Voando
+gui.model.animation=Animação
+gui.model.frame=Quadro
+gui.model.walk=Andando
+gui.model.idle=Parado
+gui.model.fly=Vôo
 
-enum.aggro.timid=Timid
-enum.aggro.default=Default
-enum.aggro.passive=Passive
-enum.aggro.aggressive=Aggressive
-enum.trainerBoss.notboss=Not Boss
-enum.trainerBoss.equal=Equal
-enum.trainerBoss.uncommon=Uncommon
-enum.trainerBoss.rare=Rare
-enum.trainerBoss.legendary=Legendary
-enum.trainerBoss.ultimate=Ultimate
-enum.trainerAI.standstill=Stand Still
-enum.trainerAI.stillandengage=Still and Engage
-enum.trainerAI.wander=Wander
-enum.trainerAI.wanderandengage=Wander and Engage
-enum.battleAI.default=Default
-enum.battleAI.random=Random
-enum.battleAI.aggressive=Aggressive
-enum.battleAI.tactical=Tactical
-enum.battleAI.advanced=Advanced
-enum.trainerEncounter.once=Once
-enum.trainerEncounter.onceperday=Once per Day
-enum.trainerEncounter.oncepermcday=Once per MC Day
-enum.trainerEncounter.onceperplayer=Once per Player
-enum.trainerEncounter.unlimited=Unlimited
+enum.aggro.timid=Tímido
+enum.aggro.default=Padrão
+enum.aggro.passive=Passivo
+enum.aggro.aggressive=Agressivo
+enum.trainerBoss.notboss=Não-Chefe
+enum.trainerBoss.equal=Igual
+enum.trainerBoss.uncommon=Incomum
+enum.trainerBoss.rare=Raro
+enum.trainerBoss.legendary=Lendário
+enum.trainerBoss.ultimate=Final
+enum.trainerAI.standstill=Ficar Imóvel
+enum.trainerAI.stillandengage=Imóvel e Empenhado
+enum.trainerAI.wander=Vagante
+enum.trainerAI.wanderandengage=Vagante e Empenhado
+enum.battleAI.default=Padrão
+enum.battleAI.random=Randômico
+enum.battleAI.aggressive=Agressivo
+enum.battleAI.tactical=Tático
+enum.battleAI.advanced=Avançado
+enum.trainerEncounter.once=Uma vez
+enum.trainerEncounter.onceperday=Uma vez por Dia
+enum.trainerEncounter.oncepermcday=Uma vez por MC Dia
+enum.trainerEncounter.onceperplayer=Uma vez por Player
+enum.trainerEncounter.unlimited=Ilimitado
 
-enum.growth.microscopic=Microscopic
-enum.growth.pygmy=Pygmy
-enum.growth.runt=Runt
-enum.growth.small=Small
-enum.growth.ordinary=Ordinary
-enum.growth.huge=Huge
-enum.growth.giant=Giant
-enum.growth.enormous=Enormous
-enum.growth.ginormous=Ginormous
+enum.growth.microscopic=Microscópico
+enum.growth.pygmy=Pigmeu
+enum.growth.runt=Anão
+enum.growth.small=Pequeno
+enum.growth.ordinary=Comum
+enum.growth.huge=Grande
+enum.growth.giant=Gigante
+enum.growth.enormous=Enorme
+enum.growth.ginormous=Gigantenorme
 
 enum.nature.adamant=Adamant
 enum.nature.bashful=Bashful
@@ -4196,99 +4196,99 @@ enum.nature.timid=Timid
 
 enum.statuetex.originaltexture=Original
 enum.statuetex.shiny=Shiny
-enum.statuetex.stone=Stone
-enum.statuetex.gold=Gold
+enum.statuetex.stone=Pedra
+enum.statuetex.gold=Ouro
 enum.statuetex.bronze=Bronze
-enum.statuetex.silver=Silver
-enum.statuetex.bossred=Red Boss
-enum.statuetex.bossgreen=Green Boss
-enum.statuetex.bossblue=Blue Boss
-enum.statuetex.bossyellow=Yellow Boss
+enum.statuetex.silver=Prata
+enum.statuetex.bossred=Chefe Vermelho
+enum.statuetex.bossgreen=Chefe Verde
+enum.statuetex.bossblue=Chefe Azul
+enum.statuetex.bossyellow=Chefe Amarelo
 
-enum.spawnlocation.land=Land
-enum.spawnlocation.water=Water
-enum.spawnlocation.underground=Underground
-enum.spawnlocation.air=Air
-enum.spawnlocation.airpersistent=Air Persistent
-enum.spawnlocation.legendary=Legendary
+enum.spawnlocation.land=Terra
+enum.spawnlocation.water=Água
+enum.spawnlocation.underground=Subterrâneo
+enum.spawnlocation.air=Ar
+enum.spawnlocation.airpersistent=Persistente Aéreo
+enum.spawnlocation.legendary=Lendário
 
 enum.stat.hp=HP
-enum.stat.attack=Attack
-enum.stat.defence=Defense
-enum.stat.specialattack=Special Attack
-enum.stat.specialdefence=Special Defense
-enum.stat.speed=Speed
-enum.stat.accuracy=Accuracy
-enum.stat.evasion=Evasion
+enum.stat.attack=Ataque
+enum.stat.defence=Defesa
+enum.stat.specialattack=Ataque Especial
+enum.stat.specialdefence=Defesa Especial
+enum.stat.speed=Velocidade
+enum.stat.accuracy=Precisão
+enum.stat.evasion=Evasão
 
-gui.battle.effect=Effect
-gui.battle.description=Description
-gui.battle.accuracy=Accuracy
-gui.battle.power=Power
-gui.battle.back=Back
-gui.battle.whatdo=What will $p do?
-gui.battle.type=Type:
+gui.battle.effect=Efeito
+gui.battle.description=Descrição
+gui.battle.accuracy=Precisão
+gui.battle.power=Poder
+gui.battle.back=Voltar
+gui.battle.whatdo=O que $p irá fazer?
+gui.battle.type=Tipo:
 
-gui.levelupscreen.lvlup=Your $p has grown to level $l!
+gui.levelupscreen.lvlup=Seu(ua) $p cresceu para o nível $l!
 
-gui.mainmenu.fight=FIGHT
-gui.mainmenu.bag=BAG
+gui.mainmenu.fight=LUTAR
+gui.mainmenu.bag=MOCHILA
 gui.mainmenu.pokemon=POKÉMON
-gui.mainmenu.run=RUN
-gui.mainmenu.whatdo=What will $p do?
-gui.mainmenu.cantswitch=You can't switch Pokémon right now!
-gui.mainmenu.traped=$p is trapped! You cannot flee!
-gui.mainmenu.trainer=You can't run from this battle!
-gui.mainmenu.already=You've already selected another action this turn!
+gui.mainmenu.run=CORRER
+gui.mainmenu.whatdo=O que $p irá fazer?
+gui.mainmenu.cantswitch=Você não pode mudar de Pokémon agora!
+gui.mainmenu.traped=$p está preso! Você não pode fugir!
+gui.mainmenu.trainer=Você não pode fugir desta batalha!
+gui.mainmenu.already=Você já selecionou outra ação neste turno!
 
-gui.choosebag.pokeballs=Poké Balls
-gui.choosebag.hppp=HP/PP Restore
-gui.choosebag.statusrestore=Status Restore
-gui.choosebag.battleitems=Battle Items
-gui.choosebag.nopokeballs=You can't use Poké Balls in this battle!
-gui.choosebag.multiple=You cannot use Poké Balls while there are multiple Pokémon against you!
+gui.choosebag.pokeballs=Pokébolas
+gui.choosebag.hppp=Restaurador de HP/PP
+gui.choosebag.statusrestore=Restaurador de Status
+gui.choosebag.battleitems=Itens de Batalha
+gui.choosebag.nopokeballs=Você não pode usar Pokébolas nesta batalha!
+gui.choosebag.multiple=Você não pode usar Pokébolas enquanto há vários Pokémons contra você!
 
-gui.choosepokemon.select=Select a Pokémon to use it on.
-gui.choosepokemon.sendout=Choose a Pokémon to send out.
+gui.choosepokemon.select=Escolha um Pokémon para usar.
+gui.choosepokemon.sendout=Escolha um Pokémon para enviar para fora.
 
-gui.npctrader.their=Given Pokémon
-gui.npctrader.yours=Looking For
+gui.npctrader.their=Pokémon dado
+gui.npctrader.yours=Procurando por
 
-gui.choosemoveset.title=Choose a Moveset
-gui.choosemoveset.power=Power
-gui.choosemoveset.attackdetails=Attack Details
-gui.choosemoveset.chosen=Chosen Moves
-gui.choosemoveset.full=Full Move List
-gui.choosemoveset.choosemove=Choose a Move
-gui.choosemoveset.relearnmove=Relearn Move
-gui.choosemoveset.cost=Cost:
+gui.choosemoveset.title=Escolha um set de Movimentos
+gui.choosemoveset.power=Poder
+gui.choosemoveset.attackdetails=Detalhes dos Ataques
+gui.choosemoveset.chosen=Movimentos Escolhidos
+gui.choosemoveset.full=Lista Completa de Movimentos
+gui.choosemoveset.choosemove=Escolha um Movimento
+gui.choosemoveset.relearnmove=Reaprender Movimento
+gui.choosemoveset.cost=Custo:
 
-gui.tutor.addmove=Add Move
-gui.tutor.deletemove=Delete Move
+gui.tutor.addmove=Adicionar Movimento
+gui.tutor.deletemove=Deletar Movimento
 gui.tutor.itemname=Item
-gui.tutor.itemamount=Amount
-gui.tutor.itemdamage=Damage
-gui.tutor.addcost=Add Cost
-gui.tutor.deletetutor=Delete Tutor
-gui.tutor.canlearn=Can learn
-gui.tutor.cantlearn=Can't learn
-gui.tutor.already=Already learned
+gui.tutor.itemamount=Quantidade
+gui.tutor.itemdamage=Dano
+gui.tutor.addcost=Adicionar Custo
+gui.tutor.deletetutor=Deletar Tutor
+gui.tutor.canlearn=Pode aprender
+gui.tutor.cantlearn=Não pode aprender
+gui.tutor.already=Já aprendeu
 
-gui.ranch.managePokemon=Manage Pokémon
-gui.ranch.claimEgg=Claim Egg
+gui.ranch.managePokemon=Gerir Pokémon
+gui.ranch.claimEgg=Receber Ovo
 gui.ranch.extendplusx=+X
 gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
 gui.ranch.extendminusz=-Z
-gui.ranch.extendTitle=Extend ranch block contained area
-gui.ranch.empty=There are no Pokémon in the ranch.
-ranch.hourglass.upgradedall=All breeding Pokémon increased a breeding level.
-ranch.hourglass.upgrade=%s increased a breeding level.
+gui.ranch.extendTitle=Estender área contida de Bloco Incubador
+gui.ranch.empty=Não há Pokémons na Incubadora.
+ranch.hourglass.upgradedall=Todos os Pokémon reprodutores aumentaram um nível de reprodução.
+ranch.hourglass.upgrade=%s aumentou um nível de reprodução.
 
-gui.trader.eggDescription=I wonder what this will hatch into...
+gui.trader.eggDescription=Eu me pergunto o que isto vai chocar...
 
-gui.spectate.spectateMessage=Press $l to spectate $p's battle.
-gui.spectate.stopspectate=Stop Spectating
+gui.spectate.spectateMessage=Pressione $l para assistir à batalha de $p.
+gui.spectate.stopspectate=Parar de assistir
 
 trainer.Steve=Steve
 trainer.Youngster=Youngster
@@ -4405,32 +4405,32 @@ npc.model.spawntrader=Spawn Trader
 npc.model.streetthug=Street Thug
 npc.model.supernerd=Super Nerd
 
-npc.shopkeeper.pokemartmain1=Poké Mart Main 1
-npc.shopkeeper.pokemartmain2=Poké Mart Main 2
-npc.shopkeeper.pokemartmain3=Poké Mart Main 3
-npc.shopkeeper.pokemartsecond1=Poké Mart Second 1
-npc.shopkeeper.pokemartsecond2=Poké Mart Second 2
+npc.shopkeeper.pokemartmain1=Poké Mercado Primário 1
+npc.shopkeeper.pokemartmain2=Poké Mercado Primário 2
+npc.shopkeeper.pokemartmain3=Poké Mercado Primário 3
+npc.shopkeeper.pokemartsecond1=Poké Mercado Secundário 1
+npc.shopkeeper.pokemartsecond2=Poké Mercado Secundário 2
 npc.shopkeeper.spawn1=Spawn 1
 
-container.MechanicalAnvil=Mechanical Anvil
+container.MechanicalAnvil=Bigorda Mecânica
 
-attack.category.physical=Physical
-attack.category.special=Special
+attack.category.physical=Físico
+attack.category.special=Especial
 attack.category.status=Status
 
-nbt.attack.name=Attack:
-nbt.defense.name=Defense:
-nbt.speed.name=Speed:
-nbt.spattack.name=Sp. Attack:
-nbt.spdefense.name=Sp. Defense:
+nbt.attack.name=Ataque:
+nbt.defense.name=Defesa:
+nbt.speed.name=Velocidade:
+nbt.spattack.name=Ataque esp.:
+nbt.spdefense.name=Defesa esp.:
 nbt.hp.name=HP:
 nbt.pp.name=PP:
 
-nbt.attack2.name=Attack
-nbt.defense2.name=Defense
-nbt.speed2.name=Speed
-nbt.spattack2.name=Sp. Attack
-nbt.spdefense2.name=Sp. Defense
+nbt.attack2.name=Ataque
+nbt.defense2.name=Defesa
+nbt.speed2.name=Velocidade
+nbt.spattack2.name=Ataque esp
+nbt.spdefense2.name=Defesa esp
 nbt.hp2.name=HP
 
 //  Main Chat Messages
@@ -4444,85 +4444,85 @@ nbt.hp2.name=HP
 *   the previous "$p" and "$m" what have you do not apply here!
 */
 
-battlecontroller.escaped=%s escaped!
-battlecontroller.!escaped=%s couldn't escape!
-battlecontroller.initbattle.you=You initiated a battle with %s!
-battlecontroller.initbattle.toyou=%s initiated a battle with you!
-battlecontroller.flinched=%s has flinched!
-battlecontroller.fainted=Your %s fainted!
-battlecontroller.hasfainted=%s fainted!
-battlecontroller.outofpokemon=You've run out of usable Pokémon!
-battlecontroller.sendout=%s sent out %s!
-battlecontroller.switch=Choose a new Pokémon to send out!
-battlecontroller.targets=Choose the target for $a.
-battlecontroller.win=You've won the battle!
-battlecontroller.afktimer=Turn timer: 
-battlecontroller.forfeitask=Do you want to forfeit the battle?
-battlecontroller.forfeit=%s forfeited the battle!
-battlecontroller.forfeitself=You forfeited the battle.
-battlecontroller.draw=The battle has been declared a draw.
+battlecontroller.escaped=%s escapou!
+battlecontroller.!escaped=%s não conseguiu escapar!
+battlecontroller.initbattle.you=Você iniciou uma batalha com %s!
+battlecontroller.initbattle.toyou=%s Você iniciou uma batalha com você!
+battlecontroller.flinched=%s recuou!
+battlecontroller.fainted=Seu(ua) %s está desmaiado!
+battlecontroller.hasfainted=%s está desmaiado!
+battlecontroller.outofpokemon=Você ficou sem Pokémons utilizáveis!
+battlecontroller.sendout=%s enviou %s!
+battlecontroller.switch=Escolha um novo Pokémon para lutar!
+battlecontroller.targets=Escolha o alvo para $a.
+battlecontroller.win=Você ganhou a batalha!
+battlecontroller.afktimer=Tempo do turno:
+battlecontroller.forfeitask=Você quer abandonar a batalha?
+battlecontroller.forfeit=%s abandonou a batalha!
+battlecontroller.forfeitself=Você abandonou a batalha.
+battlecontroller.draw=A batalha foi declarada empate.
 
 type.normal=Normal
-type.fire=Fire
-type.water=Water
-type.electric=Electric
-type.grass=Grass
-type.ice=Ice
-type.fighting=Fighting
-type.poison=Poison
-type.ground=Ground
-type.flying=Flying
-type.psychic=Psychic
-type.bug=Bug
-type.rock=Rock
-type.ghost=Ghost
-type.dragon=Dragon
-type.dark=Dark
-type.steel=Steel
+type.fire=Fogo
+type.water=Água
+type.electric=Elétrico
+type.grass=Planta
+type.ice=Gelo
+type.fighting=Lutador
+type.poison=Venenoso
+type.ground=Terra
+type.flying=Voador
+type.psychic=Psíquico
+type.bug=Inseto
+type.rock=Pedra
+type.ghost=Fantasma
+type.dragon=Dragão
+type.dark=Sombrio
+type.steel=Aço
 
-aitargetenvironment.seessomething=Your Pokémon sees something.
+aitargetenvironment.seessomething=Seu Pokémon está vendo alguma coisa.
 
-batonpass.failed=But it failed!
-batonpass.pass=%s passes a baton!
-batonpass.noleft=There are no Pokémon left to switch to!
+batonpass.failed=Mas ele falhou!
+batonpass.pass=%s passa um bastão!
+batonpass.noleft=Não há Pokémons restantes para mudar!
 
-teleport.away=%s teleported away!
+teleport.away=%s teletransportou-se!
 
-applyperish.heard=%s heard the Perish Song!
-applyperish.already=%s has already heard the song!
+applyperish.heard=%s ouviu a Música da Morte!
+applyperish.already=%s já ouviu a música!
 
-playerparticipant.enough=That's enough %s!
-playerparticipant.withdrew=%s withdrew %s!
-playerparticipant.go=Go %s!
-playerparticipant.load=Couldn't load Pokémon's moves!
+playerparticipant.enough=É o bastante %s!
+playerparticipant.withdrew=%s retirou %s!
+playerparticipant.go=Vai %s!
+playerparticipant.load=Não foi possível carregar os movimentos de Pokémon!
 
-multiplehit.times=%s attacked %d times!
+multiplehit.times=%s atacou %d vezes!
 
-recoil.damage=%s took recoil damage!
+recoil.damage=%s tomou dano de recuo!
 
-battlequery.declined=%s declined the battle!
+battlequery.declined=%s recusou a batalha!
 
-command.battle.battlebetween=Battle between %s and %s started!
+command.battle.battlebetween=A batalha entre %s e %s foi iniciada!
 
-bagpacket.itemnotfound=Item could not be found!
-bagpacket.battlenotfound=Battle could not be found!
+bagpacket.itemnotfound=Item não pôde ser encontrado!
+bagpacket.battlenotfound=Batalha não pôde ser encontrada!
 
-deletemove.forgot=Your %s forgot %s!
+deletemove.forgot=Seu %s esqueceu %s!
 
-replacemove.replace=Your %s forgot %s and learned %s!
+replacemove.replace=Seu %s esqueceu %s e aprendeu %s!
 
-externalMove.forage.name=Forage
+externalMove.forage.name=Pilhagem
 
-externalMove.Cut.fail=%s isn't strong enough to cut that down!
+externalMove.Cut.fail=%s não é forte o suficiente para cortar tão baixo!
 
-sendpixelmon.sentout=You sent out %s!
-sendpixelmon.cantbattle=%s is unable to battle!
-sendpixelmon.inbattle=%s is in a battle!
-sendpixelmon.retrieved=You retrieved %s!
+sendpixelmon.sentout=Você enviou %s!
+sendpixelmon.cantbattle=%s está incapaz de lutar!
+sendpixelmon.inbattle=%s está em batalha!
+sendpixelmon.retrieved=Você retornou %s!
 
-camera.error.samepokemon=You have already took a photo of this %s!
+camera.error.samepokemon=Você já tirou uma foto deste/dessa %s!
 
-spawn.legendarymessage=A Legendary has spawned in a %s biome!
+spawn.legendarymessage=Um Lendário spawnou em um bioma de %s!
 
 @Author Dayaffe
 //Blocks
@@ -4611,8 +4611,8 @@ tile.ultrachest.name=Ultra Chest
 tile.masterchest.name=Master Chest
 tile.stickPlate.name=Stick Plate
 
-PokeDirt.name=PokéDirt
-PokeSand.name=PokéSand
+PokeDirt.name=Pokéterra
+PokeSand.name=Pokéareia
 PokeSandC1.name=PokéSand Corner 1
 PokeSandC2.name=PokéSand Corner 2
 PokeSandC3.name=PokéSand Corner 3
@@ -5612,6 +5612,7 @@ pixelmon.config.pickupRate=Pickup rate
 pixelmon.config.bedsHealPokemon=Beds heal Pokémon
 pixelmon.config.useBattleCamera=Use battle camera
 pixelmon.config.allowPokemonEditors=Allow Pokemon editors
+pixelmon.config.dataSaveOnWorldSave.comment=If players party and computer are forcefully saved upon every world save (If false, you should be saving data via /saveall, or risk data loss)
 
 pixelmon.config.enableAFKHandler=AFK Handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
