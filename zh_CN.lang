@@ -874,8 +874,6 @@ item.record.pw.desc=像素精灵华尔兹
 item.record.tef.desc=魔法森林
 item.record.tfl.desc=冰冻大陆
 
-
-
 BrailleBlock.A.name=雕文方块 A
 BrailleBlock.B.name=雕文方块 B
 BrailleBlock.C.name=雕文方块 C
@@ -3497,6 +3495,8 @@ pixelmon.entitytrainer.level=Lv:
 
 pixelmon.entitytrainer.winnings=您获得了 %s 宝可梦币因为击败了 %s！
 
+trainer.edit.opwarning=你没有修改NPC的权限。
+
 pixelmon.statue.despawn=宝可梦已被禁止生成
 
 pixelutilities.blocks.emptygift=你发现了一个空的 %s  _(:3」∠)_
@@ -4073,6 +4073,11 @@ gui.shopkeeper.json=类型
 gui.pokemoneditor.title=宝可梦编辑器
 gui.pokemoneditor.pokeball=宝可梦球
 gui.pokemoneditor.importexport=导入/导出
+gui.pokemoneditor.errorimport=导入错误
+gui.pokemoneditor.notallowedserver=你没有权限使用这个宝可梦编辑器。
+gui.pokemoneditor.notallowedplayer=%s 不被允许使用宝可梦编辑器。
+gui.pokemoneditor.editedplayer=%s 正在修改您的宝可梦编辑器。
+gui.pokemoneditor.cancelediting=%s 取消了您的修改。
 gui.pokemoneditor.save=保存
 gui.pokemoneditor.reset=重置
 gui.pokemoneditor.cancel=删除
@@ -4094,6 +4099,7 @@ gui.starter.comingsoon=即将开放…
 gui.starter.disabled=未启用
 
 gui.pc.box=精灵箱: 
+gui.pc.releasewarning=你确定你要放生 %s 吗？
 
 gui.update.text=更改
 gui.label.text=标签
@@ -5387,7 +5393,8 @@ key.categories.pixelmon=Pixelmon - 精灵宝可梦
 key.descend=骑乘宝可梦时下降/下潜
 key.minmaxoverlay=最小化/最大化 视图
 key.nextexternalmove=下一个对战外技能
-key.pokedex=打开宝可梦图鉴/百科
+key.pokedex=打开宝可梦图鉴
+key.wiki=打开百科
 key.nextpokemon=下一个精灵槽
 key.previouspokemon=上一个精灵槽
 key.sendpokemon=放出/收回宝可梦
@@ -5489,6 +5496,8 @@ pixelmon.config.spawnPokeMarts=生成商店
 pixelmon.config.increaseVillageSpawnRate=提高村庄生成率
 pixelmon.config.useRecentLevelMoves=生成技能回忆师
 pixelmon.config.spawnGyms=生成道馆
+pixelmon.config.spawnLevelsByDistance=宝可梦等级距离 
+pixelmon.config.distancePerLevel=每等级间的距离
 
 pixelmon.config.Gen1=1世代
 pixelmon.config.Gen2=2世代
@@ -5585,6 +5594,9 @@ pixelmon.config.allowPayDayMoney=允许聚宝功使用金钱。
 pixelmon.config.pickupRate=捡拾几率
 pixelmon.config.useBattleCamera=使用对战镜头
 
+pixelmon.config.allowPokemonEditors=允许使用宝可梦编辑器
+pixelmon.config.dataSaveOnWorldSave.comment=如果玩家背包或PC被强制保存，则自动保存世界（如果为false，则你需要通过/saveall指令来保存内容，或自行承担数据丢失的问题）
+
 pixelmon.config.enableAFKHandler=启用AFK程序
 pixelmon.config.afkActivateSeconds=AFK激活秒数
 pixelmon.config.afkHandlerTurnSeconds=AFK反应秒数
@@ -5663,7 +5675,7 @@ pixelmon.config.allowEventMoveTutors.comment=允许技能教学师自然生成�
 pixelmon.config.useCustomTabList.comment=请您选择并切换到您喜欢的Tab表列。true为Pixelmon的，false为原版的。
 pixelmon.config.starterOnJoin.comment=请您选择提供/不提供当一个玩家进入游戏时的首发伙伴(通过Pixelmon的进入页面)。
 pixelmon.config.enablePointToSteer.comment=在安装好时启用查看宝可梦。
-pixelmon.config.useSystemTimeForWorldTime.comment=是否让游戏使用现实时间(根据服务端运行的电脑的时间)。
+pixelmon.config.useSystemTimeForWorldTime.comment=是否让游戏使用现实时间(根据服务端的系统时间)。
 pixelmon.config.systemTimeSyncInterval.comment=将之前的时间同步为系统时间(以秒为单位)。
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=是否允许图鉴打开维基页面。
 pixelmon.config.useExternalJSONFiles.comment=从外部的"pixelmon"文件夹加载配置。若设置为true并且不存在"pixelmon"文件夹，则Pixelmon将创建该文件夹，并转存数据文件。
@@ -5676,6 +5688,8 @@ pixelmon.config.expModifier.comment=宝可梦对战获得的经验的倍数。
 pixelmon.config.multiplePhotosOfSamePokemon.comment=允许玩家重复获得相同的精灵照片。
 pixelmon.config.pickupRate.comment=捡拾特性在战斗后获得道具的几率 (1/几率). 0 为禁用此功能。
 pixelmon.config.useBattleCamera.comment=是否设置对战镜头改为外部镜头设置。
+
+pixelmon.config.allowPokemonEditors.comment=当使用服务器端时，此选项设置其他玩家是否可以使用宝可梦编辑器。当在客户端使用时，是否允许其他玩家修改另一人的宝可梦编辑器。
 
 pixelmon.config.spawnTickRate.comment=生成宝可梦前允许的实体数目。
 pixelmon.config.allowPayDayMoney.comment=允许宝可梦币被聚宝功使用。
@@ -5693,6 +5707,8 @@ pixelmon.config.spawnPokeMarts.comment=在Minecraft村庄里生成宝可梦商�
 pixelmon.config.increaseVillageSpawnRate.comment=提高Minecraft村庄的生成率到100%
 pixelmon.config.useRecentLevelMoves.comment=如果为true将按照宝可梦最近一次升级时的招式来生成。若为false按照宝可梦随机选择升级时的技能来生成。
 pixelmon.config.spawnGyms.comment=设置是否关闭生成道馆周围的村子。
+pixelmon.config.spawnLevelsByDistance.comment=是否让宝可梦等级根据与世界出生点的距离来提升。
+pixelmon.config.distancePerLevel.comment=当开启时，设置多少方块数来作为每次提升野生宝可梦等级的距离依据。
 
 pixelmon.config.Gen1.comment=宝可梦图鉴 1-151
 pixelmon.config.Gen2.comment=宝可梦图鉴 152-251
@@ -5763,4 +5779,3 @@ pixelmon.config.elevatorSearchRange.comment=设置升降机的最大上下范围
 pixelmon.config.starterLevel.comment=初始宝可梦等级(最小=5, 最大=100).
 pixelmon.config.starterShiny.comment=初始宝可梦是否闪光
 pixelmon.config.starterList.comment=初始宝可梦数量(15只满)
-
