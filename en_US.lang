@@ -5515,6 +5515,7 @@ pixelmon.config.increaseVillageSpawnRate=Increase village spawn rate
 pixelmon.config.useRecentLevelMoves=Spawn with recent moves
 pixelmon.config.spawnGyms=Spawn Gyms
 pixelmon.config.spawnLevelsByDistance=Spawn Levels By Distance
+pixelmon.config.maxLevelByDistance=Maximum Spawn Level (by distance)
 pixelmon.config.distancePerLevel=Distance per level
 
 pixelmon.config.Gen1=Generation 1
@@ -5725,6 +5726,7 @@ pixelmon.config.increaseVillageSpawnRate.comment=Increase the Minecraft village 
 pixelmon.config.useRecentLevelMoves.comment=If true, Pokémon will spawn with the most recent moves in their level-up movepools. If false, Pokémon will spawn with random moves from their level-up movepools.
 pixelmon.config.spawnGyms.comment=Sets spawning of Gyms in close proximity to newly generated towns on or off.
 pixelmon.config.spawnLevelsByDistance.comment=Sets whether or not Pokemon levels are determined by distance from the World's spawn point.
+pixelmon.config.maxLevelByDistance.comment=Maximum level Pokemon will spawn at when Spawn Levels By Distance enabled.
 pixelmon.config.distancePerLevel.comment=Number of blocks for a level increase when Spawn Levels By Distance enabled.
 
 pixelmon.config.Gen1.comment=Pokedex 1-151
