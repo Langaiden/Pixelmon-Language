@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: August 17, 2016 - by ToklaX
+* Last Update: September 15, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 17 de Agosto de 2016 por ToklaX
+* Última actualización: 15 de Septiembre de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -4088,7 +4088,7 @@ pixelmon.command.givemoney.nomoney=¡%s no tiene Pokedólares para restar!
 pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para la gorra no son válidos. Deberá ser rojo/verde/azul con valores entre 0-255.
 
 //Other
-pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s calló al suelo!
+pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s cayó al suelo!
 pixelmon.drops.single=¡Has recibido un(a) %s!
 pixelmon.drops.singlean=¡Has recibido un(a) %s!
 pixelmon.drops.singlenoa=¡Has recibido %s!
@@ -4100,8 +4100,8 @@ pixelmon.drops.pluralruby=¡Has recibido %d Rubíes!
 pixelmon.interaction.helditem=%s ahora tiene %s.
 pixelmon.interaction.hprestore=Los PS de %s fueron restaurados.
 pixelmon.interaction.pprestore=Los PP de %s fueron restaurados.
-pixelmon.interaction.ppfail=%s already has full PP!
-pixelmon.interaction.rarecandy=Subir de nivel con %s no está permitido.
+pixelmon.interaction.ppfail=¡%s ya tiene los PP al máximo!
+pixelmon.interaction.rarecandy=Incrementar el nivel con %s no está autorizado.
 pixelmon.interaction.statusfail=El objeto no tendrá ningún efecto.
 pixelmon.interaction.statusheal=El estado de %s fue curado.
 pixelmon.interaction.tmknown=¡%s ya conoce %s!
@@ -4138,11 +4138,11 @@ pixelmon.stats.learnedmove=¡%s aprendió %s!
 
 pixelmon.entities.syncpassed=¡La sincronización pasó sobre %s!
 
-pixelmon.entitytrainer.goodrod=¡Recibiste una Caña Buena!
-pixelmon.entitytrainer.superrod=¡Recibiste una Super Caña!
-pixelmon.entitytrainer.onceday=Sólo puedes luchar contra este entrenador una vez al día.
-pixelmon.entitytrainer.oncemcday=Sólo puedes luchar contra este entrenador una vez por cada día de minecraft.
-pixelmon.entitytrainer.onceplayer=Sólo puedes luchar una vez contra este entrenador.
+pixelmon.entitytrainer.goodrod=¡Has recibido una Caña Buena!
+pixelmon.entitytrainer.superrod=¡Has recibido una Super Caña!
+pixelmon.entitytrainer.onceday=Sólo puedes combatir una vez al día contra este entrenador.
+pixelmon.entitytrainer.oncemcday=Sólo puedes combatir una vez cada día de minecraft contra este entrenador.
+pixelmon.entitytrainer.onceplayer=Sólo puedes combatir una vez contra este entrenador.
 pixelmon.entitytrainer.level=Nvl: 
 pixelmon.entitytrainer.winnings=¡Has ganado %s Pokedólares al derrotar a %s!
 
@@ -5116,7 +5116,7 @@ externalMove.forage.name=Rastrear
 
 externalMove.Cut.fail=¡%s no es bastante fuerte para cortar esto!
 
-sendpixelmon.sentout=¡Sacaste a %s!
+sendpixelmon.sentout=¡Has sacado a %s!
 sendpixelmon.cantbattle=¡%s no puede combatir!
 sendpixelmon.inbattle=¡%s está en combate!
 sendpixelmon.retrieved=¡Has retirado a %s!
@@ -6119,7 +6119,8 @@ pixelmon.config.spawnPokeMarts=Aparición de Tiendas
 pixelmon.config.increaseVillageSpawnRate=Incrementar tasa de aparición de las Aldeas
 pixelmon.config.useRecentLevelMoves=Aparición con ataques recientes
 pixelmon.config.spawnGyms=Aparición de Gimnasios
-pixelmon.config.spawnLevelsByDistance=Niveles de aparición por Distancia
+pixelmon.config.spawnLevelsByDistance=Nivel de aparición por Distancia
+pixelmon.config.maxLevelByDistance=Máximo Nivel de Aparición (por distancia)
 pixelmon.config.distancePerLevel=Distancia por nivel
 
 pixelmon.config.Gen1=Generación 1
@@ -6239,7 +6240,7 @@ pixelmon.config.shiny=Iniciales Shiny
 pixelmon.config.starterList=Lista de Iniciales
 
 pixelmon.config.connectionString=String de conexión
-pixelmon.config.saveToExternalDatabase=Usar database superior para guardar
+pixelmon.config.saveToExternalDatabase=Usar base de datos externa para guardar
 
 pixelmon.config.elevatorSearchRange=Buscar rango (arriba/abajo)
 
@@ -6312,6 +6313,7 @@ pixelmon.config.pickupRate.comment=Probabilidad de que la Habilidad Recogida rec
 pixelmon.config.bedsHealPokemon.comment=Si el dormir en camas cura los Pokémon del jugador.
 pixelmon.config.useBattleCamera.comment=Establece si se desea o no cambiar a una cámara externa durante los combates.
 pixelmon.config.allowPokemonEditors.comment=Server-side, si los jugadores pueden usar editores Pokémon. Client-side, si otros jugadores pueden usar un editor Pokémon en el jugador con el ajuste.
+pixelmon.config.dataSaveOnWorldSave.comment=Si los jugadores del grupo y del ordenador serán guardados a la fuerza en cada guardado de mundo (Si está desactivado, es recomendable guardar mediante /saveall, o te arriesgas a perder datos)
 
 pixelmon.config.spawnTickRate.comment=Número de ticks antes de que se produzca un intento de hacer aparecer entiedades.
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
@@ -6328,8 +6330,9 @@ pixelmon.config.spawnPokeMarts.comment=Las Tiendas Pokémon aparecerán con come
 pixelmon.config.increaseVillageSpawnRate.comment=Incrementa la tasa de aparición de aldeas de Minecraft en un 100%.
 pixelmon.config.useRecentLevelMoves.comment=Si está activado, los Pokémon aparecerán con sus ataques más recientes de su lista de movimientos. Si está desactivado, los Pokémon aparecerán con ataques aleatorios de su lista de movimientos.
 pixelmon.config.spawnGyms.comment=Activa o desactiva la aparición de Gimnasios en las proximidades de nuevas aldeas generadas.
-pixelmon.config.spawnLevelsByDistance.comment=Establece si los niveles de los Pokémon están determinados o no por distancia en relación al punto de aparición en el Mundo.
-pixelmon.config.distancePerLevel.comment=Número de bloques necesarios para incrementar el nivel cuando Niveles de aparición por Distancia está activo.
+pixelmon.config.spawnLevelsByDistance.comment=Establece si los niveles de los Pokémon están determinados o no por la distancia en relación al tu primer punto de aparición en el Mundo.
+pixelmon.config.maxLevelByDistance.comment=Máximo nivel al que los Pokémon aparecerán cuando Nivel de Aparición por Distancia está activado.
+pixelmon.config.distancePerLevel.comment=Número de bloques necesarios para incrementar el nivel cuando Nivel de aparición por Distancia está activado.
 
 pixelmon.config.Gen1.comment=Pokédex 1-151
 pixelmon.config.Gen2.comment=Pokédex 152-251
