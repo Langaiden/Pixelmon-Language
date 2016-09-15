@@ -1,5 +1,5 @@
 /*
-*	Latest translation 11/08/2016
+*	Latest translation 31/08/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -4533,9 +4533,9 @@ pixelmon.drops.plural2=Vous avez reçu %d %s!
 pixelmon.drops.plurales=Vous avez reçu %d %ses!
 pixelmon.drops.pluralruby=Vous avez reçu %s Rubis !
 
-pixelmon.interaction.helditem=%s a recu le %s.
-pixelmon.interaction.hprestore=HP de %s ont été restaurés.
-pixelmon.interaction.pprestore=PP de %s ont été restaurés.
+pixelmon.interaction.helditem=%s a reçu le %s.
+pixelmon.interaction.hprestore=Les PdV de %s ont été restaurés.
+pixelmon.interaction.pprestore=Les PP de %s ont été restaurés.
 pixelmon.interaction.ppfail=%s est déjà au maximum de ses PP!
 pixelmon.interaction.rarecandy=La montée de niveau pour %s est désactivé
 pixelmon.interaction.statusfail=Cet objet n'aura aucun effet.
@@ -5155,6 +5155,7 @@ gui.starter.commingsoon=A venir...
 gui.starter.disabled=Désactivé
 
 gui.pc.box=Boîte n°
+gui.pc.releasewarning=Êtes vous sûr de vouloir libérer %s ?
 
 gui.selectpokemon.message=Selectionnez un Pokémon!
 
@@ -6602,8 +6603,9 @@ pixelmon.config.eventCoords=Coordonnées d'apparition Poké Cadeau d'événement
 pixelmon.config.lowResTextures=Mode Patate
 pixelmon.config.useSmoothShadingOnPokeBalls=Smooth shading des Pokéballs
 pixelmon.config.useSmoothShadingOnPokemon=Smooth shading des Pokémon
-pixelmon.config.useOriginalPokemonTexturesForStatues=Les statues utilisent les textures origniales
+pixelmon.config.useOriginalPokemonTexturesForStatues=Les statues utilisent les textures originales
 pixelmon.config.showCurrentAttackTarget=Afficher la cible des attaques
+pixelmon.config.drawHealthBars=Afficher la barre de vie des Pokémon
 
 pixelmon.config.awardPhotos=Photo du Pokémon en cas de victoire
 pixelmon.config.wildCanFlee=Autoriser la fuite des Pokémon Sauvages
@@ -6800,6 +6802,7 @@ pixelmon.config.useSmoothShadingOnPokeBalls.comment=Utiliser les normal map SMD 
 pixelmon.config.useSmoothShadingOnPokemon.comment=UUtiliser les normal map SMD pour l'ombrage des Pokemons.
 pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Utiliser les textures originales des Pokémons pour les statues.
 pixelmon.config.showCurrentAttackTarget.comment=Affiche le Pokémon actuellement cible des attaques à l'écran.
+pixelmon.config.drawHealthBars.comment=Afficher la vie de chaque Pokémons dans une barre au dessus de leurs têtes.
 
 pixelmon.config.allowBreeding.comment=Autorise la pose de blocs de ranch, nécessaire pour la reproduction de Pokémon.
 pixelmon.config.allowDittoDittoBreeding.comment=Autorise deux Métamorph à se reproduire et à produire des Oeufs contenant des Pokémons aléatoire.
