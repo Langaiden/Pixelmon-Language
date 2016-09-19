@@ -2246,7 +2246,7 @@ pixelmon.exeggcute.name=蛋蛋
 pixelmon.exeggcute.description=通過心電感應互相交流，因而就算分開6隻蛋蛋，也能馬上重新聚在一起。
 pixelmon.exeggutor.name=椰蛋樹
 pixelmon.exeggutor.description=被稱作是會走的熱帶雨林，長大了的頭部掉落到地面之後就成了蛋蛋。
-pixelmon.marowak.name=嘎拉嘎拉
+pixelmon.marowak.name=嘎啦嘎啦
 pixelmon.marowak.description=可以熟練自如地運用自出生的時候就握著的骨頭棒，性情凶暴。
 pixelmon.hitmonchan.name=快拳郎
 pixelmon.hitmonchan.description=一邊旋轉手臂一邊出拳，連混凝土也能粉碎.每戰鬥3分鐘就要稍微休息一下。
@@ -2560,8 +2560,8 @@ pixelmon.pidgey.name=波波
 pixelmon.pidgey.description=有著不喜歡戰鬥的成熟性格，但一旦被攻擊之後會發動猛烈的反擊。
 pixelmon.pidgeotto.name=比比鳥
 pixelmon.pidgeotto.description=一邊在廣闊的領地上空盤旋，一邊搜尋獵物.用發達的爪子捕殺獵物。
-pixelmon.pidgeot.name=比雕
-pixelmon.pidgeot.description=比雕用儘力氣扑打翅膀時，捲起的強風連大樹都能折斷。
+pixelmon.pidgeot.name=大比鳥
+pixelmon.pidgeot.description=大比鳥用盡力氣撲打翅膀時，捲起的強風連大樹都能折斷。
 pixelmon.murkrow.name=黑暗鴉
 pixelmon.murkrow.description=看到黑暗鴉後不經意間跟隨它的話，會被丟在山道上而迷路。
 pixelmon.treecko.name=木守宮
@@ -3090,7 +3090,7 @@ pixelmon.manaphy.name=瑪納霏
 pixelmon.manaphy.description=利用與生俱來的神奇力量，能和任何寶可夢心靈相通。
 pixelmon.darkrai.name=達克萊伊
 pixelmon.darkrai.description=為了保護自己，會讓周圍的人或寶可夢做噩夢。但是它本身並沒有惡意。
-pixelmon.shaymin.name=潔咪
+pixelmon.shaymin.name=謝米
 pixelmon.shaymin.description=當它被人類溫柔地抱在懷中，感受到感恩之心時，全身的鮮花就會綻放。
 pixelmon.arceus.name=阿爾宙斯
 pixelmon.arceus.description=據說它從虛無之處的一顆蛋中誕生，然後創造了整個世界。
@@ -3264,7 +3264,7 @@ pixelmon.deerling.name=四季鹿
 pixelmon.deerling.description=不僅是在季節變化的時候，根據氣溫和濕度不同，身體的顏色也會稍稍變化。
 pixelmon.sawsbuck.name=芽吹鹿
 pixelmon.sawsbuck.description=隨著季節的變遷改變住處，因此也有人認為是它帶來了春天。
-pixelmon.emolga.name=導電飛鼠
+pixelmon.emolga.name=電飛鼠
 pixelmon.emolga.description=一邊展開薄膜在空中飛翔，一邊用臉頰上的電氣囊中儲存的電力讓對手觸電。
 pixelmon.karrablast.name=蓋蓋蟲
 pixelmon.karrablast.description=襲擊小嘴蝸的時候受到電氣能量的照射，不知怎麼就進化了。
@@ -3414,8 +3414,8 @@ pixelmon.command.breed.nullslot=There is no Pokémon in slot %s!
 pixelmon.command.copyToDB.disabled=Saving to database is not enabled in the config!
 pixelmon.command.endbattle.notinbattle=%s並不在戰鬥中。
 pixelmon.command.endbattle.endbattle=對戰圓滿落幕。
-pixelmon.command.endbattle.permissionself=你沒有權限來結束你的戰鬥。
-pixelmon.command.endbattle.permissionother=你沒有權限結束別人的戰鬥。
+pixelmon.command.endbattle.permissionself=您沒有權限來結束戰鬥。
+pixelmon.command.endbattle.permissionother=您沒有權限結束別人的戰鬥。
 pixelmon.command.freeze.frozen=Pixelmon被冰凍在原地！
 pixelmon.command.freeze.unfrozen=Pixelmon解凍了！
 pixelmon.command.general.cheater=作弊！
@@ -3423,7 +3423,7 @@ pixelmon.command.general.lvlerror=等級錯誤！
 pixelmon.command.general.notingame=%s尚未在遊戲中！
 pixelmon.command.general.invalid=無效的參數！
 pixelmon.command.general.invalidplayer=無效的名稱！ 請重試。
-pixelmon.command.general.inbattle=你不能同時在戰鬥中使用這個命令！
+pixelmon.command.general.inbattle=您不能同時在戰鬥中使用這個命令！
 pixelmon.command.give.givesuccess=成功給予%s一個%s！
 pixelmon.command.give.notifygive=%s給了%s%s！
 pixelmon.command.give.givesuccessegg=成功給予了%s一顆%s的蛋！
@@ -3437,11 +3437,11 @@ pixelmon.command.snapshot.nosave=No blocks have been saved yet!
 pixelmon.command.spawn.spawned=成功生成了%s。
 pixelmon.command.spawn.spawnednotify=%s成功生成了%s。
 pixelmon.command.spectate.nobattle=%s並不在戰鬥中。
-pixelmon.command.spectate.self=你無法旁觀自己。
+pixelmon.command.spectate.self=您無法旁觀自己。
 pixelmon.command.stats.losses=輸：
 pixelmon.command.stats.playerstats=的狀態
 pixelmon.command.stats.wins=贏：
-pixelmon.command.stats.yourstats=你的狀態
+pixelmon.command.stats.yourstats=您的狀態
 pixelmon.command.statsreset.reset=的資料已經重置完成。
 pixelmon.command.struc.cantfit=這個建築物並不適用在%s。
 pixelmon.command.struc.nostruc=沒有發現任何建築物在這個生物群落。(%s)
@@ -3453,29 +3453,29 @@ pixelmon.command.teach.nothing=%s has nothing in that slot!
 pixelmon.command.teach.sentmove=%s的%s正在學習%s。
 pixelmon.command.teach.slot=Slot number must be between 1 and 6.
 pixelmon.command.unlock=Successfully unlocked %s's locked Pokémon.
-pixelmon.command.warpplate.notstanding=你沒有站在傳送板上面。
+pixelmon.command.warpplate.notstanding=您沒有站在傳送板上面。
 pixelmon.command.warpplate.set=設定傳送板為通往%s。
 pixelmon.command.transfer.notenoughmoney=沒有足夠的錢來完成交易。
-pixelmon.command.transfer.sameplayer=你不能把錢給自己！
+pixelmon.command.transfer.sameplayer=您不能把錢給自己！
 pixelmon.command.transfer.transferred=成功地把%s的錢轉移給了%s！
 pixelmon.command.transfer.notifytransfer=%s成功地把%s的錢轉移給了%s！
-pixelmon.command.transfer.received=%s成功轉移了總額%s的錢給你！
+pixelmon.command.transfer.received=%s成功轉移了總額%s的錢給您！
 pixelmon.command.givemoney.given=成功地把%s的錢增加到%s的帳戶裡面！
 pixelmon.command.givemoney.notifygive=%s成功地把%s的錢增加到%s的帳戶裡面！
-pixelmon.command.givemoney.received=%s成功增加了總額%s的錢進到了你的帳戶裡！
+pixelmon.command.givemoney.received=%s成功增加了總額%s的錢進到了您的帳戶裡！
 pixelmon.command.givemoney.moneylimit=%s無法容納更多錢！
 pixelmon.command.givemoney.nomoney=%s身無分文！
 pixelmon.command.trainerhat.invalidcolour=無效的帽子顏色指令。請輸入R/G/B各0~255之間的數值。
 
 //other
-pixelmon.drops.fullinventory=你的包包已經滿了！%s掉在地上！
-pixelmon.drops.single=你獲得了%s！
-pixelmon.drops.singlean=你獲得了%s！
-pixelmon.drops.singlenoa=你獲得了%s！
-pixelmon.drops.plural=你獲得了數量%d的%ss！
-pixelmon.drops.plural2=你獲得了數量%d的%s！
-pixelmon.drops.plurales=你獲得了數量%d的%ses！
-pixelmon.drops.pluralruby=你獲得了數量%d的紅寶石！
+pixelmon.drops.fullinventory=您的包包已經滿了！%s掉在地上！
+pixelmon.drops.single=您獲得了%s！
+pixelmon.drops.singlean=您獲得了%s！
+pixelmon.drops.singlenoa=您獲得了%s！
+pixelmon.drops.plural=您獲得了數量%d的%s！
+pixelmon.drops.plural2=您獲得了數量%d的%s！
+pixelmon.drops.plurales=您獲得了數量%d的%s！
+pixelmon.drops.pluralruby=您獲得了數量%d的紅寶石！
 
 pixelmon.interaction.helditem=%s被賦予了%s。
 pixelmon.interaction.hprestore=%s的HP已經恢復。
@@ -3493,7 +3493,7 @@ pixelmon.interaction.berryfriend=與%s的親密度得到了提升。
 pixelmon.interaction.berryfail=%s的努力值已經不能再減少了。
 
 pixelmon.general.noeffect=這招沒有效果！
-pixelmon.general.needop=你必須是OP才能執行這個動作！
+pixelmon.general.needop=您必須是OP才能執行這個動作！
 pixelmon.general.needowner=只有這個方塊的所有者才可以更動它。
 pixelmon.general.playerbusy=玩家正在忙碌中！
 pixelmon.general.disabledblock=伺服器禁用了這個方塊。
@@ -3501,42 +3501,42 @@ pixelmon.general.battleerror=發生了戰鬥的錯誤！請檢查控制台的詳
 pixelmon.general.errorlog=發生了戰鬥的錯誤！請回報錯誤日誌給Pixelmon製作團隊。
 
 pixelmon.npc.tradername=交換者
-pixelmon.npc.trader=你身上並沒有我想要的寶可夢，我想要%s。
+pixelmon.npc.trader=您身上並沒有我想要的寶可夢，我想要%s。
 
 pixelmon.npc.relearnername=技能教學狂
 pixelmon.npc.relearnersetitem=現在技能教學狂的服務費用是%s (x%d)。
 pixelmon.npc.relearnernoitem=現在技能教學狂的服務費用是免費的。
-pixelmon.npc.relearnerfull=你不能進一步的堆疊這個物品！
+pixelmon.npc.relearnerfull=您不能進一步的堆疊這個物品！
 pixelmon.npc.relearnercost=我的服務費用，現在是%s (x%d)。
 
 pixelmon.npc.tutorname=技能教學者
-pixelmon.npc.cantpay=你無法支付學習這項招式的費用！
+pixelmon.npc.cantpay=您無法支付學習這項招式的費用！
 
 pixelmon.projectiles.nibble=沒有釣到寶可夢...
 
-pixelmon.stats.gainexp=你的%s得到了%d經驗值！
+pixelmon.stats.gainexp=您的%s得到了%d經驗值！
 pixelmon.stats.learnedmove=%s剛剛學會了%s！
 
 pixelmon.entities.syncpassed=對手的同步特性把異常狀態也傳遞給了%s！
 
-pixelmon.entitytrainer.goodrod=你得到了一個優秀釣竿！
-pixelmon.entitytrainer.superod=你得到了一個超強釣竿！
+pixelmon.entitytrainer.goodrod=您得到了一個優秀釣竿！
+pixelmon.entitytrainer.superod=您得到了一個超強釣竿！
 pixelmon.entitytrainer.onceday=這個訓練師只能每天(現實時間)對戰一次。
 pixelmon.entitytrainer.oncemcday=這個訓練師只能每天(遊戲內時間)對戰一次。
 pixelmon.entitytrainer.onceplayer=這個訓練師只能與每個玩家對戰一次。
 pixelmon.entitytrainer.level=Lv:
-pixelmon.entitytrainer.winnings=你贏得了數量%s的錢，因為你擊敗了%s！
+pixelmon.entitytrainer.winnings=您贏得了數量%s的錢，因為您擊敗了%s！
 
 pixelmon.statue.despawn=寶可夢的生成已經被停止。
 
 pixelmon.statue.despawn=寶可夢已經產生。
 
-pixelutilities.blocks.emptygift=你找到了一個空的%s。
-pixelmon.blocks.fillmefirst=你必須先把寶可夢放進去！
+pixelutilities.blocks.emptygift=您找到了一個空的%s。
+pixelmon.blocks.fillmefirst=您必須先把寶可夢放進去！
 pixelutilities.event.noevents=事件被禁用。
-pixelmon.blocks.nothingtoadd=你必須先把寶可夢放出來。
+pixelmon.blocks.nothingtoadd=您必須先把寶可夢放出來。
 pixelmon.block.error=%s引發了一個錯誤。
-pixelmon.blocks.lastpoke=這是你身上唯一一隻寶可夢！
+pixelmon.blocks.lastpoke=這是您身上唯一一隻寶可夢！
 pixelmon.blocks.christmaspokegift=聖誕節禮物
 pixelmon.blocks.halloweenpokegift=萬聖節禮物
 pixelmon.blocks.custompokegift=自訂寶可夢禮物
@@ -3544,18 +3544,18 @@ pixelmon.blocks.custompokegift=自訂寶可夢禮物
 
 //Poké Balls
 pixelmon.pokeballs.inbattle=那隻寶可夢正在處於對戰中！
-pixelmon.pokeballs.alreadyown=你不能收服這隻寶可夢，因為牠已經被你收服了！
-pixelmon.pokeballs.boss=你不能收服Boss寶可夢！
+pixelmon.pokeballs.alreadyown=您不能收服這隻寶可夢，因為牠已經被您收服了！
+pixelmon.pokeballs.boss=您不能收服Boss寶可夢！
 pixelmon.pokeballs.throw=%s投擲%s！
-pixelmon.pokeballs.capture=你收服了%s。
+pixelmon.pokeballs.capture=您收服了%s。
 pixelmon.pokeballs.brokefree=%s掙脫了！
-pixelmon.pokeballs.pokeinbattle=你不能收服這隻寶可夢，因為某人正在與牠對戰！
-pixelmon.pokeballs.otherspokemon=你不能收服別人的寶可夢！
-pixelmon.pokeballs.statue=你不能收服雕像化的寶可夢！
+pixelmon.pokeballs.pokeinbattle=您不能收服這隻寶可夢，因為某人正在與牠對戰！
+pixelmon.pokeballs.otherspokemon=您不能收服別人的寶可夢！
+pixelmon.pokeballs.statue=您不能收服寶可夢雕像！
 
 //storage
-pixelmon.storage.compfull=你沒有留些空位在你的電腦裡面！
-pixelmon.storage.partyfull=你身上的隊伍已經滿員，%s將會傳送到你的電腦！
+pixelmon.storage.compfull=您沒有留些空位在您的電腦裡面！
+pixelmon.storage.partyfull=您身上的隊伍已經滿員，%s將會傳送到您的電腦！
 
 //Held Items
 pixelmon.helditem.healedburn=%s已經從灼傷之中恢復！
@@ -3606,15 +3606,15 @@ pixelmon.helditems.ironball=%s因為黑色鐵球的關係而無法停留在空�
 pixelmon.items.useitem=%s使用了%s。
 
 //Blocks
-pixelmon.blocks.bonemealwatered=你今天已經對這棵果樹澆過水了。
+pixelmon.blocks.bonemealwatered=您今天已經對這棵果樹澆過水了。
 
 pixelmon.blocks.healer=治療床正在忙碌中！
 
-pixelmon.blocks.pc.ownership=這台電腦並不是你的。
+pixelmon.blocks.pc.ownership=這台電腦並不是您的。
 
-pixelmon.blocks.chestfound=你找到了一個%s！
-pixelmon.blocks.timedclaim=你已經拿過了這個定時的獎勵道具！晚點再試試！
-pixelmon.blocks.claimedloot=這個獎勵道具你已經拿過了！
+pixelmon.blocks.chestfound=您找到了一個%s！
+pixelmon.blocks.timedclaim=您已經拿過了這個定時的獎勵道具！晚點再試試！
+pixelmon.blocks.claimedloot=這個獎勵道具您已經拿過了！
 pixelmon.blocks.ownerchanged=Block owner changed to server!
 pixelmon.blocks.chestset=自訂獎勵道具設置： %s
 pixelmon.blocks.visible=獎勵道具可視等級已設置為： %s
@@ -3625,21 +3625,21 @@ pixelmon.blocks.chestmodeFCFS=先搶先贏
 pixelmon.blocks.chestmodePUD=永久、無限掉落
 
 pixelmon.blocks.orbnotfull=這顆珠子的靈魂能量還沒有收集完全！
-pixelmon.blocks.orbwrong=你的珠子並不適用在這個神社！
+pixelmon.blocks.orbwrong=您的珠子並不適用在這個神社！
 pixelmon.blocks.shrineused=這個神社已經被啟用過！
 
 pixelmon.blocks.tradefull=Trading Machine Full!
-pixelmon.blocks.noclone=你身上沒有符合條件的寶可夢可以複製！
+pixelmon.blocks.noclone=您身上沒有符合條件的寶可夢可以複製！
 
-pixelmon.blocks.noclone=你沒有可以複製的寶可夢！
+pixelmon.blocks.noclone=您沒有可以複製的寶可夢！
 
 pixelmon.blocks.fossilmachine.fossil=放入化石
 pixelmon.blocks.fossilmachine.pokeball=放入精靈球
 pixelmon.blocks.fossilmachine.retrieve=取出寶可夢
 pixelmon.blocks.fossilmachine.working=運作中
 
-pixelmon.blocks.fossildisplay.ownership=這個化石展示臺不是你的。
-pixelmon.blocks.fossildisplay.placecheck=你只能放已經清潔過的化石在展示臺裡面。
+pixelmon.blocks.fossildisplay.ownership=這個化石展示臺不是您的。
+pixelmon.blocks.fossildisplay.placecheck=您只能放已經清潔過的化石在展示臺裡面。
 
 pixelmon.blocks.cloningmachine.error=錯誤
 pixelmon.blocks.cloningmachine.finished=完成
@@ -3657,9 +3657,9 @@ pixelmon.blocks.tree.change4=這顆樹現在是套用設計#4。
 
 pixelmon.blocks.movepad.loopbuilderror=輸送板是不允許無限循環的！
 
-pixelmon.blocks.gymsign.ownership=這個道館標誌不是你的。
+pixelmon.blocks.gymsign.ownership=這個道館標誌不是您的。
 
-pixelmon.orb.amountfull=你還需要擊敗%d隻寶可夢才能完成這顆珠子！
+pixelmon.orb.amountfull=您還需要擊敗%d隻寶可夢才能完成這顆珠子！
 pixelmon.orb.isfull=這顆珠子已經完成！
 
 //Achievements
@@ -3861,8 +3861,8 @@ pixelmon.abilities.wonderguard=%s因為自身的奇異守護特性而沒有受�
 //Breeding
 pixelmon.egg.name=蛋
 ability.Egg.name=孵化中
-pixelmon.egg.hatching=你的蛋孵化成了%s！
-pixelmon.egg.hatchingan=你的蛋孵化成了一隻%s！
+pixelmon.egg.hatching=您的蛋孵化成了%s！
+pixelmon.egg.hatchingan=您的蛋孵化成了一隻%s！
 pixelmon.egg.hatchingdata=插槽: %s, 週期: %s, 步數: %s
 pixelmon.egg.stage1=已經可以聽到裡面的聲音，就快孵化了！
 pixelmon.egg.stage2=好像偶而會動一下，些許接近孵化。
@@ -3903,8 +3903,8 @@ gui.guiEvolve.evolve=我的$p要進化了??!
 gui.guiEvolve.done=$p進化成$n了!
 gui.guiEvolve.cancel=進化被終止了!
 
-gui.guiItemDrops.beatBossPixelmon1=你擊敗了Boss $p！
-gui.guiItemDrops.beatTrainer1=你擊敗了訓練家！
+gui.guiItemDrops.beatBossPixelmon1=您擊敗了Boss $p！
+gui.guiItemDrops.beatTrainer1=您擊敗了訓練家！
 gui.guiItemDrops.ok=OK
 gui.guiItemDrops.mouse=將滑鼠移動到物品
 gui.guiItemDrops.see=查看更多
@@ -3914,7 +3914,7 @@ gui.fainterChoice.noFight=$p失去戰鬥能力！
 gui.fainterChoice.switch=請派出另一隻寶可夢！
 gui.fainterChoice.run=逃走
 
-gui.guiDoctor.healPokemon=你好，歡迎來到寶可夢中心，我們可以恢復寶可夢的健康。
+gui.guiDoctor.healPokemon=您好，歡迎來到寶可夢中心，我們可以恢復寶可夢的健康。
 gui.guiDoctor.waiting=請稍後...
 
 gui.trading.ready=準備
@@ -3975,7 +3975,7 @@ gui.screenpokechecker.ability=特性
 gui.screenpokechecker.happiness=親密度
 gui.screenpokechecker.nature=性格
 gui.screenpokechecker.growth=體型
-gui.screenpokechecker.forget1=你確定要讓
+gui.screenpokechecker.forget1=您確定要讓
 gui.screenpokechecker.forget2=$p忘卻
 gui.screenpokechecker.disable=關閉
 gui.screenpokechecker.enable=啟用
@@ -4014,9 +4014,9 @@ gui.trainereditor.model=模型
 gui.trainereditor.lvl=等級
 gui.trainereditor.additem=添加
 gui.trainereditor.moreinfo=訓練師編輯器 - 對話信息
-gui.trainereditor.greeting=歡迎詞
-gui.trainereditor.win=勝利
-gui.trainereditor.lose=失敗
+gui.trainereditor.greeting=對戰開始台詞
+gui.trainereditor.win=勝利台詞
+gui.trainereditor.lose=失敗台詞
 gui.trainereditor.winmoney=獲勝獎金
 gui.trainereditor.winningdrops=戰利品
 gui.trainereditor.adddrops=新增掉落物
@@ -4081,10 +4081,10 @@ gui.pokemoneditor.save=存檔
 gui.pokemoneditor.reset=重來
 gui.pokemoneditor.cancel=取消
 gui.pokemoneditor.errorimport=匯入失敗
-gui.pokemoneditor.notallowedserver=你不被允許使用寶可夢編輯器。
+gui.pokemoneditor.notallowedserver=您不被允許使用寶可夢編輯器。
 gui.pokemoneditor.notallowedplayer=%s不被允許使用寶可夢編輯器。
-gui.pokemoneditor.editedplayer=%s正在編輯你的寶可夢。
-gui.pokemoneditor.cancelediting=%s取消了你的編輯。
+gui.pokemoneditor.editedplayer=%s正在編輯您的寶可夢。
+gui.pokemoneditor.cancelediting=%s取消了您的編輯。
 
 gui.overlay1v1.lv=Lv. 
 
@@ -4097,7 +4097,7 @@ gui.starter.commingsoon=即將開放...
 gui.starter.disabled=未啟用
 
 gui.pc.box=收納箱:
-gui.pc.releasewarning=你確定你要放生%s?
+gui.pc.releasewarning=您確定要放生%s?
 
 gui.selectpokemon.message=選擇一隻寶可夢！
 
@@ -4121,7 +4121,7 @@ gui.shopkeeper.price=價格
 gui.shopkeeper.quantity=數量
 gui.shopkeeper.buy=購買
 gui.shopkeeper.sell=出售
-gui.shopkeeper.name=店主
+gui.shopkeeper.name=店員
 
 gui.shopkeepereditor.refreshItems=更新項目
 
@@ -4151,10 +4151,10 @@ enum.battleAI.default=預設
 enum.battleAI.random=隨機
 enum.battleAI.aggressive=侵略性的
 enum.battleAI.tactical=戰術性的
-enum.battleAI.advanced=先進的
+enum.battleAI.advanced=最高智慧
 enum.trainerEncounter.once=一次性
-enum.trainerEncounter.onceperday=一天一次
-enum.trainerEncounter.oncepermcday=一天一次(MCTime)
+enum.trainerEncounter.onceperday=一天一次(現實時間)
+enum.trainerEncounter.oncepermcday=一天一次(遊戲時間)
 enum.trainerEncounter.onceperplayer=單一玩家一次
 enum.trainerEncounter.unlimited=無限次
 
@@ -4238,14 +4238,14 @@ gui.mainmenu.run=逃走
 gui.mainmenu.whatdo=要讓$p做什麼？
 gui.mainmenu.cantswitch=現在不能夠切換寶可夢！
 gui.mainmenu.traped=$p被困住了！現在不能夠逃跑！
-gui.mainmenu.trainer=你不能夠避開訓練師的戰鬥！
-gui.mainmenu.already=你已經在這回合選擇了別的動作！
+gui.mainmenu.trainer=您不能夠避開訓練師的戰鬥！
+gui.mainmenu.already=您已經在這回合選擇了別的動作！
 
 gui.choosebag.pokeballs=捕捉球
 gui.choosebag.hppp=HP/PP恢復
 gui.choosebag.statusrestore=狀態恢復
 gui.choosebag.battleitems=戰鬥道具
-gui.choosebag.nopokeballs=你不能在這場戰鬥中使用精靈球！
+gui.choosebag.nopokeballs=您不能在這場戰鬥中使用精靈球！
 gui.choosebag.multiple=You cannot use Poké Balls while there are multiple Pokémon against you!
 
 gui.choosepokemon.select=選擇一個寶可夢使用 
@@ -4447,19 +4447,19 @@ nbt.hp2.name=血量
 battlecontroller.escaped=%s逃跑了！
 battlecontroller.!escaped=%s沒能逃跑！
 battlecontroller.initbattle.you=與%s進行戰鬥！
-battlecontroller.initbattle.toyou=你遭遇了%s！
+battlecontroller.initbattle.toyou=您遭遇了%s！
 battlecontroller.flinched=%s感到退縮！
-battlecontroller.fainted=你的%s失去戰鬥能力！
+battlecontroller.fainted=您的%s失去戰鬥能力！
 battlecontroller.hasfainted=%s失去戰鬥能力！
-battlecontroller.outofpokemon=你已經沒有能夠戰鬥的寶可夢了！
+battlecontroller.outofpokemon=您已經沒有能夠戰鬥的寶可夢了！
 battlecontroller.sendout=%s放出了%s！
 battlecontroller.switch=請選擇其他寶可夢來繼續進行戰鬥！
 battlecontroller.targets=請為$a選擇目標。
-battlecontroller.win=你已經贏得了這場戰鬥！
+battlecontroller.win=您已經贏得了這場戰鬥！
 battlecontroller.afktimer=Turn timer: 
-battlecontroller.forfeitask=你要棄權嗎？
+battlecontroller.forfeitask=您要棄權嗎？
 battlecontroller.forfeit=%s棄權了！
-battlecontroller.forfeitself=你已經棄權了。
+battlecontroller.forfeitself=您已經棄權了。
 battlecontroller.draw=對戰被宣布為平手。
 
 type.normal=普通系
@@ -4480,7 +4480,7 @@ type.dragon=龍系
 type.dark=惡系
 type.steel=鋼系
 
-aitargetenvironment.seessomething=你的寶可夢看到了
+aitargetenvironment.seessomething=您的寶可夢看到了
 
 batonpass.failed=%s出招失敗！
 batonpass.pass=%s傳遞接棒！
@@ -4507,20 +4507,20 @@ command.battle.battlebetween=%s和%s開始對戰！
 bagpacket.itemnotfound=沒有找到道具！
 bagpacket.battlenotfound=戰鬥中無法找到！
 
-deletemove.forgot=你的%s遺忘了%s！
+deletemove.forgot=您的%s遺忘了%s！
 
-replacemove.replace=你的%s遺忘了%s學會了%s！
+replacemove.replace=您的%s遺忘了%s學會了%s！
 
 externalMove.forage.name=糧食
 
 externalMove.Cut.fail=%s還沒有強大到可以砍倒這個目標！
 
-sendpixelmon.sentout=你放出了%s！
+sendpixelmon.sentout=您放出了%s！
 sendpixelmon.cantbattle=%s無法戰鬥！
 sendpixelmon.inbattle=%s正在戰鬥中！
-sendpixelmon.retrieved=你收回了%s！
+sendpixelmon.retrieved=您收回了%s！
 
-camera.error.samepokemon=你已經拍下了一張%s的照片！
+camera.error.samepokemon=您已經拍下了一張%s的照片！
 
 spawn.legendarymessage=出現了一隻傳說寶可夢在%s生物群落！
 
@@ -5130,10 +5130,10 @@ pixelmon.effect.attackincreased=%s的攻擊力被提升了！
 pixelmon.effect.attackdecreased=%s的攻擊力被降低了！
 pixelmon.effect.defenseincreased=%s的防禦力被提升了！
 pixelmon.effect.defensedecreased=%s的防禦力被降低了！
-pixelmon.effect.specatkincreased=%s的特攻被提升了！
-pixelmon.effect.specatkdecreased=%s的特攻被降低了！
-pixelmon.effect.specdefincreased=%s的特防被提升了！
-pixelmon.effect.specdefdecreased=%s的特防被降低了！
+pixelmon.effect.spatkincreased=%s的特攻被提升了！
+pixelmon.effect.spatkdecreased=%s的特攻被降低了！
+pixelmon.effect.spdefincreased=%s的特防被提升了！
+pixelmon.effect.spdefdecreased=%s的特防被降低了！
 pixelmon.effect.speedincreased=%s的速度被提升了！
 pixelmon.effect.speeddecreased=%s的速度被降低了！
 pixelmon.effect.accuracyincreased2=%s的命中率被提升了！
@@ -5144,10 +5144,10 @@ pixelmon.effect.attackincreased2=%s的攻擊力被提升了！
 pixelmon.effect.attackdecreased2=%s的攻擊力被降低了！
 pixelmon.effect.defenseincreased2=%s的防禦力被提升了！
 pixelmon.effect.defensedecreased2=%s的防禦力被降低了！
-pixelmon.effect.specatkincreased2=%s的特攻被提升了！
-pixelmon.effect.specatkdecreased2=%s的特攻被降低了！
-pixelmon.effect.specdefincreased2=%s的特防被提升了！
-pixelmon.effect.specdefdecreased2=%s的特防被降低了！
+pixelmon.effect.spatkincreased2=%s的特攻被提升了！
+pixelmon.effect.spatkdecreased2=%s的特攻被降低了！
+pixelmon.effect.spdefincreased2=%s的特防被提升了！
+pixelmon.effect.spdefdecreased2=%s的特防被降低了！
 pixelmon.effect.speedincreased2=%s的速度被提升了！
 pixelmon.effect.speeddecreased2=%s的速度被降低了！
 pixelmon.effect.accuracyincreased3=%s的命中率被提升了！
@@ -5158,10 +5158,10 @@ pixelmon.effect.attackincreased3=%s的攻擊力被提升了！
 pixelmon.effect.attackdecreased3=%s的攻擊力被降低了！
 pixelmon.effect.defenseincreased3=%s的防禦力被提升了！
 pixelmon.effect.defensedecreased3=%s的防禦力被降低了！
-pixelmon.effect.specatkincreased3=%s的特攻被提升了！
-pixelmon.effect.specatkdecreased3=%s的特攻被降低了！
-pixelmon.effect.specdefincreased3=%s的特防被提升了！
-pixelmon.effect.specdefdecreased3=%s的特防被降低了！
+pixelmon.effect.spatkincreased3=%s的特攻被提升了！
+pixelmon.effect.spatkdecreased3=%s的特攻被降低了！
+pixelmon.effect.spdefincreased3%s的特防被提升了！
+pixelmon.effect.spdefdecreased3=%s的特防被降低了！
 pixelmon.effect.speedincreased3=%s的速度被提升了！
 pixelmon.effect.speeddecreased3=%s的速度被降低了！
 pixelmon.effect.critincreased=%s is getting pumped!
@@ -5420,20 +5420,20 @@ key.pokemonaction=指定某個對象為攻擊目標
 key.pokemonexternal=對戰外招式執行
 key.nextexternalmove=對戰外招式切換
 key.pokedex=使用寶可夢圖鑑
-key.wiki=打開Wiki
+key.wiki=打開Minecraft Wiki
 key.spectateBattle=旁觀對戰
 key.pixelmonoptions=打開設置界面
 
 halloween.entityname=鬼斯通(珠寶商)
-halloween.gemregistered=鬼斯通(珠寶商)接收了你的%s！
+halloween.gemregistered=鬼斯通(珠寶商)接收了您的%s！
 halloween.alreadyregistered=%s已經被接收過了！
-halloween.alreadyawarded=你已經完成了這個任務！
-halloween.message=我在這裡接收你的神聖寶石！
+halloween.alreadyawarded=您已經完成了這個任務！
+halloween.message=我在這裡接收您的神聖寶石！
 
-christmas.notchristmas=你必須等到聖誕節到來才可以打開這個禮物！
+christmas.notchristmas=您必須等到聖誕節到來才可以打開這個禮物！
 christmas.ischristmas=Pixelmon製作團隊祝大家聖誕節快樂！
-christmas.received=你從信使鳥的身上得到了一個聖誕禮物！
-christmas.alreadygifted=你已經打開過了一個聖誕禮物！
+christmas.received=您從信使鳥的身上得到了一個聖誕禮物！
+christmas.alreadygifted=您已經打開過了一個聖誕禮物！
 item.Gift Box.name=禮物盒
 
 //Unown blocks
@@ -5514,6 +5514,7 @@ pixelmon.config.increaseVillageSpawnRate=增加村莊生成機率
 pixelmon.config.useRecentLevelMoves=生成招式教學狂
 pixelmon.config.spawnGyms=生成道館
 pixelmon.config.spawnLevelsByDistance=依照重生點的距離來調整野生寶可夢等級。
+pixelmon.config.maxLevelByDistance=最大生成等級(依距離)
 pixelmon.config.distancePerLevel=隔多少距離增減野生寶可夢等級。
 
 pixelmon.config.Gen1=第1世代
@@ -5549,8 +5550,8 @@ pixelmon.config.eventHasLegendaries=允許傳說寶可夢生成在寶可夢禮�
 pixelmon.config.eventHasShinies=啟用色違寶可夢生成在寶可夢禮物球
 pixelmon.config.eventMaxPokemon=寶可夢禮物球最大生成寶可夢數量
 pixelmon.config.eventShinyRate=色違生成在寶可夢禮物球的機率(1/x)
-pixelmon.config.eventTime=寶可夢禮物球的生成日期(日期/月)
-pixelmon.config.eventCoords=寶可夢禮物球的生成座標
+pixelmon.config.eventTime=指定寶可夢禮物球的生成日期(日期/月份)
+pixelmon.config.eventCoords=指定寶可夢禮物球的生成座標
 
 pixelmon.config.lowResTextures=照片模式
 pixelmon.config.useSmoothShadingOnPokeBalls=精靈球使用光滑紋理
@@ -5598,7 +5599,7 @@ pixelmon.config.starterOnJoin=進入初始寶可夢挑選畫面之後加入世�
 pixelmon.config.enablePointToSteer=Enable point to steer
 pixelmon.config.useSystemTimeForWorldTime=使用系統時間做為遊戲內世界時間
 pixelmon.config.systemTimeSyncInterval=Seconds between time syncs
-pixelmon.config.enablePokedexWikiWebsiteOpen=允許從寶可夢圖鑑打開wiki
+pixelmon.config.enablePokedexWikiWebsiteOpen=允許從寶可夢圖鑑打開Pixelmon wiki
 pixelmon.config.useExternalJSONFiles=Use external JSON files
 pixelmon.config.chunkSpawnRadius=寶可夢生成距離
 pixelmon.config.battleAIWild=野生寶可夢AI
@@ -5651,7 +5652,7 @@ pixelmon.config.externalmoves.comment=對戰外招式設定。
 pixelmon.config.database.comment=Settings for re-routing the Pixelmon saving system into an external database.
 pixelmon.config.sound.comment=背景音樂設定。
 pixelmon.config.pixelutilities.comment=設定PixelUtilities功能。
-pixelmon.config.elevator.comment=設置電梯的細節設定。
+pixelmon.config.elevator.comment=電梯的細節設定。
 
 pixelmon.config.awardPhotos.comment=打贏野生寶可夢的時候可以得到對方的照片。
 pixelmon.config.wildCanFlee.comment=野生寶可夢有機會在對自己不利的情形之下選擇逃跑。
@@ -5659,7 +5660,7 @@ pixelmon.config.spinBattleCamera.comment=對戰的時候遊戲畫面要不要旋
 pixelmon.config.spawnStructures.comment=設定是否允許隨機生成Pixelmon建築物(如寶可夢中心、三神鳥神社)，選擇true就會生成。
 pixelmon.config.allowPokemonNicknames.comment=允許玩家給寶可夢取暱稱(玩家自己設定，非伺服器設定)。
 pixelmon.config.allowAnvilAutoreloading.comment=允許鐵砧自動從玩家身上的庫存重新裝填材料，不需要玩家自己再去手動放置材料。
-pixelmon.config.allowVanillaMobs.comment=設定是否允許苦力怕、骷髏...等Minecraft生物生成，這是很危險的，因為牠們會在你對戰中趁機殺了你。
+pixelmon.config.allowVanillaMobs.comment=設定是否允許苦力怕、骷髏...等Minecraft生物生成，這是很危險的，因為牠們會在您對戰中趁機殺了您。
 pixelmon.config.allowCaptureOutsideBattle.comment=允許玩家在對戰外直接丟出精靈球，如果選擇false，就只能在對戰中丟出精靈球。
 pixelmon.config.npcRarity.comment=設定NPC的罕見程度。數值越高，越容易生成訓練師、招式教學者，如果輸入0，將不會生成NPC。
 pixelmon.config.namePlateRange.comment=設定玩家可以再多遠的地方就可以看見寶可夢的名字和等級(僅玩家自己設定)。1=Default(預設)，2=Farther(有點遠)，3=Far(很遠)。
@@ -5693,7 +5694,7 @@ pixelmon.config.starterOnJoin.comment=設定是否提供/不提供讓玩家在�
 pixelmon.config.enablePointToSteer.comment=When mounted, enables steering the Pokemon by looking.
 pixelmon.config.useSystemTimeForWorldTime.comment=設定是否把現實世界時間設定為遊戲時間(依據伺服器電腦為主)。
 pixelmon.config.systemTimeSyncInterval.comment=The time taken before syncing to the system clock (in seconds).
-pixelmon.config.enablePokedexWikiWebsiteOpen.comment=設定是否讓玩家從寶可夢圖鑑打開pixelmon wiki，查看更詳細的寶可夢資料。
+pixelmon.config.enablePokedexWikiWebsiteOpen.comment=設定是否讓玩家從寶可夢圖鑑打開Pixelmon wiki，查看更詳細的寶可夢資料。
 pixelmon.config.useExternalJSONFiles.comment=Load external configuration files from the "pixelmon" folder. If set to true and the "pixelmon" folder does not exist, Pixelmon will create the folder and dump the existing files there.
 pixelmon.config.chunkSpawnRadius.comment=設定以玩家為中心生成寶可夢的半徑範圍大小。
 pixelmon.config.battleAIDescription=1:隨機使用招式 2:選擇偏向使用能夠造成傷害的招式，盡量不使用變化招式 3:盡量使用攻守兼備的招式 4:使用招式上富有策略性，並且盡可能把對戰場面帶往對自己有利的狀況。
@@ -5705,7 +5706,7 @@ pixelmon.config.multiplePhotosOfSamePokemon.comment=允許玩家可以重複擁�
 pixelmon.config.allowPayDayMoney.comment=設定是否可以在對戰中使用技能招式"聚寶盆"之後，在對戰結束後得到錢。
 pixelmon.config.pickupRate.comment=調整寶可夢特性"撿拾"獲得道具的機率(1/機率)，如果輸入0則為禁止此功能。
 pixelmon.config.bedsHealPokemon.comment=使用床來睡覺可以治療玩家身上的寶可夢。
-pixelmon.config.useBattleCamera.comment=設定對戰的時候畫面上要不要呈現第三方式角並且旋轉畫面。
+pixelmon.config.useBattleCamera.comment=設定對戰的時候畫面上要不要呈現第三方視角並且旋轉畫面。
 pixelmon.config.allowPokemonEditors.comment=伺服器設定:選擇要不要讓玩家使用寶可夢編輯器；玩家設定:選擇要不要讓其他玩家使用寶可夢編輯器。
 
 pixelmon.config.spawnTickRate.comment=Number of ticks before an attempt to spawn entities is made.
@@ -5724,34 +5725,35 @@ pixelmon.config.increaseVillageSpawnRate.comment=設定是否比Minecraft更容�
 pixelmon.config.useRecentLevelMoves.comment=如果選擇true，將會以寶可夢最近一次升級時的招式來生成；如果選擇false，則會按照寶可夢隨機選擇升級時的技能來生成。
 pixelmon.config.spawnGyms.comment=設定是否讓城鎮周圍生成道館。
 pixelmon.config.spawnLevelsByDistance.comment=設定是否讓野生寶可夢的等級隨著距離重生點來變化，越遠等級越高。如果選擇false，則會隨機生成各種不同等級。
-pixelmon.config.distancePerLevel.comment=如果“spawnLevelsByDistance”設置啟用，在這裡設定要多少距離的方塊數來逐漸增加野生寶可夢的等級。
 
-pixelmon.config.Gen1.comment=全國圖鑑編號 001-151
-pixelmon.config.Gen2.comment=全國圖鑑編號 152-251
-pixelmon.config.Gen3.comment=全國圖鑑編號 252-386
-pixelmon.config.Gen4.comment=全國圖鑑編號 387-493
-pixelmon.config.Gen5.comment=全國圖鑑編號 494-649
+pixelmon.config.distancePerLevel.comment=如果您啟用了上一個選項，請在這裡設定要多少距離的方塊數來逐漸增加野生寶可夢的等級。
+pixelmon.config.maxLevelByDistance.comment=如果您啟用了上上一個選項，請在這裡設定每階段的距離最多讓野生寶可夢增加多少等級。
+pixelmon.config.Gen1.comment=全國圖鑑編號 001~151
+pixelmon.config.Gen2.comment=全國圖鑑編號 152~251
+pixelmon.config.Gen3.comment=全國圖鑑編號 252~386
+pixelmon.config.Gen4.comment=全國圖鑑編號 387~493
+pixelmon.config.Gen5.comment=全國圖鑑編號 494~649
 
 pixelmon.config.maxLandPokemon.comment=設定陸地上和低空的野生寶可夢在同一時間的最大生成數量。
 pixelmon.config.maxUndergroundPokemon.comment=設定地下(如礦動內)的野生寶可夢在同一時間的最大生成數量。
 pixelmon.config.maxWaterPokemon.comment=設定水下的野生寶可夢在同一時間的最大生成數量。
 pixelmon.config.maxFlyingPokemon.comment=設定高空中的野生寶可夢在同一時間的最大生成數量(保持同一高度的情況下)。
 pixelmon.config.maxNumNPCs.comment=設定NPC在同一時間的最大生成數量。
-pixelmon.config.despawnOnFleeOrLoss.comment=設定是否讓野生寶可夢在對戰中脫逃成功或是玩家對付失敗，對戰結束後讓該寶可夢直接消失。
+pixelmon.config.despawnOnFleeOrLoss.comment=設定是否讓野生寶可夢在對戰中脫逃成功或是玩家對付失敗時，離開對戰畫面後讓該寶可夢直接消失。
 
 pixelmon.config.spawnNormal.comment=設定是否允許正常可見的獎勵道具在世界各地隨機生成。
 pixelmon.config.spawnHidden.comment=設定是否允許隱形的獎勵道具在世界各地隨機生成。
 pixelmon.config.spawnGrotto.comment=設定是否允許隱藏樹洞在世界各地隨機生成
 pixelmon.config.spawnRate.comment=設定獎勵道具生成率。0=1個/64區塊、1=1個/32區塊、2=1個/18區塊、3=1個/10區塊。
 pixelmon.config.spawnMode.comment=預設生成模式(FCFS=0, PL1D=1, PUD=2, TIMED=3)。FCFS=先搶先贏，第一個玩家拿到後，獎勵道具消失。PL1D=獎勵道具不會消失，但每個玩家只能拿一個。PUD=獎勵道具不會消失，並且無限重複生成，不限玩家無限拿取。TIMED=獎勵道具不會消失，但每隔特定時間(另外設定)可以再次拿取。
-pixelmon.config.timedLootReuseSeconds.comment=設定一個玩家可以重複領取獎勵道具的間隔時間，請輸入秒數 : 1小時=3600秒、1天=8640秒(預設)、1星期=604800秒。
+pixelmon.config.timedLootReuseSeconds.comment=如果您在上一個選項設定為TIMED，請在這裡設定一個玩家可以重複領取同一個獎勵道具的間隔時間，請輸入秒數 : 1小時=3600秒、1天=8640秒、1星期=604800秒。
 
 pixelmon.config.enableAFKHandler.comment=設定玩家在對戰中閒置時，是否允許啟動AFK處理程序。
 pixelmon.config.afkActivateSeconds.comment=設定玩家在對戰中閒置多久將會自動啟動AFK自動對戰(請輸入秒數)。
 pixelmon.config.afkHandlerTurnSeconds.comment=設定每隔多久讓AFK自動對戰進行一次對戰回合的動做(請輸入秒數)。
 
-pixelmon.config.renderDistanceWeight.comment=通常以64為距離進行彩現。
-pixelmon.config.lowResTextures.comment=使用低解析度(256×256)，適合效能較差的電腦。
+pixelmon.config.renderDistanceWeight.comment=使用解析度64×64像素進行彩現。
+pixelmon.config.lowResTextures.comment=使用解析度256×256像素進行彩現。
 pixelmon.config.useSmoothShadingOnPokeBalls.comment=使用SMD法線貼圖，讓精靈球的外觀看起來更平滑。
 pixelmon.config.useSmoothShadingOnPokemon.comment=使用SMD法線貼圖，讓寶可夢的外觀看起來更平滑。
 pixelmon.config.useOriginalPokemonTexturesForStatues.comment=使用原始的寶可夢紋理。
@@ -5766,18 +5768,18 @@ pixelmon.config.allowRanchCrafting.comment=設定是否允許製做牧場機組�
 pixelmon.config.useBreedingEnvironment.comment=設定是否允許牧場環境來控制育種的速度。如果選擇false，育種速度就會使用預設值1.0倍。
 pixelmon.config.breedingEnvironmentCheckSeconds.comment=設定寶可夢對於育種環境的確認間隔秒數。
 pixelmon.config.stepsPerEggCycle.comment=設定寶可夢蛋的孵化週期。數字越低，需要走路的步數就越少。
-pixelmon.config.numBreedingStages.comment=設定寶可夢的感情度要經過多少階段(請輸入數字1~5)
-pixelmon.config.breedingTicks.comment=設定需要多少時間才能讓寶可夢的感情進入下一個階段，請輸入秒數。
+pixelmon.config.numBreedingStages.comment=設定寶可夢的感情發展要經過多少階段(請輸入數字1~5)
+pixelmon.config.breedingTicks.comment=設定需要多少時間才能讓寶可夢的感情發展進入下一個階段，請輸入秒數。
 pixelmon.config.allowRanchExpansion.comment=設定是否允許牧場升級存在於遊戲中。
 
-pixelmon.config.allowExternalMoves.comment=設定是否允許使用對戰外招式，例如岩石粉碎、一字斬。
+pixelmon.config.allowExternalMoves.comment=設定是否允許使用對戰外招式，例如岩石粉碎、一字斬...等。
 
 pixelmon.config.saveToExternalDatabase.comment=Enable this to change the save system over to a database specified in the connection string property. Only H2 and MySQL currently supported.
 pixelmon.config.connectionString.comment=Put the connection string for the external database in the form jdbc:dbtype://...
 
 pixelmon.config.removeVanillaMusic.comment=設定是否允許用Pixelmon背景音樂來代替Minecraft背景音樂。
-pixelmon.config.minMusicDelay.comment=前一個背景音樂結束後，最快多久會再次自動播放背景音樂。請輸入秒數，預設值是12000秒(10分鐘)。
-pixelmon.config.maxMusicDelay.comment=前一個背景音樂結束後，最慢多久會再次自動播放背景音樂。請輸入秒數，預設值是24000秒(20分鐘)。
+pixelmon.config.minMusicDelay.comment=前一個背景音樂結束後，最快多久會再次自動播放背景音樂(請輸入秒數)。
+pixelmon.config.maxMusicDelay.comment=前一個背景音樂結束後，最慢多久會再次自動播放背景音樂(請輸入秒數)。
 
 pixelmon.config.scaleGrassBattles.comment=根據玩家的隊伍平均等級，來決定從Pixelmon草叢出現的野生寶可夢等級。
 pixelmon.config.blocksHaveLegendaries.comment=設定是否允許傳說寶可夢從Pixelmon草叢生成。
@@ -5788,7 +5790,7 @@ pixelmon.config.eventHasLegendaries.comment=設定是否允許/禁止傳說寶�
 
 pixelmon.config.eventHasShinies.comment=每個寶可夢有1/10機會是色違寶可夢。
 pixelmon.config.eventMaxPokemon.comment=設定寶可夢禮物盒最多可以放幾隻寶可夢在裡面。
-pixelmon.config.eventShinyRate.comment=設定寶可夢禮物盒出現色違寶可夢的機率，請輸入1/(機率)。
+pixelmon.config.eventShinyRate.comment=設定寶可夢禮物盒出現色違寶可夢的機率，1/(這裡輸入機率)。
 pixelmon.config.eventTime.comment=設定一個寶可夢禮物球的生成日期，可在選項裡面選擇日期/月份。
 pixelmon.config.eventCoords.comment=設定一個指定的座標生成寶可夢禮物球。
 
