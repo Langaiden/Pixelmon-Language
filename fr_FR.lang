@@ -1,5 +1,5 @@
 /*
-*	Latest translation 31/08/2016
+*	Latest translation 29/09/2016
 *   @Author AnDwHaT5
 *	Liste de gens ayant aidé à la correction de ma traduction:
 *	-Souvtorpixel
@@ -5112,8 +5112,8 @@ gui.texture.text=Texture
 gui.cancel.text=Annuler
 gui.description.text=Description
 
-gui.mail.seal=Lettre Scellée
-gui.mail.close=Lettre Fermée
+gui.mail.seal=Sceller la lettre
+gui.mail.close=Fermer la lettre
 
 gui.nursejoy.name=Infirmier Joël
 gui.nursejoy.healing=Laisse moi soigner ces Pokemon pour toi !
