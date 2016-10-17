@@ -5435,6 +5435,7 @@ pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
 
+pixelmon.config.maxSpawnsPerTick=Max Pokémon spawns per tick
 pixelmon.config.maxLandPokemon=Max land Pokémon
 pixelmon.config.maxUndergroundPokemon=Max underground Pokémon
 pixelmon.config.maxWaterPokemon=Max water Pokémon
