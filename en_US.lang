@@ -3412,6 +3412,9 @@ pixelmon.command.givemoney.received=%s successfully added %s PokéDollars to you
 pixelmon.command.givemoney.moneylimit=%s cannot hold any more PokéDollars!
 pixelmon.command.givemoney.nomoney=%s has no PokéDollars to take away!
 pixelmon.command.trainerhat.invalidcolour=Invalid colors entered for hat. Should be red/green/blue from 0-255.
+pixelmon.command.reload.error.shopitems=Cannot reload shop items data!
+pixelmon.command.reload.error.npcs=Cannot reload NPC data!
+pixelmon.command.reload.done=NPC and shop item data reloaded.
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -5467,6 +5470,7 @@ pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
 
+pixelmon.config.maxSpawnsPerTick=Max Pokémon spawns per tick
 pixelmon.config.maxLandPokemon=Max land Pokémon
 pixelmon.config.maxUndergroundPokemon=Max underground Pokémon
 pixelmon.config.maxWaterPokemon=Max water Pokémon
@@ -5555,6 +5559,7 @@ pixelmon.config.allowPayDayMoney=Allow Pay Day money
 pixelmon.config.pickupRate=Pickup rate
 pixelmon.config.bedsHealPokemon=Beds heal Pokémon
 pixelmon.config.useBattleCamera=Use battle camera
+pixelmon.config.playerControlCamera=Player Controlled Battle Camera
 pixelmon.config.allowPokemonEditors=Allow Pokemon editors
 pixelmon.config.dataSaveOnWorldSave.comment=If players party and computer are forcefully saved upon every world save (If false, you should be saving data via /saveall, or risk data loss)
 
@@ -5651,6 +5656,7 @@ pixelmon.config.allowPayDayMoney.comment=Allow Pay Day to award PokéDollars whe
 pixelmon.config.pickupRate.comment=Chance of the Pickup Ability picking up an item after a battle (1/rate). 0 disables this.
 pixelmon.config.bedsHealPokemon.comment=Whether sleeping in a bed heals a player's Pokemon.
 pixelmon.config.useBattleCamera.comment=Set whether or not to switch to an external camera during battles.
+pixelmon.config.playerControlCamera.comment=Set whether or not the player can control the camera during battles (sets to sphere based camera positioning)
 pixelmon.config.allowPokemonEditors.comment=Server-side, whether players can use Pokémon editors. Client-side, whether other players can use a Pokémon editor on the player with the setting.
 
 pixelmon.config.spawnTickRate.comment=Number of ticks before an attempt to spawn entities is made.
