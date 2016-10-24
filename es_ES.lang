@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: September 15, 2016 - by ToklaX
+* Last Update: October 24, 2016 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 15 de Septiembre de 2016 por ToklaX
+* Última actualización: 24 de Octubre de 2016 por ToklaX
 *************************************************/
 
 /*
@@ -4016,8 +4016,11 @@ pixelmon.command.struc.cantfit=Esta estructura no se puede establecer en las cor
 pixelmon.command.struc.nostruc=No hay estructuras para este bioma. (%s)
 pixelmon.command.struc.notfound=No se encuentra la estructura %s.
 pixelmon.command.teach.busy=¡%s está ocupado!
-pixelmon.command.teach.nothing=¡%s no tiene nada en la ranura seleccionada!
-pixelmon.command.teach.slot=El número de ranura debe de ser entre 1 y 6.
+pixelmon.command.teach.knowsmove=¡El Pokémon ya sabe %s!
+pixelmon.command.teach.nomove=¡El movimiento %s no existe!
+pixelmon.command.teach.nothing=¡%s no tiene nada en el espacio seleccionado!
+pixelmon.command.teach.sentmove=El Pokémon está aprendiendo %s.
+pixelmon.command.teach.slot=El número de espacio debe ser entre 1 y 6.
 pixelmon.command.unlock=Se ha desbloqueado los Pokémon de %s satisfactoriamente.
 pixelmon.command.warpplate.notstanding=No estás sobre ninguna placa de teletransporte.
 pixelmon.command.warpplate.set=Destino %s establecido.
@@ -4031,7 +4034,10 @@ pixelmon.command.givemoney.notifygive=¡%s ha añadido con éxito %s Pokedólare
 pixelmon.command.givemoney.received=¡%s ha añadido %s Pokedólares a tu saldo!
 pixelmon.command.givemoney.moneylimit=¡%s no puede tener más Pokedólares!
 pixelmon.command.givemoney.nomoney=¡%s no tiene Pokedólares para restar!
-pixelmon.command.trainerhat.invalidcolour=Los colores introducidos para la gorra no son válidos. Deberá ser rojo/verde/azul con valores entre 0-255.
+pixelmon.command.trainerhat.invalidcolour=Los colores introducidos de la gorra no son válidos. Puedes elegir el color introduciendo los valores 0-255 del rojo/verde/azul .
+pixelmon.command.reload.error.shopitems=¡No se puede recargar la información de los objetos de la tienda!
+pixelmon.command.reload.error.npcs=¡No se puede recargar la información de los NPC!
+pixelmon.command.reload.done=Se ha recargado la información de los NPC y objetos de tienda.
 
 //Other
 pixelmon.drops.fullinventory=¡Tu inventario está lleno! ¡%s cayó al suelo!
@@ -6072,6 +6078,7 @@ pixelmon.config.Gen3=Generación 3
 pixelmon.config.Gen4=Generación 4
 pixelmon.config.Gen5=Generación 5
 
+pixelmon.config.maxSpawnsPerTick=Máx. número de apariciónes Pokémon por tick 
 pixelmon.config.maxLandPokemon=Máx. Pokémon sobre tierra
 pixelmon.config.maxUndergroundPokemon=Máx. Pokémon bajo tierra
 pixelmon.config.maxWaterPokemon=Máx. Pokémon en el agua
@@ -6159,7 +6166,8 @@ pixelmon.config.multiplePhotosOfSamePokemon=Permite sacar varias fotos del mismo
 pixelmon.config.allowPayDayMoney=Activar dinero con Día de Pago
 pixelmon.config.pickupRate=Tasa de Recogida
 pixelmon.config.bedsHealPokemon=Dormir cura los Pokémon
-pixelmon.config.useBattleCamera=Usar Cámara de Batalla
+pixelmon.config.useBattleCamera=Usar Cámara de Combate
+pixelmon.config.playerControlCamera=Controlar cámara de combate
 pixelmon.config.allowPokemonEditors=Permitir editores Pokémon
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
@@ -6255,6 +6263,7 @@ pixelmon.config.allowPayDayMoney.comment=Hace que Día de Pago dé Pokédolares 
 pixelmon.config.pickupRate.comment=Probabilidad de que la Habilidad Recogida recoga un objeto después de un combate (1/tasa). El valor 0 lo desactiva.
 pixelmon.config.bedsHealPokemon.comment=Si el dormir en camas cura los Pokémon del jugador.
 pixelmon.config.useBattleCamera.comment=Establece si se desea o no cambiar a una cámara externa durante los combates.
+pixelmon.config.playerControlCamera.comment=Establece si el jugador puede o no controlar la cámara durante los combates (control en esfera basado en la posición de la cámara)
 pixelmon.config.allowPokemonEditors.comment=Server-side, si los jugadores pueden usar editores Pokémon. Client-side, si otros jugadores pueden usar un editor Pokémon en el jugador con el ajuste.
 pixelmon.config.dataSaveOnWorldSave.comment=Si los jugadores del grupo y del ordenador serán guardados a la fuerza en cada guardado de mundo (Si está desactivado, es recomendable guardar mediante /saveall, o te arriesgas a perder datos)
 
