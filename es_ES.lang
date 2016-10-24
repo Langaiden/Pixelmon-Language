@@ -6315,7 +6315,8 @@ pixelmon.config.lowResTextures.comment=Usar texturas de baja resolución para Po
 pixelmon.config.useSmoothShadingOnPokeBalls.comment=Usar normal maps SMD para el sombreado de Poké Balls.
 pixelmon.config.useSmoothShadingOnPokemon.comment=Usar normal maps SMD para el sombreado de Pokémon.
 pixelmon.config.useOriginalPokemonTexturesForStatues.comment=Usar texturas originales para las estatuas Pokémon.
-pixelmon.config.showCurrentAttackTarget.comment=Mostrar el actual objetivo seleccionado del Pokémon en la pantalla.
+pixelmon.config.showCurrentAttackTarget.comment=Muestra el objetivo actual seleccionado del Pokémon en pantalla.
+pixelmon.config.drawHealthBars.comment=Muestra una barra de vida sobre la cabeza de los Pokemon.
 
 pixelmon.config.allowBreeding.comment=Permite colocar bloques del rancho, necesarios para la reproducción Pokémon.
 pixelmon.config.allowDittoDittoBreeding.comment=Permite a dos Dittos criar juntos para producir Huevos con Pokémon aleatorios.
