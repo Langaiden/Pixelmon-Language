@@ -3412,6 +3412,9 @@ pixelmon.command.givemoney.received=%s successfully added %s PokéDollars to you
 pixelmon.command.givemoney.moneylimit=%s cannot hold any more PokéDollars!
 pixelmon.command.givemoney.nomoney=%s has no PokéDollars to take away!
 pixelmon.command.trainerhat.invalidcolour=Invalid colors entered for hat. Should be red/green/blue from 0-255.
+pixelmon.command.reload.error.shopitems=Cannot reload shop items data!
+pixelmon.command.reload.error.npcs=Cannot reload NPC data!
+pixelmon.command.reload.done=NPC and shop item data reloaded.
 
 //Other
 pixelmon.drops.fullinventory=Your inventory is full! %s was dropped on the ground!
@@ -5467,6 +5470,7 @@ pixelmon.config.Gen3=Generation 3
 pixelmon.config.Gen4=Generation 4
 pixelmon.config.Gen5=Generation 5
 
+pixelmon.config.maxSpawnsPerTick=Max Pokémon spawns per tick
 pixelmon.config.maxLandPokemon=Max land Pokémon
 pixelmon.config.maxUndergroundPokemon=Max underground Pokémon
 pixelmon.config.maxWaterPokemon=Max water Pokémon
