@@ -831,6 +831,8 @@ item.dusk_stone_plate.name=Dusk Stone Chestplate
 item.dusk_stone_legs.name=Dusk Stone Leggings
 item.dusk_stone_boots.name=Dusk Stone Boots
 item.picket_fence.name=Picket Fence
+tile.picket_fence_cross.name=Picket Fence
+tile.picket_fence_corner.name=Picket Fence
 
 item.record.asmbts.desc=A Simple Moment by the Sea
 item.record.atd.desc=Across the Desert
