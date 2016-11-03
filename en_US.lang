@@ -5519,6 +5519,7 @@ pixelmon.config.allowVanillaMobs=Enable vanilla mobs
 pixelmon.config.allowCaptureOutsideBattle=Allow capture outside battle
 pixelmon.config.npcRarity=NPC rarity
 pixelmon.config.namePlateRange=Name plate distance
+pixelmon.config.showWildNames=Show wild Pokémon names
 pixelmon.config.scalePokemonModels=Increase model size by 30%
 pixelmon.config.growthScaleModifier=Growth size variation
 pixelmon.config.pokemonDropsEnabled=Enable Pokémon drops
@@ -5615,6 +5616,7 @@ pixelmon.config.allowVanillaMobs.comment=Allow creepers, skeletons, etc. to spaw
 pixelmon.config.allowCaptureOutsideBattle.comment=Allow player to throw Poke Balls from hotbar. If false, Poke Balls can only be thrown in battles.
 pixelmon.config.npcRarity.comment=Sets NPC rarity. Higher values spawn NPCs (Trainers, tutors) more often, 0 spawns no NPCs.
 pixelmon.config.namePlateRange.comment=Sets how far Pokemon names and levels can be seen from (client setting only). 1=Default, 2=Farther, 3=Far
+pixelmon.config.showWildNames.comment=Whether to show wild Pokémon names on their nameplates.
 pixelmon.config.scalePokemonModels.comment=Increases size of Pokemon models in-game by 30%.
 pixelmon.config.growthScaleModifier.comment=Adjusts the variation in size caused by growth (0-2). 1 is normal.
 pixelmon.config.pokemonDropsEnabled.comment=Allows wild Pokemon to drop items like feathers, etc. on death.
