@@ -850,6 +850,8 @@ item.dusk_stone_plate.name=Peto de Piedra Noche
 item.dusk_stone_legs.name=Grebas de Piedra Noche
 item.dusk_stone_boots.name=Botas de Piedra Noche
 item.picket_fence.name=Valla
+tile.picket_fence_cross.name=Valla
+tile.picket_fence_corner.name=Valla
 
 item.record.asmbts.desc=Un Tranquilo Momento por el Mar
 item.record.atd.desc=A Través del Desierto
@@ -6125,6 +6127,7 @@ pixelmon.config.allowVanillaMobs=Permitir mobs de vanilla
 pixelmon.config.allowCaptureOutsideBattle=Capturar fuera de combate
 pixelmon.config.npcRarity=Frecuencia de aparición de NPCs
 pixelmon.config.namePlateRange=Asignar Distancia
+pixelmon.config.showWildNames=Mostrar nombres de Pokémon salvajes
 pixelmon.config.scalePokemonModels=Aumentar el tamaño de los modelos un 30%
 pixelmon.config.growthScaleModifier=Variación del tamaño de crecimiento
 pixelmon.config.pokemonDropsEnabled=Activar drops de Pokémon
@@ -6167,8 +6170,10 @@ pixelmon.config.allowPayDayMoney=Activar dinero con Día de Pago
 pixelmon.config.pickupRate=Tasa de Recogida
 pixelmon.config.bedsHealPokemon=Dormir cura los Pokémon
 pixelmon.config.useBattleCamera=Usar Cámara de Combate
-pixelmon.config.playerControlCamera=Controlar cámara de combate
+pixelmon.config.playerControlCamera=Control de cámara de combate
 pixelmon.config.allowPokemonEditors=Permitir editores Pokémon
+pixelmon.config.dataSaveOnWorldSave=Guardar info del mundo en el archivo de guardado
+pixelmon.config.maxLevel=Nivel Máximo
 
 pixelmon.config.enableAFKHandler=Modo AFK activado
 pixelmon.config.afkActivateSeconds=Segundos estando AFK
@@ -6220,6 +6225,7 @@ pixelmon.config.allowVanillaMobs.comment=Pueden aparecer creepers, esqueletos, e
 pixelmon.config.allowCaptureOutsideBattle.comment=Permite al jugador lanzar Poké Balls desde el inventario. Si está desactivado, sólo se podrán usar Poké Balls en combate.
 pixelmon.config.npcRarity.comment=Establece la frecuencia de los NPCs. Con valores altos aparecerán NPCs (entrenadores, tutores) con más frecuencia, 0 no aparecerán NPCs.
 pixelmon.config.namePlateRange.comment=Fija la distancia en que los nombres y niveles de los Pokémon puden ser vistos (sólo ajuste de cliente). 1=Por defecto, 2=Muy lejos, 3=Lejos
+pixelmon.config.showWildNames.comment=Muestra o no los nombres de los Pokémon salvajes.
 pixelmon.config.scalePokemonModels.comment=Incrementa el tamaño de los modelos Pokémon en el juego 30%.
 pixelmon.config.growthScaleModifier.comment=Ajusta la variación del tamaño causada por el crecimiento (0-2). 1 es normal.
 pixelmon.config.pokemonDropsEnabled.comment=Permite que los Pokemon salvajes suelten objetos como plumas, etc. cuando se debilitan.
@@ -6265,7 +6271,8 @@ pixelmon.config.bedsHealPokemon.comment=Si el dormir en camas cura los Pokémon 
 pixelmon.config.useBattleCamera.comment=Establece si se desea o no cambiar a una cámara externa durante los combates.
 pixelmon.config.playerControlCamera.comment=Establece si el jugador puede o no controlar la cámara durante los combates (control en esfera basado en la posición de la cámara)
 pixelmon.config.allowPokemonEditors.comment=Server-side, si los jugadores pueden usar editores Pokémon. Client-side, si otros jugadores pueden usar un editor Pokémon en el jugador con el ajuste.
-pixelmon.config.dataSaveOnWorldSave.comment=Si los jugadores del grupo y del ordenador serán guardados a la fuerza en cada guardado de mundo (Si está desactivado, es recomendable guardar mediante /saveall, o te arriesgas a perder datos)
+pixelmon.config.dataSaveOnWorldSave.comment=Si los datos de los jugadores del grupo y del ordenador serán guardados a la fuerza en cada guardado de mundo (Si está desactivado, es recomendable guardar mediante /saveall, o te arriesgas a perder datos)
+pixelmon.config.maxLevel.comment=Nivel máximo que un Pokémon puede ser.
 
 pixelmon.config.spawnTickRate.comment=Número de ticks antes de que se produzca un intento de hacer aparecer entiedades.
 pixelmon.config.spawnDimensions.comment=Lista de dimensiones en las que los Pokémon aparecerán.
