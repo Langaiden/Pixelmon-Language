@@ -4034,8 +4034,8 @@ gui.acceptdeny.double=Doppelkampf
 gui.acceptdeny.invaliddouble=%s hat nicht genug Pokémon für einen Doppelkampf!
 
 gui.renamePoke.Reset=Zurücksetzen
-gui.renamePoke.cancel=gui.cancel
-gui.renamePoke.renamebutton=selectWorld.renameButton
+gui.renamePoke.cancel=Abbrechen
+gui.renamePoke.renamebutton=Umbenennen
 gui.renamePoke.renamePokemon=Pokémon umbenennen
 
 gui.screenpokechecker.moves=Attacken
