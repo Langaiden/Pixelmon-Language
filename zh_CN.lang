@@ -823,6 +823,8 @@ item.dusk_stone_plate.name=暗之石胸甲
 item.dusk_stone_legs.name=暗之石裤
 item.dusk_stone_boots.name=暗之石靴
 item.picket_fence.name=栅栏
+tile.picket_fence_cross.name=栅栏
+tile.picket_fence_corner.name=栅栏
 
 item.record.asmbts.desc=简单的海边时光
 item.record.atd.desc=横穿沙漠
@@ -5558,13 +5560,13 @@ pixelmon.config.allowPayDayMoney=允许聚宝功使用金钱。
 pixelmon.config.pickupRate=捡拾几率
 pixelmon.config.useBattleCamera=使用对战镜头
 pixelmon.config.playerControlCamera=玩家操控对战镜头
-
 pixelmon.config.allowPokemonEditors=允许使用宝可梦编辑器
-pixelmon.config.dataSaveOnWorldSave.comment=如果玩家背包或PC被强制保存，则自动保存世界（如果为false，则你需要通过/saveall指令来保存内容，或自行承担数据丢失的问题）
+pixelmon.config.dataSaveOnWorldSave=数据保存在世界存档
 
 pixelmon.config.enableAFKHandler=启用AFK程序
 pixelmon.config.afkActivateSeconds=AFK激活秒数
 pixelmon.config.afkHandlerTurnSeconds=AFK反应秒数
+
 
 pixelmon.config.allowBreeding=允许繁殖
 pixelmon.config.allowDittoDittoBreeding=允许两只百变怪繁殖
@@ -5654,8 +5656,8 @@ pixelmon.config.multiplePhotosOfSamePokemon.comment=允许玩家重复获得相�
 pixelmon.config.pickupRate.comment=捡拾特性在战斗后获得道具的几率 (1/几率). 0 为禁用此功能。
 pixelmon.config.useBattleCamera.comment=是否设置对战镜头改为外部镜头设置。
 pixelmon.config.playerControlCamera.comment=是否设置玩家对战中可调整镜头方向(设置镜头基于球面的大小)
-
 pixelmon.config.allowPokemonEditors.comment=当使用服务器端时，此选项设置其他玩家是否可以使用宝可梦编辑器。当在客户端使用时，是否允许其他玩家修改另一人的宝可梦编辑器。
+pixelmon.config.dataSaveOnWorldSave.comment=如果玩家背包或PC被强制保存，则自动保存世界（如果为false，则你需要通过/saveall指令来保存内容，或自行承担数据丢失的问题）
 
 pixelmon.config.spawnTickRate.comment=生成宝可梦前允许的实体数目。
 pixelmon.config.allowPayDayMoney.comment=允许宝可梦币被聚宝功使用。
