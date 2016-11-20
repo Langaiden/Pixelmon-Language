@@ -2,6 +2,16 @@
 //汉化协力(修正润色)：Yyiyun
 //Simplified Chinese Translators: McMySticalCraft 'TT702' And 'Yyiyun'
 
+
+
+
+
+
+
+
+
+
+
 item.fossil_machine_tank.name=化石复活机
 item.fossil_machine_display.name=化石复活机显示器
 item.fossil_machine_top.name=化石复活机机盖
@@ -9,6 +19,8 @@ item.fossil_machine_base.name=化石复活机机座
 item.green_tank.name=克隆机组件(左)
 item.orange_tank.name=克隆机组件(右)
 item.cloner_cord.name=克隆机组件连接线(中)
+item.hidden_iron_door.name=隐藏的铁门
+item.hidden_wooden_door.name=隐藏的木门
 item.pokedex.name=宝可梦图鉴
 item.wood_hammer.name=木锤
 item.stone_hammer.name=石锤
@@ -44,7 +56,6 @@ item.uno_orb.name=寒冽珠
 item.dos_orb.name=雷泣珠
 item.tres_orb.name=熾炎珠
 item.orb.name=纯净珠
-
 item.item_finder.name=奖励箱探测仪
 item.poke_ball.name=精灵球
 item.great_ball.name=超级球
@@ -213,9 +224,6 @@ item.persim_berry.name=甜柿
 item.lum_berry.name=绿姆果
 item.sitrus_berry.name=香柚
 item.berry_juice.name=树果汁
-item.jaboca_berry.name=嘉宝果
-item.rowap_berry.name=莲雾果
-item.ginema_berry.name=洋葱果
 item.pumkin_berry.name=南瓜果
 item.drash_berry.name=萝卜果
 item.eggant_berry.name=茄果
@@ -251,8 +259,6 @@ item.haban_berry.name=番榴
 item.colbur_berry.name=刺球果
 item.babiri_berry.name=霹雳果
 item.chilan_berry.name=灯笼果
-item.micle_berry.name=神秘果
-
 
 item.heal_powder.name=万能之粉
 item.energy_powder.name=元气之粉
@@ -316,11 +322,13 @@ item.exp_share.name=学习装置
 item.choice_band.name=限定招式的头巾
 item.choice_scarf.name=限定招式的围巾
 item.choice_specs.name=限定招式的眼镜
+item.muscle_band.name=力量头巾
 item.macho_brace.name=强制锻炼器
 item.power_weight.name=力量负重
 item.power_bracer.name=力量护腕
 item.power_belt.name=力量腰带
 item.power_lens.name=力量镜片
+
 item.power_band.name=力量束带
 item.power_anklet.name=力量护踝
 item.soothe_bell.name=安抚之铃
@@ -339,18 +347,15 @@ item.reaper_cloth.name=灵界之布
 item.up-grade.name=升级
 item.razor_fang.name=锐利牙
 item.dragon_scale.name=龙之鳞片
+item.razor_claw.name=锐利爪子
 item.absorb_bulb.name=球根
 item.life_orb.name=生命之玉
 item.focus_sash.name=振奋精神的绑带
 item.focus_band.name=振奋精神的头布
 item.toxic_orb.name=剧毒珠
 item.flame_orb.name=火焰珠
-item.metal_coat.name=金属涂层
-item.prism_scale.name=绮丽鳞片
-item.muscle_band.name=力量头巾
-item.razor_claw.name=锐利爪子
 item.black_sludge.name=黑色淤泥
-item.scope_lens.name=对焦镜片（第二世代起）
+item.scope_lens.name=对焦镜片
 item.air_balloon.name=气球
 item.rocky_helmet.name=坚硬头盔
 item.shed_shell.name=漂亮外套
@@ -370,10 +375,11 @@ item.red_card.name=红牌
 item.expert_belt.name=达人带子
 item.light_clay.name=光之粘土
 item.mental_herb.name=心灵药草
+item.sticky_barb.name=附针
 item.quick_claw.name=先攻之爪
 item.white_herb.name=白色药草
 item.big_root.name=巨大根茎
-item.zoom_lens.name=对焦镜片（第四世代起）
+item.zoom_lens.name=对焦镜片
 item.bright_powder.name=亮光之粉
 item.ginema_berry.name=洋葱果
 item.jaboca_berry.name=嘉宝果
@@ -389,7 +395,16 @@ item.float_stone.name=浮石
 item.micle_berry.name=神秘果
 item.ring_target.name=狙击标靶
 item.amulet_coin.name=护身金币
-
+item.ability_capsule.name=特性胶囊
+item.assault_vest.name=突击背心
+item.kee_berry.name=亚开果
+item.maranga_berry.name=香罗果
+item.roseli_berry.name=洛玫果
+item.pixie_plate.name=妖精石板
+item.luminous_moss.name=光苔
+item.safety_goggles.name=防尘护目镜
+item.snowball.name=雪球
+item.weakness_policy.name=弱点保险
 
 item.full_incense.name=满腹熏香
 item.lax_incense.name=悠闲熏香
@@ -446,6 +461,7 @@ item.dragon_fang.name=龙之牙
 item.hard_stone.name=硬石头
 item.magnet.name=磁铁
 item.metal_coat.name=金属涂层
+item.prism_scale.name=绮丽鳞片
 item.miracle_seed.name=奇迹种子
 item.mystic_water.name=神秘水滴
 item.never_melt_ice.name=不融冰
@@ -457,9 +473,8 @@ item.soft_sand.name=柔软的沙子
 item.spell_tag.name=诅咒护身符
 item.twisted_spoon.name=弯曲的汤匙
 item.destiny_knot.name=红线
-item.sticky_barb.name=附针
 item.x_attack.name=力量增强
-item.x_defence.name=道具
+item.x_defence.name=伤害预防
 item.x_special_attack.name=特殊增强
 item.x_special_defence.name=特防强化
 item.x_speed.name=速度增加
@@ -471,13 +486,14 @@ item.ranch_upgrade.name=大家的宝可梦牧场升级
 item.hourglass_gold.name=Isi的金色的沙漏
 item.hourglass_silver.name=Isi的银色的沙漏
 item.pixelmon_sprite.name=照片
-
-item.hidden_iron_door.name=隐藏的铁门
-item.hidden_wooden_door.name=隐藏的木门
+item.entity_pixelmon_painting_item.name=宝可梦绘画
+item.camera.name=照相机
+item.film.name=影片
 
 tile.poke_chest.name=精灵球箱
 tile.ultra_chest.name=高级球箱
 tile.master_chest.name=大师球箱
+
 item.tm1.name=技能学习器01 - 磨爪子
 item.tm2.name=技能学习器02 - 龙爪
 item.tm3.name=技能学习器03 - 幻象攻击
@@ -643,6 +659,12 @@ item.tm162.name=技能学习器162 - 隐形岩
 item.tm163.name=技能学习器163 - 诱惑
 item.tm164.name=技能学习器164 - 恶波动
 item.tm165.name=技能学习器165 - 自然之恩
+item.tm166.name=技能学习器166 - 死缠烂打
+item.tm167.name=技能学习器167 - 自然之力
+item.tm168.name=技能学习器168 - 增强拳
+item.tm169.name=技能学习器169 - 魔法闪耀
+item.tm170.name=技能学习器170 - 密语
+
 item.hm1.name=秘传技学习器01 - 居合斩
 item.hm2.name=秘传技学习器02 - 飞空
 item.hm3.name=秘传技学习器03 - 冲浪
@@ -833,6 +855,7 @@ item.record.ds.desc=遥远的彼岸
 item.record.fptp.desc=从高峰到顶峰
 item.record.jtts.desc=天空旅程
 item.record.nf.desc=黄昏
+item.record.ml.desc=月光
 item.record.otwoa.desc=探险之翼
 item.record.pw.desc=像素精灵华尔兹
 item.record.tef.desc=魔法森林
@@ -880,9 +903,6 @@ tile.braille_block2.Z.name=雕文方块 Z
 tile.braille_block2...name=雕文方块 .
 tile.braille_block2.,.name=雕文方块 ,
 tile.braille_block2._.name=雕文方块 _
-item.entity_pixelmon_painting_item.name=宝可梦绘画
-item.camera.name=照相机
-item.film.name=影片
 
 itemGroup.tabPokeLoot=宝可梦奖励道具
 itemGroup.Pokeballs=精灵球
@@ -892,11 +912,12 @@ itemGroup.Natural=自然产物
 itemGroup.Held Items=携带物品
 itemGroup.TMs/HMs=技能学习器/秘传技学习器
 itemGroup.utilityBlocks=宝可梦实用方块
-itemGroup.PixelUtilitiesBlocks=宝可梦场景方块
-itemGroup.PixelUtilitiesItems=宝可梦实用道具
-itemGroup.PixelUtilitiesArmor=宝可梦盔甲
-itemGroup.PixelUtilsDecoration=宝可梦装饰物
-itemGroup.PixelUtilsTools=宝可梦实用工具
+itemGroup.Decoration=装饰
+
+
+
+
+
 
 attack.tail whip.name=摇尾巴
 attack.tail whip.description=通过摇晃尾巴来迷惑对方。使对方防御降低
@@ -3928,6 +3949,7 @@ gui.renamePoke.cancel=取消
 gui.renamePoke.renamebutton=重命名
 gui.renamePoke.renamePokemon=重命名您的宝可梦
 
+
 gui.screenpokechecker.moves=技能
 gui.screenpokechecker.stats=统计
 gui.screenpokechecker.rename=重命名
@@ -5046,6 +5068,7 @@ pixelmon.battletext.missedattack=%s 躲避了攻击！
 pixelmon.battletext.butmovefailed=但是技能失败了！
 pixelmon.battletext.used=%s 使用了 %s！
 pixelmon.battletext.sentout=%s 放出了 %s！
+
 
 
 
