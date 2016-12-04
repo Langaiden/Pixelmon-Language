@@ -2,6 +2,16 @@
 //汉化协力(修正润色)：Yyiyun
 //Simplified Chinese Translators: McMySticalCraft 'TT702' And 'Yyiyun'
 
+
+
+
+
+
+
+
+
+
+
 item.fossil_machine_tank.name=化石复活机
 item.fossil_machine_display.name=化石复活机显示器
 item.fossil_machine_top.name=化石复活机机盖
@@ -9,6 +19,8 @@ item.fossil_machine_base.name=化石复活机机座
 item.green_tank.name=克隆机组件(左)
 item.orange_tank.name=克隆机组件(右)
 item.cloner_cord.name=克隆机组件连接线(中)
+item.hidden_iron_door.name=隐藏的铁门
+item.hidden_wooden_door.name=隐藏的木门
 item.pokedex.name=宝可梦图鉴
 item.wood_hammer.name=木锤
 item.stone_hammer.name=石锤
@@ -44,7 +56,6 @@ item.uno_orb.name=寒冽珠
 item.dos_orb.name=雷泣珠
 item.tres_orb.name=熾炎珠
 item.orb.name=纯净珠
-
 item.item_finder.name=奖励箱探测仪
 item.poke_ball.name=精灵球
 item.great_ball.name=超级球
@@ -213,9 +224,6 @@ item.persim_berry.name=甜柿
 item.lum_berry.name=绿姆果
 item.sitrus_berry.name=香柚
 item.berry_juice.name=树果汁
-item.jaboca_berry.name=嘉宝果
-item.rowap_berry.name=莲雾果
-item.ginema_berry.name=洋葱果
 item.pumkin_berry.name=南瓜果
 item.drash_berry.name=萝卜果
 item.eggant_berry.name=茄果
@@ -251,8 +259,6 @@ item.haban_berry.name=番榴
 item.colbur_berry.name=刺球果
 item.babiri_berry.name=霹雳果
 item.chilan_berry.name=灯笼果
-item.micle_berry.name=神秘果
-
 
 item.heal_powder.name=万能之粉
 item.energy_powder.name=元气之粉
@@ -316,11 +322,13 @@ item.exp_share.name=学习装置
 item.choice_band.name=限定招式的头巾
 item.choice_scarf.name=限定招式的围巾
 item.choice_specs.name=限定招式的眼镜
+item.muscle_band.name=力量头巾
 item.macho_brace.name=强制锻炼器
 item.power_weight.name=力量负重
 item.power_bracer.name=力量护腕
 item.power_belt.name=力量腰带
 item.power_lens.name=力量镜片
+
 item.power_band.name=力量束带
 item.power_anklet.name=力量护踝
 item.soothe_bell.name=安抚之铃
@@ -335,21 +343,19 @@ item.electirizer.name=电力发动机
 item.magmarizer.name=岩浆驱动器
 item.kings_rock.name=王者之证
 item.protector.name=护身盔甲
+item.reaper_cloth.name=灵界之布
 item.up-grade.name=升级
 item.razor_fang.name=锐利牙
 item.dragon_scale.name=龙之鳞片
+item.razor_claw.name=锐利爪子
 item.absorb_bulb.name=球根
 item.life_orb.name=生命之玉
 item.focus_sash.name=振奋精神的绑带
 item.focus_band.name=振奋精神的头布
 item.toxic_orb.name=剧毒珠
 item.flame_orb.name=火焰珠
-item.metal_coat.name=金属涂层
-item.prism_scale.name=绮丽鳞片
-item.muscle_band.name=力量头巾
-item.razor_claw.name=锐利爪子
 item.black_sludge.name=黑色淤泥
-item.scope_lens.name=对焦镜片（第二世代起）
+item.scope_lens.name=对焦镜片
 item.air_balloon.name=气球
 item.rocky_helmet.name=坚硬头盔
 item.shed_shell.name=漂亮外套
@@ -369,10 +375,11 @@ item.red_card.name=红牌
 item.expert_belt.name=达人带子
 item.light_clay.name=光之粘土
 item.mental_herb.name=心灵药草
+item.sticky_barb.name=附针
 item.quick_claw.name=先攻之爪
 item.white_herb.name=白色药草
 item.big_root.name=巨大根茎
-item.zoom_lens.name=对焦镜片（第四世代起）
+item.zoom_lens.name=对焦镜片
 item.bright_powder.name=亮光之粉
 item.ginema_berry.name=洋葱果
 item.jaboca_berry.name=嘉宝果
@@ -388,7 +395,16 @@ item.float_stone.name=浮石
 item.micle_berry.name=神秘果
 item.ring_target.name=狙击标靶
 item.amulet_coin.name=护身金币
-
+item.ability_capsule.name=特性胶囊
+item.assault_vest.name=突击背心
+item.kee_berry.name=亚开果
+item.maranga_berry.name=香罗果
+item.roseli_berry.name=洛玫果
+item.pixie_plate.name=妖精石板
+item.luminous_moss.name=光苔
+item.safety_goggles.name=防尘护目镜
+item.snowball.name=雪球
+item.weakness_policy.name=弱点保险
 
 item.full_incense.name=满腹熏香
 item.lax_incense.name=悠闲熏香
@@ -445,6 +461,7 @@ item.dragon_fang.name=龙之牙
 item.hard_stone.name=硬石头
 item.magnet.name=磁铁
 item.metal_coat.name=金属涂层
+item.prism_scale.name=绮丽鳞片
 item.miracle_seed.name=奇迹种子
 item.mystic_water.name=神秘水滴
 item.never_melt_ice.name=不融冰
@@ -456,9 +473,8 @@ item.soft_sand.name=柔软的沙子
 item.spell_tag.name=诅咒护身符
 item.twisted_spoon.name=弯曲的汤匙
 item.destiny_knot.name=红线
-item.sticky_barb.name=附针
 item.x_attack.name=力量增强
-item.x_defence.name=道具
+item.x_defence.name=伤害预防
 item.x_special_attack.name=特殊增强
 item.x_special_defence.name=特防强化
 item.x_speed.name=速度增加
@@ -470,13 +486,14 @@ item.ranch_upgrade.name=大家的宝可梦牧场升级
 item.hourglass_gold.name=Isi的金色的沙漏
 item.hourglass_silver.name=Isi的银色的沙漏
 item.pixelmon_sprite.name=照片
-
-item.hidden_iron_door.name=隐藏的铁门
-item.hidden_wooden_door.name=隐藏的木门
+item.entity_pixelmon_painting_item.name=宝可梦绘画
+item.camera.name=照相机
+item.film.name=影片
 
 tile.poke_chest.name=精灵球箱
 tile.ultra_chest.name=高级球箱
 tile.master_chest.name=大师球箱
+
 item.tm1.name=技能学习器01 - 磨爪子
 item.tm2.name=技能学习器02 - 龙爪
 item.tm3.name=技能学习器03 - 幻象攻击
@@ -642,6 +659,12 @@ item.tm162.name=技能学习器162 - 隐形岩
 item.tm163.name=技能学习器163 - 诱惑
 item.tm164.name=技能学习器164 - 恶波动
 item.tm165.name=技能学习器165 - 自然之恩
+item.tm166.name=技能学习器166 - 死缠烂打
+item.tm167.name=技能学习器167 - 自然之力
+item.tm168.name=技能学习器168 - 增强拳
+item.tm169.name=技能学习器169 - 魔法闪耀
+item.tm170.name=技能学习器170 - 密语
+
 item.hm1.name=秘传技学习器01 - 居合斩
 item.hm2.name=秘传技学习器02 - 飞空
 item.hm3.name=秘传技学习器03 - 冲浪
@@ -823,6 +846,8 @@ item.dusk_stone_plate.name=暗之石胸甲
 item.dusk_stone_legs.name=暗之石裤
 item.dusk_stone_boots.name=暗之石靴
 item.picket_fence.name=栅栏
+tile.picket_fence_cross.name=栅栏
+tile.picket_fence_corner.name=栅栏
 
 item.record.asmbts.desc=简单的海边时光
 item.record.atd.desc=横穿沙漠
@@ -830,6 +855,7 @@ item.record.ds.desc=遥远的彼岸
 item.record.fptp.desc=从高峰到顶峰
 item.record.jtts.desc=天空旅程
 item.record.nf.desc=黄昏
+item.record.ml.desc=月光
 item.record.otwoa.desc=探险之翼
 item.record.pw.desc=像素精灵华尔兹
 item.record.tef.desc=魔法森林
@@ -877,9 +903,6 @@ tile.braille_block2.Z.name=雕文方块 Z
 tile.braille_block2...name=雕文方块 .
 tile.braille_block2.,.name=雕文方块 ,
 tile.braille_block2._.name=雕文方块 _
-item.entity_pixelmon_painting_item.name=宝可梦绘画
-item.camera.name=照相机
-item.film.name=影片
 
 itemGroup.tabPokeLoot=宝可梦奖励道具
 itemGroup.Pokeballs=精灵球
@@ -889,11 +912,12 @@ itemGroup.Natural=自然产物
 itemGroup.Held Items=携带物品
 itemGroup.TMs/HMs=技能学习器/秘传技学习器
 itemGroup.utilityBlocks=宝可梦实用方块
-itemGroup.PixelUtilitiesBlocks=宝可梦场景方块
-itemGroup.PixelUtilitiesItems=宝可梦实用道具
-itemGroup.PixelUtilitiesArmor=宝可梦盔甲
-itemGroup.PixelUtilsDecoration=宝可梦装饰物
-itemGroup.PixelUtilsTools=宝可梦实用工具
+itemGroup.Decoration=装饰
+
+
+
+
+
 
 attack.tail whip.name=摇尾巴
 attack.tail whip.description=通过摇晃尾巴来迷惑对方。使对方防御降低
@@ -3422,6 +3446,9 @@ pixelmon.interaction.tmcantlearn=%s 无法学习 %s！
 pixelmon.interaction.vitamin=%s 的亲密值和努力值都增长了一些！
 pixelmon.interaction.berry=%s 的 %s 下降了！
 pixelmon.interaction.berryfail=%s 的 %s 已经不能再低了。
+pixelmon.interaction.noeffect=这并没有效果。
+pixelmon.interaction.abilitycapsule=%s 的特性已经变成 %s！
+
 
 pixelmon.general.noeffect=这并没有效果
 pixelmon.general.needop=您必须是OP或具有此操作的权限才可以进行这个操作
@@ -3514,7 +3541,6 @@ pixelmon.helditems.consumerawst=%s 使用了苦莓治愈了灼伤
 pixelmon.helditems.shellbell=%s 使用了贝壳之铃恢复了少量HP
 pixelmon.helditems.shellbellwild=野生的 %s 使用了贝壳之铃恢复了少量HP
 pixelmon.helditems.gainedtenhp=%s 恢复了健康！
-pixelmon.helditems.absorbbulb=%s 的球根激活了！
 pixelmon.helditem.absorbowner=%s 的 %s 因为携带了球根所以提升了特攻！
 pixelmon.helditem.absorbwild=野生的 %s 因为携带了球根所以提升了特攻！
 pixelmon.helditems.leftovers=%s 的剩饭恢复了它一些体力！
@@ -3715,6 +3741,7 @@ pixelmon.abilities.angerpoint=愤怒穴道使 %s 变得大怒！
 pixelmon.abilities.anticipation=%s 因为预知到危险而害怕得颤抖！
 pixelmon.abilities.baddreams=%s 被 %s 的恶梦所折磨！
 pixelmon.abilities.bigpecks=%s 的鸽胸让自己的防御力下降了！
+pixelmon.abilities.changeform=%s 改变了形态！
 pixelmon.abilities.clearbody=%s 的透明体防止了自身的能力被降低！
 pixelmon.abilities.cloudnine=%s 的乐天使天气的影响消失！
 pixelmon.abilities.colourchange=%s 的变色使它的属性变为 %s 系！
@@ -3767,7 +3794,7 @@ pixelmon.abilities.motordrive=电气引擎使 %s 的速度上升！
 pixelmon.abilities.motordrive2=%s 的电气引擎使攻击无效！
 pixelmon.abilities.magicbounce=%s 的魔法反射把对方的技能反弹回去了！
 pixelmon.abilities.oblivious=%s 的迟钝使攻击无效！
-pixelmon.abilities.obliviouscure=%s 的迟钝使它治愈了心醉神迷！
+pixelmon.abilities.obliviouscure=%s 醒悟过来了！
 pixelmon.abilities.owntempo=%s 的我行我素防止了混乱！
 pixelmon.abilities.owntempocure=%s 的我行我素让它从混乱中脱离！
 pixelmon.abilities.pickpocket=%s 的偷盗恶习让它偷走了 %s 的 %s！
@@ -3921,6 +3948,7 @@ gui.renamePoke.Reset=重设
 gui.renamePoke.cancel=取消
 gui.renamePoke.renamebutton=重命名
 gui.renamePoke.renamePokemon=重命名您的宝可梦
+
 
 gui.screenpokechecker.moves=技能
 gui.screenpokechecker.stats=统计
@@ -5043,6 +5071,7 @@ pixelmon.battletext.sentout=%s 放出了 %s！
 
 
 
+
 pixelmon.effect.regainedenergy=%s 恢复了能量！
 pixelmon.effect.atedreams=%s 吃掉了 %s 的梦！
 pixelmon.effect.notasleep=%s 没有睡着！
@@ -5218,6 +5247,12 @@ pixelmon.effect.lunardance=%s 被新月舞治疗了！
 pixelmon.effect.smellingsalt=%s 的麻痹被治愈了！
 pixelmon.effect.revived=%s 被复活了！
 pixelmon.effect.thief=%s 偷走了 %s 的 %s！
+pixelmon.effect.celebrate=祝贺你, %s！
+pixelmon.effect.addtype=%s 的属性被添加到 %s！
+pixelmon.effect.geomancy=%s 进行蓄气！
+pixelmon.effect.restorehealth=%s 恢复了健康！
+pixelmon.effect.happyhour=每个人都沉浸在欢乐的气氛中！
+pixelmon.effect.topsyturvy=%s 的能力等级数值变为其相反数了！
 pixelmon.effect.shadowforce=%s 消失了！
 
 pixelmon.status.ringheal=%s 被它自己的戒指治疗了！
@@ -5346,6 +5381,24 @@ pixelmon.status.luckychant=%s 进入了幸运咒语中！
 pixelmon.status.luckychantend=%s 的幸运咒语结束了！
 pixelmon.status.magicroom=%s 制造出了不能使用道具的魔法空间！
 pixelmon.status.magicroomend=魔法空间的效果已结束！
+pixelmon.status.craftyshield=戏法防守保护了 %s 的队伍！
+pixelmon.status.craftyshieldprotect=戏法防守保护了 %s！
+pixelmon.status.electricterrain=电气在对站场地上布满了！
+pixelmon.status.electricterrainend=电气在对站场地上消失了！
+pixelmon.status.electrify=%s 的技能已经被电属性化！
+pixelmon.status.fairylock=下回合全场的宝可梦不能交换或逃跑。
+pixelmon.status.grassyterrain=青草覆盖了对战场地！
+pixelmon.status.grassyterrainend=青草从对战场地上消失了！
+pixelmon.status.sportfade=%s 的影响已经消失了。
+pixelmon.status.iondeluge=大量的离子冲刷着对战场地！
+pixelmon.status.matblock=%s 试图掀开一个榻榻米来阻挡来袭的攻击！
+pixelmon.status.matblock=%s 被先开的榻榻米挡住了！
+pixelmon.status.mistyterrain=白雾围绕着对战场地！
+pixelmon.status.mistyterrainend=白雾从对战场地上消失了！
+pixelmon.status.powder=%s 被粉尘覆盖住了！
+pixelmon.status.powderexplode=火焰接触到了 %s 身上的粉末爆炸了！
+pixelmon.status.stickyweb=在对手脚下放了一个黏黏网！
+pixelmon.status.stickywebcaught=%s 被黏黏网困住了！
 
 attack.curse.alreadycursed=%s 已经被诅咒了！
 attack.curse.curse=%s 消耗了自己的生命值给 %s 造成了诅咒！
@@ -5515,6 +5568,7 @@ pixelmon.config.allowVanillaMobs=启用原版怪物
 pixelmon.config.allowCaptureOutsideBattle=允许对战外捕捉
 pixelmon.config.npcRarity=NPC稀有度
 pixelmon.config.namePlateRange=信息可见距离
+pixelmon.config.showWildNames=显示野生宝可梦名称
 pixelmon.config.scalePokemonModels=使用增大30%的宝可梦模型
 pixelmon.config.growthScaleModifier体型随升级而变化
 pixelmon.config.pokemonDropsEnabled=启用宝可梦掉落物品
@@ -5558,13 +5612,16 @@ pixelmon.config.allowPayDayMoney=允许聚宝功使用金钱。
 pixelmon.config.pickupRate=捡拾几率
 pixelmon.config.useBattleCamera=使用对战镜头
 pixelmon.config.playerControlCamera=玩家操控对战镜头
-
 pixelmon.config.allowPokemonEditors=允许使用宝可梦编辑器
-pixelmon.config.dataSaveOnWorldSave.comment=如果玩家背包或PC被强制保存，则自动保存世界（如果为false，则你需要通过/saveall指令来保存内容，或自行承担数据丢失的问题）
+pixelmon.config.dataSaveOnWorldSave=数据保存在世界存档
+
+pixelmon.config.maxLevel=最大等级
+
 
 pixelmon.config.enableAFKHandler=启用AFK程序
 pixelmon.config.afkActivateSeconds=AFK激活秒数
 pixelmon.config.afkHandlerTurnSeconds=AFK反应秒数
+
 
 pixelmon.config.allowBreeding=允许繁殖
 pixelmon.config.allowDittoDittoBreeding=允许两只百变怪繁殖
@@ -5612,6 +5669,7 @@ pixelmon.config.allowVanillaMobs.comment是否允许苦力怕,骷髅怪,等怪�
 pixelmon.config.allowCaptureOutsideBattle.comment=是否允许玩家在非对战情况下丢出精灵球。如果设置为false则只能在对战中扔精灵球。
 pixelmon.config.npcRarity.comment=设置NPC的罕见程度。更高的数值将会比通常NPC（训练师等）刷新的更多，设为0可以禁止NPC刷新。
 pixelmon.config.namePlateRange.comment=设置玩家可以看见多远的宝可梦的等级和名称。1=Default 默认, 2=Farther 较远 , 3=Far 很远
+pixelmon.config.showWildNames.comment=是否在宝可梦名牌上显示其名称。
 pixelmon.config.scalePokemonModels.comment=在游戏中使用提高了30%体型的宝可梦。
 pixelmon.config.growthScaleModifier.comment=调整升级对体型的变化影响(0-2)。1为普通。
 pixelmon.config.pokemonDropsEnabled.comment=是否让宝可梦死亡后掉落物品。
@@ -5654,8 +5712,8 @@ pixelmon.config.multiplePhotosOfSamePokemon.comment=允许玩家重复获得相�
 pixelmon.config.pickupRate.comment=捡拾特性在战斗后获得道具的几率 (1/几率). 0 为禁用此功能。
 pixelmon.config.useBattleCamera.comment=是否设置对战镜头改为外部镜头设置。
 pixelmon.config.playerControlCamera.comment=是否设置玩家对战中可调整镜头方向(设置镜头基于球面的大小)
-
 pixelmon.config.allowPokemonEditors.comment=当使用服务器端时，此选项设置其他玩家是否可以使用宝可梦编辑器。当在客户端使用时，是否允许其他玩家修改另一人的宝可梦编辑器。
+pixelmon.config.dataSaveOnWorldSave.comment=如果玩家背包或PC被强制保存，则自动保存世界（如果为false，则你需要通过/saveall指令来保存内容，或自行承担数据丢失的问题）
 
 pixelmon.config.spawnTickRate.comment=生成宝可梦前允许的实体数目。
 pixelmon.config.allowPayDayMoney.comment=允许宝可梦币被聚宝功使用。
@@ -6088,6 +6146,7 @@ item.Electirizer.name=电力发动机
 item.Magmarizer.name=岩浆驱动器
 item.King's Rock.name=王者之证
 item.Protector.name=护身盔甲
+item.Reaper Cloth.name=灵界之布
 item.Up-Grade.name=升级
 item.Razor Fang.name=锐利牙
 item.Dragon Scale.name=龙之鳞片
@@ -6388,6 +6447,11 @@ item.TM162 - Stealth Rock.name=技能学习器162 - 隐形岩
 item.TM163 - Captivate.name=技能学习器163 - 诱惑
 item.TM164 - Dark Pulse.name=技能学习器164 - 恶波动
 item.TM165 - Natural Gift.name=技能学习器165 - 自然之恩
+item.TM166 - Infestation.name=技能学习器166 - 死缠烂打
+item.TM167 - Nature Power.name=技能学习器167 - 自然之力
+item.TM168 - Power-Up Punch.name=技能学习器168 - 增强拳
+item.TM169 - Dazzling Gleam.name=技能学习器169 - 魔法闪耀
+item.TM170 - Confide.name=技能学习器170 - 密语
 item.HM1 - Cut.name=秘传技学习器01 - 居合斩
 item.HM2 - Fly.name=秘传技学习器02 - 飞空
 item.HM3 - Surf.name=秘传技学习器03 - 冲浪
