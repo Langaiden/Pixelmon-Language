@@ -3902,7 +3902,7 @@ achievement.PokeballChieve.desc=製作一顆精靈球。
 achievement.LegendaryChieve=第一個傳說
 achievement.LegendaryChieve.desc=第一次收服傳說寶可夢。
 achievement.ShinyChieve=噢！好閃啊！
-achievement.ShinyChieve.desc=收服一隻色違寶可夢。
+achievement.ShinyChieve.desc=收服一隻異色寶可夢。
 achievement.FirstCatchChieve=欲罷不能！
 achievement.FirstCatchChieve.desc=第一次收服寶可夢。
 achievement.TrainerChieve=勝利！
@@ -4254,7 +4254,7 @@ gui.trainereditor.deletepoke=刪除寶可夢
 gui.trainereditor.deletelastpoke=刪除最後的寶可夢
 gui.trainereditor.pokemoneditor=訓練師編輯器 - 寶可夢編輯器
 gui.trainereditor.name=名稱
-gui.trainereditor.shiny=色違
+gui.trainereditor.shiny=異色
 gui.trainereditor.normal=普通
 gui.trainereditor.male=雄性
 gui.trainereditor.female=雌性
@@ -4420,7 +4420,7 @@ enum.nature.serious=認真
 enum.nature.timid=膽小
 
 enum.statuetex.originaltexture=正常
-enum.statuetex.shiny=色違
+enum.statuetex.shiny=異色
 enum.statuetex.stone=石
 enum.statuetex.gold=金
 enum.statuetex.bronze=銅
@@ -5748,7 +5748,7 @@ pixelmon.config.starter.tooltip=初始寶可夢設置
 
 pixelmon.config.spawnTickRate=生成時間
 pixelmon.config.spawnDimensions=生成地點
-pixelmon.config.shinySpawnRate=色違生成機率(1/x)
+pixelmon.config.shinySpawnRate=異色生成機率(1/x)
 pixelmon.config.bossSpawnRate=Boss生成寶可夢機率(1/x)
 pixelmon.config.legendarySpawnTicks=傳說寶可夢生成時間
 pixelmon.config.legendaryRepeatSpawnTicks=傳說寶可夢重複生成時間
@@ -5797,9 +5797,9 @@ pixelmon.config.pokeGiftReusable=寶可夢禮物球可以重複使用
 pixelmon.config.pokeGiftHaveEvents=啟用寶可夢禮物球
 pixelmon.config.eventPokeGiftLoad=啟用生成寶可夢禮物球
 pixelmon.config.eventHasLegendaries=允許傳說寶可夢生成在寶可夢禮物球
-pixelmon.config.eventHasShinies=啟用色違寶可夢生成在寶可夢禮物球
+pixelmon.config.eventHasShinies=啟用異色寶可夢生成在寶可夢禮物球
 pixelmon.config.eventMaxPokemon=寶可夢禮物球最大生成寶可夢數量
-pixelmon.config.eventShinyRate=色違生成在寶可夢禮物球的機率(1/x)
+pixelmon.config.eventShinyRate=異色生成在寶可夢禮物球的機率(1/x)
 pixelmon.config.eventTime=指定寶可夢禮物球的生成日期(日期/月份)
 pixelmon.config.eventCoords=指定寶可夢禮物球的生成座標
 
@@ -5884,7 +5884,7 @@ pixelmon.config.breedingTicks=育種階段的間隔
 pixelmon.config.allowRanchExpansion=啟用牧場擴建
 
 pixelmon.config.level=初始寶可夢等級
-pixelmon.config.shiny=色違初始寶可夢
+pixelmon.config.shiny=異色初始寶可夢
 pixelmon.config.starterList=初始寶可夢挑選列表
 
 pixelmon.config.connectionString=連接字元
@@ -5968,7 +5968,7 @@ pixelmon.config.maxLevel.comment=設定寶可夢最高可以到多少等級。
 
 pixelmon.config.spawnTickRate.comment=Number of ticks before an attempt to spawn entities is made.
 pixelmon.config.spawnDimensions.comment=設定寶可夢自然生成在哪個維度裡面。0=主世界、-1=下界、1=末路之地。如果這裡沒有輸入數字，就禁止寶可夢自然生成，但這會不影響寶可夢生成箱的使用。
-pixelmon.config.shinySpawnRate.comment=設定色違寶可夢的獲得機率，1/(這裡輸入色違機率)。
+pixelmon.config.shinySpawnRate.comment=設定異色寶可夢的獲得機率，1/(這裡輸入異色機率)。
 pixelmon.config.bossSpawnRate.comment=設定在一群野生寶可夢裡面出現Boss寶可夢的機率，1/(這裡輸入Boss機率)，如果輸入0則為禁止生成Boss寶可夢。
 pixelmon.config.legendarySpawnTicks.comment=傳說寶可夢的平均生成時間(隨生成率改變)。
 pixelmon.config.legendaryRepeatSpawnTicks.comment=特定時間內傳說寶可夢的最小再次生成數量(通過主要生成)。
@@ -6046,16 +6046,16 @@ pixelmon.config.pokeGiftHaveEvents.comment=設定是否允許使用寶可夢禮�
 pixelmon.config.eventPokeGiftLoad.comment=設定是否允許寶可夢禮物球生成。
 pixelmon.config.eventHasLegendaries.comment=設定是否允許/禁止傳說寶可夢被放進寶可夢禮物盒。
 
-pixelmon.config.eventHasShinies.comment=每個寶可夢有1/10機會是色違寶可夢。
+pixelmon.config.eventHasShinies.comment=每個寶可夢有1/10機會是異色寶可夢。
 pixelmon.config.eventMaxPokemon.comment=設定寶可夢禮物盒最多可以放幾隻寶可夢在裡面。
-pixelmon.config.eventShinyRate.comment=設定寶可夢禮物盒出現色違寶可夢的機率，1/(這裡輸入機率)。
+pixelmon.config.eventShinyRate.comment=設定寶可夢禮物盒出現異色寶可夢的機率，1/(這裡輸入機率)。
 pixelmon.config.eventTime.comment=設定一個寶可夢禮物球的生成日期，可在選項裡面選擇日期/月份。
 pixelmon.config.eventCoords.comment=設定一個指定的座標生成寶可夢禮物球。
 
 pixelmon.config.elevatorSearchRange.comment=設定兩個電梯的最大容許距離(以方塊為單位，輸入的數值距離包括兩端電梯)。
 
 pixelmon.config.starterLevel.comment=設定初始寶可夢的等級，最小=5，最大=100。
-pixelmon.config.starterShiny.comment=設定是否讓初始寶可夢100%是色違寶可夢。
+pixelmon.config.starterShiny.comment=設定是否讓初始寶可夢100%是異色寶可夢。
 pixelmon.config.starterList.comment=設定初始寶可夢的選擇數量(最多15隻)、設定哪些是初始寶可夢。
 
 // Deprecated
