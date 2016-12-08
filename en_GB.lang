@@ -6015,7 +6015,7 @@ pixelmon.config.elevatorSearchRange.comment=Maximum search range up/down for a p
 
 pixelmon.config.starterLevel.comment=Level (min=5, max=100).
 pixelmon.config.starterShiny.comment=Shiny starters.
-pixelmon.config.starterList.comment=List of starters (max of 15).
+pixelmon.config.starterList.comment=List of starters (max of 18).
 
 // Deprecated
 item.PC.name=PC
