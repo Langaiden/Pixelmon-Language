@@ -4869,9 +4869,9 @@ gui.overlay1v1.lv=Lv.
 
 gui.starter.trademark1=Este es un mod hecho por fans, todas las marcas y copyright de Pokémon están registradas
 gui.starter.trademark2=por Nintendo y Game Freak Inc.
-gui.starter.trademark3=Soportado por Nintendo/Game Freak adquiriendo Pokémon X/Y
+gui.starter.trademark3=Apoya a Nintendo/Game Freak adquiriendo Pokémon Sol/Luna
 gui.starter.trademark4=¡¡Bienvenido al mundo de Pixelmon!! ¡Gracias por instalar el mod!
-gui.starter.trademark5=¡Ahora, por favor escoge tu Pokémon inicial!
+gui.starter.trademark5=¡Ahora, por favor elige tu Pokémon inicial!
 gui.starter.commingsoon=Próximamente...
 gui.starter.disabled=No permitido
 
@@ -6607,7 +6607,8 @@ pixelmon.config.elevatorSearchRange.comment=Distancia máxima de busqueda (de ar
 
 pixelmon.config.starterLevel.comment=Nivel (Mín.=5, Máx.=100).
 pixelmon.config.starterShiny.comment=Iniciales Shiny.
-pixelmon.config.starterList.comment=Lista de Iniciales (Máx. de 15).
+pixelmon.config.starterList.comment=Lista de Iniciales (Máx. de 18).
+
 // Deprecated
 item.PC.name=PC
 item.Ranch Block.name=Poké-Rancho
