@@ -321,6 +321,7 @@ item.shiny_stone_shard.name=Shiny Stone Shard
 item.ever_stone.name=Everstone
 item.lucky_egg.name=Lucky Egg
 item.exp_share.name=Exp. Share
+item.exp_all.name=Exp. All
 item.choice_band.name=Choice Band
 item.choice_scarf.name=Choice Scarf
 item.choice_specs.name=Choice Specs
@@ -3876,6 +3877,9 @@ pixelmon.blocks.gymsign.ownership=This Gym sign does not belong to you.
 
 pixelmon.orb.amountfull=You need %d more KOs for the orb to be full!
 pixelmon.orb.isfull=Your orb is full!
+
+pixelmon.items.expallon=The Exp. All is now on.
+pixelmon.items.expalloff=The Exp. All is now off.
 
 //Achievements
 achievement.ItemFinderChieve=Hidden PokéLoot Hunter!
