@@ -5762,8 +5762,8 @@ pixelmon.config.spawnPokeMarts=Spawn shopkeepers
 pixelmon.config.increaseVillageSpawnRate=Increase village spawn rate
 pixelmon.config.useRecentLevelMoves=Spawn with recent moves
 pixelmon.config.spawnGyms=Spawn Gyms
-pixelmon.config.spawnLevelsByDistance=Spawn Levels By Distance
-pixelmon.config.maxLevelByDistance=Maximum Spawn Level (by distance)
+pixelmon.config.spawnLevelsByDistance=Spawn levels by distance
+pixelmon.config.maxLevelByDistance=Maximum spawn level (by distance)
 pixelmon.config.distancePerLevel=Distance per level
 
 pixelmon.config.Gen1=Generation 1
