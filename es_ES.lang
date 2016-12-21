@@ -343,6 +343,7 @@ item.shiny_stone_shard.name=Fragmento de Piedra Día
 item.ever_stone.name=Piedra Eterna
 item.lucky_egg.name=Huevo Suerte
 item.exp_share.name=Repartir Exp.
+item.exp_all.name=Compartir Exp.
 item.choice_band.name=Cinta Elegida
 item.choice_scarf.name=Pañuelo Elegido
 item.choice_specs.name=Gafas Elegidas
@@ -4454,6 +4455,9 @@ pixelmon.blocks.gymsign.ownership=Este cartel de Gimnasio no te pertenece.
 
 pixelmon.orb.amountfull=¡Necesitas ganar %d combates más para llenar el orbe!
 pixelmon.orb.isfull=¡El Orbe está lleno!
+
+pixelmon.items.expallon=El Compartir Exp. está activado.
+pixelmon.items.expalloff=El Compartir Exp. está desactivado.
 
 //Achievements
 achievement.ItemFinderChieve=¡Cazador de PokeBotínes!
