@@ -4266,6 +4266,7 @@ gui.trainereditor.pokemoneditor=Trainer Editor - Pokémon Editor
 gui.trainereditor.name=Name
 gui.trainereditor.shiny=Shiny
 gui.trainereditor.normal=Normal
+gui.trainereditor.special=Special
 gui.trainereditor.male=Male
 gui.trainereditor.female=Female
 gui.trainereditor.changepokemon=Change Pokémon
