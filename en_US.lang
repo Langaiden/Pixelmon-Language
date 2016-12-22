@@ -864,6 +864,11 @@ item.record.otwoa.desc=On the Wings of Adventure
 item.record.pw.desc=Pixelmon Waltz
 item.record.tef.desc=The Enchanted Forest
 item.record.tfl.desc=The Frozen Land
+item.record.dawn.desc=Dawn
+item.record.dusk.desc=Dusk
+item.record.mn.desc=Midnight
+item.record.cs.desc=Clear Skies
+item.record.tgp.desc=The Great Plains
 
 tile.braille_block.A.name=Braille Block A
 tile.braille_block.B.name=Braille Block B
