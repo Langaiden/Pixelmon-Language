@@ -5764,17 +5764,18 @@ pixelmon.config.spawnMode=PokéLoot spawn mode
 pixelmon.config.timedLootReuseSeconds=Reuse cooldown
 
 pixelmon.config.scaleGrassBattles=Scale grass battle levels to player
-pixelmon.config.blocksHaveLegendaries=Allow Legendaries from Blocks
+pixelmon.config.blocksHaveLegendaries=Allow Legendaries from blocks
 pixelmon.config.pokeGiftReusable=Poké Gifts reusable
 pixelmon.config.pokeGiftHaveEvents=Enable Poké Gift events
 pixelmon.config.eventPokeGiftLoad=Enable event Poké Gift spawning
 pixelmon.config.eventHasLegendaries=Allow Legendaries in event Poké Gifts
-pixelmon.config.eventHasShinies=Enable event Poke Gift Shinies
+pixelmon.config.eventHasShinies=Enable event Poké Gift Shinies
 pixelmon.config.eventMaxPokemon=Event Poké Gift maximum Pokémon
 pixelmon.config.eventShinyRate=Event Poké Gift Shiny rate (1/x)
 pixelmon.config.eventTime=Event Poké Gift custom date (D/M)
 pixelmon.config.eventCoords=Event Poké Gift spawning coordinates
 
+pixelmon.config.renderDistanceWeight=Render distance weight
 pixelmon.config.lowResTextures=Potato mode
 pixelmon.config.useSmoothShadingOnPokeBalls=Smooth shading on Poké Balls
 pixelmon.config.useSmoothShadingOnPokemon=Smooth shading on Pokémon
@@ -5838,7 +5839,7 @@ pixelmon.config.allowPokemonEditors=Allow Pokemon editors
 pixelmon.config.dataSaveOnWorldSave=Data save on world save
 pixelmon.config.maxLevel=Maximum level
 
-pixelmon.config.enableAFKHandler=AFK Handler enabled
+pixelmon.config.enableAFKHandler=AFK handler enabled
 pixelmon.config.afkActivateSeconds=AFK activate seconds
 pixelmon.config.afkHandlerTurnSeconds=AFK turn seconds
 
